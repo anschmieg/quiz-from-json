@@ -3,3 +3,4 @@ __cache__
 node_modules/
 .env
 dist/
+_site/

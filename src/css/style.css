@@ -6,6 +6,7 @@
     --correct-color: #28a745;
     --incorrect-color: #dc3545;
     --border-color: #e0e0e0;
+    --meta-color: #6c757d;
     --shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 body {
@@ -60,9 +61,23 @@ body {
 }
 .option-label:hover { border-color: var(--primary-color); background: #f8f9fa; }
 .option-label input { margin-right: 0.5rem; }
+
+/* Feedback and Metadata Styles */
 .feedback { margin-top: 1rem; font-weight: bold; }
+.feedback p { margin: 0; }
 .feedback.correct { color: var(--correct-color); }
 .feedback.incorrect { color: var(--incorrect-color); }
+.question-meta {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: var(--meta-color);
+    display: flex;
+    justify-content: space-between;
+}
+
 .action-button {
     display: block;
     width: 100%;

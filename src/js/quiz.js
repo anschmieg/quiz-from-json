@@ -15,14 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const storedStats = localStorage.getItem(STATS_STORAGE_KEY);
         if (storedStats) {
             userStats = JSON.parse(storedStats);
-        } else {
-            // Initialize stats for all questions if not present
-            allQuestions.forEach(q => {
-                if (!userStats[q.id]) {
-                    userStats[q.id] = { correct: 0, incorrect: 0, lastResult: null };
-                }
-            });
         }
+        // Ensure stats object is populated for all questions from the loaded JSON
+        allQuestions.forEach(q => {
+            if (!userStats[q.id]) {
+                userStats[q.id] = { correct: 0, incorrect: 0, lastResult: null };
+            }
+        });
     }
 
     function saveStats() {
@@ -31,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderStats() {
         const totalQuestions = allQuestions.length;
+        if (totalQuestions === 0) return;
         const answeredQuestions = Object.values(userStats).filter(s => s.correct > 0 || s.incorrect > 0).length;
         const masteredQuestions = Object.values(userStats).filter(s => s.correct > s.incorrect && s.correct > 1).length;
         
@@ -45,9 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let highestPriority = -1;
         let priorityCandidates = [];
 
+        if (allQuestions.length === 0) return null;
+
         allQuestions.forEach(q => {
             const stats = userStats[q.id];
-            // Simple priority score: prioritize wrong answers, then unanswered, then correct answers.
             const priority = (stats.incorrect + 1) / (stats.correct + 1);
 
             if (priority > highestPriority) {
@@ -57,17 +58,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 priorityCandidates.push(q);
             }
         });
-
-        // If all have a priority of 1 (e.g., all answered correctly once), and we've seen them all, we are done
-        const allAnswered = allQuestions.every(q => userStats[q.id].correct > 0 || userStats[q.id].incorrect > 0);
-        if (highestPriority <= 1 && allAnswered) {
-             const allMastered = allQuestions.every(q => userStats[q.id].correct > 1 && userStats[q.id].incorrect === 0);
-             if(allMastered){
-                return null; // All questions considered mastered
-             }
+        
+        const allMastered = allQuestions.every(q => userStats[q.id].correct > 1 && userStats[q.id].correct > userStats[q.id].incorrect);
+        if (allMastered) {
+           return null; // All questions considered mastered
         }
 
-        // Randomly pick from the highest priority candidates
         return priorityCandidates[Math.floor(Math.random() * priorityCandidates.length)];
     }
 
@@ -81,12 +77,14 @@ document.addEventListener('DOMContentLoaded', () => {
         flashcardContainer.style.display = 'block';
         completeMessage.style.display = 'none';
 
-        const optionsHtml = q.options.map(option => `
+        const optionsHtml = q.options.map(option => {
+            const cleanOption = option.replace(/"/g, '&quot;'); // Sanitize quotes
+            return `
             <label class="option-label">
-                <input type="radio" name="answer" value="${option}">
+                <input type="radio" name="answer" value="${cleanOption}">
                 <span>${option}</span>
             </label>
-        `).join('');
+        `}).join('');
 
         flashcardContainer.innerHTML = `
             <p class="question-text">${q.questionText}</p>
@@ -110,23 +108,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const isCorrect = selectedOption.value === q.correctAnswer;
         const stats = userStats[q.id];
+
+        // **THIS IS THE CHANGE**: Create a metadata div to show after answering.
+        const metadataHtml = `
+            <div class="question-meta">
+                <span><strong>Topic:</strong> ${q.topic || 'General'}</span>
+                <span><strong>Difficulty:</strong> ${q.difficulty || 'Normal'}</span>
+            </div>
+        `;
         
         if (isCorrect) {
             stats.correct++;
             stats.lastResult = 'correct';
-            feedbackArea.innerHTML = '✅ Correct!';
+            feedbackArea.innerHTML = `<p>✅ Correct!</p>${metadataHtml}`;
             feedbackArea.className = 'feedback correct';
         } else {
             stats.incorrect++;
             stats.lastResult = 'incorrect';
-            feedbackArea.innerHTML = `❌ Incorrect. The answer is: <strong>${q.correctAnswer}</strong>`;
+            feedbackArea.innerHTML = `<p>❌ Incorrect. The answer is: <strong>${q.correctAnswer}</strong></p>${metadataHtml}`;
             feedbackArea.className = 'feedback incorrect';
         }
         
         saveStats();
         renderStats();
 
-        // Change button to "Next Question"
         checkButton.textContent = 'Next Question';
         checkButton.onclick = () => renderQuestion(selectNextQuestion());
     }
@@ -136,8 +141,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch('/_data/questions.json');
             if (!response.ok) throw new Error('Network response was not ok.');
             
+            // The user's JSON has a root key "questions", not "items"
             const data = await response.json();
-            allQuestions = data.items;
+            allQuestions = data.questions || data.items || [];
             quizTitle.textContent = data.title || 'Learning Quiz';
             
             loadStats();
@@ -147,8 +153,8 @@ document.addEventListener('DOMContentLoaded', () => {
             resetButton.addEventListener('click', () => {
                 if (confirm('Are you sure you want to reset all your progress?')) {
                     localStorage.removeItem(STATS_STORAGE_KEY);
-                    userStats = {}; // Clear in-memory stats
-                    loadStats(); // Re-initialize
+                    userStats = {};
+                    loadStats();
                     renderStats();
                     renderQuestion(selectNextQuestion());
                 }
