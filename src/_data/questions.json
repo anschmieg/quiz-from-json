@@ -1,9 +1,9 @@
 {
-  "title": "Empirical Economics Quiz – Tutorial Enhanced",
+  "title": "Empirical Economics Quiz",
   "questions": [
     {
-      "id": "mcq_001",
-      "questionText": "A forecaster uses past inflation and interest rates to predict next quarter’s inflation and tunes the model to minimize out-of-sample error. What is the primary goal?",
+      "id": "mcq_006",
+      "questionText": "Log–level model: $\\log(y) = \\alpha + \\beta x$ with \\beta = 0.08$. Best interpretation?",
       "options": [
         "Causal inference",
         "Prediction",
@@ -31,7 +31,7 @@
     },
     {
       "id": "mcq_003",
-      "questionText": "In the OLS model $y = b_0 + b_1 x + u$, which sample property holds by the first-order conditions?",
+      "questionText": "In the OLS model $y = \\beta_0 + \\beta_1 x + u$, which sample property holds by the first-order conditions?",
       "options": [
         "Residuals are uncorrelated with $x$",
         "Residuals are normally distributed",
@@ -73,7 +73,7 @@
     },
     {
       "id": "mcq_006",
-      "questionText": "Log–level model: $\\log(y) = a + b x$ with $b = 0.08$. Best interpretation?",
+      "questionText": "Log–level model: $\\log(y) = a + \\beta x$ with $\\beta = 0.08$. Best interpretation?",
       "options": [
         "A one-unit increase in $x$ changes $y$ by 0.08 units",
         "A one-unit increase in $x$ is associated with an 8% increase in $y$",
@@ -83,7 +83,7 @@
       "correctAnswer": "A one-unit increase in $x$ is associated with an 8% increase in $y$",
       "difficulty": "medium",
       "topic": "Lecture 1 – Functional Forms",
-      "explanation": "In log–level, $\\partial \\ln y/\\partial x=b$. A one-unit increase in $x$ implies approximately $100\\times b=8\\%$ increase in $y$."
+      "explanation": "In log–level, $\\partial \\ln y/\\partial x=\\beta$. A one-unit increase in $x$ implies approximately $100\\times \\beta=8\\%$ increase in $y$."
     },
     {
       "id": "mcq_007",
@@ -129,7 +129,7 @@
     },
     {
       "id": "mcq_010",
-      "questionText": "In $y = b_0 + b_1 x_1 + b_2 x_2 + u$, $b_1$ measures:",
+      "questionText": "In $y = \\beta_0 + \\beta_1 x_1 + \\beta_2 x_2 + u$, $\\beta_1$ measures:",
       "options": [
         "Total effect of $x_1$ ignoring $x_2$",
         "Correlation of $x_1$ and $y$",
@@ -139,7 +139,7 @@
       "correctAnswer": "Effect of $x_1$ on $y$ holding $x_2$ constant",
       "difficulty": "easy",
       "topic": "Lecture 2 – Interpretation",
-      "explanation": "$b_1$ is the ceteris paribus (partial) effect: $\\partial y/\\partial x_1$ given $x_2$."
+      "explanation": "$\\beta_1$ is the ceteris paribus (partial) effect: $\\partial y/\\partial x_1$ given $x_2$."
     },
     {
       "id": "mcq_011",
@@ -171,7 +171,7 @@
     },
     {
       "id": "mcq_013",
-      "questionText": "Wage = $b_0 + b_1\\,\\text{Female} + b_2\\,\\text{Educ} + b_3(\\text{Female}\\times\\text{Educ}) + u$. What does $b_3$ measure?",
+      "questionText": "Consider the regression: $\\text{Wage} = \\beta_0 + \\beta_1 \\cdot \\text{Female} + \\beta_2 \\cdot \\text{Educ} + \\beta_3 \\cdot (\\text{Female} \\times \\text{Educ}) + u$. What does $\\beta_3$ measure?",
       "options": [
         "Wage gap at zero education",
         "Return to education for females",
@@ -181,7 +181,7 @@
       "correctAnswer": "Difference in returns to education between females and males",
       "difficulty": "medium",
       "topic": "Lecture 2 – Interactions and Dummies",
-      "explanation": "$b_3$ is the interaction slope difference: $\\partial\\text{Wage}/\\partial\\text{Educ}$ for females minus that for males."
+      "explanation": "$\\beta_3$ is the interaction slope difference: $\\partial\\text{Wage}/\\partial\\text{Educ}$ for females minus that for males."
     },
     {
       "id": "mcq_014",
@@ -237,7 +237,7 @@
       "correctAnswer": "Test for a unit root",
       "difficulty": "medium",
       "topic": "Lecture 3 – Unit Root Tests",
-      "explanation": "ADF tests $H_0:$ unit root via $\\Delta y_t=\\alpha+\\beta t+\\gamma y_{t-1}+\\sum_{i=1}^p\\delta_i\\Delta y_{t-i}+\\varepsilon_t$; reject if $\\hat\\gamma$ is sufficiently negative."
+      "explanation": "ADF tests $H_0:$ unit root via $\\Delta y_t=\\alpha+\\beta t+\\phi y_{t-1}+\\sum_{i=1}^p\\delta_i\\Delta y_{t-i}+\\varepsilon_t$; reject if $\\hat\\phi$ is sufficiently negative."
     },
     {
       "id": "mcq_018",
@@ -255,7 +255,7 @@
     },
     {
       "id": "mcq_019",
-      "questionText": "In AR(1): $Y_t = a + r Y_{t-1} + u_t$, $|r|=1$ implies:",
+      "questionText": "In AR(1): $Y_t = \\alpha + \\phi Y_{t-1} + u_t$, $|\\phi|=1$ implies:",
       "options": [
         "Stationary mean reversion",
         "Explosive series",
@@ -265,7 +265,7 @@
       "correctAnswer": "Random walk (non-stationary)",
       "difficulty": "medium",
       "topic": "Lecture 3 – AR(1)",
-      "explanation": "When $|r|=1$, the process has a unit root; shocks are permanent and variance increases with $t$."
+      "explanation": "When $|\\phi|=1$, the process has a unit root; shocks are permanent and variance increases with $t$."
     },
     {
       "id": "mcq_020",
@@ -493,7 +493,7 @@
     },
     {
       "id": "mcq_104",
-      "questionText": "Level–log model: $y = a + b\\,\\log(x)$. If $b = 2.5$, a 1% increase in $x$ is associated with:",
+      "questionText": "Level–log model: $y = a + \\beta\\,\\log(x)$. If $\\beta = 2.5$, a 1% increase in $x$ is associated with:",
       "options": [
         "A 2.5% increase in $y$",
         "A 0.025 increase in $y$",
@@ -503,7 +503,7 @@
       "correctAnswer": "A 0.025 increase in $y$",
       "difficulty": "medium",
       "topic": "Lecture 1 – Functional Forms",
-      "explanation": "Level–log: $\\partial y/\\partial\\ln x=b$. A 1% change in $x$ is $\\Delta\\ln x\\approx 0.01$, so $\\Delta y\\approx b\\times0.01=0.025$."
+      "explanation": "Level–log: $\\partial y/\\partial\\ln x=\\beta$. A 1% change in $x$ is $\\Delta\\ln x\\approx 0.01$, so $\\Delta y\\approx \\beta\\times0.01=0.025$."
     },
     {
       "id": "mcq_105",
@@ -563,17 +563,17 @@
     },
     {
       "id": "mcq_109",
-      "questionText": "In Wage model with Female, Educ, and Female×Educ, what is the return to education for females?",
+      "questionText": "Consider the regression model: $\\text{Wage} = \\beta_0 + \\beta_1 \\cdot \\text{Female} + \\beta_2 \\cdot \\text{Educ} + \\beta_3 \\cdot (\\text{Female} \\times \\text{Educ}) + u$. What is the return to education for females?",
       "options": [
-        "$b_2$",
-        "$b_2 + b_3$",
-        "$b_1 + b_2$",
-        "$b_0 + b_2 + b_3$"
+        "$\\beta_2$",
+        "$\\beta_2 + \\beta_3$",
+        "$\\beta_1 + \\beta_2$",
+        "$\\beta_0 + \\beta_2 + \\beta_3$"
       ],
-      "correctAnswer": "$b_2 + b_3$",
+      "correctAnswer": "$\\beta_2 + \\beta_3$",
       "difficulty": "medium",
       "topic": "Lecture 2 – Interactions",
-      "explanation": "Female group’s slope on Educ combines the main effect $b_2$ and the interaction $b_3$."
+      "explanation": "For females ($\\text{Female}=1$), the slope on Educ is $\\beta_2 + \\beta_3$."
     },
     {
       "id": "mcq_110",
@@ -647,7 +647,7 @@
     },
     {
       "id": "mcq_115",
-      "questionText": "AR(1): $y_t = c + \\phi y_{t-1} + u_t$, with $|\\phi|<1$. The long-run mean equals:",
+      "questionText": "AR(1): $y_t = \\alpha + \\phi y_{t-1} + u_t$, with $|\\phi|<1$. The long-run mean equals:",
       "options": [
         "0",
         "c",
@@ -657,7 +657,7 @@
       "correctAnswer": "$c/(1-\\phi)$",
       "difficulty": "medium",
       "topic": "Lecture 3 – AR(1) Mean",
-      "explanation": "Steady state $\\mu$ solves $\\mu=c+\\phi\\mu \\Rightarrow \\mu=c/(1-\\phi)$."
+      "explanation": "Steady state $\\mu$ solves $\\mu=\\alpha+\\phi\\mu \\Rightarrow \\mu=\\alpha/(1-\\phi)$."
     },
     {
       "id": "mcq_116",
