@@ -60,10 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function selectNextQuestion() {
         if (!allQuestions || allQuestions.length === 0) return null;
 
-        // Check if all questions have been mastered
-        const allMastered = allQuestions.every(q => (userStats[q.id]?.correct || 0) > (userStats[q.id]?.incorrect || 0));
-        if (allMastered && allQuestions.length > 0) {
-           return null;
+        const allAnswered = allQuestions.every(q => (userStats[q.id]?.correct || 0) > 0 || (userStats[q.id]?.incorrect || 0) > 0);
+        if (allAnswered) {
+           const allMastered = allQuestions.every(q => (userStats[q.id]?.correct || 0) > (userStats[q.id]?.incorrect || 0));
+           if(allMastered) return null;
         }
 
         let highestPriority = -Infinity;
@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         allQuestions.forEach(q => {
             const stats = userStats[q.id] || { correct: 0, incorrect: 0 };
-            // Simple priority: incorrect answers are high priority.
             const priority = (stats.incorrect + 1) / (stats.correct + 1);
 
             if (priority > highestPriority) {
@@ -138,12 +137,10 @@ document.addEventListener('DOMContentLoaded', () => {
             feedbackHtml = `<p class="feedback-text incorrect">❌ Incorrect. The correct answer is: <strong>${q.correctAnswer}</strong></p>`;
         }
 
-        // **NEW**: Add the explanation if it exists
         if (q.explanation) {
             feedbackHtml += `<div class="explanation">${q.explanation}</div>`;
         }
         
-        // **NEW**: Display metadata after answering
         feedbackHtml += `
             <div class="question-meta">
                 <span><strong>Topic:</strong> ${q.topic || 'General'}</span>
@@ -152,12 +149,13 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         feedbackArea.innerHTML = feedbackHtml;
-        renderMath(feedbackArea); // Render math in the new feedback content
+        // *** THIS IS THE FIX ***
+        // Re-run the math renderer on the newly added content in the feedback area.
+        renderMath(feedbackArea);
 
         saveStats();
         renderStats();
 
-        // Disable options after answering
         document.querySelectorAll('input[name="answer"]').forEach(input => input.disabled = true);
 
         checkButton.textContent = 'Next Question';
@@ -196,3 +194,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     initializeQuiz();
 });
+

@@ -1010,148 +1010,144 @@
       "explanation": "With small $T$, within-OLS on $y_{i,t-1}$ is biased (Nickell, 1981). Arellano–Bond type GMM or bias corrections are typical remedies."
     },
     {
-      "questions": [
-        {
-          "id": "mcq_136",
-          "questionText": "Prediction intervals vs confidence intervals: which statement is correct?",
-          "options": [
-            "They are identical in regression",
-            "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
-            "Confidence intervals are wider because they include future shock variance",
-            "Neither involves the error variance"
-          ],
-          "correctAnswer": "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
-          "difficulty": "medium",
-          "topic": "Tutorial – Forecast Uncertainty",
-          "explanation": "A confidence interval estimates uncertainty in the conditional mean $E[y|X]$, while a prediction interval also includes the variance of future shocks $\\operatorname{Var}(\\varepsilon_{t+h})$, making it wider."
-        },
-        {
-          "id": "mcq_137",
-          "questionText": "Seasonality handling: which approach is most appropriate in quarterly data with stable seasonal patterns?",
-          "options": [
-            "Add quarterly dummies (Q1–Q4) to the regression",
-            "Always difference the series 4 times",
-            "Only include a linear trend",
-            "Use Breusch–Pagan test"
-          ],
-          "correctAnswer": "Add quarterly dummies (Q1–Q4) to the regression",
-          "difficulty": "easy",
-          "topic": "Tutorial – Seasonality",
-          "explanation": "Seasonal dummies model deterministic seasonality effectively when patterns are stable across years. Seasonal differencing is needed only for stochastic seasonality."
-        },
-        {
-          "id": "mcq_138",
-          "questionText": "Durbin–Watson (DW) vs Breusch–Godfrey (BG): why is BG generally preferred in multiple regression?",
-          "options": [
-            "DW handles AR(p) while BG only AR(1)",
-            "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
-            "DW is valid with lagged dependent variables",
-            "They are identical"
-          ],
-          "correctAnswer": "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
-          "difficulty": "medium",
-          "topic": "Tutorial – Serial Correlation Tests",
-          "explanation": "DW mainly detects AR(1) and fails when lagged dependent variables appear. BG’s auxiliary regression framework tests AR(p) and keeps the original regressors, providing valid inference."
-        },
-        {
-          "id": "mcq_139",
-          "questionText": "Time-invariant variables in FE: how can you estimate their effects?",
-          "options": [
-            "You cannot under any circumstance",
-            "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
-            "Difference them",
-            "Add more lags"
-          ],
-          "correctAnswer": "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
-          "difficulty": "hard",
-          "topic": "Tutorial – FE Limitations and Workarounds",
-          "explanation": "Pure FE drops time-invariant regressors because they are collinear with unit dummies. Interacting with time or using RE/CRE models uses between variation to identify such effects."
-        },
-        {
-          "id": "mcq_140",
-          "questionText": "Dynamic panels with FE and small $T$: what is the main concern?",
-          "options": [
-            "Heteroskedasticity only",
-            "Nickell bias in the coefficient on lagged $y$",
-            "Perfect multicollinearity",
-            "Unit roots in $x$"
-          ],
-          "correctAnswer": "Nickell bias in the coefficient on lagged $y$",
-          "difficulty": "hard",
-          "topic": "Tutorial – Dynamic Panels",
-          "explanation": "With small $T$, within-OLS on lagged dependent variables causes correlation between transformed errors and regressors, creating Nickell bias. GMM estimators (Arellano–Bond) correct for this."
-        },
-        {
-          "id": "mcq_141",
-          "questionText": "In panel data, which test compares Fixed Effects (FE) and Random Effects (RE) consistency assumptions?",
-          "options": [
-            "Breusch–Pagan LM test",
-            "Hausman test",
-            "F-test for individual effects",
-            "Wald test"
-          ],
-          "correctAnswer": "Hausman test",
-          "difficulty": "medium",
-          "topic": "Tutorial – FE vs RE Testing",
-          "explanation": "The Hausman test checks whether $E(u_i|X_i)=0$. If violated, RE is inconsistent, and FE is preferred. It compares FE and RE coefficient estimates directly."
-        },
-        {
-          "id": "mcq_142",
-          "questionText": "What is the consequence of serial correlation in panel FE model residuals if ignored?",
-          "options": [
-            "Coefficients become biased",
-            "Standard errors are underestimated and inference becomes invalid",
-            "Within transformation fails",
-            "Fixed effects disappear"
-          ],
-          "correctAnswer": "Standard errors are underestimated and inference becomes invalid",
-          "difficulty": "medium",
-          "topic": "Tutorial – Panel Diagnostics",
-          "explanation": "Serially correlated residuals violate classical assumptions, making conventional SEs too small. Clustered or robust SEs should be used to restore valid inference."
-        },
-        {
-          "id": "mcq_143",
-          "questionText": "When interpreting FE coefficients, what does it mean if an estimated coefficient is based on little within variation?",
-          "options": [
-            "Estimate is unbiased but highly precise",
-            "Estimate is unreliable because of weak within variation for that regressor",
-            "Estimate represents between variation only",
-            "Estimate automatically equals OLS result"
-          ],
-          "correctAnswer": "Estimate is unreliable because of weak within variation for that regressor",
-          "difficulty": "medium",
-          "topic": "Tutorial – FE Interpretation",
-          "explanation": "FE relies solely on within-unit changes. If a regressor barely varies within units, its estimate becomes imprecise (large standard error) and possibly unstable."
-        },
-        {
-          "id": "mcq_144",
-          "questionText": "In a difference-in-differences (DiD) design, the key identifying assumption is:",
-          "options": [
-            "Treatment and control groups have identical average outcomes before treatment",
-            "Trends in outcomes would have been parallel absent treatment",
-            "Random assignment of treatment",
-            "No omitted variables"
-          ],
-          "correctAnswer": "Trends in outcomes would have been parallel absent treatment",
-          "difficulty": "hard",
-          "topic": "Tutorial – Difference-in-Differences",
-          "explanation": "The DiD estimator attributes post–pre differences in treatment vs control groups to the treatment if their counterfactual trends would have been parallel in absence of treatment."
-        },
-        {
-          "id": "mcq_145",
-          "questionText": "In a DiD regression with unit and time fixed effects, the treatment coefficient captures:",
-          "options": [
-            "Raw difference in outcomes between groups",
-            "Average treatment effect on treated (ATT), controlling for time and group effects",
-            "Correlation between treatment and outcome",
-            "Unit-specific time trends"
-          ],
-          "correctAnswer": "Average treatment effect on treated (ATT), controlling for time and group effects",
-          "difficulty": "medium",
-          "topic": "Tutorial – Difference-in-Differences",
-          "explanation": "Including unit and time fixed effects controls for constant differences and common trends. The DiD coefficient on the treatment dummy identifies the ATT under parallel trends."
-        }
-      ]
+      "id": "mcq_136",
+      "questionText": "Prediction intervals vs confidence intervals: which statement is correct?",
+      "options": [
+        "They are identical in regression",
+        "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
+        "Confidence intervals are wider because they include future shock variance",
+        "Neither involves the error variance"
+      ],
+      "correctAnswer": "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
+      "difficulty": "medium",
+      "topic": "Tutorial – Forecast Uncertainty",
+      "explanation": "A confidence interval estimates uncertainty in the conditional mean $E[y|X]$, while a prediction interval also includes the variance of future shocks $\\operatorname{Var}(\\varepsilon_{t+h})$, making it wider."
+    },
+    {
+      "id": "mcq_137",
+      "questionText": "Seasonality handling: which approach is most appropriate in quarterly data with stable seasonal patterns?",
+      "options": [
+        "Add quarterly dummies (Q1–Q4) to the regression",
+        "Always difference the series 4 times",
+        "Only include a linear trend",
+        "Use Breusch–Pagan test"
+      ],
+      "correctAnswer": "Add quarterly dummies (Q1–Q4) to the regression",
+      "difficulty": "easy",
+      "topic": "Tutorial – Seasonality",
+      "explanation": "Seasonal dummies model deterministic seasonality effectively when patterns are stable across years. Seasonal differencing is needed only for stochastic seasonality."
+    },
+    {
+      "id": "mcq_138",
+      "questionText": "Durbin–Watson (DW) vs Breusch–Godfrey (BG): why is BG generally preferred in multiple regression?",
+      "options": [
+        "DW handles AR(p) while BG only AR(1)",
+        "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
+        "DW is valid with lagged dependent variables",
+        "They are identical"
+      ],
+      "correctAnswer": "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
+      "difficulty": "medium",
+      "topic": "Tutorial – Serial Correlation Tests",
+      "explanation": "DW mainly detects AR(1) and fails when lagged dependent variables appear. BG’s auxiliary regression framework tests AR(p) and keeps the original regressors, providing valid inference."
+    },
+    {
+      "id": "mcq_139",
+      "questionText": "Time-invariant variables in FE: how can you estimate their effects?",
+      "options": [
+        "You cannot under any circumstance",
+        "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
+        "Difference them",
+        "Add more lags"
+      ],
+      "correctAnswer": "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
+      "difficulty": "hard",
+      "topic": "Tutorial – FE Limitations and Workarounds",
+      "explanation": "Pure FE drops time-invariant regressors because they are collinear with unit dummies. Interacting with time or using RE/CRE models uses between variation to identify such effects."
+    },
+    {
+      "id": "mcq_140",
+      "questionText": "Dynamic panels with FE and small $T$: what is the main concern?",
+      "options": [
+        "Heteroskedasticity only",
+        "Nickell bias in the coefficient on lagged $y$",
+        "Perfect multicollinearity",
+        "Unit roots in $x$"
+      ],
+      "correctAnswer": "Nickell bias in the coefficient on lagged $y$",
+      "difficulty": "hard",
+      "topic": "Tutorial – Dynamic Panels",
+      "explanation": "With small $T$, within-OLS on lagged dependent variables causes correlation between transformed errors and regressors, creating Nickell bias. GMM estimators (Arellano–Bond) correct for this."
+    },
+    {
+      "id": "mcq_141",
+      "questionText": "In panel data, which test compares Fixed Effects (FE) and Random Effects (RE) consistency assumptions?",
+      "options": [
+        "Breusch–Pagan LM test",
+        "Hausman test",
+        "F-test for individual effects",
+        "Wald test"
+      ],
+      "correctAnswer": "Hausman test",
+      "difficulty": "medium",
+      "topic": "Tutorial – FE vs RE Testing",
+      "explanation": "The Hausman test checks whether $E(u_i|X_i)=0$. If violated, RE is inconsistent, and FE is preferred. It compares FE and RE coefficient estimates directly."
+    },
+    {
+      "id": "mcq_142",
+      "questionText": "What is the consequence of serial correlation in panel FE model residuals if ignored?",
+      "options": [
+        "Coefficients become biased",
+        "Standard errors are underestimated and inference becomes invalid",
+        "Within transformation fails",
+        "Fixed effects disappear"
+      ],
+      "correctAnswer": "Standard errors are underestimated and inference becomes invalid",
+      "difficulty": "medium",
+      "topic": "Tutorial – Panel Diagnostics",
+      "explanation": "Serially correlated residuals violate classical assumptions, making conventional SEs too small. Clustered or robust SEs should be used to restore valid inference."
+    },
+    {
+      "id": "mcq_143",
+      "questionText": "When interpreting FE coefficients, what does it mean if an estimated coefficient is based on little within variation?",
+      "options": [
+        "Estimate is unbiased but highly precise",
+        "Estimate is unreliable because of weak within variation for that regressor",
+        "Estimate represents between variation only",
+        "Estimate automatically equals OLS result"
+      ],
+      "correctAnswer": "Estimate is unreliable because of weak within variation for that regressor",
+      "difficulty": "medium",
+      "topic": "Tutorial – FE Interpretation",
+      "explanation": "FE relies solely on within-unit changes. If a regressor barely varies within units, its estimate becomes imprecise (large standard error) and possibly unstable."
+    },
+    {
+      "id": "mcq_144",
+      "questionText": "In a difference-in-differences (DiD) design, the key identifying assumption is:",
+      "options": [
+        "Treatment and control groups have identical average outcomes before treatment",
+        "Trends in outcomes would have been parallel absent treatment",
+        "Random assignment of treatment",
+        "No omitted variables"
+      ],
+      "correctAnswer": "Trends in outcomes would have been parallel absent treatment",
+      "difficulty": "hard",
+      "topic": "Tutorial – Difference-in-Differences",
+      "explanation": "The DiD estimator attributes post–pre differences in treatment vs control groups to the treatment if their counterfactual trends would have been parallel in absence of treatment."
+    },
+    {
+      "id": "mcq_145",
+      "questionText": "In a DiD regression with unit and time fixed effects, the treatment coefficient captures:",
+      "options": [
+        "Raw difference in outcomes between groups",
+        "Average treatment effect on treated (ATT), controlling for time and group effects",
+        "Correlation between treatment and outcome",
+        "Unit-specific time trends"
+      ],
+      "correctAnswer": "Average treatment effect on treated (ATT), controlling for time and group effects",
+      "difficulty": "medium",
+      "topic": "Tutorial – Difference-in-Differences",
+      "explanation": "Including unit and time fixed effects controls for constant differences and common trends. The DiD coefficient on the treatment dummy identifies the ATT under parallel trends."
     }
   ]
 }
