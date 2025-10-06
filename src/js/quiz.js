@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Ensure KaTeX is rendered after dynamic content is added
+    const renderMath = (element) => {
+        if (window.renderMathInElement) {
+            window.renderMathInElement(element, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\[', right: '\\]', display: true},
+                    {left: '\\(', right: '\\)', display: false}
+                ]
+            });
+        }
+    };
+
     const STATS_STORAGE_KEY = 'quizUserStats';
     let allQuestions = [];
     let userStats = {};
@@ -13,13 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function loadStats() {
         const storedStats = localStorage.getItem(STATS_STORAGE_KEY);
-        if (storedStats) {
-            userStats = JSON.parse(storedStats);
+        try {
+            userStats = storedStats ? JSON.parse(storedStats) : {};
+        } catch (e) {
+            console.error("Failed to parse stats from localStorage", e);
+            userStats = {};
         }
-        // Ensure stats object is populated for all questions from the loaded JSON
         allQuestions.forEach(q => {
             if (!userStats[q.id]) {
-                userStats[q.id] = { correct: 0, incorrect: 0, lastResult: null };
+                userStats[q.id] = { correct: 0, incorrect: 0 };
             }
         });
     }
@@ -29,11 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderStats() {
+        if (!allQuestions || allQuestions.length === 0) return;
         const totalQuestions = allQuestions.length;
-        if (totalQuestions === 0) return;
         const answeredQuestions = Object.values(userStats).filter(s => s.correct > 0 || s.incorrect > 0).length;
-        const masteredQuestions = Object.values(userStats).filter(s => s.correct > s.incorrect && s.correct > 1).length;
-        
+        const masteredQuestions = Object.values(userStats).filter(s => s.correct > 0 && s.correct > s.incorrect).length;
+
         statsPanel.innerHTML = `
             <p><strong>Total Questions:</strong> ${totalQuestions}</p>
             <p><strong>Answered:</strong> ${answeredQuestions} / ${totalQuestions}</p>
@@ -42,13 +58,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function selectNextQuestion() {
-        let highestPriority = -1;
+        if (!allQuestions || allQuestions.length === 0) return null;
+
+        // Check if all questions have been mastered
+        const allMastered = allQuestions.every(q => (userStats[q.id]?.correct || 0) > (userStats[q.id]?.incorrect || 0));
+        if (allMastered && allQuestions.length > 0) {
+           return null;
+        }
+
+        let highestPriority = -Infinity;
         let priorityCandidates = [];
 
-        if (allQuestions.length === 0) return null;
-
         allQuestions.forEach(q => {
-            const stats = userStats[q.id];
+            const stats = userStats[q.id] || { correct: 0, incorrect: 0 };
+            // Simple priority: incorrect answers are high priority.
             const priority = (stats.incorrect + 1) / (stats.correct + 1);
 
             if (priority > highestPriority) {
@@ -58,11 +81,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 priorityCandidates.push(q);
             }
         });
-        
-        const allMastered = allQuestions.every(q => userStats[q.id].correct > 1 && userStats[q.id].correct > userStats[q.id].incorrect);
-        if (allMastered) {
-           return null; // All questions considered mastered
-        }
 
         return priorityCandidates[Math.floor(Math.random() * priorityCandidates.length)];
     }
@@ -78,59 +96,69 @@ document.addEventListener('DOMContentLoaded', () => {
         completeMessage.style.display = 'none';
 
         const optionsHtml = q.options.map(option => {
-            const cleanOption = option.replace(/"/g, '&quot;'); // Sanitize quotes
+            const cleanOption = option.replace(/"/g, '&quot;');
             return `
             <label class="option-label">
                 <input type="radio" name="answer" value="${cleanOption}">
                 <span>${option}</span>
             </label>
-        `}).join('');
+            `;
+        }).join('');
 
         flashcardContainer.innerHTML = `
             <p class="question-text">${q.questionText}</p>
             <div class="options">${optionsHtml}</div>
-            <div class="feedback" id="feedback-area"></div>
+            <div id="feedback-area"></div>
             <button class="action-button" id="check-answer-btn">Check Answer</button>
         `;
 
+        renderMath(flashcardContainer);
         document.getElementById('check-answer-btn').addEventListener('click', () => checkAnswer(q));
     }
-    
+
     function checkAnswer(q) {
         const selectedOption = document.querySelector('input[name="answer"]:checked');
         const feedbackArea = document.getElementById('feedback-area');
         const checkButton = document.getElementById('check-answer-btn');
 
         if (!selectedOption) {
-            feedbackArea.textContent = "Please select an answer.";
+            feedbackArea.innerHTML = `<p class="feedback-text">Please select an answer.</p>`;
             return;
         }
 
         const isCorrect = selectedOption.value === q.correctAnswer;
         const stats = userStats[q.id];
 
-        // **THIS IS THE CHANGE**: Create a metadata div to show after answering.
-        const metadataHtml = `
+        let feedbackHtml = '';
+        if (isCorrect) {
+            stats.correct++;
+            feedbackHtml = `<p class="feedback-text correct">✅ Correct!</p>`;
+        } else {
+            stats.incorrect++;
+            feedbackHtml = `<p class="feedback-text incorrect">❌ Incorrect. The correct answer is: <strong>${q.correctAnswer}</strong></p>`;
+        }
+
+        // **NEW**: Add the explanation if it exists
+        if (q.explanation) {
+            feedbackHtml += `<div class="explanation">${q.explanation}</div>`;
+        }
+        
+        // **NEW**: Display metadata after answering
+        feedbackHtml += `
             <div class="question-meta">
                 <span><strong>Topic:</strong> ${q.topic || 'General'}</span>
                 <span><strong>Difficulty:</strong> ${q.difficulty || 'Normal'}</span>
             </div>
         `;
-        
-        if (isCorrect) {
-            stats.correct++;
-            stats.lastResult = 'correct';
-            feedbackArea.innerHTML = `<p>✅ Correct!</p>${metadataHtml}`;
-            feedbackArea.className = 'feedback correct';
-        } else {
-            stats.incorrect++;
-            stats.lastResult = 'incorrect';
-            feedbackArea.innerHTML = `<p>❌ Incorrect. The answer is: <strong>${q.correctAnswer}</strong></p>${metadataHtml}`;
-            feedbackArea.className = 'feedback incorrect';
-        }
-        
+
+        feedbackArea.innerHTML = feedbackHtml;
+        renderMath(feedbackArea); // Render math in the new feedback content
+
         saveStats();
         renderStats();
+
+        // Disable options after answering
+        document.querySelectorAll('input[name="answer"]').forEach(input => input.disabled = true);
 
         checkButton.textContent = 'Next Question';
         checkButton.onclick = () => renderQuestion(selectNextQuestion());
@@ -139,11 +167,10 @@ document.addEventListener('DOMContentLoaded', () => {
     async function initializeQuiz() {
         try {
             const response = await fetch('/_data/questions.json');
-            if (!response.ok) throw new Error('Network response was not ok.');
-            
-            // The user's JSON has a root key "questions", not "items"
+            if (!response.ok) throw new Error(`Could not load questions.json (status: ${response.status})`);
             const data = await response.json();
-            allQuestions = data.questions || data.items || [];
+            
+            allQuestions = data.questions || [];
             quizTitle.textContent = data.title || 'Learning Quiz';
             
             loadStats();
@@ -161,8 +188,8 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
         } catch (error) {
-            quizTitle.textContent = "Error";
-            flashcardContainer.innerHTML = `<p>Could not load quiz questions. Please make sure <em>questions.json</em> exists in <em>src/_data/</em> and is correctly formatted.</p><p><em>${error.message}</em></p>`;
+            quizTitle.textContent = "Error Loading Quiz";
+            flashcardContainer.innerHTML = `<p>Could not load quiz questions. Please check that the file <code>/src/_data/questions.json</code> exists and is valid JSON.</p><p style="color: red;"><strong>Details:</strong> ${error.message}</p>`;
             console.error('Quiz initialization failed:', error);
         }
     }

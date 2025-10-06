@@ -11,7 +11,8 @@
       ],
       "correctAnswer": "Prediction",
       "difficulty": "easy",
-      "topic": "Lecture 1 – Prediction vs Causation"
+      "topic": "Lecture 1 – Prediction vs Causation",
+      "explanation": "Prediction prioritizes minimizing forecast error on unseen data; causal inference would focus on identifying an unbiased effect of a treatment under assumptions about $E[u|X]$."
     },
     {
       "id": "mcq_002",
@@ -24,7 +25,8 @@
       ],
       "correctAnswer": "Pooled cross-sections",
       "difficulty": "medium",
-      "topic": "Lecture 1 – Data Types"
+      "topic": "Lecture 1 – Data Types",
+      "explanation": "Two independent cross-sections combined over time form pooled cross-sections. Panel data would track the **same** units across years; time series is one variable over time."
     },
     {
       "id": "mcq_003",
@@ -35,9 +37,10 @@
         "Residual variance is constant",
         "Residuals sum to the mean of $y$"
       ],
-      "correctAnswer": "Residuals are uncorrelated with x",
+      "correctAnswer": "Residuals are uncorrelated with $x$",
       "difficulty": "medium",
-      "topic": "Lecture 1 – OLS Properties"
+      "topic": "Lecture 1 – OLS Properties",
+      "explanation": "The OLS normal equations imply $\\sum \\hat u_i x_i=0$ and $\\sum \\hat u_i=0$ (with an intercept). Normality and homoskedasticity are **not** implied by OLS."
     },
     {
       "id": "mcq_004",
@@ -50,7 +53,8 @@
       ],
       "correctAnswer": "9% of the variation in salary is explained by profits",
       "difficulty": "easy",
-      "topic": "Lecture 1 – Model Fit"
+      "topic": "Lecture 1 – Model Fit",
+      "explanation": "$R^2$ is the fraction of sample variance in $y$ explained by regressors. It says **nothing** about causality or the size of the slope."
     },
     {
       "id": "mcq_005",
@@ -63,7 +67,8 @@
       ],
       "correctAnswer": "1% more AdSpend is associated with 0.45% more sales",
       "difficulty": "easy",
-      "topic": "Lecture 1 – Functional Forms"
+      "topic": "Lecture 1 – Functional Forms",
+      "explanation": "In a log–log model, the slope is an elasticity: $\\partial\\ln y/\\partial\\ln x=0.45$, so a 1% change in $x$ relates to ~0.45% change in $y$."
     },
     {
       "id": "mcq_006",
@@ -74,9 +79,10 @@
         "A 1% increase in $x$ raises $y$ by 0.08%",
         "A one-unit increase in $x$ is associated with a 0.08% increase in $y$"
       ],
-      "correctAnswer": "A one-unit increase in x is associated with an 8% increase in y",
+      "correctAnswer": "A one-unit increase in $x$ is associated with an 8% increase in $y$",
       "difficulty": "medium",
-      "topic": "Lecture 1 – Functional Forms"
+      "topic": "Lecture 1 – Functional Forms",
+      "explanation": "For log–level: $\\partial\\ln y/\\partial x=b\\Rightarrow$ a one-unit rise in $x$ changes $y$ by approximately $100\\times b=8\\%$."
     },
     {
       "id": "mcq_007",
@@ -89,7 +95,8 @@
       ],
       "correctAnswer": "Upward bias",
       "difficulty": "hard",
-      "topic": "Lecture 2 – Omitted Variable Bias"
+      "topic": "Lecture 2 – Omitted Variable Bias",
+      "explanation": "OVB sign is $\\operatorname{sign}(\\beta_Z)\\times\\operatorname{sign}(\\operatorname{Cov}(X,Z))$. Here both are positive $\\Rightarrow$ upward bias on education."
     },
     {
       "id": "mcq_008",
@@ -102,7 +109,8 @@
       ],
       "correctAnswer": "Current occupation if partly determined by education (mediator)",
       "difficulty": "medium",
-      "topic": "Lecture 2 – Good vs Bad Controls"
+      "topic": "Lecture 2 – Good vs Bad Controls",
+      "explanation": "Controlling for a mediator (on the causal path from education to wage) blocks part of the causal effect and biases estimates."
     },
     {
       "id": "mcq_009",
@@ -115,7 +123,8 @@
       ],
       "correctAnswer": "Increase variance of x",
       "difficulty": "medium",
-      "topic": "Lecture 2 – Precision of OLS"
+      "topic": "Lecture 2 – Precision of OLS",
+      "explanation": "$\\operatorname{Var}(\\hat\\beta_1)$ decreases with larger variation in $x$ and larger $n$, but increases with error variance."
     },
     {
       "id": "mcq_010",
@@ -126,9 +135,10 @@
         "Effect of $x_1$ on $y$ holding $x_2$ constant",
         "Average of $y$ when $x_1=1$"
       ],
-      "correctAnswer": "Effect of x1 on y holding x2 constant",
+      "correctAnswer": "Effect of $x_1$ on $y$ holding $x_2$ constant",
       "difficulty": "easy",
-      "topic": "Lecture 2 – Interpretation"
+      "topic": "Lecture 2 – Interpretation",
+      "explanation": "$b_1$ is a ceteris paribus effect: partial derivative $\\partial y/\\partial x_1$ given $x_2$."
     },
     {
       "id": "mcq_011",
@@ -141,20 +151,22 @@
       ],
       "correctAnswer": "F-test",
       "difficulty": "easy",
-      "topic": "Lecture 2 – Hypothesis Testing"
+      "topic": "Lecture 2 – Hypothesis Testing",
+      "explanation": "The F-test handles multiple linear restrictions $H_0: R\\beta=r$. A t-test applies to a single linear restriction."
     },
     {
       "id": "mcq_012",
-      "questionText": "High (not perfect) multicollinearity primarily causes:",
+      "questionText": "Which is a symptom of high (but not perfect) multicollinearity?",
       "options": [
-        "Biased coefficients",
-        "Large standard errors",
+        "Large standard errors and unstable coefficient signs across similar specifications",
+        "Biased OLS coefficients",
         "Lower R^2",
         "Biased intercept only"
       ],
-      "correctAnswer": "Large standard errors",
+      "correctAnswer": "Large standard errors and unstable coefficient signs across similar specifications",
       "difficulty": "medium",
-      "topic": "Lecture 2 – Multicollinearity"
+      "topic": "Lecture 2 – Multicollinearity",
+      "explanation": "Multicollinearity inflates variances of coefficients (unstable estimates). It does not create bias in OLS under exogeneity. Near collinearity inflates $\\operatorname{Var}(\\hat{\\beta})$ and makes signs sensitive; it does not bias OLS if $E[u|X]=0$."
     },
     {
       "id": "mcq_013",
@@ -167,7 +179,8 @@
       ],
       "correctAnswer": "Difference in returns to education between females and males",
       "difficulty": "medium",
-      "topic": "Lecture 2 – Interactions and Dummies"
+      "topic": "Lecture 2 – Interactions and Dummies",
+      "explanation": "$b_3$ is the interaction slope difference: $\\partial\\text{Wage}/\\partial\\text{Educ}$ for females minus that for males."
     },
     {
       "id": "mcq_014",
@@ -180,7 +193,8 @@
       ],
       "correctAnswer": "Penalizes extra regressors and can fall when adding irrelevant variables",
       "difficulty": "medium",
-      "topic": "Lecture 2 – Model Fit"
+      "topic": "Lecture 2 – Model Fit",
+      "explanation": "$R^2_{adj}=1-(1-R^2)\\frac{n-1}{n-k-1}$ can decrease if added regressors do not improve fit enough to offset the penalty."
     },
     {
       "id": "mcq_015",
@@ -193,7 +207,8 @@
       ],
       "correctAnswer": "Penalizes more and selects simpler models",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Model Selection"
+      "topic": "Lecture 3 – Model Selection",
+      "explanation": "BIC penalty is $k\\ln n$ (larger than AIC’s $2k$ for $n\\ge 8$), so it favors more parsimonious models."
     },
     {
       "id": "mcq_016",
@@ -206,7 +221,8 @@
       ],
       "correctAnswer": "Mean, variance, and autocovariance are time-invariant",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Stationarity"
+      "topic": "Lecture 3 – Stationarity",
+      "explanation": "Weak stationarity requires constant $E(Y_t)$, constant $\\operatorname{Var}(Y_t)$, and $\\operatorname{Cov}(Y_t,Y_{t-k})$ depending only on $k$."
     },
     {
       "id": "mcq_017",
@@ -219,7 +235,8 @@
       ],
       "correctAnswer": "Test for a unit root",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Unit Root Tests"
+      "topic": "Lecture 3 – Unit Root Tests",
+      "explanation": "ADF tests $H_0: \\gamma=0$ in $\\Delta y_t=\\alpha+\\beta t+\\gamma y_{t-1}+\\sum\\delta_i\\Delta y_{t-i}+\\varepsilon_t$; $H_0$ implies a unit root."
     },
     {
       "id": "mcq_018",
@@ -232,7 +249,8 @@
       ],
       "correctAnswer": "Spurious regression",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Spurious Regression"
+      "topic": "Lecture 3 – Spurious Regression",
+      "explanation": "Non-stationary series with trends can yield high $R^2$ and significant $t$-stats even without any true relationship."
     },
     {
       "id": "mcq_019",
@@ -245,7 +263,8 @@
       ],
       "correctAnswer": "Random walk (non-stationary)",
       "difficulty": "medium",
-      "topic": "Lecture 3 – AR(1)"
+      "topic": "Lecture 3 – AR(1)",
+      "explanation": "When $|r|=1$, the process has a unit root; shocks are permanent and the variance grows with $t$."
     },
     {
       "id": "mcq_020",
@@ -258,7 +277,8 @@
       ],
       "correctAnswer": "Zero mean, constant variance, no autocorrelation",
       "difficulty": "easy",
-      "topic": "Lecture 3 – White Noise"
+      "topic": "Lecture 3 – White Noise",
+      "explanation": "White noise: $E(u_t)=0$, $\\operatorname{Var}(u_t)=\\sigma^2$, and $\\operatorname{Cov}(u_t,u_s)=0$ for $t\\ne s$."
     },
     {
       "id": "mcq_021",
@@ -271,7 +291,8 @@
       ],
       "correctAnswer": "Statistically significant autocorrelation at those lags",
       "difficulty": "medium",
-      "topic": "Lecture 3 – ACF/Correlogram"
+      "topic": "Lecture 3 – ACF/Correlogram",
+      "explanation": "Bars beyond the confidence bands indicate $\\rho_k\\ne 0$ at those lags; this signals serial dependence."
     },
     {
       "id": "mcq_022",
@@ -284,7 +305,8 @@
       ],
       "correctAnswer": "Serial correlation up to order p in residuals",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Diagnostics"
+      "topic": "Lecture 3 – Diagnostics",
+      "explanation": "BG tests $H_0:$ no AR($p$) in residuals by regressing residuals on original regressors and lagged residuals."
     },
     {
       "id": "mcq_023",
@@ -297,7 +319,8 @@
       ],
       "correctAnswer": "Revert to the process mean",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Forecasting"
+      "topic": "Lecture 3 – Forecasting",
+      "explanation": "Future MA shocks beyond horizon $q$ have zero conditional mean, so forecasts converge to $\\mu$."
     },
     {
       "id": "mcq_024",
@@ -310,7 +333,8 @@
       ],
       "correctAnswer": "Total equilibrium change in Y after a permanent change in X",
       "difficulty": "medium",
-      "topic": "Lecture 3 – ARDL"
+      "topic": "Lecture 3 – ARDL",
+      "explanation": "LRM $=\\frac{\\sum_{j=0}^q \\beta_j}{1-\\sum_{i=1}^p \\phi_i}$ gives the total long-run response after full adjustment."
     },
     {
       "id": "mcq_025",
@@ -323,7 +347,8 @@
       ],
       "correctAnswer": "Smaller average forecast error magnitude",
       "difficulty": "easy",
-      "topic": "Lecture 3 – Forecast Evaluation"
+      "topic": "Lecture 3 – Forecast Evaluation",
+      "explanation": "RMSE $=\\sqrt{\\frac{1}{n}\\sum e_t^2}$; lower RMSE means, on average, smaller squared errors out of sample (not necessarily better in-sample fit)."
     },
     {
       "id": "mcq_026",
@@ -336,7 +361,8 @@
       ],
       "correctAnswer": "Long-run deterministic growth/decline",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Time Trends"
+      "topic": "Lecture 3 – Time Trends",
+      "explanation": "A linear trend $t$ absorbs smooth long-run drift in $y_t$; seasonal dummies handle seasonality; AR terms handle autocorrelation."
     },
     {
       "id": "mcq_027",
@@ -349,7 +375,8 @@
       ],
       "correctAnswer": "Subtracting each individual’s time mean",
       "difficulty": "easy",
-      "topic": "Lecture 4 – Fixed Effects"
+      "topic": "Lecture 4 – Fixed Effects",
+      "explanation": "Within transformation: $y_{it}-\\bar y_i$ and $x_{it}-\\bar x_i$ wipe out individual fixed effects $\\alpha_i$."
     },
     {
       "id": "mcq_028",
@@ -362,7 +389,8 @@
       ],
       "correctAnswer": "A time-invariant characteristic (e.g., gender) for an individual",
       "difficulty": "easy",
-      "topic": "Lecture 4 – FE Limitations"
+      "topic": "Lecture 4 – FE Limitations",
+      "explanation": "Time-invariant regressors are collinear with unit fixed effects and drop out after within transformation."
     },
     {
       "id": "mcq_029",
@@ -375,7 +403,8 @@
       ],
       "correctAnswer": "All past, current, and future idiosyncratic errors",
       "difficulty": "hard",
-      "topic": "Lecture 4 – Exogeneity"
+      "topic": "Lecture 4 – Exogeneity",
+      "explanation": "Strict exogeneity: $E(u_{it}|X_i)=0$ for all $t$, ruling out feedback from past $u$ to future $x$ and from future $u$ to current $x$."
     },
     {
       "id": "mcq_030",
@@ -388,7 +417,8 @@
       ],
       "correctAnswer": "Follow a random walk",
       "difficulty": "hard",
-      "topic": "Lecture 4 – FE vs FD"
+      "topic": "Lecture 4 – FE vs FD",
+      "explanation": "When $u_{it}$ is highly persistent (e.g., AR(1) near 1), first differencing can better remove it; FE is more efficient if $u_{it}$ is white noise."
     },
     {
       "id": "mcq_031",
@@ -401,7 +431,8 @@
       ],
       "correctAnswer": "All individuals observed for all time periods",
       "difficulty": "easy",
-      "topic": "Lecture 4 – Panel Structure"
+      "topic": "Lecture 4 – Panel Structure",
+      "explanation": "Balanced: every unit has $T$ observations. Unbalanced panels allow different $T_i$."
     },
     {
       "id": "mcq_032",
@@ -414,7 +445,8 @@
       ],
       "correctAnswer": "Within-individual changes over time",
       "difficulty": "easy",
-      "topic": "Lecture 4 – Within vs Between"
+      "topic": "Lecture 4 – Within vs Between",
+      "explanation": "FE identifies effects from deviations around each unit’s mean (within variation), not from between-unit differences."
     },
     {
       "id": "mcq_101",
@@ -427,7 +459,8 @@
       ],
       "correctAnswer": "Prediction optimizes forecast accuracy; causal inference seeks unbiased effect estimates",
       "difficulty": "easy",
-      "topic": "Lecture 1 – Prediction vs Causation"
+      "topic": "Lecture 1 – Prediction vs Causation",
+      "explanation": "Prediction targets low out-of-sample loss; causal inference targets identification under assumptions (e.g., conditional independence). Randomization aids causality, not prediction per se."
     },
     {
       "id": "mcq_102",
@@ -440,7 +473,8 @@
       ],
       "correctAnswer": "Monthly CPI for the Netherlands, 2010–2025",
       "difficulty": "easy",
-      "topic": "Lecture 1 – Data Types"
+      "topic": "Lecture 1 – Data Types",
+      "explanation": "Time series: repeated measures on the **same variable** over time. Panels track the same units; pooled cross-sections change units across waves."
     },
     {
       "id": "mcq_103",
@@ -453,7 +487,8 @@
       ],
       "correctAnswer": "Residuals sum to zero",
       "difficulty": "easy",
-      "topic": "Lecture 1 – OLS Properties"
+      "topic": "Lecture 1 – OLS Properties",
+      "explanation": "With an intercept, $\\sum_i \\hat u_i = 0$ exactly. Exogeneity and homoskedasticity are assumptions, not outcomes of OLS."
     },
     {
       "id": "mcq_104",
@@ -466,7 +501,8 @@
       ],
       "correctAnswer": "A 0.025 increase in y",
       "difficulty": "medium",
-      "topic": "Lecture 1 – Functional Forms"
+      "topic": "Lecture 1 – Functional Forms",
+      "explanation": "Level–log: $\\partial y/\\partial\\ln x=b$. A 1% change in $x$ is $\\Delta\\ln x\\approx 0.01$, so $\\Delta y\\approx b\\times0.01=0.025$."
     },
     {
       "id": "mcq_105",
@@ -479,20 +515,8 @@
       ],
       "correctAnswer": "Downward",
       "difficulty": "medium",
-      "topic": "Lecture 2 – OVB Direction"
-    },
-    {
-      "id": "mcq_106",
-      "questionText": "Which is a symptom of high (but not perfect) multicollinearity?",
-      "options": [
-        "Large standard errors and unstable coefficient signs across similar specifications",
-        "Biased OLS coefficients",
-        "Lower RMSE out of sample",
-        "Perfect prediction of y"
-      ],
-      "correctAnswer": "Large standard errors and unstable coefficient signs across similar specifications",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Multicollinearity"
+      "topic": "Lecture 2 – OVB Direction",
+      "explanation": "Bias sign is $\\operatorname{sign}(\\beta_Z)\\times\\operatorname{sign}(\\operatorname{Cov}(X,Z))= (+)\\times(-)= -$ (downward)."
     },
     {
       "id": "mcq_107",
@@ -505,7 +529,8 @@
       ],
       "correctAnswer": "For k=1, the F-test equals the squared t-test",
       "difficulty": "medium",
-      "topic": "Lecture 2 – Hypothesis Testing"
+      "topic": "Lecture 2 – Hypothesis Testing",
+      "explanation": "When $k=1$, $F=t^2$. For $k>1$, use the F-test for joint restrictions."
     },
     {
       "id": "mcq_108",
@@ -518,7 +543,8 @@
       ],
       "correctAnswer": "4",
       "difficulty": "easy",
-      "topic": "Lecture 2 – Dummies"
+      "topic": "Lecture 2 – Dummies",
+      "explanation": "With an intercept, include $G-1$ dummies to avoid perfect multicollinearity (here $5-1=4$)."
     },
     {
       "id": "mcq_109",
@@ -531,7 +557,8 @@
       ],
       "correctAnswer": "b2 + b3",
       "difficulty": "medium",
-      "topic": "Lecture 2 – Interactions"
+      "topic": "Lecture 2 – Interactions",
+      "explanation": "Female group’s slope on education adds the main effect $b_2$ and interaction $b_3$."
     },
     {
       "id": "mcq_110",
@@ -544,20 +571,22 @@
       ],
       "correctAnswer": "Balance fit and complexity for model selection",
       "difficulty": "easy",
-      "topic": "Lecture 3 – Model Selection"
+      "topic": "Lecture 3 – Model Selection",
+      "explanation": "They trade off goodness-of-fit (likelihood) against a complexity penalty to avoid overfitting."
     },
     {
       "id": "mcq_111",
-      "questionText": "Random walk property: for X_t = X_{t-1} + u_t with Var(u_t)=σ², what is Var(X_t) (starting at X_0=0)?",
+      "questionText": "Random walk property: for $X_t = X_{t-1} + u_t$ with $\\operatorname{Var}(u_t)=\\sigma^2$, what is $\\operatorname{Var}(X_t)$ (starting at $X_0=0$)?",
       "options": [
-        "σ²",
-        "tσ²",
-        "σ²/t",
-        "2σ²"
+        "$\\sigma^2$",
+        "$t\\sigma^2$",
+        "$\\sigma^2/t$",
+        "$2\\sigma^2$"
       ],
-      "correctAnswer": "tσ²",
+      "correctAnswer": "$t\\sigma^2$",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Random Walk Variance"
+      "topic": "Lecture 3 – Random Walk Variance",
+      "explanation": "$X_t=\\sum_{i=1}^t u_i$ with independent shocks $\\Rightarrow \\operatorname{Var}(X_t)=\\sum \\sigma^2=t\\sigma^2$."
     },
     {
       "id": "mcq_112",
@@ -570,7 +599,8 @@
       ],
       "correctAnswer": "AR(1) ACF decays geometrically; MA(1) ACF cuts off after lag 1",
       "difficulty": "medium",
-      "topic": "Lecture 3 – ACF Interpretation"
+      "topic": "Lecture 3 – ACF Interpretation",
+      "explanation": "AR processes show gradually decaying ACF; MA($q$) processes have ACF that becomes zero after lag $q$."
     },
     {
       "id": "mcq_113",
@@ -583,7 +613,8 @@
       ],
       "correctAnswer": "Reject unit root; series is stationary around a constant",
       "difficulty": "easy",
-      "topic": "Lecture 3 – ADF Decision"
+      "topic": "Lecture 3 – ADF Decision",
+      "explanation": "p=0.03<0.05: reject $H_0$ of unit root in the constant-only specification $\\Rightarrow$ stationary around a mean."
     },
     {
       "id": "mcq_114",
@@ -596,20 +627,22 @@
       ],
       "correctAnswer": "Original regressors and lagged residuals",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Breusch–Godfrey Procedure"
+      "topic": "Lecture 3 – Breusch–Godfrey Procedure",
+      "explanation": "Regress $\\hat u_t$ on original $X_t$ and $\\hat u_{t-1},\\ldots,\\hat u_{t-p}$; test joint significance of lagged residuals."
     },
     {
       "id": "mcq_115",
-      "questionText": "AR(1): y_t = c + φ y_{t-1} + u_t with |φ|<1. The long-run (unconditional) mean of y_t equals:",
+      "questionText": "AR(1): $y_t = c + \\phi y_{t-1} + u_t$ with $|\\phi|<1$. The long-run (unconditional) mean of $y_t$ equals:",
       "options": [
         "0",
         "c",
-        "c / (1 − φ)",
-        "φ / (1 − c)"
+        "$c / (1 − \\phi)$",
+        "$\\phi / (1 − c)$"
       ],
-      "correctAnswer": "c / (1 − φ)",
+      "correctAnswer": "$c / (1 − \\phi)$",
       "difficulty": "medium",
-      "topic": "Lecture 3 – AR(1) Mean"
+      "topic": "Lecture 3 – AR(1) Mean",
+      "explanation": "At steady state $E(y_t)=E(y_{t-1})=\\mu$: $\\mu=c+\\phi\\mu\\Rightarrow \\mu=\\frac{c}{1-\\phi}$."
     },
     {
       "id": "mcq_116",
@@ -622,7 +655,8 @@
       ],
       "correctAnswer": "Actual values are close to zero",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Forecast Metrics"
+      "topic": "Lecture 3 – Forecast Metrics",
+      "explanation": "MAPE uses $|e_t|/|y_t|$; tiny $|y_t|$ explodes the percentage error, distorting comparisons."
     },
     {
       "id": "mcq_117",
@@ -635,7 +669,8 @@
       ],
       "correctAnswer": "1 − sum of Y-lag coefficients",
       "difficulty": "medium",
-      "topic": "Lecture 3 – ARDL Long-Run"
+      "topic": "Lecture 3 – ARDL Long-Run",
+      "explanation": "LRM $=\\dfrac{\\sum_j \\beta_j}{1-\\sum_i \\phi_i}$; denominator captures persistence from lagged $y$."
     },
     {
       "id": "mcq_118",
@@ -648,7 +683,8 @@
       ],
       "correctAnswer": "Dynamically complete (residuals ~ white noise)",
       "difficulty": "easy",
-      "topic": "Lecture 3 – Model Diagnostics"
+      "topic": "Lecture 3 – Model Diagnostics",
+      "explanation": "If residuals resemble white noise, the model has extracted systematic dynamics from the series."
     },
     {
       "id": "mcq_119",
@@ -661,7 +697,8 @@
       ],
       "correctAnswer": "FD and FE are numerically identical for slope coefficients",
       "difficulty": "medium",
-      "topic": "Lecture 4 – FE vs FD"
+      "topic": "Lecture 4 – FE vs FD",
+      "explanation": "With two periods, within-transformation equals differencing, yielding identical slope estimates."
     },
     {
       "id": "mcq_120",
@@ -674,7 +711,8 @@
       ],
       "correctAnswer": "Time-invariant individual heterogeneity and common shocks over time",
       "difficulty": "easy",
-      "topic": "Lecture 4 – Two-Way FE (time dummies)"
+      "topic": "Lecture 4 – Two-Way FE (time dummies)",
+      "explanation": "Unit dummies absorb $\\alpha_i$; time dummies absorb common shocks $\\lambda_t$."
     },
     {
       "id": "mcq_121",
@@ -687,7 +725,8 @@
       ],
       "correctAnswer": "Lagged dependent variable",
       "difficulty": "hard",
-      "topic": "Lecture 4 – Exogeneity"
+      "topic": "Lecture 4 – Exogeneity",
+      "explanation": "Including $y_{i,t-1}$ makes $x_{it}$ correlated with future errors (Nickell bias), violating $E(u_{it}|X_i)=0$."
     },
     {
       "id": "mcq_122",
@@ -700,7 +739,8 @@
       ],
       "correctAnswer": "FE can be estimated; observations with missing years are dropped where needed",
       "difficulty": "medium",
-      "topic": "Lecture 4 – Panel Structure"
+      "topic": "Lecture 4 – Panel Structure",
+      "explanation": "FE estimation accommodates differing $T_i$; it uses whatever within variation exists for each unit."
     },
     {
       "id": "mcq_123",
@@ -713,11 +753,12 @@
       ],
       "correctAnswer": "HAC/Newey–West standard errors",
       "difficulty": "medium",
-      "topic": "Lecture 3 – Robust Inference"
+      "topic": "Lecture 3 – Robust Inference",
+      "explanation": "HAC standard errors are consistent under unknown forms of heteroskedasticity and autocorrelation in $u_t$."
     },
     {
       "id": "mcq_124",
-      "questionText": "Distributed lag model with β0=0.4 and β1=0.3 (X_t and X_{t-1} only). The long-run (total) multiplier equals:",
+      "questionText": "Distributed lag model with $\\beta_0=0.4$ and $\\beta_1=0.3$ ($X_t$ and $X_{t-1}$ only). The long-run (total) multiplier equals:",
       "options": [
         "$0.4$",
         "$0.3$",
@@ -726,7 +767,8 @@
       ],
       "correctAnswer": "0.7",
       "difficulty": "easy",
-      "topic": "Lecture 3 – DL Multipliers"
+      "topic": "Lecture 3 – DL Multipliers",
+      "explanation": "Total effect is the sum of DL coefficients: $0.4+0.3=0.7$."
     },
     {
       "id": "mcq_125",
@@ -737,9 +779,10 @@
         "At $h=1$, only the MA component matters",
         "ARMA forecasts revert immediately to the mean at $h=1$"
       ],
-      "correctAnswer": "At h=2, the MA component drops out because future shocks have zero conditional mean",
+      "correctAnswer": "At $h=2$, the MA component drops out because future shocks have zero conditional mean",
       "difficulty": "medium",
-      "topic": "Lecture 3 – ARMA Forecasting"
+      "topic": "Lecture 3 – ARMA Forecasting",
+      "explanation": "At horizons $h\\ge2$, unknown future innovations have $E(\\varepsilon_{t+j}|I_t)=0$, so the MA term vanishes; the AR component drives multi-step forecasts."
     }
   ]
 }
