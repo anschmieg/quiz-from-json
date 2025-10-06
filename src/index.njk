@@ -1,35 +1,23 @@
 ---
 layout: base.njk
-title: "Interactive Quiz"
+title: "Learning Quiz"
 ---
 
-<div class="quiz-header">
-    <h1>{{ questions.title | default("Test Your Knowledge") }}</h1>
-    <p>{{ questions.description | default("Select the correct answer for each question below.") }}</p>
+<div class="quiz-container">
+    <div id="stats-panel" class="stats-panel">
+        <h2>Your Progress</h2>
+        <div id="stats-content">Loading stats...</div>
+        <button id="reset-progress" class="reset-btn">Reset Progress</button>
+    </div>
+
+    <div id="quiz-area" class="quiz-area">
+        <h1 id="quiz-title">Loading Quiz...</h1>
+        <div id="flashcard-container">
+            <!-- JavaScript will inject the current question here -->
+        </div>
+        <div id="quiz-complete-message" class="quiz-complete" style="display: none;">
+            <h2>🎉 Well Done!</h2>
+            <p>You've mastered all the questions. You can review them or reset your progress to start again.</p>
+        </div>
+    </div>
 </div>
-
-<form id="quiz-form" novalidate>
-    {% if questions.items and questions.items.length > 0 %}
-        {% for q in questions.items %}
-            <div class="question-block" id="q-block-{{ q.id }}" role="radiogroup" aria-labelledby="q-label-{{ q.id }}">
-                <p class="question-text" id="q-label-{{ q.id }}">
-                    <b>{{ loop.index }}. {{ q.questionText }}</b>
-                </p>
-                <div class="options">
-                    {% for option in q.options %}
-                        <label class="option-label">
-                            <input type="radio" name="{{ q.id }}" value="{{ option }}" required>
-                            <span>{{ option }}</span>
-                        </label>
-                    {% endfor %}
-                </div>
-                <div class="feedback" id="feedback-{{ q.id }}" aria-live="polite"></div>
-            </div>
-        {% endfor %}
-        <button type="submit" class="submit-btn">Check Answers</button>
-    {% else %}
-        <p class="no-questions">No questions found. Please add a 'questions.json' file to the 'src/_data' directory.</p>
-    {% endif %}
-</form>
-
-<div id="results-container" class="results-container" tabindex="-1"></div>

@@ -1,70 +1,165 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const quizForm = document.getElementById('quiz-form');
-    if (!quizForm) return;
+    const STATS_STORAGE_KEY = 'quizUserStats';
+    let allQuestions = [];
+    let userStats = {};
 
-    // Fetch the quiz data once to get the correct answers
-    let correctAnswersData = {};
-    fetch('/_data/questions.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Could not load questions.json");
-            }
-            return response.json();
-        })
-        .then(data => {
-            // Create a map for quick answer lookup
-            correctAnswersData = data.items.reduce((acc, q) => {
-                acc[q.id] = q.correctAnswer;
-                return acc;
-            }, {});
-        })
-        .catch(error => {
-            console.error("Error fetching quiz data:", error);
-            const resultsContainer = document.getElementById('results-container');
-            if(resultsContainer) {
-                resultsContainer.innerHTML = '<h2>Error</h2><p>Could not load the quiz questions. Please check the console for details.</p>';
+    const statsPanel = document.getElementById('stats-content');
+    const flashcardContainer = document.getElementById('flashcard-container');
+    const quizTitle = document.getElementById('quiz-title');
+    const resetButton = document.getElementById('reset-progress');
+    const completeMessage = document.getElementById('quiz-complete-message');
+
+    // --- Core Functions ---
+
+    function loadStats() {
+        const storedStats = localStorage.getItem(STATS_STORAGE_KEY);
+        if (storedStats) {
+            userStats = JSON.parse(storedStats);
+        } else {
+            // Initialize stats for all questions if not present
+            allQuestions.forEach(q => {
+                if (!userStats[q.id]) {
+                    userStats[q.id] = { correct: 0, incorrect: 0, lastResult: null };
+                }
+            });
+        }
+    }
+
+    function saveStats() {
+        localStorage.setItem(STATS_STORAGE_KEY, JSON.stringify(userStats));
+    }
+
+    function renderStats() {
+        const totalQuestions = allQuestions.length;
+        const answeredQuestions = Object.values(userStats).filter(s => s.correct > 0 || s.incorrect > 0).length;
+        const masteredQuestions = Object.values(userStats).filter(s => s.correct > s.incorrect && s.correct > 1).length;
+        
+        statsPanel.innerHTML = `
+            <p><strong>Total Questions:</strong> ${totalQuestions}</p>
+            <p><strong>Answered:</strong> ${answeredQuestions} / ${totalQuestions}</p>
+            <p><strong>Mastered:</strong> ${masteredQuestions} / ${totalQuestions}</p>
+        `;
+    }
+
+    function selectNextQuestion() {
+        let highestPriority = -1;
+        let priorityCandidates = [];
+
+        allQuestions.forEach(q => {
+            const stats = userStats[q.id];
+            // Simple priority score: prioritize wrong answers, then unanswered, then correct answers.
+            const priority = (stats.incorrect + 1) / (stats.correct + 1);
+
+            if (priority > highestPriority) {
+                highestPriority = priority;
+                priorityCandidates = [q];
+            } else if (priority === highestPriority) {
+                priorityCandidates.push(q);
             }
         });
 
-    quizForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-        
-        if (Object.keys(correctAnswersData).length === 0) {
-            alert('Quiz data is not loaded yet. Please try again in a moment.');
+        // If all have a priority of 1 (e.g., all answered correctly once), and we've seen them all, we are done
+        const allAnswered = allQuestions.every(q => userStats[q.id].correct > 0 || userStats[q.id].incorrect > 0);
+        if (highestPriority <= 1 && allAnswered) {
+             const allMastered = allQuestions.every(q => userStats[q.id].correct > 1 && userStats[q.id].incorrect === 0);
+             if(allMastered){
+                return null; // All questions considered mastered
+             }
+        }
+
+        // Randomly pick from the highest priority candidates
+        return priorityCandidates[Math.floor(Math.random() * priorityCandidates.length)];
+    }
+
+    function renderQuestion(q) {
+        if (!q) {
+            flashcardContainer.style.display = 'none';
+            completeMessage.style.display = 'block';
             return;
         }
 
-        let score = 0;
-        const totalQuestions = Object.keys(correctAnswersData).length;
-        const formData = new FormData(quizForm);
+        flashcardContainer.style.display = 'block';
+        completeMessage.style.display = 'none';
 
-        // Clear previous feedback
-        document.querySelectorAll('.feedback').forEach(el => el.innerHTML = '');
+        const optionsHtml = q.options.map(option => `
+            <label class="option-label">
+                <input type="radio" name="answer" value="${option}">
+                <span>${option}</span>
+            </label>
+        `).join('');
+
+        flashcardContainer.innerHTML = `
+            <p class="question-text">${q.questionText}</p>
+            <div class="options">${optionsHtml}</div>
+            <div class="feedback" id="feedback-area"></div>
+            <button class="action-button" id="check-answer-btn">Check Answer</button>
+        `;
+
+        document.getElementById('check-answer-btn').addEventListener('click', () => checkAnswer(q));
+    }
+    
+    function checkAnswer(q) {
+        const selectedOption = document.querySelector('input[name="answer"]:checked');
+        const feedbackArea = document.getElementById('feedback-area');
+        const checkButton = document.getElementById('check-answer-btn');
+
+        if (!selectedOption) {
+            feedbackArea.textContent = "Please select an answer.";
+            return;
+        }
+
+        const isCorrect = selectedOption.value === q.correctAnswer;
+        const stats = userStats[q.id];
         
-        for (const [id, correctAnswer] of Object.entries(correctAnswersData)) {
-            const userAnswer = formData.get(id);
-            const feedbackEl = document.getElementById(`feedback-${id}`);
-
-            if (userAnswer) {
-                if (userAnswer === correctAnswer) {
-                    score++;
-                    feedbackEl.textContent = '✅ Correct!';
-                    feedbackEl.className = 'feedback correct';
-                } else {
-                    feedbackEl.textContent = `❌ Incorrect. The correct answer is: ${correctAnswer}`;
-                    feedbackEl.className = 'feedback incorrect';
-                }
-            } else {
-                feedbackEl.textContent = '⚠️ You did not answer this question.';
-                feedbackEl.className = 'feedback incorrect';
-            }
+        if (isCorrect) {
+            stats.correct++;
+            stats.lastResult = 'correct';
+            feedbackArea.innerHTML = '✅ Correct!';
+            feedbackArea.className = 'feedback correct';
+        } else {
+            stats.incorrect++;
+            stats.lastResult = 'incorrect';
+            feedbackArea.innerHTML = `❌ Incorrect. The answer is: <strong>${q.correctAnswer}</strong>`;
+            feedbackArea.className = 'feedback incorrect';
         }
         
-        const resultsContainer = document.getElementById('results-container');
-        const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
-        resultsContainer.innerHTML = `<h2>Quiz Complete!</h2>
-            <p>You scored <strong>${score}</strong> out of <strong>${totalQuestions}</strong> (${percentage}%)</p>`;
-        
-        resultsContainer.focus();
-    });
+        saveStats();
+        renderStats();
+
+        // Change button to "Next Question"
+        checkButton.textContent = 'Next Question';
+        checkButton.onclick = () => renderQuestion(selectNextQuestion());
+    }
+
+    async function initializeQuiz() {
+        try {
+            const response = await fetch('/_data/questions.json');
+            if (!response.ok) throw new Error('Network response was not ok.');
+            
+            const data = await response.json();
+            allQuestions = data.items;
+            quizTitle.textContent = data.title || 'Learning Quiz';
+            
+            loadStats();
+            renderStats();
+            renderQuestion(selectNextQuestion());
+            
+            resetButton.addEventListener('click', () => {
+                if (confirm('Are you sure you want to reset all your progress?')) {
+                    localStorage.removeItem(STATS_STORAGE_KEY);
+                    userStats = {}; // Clear in-memory stats
+                    loadStats(); // Re-initialize
+                    renderStats();
+                    renderQuestion(selectNextQuestion());
+                }
+            });
+
+        } catch (error) {
+            quizTitle.textContent = "Error";
+            flashcardContainer.innerHTML = `<p>Could not load quiz questions. Please make sure <em>questions.json</em> exists in <em>src/_data/</em> and is correctly formatted.</p><p><em>${error.message}</em></p>`;
+            console.error('Quiz initialization failed:', error);
+        }
+    }
+
+    initializeQuiz();
 });
