@@ -9,7 +9,6 @@
     --border-color: #e0e0e0;
     --meta-color: #6c757d;
     --explanation-bg: #e9f5ff;
-    /* Light blue background for explanations */
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
@@ -43,10 +42,10 @@ body {
 .quiz-container {
     display: flex;
     flex-direction: column;
-    /* Default to a single column for mobile */
     gap: 2rem;
 }
 
+/* === Stats Panel === */
 .stats-panel {
     background: var(--card-bg);
     border-radius: 12px;
@@ -54,6 +53,72 @@ body {
     box-shadow: var(--shadow);
 }
 
+.stats-section {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.stats-section:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.stats-section h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.stats-section p {
+    margin: 0.5rem 0;
+}
+
+.improving {
+    color: var(--correct-color);
+    font-weight: bold;
+}
+
+.declining {
+    color: var(--incorrect-color);
+    font-weight: bold;
+}
+
+/* **NEW** Progress Bar Styles */
+.progress-bar-container {
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    height: 1rem;
+    width: 100%;
+    margin: 0.5rem 0 1rem 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 0%;
+    /* Default width */
+    border-radius: 0.5rem;
+    transition: width 0.4s ease-in-out;
+}
+
+.history-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.history-dot.correct {
+    background-color: var(--correct-color);
+}
+
+.history-dot.incorrect {
+    background-color: var(--incorrect-color);
+}
+
+/* === Quiz Area === */
 .quiz-area {
     width: 100%;
 }
@@ -66,8 +131,6 @@ body {
     min-height: 300px;
 }
 
-/* === Typography & Content === */
-.stats-panel h2,
 #quiz-title {
     margin-top: 0;
     overflow-wrap: break-word;
@@ -121,7 +184,6 @@ body {
     color: var(--incorrect-color);
 }
 
-/* **NEW** Explanation Style */
 .explanation {
     background-color: var(--explanation-bg);
     border-left: 4px solid var(--primary-color);
@@ -179,7 +241,6 @@ body {
     text-align: center;
 }
 
-/* Handle Wide Math Formula Overflow */
 .katex-display {
     overflow-x: auto;
     padding: 0.5rem 0;
@@ -189,21 +250,17 @@ body {
 @media (min-width: 992px) {
     .quiz-container {
         flex-direction: row;
-        /* Switch to side-by-side on larger screens */
         align-items: flex-start;
     }
 
     .stats-panel {
         flex: 1;
-        /* Takes up 1 part of the space */
         min-width: 280px;
         position: sticky;
-        /* Sticks to the top on scroll */
         top: 1rem;
     }
 
     .quiz-area {
         flex: 3;
-        /* Takes up 3 parts of the space */
     }
 }

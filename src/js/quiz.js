@@ -15,15 +15,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const STATS_STORAGE_KEY = 'quizUserStats';
     let allQuestions = [];
-    let userStats = {};
+    let userStats = {}; // Stores lifetime stats from localStorage
+    let sessionStats = { history: [] }; // Stores stats for this session only
 
-    const statsPanel = document.getElementById('stats-content');
+    // DOM Elements
     const flashcardContainer = document.getElementById('flashcard-container');
     const quizTitle = document.getElementById('quiz-title');
     const resetButton = document.getElementById('reset-progress');
     const completeMessage = document.getElementById('quiz-complete-message');
+    
+    // Stats Panel Elements
+    const sessionAccuracyValEl = document.getElementById('session-accuracy-val');
+    const sessionAccuracyBarEl = document.getElementById('session-accuracy-bar');
+    const overallImprovementEl = document.getElementById('overall-improvement');
+    const masteryAccuracyValEl = document.getElementById('mastery-accuracy-val');
+    const masteryAccuracyBarEl = document.getElementById('mastery-accuracy-bar');
+    const currentQuestionStatsEl = document.getElementById('current-question-stats-content');
 
-    // --- Core Functions ---
+    // --- Core Data & Stats Functions ---
 
     function loadStats() {
         const storedStats = localStorage.getItem(STATS_STORAGE_KEY);
@@ -33,9 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error("Failed to parse stats from localStorage", e);
             userStats = {};
         }
+        
         allQuestions.forEach(q => {
-            if (!userStats[q.id]) {
-                userStats[q.id] = { correct: 0, incorrect: 0 };
+            if (!userStats[q.id] || !Array.isArray(userStats[q.id].history)) {
+                userStats[q.id] = { history: [] };
             }
         });
     }
@@ -44,47 +54,113 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem(STATS_STORAGE_KEY, JSON.stringify(userStats));
     }
 
-    function renderStats() {
-        if (!allQuestions || allQuestions.length === 0) return;
-        const totalQuestions = allQuestions.length;
-        const answeredQuestions = Object.values(userStats).filter(s => s.correct > 0 || s.incorrect > 0).length;
-        const masteredQuestions = Object.values(userStats).filter(s => s.correct > 0 && s.correct > s.incorrect).length;
+    function calculateAccuracy(history) {
+        if (!history || history.length === 0) return { correct: 0, total: 0, percentage: 0 };
+        const correct = history.filter(Boolean).length;
+        const total = history.length;
+        const percentage = Math.round((correct / total) * 100);
+        return { correct, total, percentage };
+    }
+    
+    // **NEW**: Calculates mastery based on the LAST answer for each attempted question.
+    function calculateMastery() {
+        const attemptedQuestions = allQuestions.filter(q => userStats[q.id]?.history.length > 0);
+        if (attemptedQuestions.length === 0) return { correct: 0, total: 0, percentage: 0 };
 
-        statsPanel.innerHTML = `
-            <p><strong>Total Questions:</strong> ${totalQuestions}</p>
-            <p><strong>Answered:</strong> ${answeredQuestions} / ${totalQuestions}</p>
-            <p><strong>Mastered:</strong> ${masteredQuestions} / ${totalQuestions}</p>
-        `;
+        const correctOnLastTry = attemptedQuestions.filter(q => {
+            const history = userStats[q.id].history;
+            return history[history.length - 1]; // Check if the last entry is true
+        }).length;
+
+        const total = attemptedQuestions.length;
+        const percentage = Math.round((correctOnLastTry / total) * 100);
+        return { correct: correctOnLastTry, total, percentage };
+    }
+
+    function calculateImprovement(history, sliceSize = 10) {
+        if (!history || history.length < sliceSize * 2) return "Not enough data";
+        
+        const recentAccuracy = calculateAccuracy(history.slice(-sliceSize)).percentage;
+        const priorAccuracy = calculateAccuracy(history.slice(-sliceSize * 2, -sliceSize)).percentage;
+
+        const improvement = recentAccuracy - priorAccuracy;
+        if (improvement > 5) return `<span class="improving">Improving</span>`;
+        if (improvement < -5) return `<span class="declining">Declining</span>`;
+        return `<span>Stable</span>`;
+    }
+
+    function renderAllStats(currentQuestion) {
+        // Session Stats
+        const sessionAccuracy = calculateAccuracy(sessionStats.history);
+        sessionAccuracyValEl.textContent = `${sessionAccuracy.percentage}% (${sessionAccuracy.correct}/${sessionAccuracy.total})`;
+        sessionAccuracyBarEl.style.width = `${sessionAccuracy.percentage}%`;
+        overallImprovementEl.innerHTML = calculateImprovement(sessionStats.history);
+
+        // Mastery Stats
+        const mastery = calculateMastery();
+        masteryAccuracyValEl.textContent = `${mastery.percentage}% (${mastery.correct}/${mastery.total})`;
+        masteryAccuracyBarEl.style.width = `${mastery.percentage}%`;
+
+        // Current Question Stats
+        if (currentQuestion) {
+            const qStats = userStats[currentQuestion.id] || { history: [] };
+            const lifetime = calculateAccuracy(qStats.history);
+            const improvement = calculateImprovement(qStats.history, 5);
+
+            const historyHtml = qStats.history.slice(-10).map(isCorrect => 
+                `<span class="history-dot ${isCorrect ? 'correct' : 'incorrect'}"></span>`
+            ).join('');
+
+            currentQuestionStatsEl.innerHTML = `
+                <p><strong>All-Time Accuracy:</strong> ${lifetime.percentage}% (${lifetime.correct}/${lifetime.total})</p>
+                <p><strong>Recent Trend:</strong> ${improvement}</p>
+                <p><strong>History:</strong> ${historyHtml || 'No attempts yet'}</p>
+            `;
+        } else {
+            currentQuestionStatsEl.innerHTML = `<p>Quiz complete!</p>`;
+        }
     }
 
     function selectNextQuestion() {
         if (!allQuestions || allQuestions.length === 0) return null;
-
-        const allAnswered = allQuestions.every(q => (userStats[q.id]?.correct || 0) > 0 || (userStats[q.id]?.incorrect || 0) > 0);
-        if (allAnswered) {
-           const allMastered = allQuestions.every(q => (userStats[q.id]?.correct || 0) > (userStats[q.id]?.incorrect || 0));
-           if(allMastered) return null;
-        }
-
-        let highestPriority = -Infinity;
-        let priorityCandidates = [];
-
-        allQuestions.forEach(q => {
-            const stats = userStats[q.id] || { correct: 0, incorrect: 0 };
-            const priority = (stats.incorrect + 1) / (stats.correct + 1);
-
-            if (priority > highestPriority) {
-                highestPriority = priority;
-                priorityCandidates = [q];
-            } else if (priority === highestPriority) {
-                priorityCandidates.push(q);
-            }
+        
+        const allMastered = allQuestions.every(q => {
+            const history = userStats[q.id]?.history || [];
+            if (history.length < 3) return false;
+            return history.slice(-3).every(Boolean);
         });
 
-        return priorityCandidates[Math.floor(Math.random() * priorityCandidates.length)];
+        if (allMastered) return null;
+
+        let worstScore = Infinity;
+        let candidates = [];
+
+        allQuestions.forEach(q => {
+            const history = userStats[q.id]?.history || [];
+            if (history.length >= 3 && history.slice(-3).every(Boolean)) {
+                return; // Skip mastered questions
+            }
+
+            let score = 0;
+            history.forEach((isCorrect, index) => {
+                const weight = Math.pow(0.9, history.length - 1 - index);
+                score += (isCorrect ? 1 : -1) * weight;
+            });
+
+            if (score < worstScore) {
+                worstScore = score;
+                candidates = [q];
+            } else if (score === worstScore) {
+                candidates.push(q);
+            }
+        });
+        
+        return candidates[Math.floor(Math.random() * candidates.length)];
     }
 
     function renderQuestion(q) {
+        renderAllStats(q);
+
         if (!q) {
             flashcardContainer.style.display = 'none';
             completeMessage.style.display = 'block';
@@ -94,15 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
         flashcardContainer.style.display = 'block';
         completeMessage.style.display = 'none';
 
-        const optionsHtml = q.options.map(option => {
-            const cleanOption = option.replace(/"/g, '&quot;');
-            return `
-            <label class="option-label">
-                <input type="radio" name="answer" value="${cleanOption}">
-                <span>${option}</span>
-            </label>
-            `;
-        }).join('');
+        const optionsHtml = q.options.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
 
         flashcardContainer.innerHTML = `
             <p class="question-text">${q.questionText}</p>
@@ -126,38 +194,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const isCorrect = selectedOption.value === q.correctAnswer;
-        const stats = userStats[q.id];
+        
+        userStats[q.id].history.push(isCorrect);
+        sessionStats.history.push(isCorrect);
 
-        let feedbackHtml = '';
-        if (isCorrect) {
-            stats.correct++;
-            feedbackHtml = `<p class="feedback-text correct">✅ Correct!</p>`;
-        } else {
-            stats.incorrect++;
-            feedbackHtml = `<p class="feedback-text incorrect">❌ Incorrect. The correct answer is: <strong>${q.correctAnswer}</strong></p>`;
-        }
+        let feedbackHtml = isCorrect ? `<p class="feedback-text correct">✅ Correct!</p>` : `<p class="feedback-text incorrect">❌ Incorrect. The correct answer is: <strong>${q.correctAnswer}</strong></p>`;
 
         if (q.explanation) {
             feedbackHtml += `<div class="explanation">${q.explanation}</div>`;
         }
         
-        feedbackHtml += `
-            <div class="question-meta">
-                <span><strong>Topic:</strong> ${q.topic || 'General'}</span>
-                <span><strong>Difficulty:</strong> ${q.difficulty || 'Normal'}</span>
-            </div>
-        `;
+        feedbackHtml += `<div class="question-meta"><span><strong>Topic:</strong> ${q.topic || 'General'}</span><span><strong>Difficulty:</strong> ${q.difficulty || 'Normal'}</span></div>`;
 
         feedbackArea.innerHTML = feedbackHtml;
-        // *** THIS IS THE FIX ***
-        // Re-run the math renderer on the newly added content in the feedback area.
         renderMath(feedbackArea);
 
         saveStats();
-        renderStats();
+        renderAllStats(q);
 
         document.querySelectorAll('input[name="answer"]').forEach(input => input.disabled = true);
-
         checkButton.textContent = 'Next Question';
         checkButton.onclick = () => renderQuestion(selectNextQuestion());
     }
@@ -172,22 +227,20 @@ document.addEventListener('DOMContentLoaded', () => {
             quizTitle.textContent = data.title || 'Learning Quiz';
             
             loadStats();
-            renderStats();
             renderQuestion(selectNextQuestion());
             
             resetButton.addEventListener('click', () => {
                 if (confirm('Are you sure you want to reset all your progress?')) {
                     localStorage.removeItem(STATS_STORAGE_KEY);
+                    sessionStats.history = [];
                     userStats = {};
                     loadStats();
-                    renderStats();
                     renderQuestion(selectNextQuestion());
                 }
             });
-
         } catch (error) {
             quizTitle.textContent = "Error Loading Quiz";
-            flashcardContainer.innerHTML = `<p>Could not load quiz questions. Please check that the file <code>/src/_data/questions.json</code> exists and is valid JSON.</p><p style="color: red;"><strong>Details:</strong> ${error.message}</p>`;
+            flashcardContainer.innerHTML = `<p>Could not load quiz questions. Please check the file and console for errors.</p><p style="color: red;"><strong>Details:</strong> ${error.message}</p>`;
             console.error('Quiz initialization failed:', error);
         }
     }

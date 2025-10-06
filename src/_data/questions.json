@@ -960,7 +960,7 @@
         "Add quarterly dummies (Q1–Q4) to the regression",
         "Always difference the series 4 times",
         "Only include a linear trend",
-        "Use BP test"
+        "Use Breusch–Pagan test"
       ],
       "correctAnswer": "Add quarterly dummies (Q1–Q4) to the regression",
       "difficulty": "easy",
@@ -1008,76 +1008,6 @@
       "difficulty": "hard",
       "topic": "Tutorial – Dynamic Panels",
       "explanation": "With small $T$, within-OLS on $y_{i,t-1}$ is biased (Nickell, 1981). Arellano–Bond type GMM or bias corrections are typical remedies."
-    },
-    {
-      "id": "mcq_136",
-      "questionText": "Prediction intervals vs confidence intervals: which statement is correct?",
-      "options": [
-        "They are identical in regression",
-        "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
-        "Confidence intervals are wider because they include future shock variance",
-        "Neither involves the error variance"
-      ],
-      "correctAnswer": "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
-      "difficulty": "medium",
-      "topic": "Tutorial – Forecast Uncertainty",
-      "explanation": "A confidence interval estimates uncertainty in the conditional mean $E[y|X]$, while a prediction interval also includes the variance of future shocks $\\operatorname{Var}(\\varepsilon_{t+h})$, making it wider."
-    },
-    {
-      "id": "mcq_137",
-      "questionText": "Seasonality handling: which approach is most appropriate in quarterly data with stable seasonal patterns?",
-      "options": [
-        "Add quarterly dummies (Q1–Q4) to the regression",
-        "Always difference the series 4 times",
-        "Only include a linear trend",
-        "Use Breusch–Pagan test"
-      ],
-      "correctAnswer": "Add quarterly dummies (Q1–Q4) to the regression",
-      "difficulty": "easy",
-      "topic": "Tutorial – Seasonality",
-      "explanation": "Seasonal dummies model deterministic seasonality effectively when patterns are stable across years. Seasonal differencing is needed only for stochastic seasonality."
-    },
-    {
-      "id": "mcq_138",
-      "questionText": "Durbin–Watson (DW) vs Breusch–Godfrey (BG): why is BG generally preferred in multiple regression?",
-      "options": [
-        "DW handles AR(p) while BG only AR(1)",
-        "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
-        "DW is valid with lagged dependent variables",
-        "They are identical"
-      ],
-      "correctAnswer": "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
-      "difficulty": "medium",
-      "topic": "Tutorial – Serial Correlation Tests",
-      "explanation": "DW mainly detects AR(1) and fails when lagged dependent variables appear. BG’s auxiliary regression framework tests AR(p) and keeps the original regressors, providing valid inference."
-    },
-    {
-      "id": "mcq_139",
-      "questionText": "Time-invariant variables in FE: how can you estimate their effects?",
-      "options": [
-        "You cannot under any circumstance",
-        "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
-        "Difference them",
-        "Add more lags"
-      ],
-      "correctAnswer": "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
-      "difficulty": "hard",
-      "topic": "Tutorial – FE Limitations and Workarounds",
-      "explanation": "Pure FE drops time-invariant regressors because they are collinear with unit dummies. Interacting with time or using RE/CRE models uses between variation to identify such effects."
-    },
-    {
-      "id": "mcq_140",
-      "questionText": "Dynamic panels with FE and small $T$: what is the main concern?",
-      "options": [
-        "Heteroskedasticity only",
-        "Nickell bias in the coefficient on lagged $y$",
-        "Perfect multicollinearity",
-        "Unit roots in $x$"
-      ],
-      "correctAnswer": "Nickell bias in the coefficient on lagged $y$",
-      "difficulty": "hard",
-      "topic": "Tutorial – Dynamic Panels",
-      "explanation": "With small $T$, within-OLS on lagged dependent variables causes correlation between transformed errors and regressors, creating Nickell bias. GMM estimators (Arellano–Bond) correct for this."
     },
     {
       "id": "mcq_141",
@@ -1148,6 +1078,20 @@
       "difficulty": "medium",
       "topic": "Tutorial – Difference-in-Differences",
       "explanation": "Including unit and time fixed effects controls for constant differences and common trends. The DiD coefficient on the treatment dummy identifies the ATT under parallel trends."
+    },
+    {
+      "id": "mcq_146",
+      "questionText": "Which scenario violates strict exogeneity in a panel FE regression $y_{it} = x_{it}'\\beta + \\alpha_i + u_{it}$?",
+      "options": [
+        "The firm sets $x_{i,t+1}$ in response to an unexpected cost shock $u_{it}$",
+        "$x_{it}$ depends on $u_{i,t-1}$ and $u$ is serially uncorrelated",
+        "An experiment randomly assigns $x_{it}$ in each period",
+        "Adding time dummies controls for common shocks"
+      ],
+      "correctAnswer": "The firm sets $x_{i,t+1}$ in response to an unexpected cost shock $u_{it}$",
+      "difficulty": "medium",
+      "topic": "Lecture 4 – Exogeneity",
+      "explanation": "Strict exogeneity requires $E(u_{it}\\,|\\,X_i)=0$ for all $t$, i.e., $u_{it}$ is uncorrelated with regressors from every period. Feedback from current shocks to future regressors (when $x_{i,t+1}$ depends on $u_{it}$) makes $u_{it}$ correlated with elements of $X_i$, violating strict exogeneity. Predeterminedness (only past $u$ affecting current $x$) with serially uncorrelated $u$ need not violate strict exogeneity; random assignment satisfies it; time dummies do not resolve unit-specific feedback."
     }
   ]
 }

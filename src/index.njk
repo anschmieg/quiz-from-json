@@ -5,8 +5,31 @@ title: "Learning Quiz"
 
 <div class="quiz-container">
     <div id="stats-panel" class="stats-panel">
-        <h2>Your Progress</h2>
-        <div id="stats-content">Loading stats...</div>
+        
+        <div class="stats-section">
+            <h2>Session Stats</h2>
+            <div id="session-stats-content">
+                <p><strong>Accuracy:</strong> <span id="session-accuracy-val">-</span></p>
+                <div class="progress-bar-container"><div class="progress-bar" id="session-accuracy-bar"></div></div>
+                <p><strong>Improvement:</strong> <span id="overall-improvement">-</span></p>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2>Overall Mastery</h2>
+            <div id="mastery-stats-content">
+                <p><strong>Mastered:</strong> <span id="mastery-accuracy-val">-</span></p>
+                <div class="progress-bar-container"><div class="progress-bar" id="mastery-accuracy-bar"></div></div>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2>Current Question</h2>
+            <div id="current-question-stats-content">
+                <p>Waiting for question...</p>
+            </div>
+        </div>
+
         <button id="reset-progress" class="reset-btn">Reset Progress</button>
     </div>
 
@@ -17,7 +40,8 @@ title: "Learning Quiz"
         </div>
         <div id="quiz-complete-message" class="quiz-complete" style="display: none;">
             <h2>🎉 Well Done!</h2>
-            <p>You've mastered all the questions. You can review them or reset your progress to start again.</p>
+            <p>You've mastered all the questions. You can reset your progress to start again.</p>
         </div>
     </div>
 </div>
+
