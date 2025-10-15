@@ -1,24 +1,33 @@
-module.exports = function(eleventyConfig) {
-  // Set the source and output directories
-  const dir = {
-    input: "src",
-    output: "dist",
-    includes: "_includes",
-    data: "_data"
-  };
+export default function(eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("src/css");
+    eleventyConfig.addPassthroughCopy("src/js"); // Copies both quiz.js and stats.js
+    eleventyConfig.addPassthroughCopy({"src/_data": "_data"});
+  
+    // Add a filter to find the current page for active nav link styling
+    eleventyConfig.addFilter("isCurrentPage", (itemUrl, pageUrl) => {
+      // A simple check to see if the URL is for the current page
+      // This will handle both "/" and "/stats/"
+      if (itemUrl === "/" && pageUrl === "/") {
+        return true;
+      }
+      if (itemUrl.length > 1 && pageUrl.startsWith(itemUrl)) {
+        return true;
+      }
+      return false;
+    });
 
-  // Pass through static assets (CSS, JS)
-  eleventyConfig.addPassthroughCopy(`${dir.input}/css`);
-  eleventyConfig.addPassthroughCopy(`${dir.input}/js`);
+    // Add an active class to the nav link for the current page
+    eleventyConfig.addNunjucksShortcode("navLink", function(url, text) {
+        const isActive = (this.page.url === url);
+        return `<a href="${url}" class="nav-link"${isActive ? ' aria-current="page"' : ''}>${text}</a>`;
+    });
 
-  // **THIS IS THE FIX**: Copy the _data directory to the output,
-  // making its contents (like questions.json) accessible to fetch().
-  eleventyConfig.addPassthroughCopy(`${dir.input}/_data`);
-
-  return {
-    dir: dir,
-    templateFormats: ["njk", "md"],
-    htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk",
-  };
+    return {
+      dir: {
+        input: "src",
+        output: "dist",
+        includes: "_includes"
+      }
+    };
 };
+

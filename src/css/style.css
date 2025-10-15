@@ -29,98 +29,79 @@ body {
     background-color: var(--primary-bg);
     color: var(--text-color);
     margin: 0;
-    padding: 1rem;
-    min-height: 100vh;
+    padding: 0;
     -webkit-text-size-adjust: 100%;
 }
 
-/* === Main Layout (Mobile First) === */
 .main-container {
     width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* === Main Navigation === */
+.main-header {
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow);
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 2rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.quiz-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.nav-link {
+    display: block;
+    padding: 1rem;
+    color: var(--meta-color);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
 }
 
-/* === Stats Panel === */
-.stats-panel {
-    background: var(--card-bg);
+.nav-link:hover,
+.nav-link[aria-current="page"] {
+    /* Style for active page */
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+
+/* === Quiz Page Styles === */
+.quiz-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.quiz-header-stats {
+    background-color: var(--card-bg);
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: var(--shadow);
+    text-align: center;
 }
 
-.stats-section {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border-color);
+.quiz-header-stats h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    color: var(--meta-color);
 }
 
-.stats-section:last-of-type {
-    border-bottom: none;
-    margin-bottom: 0;
-}
-
-.stats-section h2 {
-    margin-top: 0;
-    font-size: 1.2rem;
-}
-
-.stats-section p {
-    margin: 0.5rem 0;
-}
-
-.improving {
-    color: var(--correct-color);
-    font-weight: bold;
-}
-
-.declining {
-    color: var(--incorrect-color);
-    font-weight: bold;
-}
-
-.progress-bar-container {
-    background-color: #e9ecef;
-    border-radius: 0.5rem;
-    height: 1rem;
-    width: 100%;
-    margin: 0.5rem 0 1rem 0;
-    overflow: hidden;
-}
-
-.progress-bar {
-    background-color: var(--primary-color);
-    height: 100%;
-    width: 0%;
-    border-radius: 0.5rem;
-    transition: width 0.4s ease-in-out;
-}
-
-.history-dot {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin: 0 2px;
-}
-
-.history-dot.correct {
-    background-color: var(--correct-color);
-}
-
-.history-dot.incorrect {
-    background-color: var(--incorrect-color);
-}
-
-/* === Quiz Area === */
-.quiz-area {
-    width: 100%;
+.quiz-header-stats p {
+    margin: 0.5rem 0 0 0;
+    color: var(--meta-color);
+    font-size: 0.9rem;
 }
 
 #flashcard-container {
@@ -131,9 +112,13 @@ body {
     min-height: 300px;
 }
 
-#quiz-title {
+.question-topic {
     margin-top: 0;
     overflow-wrap: break-word;
+    font-size: 1.2rem;
+    color: var(--meta-color);
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .question-text {
@@ -165,7 +150,6 @@ body {
     margin-right: 0.5rem;
 }
 
-/* Styles for visual feedback on answers */
 .option-label.disabled {
     cursor: default;
     opacity: 0.7;
@@ -188,14 +172,10 @@ body {
     opacity: 1;
 }
 
-/* === Feedback, Metadata & Buttons === */
-#feedback-area {
-    margin-top: 1.5rem;
-}
-
 .review-section {
     border-top: 1px solid var(--border-color);
     padding-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .explanation {
@@ -251,28 +231,147 @@ body {
 
 .quiz-complete {
     text-align: center;
+    padding: 2rem;
+    background-color: var(--card-bg);
+    border-radius: 12px;
+}
+
+
+/* === Stats Page Styles === */
+.stats-page-container h1,
+.stats-page-container h2 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.stats-page-container h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.stats-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.summary-card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.summary-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--meta-color);
+    font-size: 1rem;
+}
+
+.summary-card .summary-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#weakest-topic-summary {
+    color: var(--incorrect-color);
+}
+
+.summary-card p {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.9rem;
+    color: var(--meta-color);
+}
+
+.table-container {
+    overflow-x: auto;
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+#topics-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#topics-table th,
+#topics-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+#topics-table th {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+#topics-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.topic-row[data-depth="0"] {
+    font-weight: bold;
+}
+
+.toggle-icon {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+/* === Shared Components === */
+.progress-bar-container {
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    height: 1rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 0%;
+    border-radius: 0.5rem;
+    transition: width 0.4s ease-in-out;
+}
+
+.improving {
+    color: var(--correct-color);
+    font-weight: bold;
+}
+
+.declining {
+    color: var(--incorrect-color);
+    font-weight: bold;
+}
+
+.history-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.history-dot.correct {
+    background-color: var(--correct-color);
+}
+
+.history-dot.incorrect {
+    background-color: var(--incorrect-color);
 }
 
 .katex-display {
     overflow-x: auto;
     padding: 0.5rem 0;
-}
-
-/* === Desktop Layout (Two Columns) === */
-@media (min-width: 992px) {
-    .quiz-container {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .stats-panel {
-        flex: 1;
-        min-width: 280px;
-        position: sticky;
-        top: 1rem;
-    }
-
-    .quiz-area {
-        flex: 3;
-    }
 }

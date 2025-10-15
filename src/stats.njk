@@ -1,0 +1,42 @@
+---
+layout: base.njk
+title: "Detailed Stats"
+---
+
+<div class="stats-page-container">
+    <h1>Your Progress Breakdown</h1>
+
+    <div class="stats-summary-grid">
+        <div class="summary-card">
+            <h3>Overall Mastery</h3>
+            <div class="summary-value" id="mastery-summary">-</div>
+            <div class="progress-bar-container"><div class="progress-bar" id="mastery-summary-bar"></div></div>
+        </div>
+        <div class="summary-card" id="weakest-topic-card">
+            <h3>Weakest Topic</h3>
+            <div class="summary-value" id="weakest-topic-summary">-</div>
+            <p id="weakest-topic-accuracy"></p>
+        </div>
+    </div>
+
+    <h2>Progress by Topic</h2>
+    <div class="table-container">
+        <table id="topics-table">
+            <thead>
+                <tr>
+                    <th>Topic</th>
+                    <th>Accuracy</th>
+                    <th>Improvement</th>
+                    <th>History (Last 10)</th>
+                </tr>
+            </thead>
+            <tbody id="topics-tbody">
+                <!-- Topic stats will be injected here by stats.js -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Load the new JavaScript for this page -->
+<script src="/js/stats.js"></script>
+

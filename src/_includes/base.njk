@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/style.css">
-    <!-- KaTeX for Math Rendering (Corrected) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" xintegrity="sha384-wcIxkf4k558fYv3mQP2rlAlYSEmgssgeOES8VlB+2sgU6PSoA2m2hFfLPhTTKALS" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" xintegrity="sha384-hIoBPJpTUs74ddyc4bFZSM1YxFjUJe1NlMVbhmKhpkX2ZJ4YNf6U22pLsMYZAo5M" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" xintegrity="sha384-43gviWU0YVjaDtb/GpZv7M1fvSJhX2M1opoIla3O8uL2v2jeC+uD4fnu2VLVoMcE" crossorigin="anonymous"></script>
-    <script src="/js/quiz.js"></script>
 </head>
 <body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="/" class="nav-link">Quiz</a>
+            <a href="/stats/" class="nav-link">Stats</a>
+        </nav>
+    </header>
     <main class="main-container">
         {{ content | safe }}
     </main>
