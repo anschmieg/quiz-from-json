@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const STATS_STORAGE_KEY = 'quizUserStats';
+    // Multi-quiz support
+    let currentQuizId = localStorage.getItem('currentQuizId') || 'semlex';
+    const STATS_PREFIX = 'quizStats_';
+    
     let allQuestions = [];
+    let quizTitle = '';
     let userStats = {};
 
     // DOM Elements
@@ -9,10 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const weakestTopicSummaryEl = document.getElementById('weakest-topic-summary');
     const weakestTopicAccuracyEl = document.getElementById('weakest-topic-accuracy');
     const topicsTbody = document.getElementById('topics-tbody');
+    const quizSelect = document.getElementById('quiz-select');
+
+    function getStorageKey() {
+        return STATS_PREFIX + currentQuizId;
+    }
 
     function loadData() {
         try {
-            const storedStats = localStorage.getItem(STATS_STORAGE_KEY);
+            const storedStats = localStorage.getItem(getStorageKey());
             userStats = storedStats ? JSON.parse(storedStats) : {};
         } catch (e) { userStats = {}; }
     }
@@ -25,9 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return { correct, total, percentage };
     }
 
-    // **NEW**: More accurate improvement calculation
     function calculateImprovement(history) {
-        if (!history || history.length < 4) return { text: "N/A", value: 0 }; // Need at least 2 answers in each half
+        if (!history || history.length < 4) return { text: "N/A", value: 0 };
         const half = Math.ceil(history.length / 2);
         const firstHalf = history.slice(0, half);
         const secondHalf = history.slice(-half);
@@ -40,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return { text: `<span>Stable</span>`, value: 0 };
     }
     
-    // **NEW**: Recursive function to build the nested topic tree
     function buildTopicTree(questions) {
         const root = { name: 'All Topics', children: {}, history: [] };
         const topicSeparators = / \| | - | – |; |: /;
@@ -64,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return root;
     }
 
-    // **NEW**: Recursive function to render the foldable table
     function renderTopicRows(node, depth, parentId) {
         let html = '';
         const nodeId = parentId ? `${parentId}-${node.name.replace(/\s+/g, '-')}` : node.name.replace(/\s+/g, '-');
@@ -109,12 +115,16 @@ document.addEventListener('DOMContentLoaded', () => {
         return weakest;
     }
 
-    async function initializeStatsPage() {
+    async function loadStatsForQuiz(quizId) {
+        currentQuizId = quizId;
+        localStorage.setItem('currentQuizId', quizId);
+        
         try {
-            const response = await fetch('/_data/questions.json');
+            const response = await fetch(`/_data/${quizId}.json`);
             if (!response.ok) throw new Error('Could not load question data.');
             const data = await response.json();
             allQuestions = data.questions || [];
+            quizTitle = data.title || 'Quiz';
             
             loadData();
             
@@ -124,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
             topicsTbody.innerHTML = renderTopicRows(topicTree, 0, null);
 
             // Render summary cards
-            const mastery = calculateAccuracy(topicTree.history); // Overall accuracy
+            const mastery = calculateAccuracy(topicTree.history);
             masterySummaryEl.textContent = `${mastery.percentage}% (${mastery.correct}/${mastery.total})`;
             masterySummaryBarEl.style.width = `${mastery.percentage}%`;
 
@@ -132,38 +142,64 @@ document.addEventListener('DOMContentLoaded', () => {
             weakestTopicSummaryEl.textContent = weakest.name;
             weakestTopicAccuracyEl.textContent = `at ${weakest.accuracy}% accuracy`;
 
-            // Add event listeners for folding/unfolding
-            topicsTbody.addEventListener('click', e => {
-                const row = e.target.closest('.topic-row');
-                if (row && row.querySelector('.toggle-icon')) {
-                    const rowId = row.dataset.id;
-                    const children = topicsTbody.querySelectorAll(`.child-of-${rowId}`);
-                    const icon = row.querySelector('.toggle-icon');
-                    const isExpanded = icon.textContent === '-';
+            // Update page title
+            const pageTitle = document.querySelector('.stats-page-container h1');
+            if (pageTitle) {
+                pageTitle.textContent = `${quizTitle} - Progress Breakdown`;
+            }
 
-                    children.forEach(child => {
-                        if (isExpanded) {
-                            child.style.display = 'none';
-                            // Also hide grandchildren
-                            const grandChildren = topicsTbody.querySelectorAll(`.child-of-${child.dataset.id}`);
-                            grandChildren.forEach(gc => gc.style.display = 'none');
-                            if(child.querySelector('.toggle-icon')) child.querySelector('.toggle-icon').textContent = '+';
-                        } else {
-                            if (parseInt(child.dataset.depth) === parseInt(row.dataset.depth) + 1) {
-                                child.style.display = 'table-row';
-                            }
-                        }
-                    });
-                    icon.textContent = isExpanded ? '+' : '-';
-                }
-            });
+            // Add event listeners for folding/unfolding
+            topicsTbody.removeEventListener('click', handleTopicClick);
+            topicsTbody.addEventListener('click', handleTopicClick);
 
         } catch (error) {
-            console.error("Failed to initialize stats page:", error);
+            console.error("Failed to load stats:", error);
             topicsTbody.innerHTML = '<tr><td colspan="4">Error loading stats. Please try again.</td></tr>';
         }
     }
 
-    initializeStatsPage();
+    function handleTopicClick(e) {
+        const row = e.target.closest('.topic-row');
+        if (row && row.querySelector('.toggle-icon')) {
+            const rowId = row.dataset.id;
+            const children = topicsTbody.querySelectorAll(`.child-of-${rowId}`);
+            const icon = row.querySelector('.toggle-icon');
+            const isExpanded = icon.textContent === '-';
+
+            children.forEach(child => {
+                if (isExpanded) {
+                    child.style.display = 'none';
+                    const grandChildren = topicsTbody.querySelectorAll(`.child-of-${child.dataset.id}`);
+                    grandChildren.forEach(gc => gc.style.display = 'none');
+                    if(child.querySelector('.toggle-icon')) child.querySelector('.toggle-icon').textContent = '+';
+                } else {
+                    if (parseInt(child.dataset.depth) === parseInt(row.dataset.depth) + 1) {
+                        child.style.display = 'table-row';
+                    }
+                }
+            });
+            icon.textContent = isExpanded ? '+' : '-';
+        }
+    }
+
+    // Quiz selector change handler
+    if (quizSelect) {
+        quizSelect.value = currentQuizId;
+        quizSelect.addEventListener('change', (e) => {
+            loadStatsForQuiz(e.target.value);
+        });
+    }
+
+    // Page navigation active state
+    const currentPage = window.location.pathname;
+    document.querySelectorAll('.nav-link').forEach(link => {
+        if (link.getAttribute('href') === currentPage || 
+            (currentPage === '/' && link.getAttribute('data-page') === 'quiz') ||
+            (currentPage.startsWith('/stats') && link.getAttribute('data-page') === 'stats')) {
+            link.classList.add('active');
+        }
+    });
+
+    loadStatsForQuiz(currentQuizId);
 });
 

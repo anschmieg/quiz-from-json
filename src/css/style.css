@@ -12,6 +12,28 @@
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     --correct-highlight-bg: #eaf7ec;
     --incorrect-highlight-bg: #fdecea;
+    --nav-bg: #ffffff;
+    --dropdown-bg: #ffffff;
+    --hover-bg: #f8f9fa;
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+    --primary-bg: #1a1a1a;
+    --card-bg: #2d2d2d;
+    --text-color: #e0e0e0;
+    --primary-color: #4a9eff;
+    --correct-color: #4caf50;
+    --incorrect-color: #f44336;
+    --border-color: #404040;
+    --meta-color: #b0b0b0;
+    --explanation-bg: #2a3f5f;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --correct-highlight-bg: #1e3a1e;
+    --incorrect-highlight-bg: #3a1e1e;
+    --nav-bg: #2d2d2d;
+    --dropdown-bg: #3a3a3a;
+    --hover-bg: #3a3a3a;
 }
 
 html {
@@ -31,6 +53,7 @@ body {
     margin: 0;
     padding: 0;
     -webkit-text-size-adjust: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .main-container {
@@ -42,7 +65,7 @@ body {
 
 /* === Main Navigation === */
 .main-header {
-    background-color: var(--card-bg);
+    background-color: var(--nav-bg);
     box-shadow: var(--shadow);
     padding: 0 1rem;
     position: sticky;
@@ -53,15 +76,80 @@ body {
 
 .main-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 1rem;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-left {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.nav-center {
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+.nav-right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.quiz-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quiz-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--meta-color);
+    white-space: nowrap;
+}
+
+.quiz-dropdown {
+    padding: 0.5rem 2rem 0.5rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--dropdown-bg);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+}
+
+[data-theme="dark"] .quiz-dropdown {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23b0b0b0' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+}
+
+.quiz-dropdown:hover {
+    border-color: var(--primary-color);
+}
+
+.quiz-dropdown:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
 }
 
 .nav-link {
     display: block;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     color: var(--meta-color);
     text-decoration: none;
     font-weight: 500;
@@ -70,10 +158,31 @@ body {
 }
 
 .nav-link:hover,
-.nav-link[aria-current="page"] {
-    /* Style for active page */
+.nav-link.active {
     color: var(--primary-color);
     border-bottom-color: var(--primary-color);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    background-color: var(--hover-bg);
+}
+
+.theme-icon {
+    display: block;
+    line-height: 1;
 }
 
 
@@ -143,7 +252,7 @@ body {
 
 .option-label:hover {
     border-color: var(--primary-color);
-    background: #f8f9fa;
+    background: var(--hover-bg);
 }
 
 .option-label input {
@@ -153,7 +262,7 @@ body {
 .option-label.disabled {
     cursor: default;
     opacity: 0.7;
-    background-color: #f8f9fa;
+    background-color: var(--hover-bg);
 }
 
 .option-label.disabled:hover {
@@ -374,4 +483,41 @@ body {
 .katex-display {
     overflow-x: auto;
     padding: 0.5rem 0;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0.75rem 0;
+    }
+    
+    .nav-section {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .nav-left,
+    .nav-right {
+        flex: 0 0 auto;
+    }
+    
+    .quiz-selector {
+        justify-content: center;
+    }
+    
+    .nav-link {
+        padding: 0.5rem 0.75rem;
+    }
+    
+    #topics-table th,
+    #topics-table td {
+        padding: 0.75rem 0.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .main-container {
+        padding: 1rem;
+    }
 }

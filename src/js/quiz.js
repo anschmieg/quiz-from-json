@@ -18,22 +18,31 @@ document.addEventListener('DOMContentLoaded', () => {
         return array;
     };
 
-    const STATS_STORAGE_KEY = 'quizUserStats';
-    const SESSION_STORAGE_KEY = 'quizSessionStats';
+    // Multi-quiz support
+    let currentQuizId = localStorage.getItem('currentQuizId') || 'semlex';
     let allQuestions = [];
+    let quizTitle = '';
     let userStats = {};
     let sessionStats = { history: [] };
     let lastQuestionId = null;
+
+    const STATS_PREFIX = 'quizStats_';
+    const SESSION_PREFIX = 'quizSession_';
 
     const flashcardContainer = document.getElementById('flashcard-container');
     const completeMessage = document.getElementById('quiz-complete-message');
     const masteryAccuracyValEl = document.getElementById('mastery-accuracy-val');
     const masteryAccuracyBarEl = document.getElementById('mastery-accuracy-bar');
+    const quizSelect = document.getElementById('quiz-select');
+
+    function getStorageKey(prefix) {
+        return prefix + currentQuizId;
+    }
 
     function loadStats() {
         try {
-            userStats = JSON.parse(localStorage.getItem(STATS_STORAGE_KEY)) || {};
-            sessionStats = JSON.parse(sessionStorage.getItem(SESSION_STORAGE_KEY)) || { history: [] };
+            userStats = JSON.parse(localStorage.getItem(getStorageKey(STATS_PREFIX))) || {};
+            sessionStats = JSON.parse(sessionStorage.getItem(getStorageKey(SESSION_PREFIX))) || { history: [] };
         } catch (e) {
             userStats = {};
             sessionStats = { history: [] };
@@ -46,8 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function saveStats() {
-        localStorage.setItem(STATS_STORAGE_KEY, JSON.stringify(userStats));
-        sessionStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(sessionStats));
+        localStorage.setItem(getStorageKey(STATS_PREFIX), JSON.stringify(userStats));
+        sessionStorage.setItem(getStorageKey(SESSION_PREFIX), JSON.stringify(sessionStats));
     }
 
     function calculateAccuracy(history) {
@@ -71,6 +80,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const mastery = calculateMastery();
         masteryAccuracyValEl.textContent = `${mastery.percentage}% (${mastery.correct}/${mastery.total} Attempted)`;
         masteryAccuracyBarEl.style.width = `${mastery.percentage}%`;
+        
+        // Update header with quiz title
+        const headerTitle = document.querySelector('.quiz-header-stats h3');
+        if (headerTitle) {
+            headerTitle.textContent = quizTitle ? `${quizTitle} - Overall Mastery` : 'Overall Mastery';
+        }
     }
 
     function selectNextQuestion() {
@@ -107,7 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!q) {
             flashcardContainer.style.display = 'none';
             completeMessage.style.display = 'block';
-            document.getElementById('reset-progress').addEventListener('click', resetAllProgress);
+            const resetBtn = document.getElementById('reset-progress');
+            if (resetBtn) {
+                resetBtn.replaceWith(resetBtn.cloneNode(true));
+                document.getElementById('reset-progress').addEventListener('click', resetAllProgress);
+            }
             return;
         }
         flashcardContainer.style.display = 'block';
@@ -166,9 +185,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function resetAllProgress() {
-        if (confirm('Are you sure you want to reset all your progress?')) {
-            localStorage.removeItem(STATS_STORAGE_KEY);
-            sessionStorage.removeItem(SESSION_STORAGE_KEY);
+        if (confirm('Are you sure you want to reset all your progress for this quiz?')) {
+            localStorage.removeItem(getStorageKey(STATS_PREFIX));
+            sessionStorage.removeItem(getStorageKey(SESSION_PREFIX));
             userStats = {};
             sessionStats = { history: [] };
             loadStats();
@@ -176,19 +195,42 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    async function initializeQuiz() {
+    async function loadQuiz(quizId) {
+        currentQuizId = quizId;
+        localStorage.setItem('currentQuizId', quizId);
+        
         try {
-            const response = await fetch('/_data/questions.json');
-            if (!response.ok) throw new Error(`Could not load questions.json (status: ${response.status})`);
+            const response = await fetch(`/_data/${quizId}.json`);
+            if (!response.ok) throw new Error(`Could not load ${quizId}.json (status: ${response.status})`);
             const data = await response.json();
             allQuestions = data.questions || [];
+            quizTitle = data.title || 'Quiz';
             loadStats();
             renderQuestion(selectNextQuestion());
         } catch (error) {
             flashcardContainer.innerHTML = `<p>Could not load quiz questions. Please check console for errors.</p><p style="color: red;"><strong>Details:</strong> ${error.message}</p>`;
-            console.error('Quiz initialization failed:', error);
+            console.error('Quiz loading failed:', error);
         }
     }
 
-    initializeQuiz();
+    // Quiz selector change handler
+    if (quizSelect) {
+        quizSelect.value = currentQuizId;
+        quizSelect.addEventListener('change', (e) => {
+            loadQuiz(e.target.value);
+        });
+    }
+
+    // Page navigation active state
+    const currentPage = window.location.pathname;
+    document.querySelectorAll('.nav-link').forEach(link => {
+        if (link.getAttribute('href') === currentPage || 
+            (currentPage === '/' && link.getAttribute('data-page') === 'quiz') ||
+            (currentPage.startsWith('/stats') && link.getAttribute('data-page') === 'stats')) {
+            link.classList.add('active');
+        }
+    });
+
+    // Initialize quiz
+    loadQuiz(currentQuizId);
 });
