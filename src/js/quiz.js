@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.renderMathInElement) {
             window.renderMathInElement(element, {
                 delimiters: [
-                    {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false},
-                    {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}
+                    { left: '$$', right: '$$', display: true }, { left: '$', right: '$', display: false },
+                    { left: '\\[', right: '\\]', display: true }, { left: '\\(', right: '\\)', display: false }
                 ]
             });
         }
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const mastery = calculateMastery();
         masteryAccuracyValEl.textContent = `${mastery.percentage}% (${mastery.correct}/${mastery.total} Attempted)`;
         masteryAccuracyBarEl.style.width = `${mastery.percentage}%`;
-        
+
         // Update header with quiz title
         const headerTitle = document.querySelector('.quiz-header-stats h3');
         if (headerTitle) {
@@ -131,12 +131,80 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         flashcardContainer.style.display = 'block';
         completeMessage.style.display = 'none';
-    const shuffledOptions = shuffleArray([...q.options]);
-    const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
-    const difficultyClass = q.difficulty ? `question-difficulty ${q.difficulty.toLowerCase()}` : '';
-    const difficultyBadge = q.difficulty ? `<div class="${difficultyClass}">${q.difficulty}</div>` : '';
-    flashcardContainer.innerHTML = `<div class="question-header"><h2 class="question-topic">${q.topic || 'Question'}</h2>${difficultyBadge}</div><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
+        const shuffledOptions = shuffleArray([...q.options]);
+        const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
+        const difficultyClass = q.difficulty ? `question-difficulty ${q.difficulty.toLowerCase()}` : '';
+        // Inline SVG gauge (arc + center dot + needle). SVG uses 1em sizing so it matches the text height.
+        // Needle angle and color are set per-difficulty. The arc and center dot inherit the badge color (currentColor).
+        let needleAngle = 0;
+        let needleColor = '#111';
+        // Assumption: map easy -> blue, medium -> yellow, hard -> red
+        const diffLower = (q.difficulty || '').toLowerCase();
+        if (diffLower === 'easy' || diffLower === 'leicht') {
+            needleAngle = -40; // left-leaning
+            needleColor = '#007bff';
+        } else if (diffLower === 'medium' || diffLower === 'mittel' || diffLower === 'moderate') {
+            needleAngle = 0; // center
+            needleColor = '#ffc107';
+        } else if (diffLower === 'hard' || diffLower === 'schwer') {
+            needleAngle = 40; // right-leaning
+            needleColor = '#dc3545';
+        } else {
+            needleAngle = 0;
+            needleColor = '#111';
+        }
+
+        // Use Material Symbols 'speed' icon; add a small colored accent via data-attr for CSS
+        // Map difficulty to a local SVG file
+        const fileMap = {
+            easy: '/img/gauge-low.svg',
+            leicht: '/img/gauge-low.svg',
+            medium: '/img/gauge-medium.svg',
+            mittel: '/img/gauge-medium.svg',
+            hard: '/img/gauge-high.svg',
+            schwer: '/img/gauge-high.svg'
+        };
+        const fileSrc = fileMap[diffLower] || '/img/gauge-medium.svg';
+        // Use <img> pointing to local SVG; images are decorative so aria-hidden, while the badge has aria-label
+        const difficultyBadge = q.difficulty ? `<div class="${difficultyClass}" aria-label="Difficulty: ${q.difficulty}">` +
+            `<img src="${fileSrc}" alt="" aria-hidden="true" class="difficulty-icon">` +
+            `<span class="difficulty-text">${q.difficulty}</span></div>` : '';
+        flashcardContainer.innerHTML = `<div class="question-header"><h2 class="question-topic">${q.topic || 'Question'}</h2>${difficultyBadge}</div><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
         renderMath(flashcardContainer);
+        // Inline any difficulty SVG images so their internal `currentColor` can inherit from CSS,
+        // while pointer groups keep their hard-coded fills.
+        (function inlineDifficultySvgs(root) {
+            const imgs = root.querySelectorAll('.difficulty-icon');
+            imgs.forEach(img => {
+                const src = img.getAttribute('src');
+                if (!src) return;
+                fetch(src).then(r => {
+                    if (!r.ok) throw new Error('Failed to load ' + src);
+                    return r.text();
+                }).then(svgText => {
+                    try {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(svgText, 'image/svg+xml');
+                        const svg = doc.documentElement;
+                        // ensure svg scales to text height
+                        svg.removeAttribute('width');
+                        svg.removeAttribute('height');
+                        svg.setAttribute('width', '1em');
+                        svg.setAttribute('height', '1em');
+                        svg.setAttribute('aria-hidden', 'true');
+                        svg.style.verticalAlign = '-0.12em';
+                        // allow the svg to inherit color from the badge
+                        svg.style.color = 'inherit';
+                        img.replaceWith(svg);
+                    } catch (e) {
+                        // on parse error, leave the <img> as-is
+                        console.error('SVG parse error', e);
+                    }
+                }).catch(err => {
+                    console.error('Failed to inline SVG', src, err);
+                });
+            });
+        })(flashcardContainer);
         const feedbackAreaEl = document.getElementById('feedback-area');
         const checkAnswerBtn = document.getElementById('check-answer-btn');
         if (!checkAnswerBtn) return;
@@ -200,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadQuiz(quizId) {
         currentQuizId = quizId;
         localStorage.setItem('currentQuizId', quizId);
-        
+
         try {
             const response = await fetch(`/_data/${quizId}.json`);
             if (!response.ok) throw new Error(`Could not load ${quizId}.json (status: ${response.status})`);
@@ -226,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Page navigation active state
     const currentPage = window.location.pathname;
     document.querySelectorAll('.nav-link').forEach(link => {
-        if (link.getAttribute('href') === currentPage || 
+        if (link.getAttribute('href') === currentPage ||
             (currentPage === '/' && link.getAttribute('data-page') === 'quiz') ||
             (currentPage.startsWith('/stats') && link.getAttribute('data-page') === 'stats')) {
             link.classList.add('active');

@@ -1,3 +1,23 @@
+.question-difficulty .difficulty-icon {
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.45em;
+    object-fit: contain;
+    background: none;
+}
+
+.question-difficulty .difficulty-icon {
+    color: inherit;
+    /* allow embedded SVG to use currentColor */
+}
+
+/* fallback for broken images: show nothing */
+.question-difficulty .difficulty-icon:not([src]) {
+    display: none;
+}
+
 /* === Variables and Global Styles === */
 :root {
     --primary-bg: #f4f7f9;
@@ -238,14 +258,53 @@ body {
 }
 
 .question-difficulty {
-    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
     font-weight: 600;
     color: #fff;
     background-color: var(--meta-color);
-    padding: 0.3rem 0.6rem;
+    padding: 0.35rem 0.75rem;
     border-radius: 999px;
     text-transform: capitalize;
     align-self: flex-start;
+}
+
+/* subtle icon before the difficulty label; uses an SVG data-URI that inherits the badge color via currentColor */
+.question-difficulty svg {
+    display: inline-block;
+    width: 1em;
+    /* match text height */
+    height: 1em;
+    flex: 0 0 auto;
+    vertical-align: -0.15em;
+    /* nudge to better center with text */
+    color: inherit;
+    /* arc/dot use currentColor */
+    shape-rendering: geometricPrecision;
+    stroke-linejoin: round;
+}
+
+/* local SVG icon inside the difficulty badge */
+.question-difficulty .difficulty-icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: -0.12em;
+    margin-right: 0.45em;
+    object-fit: contain;
+}
+
+.question-difficulty .gauge-needle {
+    /* needle is colored via inline stroke from JS (for clarity/per-difficulty) */
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: transform 0.15s ease;
+}
+
+.question-difficulty .difficulty-text {
+    line-height: 1;
 }
 
 [data-theme="dark"] .question-difficulty {
