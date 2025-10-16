@@ -50,6 +50,14 @@ document.addEventListener('DOMContentLoaded', () => {
         sessionStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(sessionStats));
     }
 
+    function calculateAccuracy(history) {
+        if (!history || history.length === 0) return { correct: 0, total: 0, percentage: 0 };
+        const correct = history.filter(Boolean).length;
+        const total = history.length;
+        const percentage = Math.round((correct / total) * 100);
+        return { correct, total, percentage };
+    }
+
     function calculateMastery() {
         const attemptedQuestions = allQuestions.filter(q => userStats[q.id]?.history.length > 0);
         if (attemptedQuestions.length === 0) return { correct: 0, total: 0, percentage: 0 };
@@ -108,15 +116,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
         flashcardContainer.innerHTML = `<h2 class="question-topic">${q.topic || 'Question'}</h2><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
         renderMath(flashcardContainer);
-        document.getElementById('check-answer-btn').addEventListener('click', () => checkAnswer(q));
+        const feedbackAreaEl = document.getElementById('feedback-area');
+        const checkAnswerBtn = document.getElementById('check-answer-btn');
+        if (!checkAnswerBtn) return;
+        const handleCheckAnswer = () => checkAnswer(q, feedbackAreaEl, checkAnswerBtn, handleCheckAnswer);
+        checkAnswerBtn.addEventListener('click', handleCheckAnswer);
     }
 
-    function checkAnswer(q) {
+    function checkAnswer(q, feedbackAreaEl, checkButton, checkHandler) {
         const selectedOptionEl = document.querySelector('input[name="answer"]:checked');
         if (!selectedOptionEl) return;
         const userAnswer = selectedOptionEl.value;
         const isCorrect = userAnswer === q.correctAnswer;
         userStats[q.id].history.push(isCorrect);
+        if (!Array.isArray(sessionStats.history)) sessionStats.history = [];
         sessionStats.history.push(isCorrect);
         document.querySelectorAll('.option-label').forEach(label => {
             const input = label.querySelector('input');
@@ -131,13 +144,25 @@ document.addEventListener('DOMContentLoaded', () => {
         let feedbackHtml = `<div class="review-section">`;
         if (q.explanation) feedbackHtml += `<div class="explanation">${q.explanation}</div>`;
         feedbackHtml += `<div class="question-meta"><span><strong>Accuracy:</strong> ${lifetime.percentage}%</span><span><strong>History:</strong> ${historyHtml}</span></div></div>`;
-        document.getElementById('feedback-area').innerHTML = feedbackHtml;
-        renderMath(document.getElementById('feedback-area'));
+        let feedbackTarget = feedbackAreaEl;
+        if (!feedbackTarget) {
+            feedbackTarget = document.createElement('div');
+            feedbackTarget.id = 'feedback-area';
+            flashcardContainer.appendChild(feedbackTarget);
+        }
+        feedbackTarget.innerHTML = feedbackHtml;
+        renderMath(feedbackTarget);
         saveStats();
         renderMastery();
-        const checkButton = document.getElementById('check-answer-btn');
+        if (!checkButton) return;
+        if (typeof checkHandler === 'function') checkButton.removeEventListener('click', checkHandler);
         checkButton.textContent = 'Next Question';
-        checkButton.onclick = () => renderQuestion(selectNextQuestion());
+        checkButton.setAttribute('aria-label', 'Load the next question');
+        const handleNextQuestion = () => {
+            checkButton.removeEventListener('click', handleNextQuestion);
+            renderQuestion(selectNextQuestion());
+        };
+        checkButton.addEventListener('click', handleNextQuestion);
     }
 
     function resetAllProgress() {
@@ -167,4 +192,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     initializeQuiz();
 });
-
