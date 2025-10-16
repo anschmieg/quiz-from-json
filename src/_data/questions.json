@@ -1,1097 +1,509 @@
 {
-  "title": "Empirical Economics Quiz",
+  "title": "Semantisch‑lexikalische Entwicklungsstörungen – Klausurtraining (Deutsch)",
   "questions": [
     {
-      "id": "mcq_006",
-      "questionText": "Log–level model: $\\log(y) = \\alpha + \\beta x$ with \\beta = 0.08$. Best interpretation?",
+      "id": "de_mcq_001",
+      "questionText": "Wie wird eine semantisch‑lexikalische Entwicklungsstörung definiert?",
       "options": [
-        "Causal inference",
-        "Prediction",
-        "Policy evaluation",
-        "Hypothesis testing"
+        "Als reine Artikulationsstörung ohne semantische Bezüge",
+        "Als anhaltende, nicht altersgemäße Schwierigkeiten beim lexikalischen Ausdruck und beim Interpretieren von Äußerungen",
+        "Als vorübergehende Wortfindungsschwäche im Vorschulalter",
+        "Als isolierte Lesestörung ohne Sprachbezug"
       ],
-      "correctAnswer": "Prediction",
-      "difficulty": "easy",
-      "topic": "Lecture 1 – Prediction vs Causation",
-      "explanation": "Prediction prioritizes minimizing forecast error on unseen data (e.g., rolling or expanding window RMSE). Causal inference would target an unbiased effect under identification assumptions like $E[u|X]=0$."
+      "correctAnswer": "Als anhaltende, nicht altersgemäße Schwierigkeiten beim lexikalischen Ausdruck und beim Interpretieren von Äußerungen",
+      "difficulty": "leicht",
+      "topic": "Grundlagen",
+      "explanation": "Semantisch‑lexikalische Störungen betreffen Wortschatz, Bedeutungsaufbau und Zugriff (Produktion und Verständnis) und sind erheblich sowie anhaltend."
     },
     {
-      "id": "mcq_002",
-      "questionText": "A survey samples different households in 2018 and a new independent sample in 2024 (no tracking of the same households). What type of data is this?",
+      "id": "de_mcq_002",
+      "questionText": "Welche beiden Ebenen unterscheidet das Modell des mentalen Lexikons nach Levelt (1989)?",
       "options": [
-        "Cross-sectional data",
-        "Time series data",
-        "Pooled cross-sections",
-        "Panel (longitudinal) data"
+        "Morphologie und Syntax",
+        "Lemma‑Ebene (Bedeutung, Grammatik) und Lexem‑Ebene (Wortform)",
+        "Phonetik und Pragmatik",
+        "Semantik und Prosodie als identische Ebenen"
       ],
-      "correctAnswer": "Pooled cross-sections",
-      "difficulty": "medium",
-      "topic": "Lecture 1 – Data Types",
-      "explanation": "Two independent cross-sections at different times form pooled cross-sections. Panel data would follow the same units; a time series is one variable over time."
+      "correctAnswer": "Lemma‑Ebene (Bedeutung, Grammatik) und Lexem‑Ebene (Wortform)",
+      "difficulty": "leicht",
+      "topic": "Mentales Lexikon",
+      "explanation": "Auf der Lemma‑Ebene liegt Bedeutungs‑ und grammatisches Wissen, auf der Lexem‑Ebene die Form (phonologische Repräsentation)."
     },
     {
-      "id": "mcq_003",
-      "questionText": "In the OLS model $y = \\beta_0 + \\beta_1 x + u$, which sample property holds by the first-order conditions?",
+      "id": "de_mcq_003",
+      "questionText": "Welche Aussage zur Organisation des mentalen Lexikons ist korrekt?",
       "options": [
-        "Residuals are uncorrelated with $x$",
-        "Residuals are normally distributed",
-        "Residual variance is constant",
-        "Residuals sum to the mean of $y$"
+        "Es ist unstrukturiert und zufällig abgelegt.",
+        "Es ist als Netzwerk organisiert mit semantischen und phonologischen Verknüpfungen.",
+        "Es besteht nur aus Wortlisten ohne Verbindungen.",
+        "Es enthält ausschließlich phonologische Informationen."
       ],
-      "correctAnswer": "Residuals are uncorrelated with $x$",
-      "difficulty": "medium",
-      "topic": "Lecture 1 – OLS Properties",
-      "explanation": "Normal equations imply $\\sum_i \\hat u_i x_i=0$ and (with an intercept) $\\sum_i \\hat u_i=0$. Normality and homoskedasticity are not guaranteed by OLS."
+      "correctAnswer": "Es ist als Netzwerk organisiert mit semantischen und phonologischen Verknüpfungen.",
+      "difficulty": "leicht",
+      "topic": "Mentales Lexikon",
+      "explanation": "Wortwissen ist in Knoten und Kanten vernetzt; Verknüpfungen unterstützen Abruf und Lernen."
     },
     {
-      "id": "mcq_004",
-      "questionText": "A simple regression of CEO salary on profits yields $R^2 = 0.09$. Correct interpretation?",
+      "id": "de_mcq_004",
+      "questionText": "Welches Symptom passt NICHT typisch zu semantisch‑lexikalischen Störungen?",
       "options": [
-        "9% chance the relation is causal",
-        "9% of the variation in salary is explained by profits",
-        "Salary rises 9% for each €1 profit",
-        "The slope is biased by 9%"
+        "Semantische Paraphasien und Umschreibungen",
+        "Quantitative und qualitative Wortschatzarmut",
+        "Erhöhte Abrufstabilität",
+        "Pausenfüller und Suchstrategien in der Spontansprache"
       ],
-      "correctAnswer": "9% of the variation in salary is explained by profits",
-      "difficulty": "easy",
-      "topic": "Lecture 1 – Model Fit",
-      "explanation": "$R^2$ is the share of sample variance in $y$ explained by the regressors. It does not imply causality or a percentage slope."
+      "correctAnswer": "Erhöhte Abrufstabilität",
+      "difficulty": "leicht",
+      "topic": "Grundlagen",
+      "explanation": "Typisch sind Abrufprobleme; erhöhte Abrufstabilität wäre das Gegenteil."
     },
     {
-      "id": "mcq_005",
-      "questionText": "Log–log model: $\\log(\\text{Sales}) = 3.8 + 0.45\\,\\log(\\text{AdSpend})$. Interpretation of 0.45?",
+      "id": "de_mcq_005",
+      "questionText": "Welche Methode gehört zur Beobachtungsphase der Diagnostik?",
       "options": [
-        "€1 more AdSpend raises sales by 0.45 units",
-        "1% more AdSpend is associated with 0.45% more sales",
-        "1% more AdSpend raises sales by 0.45 units",
-        "Elasticity of log-sales w.r.t. AdSpend in euros"
+        "Wörterbuchtest ohne Bilder",
+        "Erfassung der Spontansprache z. B. im Erzählkreis",
+        "Reine Schriftsprachanalyse",
+        "Nur Elternfragebogen ohne Kindbeobachtung"
       ],
-      "correctAnswer": "1% more AdSpend is associated with 0.45% more sales",
-      "difficulty": "easy",
-      "topic": "Lecture 1 – Functional Forms",
-      "explanation": "In a log–log model the slope is an elasticity: $\\partial\\ln y/\\partial\\ln x=0.45$. A 1% rise in $x$ is associated with ~0.45% rise in $y$."
+      "correctAnswer": "Erfassung der Spontansprache z. B. im Erzählkreis",
+      "difficulty": "leicht",
+      "topic": "Diagnostik – Beobachtung",
+      "explanation": "Spontansprache, Bildergeschichten und kriteriengeleitete Beobachtungsbögen liefern erste Hinweise."
     },
     {
-      "id": "mcq_006",
-      "questionText": "Log–level model: $\\log(y) = a + \\beta x$ with $\\beta = 0.08$. Best interpretation?",
+      "id": "de_mcq_006",
+      "questionText": "Welcher Test ist für das Grundschulalter (ca. 5;6–10;11) zentral zur Erfassung des Wortschatzes?",
       "options": [
-        "A one-unit increase in $x$ changes $y$ by 0.08 units",
-        "A one-unit increase in $x$ is associated with an 8% increase in $y$",
-        "A 1% increase in $x$ raises $y$ by 0.08%",
-        "A one-unit increase in $x$ is associated with a 0.08% increase in $y$"
+        "PDSS",
+        "WWT 6–10",
+        "SET‑K",
+        "Aachener Aphasie Test"
       ],
-      "correctAnswer": "A one-unit increase in $x$ is associated with an 8% increase in $y$",
-      "difficulty": "medium",
-      "topic": "Lecture 1 – Functional Forms",
-      "explanation": "In log–level, $\\partial \\ln y/\\partial x=\\beta$. A one-unit increase in $x$ implies approximately $100\\times \\beta=8\\%$ increase in $y$."
+      "correctAnswer": "WWT 6–10",
+      "difficulty": "leicht",
+      "topic": "Diagnostik – Testverfahren",
+      "explanation": "Der WWT 6–10 erfasst expressive und rezeptive Wortschatzleistungen im Grundschulalter."
     },
     {
-      "id": "mcq_007",
-      "questionText": "Regress Wage on Education but omit Ability. Ability is positively correlated with Education and positively affects Wage. Direction of bias on Education?",
+      "id": "de_mcq_007",
+      "questionText": "Welche Subtests gehören typischerweise zum WWT 6–10?",
       "options": [
-        "Upward bias",
-        "Downward bias",
-        "No bias",
-        "Cannot be determined"
+        "Nur Pseudowortnachsprechen",
+        "Bildbenennen (expressiv), Wiederholung zur Benennkonsistenz, Abrufhilfen, Bildauswahl (rezeptiv)",
+        "Leseflüssigkeit und Rechtschreibung",
+        "Nur Kategorienbildung ohne Bilder"
       ],
-      "correctAnswer": "Upward bias",
-      "difficulty": "hard",
-      "topic": "Lecture 2 – Omitted Variable Bias",
-      "explanation": "Bias sign: $\\operatorname{sign}(\\beta_Z)\\times\\operatorname{sign}(\\operatorname{Cov}(X,Z))=(+)\\times(+)\\Rightarrow$ upward bias in the education coefficient."
+      "correctAnswer": "Bildbenennen (expressiv), Wiederholung zur Benennkonsistenz, Abrufhilfen, Bildauswahl (rezeptiv)",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Testverfahren",
+      "explanation": "Der WWT kombiniert expressive und rezeptive Aufgaben sowie gestufte Abrufhilfen."
     },
     {
-      "id": "mcq_008",
-      "questionText": "Which is a bad control when estimating the effect of education on wages?",
+      "id": "de_mcq_008",
+      "questionText": "Für welches Alter ist die PDSS (Patholinguistische Diagnostik bei SES) primär vorgesehen?",
       "options": [
-        "Years of experience (confounder)",
-        "Innate ability (confounder)",
-        "Current occupation if partly determined by education (mediator)",
-        "Age in years"
+        "2;6–6;11 Jahre",
+        "5;6–10;11 Jahre",
+        "11–18 Jahre",
+        "Erwachsenenalter"
       ],
-      "correctAnswer": "Current occupation if partly determined by education (mediator)",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Good vs Bad Controls",
-      "explanation": "Controlling for a mediator blocks part of the treatment effect and can induce bias. Confounders (pre-treatment) are appropriate controls."
+      "correctAnswer": "2;6–6;11 Jahre",
+      "difficulty": "leicht",
+      "topic": "Diagnostik – Testverfahren",
+      "explanation": "Die PDSS deckt frühe bis mittlere Kindheit ab und umfasst u. a. Wörter produzieren/verstehen und Kategorisieren."
     },
     {
-      "id": "mcq_009",
-      "questionText": "Which change generally makes the OLS slope more precise?",
+      "id": "de_mcq_009",
+      "questionText": "Welcher Wert spricht in der Normdiagnostik für eine bedeutsame Abweichung?",
       "options": [
-        "Reduce sample size",
-        "Increase error variance",
-        "Decrease variance of $x$",
-        "Increase variance of $x$"
+        "T‑Wert 50",
+        "Prozentrang 25",
+        "T‑Wert ≤ 35 (≈ PR 7)",
+        "Z‑Wert ≥ +1,5"
       ],
-      "correctAnswer": "Increase variance of $x$",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Precision of OLS",
-      "explanation": "$\\operatorname{Var}(\\hat\\beta_1)$ decreases with larger $\\operatorname{Var}(x)$ and larger $n$, but increases with $\\sigma_u^2$."
+      "correctAnswer": "T‑Wert ≤ 35 (≈ PR 7)",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Normwerte",
+      "explanation": "Etwa 1,5 Standardabweichungen unter dem Mittel entsprechen T ≤ 35 und PR ≤ 7."
     },
     {
-      "id": "mcq_010",
-      "questionText": "In $y = \\beta_0 + \\beta_1 x_1 + \\beta_2 x_2 + u$, $\\beta_1$ measures:",
+      "id": "de_mcq_010",
+      "questionText": "Was überprüft man zur Absicherung einer Wortfindungsstörung (qualitatives Defizit) zusätzlich zur Wortproduktion?",
       "options": [
-        "Total effect of $x_1$ ignoring $x_2$",
-        "Correlation of $x_1$ and $y$",
-        "Effect of $x_1$ on $y$ holding $x_2$ constant",
-        "Average of $y$ when $x_1=1$"
+        "Nur Rechtschreibung",
+        "Wortverständnis (rezeptiv), Benennkonsistenz, Wirkung von Abrufhilfen, Benenntempo",
+        "Nur IQ‑Test",
+        "Ausschließlich Prosodie"
       ],
-      "correctAnswer": "Effect of $x_1$ on $y$ holding $x_2$ constant",
-      "difficulty": "easy",
-      "topic": "Lecture 2 – Interpretation",
-      "explanation": "$\\beta_1$ is the ceteris paribus (partial) effect: $\\partial y/\\partial x_1$ given $x_2$."
+      "correctAnswer": "Wortverständnis (rezeptiv), Benennkonsistenz, Wirkung von Abrufhilfen, Benenntempo",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Differenzialdiagnostik",
+      "explanation": "So wird zwischen Inventarproblem und Abrufproblem unterschieden und die Abrufbarkeit genauer eingeordnet."
     },
     {
-      "id": "mcq_011",
-      "questionText": "To test that several coefficients are jointly zero, use:",
+      "id": "de_mcq_011",
+      "questionText": "Welche Ablenker werden in rezeptiven Bildauswahlaufgaben typischerweise verwendet?",
       "options": [
-        "t-test",
-        "F-test",
-        "Durbin–Watson test",
-        "Breusch–Pagan test"
+        "Nur farbliche Ablenker",
+        "Semantische, phonologische und themenfremde Ablenker",
+        "Nur semantische Ablenker",
+        "Nur phonologische Ablenker"
       ],
-      "correctAnswer": "F-test",
-      "difficulty": "easy",
-      "topic": "Lecture 2 – Hypothesis Testing",
-      "explanation": "The F-test evaluates multiple linear restrictions $H_0: R\\beta=r$. A t-test is for a single linear restriction."
+      "correctAnswer": "Semantische, phonologische und themenfremde Ablenker",
+      "difficulty": "leicht",
+      "topic": "Diagnostik – Aufgabenformate",
+      "explanation": "Verschiedene Ablenkertypen erlauben Rückschlüsse auf Repräsentation und Zugriff."
     },
     {
-      "id": "mcq_012",
-      "questionText": "High (not perfect) multicollinearity primarily causes:",
+      "id": "de_mcq_012",
+      "questionText": "Welche Aussage zur Kategorisierungsleistung ist korrekt?",
       "options": [
-        "Biased coefficients",
-        "Large standard errors",
-        "Lower $R^2$",
-        "Biased intercept only"
+        "Sie ist für die Diagnostik irrelevant.",
+        "Sie gibt Einblick in die semantische Organisation (z. B. Ober‑/Unterbegriffe).",
+        "Sie zeigt nur phonologische Fähigkeiten.",
+        "Sie wird ausschließlich im Jugendalter überprüft."
       ],
-      "correctAnswer": "Large standard errors",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Multicollinearity",
-      "explanation": "Near collinearity inflates variances of $\\hat\\beta$ and makes estimates unstable across similar specifications; it does not bias OLS if $E[u|X]=0$."
+      "correctAnswer": "Sie gibt Einblick in die semantische Organisation (z. B. Ober‑/Unterbegriffe).",
+      "difficulty": "leicht",
+      "topic": "Diagnostik – Semantische Organisation",
+      "explanation": "Kategorisieren zeigt, ob paradigmatische Strukturen aufgebaut sind."
     },
     {
-      "id": "mcq_013",
-      "questionText": "Consider the regression: $\\text{Wage} = \\beta_0 + \\beta_1 \\cdot \\text{Female} + \\beta_2 \\cdot \\text{Educ} + \\beta_3 \\cdot (\\text{Female} \\times \\text{Educ}) + u$. What does $\\beta_3$ measure?",
+      "id": "de_mcq_013",
+      "questionText": "Welches Ziel verfolgt die Elaborationstherapie vorrangig?",
       "options": [
-        "Wage gap at zero education",
-        "Return to education for females",
-        "Difference in returns to education between females and males",
-        "Return to education for males"
+        "Beschleunigung der Artikulation",
+        "Verbesserung der Speicherqualität durch Ausdifferenzierung und Vernetzung von Wortwissen",
+        "Ausschließliches Training der Schriftform",
+        "Reduktion des Wortschatzumfangs zwecks Übersichtlichkeit"
       ],
-      "correctAnswer": "Difference in returns to education between females and males",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Interactions and Dummies",
-      "explanation": "$\\beta_3$ is the interaction slope difference: $\\partial\\text{Wage}/\\partial\\text{Educ}$ for females minus that for males."
+      "correctAnswer": "Verbesserung der Speicherqualität durch Ausdifferenzierung und Vernetzung von Wortwissen",
+      "difficulty": "leicht",
+      "topic": "Intervention – Elaboration",
+      "explanation": "Elaboration reichert Lemma‑ und Lexem‑Informationen an und stärkt Verknüpfungen."
     },
     {
-      "id": "mcq_014",
-      "questionText": "Adjusted $R^2$ compared to $R^2$:",
+      "id": "de_mcq_014",
+      "questionText": "Welche Übung passt NICHT primär zur semantischen Elaboration?",
       "options": [
-        "Always increases when adding regressors",
-        "Penalizes extra regressors and can fall when adding irrelevant variables",
-        "Ignores sample size",
-        "Is numerically identical to AIC"
+        "Mindmaps und Sortieraufgaben nach Merkmalen",
+        "Gegensatzpaare finden",
+        "Reimübungen und Silbenrätsel",
+        "‚Was passt nicht dazu?‘"
       ],
-      "correctAnswer": "Penalizes extra regressors and can fall when adding irrelevant variables",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Model Fit",
-      "explanation": "$R^2_{adj}=1-(1-R^2)\\frac{n-1}{n-k-1}$; adding weak regressors can reduce $R^2_{adj}$ due to the degrees-of-freedom penalty."
+      "correctAnswer": "Reimübungen und Silbenrätsel",
+      "difficulty": "mittel",
+      "topic": "Intervention – Elaboration",
+      "explanation": "Reim/Silbenübungen gehören eher zur phonologischen Elaboration (Lexem‑Ebene)."
     },
     {
-      "id": "mcq_015",
-      "questionText": "AIC vs BIC: typically, BIC:",
+      "id": "de_mcq_015",
+      "questionText": "Welche Qualitätsmerkmale adressiert die Abruftherapie direkt?",
       "options": [
-        "Penalizes less and selects larger models",
-        "Penalizes more and selects simpler models",
-        "Ignores likelihood",
-        "Equals adjusted $R^2$"
+        "Abrufgeschwindigkeit, Abrufgenauigkeit, Abrufstabilität",
+        "Atemfrequenz, Lautstärke, Prosodie",
+        "Schriftbild, Orthografie, Interpunktion",
+        "Konzentration, Motorik, Feinmotorik"
       ],
-      "correctAnswer": "Penalizes more and selects simpler models",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Model Selection",
-      "explanation": "BIC penalty is $k\\ln n$ (larger than AIC’s $2k$ for $n\\ge 8$), so BIC tends to choose more parsimonious models."
+      "correctAnswer": "Abrufgeschwindigkeit, Abrufgenauigkeit, Abrufstabilität",
+      "difficulty": "leicht",
+      "topic": "Intervention – Abruf",
+      "explanation": "Diese drei Dimensionen werden über häufige, variierte Abrufe und Priming‑Kontexte gefördert."
     },
     {
-      "id": "mcq_016",
-      "questionText": "A time series is covariance stationary if:",
+      "id": "de_mcq_016",
+      "questionText": "Welche Maßnahme gehört typischerweise zur Abruftherapie?",
       "options": [
-        "Mean, variance, and autocovariance are time-invariant",
-        "Mean and variance are zero",
-        "It has a deterministic trend only",
-        "Its autocorrelations are all zero"
+        "Schnellbenennübungen und Wörterraten mit steigendem Zeitdruck",
+        "Ausschließlich lautes Vorlesen",
+        "Nur Grammatikförderung",
+        "Ausschließlich schriftliche Tests"
       ],
-      "correctAnswer": "Mean, variance, and autocovariance are time-invariant",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Stationarity",
-      "explanation": "Weak stationarity: $E(Y_t)=\\mu$, $\\operatorname{Var}(Y_t)=\\sigma^2$, and $\\operatorname{Cov}(Y_t,Y_{t-k})=\\gamma_k$ depends only on $k$."
+      "correctAnswer": "Schnellbenennübungen und Wörterraten mit steigendem Zeitdruck",
+      "difficulty": "mittel",
+      "topic": "Intervention – Abruf",
+      "explanation": "Automatisierung entsteht durch häufige, variierte Abrufe und zunehmende Zeitvorgaben."
     },
     {
-      "id": "mcq_017",
-      "questionText": "ADF test is primarily used to:",
+      "id": "de_mcq_017",
+      "questionText": "Welches Ziel verfolgt die Strategietherapie (z. B. ‚Wortschatzsammler‘) im Kern?",
       "options": [
-        "Detect serial correlation in residuals",
-        "Test for a unit root",
-        "Test for heteroskedasticity",
-        "Select lag length"
+        "Kurzfristige Auswendiglernleistung",
+        "Vermittlung von Worterwerbs‑, Abruf‑, Kompensations‑ und Selbstmanagementstrategien",
+        "Nur Fehlervermeidung in Tests",
+        "Ausschließlich phonologische Schulung"
       ],
-      "correctAnswer": "Test for a unit root",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Unit Root Tests",
-      "explanation": "ADF tests $H_0:$ unit root via $\\Delta y_t=\\alpha+\\beta t+\\phi y_{t-1}+\\sum_{i=1}^p\\delta_i\\Delta y_{t-i}+\\varepsilon_t$; reject if $\\hat\\phi$ is sufficiently negative."
+      "correctAnswer": "Vermittlung von Worterwerbs‑, Abruf‑, Kompensations‑ und Selbstmanagementstrategien",
+      "difficulty": "leicht",
+      "topic": "Intervention – Strategie",
+      "explanation": "Kinder lernen, ihren Wortschatz eigenständig zu erweitern und Abrufprobleme zu managen."
     },
     {
-      "id": "mcq_018",
-      "questionText": "Regressing two unrelated trending series on each other with high $R^2$ indicates:",
+      "id": "de_mcq_018",
+      "questionText": "Welche Aussage zur Generalisierung ist korrekt?",
       "options": [
-        "Omitted variable bias",
-        "Spurious regression",
-        "Measurement error",
-        "Perfect multicollinearity"
+        "Ziel ist, alle fehlenden Wörter explizit zu lehren.",
+        "Ziel ist, Prinzipien und Strategien an exemplarischen Wortfeldern zu erarbeiten und auf Neues zu übertragen.",
+        "Generalisierung ist in der Wortschatzarbeit nicht möglich.",
+        "Sie betrifft nur die Rechtschreibung."
       ],
-      "correctAnswer": "Spurious regression",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Spurious Regression",
-      "explanation": "Non-stationary trends can produce high $R^2$ and significant $t$-stats even without a true relationship; differencing or cointegration methods are needed."
+      "correctAnswer": "Ziel ist, Prinzipien und Strategien an exemplarischen Wortfeldern zu erarbeiten und auf Neues zu übertragen.",
+      "difficulty": "leicht",
+      "topic": "Intervention – Ziel",
+      "explanation": "Selbstlernfähigkeit statt vollständiger Abdeckung aller Wörter steht im Mittelpunkt."
     },
     {
-      "id": "mcq_019",
-      "questionText": "In AR(1): $Y_t = \\alpha + \\phi Y_{t-1} + u_t$, $|\\phi|=1$ implies:",
+      "id": "de_mcq_019",
+      "questionText": "Welche Rolle spielen Gesten/Gebärden im Unterricht bei semantisch‑lexikalischen Störungen?",
       "options": [
-        "Stationary mean reversion",
-        "Explosive series",
-        "Random walk (non-stationary)",
-        "White noise"
+        "Sie sind kontraindiziert.",
+        "Sie unterstützen multimodal das Wortverstehen und -behalten, besonders bei SES und Mehrsprachigkeit.",
+        "Sie ersetzen Lautsprache vollständig.",
+        "Sie sind nur in der Sekundarstufe sinnvoll."
       ],
-      "correctAnswer": "Random walk (non-stationary)",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – AR(1)",
-      "explanation": "When $|\\phi|=1$, the process has a unit root; shocks are permanent and variance increases with $t$."
+      "correctAnswer": "Sie unterstützen multimodal das Wortverstehen und -behalten, besonders bei SES und Mehrsprachigkeit.",
+      "difficulty": "leicht",
+      "topic": "Intervention – Gebärden",
+      "explanation": "Inputspezifizierung über Gebärden erhöht Verarbeitungs‑ und Speicherqualität."
     },
     {
-      "id": "mcq_020",
-      "questionText": "White noise errors $u_t$ are characterized by:",
+      "id": "de_mcq_020",
+      "questionText": "Welche Aussage zur Differenzialdiagnostik trifft zu?",
       "options": [
-        "Nonzero mean and no autocorrelation",
-        "Zero mean, constant variance, no autocorrelation",
-        "Time-varying variance and autocorrelation",
-        "Strong seasonality"
+        "Qualitative Defizite zeigen sich trotz vorhandenem Wortschatz durch mangelhafte Vernetzung und Abrufprobleme.",
+        "Nur quantitative Defizite sind relevant.",
+        "Qualitative Defizite werden ausschließlich schriftlich getestet.",
+        "Differenzialdiagnostik ist optional und nicht prüfungsrelevant."
       ],
-      "correctAnswer": "Zero mean, constant variance, no autocorrelation",
-      "difficulty": "easy",
-      "topic": "Lecture 3 – White Noise",
-      "explanation": "White noise: $E(u_t)=0$, $\\operatorname{Var}(u_t)=\\sigma^2$, and $\\operatorname{Cov}(u_t,u_s)=0$ for $t\\ne s$."
+      "correctAnswer": "Qualitative Defizite zeigen sich trotz vorhandenem Wortschatz durch mangelhafte Vernetzung und Abrufprobleme.",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Differenzialdiagnostik",
+      "explanation": "Ein qualitatives Profil wird durch Konsistenz, Abrufhilfen und Kategorisierung greifbar."
     },
     {
-      "id": "mcq_021",
-      "questionText": "A correlogram (ACF plot) shows bars outside confidence bands at low lags. This suggests:",
+      "id": "de_mcq_021",
+      "questionText": "Welche Angabe zum Test GraWo ist zutreffend?",
       "options": [
-        "No persistence",
-        "Statistically significant autocorrelation at those lags",
-        "Heteroskedasticity",
-        "A unit root is certain"
+        "Erfasst ausschließlich Orthografie in Klasse 4.",
+        "Ist ein Klassen‑Screening des Wortschatzes, v. a. 1.–3. Klasse.",
+        "Ist ein Intelligenztest für die Oberstufe.",
+        "Prüft nur phonologisches Bewusstsein."
       ],
-      "correctAnswer": "Statistically significant autocorrelation at those lags",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – ACF/Correlogram",
-      "explanation": "Bars beyond the bands indicate $\\rho_k\\ne 0$; the series exhibits serial dependence at those lags."
+      "correctAnswer": "Ist ein Klassen‑Screening des Wortschatzes, v. a. 1.–3. Klasse.",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Screening",
+      "explanation": "GraWo erlaubt ökonomische Erfassung des Wortverständnisses auf Klassenebene."
     },
     {
-      "id": "mcq_022",
-      "questionText": "Breusch–Godfrey test is used to detect:",
+      "id": "de_mcq_022",
+      "questionText": "Welche Aussage beschreibt ‚Abrufhilfen‘ im WWT korrekt?",
       "options": [
-        "Heteroskedasticity",
-        "Serial correlation up to order p in residuals",
-        "Unit roots in $Y$",
-        "Nonlinearity"
+        "Abrufhilfen sind verboten.",
+        "Es gibt gestufte Hinweise (z. B. semantisch, phonologisch), um Abrufstörungen differenziert zu prüfen.",
+        "Nur phonologische Hinweise sind erlaubt.",
+        "Abrufhilfen ersetzen die Bildbenennung."
       ],
-      "correctAnswer": "Serial correlation up to order p in residuals",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Diagnostics",
-      "explanation": "BG tests $H_0:$ no AR($p$) in residuals by regressing $\\hat u_t$ on the original regressors and $\\hat u_{t-1},\\ldots,\\hat u_{t-p}$."
+      "correctAnswer": "Es gibt gestufte Hinweise (z. B. semantisch, phonologisch), um Abrufstörungen differenziert zu prüfen.",
+      "difficulty": "leicht",
+      "topic": "Diagnostik – Abrufhilfen",
+      "explanation": "Die gestufte Vorgabe zeigt, auf welcher Ebene der Abruf angestoßen werden kann."
     },
     {
-      "id": "mcq_023",
-      "questionText": "In an MA($q$) model, for horizon $h>q$, forecasts tend to:",
+      "id": "de_mcq_023",
+      "questionText": "Welche Unterrichtsaktivität unterstützt primär die phonologische Elaboration (Lexem‑Ebene)?",
       "options": [
-        "Explode",
-        "Follow the last value",
-        "Revert to the process mean",
-        "Oscillate randomly around zero with growing variance"
+        "Mindmaps zu Oberbegriffen",
+        "Reimspiele und Silben‑Trommeln (Rhythmicals)",
+        "Kategorisierungsaufgaben nach Merkmalen",
+        "Gegensatzpaare ordnen"
       ],
-      "correctAnswer": "Revert to the process mean",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Forecasting",
-      "explanation": "For $h>q$, future shocks are unknown with zero conditional mean, so forecasts converge to $\\mu$."
+      "correctAnswer": "Reimspiele und Silben‑Trommeln (Rhythmicals)",
+      "difficulty": "mittel",
+      "topic": "Intervention – Phonologische Elaboration",
+      "explanation": "Phonologische Merkmale der Wortform werden explizit zugänglich gemacht."
     },
     {
-      "id": "mcq_024",
-      "questionText": "In an ARDL($p,q$) model, the long-run multiplier for $X$ represents:",
+      "id": "de_mcq_024",
+      "questionText": "Welche Unterrichtsmaßnahme eignet sich besonders zur Vorbereitung (Priming) von Wortschatzthemen?",
       "options": [
-        "Immediate impact of $X$ on $Y$",
-        "Total equilibrium change in $Y$ after a permanent change in $X$",
-        "Persistence of $Y$ via AR terms",
-        "Average short-run effect"
+        "Unangekündigte Tests ohne Kontext",
+        "Einstimmung durch Bilder, Überschriften, Fantasiereisen und Vorentlastung schwieriger Wörter",
+        "Nur stilles Lesen",
+        "Nur Abschreiben von Definitionen"
       ],
-      "correctAnswer": "Total equilibrium change in $Y$ after a permanent change in $X$",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – ARDL",
-      "explanation": "LRM $=\\dfrac{\\sum_{j=0}^{q} \\beta_j}{1-\\sum_{i=1}^{p} \\phi_i}$ is the total long-run response after full adjustment."
+      "correctAnswer": "Einstimmung durch Bilder, Überschriften, Fantasiereisen und Vorentlastung schwieriger Wörter",
+      "difficulty": "mittel",
+      "topic": "Intervention – Abrufkontexte",
+      "explanation": "Vorgestaltete Abrufkontexte erhöhen die Grundaktivierung relevanter Einträge."
     },
     {
-      "id": "mcq_025",
-      "questionText": "Comparing two forecasting models using RMSE, a lower RMSE indicates:",
+      "id": "de_mcq_025",
+      "questionText": "Welche Aussage zur Benennkonsistenz trifft zu?",
       "options": [
-        "Better in-sample fit necessarily",
-        "Smaller average forecast error magnitude",
-        "Lower bias but higher variance",
-        "Greater parsimony"
+        "Sie ist diagnostisch bedeutungslos.",
+        "Niedrige Konsistenz über Wiederholungen stützt den Verdacht auf Abrufstörungen.",
+        "Hohe Konsistenz zeigt immer eine Störung.",
+        "Sie wird nur schriftlich erfasst."
       ],
-      "correctAnswer": "Smaller average forecast error magnitude",
-      "difficulty": "easy",
-      "topic": "Lecture 3 – Forecast Evaluation",
-      "explanation": "RMSE $=\\sqrt{\\tfrac{1}{n}\\sum e_t^2}$; lower RMSE means, on average, smaller squared forecast errors (out-of-sample)."
+      "correctAnswer": "Niedrige Konsistenz über Wiederholungen stützt den Verdacht auf Abrufstörungen.",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Benennkonsistenz",
+      "explanation": "Wechselnde Antworten bei Wiederholung sprechen für instabile Abrufprozesse."
     },
     {
-      "id": "mcq_026",
-      "questionText": "Including a linear time trend $t$ in a regression primarily captures:",
+      "id": "de_mcq_026",
+      "questionText": "Was ist KEIN primäres Ziel der Strategietherapie?",
       "options": [
-        "Short-run fluctuations",
-        "Long-run deterministic growth/decline",
-        "Seasonal effects",
-        "Autocorrelated errors"
+        "Eigenständiger Wortschatzerwerb der Lernenden",
+        "Bewusster Einsatz von Kompensationsstrategien",
+        "Erhöhung der Abhängigkeit von Lehrkraft‑Hinweisen",
+        "Selbstmanagement (Selbstbeobachtung und ‑steuerung)"
       ],
-      "correctAnswer": "Long-run deterministic growth/decline",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Time Trends",
-      "explanation": "A linear trend absorbs smooth long-run drift; seasonality is handled by seasonal dummies; AR terms address autocorrelation."
+      "correctAnswer": "Erhöhung der Abhängigkeit von Lehrkraft‑Hinweisen",
+      "difficulty": "leicht",
+      "topic": "Intervention – Strategie",
+      "explanation": "Im Gegenteil: Unabhängigkeit und Selbststeuerung sind Zielgrößen."
     },
     {
-      "id": "mcq_027",
-      "questionText": "Fixed Effects (Within) estimator removes unobserved time-invariant heterogeneity by:",
+      "id": "de_mcq_027",
+      "questionText": "Welche Aufgabe eignet sich zur Überprüfung der semantischen Relationen (paradigmatisch/taxonomisch)?",
       "options": [
-        "Differencing adjacent periods",
-        "Subtracting each individual’s time mean",
-        "Adding only time dummies",
-        "Using cross-sectional averages"
+        "Wiederholtes Lesen eines Textes",
+        "Zuordnung von Unterbegriffen zu Oberbegriffen und Ausschluss von Ablenkern",
+        "Zählen von Silben",
+        "Lautdifferenzierung minimaler Paare"
       ],
-      "correctAnswer": "Subtracting each individual’s time mean",
-      "difficulty": "easy",
-      "topic": "Lecture 4 – Fixed Effects",
-      "explanation": "Within transformation: $y_{it}-\\bar y_i$ and $x_{it}-\\bar x_i$ eliminate unit fixed effects $\\alpha_i$."
+      "correctAnswer": "Zuordnung von Unterbegriffen zu Oberbegriffen und Ausschluss von Ablenkern",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Semantische Relationen",
+      "explanation": "Paradigmatische Struktur zeigt sich im Umgang mit Ober‑/Unterordnungen und Kohyponymen."
     },
     {
-      "id": "mcq_028",
-      "questionText": "Which coefficient cannot be identified in a standard Fixed Effects model?",
+      "id": "de_mcq_028",
+      "questionText": "Welche Aussage zu thematisch‑assoziativen (syntagmatischen) Strukturen ist korrekt?",
       "options": [
-        "A time-invariant characteristic (e.g., gender) for an individual",
-        "A time-varying policy indicator",
-        "Lagged dependent variable",
-        "Time dummies"
+        "Sie treten erst im Erwachsenenalter auf.",
+        "Sie spielen früh eine Rolle; später gewinnen paradigmatische Relationen an Bedeutung.",
+        "Sie sind bedeutungslos für den Erwerb.",
+        "Sie ersetzen taxonomische Strukturen vollständig."
       ],
-      "correctAnswer": "A time-invariant characteristic (e.g., gender) for an individual",
-      "difficulty": "easy",
-      "topic": "Lecture 4 – FE Limitations",
-      "explanation": "Time-invariant regressors are collinear with unit dummies and drop out in the within transformation."
+      "correctAnswer": "Sie spielen früh eine Rolle; später gewinnen paradigmatische Relationen an Bedeutung.",
+      "difficulty": "mittel",
+      "topic": "Mentales Lexikon – Organisation",
+      "explanation": "Entwicklungsgang: frühe thematische, später zunehmend taxonomische Organisation."
     },
     {
-      "id": "mcq_029",
-      "questionText": "Strict exogeneity in panels requires that regressors are uncorrelated with:",
+      "id": "de_mcq_029",
+      "questionText": "Welche der folgenden Maßnahmen stärkt die Abrufstabilität über Zeit besonders?",
       "options": [
-        "Only current errors",
-        "Past and current errors",
-        "All past, current, and future idiosyncratic errors",
-        "Only future errors"
+        "Einmalige intensive Lerneinheit",
+        "Regelmäßige Wiederholungen in variierenden Kontexten",
+        "Nur lautes Vorlesen",
+        "Nur schriftliche Vokabellisten"
       ],
-      "correctAnswer": "All past, current, and future idiosyncratic errors",
-      "difficulty": "hard",
-      "topic": "Lecture 4 – Exogeneity",
-      "explanation": "Strict exogeneity: $E(u_{it}|X_i)=0$ for all $t$; this rules out feedback from $u$ to future $x$ and vice versa."
+      "correctAnswer": "Regelmäßige Wiederholungen in variierenden Kontexten",
+      "difficulty": "leicht",
+      "topic": "Intervention – Abruf",
+      "explanation": "Variation und Verteilung der Übung festigen Verknüpfungen im Netzwerk."
     },
     {
-      "id": "mcq_030",
-      "questionText": "FE vs First Differences: FD is preferred over FE when idiosyncratic errors:",
+      "id": "de_mcq_030",
+      "questionText": "Welche Angabe zur PDSS‑Aufgabe „Bilder sortieren“ trifft zu?",
       "options": [
-        "Are serially uncorrelated (white noise)",
-        "Follow a random walk",
-        "Are homoskedastic",
-        "Are independent across individuals"
+        "Erfasst rein phonologische Fähigkeiten.",
+        "Erfasst semantische Organisation über Oberbegriffe und Kategorien.",
+        "Ist ein Rechtschreibtest.",
+        "Prüft ausschließlich Syntax."
       ],
-      "correctAnswer": "Follow a random walk",
-      "difficulty": "hard",
-      "topic": "Lecture 4 – FE vs FD",
-      "explanation": "When $u_{it}$ is highly persistent (e.g., AR root near 1), first differencing can better remove it; FE is more efficient when $u_{it}$ is white noise."
+      "correctAnswer": "Erfasst semantische Organisation über Oberbegriffe und Kategorien.",
+      "difficulty": "leicht",
+      "topic": "Diagnostik – PDSS",
+      "explanation": "Das Sortieren zeigt, wie semantische Felder strukturiert sind."
     },
     {
-      "id": "mcq_031",
-      "questionText": "A balanced panel means:",
+      "id": "de_mcq_031",
+      "questionText": "Welche drei Säulen bilden die Wortschatztherapie nach Glück & Elsing (2014)?",
       "options": [
-        "All individuals observed for all time periods",
-        "No missing variables",
-        "Equal numbers of individuals and periods",
-        "Identical values of regressors across time"
+        "Artikulation, Prosodie, Orthografie",
+        "Elaborationstherapie, Abruftherapie, Strategietherapie",
+        "Lesen, Schreiben, Rechnen",
+        "Phonetik, Syntax, Pragmatik"
       ],
-      "correctAnswer": "All individuals observed for all time periods",
-      "difficulty": "easy",
-      "topic": "Lecture 4 – Panel Structure",
-      "explanation": "Balanced panels have the same $T$ for each unit; unbalanced panels allow different $T_i$."
+      "correctAnswer": "Elaborationstherapie, Abruftherapie, Strategietherapie",
+      "difficulty": "leicht",
+      "topic": "Intervention – Überblick",
+      "explanation": "Die drei Therapieformen werden je nach Befund kombiniert."
     },
     {
-      "id": "mcq_032",
-      "questionText": "Within vs Between variation: Fixed Effects estimates rely primarily on:",
+      "id": "de_mcq_032",
+      "questionText": "Welche Unterrichtsaktivität unterstützt vorrangig die semantische Elaboration (Lemma‑Ebene)?",
       "options": [
-        "Between-individual differences only",
-        "Within-individual changes over time",
-        "Cross-sectional averages",
-        "Time dummies only"
+        "Mindmaps zu Bedeutungsmerkmalen und Vergleiche innerhalb eines Wortfeldes",
+        "Nur Silbenklatschen",
+        "Nur Abschreibübungen",
+        "Nur Laut‑zu‑Graphem‑Zuweisung"
       ],
-      "correctAnswer": "Within-individual changes over time",
-      "difficulty": "easy",
-      "topic": "Lecture 4 – Within vs Between",
-      "explanation": "FE identifies from deviations around each unit’s mean (within variation), not from cross-sectional differences."
+      "correctAnswer": "Mindmaps zu Bedeutungsmerkmalen und Vergleiche innerhalb eines Wortfeldes",
+      "difficulty": "mittel",
+      "topic": "Intervention – Semantische Elaboration",
+      "explanation": "Bedeutungsmerkmale werden explizit vernetzt und kontrastiert."
     },
     {
-      "id": "mcq_101",
-      "questionText": "Which statement best distinguishes prediction from causal inference in econometrics?",
+      "id": "de_mcq_033",
+      "questionText": "Welche Beobachtung spricht eher für ein quantitatives Wortschatzdefizit?",
       "options": [
-        "Prediction requires randomized experiments; causation does not",
-        "Prediction optimizes forecast accuracy; causal inference seeks unbiased effect estimates",
-        "Causal inference ignores identification; prediction focuses on it",
-        "Both require the same assumptions"
+        "Viele Nullreaktionen und sehr allgemeine Umschreibungen bei Benennaufgaben",
+        "Konstante, aber falsche Benennungen bei wiederholter Präsentation",
+        "Sehr schnelle Benennung bei geringer Genauigkeit",
+        "Nur Rechtschreibfehler"
       ],
-      "correctAnswer": "Prediction optimizes forecast accuracy; causal inference seeks unbiased effect estimates",
-      "difficulty": "easy",
-      "topic": "Lecture 1 – Prediction vs Causation",
-      "explanation": "Prediction targets low out-of-sample loss; causality targets unbiased effects under identification assumptions (e.g., conditional independence). Randomization aids causal identification, not prediction per se."
+      "correctAnswer": "Viele Nullreaktionen und sehr allgemeine Umschreibungen bei Benennaufgaben",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Profilbildung",
+      "explanation": "Deutet auf geringe Zahl/Abdeckung lexikalischer Einträge hin (Inventar)."
     },
     {
-      "id": "mcq_102",
-      "questionText": "Which dataset is time series data?",
+      "id": "de_mcq_034",
+      "questionText": "Welche Maßnahme gehört NICHT typisch zur Inputspezifizierung im Unterricht?",
       "options": [
-        "500 households in 2024",
-        "Monthly CPI for the Netherlands, 2010–2025",
-        "Graduates surveyed in 2018 and a new sample in 2024",
-        "2,000 firms tracked annually from 2015–2025"
+        "Vorentlastung zentraler Wörter",
+        "Einsatz von Bildern und Gebärden",
+        "Kontextualisierung über Geschichten/Projekte",
+        "Ausschließlich spontane, ungeplante Wortverwendung"
       ],
-      "correctAnswer": "Monthly CPI for the Netherlands, 2010–2025",
-      "difficulty": "easy",
-      "topic": "Lecture 1 – Data Types",
-      "explanation": "Time series: repeated measures of the same variable over time. Panels track the same units; pooled cross-sections change units each wave."
+      "correctAnswer": "Ausschließlich spontane, ungeplante Wortverwendung",
+      "difficulty": "mittel",
+      "topic": "Intervention – Unterricht",
+      "explanation": "Inputspezifizierung ist geplant, multimodal und kontextualisiert."
     },
     {
-      "id": "mcq_103",
-      "questionText": "In simple OLS, which is guaranteed by the normal equations?",
+      "id": "de_mcq_035",
+      "questionText": "Welche Aussage zum Benenntempo ist korrekt?",
       "options": [
-        "Residuals sum to zero",
-        "Residuals are homoskedastic",
-        "Residuals are i.i.d.",
-        "Regressors are exogenous"
+        "Es wird im Papier‑WWT immer exakt gemessen.",
+        "Die PC‑Version des WWT kann Benenndauern erfassen; alternativ eignen sich RAN‑Aufgaben.",
+        "Tempo ist diagnostisch bedeutungslos.",
+        "Tempo ersetzt die Prüfung des Verständnisses."
       ],
-      "correctAnswer": "Residuals sum to zero",
-      "difficulty": "easy",
-      "topic": "Lecture 1 – OLS Properties",
-      "explanation": "With an intercept, $\\sum_i \\hat u_i=0$ exactly. Exogeneity and homoskedasticity are assumptions."
+      "correctAnswer": "Die PC‑Version des WWT kann Benenndauern erfassen; alternativ eignen sich RAN‑Aufgaben.",
+      "difficulty": "mittel",
+      "topic": "Diagnostik – Tempo",
+      "explanation": "Benenntempo ist ein Hinweis auf Abrufgeschwindigkeit; Messung variiert nach Verfahren."
     },
     {
-      "id": "mcq_104",
-      "questionText": "Level–log model: $y = a + \\beta\\,\\log(x)$. If $\\beta = 2.5$, a 1% increase in $x$ is associated with:",
+      "id": "de_mcq_036",
+      "questionText": "Welche Aussage beschreibt das Zielbild der Therapie am besten?",
       "options": [
-        "A 2.5% increase in $y$",
-        "A 0.025 increase in $y$",
-        "A 0.25 increase in $y$",
-        "A 2.5 unit increase in $y$"
+        "Alle Wörter des Curriculums werden im Detail gelehrt.",
+        "Kinder erwerben Strategien und vernetzen Wortwissen so, dass sie neue Wörter selbstständig lernen und abrufen können.",
+        "Nur kurzfristiges Testtraining",
+        "Verzicht auf semantische Arbeit zugunsten reiner Phonetik"
       ],
-      "correctAnswer": "A 0.025 increase in $y$",
-      "difficulty": "medium",
-      "topic": "Lecture 1 – Functional Forms",
-      "explanation": "Level–log: $\\partial y/\\partial\\ln x=\\beta$. A 1% change in $x$ is $\\Delta\\ln x\\approx 0.01$, so $\\Delta y\\approx \\beta\\times0.01=0.025$."
-    },
-    {
-      "id": "mcq_105",
-      "questionText": "OVB: $X$ (education) negatively correlated with omitted $Z$ (local unemployment risk), and $Z$ positively affects $Y$ (wages). Direction of bias on education?",
-      "options": [
-        "Upward",
-        "Downward",
-        "Zero",
-        "Ambiguous"
-      ],
-      "correctAnswer": "Downward",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – OVB Direction",
-      "explanation": "Bias sign is $\\operatorname{sign}(\\beta_Z)\\times\\operatorname{sign}(\\operatorname{Cov}(X,Z))=(+)\\times(-)=-$ (downward)."
-    },
-    {
-      "id": "mcq_106",
-      "questionText": "Which is a symptom of high (but not perfect) multicollinearity?",
-      "options": [
-        "Large standard errors and unstable coefficient signs across similar specifications",
-        "Biased OLS coefficients",
-        "Lower RMSE out of sample",
-        "Perfect prediction of $y$"
-      ],
-      "correctAnswer": "Large standard errors and unstable coefficient signs across similar specifications",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Multicollinearity",
-      "explanation": "Near collinearity inflates $\\operatorname{Var}(\\hat\\beta)$ and makes signs sensitive; it does not bias OLS if $E[u|X]=0$."
-    },
-    {
-      "id": "mcq_107",
-      "questionText": "In a model with $k$ restrictions tested jointly, which statement is correct?",
-      "options": [
-        "For $k=1$, the F-test equals the squared t-test",
-        "For any $k$, the F-test equals the squared t-test",
-        "The F-test cannot be used when $k=1$",
-        "The t-test is always more powerful than the F-test"
-      ],
-      "correctAnswer": "For $k=1$, the F-test equals the squared t-test",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Hypothesis Testing",
-      "explanation": "When $k=1$, $F=t^2$. For $k>1$, use the F-test to assess joint restrictions."
-    },
-    {
-      "id": "mcq_108",
-      "questionText": "Categorical variable with 5 groups. How many dummies to include with an intercept?",
-      "options": [
-        "5",
-        "4",
-        "3",
-        "2"
-      ],
-      "correctAnswer": "4",
-      "difficulty": "easy",
-      "topic": "Lecture 2 – Dummies",
-      "explanation": "Include $G-1$ dummies to avoid perfect multicollinearity (here $5-1=4$)."
-    },
-    {
-      "id": "mcq_109",
-      "questionText": "Consider the regression model: $\\text{Wage} = \\beta_0 + \\beta_1 \\cdot \\text{Female} + \\beta_2 \\cdot \\text{Educ} + \\beta_3 \\cdot (\\text{Female} \\times \\text{Educ}) + u$. What is the return to education for females?",
-      "options": [
-        "$\\beta_2$",
-        "$\\beta_2 + \\beta_3$",
-        "$\\beta_1 + \\beta_2$",
-        "$\\beta_0 + \\beta_2 + \\beta_3$"
-      ],
-      "correctAnswer": "$\\beta_2 + \\beta_3$",
-      "difficulty": "medium",
-      "topic": "Lecture 2 – Interactions",
-      "explanation": "For females ($\\text{Female}=1$), the slope on Educ is $\\beta_2 + \\beta_3$."
-    },
-    {
-      "id": "mcq_110",
-      "questionText": "AIC/BIC are used primarily to:",
-      "options": [
-        "Test individual coefficients",
-        "Balance fit and complexity for model selection",
-        "Compute confidence intervals",
-        "Detect heteroskedasticity"
-      ],
-      "correctAnswer": "Balance fit and complexity for model selection",
-      "difficulty": "easy",
-      "topic": "Lecture 3 – Model Selection",
-      "explanation": "They trade off likelihood (fit) against a complexity penalty, discouraging overfitting."
-    },
-    {
-      "id": "mcq_111",
-      "questionText": "Random walk: for $X_t = X_{t-1} + u_t$ with $\\operatorname{Var}(u_t)=\\sigma^2$ and $X_0=0$, what is $\\operatorname{Var}(X_t)$?",
-      "options": [
-        "$\\sigma^2$",
-        "$t\\sigma^2$",
-        "$\\sigma^2/t$",
-        "$2\\sigma^2$"
-      ],
-      "correctAnswer": "$t\\sigma^2$",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Random Walk Variance",
-      "explanation": "$X_t=\\sum_{i=1}^t u_i$ with independent shocks $\\Rightarrow \\operatorname{Var}(X_t)=\\sum\\sigma^2=t\\sigma^2$."
-    },
-    {
-      "id": "mcq_112",
-      "questionText": "ACF patterns: which statement is most typical?",
-      "options": [
-        "AR(1) ACF cuts off after lag 1; MA(1) ACF decays geometrically",
-        "AR(1) ACF decays geometrically; MA(1) ACF cuts off after lag 1",
-        "Both ACFs cut off after lag 1",
-        "Both ACFs decay geometrically"
-      ],
-      "correctAnswer": "AR(1) ACF decays geometrically; MA(1) ACF cuts off after lag 1",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – ACF Interpretation",
-      "explanation": "AR processes show gradually decaying ACF; MA($q$) processes have ACF that becomes zero beyond lag $q$."
-    },
-    {
-      "id": "mcq_113",
-      "questionText": "ADF including a constant yields p = 0.03. Using 5% significance, conclude:",
-      "options": [
-        "Fail to reject unit root; series is non-stationary",
-        "Reject unit root; series is stationary around a constant",
-        "Series is explosive",
-        "Series is trend-stationary by definition"
-      ],
-      "correctAnswer": "Reject unit root; series is stationary around a constant",
-      "difficulty": "easy",
-      "topic": "Lecture 3 – ADF Decision",
-      "explanation": "p = 0.03 $<$ 0.05: reject $H_0$ of a unit root in the constant-only specification $\\Rightarrow$ stationary mean."
-    },
-    {
-      "id": "mcq_114",
-      "questionText": "BG test auxiliary regression includes:",
-      "options": [
-        "Only lagged residuals",
-        "Original regressors and lagged residuals",
-        "Only the dependent variable and its lag",
-        "Only time dummies"
-      ],
-      "correctAnswer": "Original regressors and lagged residuals",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Breusch–Godfrey Procedure",
-      "explanation": "Regress $\\hat u_t$ on the original $X_t$ and on $\\hat u_{t-1},...,\\hat u_{t-p}$; test joint significance of lagged residuals."
-    },
-    {
-      "id": "mcq_115",
-      "questionText": "AR(1): $y_t = \\alpha + \\phi y_{t-1} + u_t$, with $|\\phi|<1$. The long-run mean equals:",
-      "options": [
-        "0",
-        "c",
-        "$c/(1-\\phi)$",
-        "$\\phi/(1-c)$"
-      ],
-      "correctAnswer": "$c/(1-\\phi)$",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – AR(1) Mean",
-      "explanation": "Steady state $\\mu$ solves $\\mu=\\alpha+\\phi\\mu \\Rightarrow \\mu=\\alpha/(1-\\phi)$."
-    },
-    {
-      "id": "mcq_116",
-      "questionText": "Forecast evaluation: MAPE can be problematic when:",
-      "options": [
-        "Errors are homoskedastic",
-        "Actual values are close to zero",
-        "Forecast horizon is short",
-        "Data are in logs"
-      ],
-      "correctAnswer": "Actual values are close to zero",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Forecast Metrics",
-      "explanation": "MAPE uses $|e_t|/|y_t|$; near-zero $|y_t|$ makes the ratio explode, distorting comparisons."
-    },
-    {
-      "id": "mcq_117",
-      "questionText": "ARDL intuition: the long-run multiplier divides the sum of $X$-lag coefficients by:",
-      "options": [
-        "$1-\\sum$ of $Y$-lag coefficients",
-        "Sum of $Y$-lag coefficients",
-        "Variance of residuals",
-        "AIC-selected lag order"
-      ],
-      "correctAnswer": "$1-\\sum$ of $Y$-lag coefficients",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – ARDL Long-Run",
-      "explanation": "LRM $=\\dfrac{\\sum_j \\beta_j}{1-\\sum_i \\phi_i}$; denominator captures persistence due to lagged $y$."
-    },
-    {
-      "id": "mcq_118",
-      "questionText": "A model’s residual correlogram shows no significant autocorrelation at any lag. This suggests the model is:",
-      "options": [
-        "Overfit",
-        "Dynamically complete (residuals \\~ white noise)",
-        "Non-stationary",
-        "Misspecified in levels"
-      ],
-      "correctAnswer": "Dynamically complete (residuals \\~ white noise)",
-      "difficulty": "easy",
-      "topic": "Lecture 3 – Model Diagnostics",
-      "explanation": "If residuals resemble white noise, remaining dynamics are minimal and the model captures predictable structure."
-    },
-    {
-      "id": "mcq_119",
-      "questionText": "First Differences (FD) vs Fixed Effects (FE): when $T=2$, which is true?",
-      "options": [
-        "FD and FE are numerically identical for slope coefficients",
-        "FD dominates FE in efficiency",
-        "FE dominates FD in efficiency",
-        "Neither can be estimated"
-      ],
-      "correctAnswer": "FD and FE are numerically identical for slope coefficients",
-      "difficulty": "medium",
-      "topic": "Lecture 4 – FE vs FD",
-      "explanation": "With two periods, within-transformation equals differencing, yielding the same slope estimates."
-    },
-    {
-      "id": "mcq_120",
-      "questionText": "Including individual and time dummies in a panel regression primarily controls for:",
-      "options": [
-        "Time-invariant individual heterogeneity and common shocks over time",
-        "Only observed covariates",
-        "Measurement error",
-        "Serial correlation"
-      ],
-      "correctAnswer": "Time-invariant individual heterogeneity and common shocks over time",
-      "difficulty": "easy",
-      "topic": "Lecture 4 – Two-Way FE (time dummies)",
-      "explanation": "Unit FE absorb $\\alpha_i$; time FE (dummies) absorb $\\lambda_t$ that shift all units in a period."
-    },
-    {
-      "id": "mcq_121",
-      "questionText": "Strict exogeneity fails in FE when the model includes:",
-      "options": [
-        "Time dummies",
-        "Lagged dependent variable",
-        "Heteroskedastic errors",
-        "Individual dummies"
-      ],
-      "correctAnswer": "Lagged dependent variable",
-      "difficulty": "hard",
-      "topic": "Lecture 4 – Exogeneity",
-      "explanation": "Including $y_{i,t-1}$ generates correlation between transformed regressors and transformed errors (Nickell bias) when $T$ is small."
-    },
-    {
-      "id": "mcq_122",
-      "questionText": "Unbalanced panels: which statement is correct?",
-      "options": [
-        "FE cannot be estimated with unbalanced panels",
-        "FE can be estimated; observations with missing years are used where available",
-        "Unbalanced panels imply inconsistent OLS",
-        "Only FD works with unbalanced panels"
-      ],
-      "correctAnswer": "FE can be estimated; observations with missing years are used where available",
-      "difficulty": "medium",
-      "topic": "Lecture 4 – Panel Structure",
-      "explanation": "FE estimation accommodates differing $T_i$; within variation is exploited as available per unit."
-    },
-    {
-      "id": "mcq_123",
-      "questionText": "If residuals in a time-series regression show heteroskedasticity and autocorrelation, a common remedy for inference is to use:",
-      "options": [
-        "Classical OLS standard errors",
-        "HAC/Newey–West standard errors",
-        "Cluster by individual",
-        "Jackknife standard errors"
-      ],
-      "correctAnswer": "HAC/Newey–West standard errors",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – Robust Inference",
-      "explanation": "HAC SEs are consistent under unknown heteroskedasticity and autocorrelation in $u_t$; ordinary OLS SEs are invalid in this case."
-    },
-    {
-      "id": "mcq_124",
-      "questionText": "Distributed lag model with $\\beta_0=0.4$ and $\\beta_1=0.3$ (only $X_t$ and $X_{t-1}$). The long-run (total) multiplier equals:",
-      "options": [
-        "$0.4$",
-        "$0.3$",
-        "$0.7$",
-        "$1.0$"
-      ],
-      "correctAnswer": "$0.7$",
-      "difficulty": "easy",
-      "topic": "Lecture 3 – DL Multipliers",
-      "explanation": "The long-run (total) effect is the sum of DL coefficients: $0.4+0.3=0.7$."
-    },
-    {
-      "id": "mcq_125",
-      "questionText": "ARMA(1,1) forecasts: which statement is most accurate?",
-      "options": [
-        "At $h=2$, the MA component still enters via future shocks",
-        "At $h=2$, the MA component drops out because future shocks have zero conditional mean",
-        "At $h=1$, only the MA component matters",
-        "ARMA forecasts revert immediately to the mean at $h=1$"
-      ],
-      "correctAnswer": "At $h=2$, the MA component drops out because future shocks have zero conditional mean",
-      "difficulty": "medium",
-      "topic": "Lecture 3 – ARMA Forecasting",
-      "explanation": "For $h\\ge2$, $E(\\varepsilon_{t+j}|I_t)=0$ eliminates MA terms; multi-step forecasts are driven by the AR component."
-    },
-    {
-      "id": "mcq_126",
-      "questionText": "Breusch–Pagan (BP) vs White test for heteroskedasticity: which statement is most accurate?",
-      "options": [
-        "BP allows a very general, fully nonparametric form; White assumes a specific functional form",
-        "White is more general because it uses squares and cross-products of regressors; BP typically regresses squared residuals on the original regressors",
-        "Both are identical in all cases",
-        "BP adjusts standard errors; White does not"
-      ],
-      "correctAnswer": "White is more general because it uses squares and cross-products of regressors; BP typically regresses squared residuals on the original regressors",
-      "difficulty": "medium",
-      "topic": "Tutorial – Heteroskedasticity Tests",
-      "explanation": "BP tests whether $\\operatorname{Var}(u|X)$ varies linearly with $X$. White’s test augments with $X^2$ and cross-terms, capturing a broader class of variance patterns."
-    },
-    {
-      "id": "mcq_127",
-      "questionText": "When should you prefer cluster-robust standard errors over HC (heteroskedasticity-robust) SEs?",
-      "options": [
-        "When errors are i.i.d.",
-        "When observations may be correlated within groups (e.g., firms, countries) but independent across groups",
-        "Only in time series",
-        "Only when there are exactly two clusters"
-      ],
-      "correctAnswer": "When observations may be correlated within groups (e.g., firms, countries) but independent across groups",
-      "difficulty": "medium",
-      "topic": "Tutorial – Robust vs Cluster SEs",
-      "explanation": "Cluster SEs allow arbitrary intra-cluster correlation/heteroskedasticity; HC SEs assume independence across observations. You also need a sufficiently large number of clusters for reliable inference."
-    },
-    {
-      "id": "mcq_128",
-      "questionText": "What is a practical issue with cluster-robust SEs when the number of clusters is small?",
-      "options": [
-        "They become biased downward and inference can be anti-conservative",
-        "They always explode to infinity",
-        "They are identical to HAC SEs",
-        "They are invalid in panels"
-      ],
-      "correctAnswer": "They become biased downward and inference can be anti-conservative",
-      "difficulty": "hard",
-      "topic": "Tutorial – Cluster SEs (Few Clusters)",
-      "explanation": "With few clusters, standard cluster-robust variance estimators tend to understate true variability; small-sample corrections or wild cluster bootstrap are common remedies."
-    },
-    {
-      "id": "mcq_129",
-      "questionText": "HAC (Newey–West) vs Cluster SEs: which guidance is correct?",
-      "options": [
-        "Use HAC for cross-sectional clustering and Cluster for serial correlation",
-        "Use HAC for serial correlation in a single time series; use Cluster when units are grouped and errors correlate within groups",
-        "They are interchangeable",
-        "Neither handles heteroskedasticity"
-      ],
-      "correctAnswer": "Use HAC for serial correlation in a single time series; use Cluster when units are grouped and errors correlate within groups",
-      "difficulty": "medium",
-      "topic": "Tutorial – Robust Inference",
-      "explanation": "HAC handles heteroskedasticity and autocorrelation over time for a single series; cluster SEs handle within-group dependence across observations in panels or multi-level data."
-    },
-    {
-      "id": "mcq_130",
-      "questionText": "RESET test primarily detects:",
-      "options": [
-        "Serial correlation",
-        "Functional form misspecification (e.g., omitted nonlinearities)",
-        "Heteroskedasticity",
-        "Unit roots"
-      ],
-      "correctAnswer": "Functional form misspecification (e.g., omitted nonlinearities)",
-      "difficulty": "medium",
-      "topic": "Tutorial – Model Specification",
-      "explanation": "The Ramsey RESET test adds powers of fitted values (or regressors); rejection suggests missing nonlinear terms or interactions."
-    },
-    {
-      "id": "mcq_131",
-      "questionText": "Leverage vs influence: which statement is true?",
-      "options": [
-        "Leverage measures how unusual $y$ is given $X$; influence measures how unusual $X$ is",
-        "Leverage captures how extreme an observation's $X$ values are; influence reflects the observation’s impact on fitted coefficients (e.g., Cook’s $D$)",
-        "They are identical",
-        "Only influence is used in practice"
-      ],
-      "correctAnswer": "Leverage captures how extreme an observation's $X$ values are; influence reflects the observation’s impact on fitted coefficients (e.g., Cook’s $D$)",
-      "difficulty": "medium",
-      "topic": "Tutorial – Diagnostics",
-      "explanation": "High leverage points have extreme predictor values; high influence points substantially change estimates if removed (often high leverage and large residual)."
-    },
-    {
-      "id": "mcq_132",
-      "questionText": "Variance Inflation Factor (VIF) primarily indicates:",
-      "options": [
-        "Heteroskedasticity",
-        "Endogeneity",
-        "Multicollinearity severity for a regressor",
-        "Autocorrelation"
-      ],
-      "correctAnswer": "Multicollinearity severity for a regressor",
-      "difficulty": "easy",
-      "topic": "Tutorial – Multicollinearity",
-      "explanation": "VIF for $x_j$ equals $1/(1-R_j^2)$ where $R_j^2$ is from regressing $x_j$ on the other regressors; larger VIF indicates higher collinearity and larger $\\operatorname{Var}(\\hat\\beta_j)$."
-    },
-    {
-      "id": "mcq_133",
-      "questionText": "Choosing ADF specification: when should you include a time trend $t$ in the ADF regression?",
-      "options": [
-        "Always include a trend",
-        "Never include a trend",
-        "Include a trend when the series exhibits a clear deterministic trend (after visual inspection)",
-        "Include a trend only if the ACF is flat"
-      ],
-      "correctAnswer": "Include a trend when the series exhibits a clear deterministic trend (after visual inspection)",
-      "difficulty": "medium",
-      "topic": "Tutorial – ADF Specification",
-      "explanation": "ADF can be run with none/constant/trend. Visual inspection and context guide whether a deterministic trend is plausible; including unnecessary trend terms reduces power."
-    },
-    {
-      "id": "mcq_134",
-      "questionText": "Lag length in ADF tests is often chosen by:",
-      "options": [
-        "Maximizing $R^2$",
-        "Minimizing AIC/BIC or ensuring white-noise residuals via BG tests",
-        "Setting it to 1 always",
-        "Trial-and-error without diagnostics"
-      ],
-      "correctAnswer": "Minimizing AIC/BIC or ensuring white-noise residuals via BG tests",
-      "difficulty": "medium",
-      "topic": "Tutorial – ADF Lag Selection",
-      "explanation": "Include enough lagged differences to remove serial correlation in residuals (checked by BG/Ljung–Box) or use information criteria to balance fit and parsimony."
-    },
-    {
-      "id": "mcq_135",
-      "questionText": "Out-of-sample forecast evaluation: which split procedure best mimics real-time forecasting?",
-      "options": [
-        "Random train/test split",
-        "K-fold cross-validation",
-        "Rolling or expanding window evaluation by time",
-        "Leave-one-out cross-validation"
-      ],
-      "correctAnswer": "Rolling or expanding window evaluation by time",
-      "difficulty": "medium",
-      "topic": "Tutorial – Forecast Evaluation",
-      "explanation": "Forecasts should respect temporal ordering; rolling/expanding evaluation uses past to predict future, avoiding look-ahead bias inherent in random splits."
-    },
-    {
-      "id": "mcq_136",
-      "questionText": "Prediction intervals vs confidence intervals: which statement is correct?",
-      "options": [
-        "They are identical in regression",
-        "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
-        "Confidence intervals are wider because they include future shock variance",
-        "Neither involves the error variance"
-      ],
-      "correctAnswer": "Prediction intervals are wider because they include both parameter uncertainty and future shock variance",
-      "difficulty": "medium",
-      "topic": "Tutorial – Forecast Uncertainty",
-      "explanation": "A confidence interval is for $E[y|X]$; a prediction interval adds $\\operatorname{Var}(\\varepsilon_{t+h})$, so it is wider."
-    },
-    {
-      "id": "mcq_137",
-      "questionText": "Seasonality handling: which approach is most appropriate in quarterly data with stable seasonal patterns?",
-      "options": [
-        "Add quarterly dummies (Q1–Q4) to the regression",
-        "Always difference the series 4 times",
-        "Only include a linear trend",
-        "Use Breusch–Pagan test"
-      ],
-      "correctAnswer": "Add quarterly dummies (Q1–Q4) to the regression",
-      "difficulty": "easy",
-      "topic": "Tutorial – Seasonality",
-      "explanation": "Seasonal dummies capture deterministic seasonal effects; seasonal differencing may be needed for stochastic seasonality but is not automatic."
-    },
-    {
-      "id": "mcq_138",
-      "questionText": "Durbin–Watson (DW) vs Breusch–Godfrey (BG): why is BG generally preferred in multiple regression?",
-      "options": [
-        "DW handles AR(p) while BG only AR(1)",
-        "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
-        "DW is valid with lagged dependent variables",
-        "They are identical"
-      ],
-      "correctAnswer": "BG allows testing higher-order serial correlation and accommodates lagged dependent variables among regressors",
-      "difficulty": "medium",
-      "topic": "Tutorial – Serial Correlation Tests",
-      "explanation": "DW is primarily for AR(1) and breaks down with lagged dependent variables; BG’s auxiliary regression handles AR(p) and keeps original regressors."
-    },
-    {
-      "id": "mcq_139",
-      "questionText": "Time-invariant variables in FE: how can you estimate their effects?",
-      "options": [
-        "You cannot under any circumstance",
-        "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
-        "Difference them",
-        "Add more lags"
-      ],
-      "correctAnswer": "Interact them with time dummies or use a model that retains between variation (e.g., RE or correlated RE)",
-      "difficulty": "hard",
-      "topic": "Tutorial – FE Limitations and Workarounds",
-      "explanation": "Pure FE drops time-invariant regressors; interactions with time or alternative estimators (RE/CRE) leverage between variation to identify such effects."
-    },
-    {
-      "id": "mcq_140",
-      "questionText": "Dynamic panels with FE and small $T$: what is the main concern?",
-      "options": [
-        "Heteroskedasticity only",
-        "Nickell bias in the coefficient on lagged $y$",
-        "Perfect multicollinearity",
-        "Unit roots in $x$"
-      ],
-      "correctAnswer": "Nickell bias in the coefficient on lagged $y$",
-      "difficulty": "hard",
-      "topic": "Tutorial – Dynamic Panels",
-      "explanation": "With small $T$, within-OLS on $y_{i,t-1}$ is biased (Nickell, 1981). Arellano–Bond type GMM or bias corrections are typical remedies."
-    },
-    {
-      "id": "mcq_141",
-      "questionText": "In panel data, which test compares Fixed Effects (FE) and Random Effects (RE) consistency assumptions?",
-      "options": [
-        "Breusch–Pagan LM test",
-        "Hausman test",
-        "F-test for individual effects",
-        "Wald test"
-      ],
-      "correctAnswer": "Hausman test",
-      "difficulty": "medium",
-      "topic": "Tutorial – FE vs RE Testing",
-      "explanation": "The Hausman test checks whether $E(u_i|X_i)=0$. If violated, RE is inconsistent, and FE is preferred. It compares FE and RE coefficient estimates directly."
-    },
-    {
-      "id": "mcq_142",
-      "questionText": "What is the consequence of serial correlation in panel FE model residuals if ignored?",
-      "options": [
-        "Coefficients become biased",
-        "Standard errors are underestimated and inference becomes invalid",
-        "Within transformation fails",
-        "Fixed effects disappear"
-      ],
-      "correctAnswer": "Standard errors are underestimated and inference becomes invalid",
-      "difficulty": "medium",
-      "topic": "Tutorial – Panel Diagnostics",
-      "explanation": "Serially correlated residuals violate classical assumptions, making conventional SEs too small. Clustered or robust SEs should be used to restore valid inference."
-    },
-    {
-      "id": "mcq_143",
-      "questionText": "When interpreting FE coefficients, what does it mean if an estimated coefficient is based on little within variation?",
-      "options": [
-        "Estimate is unbiased but highly precise",
-        "Estimate is unreliable because of weak within variation for that regressor",
-        "Estimate represents between variation only",
-        "Estimate automatically equals OLS result"
-      ],
-      "correctAnswer": "Estimate is unreliable because of weak within variation for that regressor",
-      "difficulty": "medium",
-      "topic": "Tutorial – FE Interpretation",
-      "explanation": "FE relies solely on within-unit changes. If a regressor barely varies within units, its estimate becomes imprecise (large standard error) and possibly unstable."
-    },
-    {
-      "id": "mcq_144",
-      "questionText": "In a difference-in-differences (DiD) design, the key identifying assumption is:",
-      "options": [
-        "Treatment and control groups have identical average outcomes before treatment",
-        "Trends in outcomes would have been parallel absent treatment",
-        "Random assignment of treatment",
-        "No omitted variables"
-      ],
-      "correctAnswer": "Trends in outcomes would have been parallel absent treatment",
-      "difficulty": "hard",
-      "topic": "Tutorial – Difference-in-Differences",
-      "explanation": "The DiD estimator attributes post–pre differences in treatment vs control groups to the treatment if their counterfactual trends would have been parallel in absence of treatment."
-    },
-    {
-      "id": "mcq_145",
-      "questionText": "In a DiD regression with unit and time fixed effects, the treatment coefficient captures:",
-      "options": [
-        "Raw difference in outcomes between groups",
-        "Average treatment effect on treated (ATT), controlling for time and group effects",
-        "Correlation between treatment and outcome",
-        "Unit-specific time trends"
-      ],
-      "correctAnswer": "Average treatment effect on treated (ATT), controlling for time and group effects",
-      "difficulty": "medium",
-      "topic": "Tutorial – Difference-in-Differences",
-      "explanation": "Including unit and time fixed effects controls for constant differences and common trends. The DiD coefficient on the treatment dummy identifies the ATT under parallel trends."
-    },
-    {
-      "id": "mcq_146",
-      "questionText": "Which scenario violates strict exogeneity in a panel FE regression $y_{it} = x_{it}'\\beta + \\alpha_i + u_{it}$?",
-      "options": [
-        "The firm sets $x_{i,t+1}$ in response to an unexpected cost shock $u_{it}$",
-        "$x_{it}$ depends on $u_{i,t-1}$ and $u$ is serially uncorrelated",
-        "An experiment randomly assigns $x_{it}$ in each period",
-        "Adding time dummies controls for common shocks"
-      ],
-      "correctAnswer": "The firm sets $x_{i,t+1}$ in response to an unexpected cost shock $u_{it}$",
-      "difficulty": "medium",
-      "topic": "Lecture 4 – Exogeneity",
-      "explanation": "Strict exogeneity requires $E(u_{it}\\,|\\,X_i)=0$ for all $t$, i.e., $u_{it}$ is uncorrelated with regressors from every period. Feedback from current shocks to future regressors (when $x_{i,t+1}$ depends on $u_{it}$) makes $u_{it}$ correlated with elements of $X_i$, violating strict exogeneity. Predeterminedness (only past $u$ affecting current $x$) with serially uncorrelated $u$ need not violate strict exogeneity; random assignment satisfies it; time dummies do not resolve unit-specific feedback."
+      "correctAnswer": "Kinder erwerben Strategien und vernetzen Wortwissen so, dass sie neue Wörter selbstständig lernen und abrufen können.",
+      "difficulty": "leicht",
+      "topic": "Intervention – Ziel",
+      "explanation": "Selbstlernfähigkeit und Generalisierung sind die Leitziele."
     }
   ]
 }
