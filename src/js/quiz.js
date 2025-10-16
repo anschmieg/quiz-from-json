@@ -157,54 +157,40 @@ document.addEventListener('DOMContentLoaded', () => {
         // Use Material Symbols 'speed' icon; add a small colored accent via data-attr for CSS
         // Map difficulty to a local SVG file
         const fileMap = {
-            easy: '/img/gauge-low.svg',
-            leicht: '/img/gauge-low.svg',
+            easy: '/img/gauge-easy.svg',
+            leicht: '/img/gauge-easy.svg',
             medium: '/img/gauge-medium.svg',
             mittel: '/img/gauge-medium.svg',
-            hard: '/img/gauge-high.svg',
-            schwer: '/img/gauge-high.svg'
+            hard: '/img/gauge-hard.svg',
+            schwer: '/img/gauge-hard.svg'
         };
         const fileSrc = fileMap[diffLower] || '/img/gauge-medium.svg';
-        // Use <img> pointing to local SVG; images are decorative so aria-hidden, while the badge has aria-label
+        // Use <img> pointing to the precomposed local SVG; images are decorative so aria-hidden,
+        // the Eleventy shortcode will provide server-side inlined SVGs in templates. Keep <img>
+        // here for client-rendered quiz to avoid runtime DOM parsing.
         const difficultyBadge = q.difficulty ? `<div class="${difficultyClass}" aria-label="Difficulty: ${q.difficulty}">` +
             `<img src="${fileSrc}" alt="" aria-hidden="true" class="difficulty-icon">` +
             `<span class="difficulty-text">${q.difficulty}</span></div>` : '';
-        flashcardContainer.innerHTML = `<div class="question-header"><h2 class="question-topic">${q.topic || 'Question'}</h2>${difficultyBadge}</div><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
+
+        // If the template already rendered a difficulty badge (server-side include), update it
+        // rather than inserting a second badge. This allows the Eleventy `gauge` shortcode
+        // to be used in templates while client JS still injects the rest of the question.
+        const headerHtml = `<h2 class="question-topic">${q.topic || 'Question'}</h2>`;
+        flashcardContainer.innerHTML = `<div class="question-header">${headerHtml}${/* placeholder for badge */ ''}</div><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
+        const headerEl = flashcardContainer.querySelector('.question-header');
+        if (headerEl) {
+            const existingBadge = headerEl.querySelector('.question-difficulty');
+            if (existingBadge) {
+                // update class and text
+                existingBadge.className = `question-difficulty ${q.difficulty ? q.difficulty.toLowerCase() : ''}`.trim();
+                const textEl = existingBadge.querySelector('.difficulty-text');
+                if (textEl) textEl.textContent = q.difficulty || '';
+            } else {
+                // no server badge; insert client badge
+                headerEl.insertAdjacentHTML('beforeend', difficultyBadge);
+            }
+        }
         renderMath(flashcardContainer);
-        // Inline any difficulty SVG images so their internal `currentColor` can inherit from CSS,
-        // while pointer groups keep their hard-coded fills.
-        (function inlineDifficultySvgs(root) {
-            const imgs = root.querySelectorAll('.difficulty-icon');
-            imgs.forEach(img => {
-                const src = img.getAttribute('src');
-                if (!src) return;
-                fetch(src).then(r => {
-                    if (!r.ok) throw new Error('Failed to load ' + src);
-                    return r.text();
-                }).then(svgText => {
-                    try {
-                        const parser = new DOMParser();
-                        const doc = parser.parseFromString(svgText, 'image/svg+xml');
-                        const svg = doc.documentElement;
-                        // ensure svg scales to text height
-                        svg.removeAttribute('width');
-                        svg.removeAttribute('height');
-                        svg.setAttribute('width', '1em');
-                        svg.setAttribute('height', '1em');
-                        svg.setAttribute('aria-hidden', 'true');
-                        svg.style.verticalAlign = '-0.12em';
-                        // allow the svg to inherit color from the badge
-                        svg.style.color = 'inherit';
-                        img.replaceWith(svg);
-                    } catch (e) {
-                        // on parse error, leave the <img> as-is
-                        console.error('SVG parse error', e);
-                    }
-                }).catch(err => {
-                    console.error('Failed to inline SVG', src, err);
-                });
-            });
-        })(flashcardContainer);
         const feedbackAreaEl = document.getElementById('feedback-area');
         const checkAnswerBtn = document.getElementById('check-answer-btn');
         if (!checkAnswerBtn) return;

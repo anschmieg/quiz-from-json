@@ -1,0 +1,7 @@
+{% if difficulty %}
+  {% set diffLower = difficulty | lower %}
+  <div class="question-difficulty {{ diffLower }}" aria-label="Difficulty: {{ difficulty }}">
+    {{ gauge(diffLower, { title: difficulty, size: '1em', class: 'difficulty-svg' }) | safe }}
+    <span class="difficulty-text">{{ difficulty }}</span>
+  </div>
+{% endif %}
