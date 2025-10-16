@@ -131,9 +131,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         flashcardContainer.style.display = 'block';
         completeMessage.style.display = 'none';
-        const shuffledOptions = shuffleArray([...q.options]);
-        const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
-        flashcardContainer.innerHTML = `<h2 class="question-topic">${q.topic || 'Question'}</h2><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
+    const shuffledOptions = shuffleArray([...q.options]);
+    const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
+    const difficultyClass = q.difficulty ? `question-difficulty ${q.difficulty.toLowerCase()}` : '';
+    const difficultyBadge = q.difficulty ? `<div class="${difficultyClass}">${q.difficulty}</div>` : '';
+    flashcardContainer.innerHTML = `<div class="question-header"><h2 class="question-topic">${q.topic || 'Question'}</h2>${difficultyBadge}</div><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
         renderMath(flashcardContainer);
         const feedbackAreaEl = document.getElementById('feedback-area');
         const checkAnswerBtn = document.getElementById('check-answer-btn');
