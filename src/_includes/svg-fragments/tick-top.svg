@@ -1,0 +1,8 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true">
+  <!-- Top center tick (#3) -->
+  <g id="tick-top">
+    <path fill="none"
+      d="M256,89.6c-7.074,0-12.8,5.726-12.8,12.8V128c0,7.074,5.726,12.8,12.8,12.8c7.074,0,12.8-5.726,12.8-12.8v-25.6
+      C268.8,95.326,263.074,89.6,256,89.6z" />
+  </g>
+</svg>

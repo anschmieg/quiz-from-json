@@ -303,6 +303,21 @@ body {
     transition: transform 0.15s ease;
 }
 
+/* Pointer group inside the inlined SVGs. We use .pointer to target the whole pointer so scaling
+   keeps the same rotation origin defined by the group's transform attribute. */
+.question-difficulty svg .pointer {
+    /* Use view-box as the reference so scaling respects the SVG's coordinate system */
+    transform-box: view-box;
+    /* set an origin roughly at the pointer's pivot (percentages relative to viewBox) */
+    transform-origin: 50% 60%;
+    transition: transform 0.18s cubic-bezier(.2, .9, .2, 1);
+}
+
+/* On hover enlarge the pointer by 25% while leaving rotation origin in place. */
+.question-difficulty:hover svg .pointer {
+    transform: scale(1.25);
+}
+
 .question-difficulty .difficulty-text {
     line-height: 1;
 }
