@@ -12,13 +12,54 @@
 <body>
     <header class="main-header">
         <nav class="main-nav">
-            <a href="/" class="nav-link">Quiz</a>
-            <a href="/stats/" class="nav-link">Stats</a>
+            <div class="nav-section nav-left">
+                <div class="quiz-selector">
+                    <label for="quiz-select" class="quiz-label">Quiz:</label>
+                    <select id="quiz-select" class="quiz-dropdown">
+                        {% for quiz in quizzes %}
+                        <option value="{{ quiz.id }}">{{ quiz.shorttitle }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="nav-section nav-center">
+                <a href="/" class="nav-link" data-page="quiz">Quiz</a>
+                <a href="/stats/" class="nav-link" data-page="stats">Stats</a>
+            </div>
+            <div class="nav-section nav-right">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
         </nav>
     </header>
     <main class="main-container">
         {{ content | safe }}
     </main>
+    <script>
+        // Dark mode toggle functionality
+        (function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = themeToggle.querySelector('.theme-icon');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+            
+            function setTheme(dark) {
+                document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+                themeIcon.textContent = dark ? '☀️' : '🌙';
+                localStorage.setItem('theme', dark ? 'dark' : 'light');
+            }
+            
+            // Initialize theme
+            const savedTheme = localStorage.getItem('theme');
+            const initialDark = savedTheme === 'dark' || (!savedTheme && prefersDark.matches);
+            setTheme(initialDark);
+            
+            themeToggle.addEventListener('click', () => {
+                const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+                setTheme(!isDark);
+            });
+        })();
+    </script>
 </body>
 </html>
 

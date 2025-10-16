@@ -1,0 +1,538 @@
+{
+  "title": "Intervention bei Sprachentwicklungsstörungen",
+  "shorttitle": "SES",
+  "questions": [
+    {
+      "id": "ses_001",
+      "questionText": "Welche Aussage beschreibt Bildungssprache am treffendsten?",
+      "options": [
+        "Die im Alltag spontan verwendete regionale Sprechweise zwischen Dialekt und Standardsprache",
+        "Ein didaktisch konstruiertes Unterrichtsregister (Schulsprache i.e.S.) für Lehrhandlungen",
+        "Das Register, in dem Wissensaneignung in Bildungsinstitutionen erfolgt und zu dem diese Institutionen Zugang schaffen müssen",
+        "Ausschließlich schriftsprachliche Form ohne Bezug zu mündlicher Kommunikation"
+      ],
+      "correctAnswer": "Das Register, in dem Wissensaneignung in Bildungsinstitutionen erfolgt und zu dem diese Institutionen Zugang schaffen müssen",
+      "difficulty": "easy",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "In der Zusammenfassung wird Bildungssprache als Register definiert, in dem schulische Wissensaneignung stattfindet. Sie setzt Alltagssprache voraus und besitzt spezifische semantisch-lexikalische und morphosyntaktische Merkmale."
+    },
+    {
+      "id": "ses_002",
+      "questionText": "Welche Merkmalkombination ist typisch für Bildungssprache (im Unterschied zur Umgangssprache)?",
+      "options": [
+        "Dialogisch, stark kontextgebunden, regionale Färbung",
+        "Nominalisierungen, anaphorische Referenzen, Operatoren, komplexe Satzgefüge",
+        "Dialektale Ausdrücke, Ellipsen, unvollständige Syntax",
+        "Ausschließlich Imperativformen, wenige Substantive"
+      ],
+      "correctAnswer": "Nominalisierungen, anaphorische Referenzen, Operatoren, komplexe Satzgefüge",
+      "difficulty": "medium",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Genannt werden u. a. Nominalisierungen, nominale Komposita, Präfix/Suffixverben, anaphorische Referenzen, Operatoren, komplexe Satzgefüge und Passiv als typische Merkmale der Bildungssprache."
+    },
+    {
+      "id": "ses_003",
+      "questionText": "Welche der folgenden sprachlichen Eigenschaften erschwert nachweislich das Sprachverstehen besonders für Kinder mit SES?",
+      "options": [
+        "Hohe Frequenz konkreter Substantive",
+        "Ambige Wörter und Metaphern",
+        "Kurze Hauptsätze ohne Nebensätze",
+        "Aktivkonstruktionen mit Subjekt–Verb–Objekt in Grundstellung"
+      ],
+      "correctAnswer": "Ambige Wörter und Metaphern",
+      "difficulty": "medium",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Unter den negativeren Faktoren werden explizit ambige Wörter und Metaphern genannt; dazu kommen Topikalisierungen, komplexe Syntax, Passiv, Koordinationen und hohe Arbeitsgedächtnisbelastung."
+    },
+    {
+      "id": "ses_004",
+      "questionText": "Welche Formulierung ist für Lernende mit SES voraussichtlich am verständlichsten?",
+      "options": [
+        "Die Durchführung der Evaluationsmaßnahme obliegt der für die Administration zuständigen Instanz.",
+        "Wir prüfen die Maßnahme. Dafür ist die Verwaltung zuständig.",
+        "Zuständigkeitsprüfung administrativer Instanzen hinsichtlich der Evaluation erfolgt.",
+        "Die Evaluationsinstanz ist obliegend."
+      ],
+      "correctAnswer": "Wir prüfen die Maßnahme. Dafür ist die Verwaltung zuständig.",
+      "difficulty": "easy",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Kürzere Sätze, klare Subjekt–Verb–Objekt-Struktur, Vermeidung von Nominalstil und Passiv reduzieren die Arbeitsgedächtnisbelastung und erhöhen Transparenz für Kinder mit SES."
+    },
+    {
+      "id": "ses_005",
+      "questionText": "Welche Aussage zur Mental Imagery im Sinne der Dual-Coding-Theorie (Paivio) trifft zu?",
+      "options": [
+        "Bildhafte Informationen stören das Verstehen, da sie verbal-kognitive Ressourcen binden.",
+        "Verbales und bildhaftes System sind unabhängig und können nicht interagieren.",
+        "Doppelte Kodierung (verbal + imaginal) kann die Verarbeitung und das Textverstehen verbessern.",
+        "Nur abstrakte Wörter werden spontan doppelt (verbal und bildhaft) kodiert."
+      ],
+      "correctAnswer": "Doppelte Kodierung (verbal + imaginal) kann die Verarbeitung und das Textverstehen verbessern.",
+      "difficulty": "medium",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Die Dual-Coding-Theorie nimmt zwei verknüpfte Systeme an. Doppelte Kodierung und der Bildüberlegenheitseffekt unterstützen Verstehen, wenn Bild- und Textinformationen integrativ wesentliche Relationen repräsentieren."
+    },
+    {
+      "id": "ses_006",
+      "questionText": "Welche der folgenden Umformulierungen verbessert vor allem die **lexikalische** Transparenz?",
+      "options": [
+        "Durchführung der Kontrastierung → Wir stellen die Sätze **gegenüber**.",
+        "Topikalisierung im Vorfeld → Das Objekt wird **vorangestellt**.",
+        "Implementierung der Intervention → Wir **führen** die Förderung **ein**.",
+        "Generierung mentaler Repräsentationen → Wir **bilden** uns innere **Vorstellungen**."
+      ],
+      "correctAnswer": "Implementierung der Intervention → Wir führen die Förderung ein.",
+      "difficulty": "medium",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Lexikalische Vereinfachung ersetzt abstrakte, nominalisierte Fachlexeme (Implementierung) durch hochfrequente Verben (einführen). Grammatikalische und syntaktische Aspekte bleiben möglichst unverändert."
+    },
+    {
+      "id": "ses_007",
+      "questionText": "Welche Aussage passt NICHT zu den Prinzipien wirksamer Therapiegestaltung im Überblick (PLAN/kontextoptimiert gedacht)?",
+      "options": [
+        "Rezeptive Arbeit geht der expressiven oft voraus.",
+        "Zielstrukturen werden hochfrequent, variabel und kontrastreich angeboten.",
+        "Ein starres, unverändertes Setting fördert die Generalisierung.",
+        "Dialogische Einbettung schafft kommunikativen Nutzen."
+      ],
+      "correctAnswer": "Ein starres, unverändertes Setting fördert die Generalisierung.",
+      "difficulty": "easy",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Die Zusammenfassung betont dialogische Einbettung, Flexibilisierung, variable Präsentationsformen, Methodenvielfalt und eine Sequenzierung von rezeptiven vor expressiven Anteilen."
+    },
+    {
+      "id": "lex_001",
+      "questionText": "Welches übergeordnete Ziel der Wortschatztherapie wird explizit genannt?",
+      "options": [
+        "Vermittlung sämtlicher fehlender Wörter",
+        "Anregung der Selbstlernfähigkeit zur Generalisierung",
+        "Ausschließliches Training der Abrufgeschwindigkeit",
+        "Vermeidung jeglicher Metasprachlichkeit"
+      ],
+      "correctAnswer": "Anregung der Selbstlernfähigkeit zur Generalisierung",
+      "difficulty": "easy",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Die Sammlung nennt als Ziel nicht die vollständige Wortliste, sondern die Anregung selbstständiger Lern- und Generalisierungsprozesse über exemplarische Wortfelder."
+    },
+    {
+      "id": "lex_002",
+      "questionText": "Welche Aussage zum mentalen Lexikon (Levelt) ist korrekt?",
+      "options": [
+        "Lemma-Ebene umfasst nur Phonologie/Morphologie.",
+        "Lexem-Ebene enthält Semantik/Syntax.",
+        "Abrufqualität kann höchstens so gut sein wie die Speicherqualität.",
+        "Mehr Wissen zu einem Wort verlangsamt den Zugriff dauerhaft."
+      ],
+      "correctAnswer": "Abrufqualität kann höchstens so gut sein wie die Speicherqualität.",
+      "difficulty": "medium",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Es wird explizit zwischen Lemma (Semantik/Syntax) und Lexem (Phonologie/Morphologie) unterschieden. Elaboration verbessert die Speicherqualität und damit mittelbar den Abruf."
+    },
+    {
+      "id": "lex_003",
+      "questionText": "Was ist das primäre Ziel der **semantischen Elaborationstherapie**?",
+      "options": [
+        "Ausbau des phonologischen Wissens zur Wortform",
+        "Verbesserung der Abrufgeschwindigkeit durch Wettspiele",
+        "Ausbau des semantisch‑konzeptuellen Wissens zu Wörtern",
+        "Reduktion metasprachlicher Anforderungen"
+      ],
+      "correctAnswer": "Ausbau des semantisch‑konzeptuellen Wissens zu Wörtern",
+      "difficulty": "easy",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Genannt werden u. a. Bedeutungsmerkmale herausarbeiten, Gemeinsamkeiten/Unterschiede, Sortieraufgaben, Assoziationen – alles zur tieferen Verankerung im mentalen Lexikon (Lemma-Ebene)."
+    },
+    {
+      "id": "lex_004",
+      "questionText": "Welche Maßnahme gehört NICHT primär zur **phonologischen** Elaborationstherapie?",
+      "options": [
+        "Reime finden und Silbenzahl sortieren",
+        "Wortanfang/-ende bewusstmachen",
+        "Assoziationen zu Wortfeldern bilden",
+        "Durchgliederung der Wortform (Silbe–Phonem)"
+      ],
+      "correctAnswer": "Assoziationen zu Wortfeldern bilden",
+      "difficulty": "medium",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Assoziationen sind der semantischen Verknüpfung zuzuordnen. Phonologische Elaboration fokussiert Formrepräsentationen (Silben, Phoneme, Anlaut, Reime)."
+    },
+    {
+      "id": "lex_005",
+      "questionText": "Welche Aussage trifft die **Abruftherapie** am genauesten?",
+      "options": [
+        "Sie ersetzt Elaboration vollständig.",
+        "Sie optimiert den Zugriff (schneller/genauer) u. a. durch gesteigerte Abrufhäufigkeit und Abrufhilfen.",
+        "Sie beschränkt sich auf offene Fragen ohne Struktur.",
+        "Sie setzt ausschließlich implizite Verfahren ein."
+      ],
+      "correctAnswer": "Sie optimiert den Zugriff (schneller/genauer) u. a. durch gesteigerte Abrufhäufigkeit und Abrufhilfen.",
+      "difficulty": "medium",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Es werden Schnellbenennungen, Wettspiele, Priming und spezifische semantische/phonologische Abrufhilfen beschrieben. Elaboration bleibt wichtig, um Speicherqualität zu erhöhen."
+    },
+    {
+      "id": "lex_006",
+      "questionText": "Ein Kind sagt bei Bildbenennung oft semantisch nahe Wörter. Welche Kombination ist in der Therapie besonders sinnvoll?",
+      "options": [
+        "Abrufhäufigkeit senken und Rateaufgaben vermeiden",
+        "Nur phonologische Elaboration ohne Abruftraining",
+        "Elaboration (Speicherqualität), Self‑Monitoring und erhöhte Abrufhäufigkeit",
+        "Ausschließlich Strategietherapie"
+      ],
+      "correctAnswer": "Elaboration (Speicherqualität), Self‑Monitoring und erhöhte Abrufhäufigkeit",
+      "difficulty": "medium",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Die Zusammenfassung empfiehlt bei geringer Abrufgenauigkeit: Speicherqualität stärken, Reflexion der eigenen Antworten anbahnen und die Abrufhäufigkeit erhöhen."
+    },
+    {
+      "id": "lex_007",
+      "questionText": "Wodurch unterscheidet sich **Strategietherapie** von Elaborations-/Abruftherapie?",
+      "options": [
+        "Sie trainiert nur einzelne Zielwörter intensiver.",
+        "Sie vermittelt allgemeine lexikalische Lern-, Abruf- und Kompensationsstrategien für Transfer über das Setting hinaus.",
+        "Sie vermeidet jegliche Metakognition.",
+        "Sie setzt ausschließlich im Vorschulalter an."
+      ],
+      "correctAnswer": "Sie vermittelt allgemeine lexikalische Lern-, Abruf- und Kompensationsstrategien für Transfer über das Setting hinaus.",
+      "difficulty": "medium",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Strategietherapie zielt auf Metawissen, Selbstmanagement und generalisierbare Strategien (z. B. Nachfragen, Markieren, Loci, Eselsbrücken)."
+    },
+    {
+      "id": "lex_008",
+      "questionText": "Welches Element gehört **explizit** zum Programm „Wortschatzsammler“?",
+      "options": [
+        "Pirat Tom als Modellfigur in einer Schatzsuche‑Rahmenhandlung",
+        "Ausschluss von Abrufstrategien",
+        "Verzicht auf jegliche Visualisierung",
+        "Nur schriftbasierte Übungen in der Sekundarstufe"
+      ],
+      "correctAnswer": "Pirat Tom als Modellfigur in einer Schatzsuche‑Rahmenhandlung",
+      "difficulty": "easy",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Das Konzept nutzt Modelllernen, Tipptafel und Strategien (Selbstevaluation, Fragen-, Speicher-, Abruf-, Kategorisierungsstrategien) – auch als Förderkonzept im Unterricht."
+    },
+    {
+      "id": "lex_009",
+      "questionText": "Welche Umformung verbessert primär die **phonologische** Zugänglichkeit?",
+      "options": [
+        "Komposita zu freien Fügungen machen (z. B. „Leistungsbewertung“ → „Bewertung der Leistung“).",
+        "Reim- und Anlautübungen zu den Zielwörtern integrieren.",
+        "Metaphern durch wörtliche Ausdrücke ersetzen.",
+        "Passivkonstruktionen in Aktiv umformen."
+      ],
+      "correctAnswer": "Reim- und Anlautübungen zu den Zielwörtern integrieren.",
+      "difficulty": "medium",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Phonologische Elaboration baut auf Silben, Reimen, Anlauten und der Besetzung markanter Wortpositionen auf; dies erleichtert Formrepräsentation und Abruf."
+    },
+    {
+      "id": "gram_001",
+      "questionText": "Welche Definition trifft grammatische Entwicklungsstörungen am besten?",
+      "options": [
+        "Zeitweilige Verzögerung ohne spezifische Muster",
+        "Kinder erwerben morphologische und syntaktische Fähigkeiten ihrer Bezugssprache nicht altersgemäß",
+        "Nur phonetische Realisationen sind betroffen",
+        "Primär Störungen der Pragmatik ohne morphosyntaktische Auffälligkeiten"
+      ],
+      "correctAnswer": "Kinder erwerben morphologische und syntaktische Fähigkeiten ihrer Bezugssprache nicht altersgemäß",
+      "difficulty": "easy",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Die Symptomatik umfasst u. a. Satzverständnisprobleme, verkürzte Äußerungen, Auslassungen obligatorischer Satzglieder/Funktionswörter, eingeschränkte Komplexität und Kongruenzfehler."
+    },
+    {
+      "id": "gram_002",
+      "questionText": "Welches Merkmal gehört NICHT zu den typischen **syntaktischen** Auffälligkeiten?",
+      "options": [
+        "Eingeschränkte Satzkomplexität, keine Nebensätze",
+        "Verbstellungsfehler im Aussagesatz",
+        "Fehlende/falsche Pluralmarkierung",
+        "Auslassung von Funktionswörtern"
+      ],
+      "correctAnswer": "Fehlende/falsche Pluralmarkierung",
+      "difficulty": "easy",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Pluralmarkierungsfehler sind morphologische Auffälligkeiten; die anderen Optionen betreffen Syntax (Komplexität, Verbstellung, Funktionswörter)."
+    },
+    {
+      "id": "gram_003",
+      "questionText": "Kernidee des **entwicklungsproximalen Ansatzes (Dannenbauer)** ist:",
+      "options": [
+        "Zielstrukturen zufällig im Input auftauchen lassen",
+        "Sprachlicher Input ist zentraler manipulierbarer Faktor; Zielstrukturen werden gezielt modelliert und kontrastiert",
+        "Nur Output-Übungen ohne Inputsteuerung",
+        "Fokus ausschließlich auf Metasprache"
+      ],
+      "correctAnswer": "Sprachlicher Input ist zentraler manipulierbarer Faktor; Zielstrukturen werden gezielt modelliert und kontrastiert",
+      "difficulty": "medium",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Input ist notwendig, aber nicht hinreichend. Daher gezielte Inputspezifizierung, Modellierung und Kontrastierung, abgestimmt auf Entwicklungsstand und therapeutische Relevanz."
+    },
+    {
+      "id": "gram_004",
+      "questionText": "Welche Sequenz entspricht dem Vorgehen laut Durchführung der Sprachtherapie (verkürzt)?",
+      "options": [
+        "Metasprache → Produktion → Modellieren → Evaluation",
+        "Zielstruktur modellieren → Voraussetzungen erfassen → Ziele bestimmen → Reflexion",
+        "Voraussetzungen erfassen → Therapieziele bestimmen → Modellieren → dialogische Sicherung → Metasprache/Reflexion",
+        "Produktion → Modellieren → Inputspeziﬁzierung → Abschluss"
+      ],
+      "correctAnswer": "Voraussetzungen erfassen → Therapieziele bestimmen → Modellieren → dialogische Sicherung → Metasprache/Reflexion",
+      "difficulty": "medium",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Genannt werden: Spontansprachanalyse, Zielbestimmung, eindeutiges Sprachangebot mit Kontrasten, Überführung in Produktion (kurzrhythmischer Wechsel), metasprachliche Hilfen, Reflexion."
+    },
+    {
+      "id": "gram_005",
+      "questionText": "Was leistet **Kontrastierung** im PLAN‑Konzept?",
+      "options": [
+        "Sie reduziert die Frequenz der Zielstruktur.",
+        "Sie provoziert eine Veränderung des kindlichen Regelsystems, indem strukturelle Gegensätze hervorgehoben werden.",
+        "Sie ersetzt Modellierung vollständig.",
+        "Sie betrifft ausschließlich prosodische Kontraste."
+      ],
+      "correctAnswer": "Sie provoziert eine Veränderung des kindlichen Regelsystems, indem strukturelle Gegensätze hervorgehoben werden.",
+      "difficulty": "medium",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Kontrastierung macht relevante Oppositionen sichtbar/hörbar und unterstützt Hypothesenbildung über Zielregeln; sie ergänzt Frequenz, Prägnanz, Varianz des Inputs."
+    },
+    {
+      "id": "gram_006",
+      "questionText": "Welche Inputspezifizierung ist für den frühen **Objektkasus** (Akkusativ) am sinnvollsten?",
+      "options": [
+        "Zuerst Dativ im Plural, danach Genitiv",
+        "Erst maskuliner Akkusativ in kurzen Strukturen („den X“), kontrastiert mit Dativ",
+        "Zuerst komplexe Nebensätze mit Passiv",
+        "Unmarkierte Artikel im Nullartikel‑Kontext"
+      ],
+      "correctAnswer": "Erst maskuliner Akkusativ in kurzen Strukturen („den X“), kontrastiert mit Dativ",
+      "difficulty": "hard",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Im Beispiel zur Kontextoptimierung wird der Objektkasus mit Fokus auf maskulinen Akkusativ aufgebaut, kontrastiert zu Dativ, mit kürzester Zielstruktur und akustisch hervorgehobener Markierung."
+    },
+    {
+      "id": "gram_007",
+      "questionText": "Welche Aussage zur **Kontextoptimierung (Motsch)** trifft zu?",
+      "options": [
+        "Sie zielt primär auf mehr Material statt besserem Kontext.",
+        "Planbare Kontextkomponenten (Material, Sprechweise, Situation, Hilfen) werden so verändert, dass Blockaden abgebaut und Verarbeitung erleichtert wird.",
+        "Sie verzichtet auf metasprachliche Gespräche.",
+        "Zwingende Kontexte sollen vermieden werden."
+      ],
+      "correctAnswer": "Planbare Kontextkomponenten (Material, Sprechweise, Situation, Hilfen) werden so verändert, dass Blockaden abgebaut und Verarbeitung erleichtert wird.",
+      "difficulty": "medium",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Prinzipien umfassen Kick‑Off, Ursachen‑ und Ressourcenorientierung sowie Modalitätenwechsel; zwingende Kontexte sichern die Zielstruktur kommunikativ ab."
+    },
+    {
+      "id": "gram_008",
+      "questionText": "Welche Option ist als **zwingender Kontext** im Sinne der Kontextoptimierung besonders geeignet?",
+      "options": [
+        "Freies Spiel ohne sprachlichen Bedarf",
+        "Ein Spiel, in dem die Therapeutin nur dann mittut/etwas tut, wenn das Kind die Zielstruktur korrekt produziert",
+        "Stilles Lesen ohne Interaktion",
+        "Monologisches Vorlesen langer Passagen"
+      ],
+      "correctAnswer": "Ein Spiel, in dem die Therapeutin nur dann mittut/etwas tut, wenn das Kind die Zielstruktur korrekt produziert",
+      "difficulty": "medium",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "„Macht der Worte“: Der Handlungsfortgang wird an die Realisierung der Zielstruktur gekoppelt (kurzrhythmischer Wechsel, produktive Sicherung)."
+    },
+    {
+      "id": "gram_009",
+      "questionText": "Welche Formulierung ist für Kinder mit SES **grammatisch** klarer (Verbzweitstellung im Aussagesatz)?",
+      "options": [
+        "Weil morgen wir gehen in den Zoo.",
+        "Morgen gehen wir in den Zoo.",
+        "In den Zoo morgen wir gehen.",
+        "Morgen wir gehen in den Zoo."
+      ],
+      "correctAnswer": "Morgen gehen wir in den Zoo.",
+      "difficulty": "easy",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Die richtige V2‑Stellung („Morgen | gehen | wir | …“) ist für das Deutsche zentral; Topikalisierungen ohne Verbzweitstellung erhöhen die Verarbeitungslast."
+    },
+    {
+      "id": "pho_001",
+      "questionText": "Welches Merkmal unterscheidet **phonetische** Störung von **phonologischer Verzögerung** (Dodd)?",
+      "options": [
+        "Phonetische Störung: Artikulationsfehler auf motorisch-perzeptiver Ebene; Verzögerung: nur altersentsprechende Prozesse treten länger auf",
+        "Phonetische Störung: ausschließlich lexikalische Defizite; Verzögerung: semantische Paraphasien",
+        "Phonetische Störung: stabile Wortprogramme; Verzögerung: instabile Programme",
+        "Phonetische Störung: pathologische Prozesse; Verzögerung: myofunktionelle Ursachen ausgeschlossen"
+      ],
+      "correctAnswer": "Phonetische Störung: Artikulationsfehler auf motorisch-perzeptiver Ebene; Verzögerung: nur altersentsprechende Prozesse treten länger auf",
+      "difficulty": "medium",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Im Dodd‑Modell: phonetisch = Artikulationsebene; phonologische Verzögerung = persistierende physiologische Prozesse; konsequente/inkonsequente Störung haben weitere Kriterien."
+    },
+    {
+      "id": "pho_002",
+      "questionText": "Was kennzeichnet eine **inkonsequente phonologische Störung**?",
+      "options": [
+        "Stabile Produktion mit einem pathologischen Prozess",
+        "Mindestens 40 % der Wörter werden unterschiedlich produziert",
+        "Nur Sigmatismus lateral",
+        "Ausschließlich motorische Planungsprobleme"
+      ],
+      "correctAnswer": "Mindestens 40 % der Wörter werden unterschiedlich produziert",
+      "difficulty": "medium",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Inkonsequenztest: ≥ 40 % variierende Realisierungen desselben Zielwortes, Hinweis auf Probleme beim Aufbau stabiler Wortprogramme."
+    },
+    {
+      "id": "pho_003",
+      "questionText": "Welche Reihenfolge entspricht den Schritten der **klassischen Artikulationstherapie nach van Riper**?",
+      "options": [
+        "Lautanbahnung → Hörtraining → Transfer → Lautfestigung",
+        "Hörtraining (Fremd-/Eigenwahrnehmung) → Lautanbahnung → Lautfestigung/Stabilisierung → Transfer in Alltagssprache",
+        "Transfer → Lautfestigung → Hörtraining → Lautanbahnung",
+        "Auditives Training entfällt zugunsten motorischer Übungen"
+      ],
+      "correctAnswer": "Hörtraining (Fremd-/Eigenwahrnehmung) → Lautanbahnung → Lautfestigung/Stabilisierung → Transfer in Alltagssprache",
+      "difficulty": "easy",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Grundgedanke: Ein Laut, der nicht als fehlerhaft erkannt wird, kann nicht verändert werden; daher auditives Training vor Produktion."
+    },
+    {
+      "id": "pho_004",
+      "questionText": "Welche **Lautanbahnungstechnik** passt zu [s] im Sinne der **Ableitung**?",
+      "options": [
+        "Vom korrekt produzierten [t] ausgehen und es „wegpusten“",
+        "Lippen fest schließen und platzen lassen",
+        "Schlüsselwort/Trägerwort verlangsamen und segmentieren",
+        "Nur visuelle Spiegelkontrolle ohne Produktion"
+      ],
+      "correctAnswer": "Vom korrekt produzierten [t] ausgehen und es „wegpusten“",
+      "difficulty": "medium",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Ableitung nutzt koartikulatorisch günstige Laute (z. B. [t] → Luftstrom verlängern → [s]). Weitere Techniken: phonetische Lokalisation, Vorstellungshilfen, Schlüsselwortmethode."
+    },
+    {
+      "id": "pho_005",
+      "questionText": "Welche Aussage zur **myofunktionellen Störung** trifft zu?",
+      "options": [
+        "Sie ist irrelevant für Artikulationstherapie.",
+        "Zuerst sollte Lautanbahnung erfolgen, dann myofunktionelle Therapie.",
+        "Liegt eine myofunktionelle Störung vor, sollte zunächst diese behandelt werden (z. B. Lippenschluss, Nasenatmung, Zungenruhelage).",
+        "Sie betrifft nur die Atmung und hat keine Relevanz für den Lauterwerb."
+      ],
+      "correctAnswer": "Liegt eine myofunktionelle Störung vor, sollte zunächst diese behandelt werden (z. B. Lippenschluss, Nasenatmung, Zungenruhelage).",
+      "difficulty": "medium",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Ungleichgewichte im orofazialen Bereich können phonetische Störungen bedingen; erst die Basis (Tonisierung, Ruhelage, Schluckmuster) stabilisieren, dann Lautanbahnung."
+    },
+    {
+      "id": "pho_006",
+      "questionText": "Welche Methode gehört primär zur **phonologischen** Therapie?",
+      "options": [
+        "Minimalpaararbeit (z. B. Tanne/Kanne)",
+        "Spiegelarbeit zur Zungenlage",
+        "Vorstellungshilfen für Frikative",
+        "Watte wegpusten"
+      ],
+      "correctAnswer": "Minimalpaararbeit (z. B. Tanne/Kanne)",
+      "difficulty": "easy",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Minimalpaartherapie adressiert Kategorienbildung auf der phonologischen Ebene; die anderen Beispiele sind phonetische Anbahnung/Artikulation."
+    },
+    {
+      "id": "pho_007",
+      "questionText": "Welche Formulierung hilft Kindern mit SES auf **syntaktischer Ebene** am ehesten?",
+      "options": [
+        "Die durch die Lehrkraft vorgenommene Evaluierung wurde durchgeführt.",
+        "Die Lehrkraft hat die Aufgabe geprüft.",
+        "Die Evaluierung seitens der Lehrkraft fand statt.",
+        "Durchführung der Evaluierung erfolgte lehrkraftseitig."
+      ],
+      "correctAnswer": "Die Lehrkraft hat die Aufgabe geprüft.",
+      "difficulty": "easy",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Aktivsatz mit klarer V2‑Stellung und kurzer Verbalklammer minimiert syntaktische Last im Vergleich zu Passiv und Nominalstil."
+    },
+    {
+      "id": "ses_008",
+      "questionText": "Welche Umformung zielt vorrangig auf **grammatische** Vereinfachung (nicht primär auf Lexik)?",
+      "options": [
+        "„Die Durchführung der Maßnahmen“ → „Wir führen die Maßnahmen durch.“",
+        "„Implementierung“ → „Einführung“",
+        "„Nominalisierung“ → „Nomenbildung“",
+        "„Topikalisierung“ → „Voranstellung“"
+      ],
+      "correctAnswer": "„Die Durchführung der Maßnahmen“ → „Wir führen die Maßnahmen durch.“",
+      "difficulty": "medium",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Vom Nominalstil zur verbalen Realisierung (Verbalkern) reduziert die Komplexität der Verbalklammer/Argumentstruktur und erleichtert Verarbeitung."
+    },
+    {
+      "id": "lex_010",
+      "questionText": "Welche Aktivität fördert **kontrollierten Abruf**, wenn der automatische Abruf misslingt?",
+      "options": [
+        "Zeitdruck erhöhen und Hilfen vermeiden",
+        "Semantische und/oder phonologische Teilinformationen als gezielte Abrufhilfen geben",
+        "Nur lautes Wiederholen des unbekannten Wortes ohne Kontext",
+        "Korrekturen grundsätzlich vermeiden"
+      ],
+      "correctAnswer": "Semantische und/oder phonologische Teilinformationen als gezielte Abrufhilfen geben",
+      "difficulty": "medium",
+      "topic": "Intervention bei semantisch-lexikalischen Störungen – Ziele, Verfahren, Strategien",
+      "explanation": "Die Zusammenfassung empfiehlt gezielte Hinweise (z. B. Bedeutung, Anlaut, Silbenstruktur), die an vorhandene Speichermerkmale anknüpfen."
+    },
+    {
+      "id": "gram_010",
+      "questionText": "Welches PLAN‑Prinzip ist richtig zugeordnet?",
+      "options": [
+        "Inputspezifizierung → Reduktion der Zielstrukturfreqenz",
+        "Modellierungen → Spiegeln/Erweitern fehlerhaft produzierter Zielstrukturen",
+        "Metasprache → Nur im Vorschulalter einsetzbar",
+        "Kontrastierung → Vermeidung struktureller Gegensätze"
+      ],
+      "correctAnswer": "Modellierungen → Spiegeln/Erweitern fehlerhaft produzierter Zielstrukturen",
+      "difficulty": "medium",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "PLAN umfasst Inputspezifizierung (frequent, prägnant, variabel, kontrastreich), Modellierungen, Übungen (rez./expr.), Metasprache und Kontrastierung."
+    },
+    {
+      "id": "pho_008",
+      "questionText": "Welche Zuordnung ist korrekt (Technik → Beispiel)?",
+      "options": [
+        "Phonetische Lokalisation → „Lippen schließen und platzen lassen“ für [p]",
+        "Schlüsselwortmethode → [s] aus [t] ableiten",
+        "Vorstellungshilfe → Spiegelarbeit zur Zungenlage",
+        "Ableitung → Trägerwort verlangsamen und segmentieren"
+      ],
+      "correctAnswer": "Phonetische Lokalisation → „Lippen schließen und platzen lassen“ für [p]",
+      "difficulty": "medium",
+      "topic": "Intervention bei phonetisch-phonologischen Störungen – Klassifikation & Therapie",
+      "explanation": "Lokalisation macht Artikulationsort/-art bewusst; Ableitung nutzt günstige Laute ([t]→[s]); Schlüsselwortmethode arbeitet mit korrekt produzierten Wörtern; Vorstellungshilfen nutzen Lautassoziationen."
+    },
+    {
+      "id": "gram_011",
+      "questionText": "Welche Kombination erfüllt am ehesten die Kriterien der **Inputspezifizierung** für eine neue Zielstruktur?",
+      "options": [
+        "Hohe Frequenz, prägnante Akzentuierung der Morpheme, lexikalische Kontrolle, variable aber kontrastreiche Sätze",
+        "Seltene Präsentation, lange Texte, keine Prosodiehilfen",
+        "Nur schriftliche Beispiele ohne Dialog",
+        "Maximaler Themenwechsel ohne Wiederholung"
+      ],
+      "correctAnswer": "Hohe Frequenz, prägnante Akzentuierung der Morpheme, lexikalische Kontrolle, variable aber kontrastreiche Sätze",
+      "difficulty": "hard",
+      "topic": "Intervention bei grammatischen Störungen – Entwicklungsproximal, PLAN & Kontextoptimierung",
+      "explanation": "Die Zusammenfassung nennt explizit die Merkmale: frequent, prägnant, lexikalisch kontrolliert, variabel, kontrastreich und flexibel."
+    },
+    {
+      "id": "ses_009",
+      "questionText": "Welche Option reduziert primär die **Arbeitsgedächtnisbelastung** beim Verstehen?",
+      "options": [
+        "Mehrere Topikalisierungen und lange Vorfelder einsetzen",
+        "Komplexe Passivketten mit eingebetteten Nebensätzen verwenden",
+        "Kurze Sätze mit klarer Referenzauflösung statt anaphorischer Ketten",
+        "Zusätzliche Metaphern und ambige Lexik einfügen"
+      ],
+      "correctAnswer": "Kurze Sätze mit klarer Referenzauflösung statt anaphorischer Ketten",
+      "difficulty": "medium",
+      "topic": "Intervention bei Sprachentwicklungsstörungen – Allgemeines & Bildungssprache",
+      "explanation": "Die Liste problematischer Faktoren umfasst Topikalisierungen, Passiv, komplexe Syntax und inferenzielle Belastungen; klare, kurze Sätze sind entlastend."
+    }
+  ]
+}
