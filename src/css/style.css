@@ -47,13 +47,21 @@
     --eb: #2b547e;
     --mb: #7b6d5d;
     --hb: #b03030;
+    /* Palette D (vivid hard suggestion) */
+    --ed: #3b5aa6;
+    --md: #6f6252;
+    --hd: #b00020;
 
+    /* Dark variants: keep B and D very similar to their light counterparts so palettes don't shift between themes */
     --ea-dark: #5e7186;
     --ma-dark: #b69f88;
     --ha-dark: #a36363;
-    --eb-dark: #4b6590;
-    --mb-dark: #9a8b7a;
-    --hb-dark: #c36b6b;
+    --eb-dark: var(--eb);
+    --mb-dark: var(--mb);
+    --hb-dark: var(--hb);
+    --ed-dark: var(--ed);
+    --md-dark: var(--md);
+    --hd-dark: var(--hd);
 }
 
 /* Dark mode variables */
@@ -88,6 +96,12 @@ body.palette-b {
     --difficulty-hard-bg: var(--hb);
 }
 
+body.palette-d {
+    --difficulty-easy-bg: var(--ed);
+    --difficulty-medium-bg: var(--md);
+    --difficulty-hard-bg: var(--hd);
+}
+
 /* Respect dark theme when a palette class is set */
 html[data-theme="dark"] body.palette-a {
     --difficulty-easy-bg: var(--ea-dark);
@@ -99,6 +113,12 @@ html[data-theme="dark"] body.palette-b {
     --difficulty-easy-bg: var(--eb-dark);
     --difficulty-medium-bg: var(--mb-dark);
     --difficulty-hard-bg: var(--hb-dark);
+}
+
+html[data-theme="dark"] body.palette-d {
+    --difficulty-easy-bg: var(--ed-dark);
+    --difficulty-medium-bg: var(--md-dark);
+    --difficulty-hard-bg: var(--hd-dark);
 }
 
 html {
