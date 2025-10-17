@@ -36,9 +36,11 @@
     --dropdown-bg: #ffffff;
     --hover-bg: #f8f9fa;
     /* difficulty pill palette (muted/desaturated variants) */
-    --difficulty-easy-bg: #1f3a57;     /* bluer easy */
-    --difficulty-medium-bg: #9a7a5a;   /* darker, greyer medium */
-    --difficulty-hard-bg: #7f2626;     /* much redder hard */
+     /* difficulty pill palette (muted/desaturated variants)
+         Default mix: easy from Palette B, medium/hard from Palette D */
+     --difficulty-easy-bg: var(--eb);
+     --difficulty-medium-bg: var(--md);
+     --difficulty-hard-bg: var(--hd);
     /* Palette A/B short vars for quick A/B testing */
     --ea: #1f3a57;
     --ma: #9a7a5a;
@@ -82,6 +84,13 @@
     --nav-bg: #2d2d2d;
     --dropdown-bg: #3a3a3a;
     --hover-bg: #3a3a3a;
+}
+
+/* Set default dark-mode pill backgrounds to the dark variants (keeps B/D similar between themes) */
+[data-theme="dark"] {
+    --difficulty-easy-bg: var(--eb-dark);
+    --difficulty-medium-bg: var(--md-dark);
+    --difficulty-hard-bg: var(--hd-dark);
 }
 
 /* Body-level palette toggles for A/B testing */
