@@ -350,19 +350,29 @@ body {
     background-color: rgba(255, 255, 255, 0.12);
 }
 
-.question-difficulty.easy {
+.question-difficulty.easy,
+.question-difficulty.leicht {
     background-color: var(--difficulty-easy-bg);
     color: #fff;
 }
 
-.question-difficulty.medium {
+.question-difficulty.medium,
+.question-difficulty.mittel {
     background-color: var(--difficulty-medium-bg);
     color: #111;
 }
 
-.question-difficulty.hard {
+.question-difficulty.hard,
+.question-difficulty.schwer {
     background-color: var(--difficulty-hard-bg);
     color: #fff;
+}
+
+/* Dark-mode overrides for pill backgrounds where necessary (picked for WCAG >= 4.5 against the pill text color) */
+[data-theme="dark"] {
+    --difficulty-easy-bg: #6c7685;  /* lighter blue-grey for dark background */
+    --difficulty-medium-bg: #cda073;/* slightly lighter amber for contrast */
+    --difficulty-hard-bg: #976969;  /* lighter red-grey */
 }
 
 .question-text {
