@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Difficulty Palette Test</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Material Symbols (for the difficulty icon) -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial; padding: 2rem; background: var(--primary-bg); color: var(--text-color); }
+    h1 { margin-top: 0; }
+    .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); }
+    .sample { background: var(--card-bg); padding: 1rem; border-radius: 10px; box-shadow: var(--shadow); }
+    .row { display:flex; gap:1rem; align-items:center; flex-wrap:wrap; }
+    .palette-meta { font-size:0.9rem; color:var(--meta-color); margin-bottom:0.5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Difficulty Palette Test</h1>
+    <p class="palette-meta">This page uses your site's `css/style.css`. Each sample shows Easy / Medium / Hard pills for a palette in light and dark variants. You can A/B test by adding <code>body.palette-a</code> or <code>body.palette-b</code> (the site already supports these), but the samples below are self-contained using CSS variables so they show both light and dark rows.</p>
+
+    <div class="grid">
+
+      <!-- Palette A (current default) -->
+      <section class="sample" aria-labelledby="pal-a">
+        <h2 id="pal-a">Palette A (default)</h2>
+        <div class="palette-meta">ea: #1f3a57 • ma: #9a7a5a • ha: #7f2626</div>
+        <div class="row" style="--difficulty-easy-bg:#1f3a57; --difficulty-medium-bg:#9a7a5a; --difficulty-hard-bg:#7f2626;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard</span>
+          </div>
+        </div>
+
+        <div style="height:12px"></div>
+        <div class="row" style="background:transparent; padding-top:6px; --difficulty-easy-bg:#5e7186; --difficulty-medium-bg:#b69f88; --difficulty-hard-bg:#a36363;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy (dark)</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium (dark)</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard (dark)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Palette B (alternate) -->
+      <section class="sample" aria-labelledby="pal-b">
+        <h2 id="pal-b">Palette B (alternate)</h2>
+        <div class="palette-meta">eb: #2b547e • mb: #7b6d5d • hb: #b03030</div>
+        <div class="row" style="--difficulty-easy-bg:#2b547e; --difficulty-medium-bg:#7b6d5d; --difficulty-hard-bg:#b03030;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard</span>
+          </div>
+        </div>
+
+        <div style="height:12px"></div>
+        <div class="row" style="--difficulty-easy-bg:#4b6590; --difficulty-medium-bg:#9a8b7a; --difficulty-hard-bg:#c36b6b;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy (dark)</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium (dark)</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard (dark)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Palette C (new suggestion: high-contrast, colorblind-friendly) -->
+      <section class="sample" aria-labelledby="pal-c">
+        <h2 id="pal-c">Palette C (colorblind-friendly)</h2>
+        <div class="palette-meta">ec: #2b6fa3 • mc: #9b7a52 • hc: #a22b2b</div>
+        <div class="row" style="--difficulty-easy-bg:#2b6fa3; --difficulty-medium-bg:#9b7a52; --difficulty-hard-bg:#a22b2b;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard</span>
+          </div>
+        </div>
+
+        <div style="height:12px"></div>
+        <div class="row" style="--difficulty-easy-bg:#6c8fb1; --difficulty-medium-bg:#b69f88; --difficulty-hard-bg:#9b4b4b;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy (dark)</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium (dark)</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard (dark)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Palette D (new suggestion: vivid red for hard, muted for medium, solid blue easy) -->
+      <section class="sample" aria-labelledby="pal-d">
+        <h2 id="pal-d">Palette D (vivid hard)</h2>
+        <div class="palette-meta">ed: #3b5aa6 • md: #6f6252 • hd: #b00020</div>
+        <div class="row" style="--difficulty-easy-bg:#3b5aa6; --difficulty-medium-bg:#6f6252; --difficulty-hard-bg:#b00020;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard</span>
+          </div>
+        </div>
+
+        <div style="height:12px"></div>
+        <div class="row" style="--difficulty-easy-bg:#6a7fb3; --difficulty-medium-bg:#9b8f83; --difficulty-hard-bg:#c85b5b;">
+          <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Easy (dark)</span>
+          </div>
+          <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Medium (dark)</span>
+          </div>
+          <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
+            <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <span class="difficulty-text">Hard (dark)</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <p style="margin-top:1rem; color:var(--meta-color);">Tip: open devtools and run <code>document.body.classList.add('palette-b')</code> to quickly switch the site-wide palette, or toggle HTML dark mode with <code>document.documentElement.setAttribute('data-theme','dark')</code>.</p>
+  </main>
+</body>
+</html>
