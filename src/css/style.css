@@ -36,9 +36,9 @@
     --dropdown-bg: #ffffff;
     --hover-bg: #f8f9fa;
     /* difficulty pill palette (muted/desaturated variants) */
-    --difficulty-easy-bg: #55626b;     /* blue-grey */
-    --difficulty-medium-bg: #c79a58;   /* subtle orange-grey */
-    --difficulty-hard-bg: #8f4f4f;     /* red-grey */
+    --difficulty-easy-bg: #1f3a57;     /* bluer easy */
+    --difficulty-medium-bg: #9a7a5a;   /* darker, greyer medium */
+    --difficulty-hard-bg: #7f2626;     /* much redder hard */
 }
 
 /* Dark mode variables */
@@ -370,9 +370,9 @@ body {
 
 /* Dark-mode overrides for pill backgrounds where necessary (picked for WCAG >= 4.5 against the pill text color) */
 [data-theme="dark"] {
-    --difficulty-easy-bg: #6c7685;  /* lighter blue-grey for dark background */
-    --difficulty-medium-bg: #cda073;/* slightly lighter amber for contrast */
-    --difficulty-hard-bg: #976969;  /* lighter red-grey */
+    --difficulty-easy-bg: #5e7186;  /* dark-mode easy */
+    --difficulty-medium-bg: #b69f88;/* dark-mode medium */
+    --difficulty-hard-bg: #a36363;  /* dark-mode hard */
 }
 
 .question-text {

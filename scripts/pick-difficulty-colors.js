@@ -2,9 +2,12 @@
 // Run with: node scripts/pick-difficulty-colors.js
 
 const candidates = {
-  easy: ['#334155', '#3b5561', '#455A64', '#55626b', '#3f5058'],
-  medium: ['#b97b3c', '#c79a58', '#c07a2e', '#b36b2b', '#d29349'],
-  hard: ['#7b2e2e', '#8b3b3b', '#8f4f4f', '#6f2f2f', '#9a4b4b']
+  // make easy bluer
+  easy: ['#1f3a57', '#283e4f', '#2b4a63', '#1e3a55', '#2a4658'],
+  // make medium darker and greyer
+  medium: ['#9a7a5a', '#8f7a66', '#8b7562', '#7f6b58', '#71614f'],
+  // make hard much redder
+  hard: ['#7f2626', '#8c2020', '#a22b2b', '#9b2a2a', '#b03030']
 };
 
 function hexToRgb(hex) {
