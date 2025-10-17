@@ -49,7 +49,7 @@
     --hb: #b03030;
     /* Palette D (vivid hard suggestion) */
     --ed: #3b5aa6;
-    --md: #6f6252;
+    --md: #9e9e9e; /* neutral grey for medium */
     --hd: #b00020;
 
     /* Dark variants: keep B and D very similar to their light counterparts so palettes don't shift between themes */
