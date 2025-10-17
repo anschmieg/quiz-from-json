@@ -439,12 +439,9 @@ body {
     color: #fff;
 }
 
-/* Dark-mode overrides for pill backgrounds where necessary (picked for WCAG >= 4.5 against the pill text color) */
-[data-theme="dark"] {
-    --difficulty-easy-bg: #5e7186;  /* dark-mode easy */
-    --difficulty-medium-bg: #b69f88;/* dark-mode medium */
-    --difficulty-hard-bg: #a36363;  /* dark-mode hard */
-}
+/* Note: dark-mode pill backgrounds are set earlier using the --*-dark variables so they
+   remain consistent with palette mappings. The old hard-coded override was removed to
+   avoid conflicting rules that made the site appear to still use earlier colors. */
 
 .question-text {
     font-size: 1.25rem;
