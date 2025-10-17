@@ -39,6 +39,21 @@
     --difficulty-easy-bg: #1f3a57;     /* bluer easy */
     --difficulty-medium-bg: #9a7a5a;   /* darker, greyer medium */
     --difficulty-hard-bg: #7f2626;     /* much redder hard */
+    /* Palette A/B short vars for quick A/B testing */
+    --ea: #1f3a57;
+    --ma: #9a7a5a;
+    --ha: #7f2626;
+
+    --eb: #2b547e;
+    --mb: #7b6d5d;
+    --hb: #b03030;
+
+    --ea-dark: #5e7186;
+    --ma-dark: #b69f88;
+    --ha-dark: #a36363;
+    --eb-dark: #4b6590;
+    --mb-dark: #9a8b7a;
+    --hb-dark: #c36b6b;
 }
 
 /* Dark mode variables */
@@ -58,6 +73,32 @@
     --nav-bg: #2d2d2d;
     --dropdown-bg: #3a3a3a;
     --hover-bg: #3a3a3a;
+}
+
+/* Body-level palette toggles for A/B testing */
+body.palette-a {
+    --difficulty-easy-bg: var(--ea);
+    --difficulty-medium-bg: var(--ma);
+    --difficulty-hard-bg: var(--ha);
+}
+
+body.palette-b {
+    --difficulty-easy-bg: var(--eb);
+    --difficulty-medium-bg: var(--mb);
+    --difficulty-hard-bg: var(--hb);
+}
+
+/* Respect dark theme when a palette class is set */
+html[data-theme="dark"] body.palette-a {
+    --difficulty-easy-bg: var(--ea-dark);
+    --difficulty-medium-bg: var(--ma-dark);
+    --difficulty-hard-bg: var(--ha-dark);
+}
+
+html[data-theme="dark"] body.palette-b {
+    --difficulty-easy-bg: var(--eb-dark);
+    --difficulty-medium-bg: var(--mb-dark);
+    --difficulty-hard-bg: var(--hb-dark);
 }
 
 html {
