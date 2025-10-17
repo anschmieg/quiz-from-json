@@ -48,7 +48,8 @@
     --mb: #7b6d5d;
     --hb: #b03030;
     /* Palette D (vivid hard suggestion) */
-    --ed: #3b5aa6;
+    /* Palette D reuses Palette B's easy shade for consistency */
+    --ed: var(--eb);
     --md: #9e9e9e; /* neutral grey for medium */
     --hd: #b00020;
 
