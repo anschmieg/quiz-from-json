@@ -35,6 +35,10 @@
     --nav-bg: #ffffff;
     --dropdown-bg: #ffffff;
     --hover-bg: #f8f9fa;
+    /* difficulty pill palette (muted/desaturated variants) */
+    --difficulty-easy-bg: #55626b;     /* blue-grey */
+    --difficulty-medium-bg: #c79a58;   /* subtle orange-grey */
+    --difficulty-hard-bg: #8f4f4f;     /* red-grey */
 }
 
 /* Dark mode variables */
@@ -347,19 +351,18 @@ body {
 }
 
 .question-difficulty.easy {
-    background-color: #28a745;
-    /* green */
+    background-color: var(--difficulty-easy-bg);
+    color: #fff;
 }
 
 .question-difficulty.medium {
-    background-color: #ffc107;
-    /* amber */
+    background-color: var(--difficulty-medium-bg);
     color: #111;
 }
 
 .question-difficulty.hard {
-    background-color: #dc3545;
-    /* red */
+    background-color: var(--difficulty-hard-bg);
+    color: #fff;
 }
 
 .question-text {
