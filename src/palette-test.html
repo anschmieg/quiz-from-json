@@ -134,8 +134,8 @@
       <!-- Palette D (new suggestion: vivid red for hard, muted for medium, solid blue easy) -->
       <section class="sample" aria-labelledby="pal-d">
         <h2 id="pal-d">Palette D (vivid hard)</h2>
-        <div class="palette-meta">ed: #3b5aa6 • md: #6f6252 • hd: #b00020</div>
-        <div class="row" style="--difficulty-easy-bg:#3b5aa6; --difficulty-medium-bg:#6f6252; --difficulty-hard-bg:#b00020;">
+        <div class="palette-meta">ed: var(--ed) • md: var(--md) • hd: var(--hd)</div>
+        <div class="row" id="palette-d-row" style="--difficulty-easy-bg:var(--ed); --difficulty-medium-bg:var(--md); --difficulty-hard-bg:var(--hd);">
           <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
             <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
             <span class="difficulty-text">Easy</span>
@@ -151,7 +151,7 @@
         </div>
 
         <div style="height:12px"></div>
-        <div class="row" style="--difficulty-easy-bg:#6a7fb3; --difficulty-medium-bg:#9b8f83; --difficulty-hard-bg:#c85b5b;">
+        <div class="row" style="--difficulty-easy-bg:var(--ed-dark); --difficulty-medium-bg:var(--md-dark); --difficulty-hard-bg:var(--hd-dark);">
           <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
             <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
             <span class="difficulty-text">Easy (dark)</span>
@@ -165,6 +165,8 @@
             <span class="difficulty-text">Hard (dark)</span>
           </div>
         </div>
+        <p style="margin-top:0.75rem; font-size:0.9rem; color:var(--meta-color);">You can also toggle Palette D site-wide with the button below to see how it behaves with your global stylesheet.</p>
+        <button id="toggle-d" style="margin-top:0.5rem; padding:0.5rem 0.75rem; border-radius:6px; border:1px solid var(--border-color); background:var(--card-bg); cursor:pointer;">Toggle Palette D on body</button>
       </section>
 
     </div>
