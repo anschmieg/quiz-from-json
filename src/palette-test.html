@@ -173,5 +173,19 @@
 
     <p style="margin-top:1rem; color:var(--meta-color);">Tip: open devtools and run <code>document.body.classList.add('palette-b')</code> to quickly switch the site-wide palette, or toggle HTML dark mode with <code>document.documentElement.setAttribute('data-theme','dark')</code>.</p>
   </main>
+    <script>
+      (function(){
+        var btn = document.getElementById('toggle-d');
+        if(!btn) return;
+        function updateLabel(){
+          btn.textContent = document.body.classList.contains('palette-d') ? 'Disable Palette D' : 'Enable Palette D';
+        }
+        btn.addEventListener('click', function(){
+          document.body.classList.toggle('palette-d');
+          updateLabel();
+        });
+        updateLabel();
+      })();
+    </script>
 </body>
 </html>
