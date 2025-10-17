@@ -154,22 +154,9 @@ document.addEventListener('DOMContentLoaded', () => {
             needleColor = '#111';
         }
 
-        // Use Material Symbols 'speed' icon; add a small colored accent via data-attr for CSS
-        // Map difficulty to a local SVG file
-        const fileMap = {
-            easy: '/img/gauge-easy.svg',
-            leicht: '/img/gauge-easy.svg',
-            medium: '/img/gauge-medium.svg',
-            mittel: '/img/gauge-medium.svg',
-            hard: '/img/gauge-hard.svg',
-            schwer: '/img/gauge-hard.svg'
-        };
-        const fileSrc = fileMap[diffLower] || '/img/gauge-medium.svg';
-        // Use <img> pointing to the precomposed local SVG; images are decorative so aria-hidden,
-        // the Eleventy shortcode will provide server-side inlined SVGs in templates. Keep <img>
-        // here for client-rendered quiz to avoid runtime DOM parsing.
+        const iconName = 'speed';
         const difficultyBadge = q.difficulty ? `<div class="${difficultyClass}" aria-label="Difficulty: ${q.difficulty}">` +
-            `<img src="${fileSrc}" alt="" aria-hidden="true" class="difficulty-icon">` +
+            `<span class="material-symbols-outlined difficulty-icon" aria-hidden="true" title="${q.difficulty}">${iconName}</span>` +
             `<span class="difficulty-text">${q.difficulty}</span></div>` : '';
 
         // If the template already rendered a difficulty badge (server-side include), update it

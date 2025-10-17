@@ -13,8 +13,8 @@
     /* allow embedded SVG to use currentColor */
 }
 
-/* fallback for broken images: show nothing */
-.question-difficulty .difficulty-icon:not([src]) {
+/* fallback for broken images: hide only <img> icons when missing a src attribute; do not hide font icons (span.material-symbols) */
+.question-difficulty img.difficulty-icon:not([src]) {
     display: none;
 }
 
@@ -260,7 +260,7 @@ body {
 .question-difficulty {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.15rem;
     font-size: 0.95rem;
     font-weight: 600;
     color: #fff;
@@ -288,12 +288,32 @@ body {
 
 /* local SVG icon inside the difficulty badge */
 .question-difficulty .difficulty-icon {
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    vertical-align: -0.12em;
+    display: inline-flex;
+    /* align icon like text */
+    align-items: center;
+    justify-content: center;
+    width: 1.12em;
+    height: 1.12em;
+    line-height: 1;
     margin-right: 0.45em;
-    object-fit: contain;
+}
+
+/* Specific tuning for Material Symbols (font icons). Keep this narrowly scoped so SVG/img icons are unaffected. */
+.question-difficulty span.material-symbols-outlined.difficulty-icon {
+    /* tuned to the user's final preference — no offset */
+    font-variation-settings: 'wght' 600;
+    font-size: 1.125em;
+    width: 1.1em;
+    height: 1.1em;
+    margin-right: 0.25em;
+    line-height: 1;
+    /* transform: translateY(var(--difficulty-icon-offset, 0.0025em)); */
+}
+
+/* Toggle class to disable the offset for testing pixel-perfect alignment.
+       Add `.no-offset` to the badge container (e.g. <div class="question-difficulty no-offset">) */
+.question-difficulty.no-offset {
+    --difficulty-icon-offset: 0;
 }
 
 .question-difficulty .gauge-needle {
