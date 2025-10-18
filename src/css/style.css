@@ -35,36 +35,14 @@
     --nav-bg: #ffffff;
     --dropdown-bg: #ffffff;
     --hover-bg: #f8f9fa;
-    /* difficulty pill palette (muted/desaturated variants) */
-     /* difficulty pill palette (muted/desaturated variants)
-         Default mix: easy from Palette B, medium/hard from Palette D */
-     --difficulty-easy-bg: var(--eb);
-     --difficulty-medium-bg: var(--md);
-     --difficulty-hard-bg: var(--hd);
-    /* Palette A/B short vars for quick A/B testing */
-    --ea: #1f3a57;
-    --ma: #9a7a5a;
-    --ha: #7f2626;
-
-    --eb: #2b547e;
-    --mb: #7b6d5d;
-    --hb: #b03030;
-    /* Palette D (vivid hard suggestion) */
-    /* Palette D reuses Palette B's easy shade for consistency */
-    --ed: var(--eb);
-    --md: #9e9e9e; /* neutral grey for medium */
-    --hd: #b00020;
-
-    /* Dark variants: keep B and D very similar to their light counterparts so palettes don't shift between themes */
-    --ea-dark: #5e7186;
-    --ma-dark: #b69f88;
-    --ha-dark: #a36363;
-    --eb-dark: var(--eb);
-    --mb-dark: var(--mb);
-    --hb-dark: var(--hb);
-    --ed-dark: var(--ed);
-    --md-dark: var(--md);
-    --hd-dark: var(--hd);
+    /* Minimal difficulty pill variables (chosen mix):
+       - easy: the blue shade you wanted (from Palette B)
+       - medium: neutral grey
+       - hard: vivid red
+       No palette overrides or additional variants — single source of truth. */
+    --difficulty-easy-bg: #2b547e; /* easy (blue) */
+    --difficulty-medium-bg: #9e9e9e; /* medium (neutral grey) */
+    --difficulty-hard-bg: #b00020; /* hard (vivid red) */
 }
 
 /* Dark mode variables */
@@ -94,42 +72,7 @@
 }
 
 /* Body-level palette toggles for A/B testing */
-body.palette-a {
-    --difficulty-easy-bg: var(--ea);
-    --difficulty-medium-bg: var(--ma);
-    --difficulty-hard-bg: var(--ha);
-}
-
-body.palette-b {
-    --difficulty-easy-bg: var(--eb);
-    --difficulty-medium-bg: var(--mb);
-    --difficulty-hard-bg: var(--hb);
-}
-
-body.palette-d {
-    --difficulty-easy-bg: var(--ed);
-    --difficulty-medium-bg: var(--md);
-    --difficulty-hard-bg: var(--hd);
-}
-
-/* Respect dark theme when a palette class is set */
-html[data-theme="dark"] body.palette-a {
-    --difficulty-easy-bg: var(--ea-dark);
-    --difficulty-medium-bg: var(--ma-dark);
-    --difficulty-hard-bg: var(--ha-dark);
-}
-
-html[data-theme="dark"] body.palette-b {
-    --difficulty-easy-bg: var(--eb-dark);
-    --difficulty-medium-bg: var(--mb-dark);
-    --difficulty-hard-bg: var(--hb-dark);
-}
-
-html[data-theme="dark"] body.palette-d {
-    --difficulty-easy-bg: var(--ed-dark);
-    --difficulty-medium-bg: var(--md-dark);
-    --difficulty-hard-bg: var(--hd-dark);
-}
+/* No palette classes or per-theme overrides — single set of variables above is authoritative. */
 
 html {
     box-sizing: border-box;
