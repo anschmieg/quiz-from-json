@@ -40,12 +40,10 @@
        - medium: neutral grey
        - hard: vivid red
        No palette overrides or additional variants — single source of truth. */
-    --difficulty-easy-bg: #2b547e;
-    /* easy (blue) */
-    --difficulty-medium-bg: #9e9e9e;
-    /* medium (neutral grey) */
-    --difficulty-hard-bg: #b00020;
-    /* hard (vivid red) */
+    /* desaturated/darker choices per request */
+    --difficulty-easy-bg: #2a5576; /* slightly desaturated blue */
+    --difficulty-medium-bg: #7f7f7f; /* darker neutral grey for legibility */
+    --difficulty-hard-bg: #a50020; /* slightly desaturated vivid red */
 }
 
 /* Dark mode variables */
@@ -370,7 +368,7 @@ body {
 .question-difficulty.medium,
 .question-difficulty.mittel {
     background-color: var(--difficulty-medium-bg);
-    color: #111;
+    color: #fff;
 }
 
 /* In dark mode the medium pill's background is a neutral grey; use light text for legibility */
