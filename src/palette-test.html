@@ -1,25 +1,62 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Difficulty Palette Test</title>
   <link rel="stylesheet" href="/css/style.css">
   <!-- Material Symbols (for the difficulty icon) -->
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
   <style>
-    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial; padding: 2rem; background: var(--primary-bg); color: var(--text-color); }
-    h1 { margin-top: 0; }
-    .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); }
-    .sample { background: var(--card-bg); padding: 1rem; border-radius: 10px; box-shadow: var(--shadow); }
-    .row { display:flex; gap:1rem; align-items:center; flex-wrap:wrap; }
-    .palette-meta { font-size:0.9rem; color:var(--meta-color); margin-bottom:0.5rem; }
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+      padding: 2rem;
+      background: var(--primary-bg);
+      color: var(--text-color);
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.25rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .sample {
+      background: var(--card-bg);
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+    }
+
+    .row {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .palette-meta {
+      font-size: 0.9rem;
+      color: var(--meta-color);
+      margin-bottom: 0.5rem;
+    }
   </style>
 </head>
+
 <body>
   <main>
     <h1>Difficulty Palette Test</h1>
-    <p class="palette-meta">This page uses your site's `css/style.css`. Each sample shows Easy / Medium / Hard pills for a palette in light and dark variants. You can A/B test by adding <code>body.palette-a</code> or <code>body.palette-b</code> (the site already supports these), but the samples below are self-contained using CSS variables so they show both light and dark rows.</p>
+    <p class="palette-meta">This page uses your site's `css/style.css`. Each sample shows Easy / Medium / Hard pills for
+      a palette in light and dark variants. You can A/B test by adding <code>body.palette-a</code> or
+      <code>body.palette-b</code> (the site already supports these), but the samples below are self-contained using CSS
+      variables so they show both light and dark rows.</p>
 
     <div class="grid">
       <section class="sample" aria-labelledby="pal-mix">
@@ -40,29 +77,34 @@
           </div>
         </div>
         <div style="height:12px"></div>
-        <button id="toggle-dark" style="padding:0.5rem 0.75rem; border-radius:6px; border:1px solid var(--border-color); background:var(--card-bg); cursor:pointer;">Toggle Dark Mode</button>
+        <button id="toggle-dark"
+          style="padding:0.5rem 0.75rem; border-radius:6px; border:1px solid var(--border-color); background:var(--card-bg); cursor:pointer;">Toggle
+          Dark Mode</button>
       </section>
     </div>
 
-    <p style="margin-top:1rem; color:var(--meta-color);">Tip: open devtools and run <code>document.body.classList.add('palette-b')</code> to quickly switch the site-wide palette, or toggle HTML dark mode with <code>document.documentElement.setAttribute('data-theme','dark')</code>.</p>
+    <p style="margin-top:1rem; color:var(--meta-color);">Tip: open devtools and run
+      <code>document.body.classList.add('palette-b')</code> to quickly switch the site-wide palette, or toggle HTML dark
+      mode with <code>document.documentElement.setAttribute('data-theme','dark')</code>.</p>
   </main>
-    <script>
-      (function(){
-        var btn = document.getElementById('toggle-dark');
-        if(!btn) return;
-        function updateLabel(){
-          btn.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? 'Disable Dark Mode' : 'Enable Dark Mode';
+  <script>
+    (function () {
+      var btn = document.getElementById('toggle-dark');
+      if (!btn) return;
+      function updateLabel() {
+        btn.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? 'Disable Dark Mode' : 'Enable Dark Mode';
+      }
+      btn.addEventListener('click', function () {
+        if (document.documentElement.getAttribute('data-theme') === 'dark') {
+          document.documentElement.removeAttribute('data-theme');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
         }
-        btn.addEventListener('click', function(){
-          if(document.documentElement.getAttribute('data-theme') === 'dark'){
-            document.documentElement.removeAttribute('data-theme');
-          } else {
-            document.documentElement.setAttribute('data-theme','dark');
-          }
-          updateLabel();
-        });
         updateLabel();
-      })();
-    </script>
+      });
+      updateLabel();
+    })();
+  </script>
 </body>
+
 </html>
