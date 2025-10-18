@@ -56,23 +56,36 @@
     <p class="palette-meta">This page uses your site's `css/style.css`. Each sample shows Easy / Medium / Hard pills for
       a palette in light and dark variants. You can A/B test by adding <code>body.palette-a</code> or
       <code>body.palette-b</code> (the site already supports these), but the samples below are self-contained using CSS
-      variables so they show both light and dark rows.</p>
+      variables so they show both light and dark rows.
+    </p>
 
     <div class="grid">
       <section class="sample" aria-labelledby="pal-mix">
         <h2 id="pal-mix">Selected Difficulty Palette</h2>
-  <div class="palette-meta">easy: #2a5576 • medium: #7f7f7f • hard: #a50020</div>
+        <div class="palette-meta">easy: #2a5576 • medium: #7f7f7f • hard: #a50020</div>
         <div class="row">
           <div class="question-difficulty easy" role="status" aria-label="Difficulty: Easy">
             <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <svg class="difficulty-svg difficulty-icon" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
             <span class="difficulty-text">Easy</span>
           </div>
           <div class="question-difficulty medium" role="status" aria-label="Difficulty: Medium">
             <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <svg class="difficulty-svg difficulty-icon" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
             <span class="difficulty-text">Medium</span>
           </div>
           <div class="question-difficulty hard" role="status" aria-label="Difficulty: Hard">
             <span class="material-symbols-outlined difficulty-icon" aria-hidden="true">speed</span>
+            <svg class="difficulty-svg difficulty-icon" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
             <span class="difficulty-text">Hard</span>
           </div>
         </div>
@@ -85,7 +98,8 @@
 
     <p style="margin-top:1rem; color:var(--meta-color);">Tip: open devtools and run
       <code>document.body.classList.add('palette-b')</code> to quickly switch the site-wide palette, or toggle HTML dark
-      mode with <code>document.documentElement.setAttribute('data-theme','dark')</code>.</p>
+      mode with <code>document.documentElement.setAttribute('data-theme','dark')</code>.
+    </p>
   </main>
   <script>
     (function () {

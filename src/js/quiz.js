@@ -137,52 +137,189 @@ document.addEventListener('DOMContentLoaded', () => {
         // Inline SVG gauge (arc + center dot + needle). SVG uses 1em sizing so it matches the text height.
         // Needle angle and color are set per-difficulty. The arc and center dot inherit the badge color (currentColor).
         let needleAngle = 0;
+        // Read canonical difficulty colors from CSS variables so client-inserted gauges
+        // match the site's variables. Fall back to previous hard-coded colors if vars are missing.
+        const rootStyles = getComputedStyle(document.documentElement);
+        const easyColorVar = rootStyles.getPropertyValue('--difficulty-easy-bg').trim() || '#007bff';
+        const mediumColorVar = rootStyles.getPropertyValue('--difficulty-medium-bg').trim() || '#ffc107';
+        const hardColorVar = rootStyles.getPropertyValue('--difficulty-hard-bg').trim() || '#dc3545';
         let needleColor = '#111';
-        // Assumption: map easy -> blue, medium -> yellow, hard -> red
         const diffLower = (q.difficulty || '').toLowerCase();
         if (diffLower === 'easy' || diffLower === 'leicht') {
             needleAngle = -40; // left-leaning
-            needleColor = '#007bff';
+            needleColor = easyColorVar;
         } else if (diffLower === 'medium' || diffLower === 'mittel' || diffLower === 'moderate') {
             needleAngle = 0; // center
-            needleColor = '#ffc107';
+            needleColor = mediumColorVar;
         } else if (diffLower === 'hard' || diffLower === 'schwer') {
             needleAngle = 40; // right-leaning
-            needleColor = '#dc3545';
+            needleColor = hardColorVar;
         } else {
             needleAngle = 0;
             needleColor = '#111';
         }
 
-        const iconName = 'speed';
-        const difficultyBadge = q.difficulty ? `<div class="${difficultyClass}" aria-label="Difficulty: ${q.difficulty}">` +
-            `<span class="material-symbols-outlined difficulty-icon" aria-hidden="true" title="${q.difficulty}">${iconName}</span>` +
+        // Provide both a Material Symbols span and an inline SVG fallback.
+        // The CSS will hide the font span by default until the font is detected,
+        // so the inline SVG is shown immediately for robustness. When the
+        // font loads, JS will add `material-loaded` to <html> and the span will
+        // be shown while the SVG is hidden.
+        const materialSpan = `<span class="material-symbols-outlined difficulty-icon" aria-hidden="true" title="${q.difficulty}">speed</span>`;
+        const inlineSvg = `<svg class="difficulty-svg difficulty-icon" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">` +
+            `<path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>` +
+            `<line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>` +
+            `</svg>`;
+        const speedIconHtml = materialSpan + inlineSvg;
+        const difficultyBadgeHtml = q.difficulty ? `<div class="${difficultyClass}" aria-label="Difficulty: ${q.difficulty}">` +
+            speedIconHtml +
             `<span class="difficulty-text">${q.difficulty}</span></div>` : '';
 
-        // If the template already rendered a difficulty badge (server-side include), update it
-        // rather than inserting a second badge. This allows the Eleventy `gauge` shortcode
-        // to be used in templates while client JS still injects the rest of the question.
-        const headerHtml = `<h2 class="question-topic">${q.topic || 'Question'}</h2>`;
-        flashcardContainer.innerHTML = `<div class="question-header">${headerHtml}${/* placeholder for badge */ ''}</div><p class="question-text">${q.questionText}</p><div class="options">${optionsHtml}</div><div id="feedback-area"></div><button class="action-button" id="check-answer-btn">Check Answer</button>`;
-        const headerEl = flashcardContainer.querySelector('.question-header');
-        if (headerEl) {
+        // Build or update the flashcard markup. If the server/template already provided
+        // a `.question-header`, update it in-place; otherwise create the full structure.
+        let headerEl = flashcardContainer.querySelector('.question-header');
+        if (!headerEl) {
+            flashcardContainer.innerHTML = `
+                <div class="question-header">
+                    <h2 class="question-topic">${q.topic || 'Question'}</h2>
+                    ${difficultyBadgeHtml}
+                </div>
+                <div class="question-text">${q.question || q.text || ''}</div>
+                <div class="options">${optionsHtml}</div>
+                <div id="feedback-area"></div>
+                <button id="check-answer-btn" class="action-button">Check Answer</button>
+            `;
+            headerEl = flashcardContainer.querySelector('.question-header');
+        } else {
+            // Update existing header/topic
+            const topicEl = headerEl.querySelector('.question-topic');
+            if (topicEl) topicEl.textContent = q.topic || 'Question';
             const existingBadge = headerEl.querySelector('.question-difficulty');
-            if (existingBadge) {
-                // update class and text
-                existingBadge.className = `question-difficulty ${q.difficulty ? q.difficulty.toLowerCase() : ''}`.trim();
-                const textEl = existingBadge.querySelector('.difficulty-text');
-                if (textEl) textEl.textContent = q.difficulty || '';
+            if (q.difficulty) {
+                if (existingBadge) {
+                    existingBadge.className = `question-difficulty ${q.difficulty.toLowerCase()}`;
+                    const textEl = existingBadge.querySelector('.difficulty-text');
+                    if (textEl) textEl.textContent = q.difficulty;
+                } else {
+                    headerEl.insertAdjacentHTML('beforeend', difficultyBadgeHtml);
+                }
+            } else if (existingBadge) {
+                existingBadge.remove();
+            }
+
+            // Update or insert question text and options
+            const qt = flashcardContainer.querySelector('.question-text');
+            if (qt) qt.textContent = q.question || q.text || '';
+            const opts = flashcardContainer.querySelector('.options');
+            if (opts) opts.innerHTML = optionsHtml;
+
+            if (!document.getElementById('check-answer-btn')) {
+                flashcardContainer.insertAdjacentHTML('beforeend', '<button id="check-answer-btn" class="action-button">Check Answer</button>');
             } else {
-                // no server badge; insert client badge
-                headerEl.insertAdjacentHTML('beforeend', difficultyBadge);
+                document.getElementById('check-answer-btn').textContent = 'Check Answer';
             }
         }
         renderMath(flashcardContainer);
+    // Ensure icon fallbacks: if the Material Symbols font isn't available,
+    // replace symbol spans with inline SVG icons so glyphs remain visible.
+    ensureMaterialSymbolFallbacks();
         const feedbackAreaEl = document.getElementById('feedback-area');
         const checkAnswerBtn = document.getElementById('check-answer-btn');
         if (!checkAnswerBtn) return;
         const handleCheckAnswer = () => checkAnswer(q, feedbackAreaEl, checkAnswerBtn, handleCheckAnswer);
         checkAnswerBtn.addEventListener('click', handleCheckAnswer);
+    }
+
+    // Replace .material-symbols-outlined spans with simple inline SVGs when
+    // the Material Symbols font isn't actually being used (blocked or missing).
+    function ensureMaterialSymbolFallbacks() {
+        try {
+            const testSpan = document.createElement('span');
+            testSpan.className = 'material-symbols-outlined';
+            testSpan.style.position = 'absolute';
+            testSpan.style.opacity = '0';
+            testSpan.textContent = 'speed';
+            document.body.appendChild(testSpan);
+            const usedFont = getComputedStyle(testSpan).fontFamily || '';
+            document.body.removeChild(testSpan);
+            if (usedFont.toLowerCase().includes('material symbols')) return; // font available
+        } catch (e) {
+            // if anything goes wrong, proceed with fallbacks
+        }
+
+        document.querySelectorAll('span.material-symbols-outlined.difficulty-icon').forEach(sp => {
+            if (sp.dataset.fallbackApplied) return;
+            // simple 'speed' icon as inline SVG
+            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.setAttribute('viewBox', '0 0 24 24');
+            svg.setAttribute('width', '1em');
+            svg.setAttribute('height', '1em');
+            svg.setAttribute('fill', 'currentColor');
+            // Use the same clear arc+needle fallback so icon looks consistent when font is missing
+            svg.innerHTML = `<path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>` +
+                `<line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>`;
+            sp.textContent = '';
+            sp.appendChild(svg);
+            sp.dataset.fallbackApplied = '1';
+        });
+    }
+
+    // Detect whether the Material Symbols font is actually active. If it is,
+    // add `material-loaded` to the <html> element so CSS can toggle visibility
+    // between the font span and the inline SVG fallback.
+    function detectMaterialSymbols() {
+        // Prefer Font Loading API check if available
+        try {
+            if (document.fonts && typeof document.fonts.check === 'function') {
+                // Ask whether the Material Symbols face is available for 1em
+                const ok = document.fonts.check("1em 'Material Symbols Outlined'");
+                if (ok) {
+                    document.documentElement.classList.add('material-loaded');
+                    return true;
+                }
+            }
+        } catch (e) {
+            // continue to fallback
+        }
+
+        // Fallback: measure rendered width of a test string using the symbol font vs a generic fallback.
+        // If widths differ meaningfully, the font likely applied.
+        try {
+            const testText = 'speed';
+            const span = document.createElement('span');
+            span.style.position = 'absolute';
+            span.style.opacity = '0';
+            span.style.left = '-9999px';
+            span.style.top = '-9999px';
+            span.style.fontSize = '16px';
+            span.textContent = testText;
+            // first measure with the symbol font declared
+            span.style.fontFamily = "'Material Symbols Outlined', monospace";
+            document.body.appendChild(span);
+            const widthWith = span.getBoundingClientRect().width;
+            // then force a generic fallback and measure
+            span.style.fontFamily = 'monospace';
+            const widthWithout = span.getBoundingClientRect().width;
+            document.body.removeChild(span);
+            if (Math.abs(widthWith - widthWithout) > 0.5) {
+                document.documentElement.classList.add('material-loaded');
+                return true;
+            }
+        } catch (e) {
+            // ignore
+        }
+
+        document.documentElement.classList.remove('material-loaded');
+        return false;
+    }
+
+    // Run detection early and also after font loading events if available.
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        detectMaterialSymbols();
+    } else {
+        document.addEventListener('DOMContentLoaded', detectMaterialSymbols, { once: true });
+    }
+    if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(detectMaterialSymbols).catch(() => {});
     }
 
     function checkAnswer(q, feedbackAreaEl, checkButton, checkHandler) {

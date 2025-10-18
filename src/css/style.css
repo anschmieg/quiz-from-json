@@ -41,9 +41,12 @@
        - hard: vivid red
        No palette overrides or additional variants — single source of truth. */
     /* desaturated/darker choices per request */
-    --difficulty-easy-bg: #2a5576; /* slightly desaturated blue */
-    --difficulty-medium-bg: #7f7f7f; /* darker neutral grey for legibility */
-    --difficulty-hard-bg: #a50020; /* slightly desaturated vivid red */
+    --difficulty-easy-bg: #2a5576;
+    /* slightly desaturated blue */
+    --difficulty-medium-bg: #7f7f7f;
+    /* darker neutral grey for legibility */
+    --difficulty-hard-bg: #a50020;
+    /* slightly desaturated vivid red */
 }
 
 /* Dark mode variables */
@@ -209,6 +212,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* ensure the icon color follows the site's text color for correct contrast */
+    color: var(--text-color);
 }
 
 .theme-toggle:hover {
@@ -218,6 +223,59 @@ body {
 .theme-icon {
     display: block;
     line-height: 1;
+    /* inherit color from the toggle so mode-specific vars control contrast */
+    color: inherit;
+    /* slightly larger and heavier for legibility */
+    font-size: 1.35rem;
+    font-variation-settings: 'wght' 700;
+}
+
+/* theme icon SVG tweaks */
+.theme-icon svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.25em;
+    height: 1.25em;
+    fill: currentColor;
+}
+
+/* Ensure Material Symbols font is explicitly requested for our icon spans.
+   Some browsers or CSPs may block the remote stylesheet; providing a
+   local fallback and explicit font-family makes the icon rendering more
+   robust and avoids rendering literal text when the symbol font isn't
+   available. */
+.material-symbols-outlined,
+.theme-icon,
+.question-difficulty span.material-symbols-outlined.difficulty-icon {
+    /* Use the official Material Symbols family and provide a sane fallback stack.
+       Include the recommended platform tweaks so the ligatures/glyphs render
+       correctly across browsers and when the font is available. */
+    font-family: 'Material Symbols Outlined', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em; /* size controlled by the specific usages */
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    /* Default variation axes recommended by Google to enable ligatures/glyphs. */
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+/* Explicit font-family for the select control and its options to ensure
+   consistent sans-serif rendering in both closed and open states. */
+.quiz-dropdown {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.quiz-dropdown option {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 
@@ -313,15 +371,35 @@ body {
     margin-right: 0.45em;
 }
 
+/* dual-markup: show inline SVG by default; show material font when loaded */
+.difficulty-svg {
+    display: inline-block;
+}
+.material-symbols-outlined.difficulty-icon {
+    /* hide material font until we detect it; when detected, we add .material-loaded to <html> */
+    display: none;
+}
+html.material-loaded .difficulty-svg {
+    display: none;
+}
+html.material-loaded .material-symbols-outlined.difficulty-icon {
+    display: inline-flex;
+}
+
 /* Specific tuning for Material Symbols (font icons). Keep this narrowly scoped so SVG/img icons are unaffected. */
 .question-difficulty span.material-symbols-outlined.difficulty-icon {
     /* tuned to the user's final preference — no offset */
-    font-variation-settings: 'wght' 600;
+    /* Use a filled glyph for better visibility (FILL = 1). Keep weight/opsz tuned. */
+    font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 48;
     font-size: 1.125em;
     width: 1.1em;
     height: 1.1em;
     margin-right: 0.25em;
     line-height: 1;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     /* transform: translateY(var(--difficulty-icon-offset, 0.0025em)); */
 }
 

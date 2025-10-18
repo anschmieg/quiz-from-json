@@ -2,7 +2,13 @@
   {% set diffLower = difficulty | lower %}
   <div class="question-difficulty {{ diffLower }}" aria-label="Difficulty: {{ difficulty }}">
   {% set iconName = 'speed' %}
+  {# material symbol (font) - will be shown when font loads #}
   <span class="material-symbols-outlined difficulty-icon" aria-hidden="true" title="{{ difficulty }}">{{ iconName }}</span>
+  {# inline SVG fallback shown by default; CSS will hide it when the font is detected #}
+  <svg class="difficulty-svg difficulty-icon" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  </svg>
     <span class="difficulty-text">{{ difficulty }}</span>
   </div>
 {% endif %}

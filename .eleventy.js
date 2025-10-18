@@ -49,16 +49,18 @@ export default function (eleventyConfig) {
       const pointerInner = pointerFrag; // pointer.svg is a <g>
 
       const difficulties = {
-        easy: { rotation: 0, color: '#28a745' },
-        medium: { rotation: 68, color: '#ffc107' },
-        hard: { rotation: 136, color: '#dc3545' }
+        easy: { rotation: 0 },
+        medium: { rotation: 68 },
+        hard: { rotation: 136 }
       };
 
       if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
       Object.keys(difficulties).forEach(name => {
-        const { rotation, color } = difficulties[name];
-        let composed = `<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor" role="img" aria-hidden="true">\n  <g class="gauge-base">${baseInner}</g>\n  <g class="gauge-ticks">${ticksInner}${topInner}</g>\n  <g class="gauge-pointer" data-difficulty="${name}">\n    ${pointerInner.replace(/transform=\"rotate\(0, 256, 307\)\"/, `transform=\"rotate(${rotation}, 256, 307)\"`).replace(/fill=\"currentColor\"/, `fill=\"${color}\"`).replace(/stroke=\"currentColor\"/, `stroke=\"${color}\"`)}\n  </g>\n</svg>`;
+        const { rotation } = difficulties[name];
+        // Keep pointer fragment using currentColor so the composed SVG inherits the surrounding
+        // CSS color (currentColor) when inlined. We still apply rotation per difficulty.
+        let composed = `<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor" role="img" aria-hidden="true">\n  <g class="gauge-base">${baseInner}</g>\n  <g class="gauge-ticks">${ticksInner}${topInner}</g>\n  <g class="gauge-pointer" data-difficulty="${name}">\n    ${pointerInner.replace(/transform=\"rotate\(0, 256, 307\)\"/, `transform=\"rotate(${rotation}, 256, 307)\"`)}\n  </g>\n</svg>`;
 
         // Minify the composed SVG string before writing to disk
         composed = minifySvg(composed);
@@ -98,13 +100,9 @@ export default function (eleventyConfig) {
 
     let svg = fs.readFileSync(file, 'utf8');
 
-    // If user requested an <img> fallback
-    if (opts.asImg) {
-      const alt = opts.title || `Difficulty: ${safe}`;
-      const cls = opts.class ? ` class="${opts.class}"` : '';
-      const sizeAttr = opts.size ? ` width="${opts.size}" height="${opts.size}"` : '';
-      return `<img src="/img/gauge-${safe}.svg" alt="${alt}"${cls}${sizeAttr}>`;
-    }
+    // Always inline the SVG so it can inherit currentColor. The `asImg` option is
+    // intentionally ignored to avoid rasterized <img> usage which cannot inherit
+    // the surrounding color. This ensures badges and gauges always match CSS vars.
 
     // Inline: inject title/aria if provided, and width/height/class attributes
     // Remove any xml prolog if present (shouldn't be)
