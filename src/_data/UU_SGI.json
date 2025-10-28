@@ -1,0 +1,142 @@
+[
+  {
+    "id": "sgi_106",
+    "questionText": "Which statement best reflects the course's takeaway from the East Asian 'growth miracle' compared with Latin America's liberalisation wave?",
+    "options": [
+      "East Asia grew purely through laissez-faire free markets with no government intervention, while Latin America grew mainly through heavy industrial policy.",
+      "East Asia combined export discipline, learning-by-doing, and selective state support to build competitive industries, while Latin America often liberalised quickly without building comparable productive capacity.",
+      "Both regions followed identical policies of protectionism and import substitution, and both experienced equal reductions in inequality.",
+      "Latin America focused exclusively on human capital and avoided any external shocks."
+    ],
+    "correctAnswer": "East Asia combined export discipline, learning-by-doing, and selective state support to build competitive industries, while Latin America often liberalised quickly without building comparable productive capacity.",
+    "difficulty": "hard",
+    "topic": "Industrial Policy and Trade",
+    "explanation": "The East Asian Miracle is usually described as outward-oriented, but it also involved performance-based support, technology upgrading, and pressure on firms to become globally competitive; Latin America often opened markets without that same industrial upgrading discipline."
+  },
+  {
+    "id": "sgi_107",
+    "questionText": "Choose the pairing that best matches each economist's main claim.",
+    "options": [
+      "Sachs: geography and health burdens can trap countries in poverty; Rodrik: long-run income is mostly driven by institutions that shape incentives.",
+      "Sachs: inclusive political institutions explain most income gaps; Rodrik: tropical disease burdens are the dominant cause of underdevelopment.",
+      "Sachs: inequality weakens poverty reduction; Rodrik: carbon pricing is always regressive.",
+      "Sachs: trade openness alone explains growth; Rodrik: geography is destiny."
+    ],
+    "correctAnswer": "Sachs: geography and health burdens can trap countries in poverty; Rodrik: long-run income is mostly driven by institutions that shape incentives.",
+    "difficulty": "hard",
+    "topic": "Institutions vs Geography",
+    "explanation": "Sachs emphasizes physical constraints like malaria, isolation and infrastructure gaps; Rodrik, Subramanian & Trebbi emphasize that institutional quality is the strongest proximate driver of cross-country income."
+  },
+  {
+    "id": "sgi_108",
+    "questionText": "Suppose an econometric result is: ΔPoverty = –0.8 × Growth + 0.4 × (Growth × InitialInequality). How do you interpret the interaction term 0.4 × (Growth × InitialInequality)?",
+    "options": [
+      "Growth always increases poverty, regardless of inequality.",
+      "Growth reduces poverty less in countries that start with higher inequality, because some of the gains from growth are captured at the top.",
+      "Inequality has no effect on poverty reduction.",
+      "Poverty reduction causes growth."
+    ],
+    "correctAnswer": "Growth reduces poverty less in countries that start with higher inequality, because some of the gains from growth are captured at the top.",
+    "difficulty": "hard",
+    "topic": "Growth–Inequality–Poverty",
+    "explanation": "This is the Fosu-style result: high initial inequality weakens the poverty-reducing power of a given amount of growth."
+  },
+  {
+    "id": "sgi_109",
+    "questionText": "Why does the course present carbon pricing with targeted revenue recycling as consistent with 'inclusive green growth'?",
+    "options": [
+      "Because carbon pricing raises energy costs and there is no way to protect low-income households.",
+      "Because recycling the revenues toward lump-sum or progressive transfers can offset regressive energy price impacts while still creating incentives to cut emissions.",
+      "Because carbon pricing automatically eliminates inequality without any redistribution.",
+      "Because carbon pricing only affects firms, never households."
+    ],
+    "correctAnswer": "Because recycling the revenues toward lump-sum or progressive transfers can offset regressive energy price impacts while still creating incentives to cut emissions.",
+    "difficulty": "hard",
+    "topic": "Environment and Inclusive Growth",
+    "explanation": "Evidence from climate policy design shows that using carbon tax revenue for transfers or wage support can both cut emissions and protect vulnerable households."
+  },
+  {
+    "id": "sgi_110",
+    "questionText": "Which policy mix best matches the idea of 'inclusive green growth'?",
+    "options": [
+      "Large universal fossil fuel subsidies to keep energy cheap for everyone indefinitely.",
+      "A carbon price plus recycling part of the revenue into targeted transfers, retraining, or regional investment in affected communities.",
+      "Banning all environmental regulation to protect jobs in carbon-intensive sectors.",
+      "Only industrial policy for clean tech with no social support."
+    ],
+    "correctAnswer": "A carbon price plus recycling part of the revenue into targeted transfers, retraining, or regional investment in affected communities.",
+    "difficulty": "medium",
+    "topic": "Environment and Policy",
+    "explanation": "Inclusive green growth combines climate incentives with cushioning and opportunity-building for the workers and regions that bear the adjustment cost."
+  },
+  {
+    "id": "sgi_111",
+    "questionText": "Why did the course link high inequality, limited social protection, and rising debt vulnerability when discussing COVID-19?",
+    "options": [
+      "Because when wages and safety nets are weak, both households and governments lean on debt to smooth shocks, leaving them with less fiscal space and more fragility in the next crisis.",
+      "Because inequality automatically eliminates sovereign debt risk.",
+      "Because high inequality guarantees unlimited stimulus capacity.",
+      "Because debt and inequality are unrelated."
+    ],
+    "correctAnswer": "Because when wages and safety nets are weak, both households and governments lean on debt to smooth shocks, leaving them with less fiscal space and more fragility in the next crisis.",
+    "difficulty": "hard",
+    "topic": "Macro Resilience",
+    "explanation": "This is the 'inequality → leverage → fragility' channel: unequal societies often hit crises with less resilience."
+  },
+  {
+    "id": "sgi_112",
+    "questionText": "In the U.S. trade case study, why were wage insurance and mobility/retraining support argued to be better long-run responses than tariffs?",
+    "options": [
+      "Because tariffs always increase national productivity.",
+      "Because targeted support helps displaced workers directly while keeping the overall efficiency gains from openness, whereas tariffs try to freeze the old structure of production.",
+      "Because wage insurance replaces all lost earnings permanently.",
+      "Because retraining eliminates the need for any trade at all."
+    ],
+    "correctAnswer": "Because targeted support helps displaced workers directly while keeping the overall efficiency gains from openness, whereas tariffs try to freeze the old structure of production.",
+    "difficulty": "hard",
+    "topic": "Trade Adjustment Policy",
+    "explanation": "The logic is 'help the worker, not just the firm or the old industry' — preserving national efficiency and political support for openness."
+  },
+  {
+    "id": "sgi_113",
+    "questionText": "Which form of inequality is most damaging for long-run growth, according to the course?",
+    "options": [
+      "Short-term income inequality that results from productivity differences, with full access to education and credit for everyone.",
+      "Persistent inequality of opportunity — unequal access to education, health, finance, and legal protection across groups.",
+      "Any gap in wages between different skill levels.",
+      "Any difference in consumption patterns between regions."
+    ],
+    "correctAnswer": "Persistent inequality of opportunity — unequal access to education, health, finance, and legal protection across groups.",
+    "difficulty": "medium",
+    "topic": "Inequality of Opportunity",
+    "explanation": "Opportunity inequality locks out whole groups from accumulating human capital, undermining future productivity and social stability."
+  },
+  {
+    "id": "sgi_114",
+    "questionText": "A manufacturing region loses 30% of its jobs after import competition. Workers are older, cannot easily relocate, and local tax revenues collapse. Which policy response is most consistent with the course's logic of 'inclusive openness'?",
+    "options": [
+      "Rely on market forces and do nothing, because national GDP still rose.",
+      "Impose broad tariffs to protect the old factories permanently.",
+      "Combine mobility/retraining grants, regional investment, and income support to stabilize the local tax base and help workers transition.",
+      "Ban all imports and exit the WTO."
+    ],
+    "correctAnswer": "Combine mobility/retraining grants, regional investment, and income support to stabilize the local tax base and help workers transition.",
+    "difficulty": "hard",
+    "topic": "Regional Adjustment",
+    "explanation": "The idea is to absorb the local shock without sacrificing national efficiency by freezing the old specialization forever."
+  },
+  {
+    "id": "sgi_115",
+    "questionText": "Suppose Colombian plant-level data show that industries with the biggest tariff cuts increased their share of skilled workers the most. What is the best interpretation?",
+    "options": [
+      "Trade liberalisation forced low-skill, previously protected plants to upgrade technology and hire relatively more skilled labor, increasing the skill premium.",
+      "Trade liberalisation immediately eliminated all wage inequality.",
+      "Trade liberalisation only benefited low-skilled workers.",
+      "Tariffs have no connection to technology choices."
+    ],
+    "correctAnswer": "Trade liberalisation forced low-skill, previously protected plants to upgrade technology and hire relatively more skilled labor, increasing the skill premium.",
+    "difficulty": "hard",
+    "topic": "Empirical Trade and Wages",
+    "explanation": "This is the skill-biased technological change/FDI channel: openness can raise within-industry demand for skills and widen wage gaps."
+  }
+]
