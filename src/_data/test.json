@@ -41,7 +41,7 @@
       "correctAnswer": "$2 + 2 = 22$",
       "difficulty": "easy",
       "topic": "Mathematics",
-      "explanation": "2 + 2 equals 4."
+      "explanation": "2 + 2 equals 4 and 2 + 3 equals 5 but 2 + 2 does not equal 22, that would be concatenation, not addition."
     }
   ]
 }
