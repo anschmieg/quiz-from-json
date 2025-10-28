@@ -32,24 +32,9 @@
                 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
                     <!-- Inline SVG fallbacks for theme icons. JS will toggle visibility by adding/removing the 'hidden' class. -->
                     <span class="theme-icon theme-icon-svg" aria-hidden="true">
-                        <!-- Moon (dark mode) -->
-                        <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
-                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                        </svg>
-                        <!-- Sun (light mode) - simpler reliable SVG: central circle + rays -->
-                        <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" style="display:none;">
-                            <g fill="currentColor" stroke="none">
-                                <circle cx="12" cy="12" r="4" />
-                                <rect x="11.5" y="1.5" width="1" height="3" rx="0.2" />
-                                <rect x="11.5" y="19.5" width="1" height="3" rx="0.2" />
-                                <rect x="1.5" y="11.5" width="3" height="1" rx="0.2" />
-                                <rect x="19.5" y="11.5" width="3" height="1" rx="0.2" />
-                                <rect x="4.2" y="4.2" width="1" height="3" transform="rotate(-45 4.7 5.7)" rx="0.2" />
-                                <rect x="18.8" y="18.8" width="1" height="3" transform="rotate(-45 19.3 20.3)" rx="0.2" />
-                                <rect x="18.8" y="4.2" width="1" height="3" transform="rotate(45 19.3 5.7)" rx="0.2" />
-                                <rect x="4.2" y="18.8" width="1" height="3" transform="rotate(45 4.7 20.3)" rx="0.2" />
-                            </g>
-                        </svg>
+                        <!-- Use Material Symbols for theme icons; fallbacks will be applied by JS if the font is blocked -->
+                        <span class="material-symbols-outlined theme-icon theme-icon-moon" aria-hidden="true">dark_mode</span>
+                        <span class="material-symbols-outlined theme-icon theme-icon-sun" aria-hidden="true" style="display:none;">light_mode</span>
                     </span>
                 </button>
             </div>
