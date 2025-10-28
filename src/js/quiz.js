@@ -132,6 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
         flashcardContainer.style.display = 'block';
         completeMessage.style.display = 'none';
         const shuffledOptions = shuffleArray([...q.options]);
+        const questionText = q.questionText || q.question || q.text || '';
         const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
         const difficultyClass = q.difficulty ? `question-difficulty ${q.difficulty.toLowerCase()}` : '';
         // Inline SVG gauge (arc + center dot + needle). SVG uses 1em sizing so it matches the text height.
@@ -183,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2 class="question-topic">${q.topic || 'Question'}</h2>
                     ${difficultyBadgeHtml}
                 </div>
-                <div class="question-text">${q.question || q.text || ''}</div>
+                <div class="question-text">${questionText}</div>
                 <div class="options">${optionsHtml}</div>
                 <div id="feedback-area"></div>
                 <button id="check-answer-btn" class="action-button">Check Answer</button>
@@ -208,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Update or insert question text and options
             const qt = flashcardContainer.querySelector('.question-text');
-            if (qt) qt.textContent = q.question || q.text || '';
+            if (qt) qt.textContent = questionText;
             const opts = flashcardContainer.querySelector('.options');
             if (opts) opts.innerHTML = optionsHtml;
 
@@ -229,37 +230,57 @@ document.addEventListener('DOMContentLoaded', () => {
         checkAnswerBtn.addEventListener('click', handleCheckAnswer);
     }
 
-    // Replace .material-symbols-outlined spans with simple inline SVGs when
-    // the Material Symbols font isn't actually being used (blocked or missing).
+    // Replace .material-symbols-outlined spans with inline SVGs when the
+    // Material Symbols font isn't actually being used (blocked or missing).
+    // This handles theme icons (light_mode/dark_mode) and other named glyphs.
     function ensureMaterialSymbolFallbacks() {
+        // Quick font-availability probe: if font appears available, do nothing.
         try {
-            const testSpan = document.createElement('span');
-            testSpan.className = 'material-symbols-outlined';
-            testSpan.style.position = 'absolute';
-            testSpan.style.opacity = '0';
-            testSpan.textContent = 'speed';
-            document.body.appendChild(testSpan);
-            const usedFont = getComputedStyle(testSpan).fontFamily || '';
-            document.body.removeChild(testSpan);
+            const probe = document.createElement('span');
+            probe.className = 'material-symbols-outlined';
+            probe.style.position = 'absolute';
+            probe.style.opacity = '0';
+            probe.textContent = 'speed';
+            document.body.appendChild(probe);
+            const usedFont = getComputedStyle(probe).fontFamily || '';
+            document.body.removeChild(probe);
             if (usedFont.toLowerCase().includes('material symbols')) return; // font available
         } catch (e) {
-            // if anything goes wrong, proceed with fallbacks
+            // fall through to apply fallbacks
         }
 
-        document.querySelectorAll('span.material-symbols-outlined.difficulty-icon').forEach(sp => {
+        // mapping from icon name -> inline SVG markup (keeps currentColor)
+        const iconSvgs = {
+            'speed': `<svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">` +
+                `<path d="M3.5 12a8.5 8.5 0 0 1 17 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>` +
+                `<line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`,
+            'light_mode': `<svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">` +
+                `<g fill="currentColor" stroke="none"><circle cx="12" cy="12" r="4"/>` +
+                `<rect x="11.5" y="1.5" width="1" height="3" rx="0.2"></rect>` +
+                `<rect x="11.5" y="19.5" width="1" height="3" rx="0.2"></rect>` +
+                `<rect x="1.5" y="11.5" width="3" height="1" rx="0.2"></rect>` +
+                `<rect x="19.5" y="11.5" width="3" height="1" rx="0.2"></rect>` +
+                `<rect x="4.2" y="4.2" width="1" height="3" transform="rotate(-45 4.7 5.7)" rx="0.2"></rect>` +
+                `<rect x="18.8" y="18.8" width="1" height="3" transform="rotate(-45 19.3 20.3)" rx="0.2"></rect>` +
+                `<rect x="18.8" y="4.2" width="1" height="3" transform="rotate(45 19.3 5.7)" rx="0.2"></rect>` +
+                `<rect x="4.2" y="18.8" width="1" height="3" transform="rotate(45 4.7 20.3)" rx="0.2"></rect></g></svg>`,
+            'dark_mode': `<svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">` +
+                `<path fill="currentColor" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path></svg>`
+        };
+
+        document.querySelectorAll('span.material-symbols-outlined').forEach(sp => {
             if (sp.dataset.fallbackApplied) return;
-            // simple 'speed' icon as inline SVG
-            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-            svg.setAttribute('viewBox', '0 0 24 24');
-            svg.setAttribute('width', '1em');
-            svg.setAttribute('height', '1em');
-            svg.setAttribute('fill', 'currentColor');
-            // Use the same clear arc+needle fallback so icon looks consistent when font is missing
-            svg.innerHTML = `<path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>` +
-                `<line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>`;
-            sp.textContent = '';
-            sp.appendChild(svg);
-            sp.dataset.fallbackApplied = '1';
+            const name = (sp.textContent || '').trim();
+            const svgHtml = iconSvgs[name] || null;
+            if (svgHtml) {
+                // insert the SVG inside the span so existing JS toggles still target the span
+                const wrapper = document.createElement('span');
+                wrapper.innerHTML = svgHtml;
+                // clear text and append svg node
+                sp.textContent = '';
+                sp.appendChild(wrapper.firstElementChild);
+                sp.dataset.fallbackApplied = '1';
+            }
         });
     }
 
