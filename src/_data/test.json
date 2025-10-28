@@ -1,0 +1,47 @@
+{
+  "title": "Demo of the Quiz Format",
+  "shorttitle": "demo",
+  "questions": [
+    {
+      "id": "demo_001",
+      "questionText": "Which is true?",
+      "options": [
+        "Roses are sometimes red",
+        "Roses are never red",
+        "Roses are an abstract concept that cannot be described in colors"
+      ],
+      "correctAnswer": "Roses are sometimes red",
+      "difficulty": "easy",
+      "topic": "Common Sense",
+      "explanation": "Roses can be red, white, yellow, or other colors depending on the variety."
+    },
+    {
+      "id": "demo_002",
+      "questionText": "What is the capital of France?",
+      "options": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Madrid",
+        "Rome"
+      ],
+      "correctAnswer": "Paris",
+      "difficulty": "easy",
+      "topic": "Geography",
+      "explanation": "Paris is the capital of France."
+    },
+    {
+      "id": "demo_003",
+      "questionText": "Choose the statement that is FALSE.",
+      "options": [
+        "$2 + 2 = 4$",
+        "$2 + 3 = 5$",
+        "$2 + 2 = 22$"
+      ],
+      "correctAnswer": "$2 + 2 = 22$",
+      "difficulty": "easy",
+      "topic": "Mathematics",
+      "explanation": "2 + 2 equals 4."
+    }
+  ]
+}
