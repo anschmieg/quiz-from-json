@@ -3,144 +3,1614 @@
   "shorttitle": "UU SGI",
   "questions": [
     {
-      "id": "sgi_106",
-      "questionText": "Which statement best reflects the course's takeaway from the East Asian 'growth miracle' compared with Latin America's liberalisation wave?",
+      "id": "sgi_001",
+      "questionText": "Which definition of sustainable growth would be most defensible in a policy memo to a finance minister deciding between short-run stimulus and long-run transitions?",
       "options": [
-        "East Asia grew purely through laissez-faire free markets with no government intervention, while Latin America grew mainly through heavy industrial policy.",
-        "East Asia combined export discipline, learning-by-doing, and selective state support to build competitive industries, while Latin America often liberalised quickly without building comparable productive capacity.",
-        "Both regions followed identical policies of protectionism and import substitution, and both experienced equal reductions in inequality.",
-        "Latin America focused exclusively on human capital and avoided any external shocks."
+        "Maximizing real GDP per capita regardless of distributional or environmental externalities, provided the budget remains balanced.",
+        "Raising per capita income in a way that internalizes environmental costs and maintains social consent by sharing both opportunities and adjustment burdens broadly across the population.",
+        "Targeting perfect income equality even if average productivity and investment decline persistently.",
+        "Focusing on export volumes while postponing domestic redistribution and climate policy until after convergence."
       ],
-      "correctAnswer": "East Asia combined export discipline, learning-by-doing, and selective state support to build competitive industries, while Latin America often liberalised quickly without building comparable productive capacity.",
+      "correctAnswer": "Raising per capita income in a way that internalizes environmental costs and maintains social consent by sharing both opportunities and adjustment burdens broadly across the population.",
+      "difficulty": "medium",
+      "topic": "Sustainable growth",
+      "explanation": "The course frames sustainability as economic, social, and environmental viability. Enduring growth requires pricing externalities and protecting legitimacy through broadly shared gains and cushioning of losses."
+    },
+    {
+      "id": "sgi_002",
+      "questionText": "In the Solow model with exogenous technical progress, which statement best captures the source of persistent cross-country gaps in income per worker?",
+      "options": [
+        "Permanent differences in saving rates generate permanently higher growth rates in output per worker.",
+        "Differences in steady-state levels stem from saving, population growth, and depreciation, but sustained growth in output per worker reflects differences in effective technology and efficiency rather than capital deepening alone.",
+        "Absolute convergence in both levels and growth rates must occur because of diminishing returns to capital.",
+        "Population growth alone pins down the steady-state capital-output ratio and thus explains income gaps."
+      ],
+      "correctAnswer": "Differences in steady-state levels stem from saving, population growth, and depreciation, but sustained growth in output per worker reflects differences in effective technology and efficiency rather than capital deepening alone.",
       "difficulty": "hard",
-      "topic": "Industrial Policy and Trade",
-      "explanation": "The East Asian Miracle is usually described as outward-oriented, but it also involved performance-based support, technology upgrading, and pressure on firms to become globally competitive; Latin America often opened markets without that same industrial upgrading discipline."
+      "topic": "Growth theory (Solow)",
+      "explanation": "Capital deepening raises levels but not the long-run per-worker growth rate; persistent gaps require differences in technological progress or efficiency, often summarized by TFP."
+    },
+    {
+      "id": "sgi_003",
+      "questionText": "A cabinet debate frames Country X's low income as either an accumulation failure or an institutional-geographic trap. Map this to the proximate versus fundamental causes framework.",
+      "options": [
+        "Accumulation failures are fundamental; institutions and geography are proximate because they respond to investment decisions.",
+        "Accumulation and productivity are proximate; institutions and geography are fundamental because they set incentives and feasibility for accumulation and diffusion.",
+        "Both sides describe proximate causes since trade openness is the only fundamental driver.",
+        "Only culture is a fundamental cause; institutions and geography are second-order."
+      ],
+      "correctAnswer": "Accumulation and productivity are proximate; institutions and geography are fundamental because they set incentives and feasibility for accumulation and diffusion.",
+      "difficulty": "medium",
+      "topic": "Proximate vs fundamental",
+      "explanation": "Fundamentals shape the environment in which proximate levers operate, affecting savings, schooling, and technology adoption."
+    },
+    {
+      "id": "sgi_004",
+      "questionText": "Which mechanism links inclusive institutions to long-run productivity growth in the Acemoglu–Johnson–Robinson framework?",
+      "options": [
+        "They fix low capital taxes, guaranteeing maximum investment regardless of expropriation risk.",
+        "They diffuse political and economic power, protect property, and enable entry so that creative destruction can reallocate resources toward higher-productivity firms.",
+        "They guarantee income equality through universal price controls, removing market risk and accelerating growth.",
+        "They shield incumbents from competition to stabilize employment in legacy sectors."
+      ],
+      "correctAnswer": "They diffuse political and economic power, protect property, and enable entry so that creative destruction can reallocate resources toward higher-productivity firms.",
+      "difficulty": "hard",
+      "topic": "Institutions and growth",
+      "explanation": "Constraints on arbitrary power and secure property rights foster investment and innovation by entrants that challenge incumbents."
+    },
+    {
+      "id": "sgi_005",
+      "questionText": "Interpreting Rodrik–Subramanian–Trebbi's identification: what do their IV results imply about institutions, geography, and trade as determinants of income per capita?",
+      "options": [
+        "Geography mechanically determines income; institutions are residuals once latitude and malaria are controlled.",
+        "Institutional quality exerts the strongest proximate causal effect; geography matters mostly via its historical imprint on institutions; openness loses explanatory power once institutions are included.",
+        "Trade-to-GDP directly causes institution building, which then determines latitude and disease ecology.",
+        "Institutions proxy for schooling; after controlling for education, institutions drop out."
+      ],
+      "correctAnswer": "Institutional quality exerts the strongest proximate causal effect; geography matters mostly via its historical imprint on institutions; openness loses explanatory power once institutions are included.",
+      "difficulty": "hard",
+      "topic": "Institutions vs geography",
+      "explanation": "Their instrumentation aims to purge reverse causality; the remaining variation attributes most income differences to institutional quality."
+    },
+    {
+      "id": "sgi_006",
+      "questionText": "In the Atlantic trade account, why did some European countries translate trade opportunities into sustained growth while others did not?",
+      "options": [
+        "Because trade rents automatically democratize political power in any monarchy.",
+        "Because where preexisting pluralism existed, Atlantic merchants could push for stronger constraints on rulers, entrenching property rights and enabling broad investment; absolutist polities often blocked this institutional shift.",
+        "Because Atlantic trade raised agricultural productivity uniformly across Europe.",
+        "Because countries closest to the equator benefitted most from triangular trade."
+      ],
+      "correctAnswer": "Because where preexisting pluralism existed, Atlantic merchants could push for stronger constraints on rulers, entrenching property rights and enabling broad investment; absolutist polities often blocked this institutional shift.",
+      "difficulty": "hard",
+      "topic": "Historical institutions",
+      "explanation": "Trade interacted with initial political conditions; the causal chain runs through coalition change and institutional constraints."
+    },
+    {
+      "id": "sgi_007",
+      "questionText": "A low-skill-abundant country cuts tariffs. Heckscher–Ohlin predicts compression of skill premia, yet inequality rises. Which econometricly plausible channel best reconciles the facts?",
+      "options": [
+        "Trade reform reduces product market competition and union power rises, lifting skilled wages disproportionately.",
+        "Within-industry technology upgrading and foreign direct investment raise the relative demand for skills, offsetting factor-endowment effects and widening wage differentials.",
+        "Complete labor mobility equalizes wages across regions instantly, mechanically increasing measured inequality.",
+        "Commodity price declines lower land rents, increasing measured inequality via capital income."
+      ],
+      "correctAnswer": "Within-industry technology upgrading and foreign direct investment raise the relative demand for skills, offsetting factor-endowment effects and widening wage differentials.",
+      "difficulty": "hard",
+      "topic": "Trade and wages",
+      "explanation": "Micro evidence shows skill-biased technology adoption after tariff cuts; the within-industry SBTC channel can dominate."
+    },
+    {
+      "id": "sgi_008",
+      "questionText": "Plant-level data show that sectors with larger tariff cuts increase the share of skilled workers and investment in imported capital. What is the most defensible inference?",
+      "options": [
+        "Openness induced within-sector skill-biased technological change rather than mere across-sector reallocation.",
+        "Openness forced all firms to adopt identical techniques, eliminating skill premia.",
+        "Openness shifted workers only from agriculture into manufacturing, leaving sectoral techniques unchanged.",
+        "Openness reduced the return to education as multinationals offshored only low-skill tasks."
+      ],
+      "correctAnswer": "Openness induced within-sector skill-biased technological change rather than mere across-sector reallocation.",
+      "difficulty": "hard",
+      "topic": "Trade liberalisation evidence",
+      "explanation": "Findings are consistent with SBTC and FDI-linked upgrading inside industries, raising relative demand for skills."
+    },
+    {
+      "id": "sgi_009",
+      "questionText": "Which mechanism most directly links high inequality today to lower aggregate growth tomorrow, beyond normative concerns?",
+      "options": [
+        "Rich households save more, guaranteeing higher growth.",
+        "Credit and collateral constraints exclude large cohorts from high-return education or enterprise, depressing aggregate human-capital formation and innovation.",
+        "Higher top incomes ensure higher tax revenue, enabling more public investment.",
+        "Political consensus becomes easier as inequality rises, lowering policy uncertainty."
+      ],
+      "correctAnswer": "Credit and collateral constraints exclude large cohorts from high-return education or enterprise, depressing aggregate human-capital formation and innovation.",
+      "difficulty": "medium",
+      "topic": "Inequality and growth",
+      "explanation": "Opportunity inequality produces dynamic inefficiency when high-return investments by constrained households are not financed."
+    },
+    {
+      "id": "sgi_010",
+      "questionText": "Easterly’s crop-suitability instrument for historical inequality supports which claim about institutions and development?",
+      "options": [
+        "Plantation-suitable endowments fostered highly unequal, coercive systems that persisted through weaker institutions and worse development outcomes.",
+        "Crop patterns only affected rainfall, which directly determines modern per capita income.",
+        "Plantation economies built the most inclusive institutions to protect smallholders.",
+        "Agronomic variation is irrelevant once trade openness is controlled for."
+      ],
+      "correctAnswer": "Plantation-suitable endowments fostered highly unequal, coercive systems that persisted through weaker institutions and worse development outcomes.",
+      "difficulty": "hard",
+      "topic": "Historical inequality",
+      "explanation": "Endowments shaped inequality, which shaped institutional trajectories and long-run productivity."
+    },
+    {
+      "id": "sgi_011",
+      "questionText": "Dollar–Kraay’s headline result is often summarized as growth is good for the poor. What is the most accurate interpretation for policy briefings?",
+      "options": [
+        "On average, bottom-quintile incomes rise roughly proportionally with mean income growth, though inequality need not fall and country heterogeneity remains substantial.",
+        "Bottom-quintile incomes always grow faster than mean income, so inequality always declines with growth.",
+        "Poor households’ incomes are statistically unrelated to mean income growth, so only redistribution matters.",
+        "Growth helps the poor only when accompanied by import-substitution industrialisation."
+      ],
+      "correctAnswer": "On average, bottom-quintile incomes rise roughly proportionally with mean income growth, though inequality need not fall and country heterogeneity remains substantial.",
+      "difficulty": "medium",
+      "topic": "Growth and poverty",
+      "explanation": "Their cross-country evidence implies proportional sharing on average, not guaranteed inequality reduction."
+    },
+    {
+      "id": "sgi_012",
+      "questionText": "Fosu-style estimates show that the elasticity of poverty reduction with respect to growth falls as initial inequality rises. What is the correct interpretation?",
+      "options": [
+        "Growth has no effect on poverty above a Gini threshold.",
+        "For a given growth rate, fewer households cross poverty lines when initial inequality is high because gains accrue disproportionately above the line.",
+        "Growth automatically reduces inequality first, then poverty.",
+        "Initial inequality affects only relative poverty, not headcount measures."
+      ],
+      "correctAnswer": "For a given growth rate, fewer households cross poverty lines when initial inequality is high because gains accrue disproportionately above the line.",
+      "difficulty": "hard",
+      "topic": "Growth–inequality–poverty",
+      "explanation": "Initial distribution conditions how strongly growth translates into poverty reduction."
+    },
+    {
+      "id": "sgi_013",
+      "questionText": "Why does inequality of opportunity matter for long-run growth beyond ethics?",
+      "options": [
+        "It captures income dispersion after taxes and transfers.",
+        "Persistent exclusion from education, health, finance, and legal protection depresses human-capital accumulation and erodes institutional legitimacy, reducing productivity growth.",
+        "It only measures short-run consumption volatility.",
+        "It is equivalent to the Palma ratio."
+      ],
+      "correctAnswer": "Persistent exclusion from education, health, finance, and legal protection depresses human-capital accumulation and erodes institutional legitimacy, reducing productivity growth.",
+      "difficulty": "medium",
+      "topic": "Inequality of opportunity",
+      "explanation": "Opportunity gaps create structural underinvestment and weaken the social contract needed for reform."
+    },
+    {
+      "id": "sgi_014",
+      "questionText": "A government faces concentrated import-compete job losses. Which critique of broad tariffs is most consistent with inclusive openness?",
+      "options": [
+        "Tariffs maximize dynamic efficiency by preserving legacy sectors.",
+        "Tariffs may slow layoffs but raise prices, risk retaliation, and entrench obsolete structures; targeted mobility, retraining, wage insurance, and place-based investment better address concentrated losses while preserving aggregate gains.",
+        "Tariffs always raise low-skill wages faster than high-skill wages.",
+        "Tariffs are irrelevant because workers relocate frictionlessly."
+      ],
+      "correctAnswer": "Tariffs may slow layoffs but raise prices, risk retaliation, and entrench obsolete structures; targeted mobility, retraining, wage insurance, and place-based investment better address concentrated losses while preserving aggregate gains.",
+      "difficulty": "medium",
+      "topic": "Trade adjustment",
+      "explanation": "Insure people, not sectors; keep openness efficient and politically sustainable."
+    },
+    {
+      "id": "sgi_015",
+      "questionText": "Why might wage insurance dominate tariffs as a political-economy response to import competition in advanced economies?",
+      "options": [
+        "It permanently restores pre-shock wages without fiscal cost.",
+        "It compensates concentrated losses while avoiding the static and dynamic costs of protection, sustaining the coalition for openness.",
+        "It eliminates the need for retraining.",
+        "It guarantees regional population growth."
+      ],
+      "correctAnswer": "It compensates concentrated losses while avoiding the static and dynamic costs of protection, sustaining the coalition for openness.",
+      "difficulty": "hard",
+      "topic": "Political economy of trade",
+      "explanation": "Targeted insurance addresses fairness without freezing specialization or triggering retaliation."
+    },
+    {
+      "id": "sgi_016",
+      "questionText": "Bolivia: why frame institutional reform as a precondition for diversification in a landlocked, resource-dependent economy?",
+      "options": [
+        "Because geography is irrelevant and only tariffs matter.",
+        "Because high transport costs and volatile rents heighten the premium on credible property rights, regulatory predictability, and state capacity to attract long-horizon, non-extractive investment.",
+        "Because strong institutions eliminate the need for infrastructure.",
+        "Because institutional reform allows banning all foreign ownership, which raises TFP."
+      ],
+      "correctAnswer": "Because high transport costs and volatile rents heighten the premium on credible property rights, regulatory predictability, and state capacity to attract long-horizon, non-extractive investment.",
+      "difficulty": "hard",
+      "topic": "Case: Bolivia",
+      "explanation": "Adverse geography increases the return to institutional credibility for diversification."
+    },
+    {
+      "id": "sgi_017",
+      "questionText": "South Africa: why is redistribution through services framed as compatible with a growth strategy?",
+      "options": [
+        "Because any transfer mechanically raises TFP.",
+        "Because expanding high-quality education, health, and basic services to excluded groups raises future productivity and broadens the tax base, aligning equity with growth.",
+        "Because redistribution eliminates unemployment by decree.",
+        "Because service provision substitutes for private investment."
+      ],
+      "correctAnswer": "Because expanding high-quality education, health, and basic services to excluded groups raises future productivity and broadens the tax base, aligning equity with growth.",
+      "difficulty": "medium",
+      "topic": "Case: South Africa",
+      "explanation": "Opportunity-enhancing redistribution is investment in human capital and inclusion."
+    },
+    {
+      "id": "sgi_018",
+      "questionText": "COVID-19 and resilience: which mechanism links inequality, weak safety nets, and lower policy space in subsequent crises?",
+      "options": [
+        "High inequality ensures strong automatic stabilizers, reducing borrowing needs.",
+        "With weak formal insurance, households and governments borrow to smooth shocks, raising debt and shrinking fiscal space for the next crisis.",
+        "Inequality lowers sovereign spreads by concentrating wealth.",
+        "Debt dynamics are unrelated to social structure."
+      ],
+      "correctAnswer": "With weak formal insurance, households and governments borrow to smooth shocks, raising debt and shrinking fiscal space for the next crisis.",
+      "difficulty": "hard",
+      "topic": "Resilience",
+      "explanation": "Leverage substitutes for insurance, creating fragility and procyclical policy constraints."
+    },
+    {
+      "id": "sgi_019",
+      "questionText": "Inclusive green growth: which design choice aligns climate effectiveness with political durability?",
+      "options": [
+        "Uniform carbon tax with all revenue used to cut corporate taxes.",
+        "Carbon pricing paired with revenue recycling into lump-sum or targeted transfers, mobility support, and regional transition investment for affected communities.",
+        "Immediate bans on carbon-intensive sectors without compensation.",
+        "Voluntary corporate pledges in place of pricing to avoid market distortions."
+      ],
+      "correctAnswer": "Carbon pricing paired with revenue recycling into lump-sum or targeted transfers, mobility support, and regional transition investment for affected communities.",
+      "difficulty": "hard",
+      "topic": "Climate policy",
+      "explanation": "Price signals cut emissions; recycling cushions distributional impacts and sustains consent."
+    },
+    {
+      "id": "sgi_020",
+      "questionText": "Why is state capacity treated as a productive input rather than a governance nicety?",
+      "options": [
+        "It lets the state set tariffs without deadweight loss.",
+        "It enables credible contract enforcement, tax collection, and service delivery, lowering transaction costs and supporting countercyclical policy.",
+        "It guarantees equality irrespective of markets.",
+        "It substitutes for property rights."
+      ],
+      "correctAnswer": "It enables credible contract enforcement, tax collection, and service delivery, lowering transaction costs and supporting countercyclical policy.",
+      "difficulty": "hard",
+      "topic": "Institutions and capacity",
+      "explanation": "Credibility and predictability are part of the economy’s effective technology."
+    },
+    {
+      "id": "sgi_021",
+      "questionText": "Endogenous growth view: why can idea production sustain long-run per-capita growth without the Solow-style diminishing-returns limit?",
+      "options": [
+        "Ideas are rival like machines, so duplication raises costs.",
+        "New knowledge is non-rival, creating spillovers that keep marginal productivity of the knowledge stock from collapsing as capital deepens.",
+        "Population growth alone drives idea production mechanically.",
+        "Only public R&D produces growth; private R&D is neutral."
+      ],
+      "correctAnswer": "New knowledge is non-rival, creating spillovers that keep marginal productivity of the knowledge stock from collapsing as capital deepens.",
+      "difficulty": "hard",
+      "topic": "Endogenous growth",
+      "explanation": "Knowledge spillovers imply social returns exceed private returns, sustaining growth with appropriate institutions and incentives."
+    },
+    {
+      "id": "sgi_022",
+      "questionText": "Conditional convergence: which statement aligns with cross-country growth empirics discussed in class?",
+      "options": [
+        "All poor countries catch up regardless of fundamentals.",
+        "Countries with similar structural characteristics converge toward similar steady states; differing fundamentals yield different income clubs.",
+        "Rich countries grow faster because capital is scarcer there.",
+        "Convergence is purely a statistical artifact."
+      ],
+      "correctAnswer": "Countries with similar structural characteristics converge toward similar steady states; differing fundamentals yield different income clubs.",
+      "difficulty": "medium",
+      "topic": "Convergence",
+      "explanation": "Solow-style conditional, not absolute, convergence is consistent with ‘club’ behavior."
+    },
+    {
+      "id": "sgi_023",
+      "questionText": "Geography and market access: why does coastal population share matter for development prospects?",
+      "options": [
+        "It measures happiness.",
+        "It proxies lower transport costs and easier integration into trade networks, affecting scale economies and specialization options.",
+        "It determines democracy directly.",
+        "It fixes the exchange rate regime."
+      ],
+      "correctAnswer": "It proxies lower transport costs and easier integration into trade networks, affecting scale economies and specialization options.",
+      "difficulty": "medium",
+      "topic": "Geography and trade",
+      "explanation": "Access shapes tradability and the feasibility of export-led strategies."
+    },
+    {
+      "id": "sgi_024",
+      "questionText": "Poverty traps vs Solow: what is the critical difference in the implied transition dynamics?",
+      "options": [
+        "Solow assumes costless borrowing; traps emphasize thresholds where low income prevents investment needed to escape low productivity.",
+        "Both require no savings.",
+        "Traps predict instantaneous convergence.",
+        "Solow and trap models are identical."
+      ],
+      "correctAnswer": "Solow assumes costless borrowing; traps emphasize thresholds where low income prevents investment needed to escape low productivity.",
+      "difficulty": "hard",
+      "topic": "Traps vs neoclassical",
+      "explanation": "Multiple equilibria and thresholds produce non-linear dynamics unlike smooth convergence."
+    },
+    {
+      "id": "sgi_025",
+      "questionText": "Why is endogeneity a first-order concern in cross-country regressions of income on institutions and trade?",
+      "options": [
+        "Because OLS is mathematically invalid.",
+        "Income may shape institutional quality and openness; omitted geography or history can confound estimates, biasing naive coefficients.",
+        "Because sample sizes are always too large.",
+        "Because measurement error is irrelevant."
+      ],
+      "correctAnswer": "Income may shape institutional quality and openness; omitted geography or history can confound estimates, biasing naive coefficients.",
+      "difficulty": "hard",
+      "topic": "Empirical methods",
+      "explanation": "Reverse causality and omitted variables require instruments or other credible identification strategies."
+    },
+    {
+      "id": "sgi_026",
+      "questionText": "Why use instruments such as settler mortality or gravity-predicted trade in macro development regressions?",
+      "options": [
+        "To raise R-squared only.",
+        "To isolate variation in institutions or trade that is plausibly exogenous to current income, addressing reverse causality.",
+        "To avoid using any controls.",
+        "To guarantee unbiased OLS by construction."
+      ],
+      "correctAnswer": "To isolate variation in institutions or trade that is plausibly exogenous to current income, addressing reverse causality.",
+      "difficulty": "hard",
+      "topic": "Instruments",
+      "explanation": "IV relies on relevance and exclusion; historical mortality and gravity-predicted openness are common strategies."
+    },
+    {
+      "id": "sgi_027",
+      "questionText": "Settler mortality as instrument: what is the hypothesized historical mechanism?",
+      "options": [
+        "High mortality led to extractive colonial institutions that persisted, depressing modern property-rights quality and income.",
+        "High mortality increased European settlement and inclusive institutions.",
+        "Mortality directly determines modern GDP independent of institutions.",
+        "Mortality proxies only for schooling."
+      ],
+      "correctAnswer": "High mortality led to extractive colonial institutions that persisted, depressing modern property-rights quality and income.",
+      "difficulty": "hard",
+      "topic": "Historical IV",
+      "explanation": "Colonial strategies varied with settler feasibility, shaping institutional legacies."
+    },
+    {
+      "id": "sgi_028",
+      "questionText": "Gravity-predicted trade shares serve as an instrument for openness because they use what type of variation?",
+      "options": [
+        "Variation in preferences for imports.",
+        "Variation driven by bilateral distance, size, and geography rather than by income levels or policies.",
+        "Variation driven by domestic inequality.",
+        "Variation in post-tax income."
+      ],
+      "correctAnswer": "Variation driven by bilateral distance, size, and geography rather than by income levels or policies.",
+      "difficulty": "hard",
+      "topic": "Trade IV",
+      "explanation": "Predicted flows from exogenous gravity covariates help separate trade’s effect from income-driven openness."
+    },
+    {
+      "id": "sgi_029",
+      "questionText": "After controlling for institutions, what remains of geography’s direct effect on income in the RST framework?",
+      "options": [
+        "Large and dominant.",
+        "Weak; geography matters primarily through institutional channels shaped historically by disease and settlement.",
+        "Negative by construction.",
+        "Unidentifiable because instruments fail relevance."
+      ],
+      "correctAnswer": "Weak; geography matters primarily through institutional channels shaped historically by disease and settlement.",
+      "difficulty": "hard",
+      "topic": "Institutions vs geography",
+      "explanation": "Direct geography effects shrink once institutions are credibly measured and instrumented."
+    },
+    {
+      "id": "sgi_030",
+      "questionText": "Why do constraints on the executive feature prominently in early-modern European institutional change narratives?",
+      "options": [
+        "They index reliable contract enforcement and reduced expropriation risk, which are prerequisites for broad private investment.",
+        "They measure agricultural productivity.",
+        "They proxy for tariff rates.",
+        "They are uncorrelated with property rights."
+      ],
+      "correctAnswer": "They index reliable contract enforcement and reduced expropriation risk, which are prerequisites for broad private investment.",
+      "difficulty": "medium",
+      "topic": "Institutional metrics",
+      "explanation": "Checks on rulers underpin credible commitments to investors."
+    },
+    {
+      "id": "sgi_031",
+      "questionText": "Stolper–Samuelson at the frontier: how can it coexist with rising within-industry skill premia after trade reform?",
+      "options": [
+        "By assuming identical technologies across countries.",
+        "By allowing technology adoption to be endogenous to competition, raising skill intensities inside sectors and offsetting factor-endowment predictions.",
+        "By assuming no labor mobility.",
+        "By redefining the abundant factor as capital everywhere."
+      ],
+      "correctAnswer": "By allowing technology adoption to be endogenous to competition, raising skill intensities inside sectors and offsetting factor-endowment predictions.",
+      "difficulty": "hard",
+      "topic": "Trade theory vs facts",
+      "explanation": "Technology choice responds to openness; SBTC inside industries can dominate endowment-based distributional effects."
+    },
+    {
+      "id": "sgi_032",
+      "questionText": "Why might measured post-tax inequality fall in some open economies despite SBTC?",
+      "options": [
+        "Because openness eliminates skill premia mechanically.",
+        "Because tax-transfers, minimum wages, and bargaining institutions can counteract market inequality even when pre-tax skill premia rise.",
+        "Because FDI always targets low-skill tasks only.",
+        "Because openness suppresses productivity growth."
+      ],
+      "correctAnswer": "Because tax-transfers, minimum wages, and bargaining institutions can counteract market inequality even when pre-tax skill premia rise.",
+      "difficulty": "medium",
+      "topic": "Distributional policy",
+      "explanation": "Institutions mediate how market shocks map into disposable income inequality."
+    },
+    {
+      "id": "sgi_033",
+      "questionText": "Kuznets hypothesis: what is the mechanism rather than the shape?",
+      "options": [
+        "Inequality is constant during growth.",
+        "Early structural change concentrates gains; later mass education, political inclusion, and redistributive capacity can compress inequality.",
+        "Inequality must reverse automatically once GDP per capita crosses a threshold.",
+        "The hypothesis is a purely statistical artifact without any behavioral content."
+      ],
+      "correctAnswer": "Early structural change concentrates gains; later mass education, political inclusion, and redistributive capacity can compress inequality.",
+      "difficulty": "medium",
+      "topic": "Inequality over development",
+      "explanation": "The story is about mechanisms that can produce an inverted-U, not a law."
+    },
+    {
+      "id": "sgi_034",
+      "questionText": "Creative destruction and extractive elites: what is the central political economy friction?",
+      "options": [
+        "Elites internalize all social returns to innovation.",
+        "Elites fear losing rents if new entrants adopt superior technologies, so they may block adoption even when it raises aggregate productivity.",
+        "Innovation always preserves incumbent market share.",
+        "Elites cannot influence policy in weak states."
+      ],
+      "correctAnswer": "Elites fear losing rents if new entrants adopt superior technologies, so they may block adoption even when it raises aggregate productivity.",
+      "difficulty": "hard",
+      "topic": "Institutions and innovation",
+      "explanation": "Rent protection can dominate aggregate efficiency in extractive settings."
+    },
+    {
+      "id": "sgi_035",
+      "questionText": "Heckscher–Ohlin core assumption enabling distributional predictions is that goods differ in what way?",
+      "options": [
+        "They use factors in identical proportions.",
+        "They use factors with different intensities, and countries differ in factor endowments.",
+        "They require fixed coefficients.",
+        "They are all non-tradable."
+      ],
+      "correctAnswer": "They use factors with different intensities, and countries differ in factor endowments.",
+      "difficulty": "medium",
+      "topic": "Trade theory",
+      "explanation": "Factor intensity differences map openness into factor price changes."
+    },
+    {
+      "id": "sgi_036",
+      "questionText": "Stolper–Samuelson prediction under competitive pricing and full employment is that an increase in the price of the export good raises what?",
+      "options": [
+        "The real return to the factor used intensively in the export sector and lowers the other factor’s real return.",
+        "Both factors’ real returns equally.",
+        "The real wage only.",
+        "Capital returns only."
+      ],
+      "correctAnswer": "The real return to the factor used intensively in the export sector and lowers the other factor’s real return.",
+      "difficulty": "medium",
+      "topic": "Trade theory",
+      "explanation": "Relative price shifts transmit to factor returns through cost shares."
+    },
+    {
+      "id": "sgi_037",
+      "questionText": "Why did Latin American liberalisations often correlate with rising wage inequality contrary to simple HO logic?",
+      "options": [
+        "Because labor supply shrank.",
+        "Because exposure to competition and FDI induced technology adoption that increased skill intensity within industries, outpacing educational supply responses.",
+        "Because governments eliminated all labor market regulations.",
+        "Because unions perfectly equalized wages."
+      ],
+      "correctAnswer": "Because exposure to competition and FDI induced technology adoption that increased skill intensity within industries, outpacing educational supply responses.",
+      "difficulty": "hard",
+      "topic": "Trade and inequality",
+      "explanation": "SBTC and capability upgrading can dominate endowment advantages in the short to medium run."
+    },
+    {
+      "id": "sgi_038",
+      "questionText": "How can multinational entry alter the wage structure in host economies?",
+      "options": [
+        "By uniformly lowering skill demand.",
+        "By importing technologies and management that complement skilled labor, raising premia within connected sectors and sometimes via spillovers.",
+        "By eliminating capital deepening.",
+        "By fixing wages administratively at autarky levels."
+      ],
+      "correctAnswer": "By importing technologies and management that complement skilled labor, raising premia within connected sectors and sometimes via spillovers.",
+      "difficulty": "hard",
+      "topic": "FDI and wages",
+      "explanation": "MNEs often operate at higher quality ladders, increasing demand for skills locally."
+    },
+    {
+      "id": "sgi_039",
+      "questionText": "Empirically, what made the Colombian tariff episode useful for causal inference about wages and skills?",
+      "options": [
+        "Absence of any tariff changes.",
+        "Detailed plant- and worker-level data linked to tariff variation allowed tracing channels from reform to technology, skill demand, and wage premia.",
+        "Perfect randomization of workers across plants.",
+        "No contemporaneous macro shocks."
+      ],
+      "correctAnswer": "Detailed plant- and worker-level data linked to tariff variation allowed tracing channels from reform to technology, skill demand, and wage premia.",
+      "difficulty": "hard",
+      "topic": "Empirical trade",
+      "explanation": "Micro linkage permits identifying within-industry mechanisms beyond aggregate correlations."
+    },
+    {
+      "id": "sgi_040",
+      "questionText": "Why did the East Asian experience challenge a naive laissez-faire reading of export-led growth?",
+      "options": [
+        "Because growth relied purely on autarky.",
+        "Because export orientation was combined with selective industrial policies, performance discipline, and capability accumulation rather than passive liberalisation alone.",
+        "Because the state banned learning-by-doing.",
+        "Because exchange rate appreciation eliminated trade."
+      ],
+      "correctAnswer": "Because export orientation was combined with selective industrial policies, performance discipline, and capability accumulation rather than passive liberalisation alone.",
+      "difficulty": "hard",
+      "topic": "Industrial policy",
+      "explanation": "East Asia mixed openness with active state roles in upgrading and competition discipline."
+    },
+    {
+      "id": "sgi_041",
+      "questionText": "Define pro-poor growth in relative versus absolute terms and choose the correct implication for evaluation.",
+      "options": [
+        "Relative: poor incomes rise faster than average; Absolute: poor incomes rise in level terms even if shares are unchanged; evaluation should clarify which concept is used because policy conclusions differ.",
+        "Relative: poor incomes rise in levels; Absolute: poor shares rise; evaluation is identical either way.",
+        "Relative equals Palma ratio; Absolute equals Gini.",
+        "Relative focuses on headcount; Absolute on poverty gap squared."
+      ],
+      "correctAnswer": "Relative: poor incomes rise faster than average; Absolute: poor incomes rise in level terms even if shares are unchanged; evaluation should clarify which concept is used because policy conclusions differ.",
+      "difficulty": "medium",
+      "topic": "Pro-poor growth",
+      "explanation": "Definitions matter for verdicts on reforms with heterogeneous distributional effects."
+    },
+    {
+      "id": "sgi_042",
+      "questionText": "Why can identical headcount poverty rates conceal very different welfare situations?",
+      "options": [
+        "Because headcount is invariant to the poverty line.",
+        "Because headcount ignores depth and severity; the poverty gap and squared gap capture how far and how unequal shortfalls are.",
+        "Because headcount is always zero in practice.",
+        "Because headcount double-counts the poor."
+      ],
+      "correctAnswer": "Because headcount ignores depth and severity; the poverty gap and squared gap capture how far and how unequal shortfalls are.",
+      "difficulty": "medium",
+      "topic": "Poverty measurement",
+      "explanation": "A thin margin below the line differs from deep deprivation; policy design depends on this distinction."
+    },
+    {
+      "id": "sgi_043",
+      "questionText": "Multidimensional poverty indices attempt to remedy what limitation of money-metric measures?",
+      "options": [
+        "They overcount health outcomes.",
+        "They omit deprivations in health, education, security, and voice that condition lifetime productivity and agency.",
+        "They double-count income transfers.",
+        "They cannot be decomposed by region."
+      ],
+      "correctAnswer": "They omit deprivations in health, education, security, and voice that condition lifetime productivity and agency.",
+      "difficulty": "medium",
+      "topic": "MPI",
+      "explanation": "Non-monetary deprivations shape human capital and participation in growth."
+    },
+    {
+      "id": "sgi_044",
+      "questionText": "Interpret a regression: ΔPoverty = −0.8×Growth + 0.4×(Growth×InitialInequality). Which statement is correct?",
+      "options": [
+        "Growth always raises poverty.",
+        "Poverty falls with growth on average, but the effect is attenuated when initial inequality is high, consistent with lower growth elasticity of poverty at high inequality.",
+        "Initial inequality has no role.",
+        "Interaction terms are uninterpretable without non-linear least squares."
+      ],
+      "correctAnswer": "Poverty falls with growth on average, but the effect is attenuated when initial inequality is high, consistent with lower growth elasticity of poverty at high inequality.",
+      "difficulty": "hard",
+      "topic": "Empirical interpretation",
+      "explanation": "A positive interaction coefficient offsets the baseline negative growth effect as inequality rises."
+    },
+    {
+      "id": "sgi_045",
+      "questionText": "Why is the Human Capital Index informative for long-run income prospects?",
+      "options": [
+        "It measures financial wealth.",
+        "It estimates expected adult productivity of a child born today given current health and education, which correlates with future output per worker.",
+        "It is a political participation index.",
+        "It equals tertiary enrollment rate."
+      ],
+      "correctAnswer": "It estimates expected adult productivity of a child born today given current health and education, which correlates with future output per worker.",
+      "difficulty": "medium",
+      "topic": "Human capital",
+      "explanation": "HCI links child cohort conditions to future labor productivity."
+    },
+    {
+      "id": "sgi_046",
+      "questionText": "Why is the slogan growth is good for the poor politically attractive yet incomplete?",
+      "options": [
+        "Because it denies inequality exists.",
+        "Because it frames poverty reduction as compatible with growth reforms, but ignores heterogeneity by initial inequality, structure, and policy transmission.",
+        "Because it implies redistribution is unnecessary everywhere.",
+        "Because it rejects trade openness."
+      ],
+      "correctAnswer": "Because it frames poverty reduction as compatible with growth reforms, but ignores heterogeneity by initial inequality, structure, and policy transmission.",
+      "difficulty": "medium",
+      "topic": "Policy narratives",
+      "explanation": "Average proportionality need not hold where exclusion is severe; complementary policies may be required."
+    },
+    {
+      "id": "sgi_047",
+      "questionText": "Trickle-down claims are contentious largely because of which empirical uncertainty?",
+      "options": [
+        "Whether higher top incomes inevitably generate broad investment and wage gains for lower deciles without institutions that mediate diffusion.",
+        "Whether GDP is nominal or real.",
+        "Whether openness reduces prices.",
+        "Whether unemployment is ever measured correctly."
+      ],
+      "correctAnswer": "Whether higher top incomes inevitably generate broad investment and wage gains for lower deciles without institutions that mediate diffusion.",
+      "difficulty": "medium",
+      "topic": "Inequality debates",
+      "explanation": "Distributional transmission is institutional and policy contingent, not automatic."
+    },
+    {
+      "id": "sgi_048",
+      "questionText": "Credit market imperfections link inequality to growth through what channel?",
+      "options": [
+        "By ensuring overinvestment in education.",
+        "By rationing high-return projects by poor households that lack collateral, leading to aggregate underinvestment in human and physical capital.",
+        "By forcing the rich to consume more public goods.",
+        "By equalizing marginal returns across households."
+      ],
+      "correctAnswer": "By rationing high-return projects by poor households that lack collateral, leading to aggregate underinvestment in human and physical capital.",
+      "difficulty": "hard",
+      "topic": "Finance and inequality",
+      "explanation": "With borrowing constraints, talent is misallocated and growth suffers."
+    },
+    {
+      "id": "sgi_049",
+      "questionText": "Median-voter logic suggests high inequality can lower growth through what mechanism?",
+      "options": [
+        "A poorer median demands high redistribution that can reduce capital accumulation incentives if poorly designed.",
+        "The median bans taxation.",
+        "The median eliminates elections.",
+        "The median sets negative interest rates."
+      ],
+      "correctAnswer": "A poorer median demands high redistribution that can reduce capital accumulation incentives if poorly designed.",
+      "difficulty": "hard",
+      "topic": "Political economy",
+      "explanation": "Policy responses to distribution shape investment incentives; design matters."
+    },
+    {
+      "id": "sgi_050",
+      "questionText": "How can inequality raise policy uncertainty and deter investment?",
+      "options": [
+        "By increasing trust in institutions.",
+        "By fueling instability and expectations of abrupt policy shifts, raising hurdle rates and delaying irreversible investment.",
+        "By fixing exchange rates.",
+        "By eliminating lobbying."
+      ],
+      "correctAnswer": "By fueling instability and expectations of abrupt policy shifts, raising hurdle rates and delaying irreversible investment.",
+      "difficulty": "medium",
+      "topic": "Instability and growth",
+      "explanation": "Perceived risk of expropriation or upheaval curtails long-horizon projects."
+    },
+    {
+      "id": "sgi_051",
+      "questionText": "Kuznets-style dynamics predict an early rise in inequality during industrialization. Which condition weakens the later compression phase?",
+      "options": [
+        "Rapid expansion of mass education and social insurance.",
+        "Persistent political exclusion and weak fiscal capacity, limiting redistribution and access to skills.",
+        "Accelerating rural–urban migration with skill diffusion.",
+        "Declining returns to education."
+      ],
+      "correctAnswer": "Persistent political exclusion and weak fiscal capacity, limiting redistribution and access to skills.",
+      "difficulty": "hard",
+      "topic": "Inequality dynamics",
+      "explanation": "Institutional bottlenecks can prevent the late-stage fall in inequality."
+    },
+    {
+      "id": "sgi_052",
+      "questionText": "Why is land inequality a powerful predictor of long-run development in agrarian histories?",
+      "options": [
+        "Because land is unrelated to credit.",
+        "Because land concentration shapes collateral access, rural political power, and incentives to invest in broad-based human capital.",
+        "Because land data are always precise.",
+        "Because land inequality moves one-for-one with income Gini."
+      ],
+      "correctAnswer": "Because land concentration shapes collateral access, rural political power, and incentives to invest in broad-based human capital.",
+      "difficulty": "hard",
+      "topic": "Historical inequality",
+      "explanation": "Asset distribution conditions both finance and institutional choices."
+    },
+    {
+      "id": "sgi_053",
+      "questionText": "How does a sugar-versus-wheat suitability instrument support a persistence story for inequality?",
+      "options": [
+        "By showing plantation crops made egalitarian peasant societies.",
+        "By linking plantation feasibility to coerced labor systems, high inequality, and institutional paths that suppressed broad participation long after slavery.",
+        "By proving crops determine climate.",
+        "By eliminating the need for historical controls."
+      ],
+      "correctAnswer": "By linking plantation feasibility to coerced labor systems, high inequality, and institutional paths that suppressed broad participation long after slavery.",
+      "difficulty": "hard",
+      "topic": "Persistence",
+      "explanation": "Endowments can lock societies into inequality-institution feedback loops."
+    },
+    {
+      "id": "sgi_054",
+      "questionText": "Elite capture channel: how can inequality transmit into weak institutions and low growth?",
+      "options": [
+        "By aligning elite incentives with broad innovation.",
+        "By enabling narrow groups to block reforms that broaden property rights and competition, preserving rents at the expense of aggregate productivity.",
+        "By increasing voter turnout uniformly.",
+        "By raising tax morale."
+      ],
+      "correctAnswer": "By enabling narrow groups to block reforms that broaden property rights and competition, preserving rents at the expense of aggregate productivity.",
+      "difficulty": "hard",
+      "topic": "Political capture",
+      "explanation": "Institutional stasis protects incumbents and suppresses creative destruction."
+    },
+    {
+      "id": "sgi_055",
+      "questionText": "What makes the SDG framework both useful and operationally difficult?",
+      "options": [
+        "It focuses solely on GDP, simplifying choices.",
+        "It provides a shared vocabulary across goals but forces prioritization under fiscal and administrative constraints, requiring sequencing and trade-off management.",
+        "It is binding in domestic law.",
+        "It eliminates political disagreement."
+      ],
+      "correctAnswer": "It provides a shared vocabulary across goals but forces prioritization under fiscal and administrative constraints, requiring sequencing and trade-off management.",
+      "difficulty": "medium",
+      "topic": "SDGs",
+      "explanation": "Implementation demands coherent strategies, not checklists."
+    },
+    {
+      "id": "sgi_056",
+      "questionText": "Multidimensional poverty highlights what policy design implication relative to income-only measures?",
+      "options": [
+        "Cash transfers alone always suffice.",
+        "Complementary interventions in health, schooling, and security may be required to unlock productivity even when income rises modestly.",
+        "Non-monetary deprivations are irrelevant to productivity.",
+        "Income and non-income deprivations cannot coexist."
+      ],
+      "correctAnswer": "Complementary interventions in health, schooling, and security may be required to unlock productivity even when income rises modestly.",
+      "difficulty": "medium",
+      "topic": "MPI policy",
+      "explanation": "Human capital and agency constraints interact with income transfers."
+    },
+    {
+      "id": "sgi_057",
+      "questionText": "What does the Human Capital Index imply for sequencing reforms in low-income countries?",
+      "options": [
+        "Prioritize only tertiary education to raise patents immediately.",
+        "Prioritize foundational health and learning to shift cohort productivity trajectories, then complement with labor-market reforms and firm capabilities.",
+        "Defer all education until full industrialization occurs.",
+        "Focus exclusively on corporate tax cuts."
+      ],
+      "correctAnswer": "Prioritize foundational health and learning to shift cohort productivity trajectories, then complement with labor-market reforms and firm capabilities.",
+      "difficulty": "hard",
+      "topic": "Human capital sequencing",
+      "explanation": "Early deficits compound; foundational investments yield high dynamic returns."
+    },
+    {
+      "id": "sgi_058",
+      "questionText": "Why is TFP at least as important as accumulation in high-income economies?",
+      "options": [
+        "Because capital becomes costless.",
+        "Because organization, technology, and diffusion margins dominate once capital per worker is high; copying and frontier innovation drive differences.",
+        "Because labor is irrelevant.",
+        "Because savings rates are fixed."
+      ],
+      "correctAnswer": "Because organization, technology, and diffusion margins dominate once capital per worker is high; copying and frontier innovation drive differences.",
+      "difficulty": "medium",
+      "topic": "TFP and frontier",
+      "explanation": "Efficiency and ideas explain residual gaps among capital-rich economies."
+    },
+    {
+      "id": "sgi_059",
+      "questionText": "Why did rapid capital accumulation go a long way in some late developers like East Asia?",
+      "options": [
+        "Because they operated at the technological frontier already.",
+        "Because moving labor from low-productivity activities to industry plus high investment enabled catch-up while learning imported techniques.",
+        "Because they avoided exports.",
+        "Because they reduced schooling."
+      ],
+      "correctAnswer": "Because moving labor from low-productivity activities to industry plus high investment enabled catch-up while learning imported techniques.",
+      "difficulty": "medium",
+      "topic": "Structural transformation",
+      "explanation": "Reallocation and capital deepening jointly raised productivity during convergence."
+    },
+    {
+      "id": "sgi_060",
+      "questionText": "Knowledge spillovers justify what kind of policy in endogenous growth models?",
+      "options": [
+        "Taxes on R&D to prevent duplication.",
+        "Public support for research and diffusion because private returns understate social returns.",
+        "Bans on patents.",
+        "Exclusive reliance on trade to import ideas."
+      ],
+      "correctAnswer": "Public support for research and diffusion because private returns understate social returns.",
+      "difficulty": "hard",
+      "topic": "Innovation policy",
+      "explanation": "Non-rivalry implies externalities that markets under-provide without policy."
+    },
+    {
+      "id": "sgi_061",
+      "questionText": "Why is productivity the dominant margin for rich countries while capital deepening matters more for some middle-income convergers?",
+      "options": [
+        "Because rich countries have zero investment.",
+        "Because at high capital intensity, further deepening yields smaller gains; innovation and organization explain differences, while convergers exploit reallocation and imported technology.",
+        "Because labor supply is fixed.",
+        "Because trade balances determine productivity."
+      ],
+      "correctAnswer": "Because at high capital intensity, further deepening yields smaller gains; innovation and organization explain differences, while convergers exploit reallocation and imported technology.",
+      "difficulty": "medium",
+      "topic": "Frontier vs catch-up",
+      "explanation": "Diminishing returns vs idea-driven growth split."
+    },
+    {
+      "id": "sgi_062",
+      "questionText": "Why can manufacturing-led structural change yield outsized growth in early stages?",
+      "options": [
+        "Because manufacturing has the same productivity as subsistence agriculture.",
+        "Because moving workers to tradable sectors with learning-by-doing and scale economies raises average productivity, especially when accompanied by export discipline.",
+        "Because it lowers investment needs.",
+        "Because it eliminates urban congestion costs."
+      ],
+      "correctAnswer": "Because moving workers to tradable sectors with learning-by-doing and scale economies raises average productivity, especially when accompanied by export discipline.",
+      "difficulty": "hard",
+      "topic": "Structural change",
+      "explanation": "Externalities and scale in tradables amplify reallocation gains."
+    },
+    {
+      "id": "sgi_063",
+      "questionText": "Convergence clubs: which description matches evidence?",
+      "options": [
+        "All countries share a single steady state.",
+        "Groups with similar fundamentals converge within clubs but not across them, reflecting institutional and structural heterogeneity.",
+        "Poor countries diverge mechanically.",
+        "Clubs are artifacts of PPP adjustments only."
+      ],
+      "correctAnswer": "Groups with similar fundamentals converge within clubs but not across them, reflecting institutional and structural heterogeneity.",
+      "difficulty": "hard",
+      "topic": "Convergence clubs",
+      "explanation": "Multiple steady states emerge from differing fundamentals."
+    },
+    {
+      "id": "sgi_064",
+      "questionText": "Why are pandemic scarring effects concerning for emerging economies in particular?",
+      "options": [
+        "Because shocks never affect human capital.",
+        "Because school closures, firm exits, and balance-sheet damage can persist without robust safety nets and credit, lowering TFP and labor earnings for cohorts.",
+        "Because tourism always booms post-pandemic.",
+        "Because informality disappears."
+      ],
+      "correctAnswer": "Because school closures, firm exits, and balance-sheet damage can persist without robust safety nets and credit, lowering TFP and labor earnings for cohorts.",
+      "difficulty": "hard",
+      "topic": "Pandemic scarring",
+      "explanation": "Human-capital and firm-capability losses embed into future productivity."
+    },
+    {
+      "id": "sgi_065",
+      "questionText": "Why did many developing countries face less policy space during COVID-19?",
+      "options": [
+        "Because they had unlimited reserves.",
+        "Because higher debt and borrowing costs constrained large fiscal supports compared to advanced economies.",
+        "Because they lacked central banks.",
+        "Because they had no health ministries."
+      ],
+      "correctAnswer": "Because higher debt and borrowing costs constrained large fiscal supports compared to advanced economies.",
+      "difficulty": "medium",
+      "topic": "Policy space",
+      "explanation": "Market access and debt sustainability limited countercyclical capacity."
+    },
+    {
+      "id": "sgi_066",
+      "questionText": "Global value-chain shock mechanism during COVID-19 was characterized by what?",
+      "options": [
+        "Only domestic demand contraction.",
+        "Simultaneous multi-country supply and logistics disruptions amplifying both supply and demand shocks via network propagation.",
+        "Only currency depreciation effects.",
+        "Exclusive tourism effects."
+      ],
+      "correctAnswer": "Simultaneous multi-country supply and logistics disruptions amplifying both supply and demand shocks via network propagation.",
+      "difficulty": "medium",
+      "topic": "GVC shocks",
+      "explanation": "Networked production magnifies synchronized disturbances."
+    },
+    {
+      "id": "sgi_067",
+      "questionText": "Why did inequality widen in many places during COVID-19?",
+      "options": [
+        "Because high earners lost asset values.",
+        "Because lower-income and informal workers bore larger job and income losses while asset prices recovered quickly, widening income and wealth gaps.",
+        "Because transfers targeted only the top decile.",
+        "Because all schooling quality improved."
+      ],
+      "correctAnswer": "Because lower-income and informal workers bore larger job and income losses while asset prices recovered quickly, widening income and wealth gaps.",
+      "difficulty": "medium",
+      "topic": "Pandemic inequality",
+      "explanation": "Shock incidence and recovery were distributionally uneven."
+    },
+    {
+      "id": "sgi_068",
+      "questionText": "Define state capacity in operational economic terms.",
+      "options": [
+        "Size of government employment.",
+        "Ability to design, implement, and enforce policy credibly, including tax collection, contract enforcement, and public service delivery.",
+        "Level of foreign reserves only.",
+        "Military spending share."
+      ],
+      "correctAnswer": "Ability to design, implement, and enforce policy credibly, including tax collection, contract enforcement, and public service delivery.",
+      "difficulty": "medium",
+      "topic": "State capacity",
+      "explanation": "Capacity turns policy into predictable reality, reducing uncertainty for investors."
+    },
+    {
+      "id": "sgi_069",
+      "questionText": "Why is corruption growth-reducing in the baseline macro narrative?",
+      "options": [
+        "It lowers transaction costs.",
+        "It acts as an uncertain tax, distorts allocation toward rent-seeking, and undermines credibility of rules, deterring investment.",
+        "It guarantees efficient procurement.",
+        "It raises tax morale."
+      ],
+      "correctAnswer": "It acts as an uncertain tax, distorts allocation toward rent-seeking, and undermines credibility of rules, deterring investment.",
+      "difficulty": "medium",
+      "topic": "Corruption and growth",
+      "explanation": "Uncertainty about informal payments raises hurdle rates and biases selection."
+    },
+    {
+      "id": "sgi_070",
+      "questionText": "Rule of law matters for private investment primarily because it does what?",
+      "options": [
+        "Guarantees subsidies.",
+        "Reduces uncertainty over property rights and contract enforcement, lowering risk of expropriation and enabling long-horizon projects.",
+        "Eliminates bankruptcy entirely.",
+        "Replaces innovation."
+      ],
+      "correctAnswer": "Reduces uncertainty over property rights and contract enforcement, lowering risk of expropriation and enabling long-horizon projects.",
+      "difficulty": "easy",
+      "topic": "Institutions and investment",
+      "explanation": "Credible enforcement increases expected returns to irreversible investment."
+    },
+    {
+      "id": "sgi_071",
+      "questionText": "Voice and accountability indicators aim to capture what aspect relevant to growth?",
+      "options": [
+        "Trade integration.",
+        "Citizens’ participation in selecting governments and enjoying freedoms that support accountability and reduce rent extraction.",
+        "Average tariff rates.",
+        "Average years of schooling."
+      ],
+      "correctAnswer": "Citizens’ participation in selecting governments and enjoying freedoms that support accountability and reduce rent extraction.",
+      "difficulty": "medium",
+      "topic": "Governance measures",
+      "explanation": "Political inclusion underpins constraints on rulers and policy responsiveness."
+    },
+    {
+      "id": "sgi_072",
+      "questionText": "Why classify unequal access to credit and schooling as inequality of opportunity rather than outcome?",
+      "options": [
+        "Because it measures only current income dispersion.",
+        "Because it captures unequal starting conditions that shape lifetime prospects and intergenerational mobility, with macro productivity consequences.",
+        "Because it is purely moral.",
+        "Because it measures only consumption."
+      ],
+      "correctAnswer": "Because it captures unequal starting conditions that shape lifetime prospects and intergenerational mobility, with macro productivity consequences.",
+      "difficulty": "medium",
+      "topic": "Opportunity inequality",
+      "explanation": "Starting-gate disadvantages propagate into lower aggregate human capital."
+    },
+    {
+      "id": "sgi_073",
+      "questionText": "Headcount-only poverty evaluation can mislead policy because it ignores what?",
+      "options": [
+        "Depth and severity of shortfalls below the line, which matter for welfare and targeting effectiveness.",
+        "Exchange-rate movements.",
+        "Population weights.",
+        "Sampling frames."
+      ],
+      "correctAnswer": "Depth and severity of shortfalls below the line, which matter for welfare and targeting effectiveness.",
+      "difficulty": "medium",
+      "topic": "Poverty metrics",
+      "explanation": "Gap measures inform marginal impact of transfers."
+    },
+    {
+      "id": "sgi_074",
+      "questionText": "Why is it hard to infer causality from simple correlations between openness and income?",
+      "options": [
+        "Because causality is obvious.",
+        "Because income affects openness and both respond to geography and institutions; omitted variables and reverse causality bias OLS.",
+        "Because trade data are perfect.",
+        "Because PPP adjustments are unnecessary."
+      ],
+      "correctAnswer": "Because income affects openness and both respond to geography and institutions; omitted variables and reverse causality bias OLS.",
+      "difficulty": "hard",
+      "topic": "Identification",
+      "explanation": "Requires instruments or designs to separate channels."
+    },
+    {
+      "id": "sgi_075",
+      "questionText": "Why do RST separate geography, integration, and institutions empirically?",
+      "options": [
+        "To show geography alone suffices.",
+        "To identify which deep determinant has the strongest causal bite after addressing endogeneity, rather than conflating correlated channels.",
+        "To avoid controls.",
+        "To prove trade is irrelevant analytically."
+      ],
+      "correctAnswer": "To identify which deep determinant has the strongest causal bite after addressing endogeneity, rather than conflating correlated channels.",
+      "difficulty": "medium",
+      "topic": "Deep determinants",
+      "explanation": "Disentangling channels clarifies policy priorities."
+    },
+    {
+      "id": "sgi_076",
+      "questionText": "Intuition for gravity IV: what makes predicted trade plausibly exogenous?",
+      "options": [
+        "It depends mainly on bilateral distance and size rather than income or institutional quality.",
+        "It is chosen by exporters to maximize GDP.",
+        "It proxies credit constraints.",
+        "It equals tariff levels."
+      ],
+      "correctAnswer": "It depends mainly on bilateral distance and size rather than income or institutional quality.",
+      "difficulty": "hard",
+      "topic": "Trade IV intuition",
+      "explanation": "Geography-based predictions reduce simultaneity with income."
+    },
+    {
+      "id": "sgi_077",
+      "questionText": "Geography can shape institutions via which historical channel?",
+      "options": [
+        "Random weather.",
+        "Disease environments and settler mortality influenced colonial strategies, producing persistent institutional differences.",
+        "Immediate manufacturing booms.",
+        "Direct price controls."
+      ],
+      "correctAnswer": "Disease environments and settler mortality influenced colonial strategies, producing persistent institutional differences.",
+      "difficulty": "hard",
+      "topic": "Geo→Institutions",
+      "explanation": "Feasibility of settlement vs extraction affected property-rights regimes."
+    },
+    {
+      "id": "sgi_078",
+      "questionText": "Why are tariffs politically tempting in deindustrialized regions but economically costly nationally?",
+      "options": [
+        "They provide visible protection to specific constituencies but impose consumer costs, risk retaliation, and hinder reallocation to higher-productivity uses.",
+        "They raise productivity growth automatically.",
+        "They increase variety without cost.",
+        "They improve targeting better than transfers."
+      ],
+      "correctAnswer": "They provide visible protection to specific constituencies but impose consumer costs, risk retaliation, and hinder reallocation to higher-productivity uses.",
+      "difficulty": "medium",
+      "topic": "Tariffs vs adjustment",
+      "explanation": "Short-run political salience vs long-run efficiency trade-off."
+    },
+    {
+      "id": "sgi_079",
+      "questionText": "In the US trade case, what is the logic of favoring adjustment assistance over protection?",
+      "options": [
+        "Maintain openness’ aggregate gains while directly compensating and re-skilling the concentrated losers.",
+        "Eliminate all imports permanently.",
+        "Freeze regional specialization.",
+        "Subsidize only capital income."
+      ],
+      "correctAnswer": "Maintain openness’ aggregate gains while directly compensating and re-skilling the concentrated losers.",
+      "difficulty": "hard",
+      "topic": "Case: US trade",
+      "explanation": "Helps people, not sectors; sustains political support for openness."
+    },
+    {
+      "id": "sgi_080",
+      "questionText": "Bolivia’s ministry response in the case indicated what institutional bottleneck for policy credibility?",
+      "options": [
+        "Strong judicial enforcement.",
+        "Need to strengthen predictable regulation and property-rights enforcement to crowd in non-extractive investment.",
+        "Unconstrained fiscal space.",
+        "Excess coastal access."
+      ],
+      "correctAnswer": "Need to strengthen predictable regulation and property-rights enforcement to crowd in non-extractive investment.",
+      "difficulty": "medium",
+      "topic": "Case: Bolivia institutions",
+      "explanation": "Credibility problems deter long-horizon diversification."
+    },
+    {
+      "id": "sgi_081",
+      "questionText": "What was the purpose of the Objective Assessors in the case study format?",
+      "options": [
+        "Advocate for one side.",
+        "Probe assumptions and evidence on both sides to pressure-test claims and evaluate rigor.",
+        "Draft legislation.",
+        "Grade anonymously without criteria."
+      ],
+      "correctAnswer": "Probe assumptions and evidence on both sides to pressure-test claims and evaluate rigor.",
+      "difficulty": "easy",
+      "topic": "Case method",
+      "explanation": "Assessor role ensures analytical discipline under debate."
+    },
+    {
+      "id": "sgi_082",
+      "questionText": "Peer review in cases mimicked which real-world process?",
+      "options": [
+        "Autocratic decree.",
+        "Contested policy formation where stakeholders critique and refine proposals under constraints.",
+        "Judicial sentencing.",
+        "Corporate takeover battles only."
+      ],
+      "correctAnswer": "Contested policy formation where stakeholders critique and refine proposals under constraints.",
+      "difficulty": "easy",
+      "topic": "Case pedagogy",
+      "explanation": "Policy emerges from debate and iteration, not from single-author memos."
+    },
+    {
+      "id": "sgi_083",
+      "questionText": "South Africa’s central tension was characterized as what?",
+      "options": [
+        "Currency pegs vs inflation targeting.",
+        "Generating growth while tackling very high inequality and persistent exclusion.",
+        "Autarky vs openness.",
+        "Fiscal rules vs debt haircuts."
+      ],
+      "correctAnswer": "Generating growth while tackling very high inequality and persistent exclusion.",
+      "difficulty": "medium",
+      "topic": "Case: South Africa",
+      "explanation": "Dual challenge of job creation and inclusion."
+    },
+    {
+      "id": "sgi_084",
+      "questionText": "Why is the growth–redistribution trade-off not purely antagonistic in South Africa?",
+      "options": [
+        "Because redistribution always raises TFP mechanically.",
+        "Because opportunity-enhancing redistribution builds human capital and participation, which raises future productivity and broadens the tax base.",
+        "Because growth is unrelated to education.",
+        "Because redistribution replaces markets."
+      ],
+      "correctAnswer": "Because opportunity-enhancing redistribution builds human capital and participation, which raises future productivity and broadens the tax base.",
+      "difficulty": "hard",
+      "topic": "Inclusive growth",
+      "explanation": "Equity levers can be productivity levers when they expand capability."
+    },
+    {
+      "id": "sgi_085",
+      "questionText": "Why is South Africa described as upper-middle income yet highly unequal?",
+      "options": [
+        "Because it has low GDP.",
+        "Because national averages mask extreme dispersion and persistent exclusion by race, region, and skill.",
+        "Because inequality measures ignore wealth.",
+        "Because all sectors have identical wages."
+      ],
+      "correctAnswer": "Because national averages mask extreme dispersion and persistent exclusion by race, region, and skill.",
+      "difficulty": "medium",
+      "topic": "South Africa inequality",
+      "explanation": "Distributional structure, not just means, matters for welfare and politics."
+    },
+    {
+      "id": "sgi_086",
+      "questionText": "What makes redistribution via education and health a growth-compatible instrument in high-inequality contexts?",
+      "options": [
+        "It reduces labor supply.",
+        "It relaxes binding human-capital and health constraints on productivity for excluded groups, raising aggregate efficiency.",
+        "It crowds out private investment mechanically.",
+        "It eliminates market competition."
+      ],
+      "correctAnswer": "It relaxes binding human-capital and health constraints on productivity for excluded groups, raising aggregate efficiency.",
+      "difficulty": "medium",
+      "topic": "Redistribution and growth",
+      "explanation": "Targeted equity is a channel to higher long-run output."
+    },
+    {
+      "id": "sgi_087",
+      "questionText": "Institutions are called rules of the game because they primarily do what?",
+      "options": [
+        "Set weather patterns.",
+        "Shape incentives, constraints, and expectations that govern investment, innovation, and distribution.",
+        "Eliminate taxation.",
+        "Fix exchange rates."
+      ],
+      "correctAnswer": "Shape incentives, constraints, and expectations that govern investment, innovation, and distribution.",
+      "difficulty": "easy",
+      "topic": "Institutions definition",
+      "explanation": "Rules define feasible strategies and payoffs for economic actors."
+    },
+    {
+      "id": "sgi_088",
+      "questionText": "Extractive institutions are problematic for growth primarily because they do what?",
+      "options": [
+        "Broaden access to markets.",
+        "Concentrate power and rents, limiting entry and incentives for innovation and human-capital investment.",
+        "Eliminate corruption.",
+        "Guarantee competition."
+      ],
+      "correctAnswer": "Concentrate power and rents, limiting entry and incentives for innovation and human-capital investment.",
+      "difficulty": "medium",
+      "topic": "Extractive institutions",
+      "explanation": "Rent preservation can dominate aggregate efficiency in policy choices."
+    },
+    {
+      "id": "sgi_089",
+      "questionText": "Why might elites block technology adoption under extractive institutions?",
+      "options": [
+        "Because innovation always lowers costs for incumbents.",
+        "Because innovation threatens their rents and political control by enabling rival entrants or organized labor.",
+        "Because technology is unrelated to market share.",
+        "Because elites cannot influence policy."
+      ],
+      "correctAnswer": "Because innovation threatens their rents and political control by enabling rival entrants or organized labor.",
+      "difficulty": "hard",
+      "topic": "Blocking innovation",
+      "explanation": "Political control can trump efficiency in adoption decisions."
+    },
+    {
+      "id": "sgi_090",
+      "questionText": "How do inclusive institutions and high state capacity interact?",
+      "options": [
+        "They are substitutes.",
+        "Together they produce credible, predictable policy execution that builds trust and lowers investment risk.",
+        "They eliminate markets.",
+        "They raise inflation mechanically."
+      ],
+      "correctAnswer": "Together they produce credible, predictable policy execution that builds trust and lowers investment risk.",
+      "difficulty": "hard",
+      "topic": "Institutions synergy",
+      "explanation": "Participation without capability yields frustration; capability without inclusion risks predation."
+    },
+    {
+      "id": "sgi_091",
+      "questionText": "Governance indicators like rule of law and control of corruption are useful but imperfect because why?",
+      "options": [
+        "They are purely objective and error-free.",
+        "They provide cross-country comparability but contain measurement error and may miss local realities, so inference must be cautious.",
+        "They are legally binding.",
+        "They render micro evidence unnecessary."
+      ],
+      "correctAnswer": "They provide cross-country comparability but contain measurement error and may miss local realities, so inference must be cautious.",
+      "difficulty": "medium",
+      "topic": "Measurement limits",
+      "explanation": "Indices help pattern recognition but not mechanical policy recipes."
+    },
+    {
+      "id": "sgi_092",
+      "questionText": "Why does growth sometimes fail to reduce poverty much in very unequal societies?",
+      "options": [
+        "Because poverty lines rise automatically.",
+        "Because gains accrue disproportionately to households already above the line, leaving few to cross thresholds.",
+        "Because poverty measures ignore income.",
+        "Because growth lowers employment."
+      ],
+      "correctAnswer": "Because gains accrue disproportionately to households already above the line, leaving few to cross thresholds.",
+      "difficulty": "easy",
+      "topic": "Growth and poverty heterogeneity",
+      "explanation": "Initial distribution shapes translation of growth into headcount changes."
+    },
+    {
+      "id": "sgi_093",
+      "questionText": "Define growth elasticity of poverty in actionable terms for a policy note.",
+      "options": [
+        "Percentage change in poverty for a one percent change in mean income, holding distribution constant.",
+        "Percentage change in inequality for a one percent change in poverty.",
+        "Nominal income growth rate.",
+        "Elasticity of exports with respect to tariffs."
+      ],
+      "correctAnswer": "Percentage change in poverty for a one percent change in mean income, holding distribution constant.",
+      "difficulty": "medium",
+      "topic": "Elasticities",
+      "explanation": "A lower elasticity implies growth translates weakly into poverty reduction."
+    },
+    {
+      "id": "sgi_094",
+      "questionText": "Which package best reflects inclusive growth as taught in the course?",
+      "options": [
+        "High growth without distributional concern.",
+        "Productivity reforms plus opportunity-enhancing policies and credible institutions so gains are widely accessible.",
+        "Autarky with capital controls only.",
+        "Redistribution only, with no productivity strategy."
+      ],
+      "correctAnswer": "Productivity reforms plus opportunity-enhancing policies and credible institutions so gains are widely accessible.",
+      "difficulty": "easy",
+      "topic": "Inclusive growth package",
+      "explanation": "Efficiency and equity levers are complements when designed coherently."
+    },
+    {
+      "id": "sgi_095",
+      "questionText": "Why is inclusive growth easier to sell politically than expropriation-heavy redistribution?",
+      "options": [
+        "Because it denies inequality.",
+        "Because it frames equity as compatible with competitiveness by expanding access and cushioning shocks rather than punishing winners.",
+        "Because it eliminates taxes.",
+        "Because it bans unions."
+      ],
+      "correctAnswer": "Because it frames equity as compatible with competitiveness by expanding access and cushioning shocks rather than punishing winners.",
+      "difficulty": "medium",
+      "topic": "Narratives",
+      "explanation": "Coalitions form more easily around shared opportunity than zero-sum rhetoric."
+    },
+    {
+      "id": "sgi_096",
+      "questionText": "How can high household and public debt be the flip side of inequality?",
+      "options": [
+        "Because stagnating median incomes and weak safety nets induce borrowing to smooth consumption and stability, raising leverage and fragility.",
+        "Because inequality lowers desired saving by the rich.",
+        "Because debt is illegal in unequal societies.",
+        "Because creditors are always poor."
+      ],
+      "correctAnswer": "Because stagnating median incomes and weak safety nets induce borrowing to smooth consumption and stability, raising leverage and fragility.",
+      "difficulty": "hard",
+      "topic": "Inequality and leverage",
+      "explanation": "Debt substitutes for insurance and wage growth, reducing resilience."
+    },
+    {
+      "id": "sgi_097",
+      "questionText": "Why does liberalisation not automatically yield shared prosperity?",
+      "options": [
+        "Because openness lowers productivity.",
+        "Because adjustment costs and SBTC generate concentrated losses without automatic compensation, even as the aggregate pie grows.",
+        "Because consumers dislike variety.",
+        "Because exports are non-tradable."
+      ],
+      "correctAnswer": "Because adjustment costs and SBTC generate concentrated losses without automatic compensation, even as the aggregate pie grows.",
+      "difficulty": "medium",
+      "topic": "Openness and distribution",
+      "explanation": "Political economy hinges on cushioning identifiable losers."
+    },
+    {
+      "id": "sgi_098",
+      "questionText": "Why does limited labor mobility matter in evaluating trade shocks?",
+      "options": [
+        "Because it guarantees instant wage equalization.",
+        "Because frictions make short-run losses persistent in specific regions and cohorts, raising long-run inequality even if national averages improve.",
+        "Because mobility lowers productivity.",
+        "Because mobility is costless."
+      ],
+      "correctAnswer": "Because frictions make short-run losses persistent in specific regions and cohorts, raising long-run inequality even if national averages improve.",
+      "difficulty": "hard",
+      "topic": "Labor mobility",
+      "explanation": "Geographic and skill frictions slow reallocation."
+    },
+    {
+      "id": "sgi_099",
+      "questionText": "Rationale for combining openness with active labor-market policies is what?",
+      "options": [
+        "To suppress specialization.",
+        "To broaden participation in gains from trade by re-skilling and insuring the displaced, preserving both efficiency and legitimacy.",
+        "To permanently protect legacy sectors.",
+        "To eliminate FDI."
+      ],
+      "correctAnswer": "To broaden participation in gains from trade by re-skilling and insuring the displaced, preserving both efficiency and legitimacy.",
+      "difficulty": "medium",
+      "topic": "ALMP and trade",
+      "explanation": "Efficiency-compatible cushioning supports political sustainability of openness."
+    },
+    {
+      "id": "sgi_100",
+      "questionText": "Social sustainability of growth requires what distributional condition?",
+      "options": [
+        "Exclusive gains to capital owners.",
+        "Systematic inclusion of lower-income groups in productivity gains and credible pathways to future opportunity.",
+        "Zero taxation.",
+        "Persistent regional decline."
+      ],
+      "correctAnswer": "Systematic inclusion of lower-income groups in productivity gains and credible pathways to future opportunity.",
+      "difficulty": "easy",
+      "topic": "Social sustainability",
+      "explanation": "Legitimacy depends on visible pathways for broad participation."
+    },
+    {
+      "id": "sgi_101",
+      "questionText": "Environmental sustainability within growth implies which policy stance?",
+      "options": [
+        "Ignoring ecological limits until convergence.",
+        "Internalizing environmental externalities and investing in clean innovation so resource bases remain viable as incomes rise.",
+        "Permanent moratoria on all industrial activity.",
+        "Reliance on voluntary offsets only."
+      ],
+      "correctAnswer": "Internalizing environmental externalities and investing in clean innovation so resource bases remain viable as incomes rise.",
+      "difficulty": "medium",
+      "topic": "Environmental sustainability",
+      "explanation": "Pricing and innovation align private incentives with social costs."
+    },
+    {
+      "id": "sgi_102",
+      "questionText": "How do strong institutions help economies absorb shocks?",
+      "options": [
+        "By printing money.",
+        "By enabling credible, coordinated responses, legal predictability, and trusted safety nets that limit panic and accelerate recovery.",
+        "By banning trade.",
+        "By fixing global prices."
+      ],
+      "correctAnswer": "By enabling credible, coordinated responses, legal predictability, and trusted safety nets that limit panic and accelerate recovery.",
+      "difficulty": "hard",
+      "topic": "Shock absorption",
+      "explanation": "Trust and capacity reduce output losses and hysteresis."
+    },
+    {
+      "id": "sgi_103",
+      "questionText": "Why is geography not destiny in the strict sense?",
+      "options": [
+        "Because policy can mitigate disadvantages through infrastructure, disease control, and regional integration, altering effective market access and productivity.",
+        "Because climate has no effect on agriculture.",
+        "Because transport costs are fixed.",
+        "Because institutions do not matter."
+      ],
+      "correctAnswer": "Because policy can mitigate disadvantages through infrastructure, disease control, and regional integration, altering effective market access and productivity.",
+      "difficulty": "medium",
+      "topic": "Geography and policy",
+      "explanation": "Geographic constraints are malleable via investment and coordination."
+    },
+    {
+      "id": "sgi_104",
+      "questionText": "Differentiate physical from economic geography in development analysis.",
+      "options": [
+        "Physical: environmental features; Economic: market access, density, and spatial concentration of activity.",
+        "Physical equals tariffs; Economic equals rainfall.",
+        "They are identical.",
+        "Physical equals PPP; Economic equals CPI."
+      ],
+      "correctAnswer": "Physical: environmental features; Economic: market access, density, and spatial concentration of activity.",
+      "difficulty": "hard",
+      "topic": "Geography distinctions",
+      "explanation": "Place characteristics vs spatial organization of markets and people."
+    },
+    {
+      "id": "sgi_105",
+      "questionText": "Why emphasize measurement quality for inequality and governance in policy work?",
+      "options": [
+        "Because weak data can mislead causal stories and produce policy errors; triangulation and humility are required.",
+        "Because indices are perfect.",
+        "Because models need no data.",
+        "Because policymakers ignore evidence."
+      ],
+      "correctAnswer": "Because weak data can mislead causal stories and produce policy errors; triangulation and humility are required.",
+      "difficulty": "medium",
+      "topic": "Measurement and policy",
+      "explanation": "Causal misdiagnosis leads to costly reform mistakes."
+    },
+    {
+      "id": "sgi_106",
+      "questionText": "East Asian miracle vs Latin American liberalisation: which synthesis is most defensible?",
+      "options": [
+        "East Asia succeeded via laissez-faire only; Latin America via heavy protection.",
+        "East Asia combined export discipline and selective industrial policies with capability building; Latin America often liberalised without comparable upgrading institutions, leading to uneven distributional outcomes.",
+        "Both regions pursued identical policies and identical inequality paths.",
+        "Latin America focused exclusively on human capital and avoided external shocks."
+      ],
+      "correctAnswer": "East Asia combined export discipline and selective industrial policies with capability building; Latin America often liberalised without comparable upgrading institutions, leading to uneven distributional outcomes.",
+      "difficulty": "hard",
+      "topic": "Comparative development",
+      "explanation": "Performance-contingent support and export pressure underpinned learning and diffusion in East Asia."
     },
     {
       "id": "sgi_107",
-      "questionText": "Choose the pairing that best matches each economist's main claim.",
+      "questionText": "Match the primary emphasis: Sachs versus Rodrik–Subramanian–Trebbi.",
       "options": [
-        "Sachs: geography and health burdens can trap countries in poverty; Rodrik: long-run income is mostly driven by institutions that shape incentives.",
-        "Sachs: inclusive political institutions explain most income gaps; Rodrik: tropical disease burdens are the dominant cause of underdevelopment.",
-        "Sachs: inequality weakens poverty reduction; Rodrik: carbon pricing is always regressive.",
-        "Sachs: trade openness alone explains growth; Rodrik: geography is destiny."
+        "Sachs: geography and health burdens as traps; RST: institutions as dominant proximate determinant after addressing endogeneity.",
+        "Sachs: institutions dominate always; RST: geography is destiny.",
+        "Sachs: inequality elasticity; RST: carbon pricing regressivity.",
+        "Sachs: trade alone explains growth; RST: latitude sets income."
       ],
-      "correctAnswer": "Sachs: geography and health burdens can trap countries in poverty; Rodrik: long-run income is mostly driven by institutions that shape incentives.",
+      "correctAnswer": "Sachs: geography and health burdens as traps; RST: institutions as dominant proximate determinant after addressing endogeneity.",
       "difficulty": "hard",
-      "topic": "Institutions vs Geography",
-      "explanation": "Sachs emphasizes physical constraints like malaria, isolation and infrastructure gaps; Rodrik, Subramanian & Trebbi emphasize that institutional quality is the strongest proximate driver of cross-country income."
+      "topic": "Competing emphases",
+      "explanation": "Sachs stresses physical constraints; RST stresses institutions with geography indirect."
     },
     {
       "id": "sgi_108",
-      "questionText": "Suppose an econometric result is: ΔPoverty = –0.8 × Growth + 0.4 × (Growth × InitialInequality). How do you interpret the interaction term 0.4 × (Growth × InitialInequality)?",
+      "questionText": "Interpretation of an interaction term in poverty regressions consistent with Fosu’s findings?",
       "options": [
-        "Growth always increases poverty, regardless of inequality.",
-        "Growth reduces poverty less in countries that start with higher inequality, because some of the gains from growth are captured at the top.",
-        "Inequality has no effect on poverty reduction.",
-        "Poverty reduction causes growth."
+        "A positive coefficient on Growth×InitialInequality implies growth’s poverty reduction effect weakens as initial inequality rises.",
+        "It implies growth’s effect strengthens with inequality.",
+        "Interaction terms are meaningless in linear models.",
+        "It proves poverty is unrelated to inequality."
       ],
-      "correctAnswer": "Growth reduces poverty less in countries that start with higher inequality, because some of the gains from growth are captured at the top.",
+      "correctAnswer": "A positive coefficient on Growth×InitialInequality implies growth’s poverty reduction effect weakens as initial inequality rises.",
       "difficulty": "hard",
-      "topic": "Growth–Inequality–Poverty",
-      "explanation": "This is the Fosu-style result: high initial inequality weakens the poverty-reducing power of a given amount of growth."
+      "topic": "Regression interpretation",
+      "explanation": "Conditional elasticities vary with initial distribution."
     },
     {
       "id": "sgi_109",
-      "questionText": "Why does the course present carbon pricing with targeted revenue recycling as consistent with 'inclusive green growth'?",
+      "questionText": "Designing inclusive carbon pricing: which principle best sustains political support?",
       "options": [
-        "Because carbon pricing raises energy costs and there is no way to protect low-income households.",
-        "Because recycling the revenues toward lump-sum or progressive transfers can offset regressive energy price impacts while still creating incentives to cut emissions.",
-        "Because carbon pricing automatically eliminates inequality without any redistribution.",
-        "Because carbon pricing only affects firms, never households."
+        "Use revenue for progressive transfers and transition support in exposed regions while maintaining the price signal.",
+        "Use revenue solely for corporate tax cuts.",
+        "Ban carbon-intensive sectors immediately without compensation.",
+        "Rely on voluntary offsets only."
       ],
-      "correctAnswer": "Because recycling the revenues toward lump-sum or progressive transfers can offset regressive energy price impacts while still creating incentives to cut emissions.",
+      "correctAnswer": "Use revenue for progressive transfers and transition support in exposed regions while maintaining the price signal.",
       "difficulty": "hard",
-      "topic": "Environment and Inclusive Growth",
-      "explanation": "Evidence from climate policy design shows that using carbon tax revenue for transfers or wage support can both cut emissions and protect vulnerable households."
+      "topic": "Climate and equity",
+      "explanation": "Compensation plus incentives secures durability."
     },
     {
       "id": "sgi_110",
-      "questionText": "Which policy mix best matches the idea of 'inclusive green growth'?",
+      "questionText": "Which package fits inclusive green growth at lowest political risk?",
       "options": [
-        "Large universal fossil fuel subsidies to keep energy cheap for everyone indefinitely.",
-        "A carbon price plus recycling part of the revenue into targeted transfers, retraining, or regional investment in affected communities.",
-        "Banning all environmental regulation to protect jobs in carbon-intensive sectors.",
-        "Only industrial policy for clean tech with no social support."
+        "Fuel subsidies for all.",
+        "Carbon price with lump-sum rebates, targeted ALMPs, and place-based transition funds.",
+        "Immediate bans without support.",
+        "No regulation."
       ],
-      "correctAnswer": "A carbon price plus recycling part of the revenue into targeted transfers, retraining, or regional investment in affected communities.",
+      "correctAnswer": "Carbon price with lump-sum rebates, targeted ALMPs, and place-based transition funds.",
       "difficulty": "medium",
-      "topic": "Environment and Policy",
-      "explanation": "Inclusive green growth combines climate incentives with cushioning and opportunity-building for the workers and regions that bear the adjustment cost."
+      "topic": "Green transition",
+      "explanation": "Align environmental efficacy with distributional fairness."
     },
     {
       "id": "sgi_111",
-      "questionText": "Why did the course link high inequality, limited social protection, and rising debt vulnerability when discussing COVID-19?",
+      "questionText": "Inequality, safety nets, and debt: what dynamic raises fragility?",
       "options": [
-        "Because when wages and safety nets are weak, both households and governments lean on debt to smooth shocks, leaving them with less fiscal space and more fragility in the next crisis.",
-        "Because inequality automatically eliminates sovereign debt risk.",
-        "Because high inequality guarantees unlimited stimulus capacity.",
-        "Because debt and inequality are unrelated."
+        "Strong safety nets increase borrowing.",
+        "Weak safety nets push households and governments toward debt-financed smoothing, eroding fiscal space before the next shock.",
+        "Inequality lowers sovereign spreads.",
+        "Debt dynamics depend only on current accounts."
       ],
-      "correctAnswer": "Because when wages and safety nets are weak, both households and governments lean on debt to smooth shocks, leaving them with less fiscal space and more fragility in the next crisis.",
+      "correctAnswer": "Weak safety nets push households and governments toward debt-financed smoothing, eroding fiscal space before the next shock.",
       "difficulty": "hard",
-      "topic": "Macro Resilience",
-      "explanation": "This is the 'inequality → leverage → fragility' channel: unequal societies often hit crises with less resilience."
+      "topic": "Macro fragility",
+      "explanation": "Leverage substitutes for insurance; resilience falls."
     },
     {
       "id": "sgi_112",
-      "questionText": "In the U.S. trade case study, why were wage insurance and mobility/retraining support argued to be better long-run responses than tariffs?",
+      "questionText": "Why prefer wage insurance and mobility support to tariffs as responses to trade shocks?",
       "options": [
-        "Because tariffs always increase national productivity.",
-        "Because targeted support helps displaced workers directly while keeping the overall efficiency gains from openness, whereas tariffs try to freeze the old structure of production.",
-        "Because wage insurance replaces all lost earnings permanently.",
-        "Because retraining eliminates the need for any trade at all."
+        "They preserve national efficiency while directly addressing concentrated losses, instead of freezing obsolete structures.",
+        "They eliminate imports.",
+        "They guarantee pre-shock wages forever without cost.",
+        "They remove the need for training."
       ],
-      "correctAnswer": "Because targeted support helps displaced workers directly while keeping the overall efficiency gains from openness, whereas tariffs try to freeze the old structure of production.",
+      "correctAnswer": "They preserve national efficiency while directly addressing concentrated losses, instead of freezing obsolete structures.",
       "difficulty": "hard",
-      "topic": "Trade Adjustment Policy",
-      "explanation": "The logic is 'help the worker, not just the firm or the old industry' — preserving national efficiency and political support for openness."
+      "topic": "Adjustment vs protection",
+      "explanation": "People-focused support sustains openness."
     },
     {
       "id": "sgi_113",
-      "questionText": "Which form of inequality is most damaging for long-run growth, according to the course?",
+      "questionText": "Which inequality form most damages long-run growth in this course’s framework?",
       "options": [
-        "Short-term income inequality that results from productivity differences, with full access to education and credit for everyone.",
-        "Persistent inequality of opportunity — unequal access to education, health, finance, and legal protection across groups.",
-        "Any gap in wages between different skill levels.",
-        "Any difference in consumption patterns between regions."
+        "Short-run outcome inequality with full access to opportunity.",
+        "Persistent inequality of opportunity that blocks human-capital accumulation and participation.",
+        "Wealth inequality with perfect credit markets.",
+        "Temporary wage dispersion during booms."
       ],
-      "correctAnswer": "Persistent inequality of opportunity — unequal access to education, health, finance, and legal protection across groups.",
+      "correctAnswer": "Persistent inequality of opportunity that blocks human-capital accumulation and participation.",
       "difficulty": "medium",
-      "topic": "Inequality of Opportunity",
-      "explanation": "Opportunity inequality locks out whole groups from accumulating human capital, undermining future productivity and social stability."
+      "topic": "Opportunity vs outcome",
+      "explanation": "Persistent exclusion undermines talent allocation and trust."
     },
     {
       "id": "sgi_114",
-      "questionText": "A manufacturing region loses 30% of its jobs after import competition. Workers are older, cannot easily relocate, and local tax revenues collapse. Which policy response is most consistent with the course's logic of 'inclusive openness'?",
+      "questionText": "A region loses a third of its manufacturing jobs post-liberalisation; workers are older and immobile. Which policy bundle fits inclusive openness?",
       "options": [
-        "Rely on market forces and do nothing, because national GDP still rose.",
-        "Impose broad tariffs to protect the old factories permanently.",
-        "Combine mobility/retraining grants, regional investment, and income support to stabilize the local tax base and help workers transition.",
-        "Ban all imports and exit the WTO."
+        "Do nothing because national GDP rose.",
+        "Tariffs to permanently protect legacy plants.",
+        "Mobility and retraining grants, wage insurance, and place-based investment to stabilize services and enable transition.",
+        "Exit trade agreements."
       ],
-      "correctAnswer": "Combine mobility/retraining grants, regional investment, and income support to stabilize the local tax base and help workers transition.",
+      "correctAnswer": "Mobility and retraining grants, wage insurance, and place-based investment to stabilize services and enable transition.",
       "difficulty": "hard",
-      "topic": "Regional Adjustment",
-      "explanation": "The idea is to absorb the local shock without sacrificing national efficiency by freezing the old specialization forever."
+      "topic": "Regional policy",
+      "explanation": "Address localized scarring while preserving aggregate gains."
     },
     {
       "id": "sgi_115",
-      "questionText": "Suppose Colombian plant-level data show that industries with the biggest tariff cuts increased their share of skilled workers the most. What is the best interpretation?",
+      "questionText": "Colombian micro evidence: plants in hardest-hit tariff-cut sectors increased the skilled share. Best interpretation?",
       "options": [
-        "Trade liberalisation forced low-skill, previously protected plants to upgrade technology and hire relatively more skilled labor, increasing the skill premium.",
-        "Trade liberalisation immediately eliminated all wage inequality.",
-        "Trade liberalisation only benefited low-skilled workers.",
-        "Tariffs have no connection to technology choices."
+        "Trade reform induced within-sector upgrading and higher skill demand, raising skill premia despite low-skill abundance.",
+        "Trade reform eliminated skill demand.",
+        "Tariffs only affected agriculture.",
+        "Wages became administratively fixed."
       ],
-      "correctAnswer": "Trade liberalisation forced low-skill, previously protected plants to upgrade technology and hire relatively more skilled labor, increasing the skill premium.",
+      "correctAnswer": "Trade reform induced within-sector upgrading and higher skill demand, raising skill premia despite low-skill abundance.",
       "difficulty": "hard",
-      "topic": "Empirical Trade and Wages",
-      "explanation": "This is the skill-biased technological change/FDI channel: openness can raise within-industry demand for skills and widen wage gaps."
+      "topic": "Trade micro",
+      "explanation": "SBTC and FDI channels reconcile theory with observed inequality."
     }
   ]
 }
