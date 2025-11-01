@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the quiz to be used as the heading."
+    },
+    "shorttitle": {
+      "type": "string",
+      "description": "A short title for the quiz to be used in menus."
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the question to track progress."
+          },
+          "questionText": {
+            "type": "string",
+            "description": "The text of the question."
+          },
+          "correctAnswer": {
+            "type": "string",
+            "description": "The single correct answer."
+          },
+          "distractors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "description": "Array of distractor options (incorrect answers), minimum 1."
+          },
+          "explanation": {
+            "type": "string",
+            "description": "Explanation for the correct answer."
+          },
+          "difficulty": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Difficulty level: 1=very easy, 2=easy, 3=medium, 4=hard, 5=very hard."
+          },
+          "topic": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of topic strings, allowing for nested or multiple topics."
+          }
+        },
+        "required": [
+          "id",
+          "questionText",
+          "distractors",
+          "correctAnswer"
+        ]
+      }
+    }
+  },
+  "required": [
+    "title",
+    "shorttitle",
+    "questions"
+  ]
+}
