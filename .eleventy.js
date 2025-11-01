@@ -12,16 +12,44 @@ export default function (eleventyConfig) {
     const dataDir = path.join(process.cwd(), 'src', '_data');
     const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
 
-    return files.map(filename => {
+    const quizzes = files.map(filename => {
       const quizId = path.basename(filename, '.json');
-      const content = JSON.parse(fs.readFileSync(path.join(dataDir, filename), 'utf-8'));
+      const filePath = path.join(dataDir, filename);
+      const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      const stats = fs.statSync(filePath);
       return {
         id: quizId,
         title: content.title || 'Untitled Quiz',
         shorttitle: content.shorttitle || quizId,
-        questionCount: content.questions?.length || 0
+        questionCount: content.questions?.length || 0,
+        mtime: stats.mtime
       };
     });
+
+    // Sort by modification time descending (most recent first)
+    quizzes.sort((a, b) => b.mtime - a.mtime);
+
+    return quizzes;
+  });
+
+  // Add default quiz as the most recently modified
+  eleventyConfig.addGlobalData("defaultQuiz", () => {
+    const dataDir = path.join(process.cwd(), 'src', '_data');
+    const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+
+    if (files.length === 0) return 'UU_SGI'; // fallback
+
+    const quizzes = files.map(filename => {
+      const filePath = path.join(dataDir, filename);
+      const stats = fs.statSync(filePath);
+      return {
+        id: path.basename(filename, '.json'),
+        mtime: stats.mtime
+      };
+    });
+
+    quizzes.sort((a, b) => b.mtime - a.mtime);
+    return quizzes[0].id;
   });
 
   // Compose gauge SVGs from fragments at build-time so the client can reference

@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Multi-quiz support
-    let currentQuizId = localStorage.getItem('currentQuizId') || 'semlex';
+    let currentQuizId = localStorage.getItem('currentQuizId') || window.defaultQuiz || 'UU_SGI';
     let allQuestions = [];
     let quizTitle = '';
     let userStats = {};
@@ -131,10 +131,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         flashcardContainer.style.display = 'block';
         completeMessage.style.display = 'none';
-        const shuffledOptions = shuffleArray([...q.options]);
-        const questionText = q.questionText || q.question || q.text || '';
-        const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/"/g, '&quot;')}"><span>${option}</span></label>`).join('');
-        const difficultyClass = q.difficulty ? `question-difficulty ${q.difficulty.toLowerCase()}` : '';
+
+        // Normalize and map difficulty (accepts strings or numbers)
+        const difficultyMap = { 1: 'easy', 2: 'medium', 3: 'hard', 4: 'very hard', 5: 'expert' };
+        const difficultyVal = Number(q.difficulty) || 2;
+        const diffStr = difficultyMap[difficultyVal] || 'medium';
+        const topicStr = Array.isArray(q.topic) ? q.topic.join(', ') : q.topic || 'Question';
+
+        // Build options safely: trim values, remove empty strings, and ensure the
+        // correct answer only appears once even if a distractor accidentally
+        // contains the same text (legacy data issue).
+        const correct = (q.correctAnswer || '').toString().trim();
+        const baseDistractors = Array.isArray(q.distractors) ? q.distractors.map(d => (d || '').toString().trim()).filter(Boolean) : [];
+        const filteredDistractors = baseDistractors.filter(d => d !== correct);
+        const combinedOptions = [...filteredDistractors, correct];
+        // Shuffle a copy so original arrays aren't mutated unexpectedly.
+        const shuffledOptions = shuffleArray(combinedOptions.slice());
+        const optionsHtml = shuffledOptions.map(option => `<label class="option-label"><input type="radio" name="answer" value="${option.replace(/\"/g, '&quot;')}"><span>${option}</span></label>`).join('');
+        const difficultyClass = diffStr ? `question-difficulty ${diffStr.toLowerCase()}` : '';
         // Inline SVG gauge (arc + center dot + needle). SVG uses 1em sizing so it matches the text height.
         // Needle angle and color are set per-difficulty. The arc and center dot inherit the badge color (currentColor).
         let needleAngle = 0;
@@ -145,14 +159,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const mediumColorVar = rootStyles.getPropertyValue('--difficulty-medium-bg').trim() || '#ffc107';
         const hardColorVar = rootStyles.getPropertyValue('--difficulty-hard-bg').trim() || '#dc3545';
         let needleColor = '#111';
-        const diffLower = (q.difficulty || '').toLowerCase();
-        if (diffLower === 'easy' || diffLower === 'leicht') {
+        const diffLower = diffStr.toLowerCase();
+        if (diffLower === 'easy') {
             needleAngle = -40; // left-leaning
             needleColor = easyColorVar;
-        } else if (diffLower === 'medium' || diffLower === 'mittel' || diffLower === 'moderate') {
+        } else if (diffLower === 'medium') {
             needleAngle = 0; // center
             needleColor = mediumColorVar;
-        } else if (diffLower === 'hard' || diffLower === 'schwer') {
+        } else if (diffLower === 'hard' || diffLower === 'very hard') {
             needleAngle = 40; // right-leaning
             needleColor = hardColorVar;
         } else {
@@ -165,15 +179,15 @@ document.addEventListener('DOMContentLoaded', () => {
         // so the inline SVG is shown immediately for robustness. When the
         // font loads, JS will add `material-loaded` to <html> and the span will
         // be shown while the SVG is hidden.
-        const materialSpan = `<span class="material-symbols-outlined difficulty-icon" aria-hidden="true" title="${q.difficulty}">speed</span>`;
+        const materialSpan = `<span class="material-symbols-outlined difficulty-icon" aria-hidden="true" title="${diffStr}">speed</span>`;
         const inlineSvg = `<svg class="difficulty-svg difficulty-icon" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">` +
             `<path d="M3.5 12a8.5 8.5 0 0 1 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>` +
             `<line x1="7.2" y1="13.8" x2="12.2" y2="9.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>` +
             `</svg>`;
         const speedIconHtml = materialSpan + inlineSvg;
-        const difficultyBadgeHtml = q.difficulty ? `<div class="${difficultyClass}" aria-label="Difficulty: ${q.difficulty}">` +
+        const difficultyBadgeHtml = diffStr ? `<div class="${difficultyClass}" aria-label="Difficulty: ${diffStr}">` +
             speedIconHtml +
-            `<span class="difficulty-text">${q.difficulty}</span></div>` : '';
+            `<span class="difficulty-text">${diffStr}</span></div>` : '';
 
         // Build or update the flashcard markup. If the server/template already provided
         // a `.question-header`, update it in-place; otherwise create the full structure.
@@ -181,10 +195,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!headerEl) {
             flashcardContainer.innerHTML = `
                 <div class="question-header">
-                    <h2 class="question-topic">${q.topic || 'Question'}</h2>
+                    <h2 class="question-topic">${topicStr}</h2>
                     ${difficultyBadgeHtml}
                 </div>
-                <div class="question-text">${questionText}</div>
+                <div class="question-text">${q.questionText || q.question || q.text || ''}</div>
                 <div class="options">${optionsHtml}</div>
                 <div id="feedback-area"></div>
                 <button id="check-answer-btn" class="action-button">Check Answer</button>
@@ -193,13 +207,13 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             // Update existing header/topic
             const topicEl = headerEl.querySelector('.question-topic');
-            if (topicEl) topicEl.textContent = q.topic || 'Question';
+            if (topicEl) topicEl.textContent = topicStr;
             const existingBadge = headerEl.querySelector('.question-difficulty');
-            if (q.difficulty) {
+            if (diffStr) {
                 if (existingBadge) {
-                    existingBadge.className = `question-difficulty ${q.difficulty.toLowerCase()}`;
+                    existingBadge.className = `question-difficulty ${diffStr.toLowerCase()}`;
                     const textEl = existingBadge.querySelector('.difficulty-text');
-                    if (textEl) textEl.textContent = q.difficulty;
+                    if (textEl) textEl.textContent = diffStr;
                 } else {
                     headerEl.insertAdjacentHTML('beforeend', difficultyBadgeHtml);
                 }
@@ -209,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Update or insert question text and options
             const qt = flashcardContainer.querySelector('.question-text');
-            if (qt) qt.textContent = questionText;
+            if (qt) qt.textContent = q.questionText || q.question || q.text || '';
             const opts = flashcardContainer.querySelector('.options');
             if (opts) opts.innerHTML = optionsHtml;
 
@@ -220,12 +234,17 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         renderMath(flashcardContainer);
-    // Ensure icon fallbacks: if the Material Symbols font isn't available,
-    // replace symbol spans with inline SVG icons so glyphs remain visible.
-    ensureMaterialSymbolFallbacks();
+        // Ensure icon fallbacks: if the Material Symbols font isn't available,
+        // replace symbol spans with inline SVG icons so glyphs remain visible.
+        ensureMaterialSymbolFallbacks();
         const feedbackAreaEl = document.getElementById('feedback-area');
-        const checkAnswerBtn = document.getElementById('check-answer-btn');
+        // Ensure only a single click handler exists on the check button by
+        // replacing the node (which removes previously-attached listeners)
+        let checkAnswerBtn = document.getElementById('check-answer-btn');
         if (!checkAnswerBtn) return;
+        const newBtn = checkAnswerBtn.cloneNode(true);
+        checkAnswerBtn.replaceWith(newBtn);
+        checkAnswerBtn = document.getElementById('check-answer-btn');
         const handleCheckAnswer = () => checkAnswer(q, feedbackAreaEl, checkAnswerBtn, handleCheckAnswer);
         checkAnswerBtn.addEventListener('click', handleCheckAnswer);
     }
@@ -340,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.addEventListener('DOMContentLoaded', detectMaterialSymbols, { once: true });
     }
     if (document.fonts && document.fonts.ready) {
-        document.fonts.ready.then(detectMaterialSymbols).catch(() => {});
+        document.fonts.ready.then(detectMaterialSymbols).catch(() => { });
     }
 
     function checkAnswer(q, feedbackAreaEl, checkButton, checkHandler) {
