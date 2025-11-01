@@ -253,7 +253,8 @@ body {
     font-family: 'Material Symbols Outlined', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 1em; /* size controlled by the specific usages */
+    font-size: 1em;
+    /* size controlled by the specific usages */
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -375,13 +376,16 @@ body {
 .difficulty-svg {
     display: inline-block;
 }
+
 .material-symbols-outlined.difficulty-icon {
     /* hide material font until we detect it; when detected, we add .material-loaded to <html> */
     display: none;
 }
+
 html.material-loaded .difficulty-svg {
     display: none;
 }
+
 html.material-loaded .material-symbols-outlined.difficulty-icon {
     display: inline-flex;
 }
