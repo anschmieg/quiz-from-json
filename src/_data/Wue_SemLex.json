@@ -1,510 +1,547 @@
 {
+  "$schema": "../js/quiz-schema.json",
   "title": "Semantisch‑lexikalische Entwicklungsstörungen",
   "shorttitle": "JMU SemLex",
   "questions": [
     {
       "id": "de_mcq_001",
       "questionText": "Wie wird eine semantisch‑lexikalische Entwicklungsstörung definiert?",
-      "options": [
+      "correctAnswer": "Als anhaltende, nicht altersgemäße Schwierigkeiten beim lexikalischen Ausdruck und beim Interpretieren von Äußerungen",
+      "difficulty": 3,
+      "topic": [
+        "Grundlagen"
+      ],
+      "explanation": "Semantisch‑lexikalische Störungen betreffen Wortschatz, Bedeutungsaufbau und Zugriff (Produktion und Verständnis) und sind erheblich sowie anhaltend.",
+      "distractors": [
         "Als reine Artikulationsstörung ohne semantische Bezüge",
-        "Als anhaltende, nicht altersgemäße Schwierigkeiten beim lexikalischen Ausdruck und beim Interpretieren von Äußerungen",
         "Als vorübergehende Wortfindungsschwäche im Vorschulalter",
         "Als isolierte Lesestörung ohne Sprachbezug"
-      ],
-      "correctAnswer": "Als anhaltende, nicht altersgemäße Schwierigkeiten beim lexikalischen Ausdruck und beim Interpretieren von Äußerungen",
-      "difficulty": "leicht",
-      "topic": "Grundlagen",
-      "explanation": "Semantisch‑lexikalische Störungen betreffen Wortschatz, Bedeutungsaufbau und Zugriff (Produktion und Verständnis) und sind erheblich sowie anhaltend."
+      ]
     },
     {
       "id": "de_mcq_002",
       "questionText": "Welche beiden Ebenen unterscheidet das Modell des mentalen Lexikons nach Levelt (1989)?",
-      "options": [
+      "correctAnswer": "Lemma‑Ebene (Bedeutung, Grammatik) und Lexem‑Ebene (Wortform)",
+      "difficulty": 3,
+      "topic": [
+        "Mentales Lexikon"
+      ],
+      "explanation": "Auf der Lemma‑Ebene liegt Bedeutungs‑ und grammatisches Wissen, auf der Lexem‑Ebene die Form (phonologische Repräsentation).",
+      "distractors": [
         "Morphologie und Syntax",
-        "Lemma‑Ebene (Bedeutung, Grammatik) und Lexem‑Ebene (Wortform)",
         "Phonetik und Pragmatik",
         "Semantik und Prosodie als identische Ebenen"
-      ],
-      "correctAnswer": "Lemma‑Ebene (Bedeutung, Grammatik) und Lexem‑Ebene (Wortform)",
-      "difficulty": "leicht",
-      "topic": "Mentales Lexikon",
-      "explanation": "Auf der Lemma‑Ebene liegt Bedeutungs‑ und grammatisches Wissen, auf der Lexem‑Ebene die Form (phonologische Repräsentation)."
+      ]
     },
     {
       "id": "de_mcq_003",
       "questionText": "Welche Aussage zur Organisation des mentalen Lexikons ist korrekt?",
-      "options": [
+      "correctAnswer": "Es ist als Netzwerk organisiert mit semantischen und phonologischen Verknüpfungen.",
+      "difficulty": 3,
+      "topic": [
+        "Mentales Lexikon"
+      ],
+      "explanation": "Wortwissen ist in Knoten und Kanten vernetzt; Verknüpfungen unterstützen Abruf und Lernen.",
+      "distractors": [
         "Es ist unstrukturiert und zufällig abgelegt.",
-        "Es ist als Netzwerk organisiert mit semantischen und phonologischen Verknüpfungen.",
         "Es besteht nur aus Wortlisten ohne Verbindungen.",
         "Es enthält ausschließlich phonologische Informationen."
-      ],
-      "correctAnswer": "Es ist als Netzwerk organisiert mit semantischen und phonologischen Verknüpfungen.",
-      "difficulty": "leicht",
-      "topic": "Mentales Lexikon",
-      "explanation": "Wortwissen ist in Knoten und Kanten vernetzt; Verknüpfungen unterstützen Abruf und Lernen."
+      ]
     },
     {
       "id": "de_mcq_004",
       "questionText": "Welches Symptom passt NICHT typisch zu semantisch‑lexikalischen Störungen?",
-      "options": [
+      "correctAnswer": "Erhöhte Abrufstabilität",
+      "difficulty": 3,
+      "topic": [
+        "Grundlagen"
+      ],
+      "explanation": "Typisch sind Abrufprobleme; erhöhte Abrufstabilität wäre das Gegenteil.",
+      "distractors": [
         "Semantische Paraphasien und Umschreibungen",
         "Quantitative und qualitative Wortschatzarmut",
-        "Erhöhte Abrufstabilität",
         "Pausenfüller und Suchstrategien in der Spontansprache"
-      ],
-      "correctAnswer": "Erhöhte Abrufstabilität",
-      "difficulty": "leicht",
-      "topic": "Grundlagen",
-      "explanation": "Typisch sind Abrufprobleme; erhöhte Abrufstabilität wäre das Gegenteil."
+      ]
     },
     {
       "id": "de_mcq_005",
       "questionText": "Welche Methode gehört zur Beobachtungsphase der Diagnostik?",
-      "options": [
+      "correctAnswer": "Erfassung der Spontansprache z. B. im Erzählkreis",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Beobachtung"
+      ],
+      "explanation": "Spontansprache, Bildergeschichten und kriteriengeleitete Beobachtungsbögen liefern erste Hinweise.",
+      "distractors": [
         "Wörterbuchtest ohne Bilder",
-        "Erfassung der Spontansprache z. B. im Erzählkreis",
         "Reine Schriftsprachanalyse",
         "Nur Elternfragebogen ohne Kindbeobachtung"
-      ],
-      "correctAnswer": "Erfassung der Spontansprache z. B. im Erzählkreis",
-      "difficulty": "leicht",
-      "topic": "Diagnostik – Beobachtung",
-      "explanation": "Spontansprache, Bildergeschichten und kriteriengeleitete Beobachtungsbögen liefern erste Hinweise."
+      ]
     },
     {
       "id": "de_mcq_006",
       "questionText": "Welcher Test ist für das Grundschulalter (ca. 5;6–10;11) zentral zur Erfassung des Wortschatzes?",
-      "options": [
+      "correctAnswer": "WWT 6–10",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Testverfahren"
+      ],
+      "explanation": "Der WWT 6–10 erfasst expressive und rezeptive Wortschatzleistungen im Grundschulalter.",
+      "distractors": [
         "PDSS",
-        "WWT 6–10",
         "SET‑K",
         "Aachener Aphasie Test"
-      ],
-      "correctAnswer": "WWT 6–10",
-      "difficulty": "leicht",
-      "topic": "Diagnostik – Testverfahren",
-      "explanation": "Der WWT 6–10 erfasst expressive und rezeptive Wortschatzleistungen im Grundschulalter."
+      ]
     },
     {
       "id": "de_mcq_007",
       "questionText": "Welche Subtests gehören typischerweise zum WWT 6–10?",
-      "options": [
+      "correctAnswer": "Bildbenennen (expressiv), Wiederholung zur Benennkonsistenz, Abrufhilfen, Bildauswahl (rezeptiv)",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Testverfahren"
+      ],
+      "explanation": "Der WWT kombiniert expressive und rezeptive Aufgaben sowie gestufte Abrufhilfen.",
+      "distractors": [
         "Nur Pseudowortnachsprechen",
-        "Bildbenennen (expressiv), Wiederholung zur Benennkonsistenz, Abrufhilfen, Bildauswahl (rezeptiv)",
         "Leseflüssigkeit und Rechtschreibung",
         "Nur Kategorienbildung ohne Bilder"
-      ],
-      "correctAnswer": "Bildbenennen (expressiv), Wiederholung zur Benennkonsistenz, Abrufhilfen, Bildauswahl (rezeptiv)",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Testverfahren",
-      "explanation": "Der WWT kombiniert expressive und rezeptive Aufgaben sowie gestufte Abrufhilfen."
+      ]
     },
     {
       "id": "de_mcq_008",
       "questionText": "Für welches Alter ist die PDSS (Patholinguistische Diagnostik bei SES) primär vorgesehen?",
-      "options": [
-        "2;6–6;11 Jahre",
+      "correctAnswer": "2;6–6;11 Jahre",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Testverfahren"
+      ],
+      "explanation": "Die PDSS deckt frühe bis mittlere Kindheit ab und umfasst u. a. Wörter produzieren/verstehen und Kategorisieren.",
+      "distractors": [
         "5;6–10;11 Jahre",
         "11–18 Jahre",
         "Erwachsenenalter"
-      ],
-      "correctAnswer": "2;6–6;11 Jahre",
-      "difficulty": "leicht",
-      "topic": "Diagnostik – Testverfahren",
-      "explanation": "Die PDSS deckt frühe bis mittlere Kindheit ab und umfasst u. a. Wörter produzieren/verstehen und Kategorisieren."
+      ]
     },
     {
       "id": "de_mcq_009",
       "questionText": "Welcher Wert spricht in der Normdiagnostik für eine bedeutsame Abweichung?",
-      "options": [
+      "correctAnswer": "T‑Wert ≤ 35 (≈ PR 7)",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Normwerte"
+      ],
+      "explanation": "Etwa 1,5 Standardabweichungen unter dem Mittel entsprechen T ≤ 35 und PR ≤ 7.",
+      "distractors": [
         "T‑Wert 50",
         "Prozentrang 25",
-        "T‑Wert ≤ 35 (≈ PR 7)",
         "Z‑Wert ≥ +1,5"
-      ],
-      "correctAnswer": "T‑Wert ≤ 35 (≈ PR 7)",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Normwerte",
-      "explanation": "Etwa 1,5 Standardabweichungen unter dem Mittel entsprechen T ≤ 35 und PR ≤ 7."
+      ]
     },
     {
       "id": "de_mcq_010",
       "questionText": "Was überprüft man zur Absicherung einer Wortfindungsstörung (qualitatives Defizit) zusätzlich zur Wortproduktion?",
-      "options": [
+      "correctAnswer": "Wortverständnis (rezeptiv), Benennkonsistenz, Wirkung von Abrufhilfen, Benenntempo",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Differenzialdiagnostik"
+      ],
+      "explanation": "So wird zwischen Inventarproblem und Abrufproblem unterschieden und die Abrufbarkeit genauer eingeordnet.",
+      "distractors": [
         "Nur Rechtschreibung",
-        "Wortverständnis (rezeptiv), Benennkonsistenz, Wirkung von Abrufhilfen, Benenntempo",
         "Nur IQ‑Test",
         "Ausschließlich Prosodie"
-      ],
-      "correctAnswer": "Wortverständnis (rezeptiv), Benennkonsistenz, Wirkung von Abrufhilfen, Benenntempo",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Differenzialdiagnostik",
-      "explanation": "So wird zwischen Inventarproblem und Abrufproblem unterschieden und die Abrufbarkeit genauer eingeordnet."
+      ]
     },
     {
       "id": "de_mcq_011",
       "questionText": "Welche Ablenker werden in rezeptiven Bildauswahlaufgaben typischerweise verwendet?",
-      "options": [
+      "correctAnswer": "Semantische, phonologische und themenfremde Ablenker",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Aufgabenformate"
+      ],
+      "explanation": "Verschiedene Ablenkertypen erlauben Rückschlüsse auf Repräsentation und Zugriff.",
+      "distractors": [
         "Nur farbliche Ablenker",
-        "Semantische, phonologische und themenfremde Ablenker",
         "Nur semantische Ablenker",
         "Nur phonologische Ablenker"
-      ],
-      "correctAnswer": "Semantische, phonologische und themenfremde Ablenker",
-      "difficulty": "leicht",
-      "topic": "Diagnostik – Aufgabenformate",
-      "explanation": "Verschiedene Ablenkertypen erlauben Rückschlüsse auf Repräsentation und Zugriff."
+      ]
     },
     {
       "id": "de_mcq_012",
       "questionText": "Welche Aussage zur Kategorisierungsleistung ist korrekt?",
-      "options": [
+      "correctAnswer": "Sie gibt Einblick in die semantische Organisation (z. B. Ober‑/Unterbegriffe).",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Semantische Organisation"
+      ],
+      "explanation": "Kategorisieren zeigt, ob paradigmatische Strukturen aufgebaut sind.",
+      "distractors": [
         "Sie ist für die Diagnostik irrelevant.",
-        "Sie gibt Einblick in die semantische Organisation (z. B. Ober‑/Unterbegriffe).",
         "Sie zeigt nur phonologische Fähigkeiten.",
         "Sie wird ausschließlich im Jugendalter überprüft."
-      ],
-      "correctAnswer": "Sie gibt Einblick in die semantische Organisation (z. B. Ober‑/Unterbegriffe).",
-      "difficulty": "leicht",
-      "topic": "Diagnostik – Semantische Organisation",
-      "explanation": "Kategorisieren zeigt, ob paradigmatische Strukturen aufgebaut sind."
+      ]
     },
     {
       "id": "de_mcq_013",
       "questionText": "Welches Ziel verfolgt die Elaborationstherapie vorrangig?",
-      "options": [
+      "correctAnswer": "Verbesserung der Speicherqualität durch Ausdifferenzierung und Vernetzung von Wortwissen",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Elaboration"
+      ],
+      "explanation": "Elaboration reichert Lemma‑ und Lexem‑Informationen an und stärkt Verknüpfungen.",
+      "distractors": [
         "Beschleunigung der Artikulation",
-        "Verbesserung der Speicherqualität durch Ausdifferenzierung und Vernetzung von Wortwissen",
         "Ausschließliches Training der Schriftform",
         "Reduktion des Wortschatzumfangs zwecks Übersichtlichkeit"
-      ],
-      "correctAnswer": "Verbesserung der Speicherqualität durch Ausdifferenzierung und Vernetzung von Wortwissen",
-      "difficulty": "leicht",
-      "topic": "Intervention – Elaboration",
-      "explanation": "Elaboration reichert Lemma‑ und Lexem‑Informationen an und stärkt Verknüpfungen."
+      ]
     },
     {
       "id": "de_mcq_014",
       "questionText": "Welche Übung passt NICHT primär zur semantischen Elaboration?",
-      "options": [
+      "correctAnswer": "Reimübungen und Silbenrätsel",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Elaboration"
+      ],
+      "explanation": "Reim/Silbenübungen gehören eher zur phonologischen Elaboration (Lexem‑Ebene).",
+      "distractors": [
         "Mindmaps und Sortieraufgaben nach Merkmalen",
         "Gegensatzpaare finden",
-        "Reimübungen und Silbenrätsel",
         "‚Was passt nicht dazu?‘"
-      ],
-      "correctAnswer": "Reimübungen und Silbenrätsel",
-      "difficulty": "mittel",
-      "topic": "Intervention – Elaboration",
-      "explanation": "Reim/Silbenübungen gehören eher zur phonologischen Elaboration (Lexem‑Ebene)."
+      ]
     },
     {
       "id": "de_mcq_015",
       "questionText": "Welche Qualitätsmerkmale adressiert die Abruftherapie direkt?",
-      "options": [
-        "Abrufgeschwindigkeit, Abrufgenauigkeit, Abrufstabilität",
+      "correctAnswer": "Abrufgeschwindigkeit, Abrufgenauigkeit, Abrufstabilität",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Abruf"
+      ],
+      "explanation": "Diese drei Dimensionen werden über häufige, variierte Abrufe und Priming‑Kontexte gefördert.",
+      "distractors": [
         "Atemfrequenz, Lautstärke, Prosodie",
         "Schriftbild, Orthografie, Interpunktion",
         "Konzentration, Motorik, Feinmotorik"
-      ],
-      "correctAnswer": "Abrufgeschwindigkeit, Abrufgenauigkeit, Abrufstabilität",
-      "difficulty": "leicht",
-      "topic": "Intervention – Abruf",
-      "explanation": "Diese drei Dimensionen werden über häufige, variierte Abrufe und Priming‑Kontexte gefördert."
+      ]
     },
     {
       "id": "de_mcq_016",
       "questionText": "Welche Maßnahme gehört typischerweise zur Abruftherapie?",
-      "options": [
-        "Schnellbenennübungen und Wörterraten mit steigendem Zeitdruck",
+      "correctAnswer": "Schnellbenennübungen und Wörterraten mit steigendem Zeitdruck",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Abruf"
+      ],
+      "explanation": "Automatisierung entsteht durch häufige, variierte Abrufe und zunehmende Zeitvorgaben.",
+      "distractors": [
         "Ausschließlich lautes Vorlesen",
         "Nur Grammatikförderung",
         "Ausschließlich schriftliche Tests"
-      ],
-      "correctAnswer": "Schnellbenennübungen und Wörterraten mit steigendem Zeitdruck",
-      "difficulty": "mittel",
-      "topic": "Intervention – Abruf",
-      "explanation": "Automatisierung entsteht durch häufige, variierte Abrufe und zunehmende Zeitvorgaben."
+      ]
     },
     {
       "id": "de_mcq_017",
       "questionText": "Welches Ziel verfolgt die Strategietherapie (z. B. ‚Wortschatzsammler‘) im Kern?",
-      "options": [
+      "correctAnswer": "Vermittlung von Worterwerbs‑, Abruf‑, Kompensations‑ und Selbstmanagementstrategien",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Strategie"
+      ],
+      "explanation": "Kinder lernen, ihren Wortschatz eigenständig zu erweitern und Abrufprobleme zu managen.",
+      "distractors": [
         "Kurzfristige Auswendiglernleistung",
-        "Vermittlung von Worterwerbs‑, Abruf‑, Kompensations‑ und Selbstmanagementstrategien",
         "Nur Fehlervermeidung in Tests",
         "Ausschließlich phonologische Schulung"
-      ],
-      "correctAnswer": "Vermittlung von Worterwerbs‑, Abruf‑, Kompensations‑ und Selbstmanagementstrategien",
-      "difficulty": "leicht",
-      "topic": "Intervention – Strategie",
-      "explanation": "Kinder lernen, ihren Wortschatz eigenständig zu erweitern und Abrufprobleme zu managen."
+      ]
     },
     {
       "id": "de_mcq_018",
       "questionText": "Welche Aussage zur Generalisierung ist korrekt?",
-      "options": [
+      "correctAnswer": "Ziel ist, Prinzipien und Strategien an exemplarischen Wortfeldern zu erarbeiten und auf Neues zu übertragen.",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Ziel"
+      ],
+      "explanation": "Selbstlernfähigkeit statt vollständiger Abdeckung aller Wörter steht im Mittelpunkt.",
+      "distractors": [
         "Ziel ist, alle fehlenden Wörter explizit zu lehren.",
-        "Ziel ist, Prinzipien und Strategien an exemplarischen Wortfeldern zu erarbeiten und auf Neues zu übertragen.",
         "Generalisierung ist in der Wortschatzarbeit nicht möglich.",
         "Sie betrifft nur die Rechtschreibung."
-      ],
-      "correctAnswer": "Ziel ist, Prinzipien und Strategien an exemplarischen Wortfeldern zu erarbeiten und auf Neues zu übertragen.",
-      "difficulty": "leicht",
-      "topic": "Intervention – Ziel",
-      "explanation": "Selbstlernfähigkeit statt vollständiger Abdeckung aller Wörter steht im Mittelpunkt."
+      ]
     },
     {
       "id": "de_mcq_019",
       "questionText": "Welche Rolle spielen Gesten/Gebärden im Unterricht bei semantisch‑lexikalischen Störungen?",
-      "options": [
+      "correctAnswer": "Sie unterstützen multimodal das Wortverstehen und -behalten, besonders bei SES und Mehrsprachigkeit.",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Gebärden"
+      ],
+      "explanation": "Inputspezifizierung über Gebärden erhöht Verarbeitungs‑ und Speicherqualität.",
+      "distractors": [
         "Sie sind kontraindiziert.",
-        "Sie unterstützen multimodal das Wortverstehen und -behalten, besonders bei SES und Mehrsprachigkeit.",
         "Sie ersetzen Lautsprache vollständig.",
         "Sie sind nur in der Sekundarstufe sinnvoll."
-      ],
-      "correctAnswer": "Sie unterstützen multimodal das Wortverstehen und -behalten, besonders bei SES und Mehrsprachigkeit.",
-      "difficulty": "leicht",
-      "topic": "Intervention – Gebärden",
-      "explanation": "Inputspezifizierung über Gebärden erhöht Verarbeitungs‑ und Speicherqualität."
+      ]
     },
     {
       "id": "de_mcq_020",
       "questionText": "Welche Aussage zur Differenzialdiagnostik trifft zu?",
-      "options": [
-        "Qualitative Defizite zeigen sich trotz vorhandenem Wortschatz durch mangelhafte Vernetzung und Abrufprobleme.",
+      "correctAnswer": "Qualitative Defizite zeigen sich trotz vorhandenem Wortschatz durch mangelhafte Vernetzung und Abrufprobleme.",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Differenzialdiagnostik"
+      ],
+      "explanation": "Ein qualitatives Profil wird durch Konsistenz, Abrufhilfen und Kategorisierung greifbar.",
+      "distractors": [
         "Nur quantitative Defizite sind relevant.",
         "Qualitative Defizite werden ausschließlich schriftlich getestet.",
         "Differenzialdiagnostik ist optional und nicht prüfungsrelevant."
-      ],
-      "correctAnswer": "Qualitative Defizite zeigen sich trotz vorhandenem Wortschatz durch mangelhafte Vernetzung und Abrufprobleme.",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Differenzialdiagnostik",
-      "explanation": "Ein qualitatives Profil wird durch Konsistenz, Abrufhilfen und Kategorisierung greifbar."
+      ]
     },
     {
       "id": "de_mcq_021",
       "questionText": "Welche Angabe zum Test GraWo ist zutreffend?",
-      "options": [
+      "correctAnswer": "Ist ein Klassen‑Screening des Wortschatzes, v. a. 1.–3. Klasse.",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Screening"
+      ],
+      "explanation": "GraWo erlaubt ökonomische Erfassung des Wortverständnisses auf Klassenebene.",
+      "distractors": [
         "Erfasst ausschließlich Orthografie in Klasse 4.",
-        "Ist ein Klassen‑Screening des Wortschatzes, v. a. 1.–3. Klasse.",
         "Ist ein Intelligenztest für die Oberstufe.",
         "Prüft nur phonologisches Bewusstsein."
-      ],
-      "correctAnswer": "Ist ein Klassen‑Screening des Wortschatzes, v. a. 1.–3. Klasse.",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Screening",
-      "explanation": "GraWo erlaubt ökonomische Erfassung des Wortverständnisses auf Klassenebene."
+      ]
     },
     {
       "id": "de_mcq_022",
       "questionText": "Welche Aussage beschreibt ‚Abrufhilfen‘ im WWT korrekt?",
-      "options": [
+      "correctAnswer": "Es gibt gestufte Hinweise (z. B. semantisch, phonologisch), um Abrufstörungen differenziert zu prüfen.",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Abrufhilfen"
+      ],
+      "explanation": "Die gestufte Vorgabe zeigt, auf welcher Ebene der Abruf angestoßen werden kann.",
+      "distractors": [
         "Abrufhilfen sind verboten.",
-        "Es gibt gestufte Hinweise (z. B. semantisch, phonologisch), um Abrufstörungen differenziert zu prüfen.",
         "Nur phonologische Hinweise sind erlaubt.",
         "Abrufhilfen ersetzen die Bildbenennung."
-      ],
-      "correctAnswer": "Es gibt gestufte Hinweise (z. B. semantisch, phonologisch), um Abrufstörungen differenziert zu prüfen.",
-      "difficulty": "leicht",
-      "topic": "Diagnostik – Abrufhilfen",
-      "explanation": "Die gestufte Vorgabe zeigt, auf welcher Ebene der Abruf angestoßen werden kann."
+      ]
     },
     {
       "id": "de_mcq_023",
       "questionText": "Welche Unterrichtsaktivität unterstützt primär die phonologische Elaboration (Lexem‑Ebene)?",
-      "options": [
+      "correctAnswer": "Reimspiele und Silben‑Trommeln (Rhythmicals)",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Phonologische Elaboration"
+      ],
+      "explanation": "Phonologische Merkmale der Wortform werden explizit zugänglich gemacht.",
+      "distractors": [
         "Mindmaps zu Oberbegriffen",
-        "Reimspiele und Silben‑Trommeln (Rhythmicals)",
         "Kategorisierungsaufgaben nach Merkmalen",
         "Gegensatzpaare ordnen"
-      ],
-      "correctAnswer": "Reimspiele und Silben‑Trommeln (Rhythmicals)",
-      "difficulty": "mittel",
-      "topic": "Intervention – Phonologische Elaboration",
-      "explanation": "Phonologische Merkmale der Wortform werden explizit zugänglich gemacht."
+      ]
     },
     {
       "id": "de_mcq_024",
       "questionText": "Welche Unterrichtsmaßnahme eignet sich besonders zur Vorbereitung (Priming) von Wortschatzthemen?",
-      "options": [
+      "correctAnswer": "Einstimmung durch Bilder, Überschriften, Fantasiereisen und Vorentlastung schwieriger Wörter",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Abrufkontexte"
+      ],
+      "explanation": "Vorgestaltete Abrufkontexte erhöhen die Grundaktivierung relevanter Einträge.",
+      "distractors": [
         "Unangekündigte Tests ohne Kontext",
-        "Einstimmung durch Bilder, Überschriften, Fantasiereisen und Vorentlastung schwieriger Wörter",
         "Nur stilles Lesen",
         "Nur Abschreiben von Definitionen"
-      ],
-      "correctAnswer": "Einstimmung durch Bilder, Überschriften, Fantasiereisen und Vorentlastung schwieriger Wörter",
-      "difficulty": "mittel",
-      "topic": "Intervention – Abrufkontexte",
-      "explanation": "Vorgestaltete Abrufkontexte erhöhen die Grundaktivierung relevanter Einträge."
+      ]
     },
     {
       "id": "de_mcq_025",
       "questionText": "Welche Aussage zur Benennkonsistenz trifft zu?",
-      "options": [
+      "correctAnswer": "Niedrige Konsistenz über Wiederholungen stützt den Verdacht auf Abrufstörungen.",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Benennkonsistenz"
+      ],
+      "explanation": "Wechselnde Antworten bei Wiederholung sprechen für instabile Abrufprozesse.",
+      "distractors": [
         "Sie ist diagnostisch bedeutungslos.",
-        "Niedrige Konsistenz über Wiederholungen stützt den Verdacht auf Abrufstörungen.",
         "Hohe Konsistenz zeigt immer eine Störung.",
         "Sie wird nur schriftlich erfasst."
-      ],
-      "correctAnswer": "Niedrige Konsistenz über Wiederholungen stützt den Verdacht auf Abrufstörungen.",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Benennkonsistenz",
-      "explanation": "Wechselnde Antworten bei Wiederholung sprechen für instabile Abrufprozesse."
+      ]
     },
     {
       "id": "de_mcq_026",
       "questionText": "Was ist KEIN primäres Ziel der Strategietherapie?",
-      "options": [
+      "correctAnswer": "Erhöhung der Abhängigkeit von Lehrkraft‑Hinweisen",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Strategie"
+      ],
+      "explanation": "Im Gegenteil: Unabhängigkeit und Selbststeuerung sind Zielgrößen.",
+      "distractors": [
         "Eigenständiger Wortschatzerwerb der Lernenden",
         "Bewusster Einsatz von Kompensationsstrategien",
-        "Erhöhung der Abhängigkeit von Lehrkraft‑Hinweisen",
         "Selbstmanagement (Selbstbeobachtung und ‑steuerung)"
-      ],
-      "correctAnswer": "Erhöhung der Abhängigkeit von Lehrkraft‑Hinweisen",
-      "difficulty": "leicht",
-      "topic": "Intervention – Strategie",
-      "explanation": "Im Gegenteil: Unabhängigkeit und Selbststeuerung sind Zielgrößen."
+      ]
     },
     {
       "id": "de_mcq_027",
       "questionText": "Welche Aufgabe eignet sich zur Überprüfung der semantischen Relationen (paradigmatisch/taxonomisch)?",
-      "options": [
+      "correctAnswer": "Zuordnung von Unterbegriffen zu Oberbegriffen und Ausschluss von Ablenkern",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Semantische Relationen"
+      ],
+      "explanation": "Paradigmatische Struktur zeigt sich im Umgang mit Ober‑/Unterordnungen und Kohyponymen.",
+      "distractors": [
         "Wiederholtes Lesen eines Textes",
-        "Zuordnung von Unterbegriffen zu Oberbegriffen und Ausschluss von Ablenkern",
         "Zählen von Silben",
         "Lautdifferenzierung minimaler Paare"
-      ],
-      "correctAnswer": "Zuordnung von Unterbegriffen zu Oberbegriffen und Ausschluss von Ablenkern",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Semantische Relationen",
-      "explanation": "Paradigmatische Struktur zeigt sich im Umgang mit Ober‑/Unterordnungen und Kohyponymen."
+      ]
     },
     {
       "id": "de_mcq_028",
       "questionText": "Welche Aussage zu thematisch‑assoziativen (syntagmatischen) Strukturen ist korrekt?",
-      "options": [
+      "correctAnswer": "Sie spielen früh eine Rolle; später gewinnen paradigmatische Relationen an Bedeutung.",
+      "difficulty": 3,
+      "topic": [
+        "Mentales Lexikon - Organisation"
+      ],
+      "explanation": "Entwicklungsgang: frühe thematische, später zunehmend taxonomische Organisation.",
+      "distractors": [
         "Sie treten erst im Erwachsenenalter auf.",
-        "Sie spielen früh eine Rolle; später gewinnen paradigmatische Relationen an Bedeutung.",
         "Sie sind bedeutungslos für den Erwerb.",
         "Sie ersetzen taxonomische Strukturen vollständig."
-      ],
-      "correctAnswer": "Sie spielen früh eine Rolle; später gewinnen paradigmatische Relationen an Bedeutung.",
-      "difficulty": "mittel",
-      "topic": "Mentales Lexikon – Organisation",
-      "explanation": "Entwicklungsgang: frühe thematische, später zunehmend taxonomische Organisation."
+      ]
     },
     {
       "id": "de_mcq_029",
       "questionText": "Welche der folgenden Maßnahmen stärkt die Abrufstabilität über Zeit besonders?",
-      "options": [
+      "correctAnswer": "Regelmäßige Wiederholungen in variierenden Kontexten",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Abruf"
+      ],
+      "explanation": "Variation und Verteilung der Übung festigen Verknüpfungen im Netzwerk.",
+      "distractors": [
         "Einmalige intensive Lerneinheit",
-        "Regelmäßige Wiederholungen in variierenden Kontexten",
         "Nur lautes Vorlesen",
         "Nur schriftliche Vokabellisten"
-      ],
-      "correctAnswer": "Regelmäßige Wiederholungen in variierenden Kontexten",
-      "difficulty": "leicht",
-      "topic": "Intervention – Abruf",
-      "explanation": "Variation und Verteilung der Übung festigen Verknüpfungen im Netzwerk."
+      ]
     },
     {
       "id": "de_mcq_030",
       "questionText": "Welche Angabe zur PDSS‑Aufgabe „Bilder sortieren“ trifft zu?",
-      "options": [
+      "correctAnswer": "Erfasst semantische Organisation über Oberbegriffe und Kategorien.",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - PDSS"
+      ],
+      "explanation": "Das Sortieren zeigt, wie semantische Felder strukturiert sind.",
+      "distractors": [
         "Erfasst rein phonologische Fähigkeiten.",
-        "Erfasst semantische Organisation über Oberbegriffe und Kategorien.",
         "Ist ein Rechtschreibtest.",
         "Prüft ausschließlich Syntax."
-      ],
-      "correctAnswer": "Erfasst semantische Organisation über Oberbegriffe und Kategorien.",
-      "difficulty": "leicht",
-      "topic": "Diagnostik – PDSS",
-      "explanation": "Das Sortieren zeigt, wie semantische Felder strukturiert sind."
+      ]
     },
     {
       "id": "de_mcq_031",
       "questionText": "Welche drei Säulen bilden die Wortschatztherapie nach Glück & Elsing (2014)?",
-      "options": [
+      "correctAnswer": "Elaborationstherapie, Abruftherapie, Strategietherapie",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Überblick"
+      ],
+      "explanation": "Die drei Therapieformen werden je nach Befund kombiniert.",
+      "distractors": [
         "Artikulation, Prosodie, Orthografie",
-        "Elaborationstherapie, Abruftherapie, Strategietherapie",
         "Lesen, Schreiben, Rechnen",
         "Phonetik, Syntax, Pragmatik"
-      ],
-      "correctAnswer": "Elaborationstherapie, Abruftherapie, Strategietherapie",
-      "difficulty": "leicht",
-      "topic": "Intervention – Überblick",
-      "explanation": "Die drei Therapieformen werden je nach Befund kombiniert."
+      ]
     },
     {
       "id": "de_mcq_032",
       "questionText": "Welche Unterrichtsaktivität unterstützt vorrangig die semantische Elaboration (Lemma‑Ebene)?",
-      "options": [
-        "Mindmaps zu Bedeutungsmerkmalen und Vergleiche innerhalb eines Wortfeldes",
+      "correctAnswer": "Mindmaps zu Bedeutungsmerkmalen und Vergleiche innerhalb eines Wortfeldes",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Semantische Elaboration"
+      ],
+      "explanation": "Bedeutungsmerkmale werden explizit vernetzt und kontrastiert.",
+      "distractors": [
         "Nur Silbenklatschen",
         "Nur Abschreibübungen",
         "Nur Laut‑zu‑Graphem‑Zuweisung"
-      ],
-      "correctAnswer": "Mindmaps zu Bedeutungsmerkmalen und Vergleiche innerhalb eines Wortfeldes",
-      "difficulty": "mittel",
-      "topic": "Intervention – Semantische Elaboration",
-      "explanation": "Bedeutungsmerkmale werden explizit vernetzt und kontrastiert."
+      ]
     },
     {
       "id": "de_mcq_033",
       "questionText": "Welche Beobachtung spricht eher für ein quantitatives Wortschatzdefizit?",
-      "options": [
-        "Viele Nullreaktionen und sehr allgemeine Umschreibungen bei Benennaufgaben",
+      "correctAnswer": "Viele Nullreaktionen und sehr allgemeine Umschreibungen bei Benennaufgaben",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Profilbildung"
+      ],
+      "explanation": "Deutet auf geringe Zahl/Abdeckung lexikalischer Einträge hin (Inventar).",
+      "distractors": [
         "Konstante, aber falsche Benennungen bei wiederholter Präsentation",
         "Sehr schnelle Benennung bei geringer Genauigkeit",
         "Nur Rechtschreibfehler"
-      ],
-      "correctAnswer": "Viele Nullreaktionen und sehr allgemeine Umschreibungen bei Benennaufgaben",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Profilbildung",
-      "explanation": "Deutet auf geringe Zahl/Abdeckung lexikalischer Einträge hin (Inventar)."
+      ]
     },
     {
       "id": "de_mcq_034",
       "questionText": "Welche Maßnahme gehört NICHT typisch zur Inputspezifizierung im Unterricht?",
-      "options": [
+      "correctAnswer": "Ausschließlich spontane, ungeplante Wortverwendung",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Unterricht"
+      ],
+      "explanation": "Inputspezifizierung ist geplant, multimodal und kontextualisiert.",
+      "distractors": [
         "Vorentlastung zentraler Wörter",
         "Einsatz von Bildern und Gebärden",
-        "Kontextualisierung über Geschichten/Projekte",
-        "Ausschließlich spontane, ungeplante Wortverwendung"
-      ],
-      "correctAnswer": "Ausschließlich spontane, ungeplante Wortverwendung",
-      "difficulty": "mittel",
-      "topic": "Intervention – Unterricht",
-      "explanation": "Inputspezifizierung ist geplant, multimodal und kontextualisiert."
+        "Kontextualisierung über Geschichten/Projekte"
+      ]
     },
     {
       "id": "de_mcq_035",
       "questionText": "Welche Aussage zum Benenntempo ist korrekt?",
-      "options": [
+      "correctAnswer": "Die PC‑Version des WWT kann Benenndauern erfassen; alternativ eignen sich RAN‑Aufgaben.",
+      "difficulty": 3,
+      "topic": [
+        "Diagnostik - Tempo"
+      ],
+      "explanation": "Benenntempo ist ein Hinweis auf Abrufgeschwindigkeit; Messung variiert nach Verfahren.",
+      "distractors": [
         "Es wird im Papier‑WWT immer exakt gemessen.",
-        "Die PC‑Version des WWT kann Benenndauern erfassen; alternativ eignen sich RAN‑Aufgaben.",
         "Tempo ist diagnostisch bedeutungslos.",
         "Tempo ersetzt die Prüfung des Verständnisses."
-      ],
-      "correctAnswer": "Die PC‑Version des WWT kann Benenndauern erfassen; alternativ eignen sich RAN‑Aufgaben.",
-      "difficulty": "mittel",
-      "topic": "Diagnostik – Tempo",
-      "explanation": "Benenntempo ist ein Hinweis auf Abrufgeschwindigkeit; Messung variiert nach Verfahren."
+      ]
     },
     {
       "id": "de_mcq_036",
       "questionText": "Welche Aussage beschreibt das Zielbild der Therapie am besten?",
-      "options": [
+      "correctAnswer": "Kinder erwerben Strategien und vernetzen Wortwissen so, dass sie neue Wörter selbstständig lernen und abrufen können.",
+      "difficulty": 3,
+      "topic": [
+        "Intervention - Ziel"
+      ],
+      "explanation": "Selbstlernfähigkeit und Generalisierung sind die Leitziele.",
+      "distractors": [
         "Alle Wörter des Curriculums werden im Detail gelehrt.",
-        "Kinder erwerben Strategien und vernetzen Wortwissen so, dass sie neue Wörter selbstständig lernen und abrufen können.",
         "Nur kurzfristiges Testtraining",
         "Verzicht auf semantische Arbeit zugunsten reiner Phonetik"
-      ],
-      "correctAnswer": "Kinder erwerben Strategien und vernetzen Wortwissen so, dass sie neue Wörter selbstständig lernen und abrufen können.",
-      "difficulty": "leicht",
-      "topic": "Intervention – Ziel",
-      "explanation": "Selbstlernfähigkeit und Generalisierung sind die Leitziele."
+      ]
     }
   ]
 }
