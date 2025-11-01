@@ -574,7 +574,7 @@
       ],
       "explanation": "Market structure and adjustment capacity determine elasticities; complementary tools share the load between firms and the fisc.",
       "distractors": [
-        "Minimum wages always increase unemployment regardless of context, but this is not always the case.",
+        "Minimum wages always increase unemployment regardless of context, but this is not always the case. — Market structure and adjustment capacity determine elasticities; complementary tools share the load between firms and...",
         "Minimum wages are unnecessary because informal markets clear wages efficiently, but this is not supported by evidence.",
         "In thin local labor markets with monopsony power, moderate increases can raise employment, but abrupt large hikes risk disemployment; pairing wage policy with earned-income credits and mobility support hedges this risk, balancing efficiency and equity.",
         "If average productivity is rising, the wage floor is irrelevant to distributional outcomes, but this is not accurate."
@@ -606,7 +606,7 @@
       ],
       "explanation": "Absolute poverty is about real consumption possibilities, not nominal foreign currency purchasing power.",
       "distractors": [
-        "PPP raises all prices uniformly, so it should not matter for counts in practice, but this is not accurate.",
+        "PPP raises all prices uniformly, so it should not matter for counts in practice, but this is not accurate. — Absolute poverty is about real consumption possibilities, not nominal foreign currency purchasing power.",
         "PPP reflects the relative price of non-tradables in local consumption bundles; differences there can shift many households across absolute lines, affecting global poverty counts.",
         "PPP equals the market rate in low-inflation countries, so trends are identical, but this is not generally observed.",
         "PPP applies only to capital goods and therefore overstates poverty mechanically, but this is not the main effect."
@@ -622,7 +622,7 @@
       ],
       "explanation": "HCI links today’s capability investments to tomorrow’s effective labor and growth.",
       "distractors": [
-        "It is a composite of teacher salaries that predicts inflation persistence, but this is not the main purpose.",
+        "It is a composite of teacher salaries that predicts inflation persistence, but this is not the main purpose. — HCI links today’s capability investments to tomorrow’s effective labor and growth.",
         "It records tertiary enrollment and therefore total factor productivity by identity, but this is not accurate.",
         "It estimates the productivity a child born today can achieve by age 18 given current health and education; this proxies the future efficiency of labor and potential output, making it macroeconomically relevant.",
         "It measures the government’s education spending share and thus debt sustainability, but this is not the main focus."
@@ -638,7 +638,7 @@
       ],
       "explanation": "Pairing innovation with risk-sharing and mobility preserves both efficiency and legitimacy.",
       "distractors": [
-        "Ban labor-saving technologies until unemployment returns to its natural rate, but this is not a sustainable approach.",
+        "Ban labor-saving technologies until unemployment returns to its natural rate, but this is not a sustainable approach. — Pairing innovation with risk-sharing and mobility preserves both efficiency and legitimacy.",
         "Subsidize incumbents to keep existing jobs regardless of technology choice, but this can reduce efficiency.",
         "Replace active labor market policy with a universal basic income only, but this may not address all adjustment needs.",
         "Encourage adoption while providing portable benefits, wage insurance, and targeted upskilling into expanding sectors so productivity gains diffuse without persistent displacement, supporting inclusive outcomes."
@@ -654,7 +654,7 @@
       ],
       "explanation": "Credit access and security shape input choices; complementary services determine productivity effects.",
       "distractors": [
-        "Land titling changes only who gets rents and does not influence credit or effort, but this is not generally observed.",
+        "Land titling changes only who gets rents and does not influence credit or effort, but this is not generally observed. — Credit access and security shape input choices; complementary services determine productivity effects.",
         "Fragmentation automatically raises yields because small is always efficient, but this is not always the case.",
         "Reform reduces rural–urban migration and therefore raises urban wages by supply effects alone, but this is not the main mechanism.",
         "Relaxed collateral constraints for smallholders raise investment in land-augmenting inputs and aggregate productivity, especially when paired with extension and market access, making land reform growth-enhancing."
@@ -670,8 +670,8 @@
       ],
       "explanation": "Elite capture links distribution to institutional stagnation and innovation suppression.",
       "distractors": [
-        "Concentrated wealth enables incumbents to block entry and new technologies that threaten rents, sustaining extractive rules and dampening innovation, weakening institutional quality.",
-        "Inequality mechanically forces stronger rule of law because wealth requires courts, but this is not generally observed.",
+        "Concentrated wealth enables incumbents to block entry and new technologies that threaten rents, sustaining extractive rules and dampening innovation, weakening institutional quality. — Elite capture links distribution to institutional stagnation and innovation suppression.",
+        "Inequality mechanically forces stronger rule of law because wealth requires courts, but this is not generally observed. — Elite capture links distribution to institutional stagnation and innovation suppression.",
         "Inequality has no implication for institutions once elections are held regularly, but this is not supported by evidence.",
         "High inequality reduces elite rents, so elites diversify by investing in public goods, but this is not the main channel."
       ]
@@ -686,7 +686,7 @@
       ],
       "explanation": "Opportunity expansion and mobility raise the elasticity of poverty reduction with respect to growth.",
       "distractors": [
-        "Broad fuel subsidies and untargeted investment tax credits, but these do not target poverty reduction effectively.",
+        "Broad fuel subsidies and untargeted investment tax credits, but these do not target poverty reduction effectively. — Opportunity expansion and mobility raise the elasticity of poverty reduction with respect to growth.",
         "Comprehensive import protection for low-skill industries to halt reallocation, but this can reduce efficiency.",
         "Across-the-board corporate tax cuts with no conditionality, but this does not focus on the poor.",
         "Targeted expansion of quality basic services, reduced spatial frictions to jobs, and improved credit for viable small firms with clear sunset rules, increasing the poverty-reducing effect of growth."
@@ -702,8 +702,8 @@
       ],
       "explanation": "Net effects depend on composition and policy; institutions can shape circulation rather than one-way loss.",
       "distractors": [
-        "Restricting emigration guarantees faster domestic skill formation, but this is not generally observed.",
-        "Emigration is distributionally neutral because it affects only wages, not opportunities, but this is not accurate.",
+        "Restricting emigration guarantees faster domestic skill formation, but this is not generally observed. — Net effects depend on composition and policy; institutions can shape circulation rather than one-way loss.",
+        "Emigration is distributionally neutral because it affects only wages, not opportunities, but this is not accurate. — Net effects depend on composition and policy; institutions can shape circulation rather than one-way loss.",
         "Remittances and network effects can finance human capital and entrepreneurship, but large skilled outflows risk brain drain; policies for training, credential recognition, and diaspora links can tilt outcomes toward brain circulation, supporting inclusive growth.",
         "Emigration always reduces welfare because it lowers population, but this is not the main effect."
       ]
@@ -734,8 +734,8 @@
       ],
       "explanation": "Fiscal capacity is an input into production through credible service delivery and stabilization.",
       "distractors": [
-        "Corruption neutralizes informality by equalizing firms’ effective tax rates.",
-        "Tax capacity is unrelated to growth because private finance can substitute fully.",
+        "Corruption neutralizes informality by equalizing firms’ effective tax rates. — Fiscal capacity is an input into production through credible service delivery and stabilization.",
+        "Tax capacity is unrelated to growth because private finance can substitute fully. — Fiscal capacity is an input into production through credible service delivery and stabilization.",
         "Bribes transfer money to the poor, which directly reduces inequality."
       ]
     },
@@ -749,8 +749,8 @@
       ],
       "explanation": "Access and prudence must move together; otherwise leverage amplifies downturns that hit vulnerable borrowers hardest.",
       "distractors": [
-        "Private credit-to-GDP can rise indefinitely with no crisis risk in modern systems.",
-        "Full capital-account liberalization equalizes borrowing costs for all agents.",
+        "Private credit-to-GDP can rise indefinitely with no crisis risk in modern systems. — Access and prudence must move together; otherwise leverage amplifies downturns that hit vulnerable borrowers hardest.",
+        "Full capital-account liberalization equalizes borrowing costs for all agents. — Access and prudence must move together; otherwise leverage amplifies downturns that hit vulnerable borrowers hardest.",
         "Expanding derivatives trading automatically lowers poverty by increasing liquidity."
       ]
     },
@@ -764,8 +764,8 @@
       ],
       "explanation": "Connectivity and affordability determine whether agglomeration economies are realized and shared.",
       "distractors": [
-        "Zoning is irrelevant for firm productivity because firms instantly adjust locations.",
-        "Height limits universally raise productivity by preserving heritage districts.",
+        "Zoning is irrelevant for firm productivity because firms instantly adjust locations. — Connectivity and affordability determine whether agglomeration economies are realized and shared.",
+        "Height limits universally raise productivity by preserving heritage districts. — Connectivity and affordability determine whether agglomeration economies are realized and shared.",
         "Informal settlements vanish automatically as income rises, so planning is unnecessary."
       ]
     },
@@ -779,9 +779,9 @@
       ],
       "explanation": "The curve is not fate; institutions and policies shape the trajectory.",
       "distractors": [
-        "It implies late industrializers cannot reduce inequality without first shrinking.",
-        "It is a law of nature; inequality must fall automatically with growth once a threshold is crossed.",
-        "It proves redistribution is unnecessary in all contexts."
+        "It implies late industrializers cannot reduce inequality without first shrinking. — The curve is not fate; institutions and policies shape the trajectory. — The curve is not fate; institutions and policies shape the trajectory.",
+        "It is a law of nature; inequality must fall automatically with growth once a threshold is crossed. — The curve is not fate; institutions and policies shape the trajectory.",
+        "It proves redistribution is unnecessary in all contexts. — The curve is not fate; institutions and policies shape the trajectory."
       ]
     },
     {
@@ -794,8 +794,8 @@
       ],
       "explanation": "Inputs must be paired with quality to affect human capital; short horizons may miss learning gains unless teaching improves.",
       "distractors": [
-        "Transfers distort labor supply and therefore lower national productivity.",
-        "The program failed and should be canceled because learning did not rise immediately.",
+        "Transfers distort labor supply and therefore lower national productivity. — Inputs must be paired with quality to affect human capital; short horizons may miss learning gains unless teaching...",
+        "The program failed and should be canceled because learning did not rise immediately. — Inputs must be paired with quality to affect human capital; short horizons may miss learning gains unless teaching...",
         "Learning is irrelevant for growth given that attendance improved."
       ]
     },
@@ -809,8 +809,8 @@
       ],
       "explanation": "Absolute lines assess command over essentials; relative lines track social inclusion thresholds as the distribution evolves.",
       "distractors": [
-        "Absolute poverty focuses on consumption and relative poverty on income; the two never overlap.",
-        "Absolute poverty rises mechanically with inflation, while relative poverty is invariant to prices.",
+        "Absolute poverty focuses on consumption and relative poverty on income; the two never overlap. — Absolute lines assess command over essentials; relative lines track social inclusion thresholds as the distribution...",
+        "Absolute poverty rises mechanically with inflation, while relative poverty is invariant to prices. — Absolute lines assess command over essentials; relative lines track social inclusion thresholds as the distribution...",
         "Absolute poverty is measured in foreign currency, whereas relative poverty is measured in local currency."
       ]
     },
@@ -824,8 +824,8 @@
       ],
       "explanation": "Untargeted price controls leak benefits up the income ladder and absorb fiscal space needed for targeted insurance.",
       "distractors": [
-        "They mainly benefit rural poor who spend a larger budget share on gasoline than the rich.",
-        "They can be fully financed by carbon credits, so they do not crowd out social spending.",
+        "They mainly benefit rural poor who spend a larger budget share on gasoline than the rich. — Untargeted price controls leak benefits up the income ladder and absorb fiscal space needed for targeted insurance.",
+        "They can be fully financed by carbon credits, so they do not crowd out social spending. — Untargeted price controls leak benefits up the income ladder and absorb fiscal space needed for targeted insurance.",
         "They automatically raise labor productivity by lowering firms’ energy bills in all sectors."
       ]
     },
@@ -839,8 +839,8 @@
       ],
       "explanation": "A floating rate acts as an external buffer; the policy rate anchors nominal expectations.",
       "distractors": [
-        "A permanent balanced-budget rule eliminates the need for countercyclical policy.",
-        "Across-the-board wage freezes prevent pass-through to prices and thus raise real wages.",
+        "A permanent balanced-budget rule eliminates the need for countercyclical policy. — A floating rate acts as an external buffer; the policy rate anchors nominal expectations.",
+        "Across-the-board wage freezes prevent pass-through to prices and thus raise real wages. — A floating rate acts as an external buffer; the policy rate anchors nominal expectations.",
         "Large import bans protect domestic producers with minimal efficiency costs."
       ]
     },
@@ -854,8 +854,8 @@
       ],
       "explanation": "Heterogeneous baskets matter for distribution; targeted measures can cushion vulnerable groups.",
       "distractors": [
-        "Pass-through is identical across all product categories and income groups.",
-        "Depreciations are irrelevant for prices when central banks target inflation.",
+        "Pass-through is identical across all product categories and income groups. — Heterogeneous baskets matter for distribution; targeted measures can cushion vulnerable groups.",
+        "Depreciations are irrelevant for prices when central banks target inflation. — Heterogeneous baskets matter for distribution; targeted measures can cushion vulnerable groups.",
         "Appreciations raise inflation more than depreciations because of menu costs."
       ]
     },
@@ -869,8 +869,8 @@
       ],
       "explanation": "These tools target leverage externalities and borrower resilience rather than masking risks with protectionism.",
       "distractors": [
-        "Nominal wage guidelines and hiring subsidies for export sectors.",
-        "Price controls on food and fuel, plus export taxes on commodities.",
+        "Nominal wage guidelines and hiring subsidies for export sectors. — These tools target leverage externalities and borrower resilience rather than masking risks with protectionism.",
+        "Price controls on food and fuel, plus export taxes on commodities. — These tools target leverage externalities and borrower resilience rather than masking risks with protectionism.",
         "Tariff surcharges and local-content rules for consumer durables."
       ]
     },
@@ -884,9 +884,9 @@
       ],
       "explanation": "Insurance design should reflect budget constraints, heterogeneous risks, and the need for complementary services.",
       "distractors": [
-        "Universal transfers always cause inflation that offsets any gains for the poor.",
-        "Targeting eliminates all administrative costs and errors of exclusion.",
-        "Universal approaches cannot coexist with contributory programs by definition."
+        "Universal transfers always cause inflation that offsets any gains for the poor. — Insurance design should reflect budget constraints, heterogeneous risks, and the need for complementary services.",
+        "Targeting eliminates all administrative costs and errors of exclusion. — Insurance design should reflect budget constraints, heterogeneous risks, and the need for complementary services.",
+        "Universal approaches cannot coexist with contributory programs by definition. — Insurance design should reflect budget constraints, heterogeneous risks, and the need for complementary services."
       ]
     },
     {
@@ -899,8 +899,8 @@
       ],
       "explanation": "Scaling changes constraints, selection, spillovers, and political economy; careful piloting plus theory enhances transportability.",
       "distractors": [
-        "They cannot measure outcomes beyond income or consumption.",
-        "Ethical review boards always prohibit randomization, so results rarely generalize.",
+        "They cannot measure outcomes beyond income or consumption. — Scaling changes constraints, selection, spillovers, and political economy; careful piloting plus theory enhances...",
+        "Ethical review boards always prohibit randomization, so results rarely generalize. — Scaling changes constraints, selection, spillovers, and political economy; careful piloting plus theory enhances...",
         "RCTs cannot estimate any average treatment effect without structural models."
       ]
     },
@@ -914,8 +914,8 @@
       ],
       "explanation": "Parallel trends underpins identification; visual and statistical checks are essential.",
       "distractors": [
-        "The standard errors are clustered at the unit level.",
-        "The control group is larger than the treated group.",
+        "The standard errors are clustered at the unit level. — Parallel trends underpins identification; visual and statistical checks are essential.",
+        "The control group is larger than the treated group. — Parallel trends underpins identification; visual and statistical checks are essential.",
         "Covariates are balanced at baseline after weighting."
       ]
     },
@@ -929,8 +929,8 @@
       ],
       "explanation": "Sorting at the threshold breaks local randomization; density tests and institutional knowledge help detect it.",
       "distractors": [
-        "Having too many observations around the cutoff compared with the rest of the sample.",
-        "Using a bandwidth that is symmetric around the cutoff.",
+        "Having too many observations around the cutoff compared with the rest of the sample. — Sorting at the threshold breaks local randomization; density tests and institutional knowledge help detect it.",
+        "Using a bandwidth that is symmetric around the cutoff. — Sorting at the threshold breaks local randomization; density tests and institutional knowledge help detect it.",
         "Including high-order polynomials in the specification."
       ]
     },
@@ -944,8 +944,8 @@
       ],
       "explanation": "Modern estimators (e.g., event-study decompositions or interaction-weighted DiD) avoid problematic weighting in staggered designs.",
       "distractors": [
-        "The approach cannot include unit and time fixed effects simultaneously.",
-        "Two-way fixed effects always overfit the data and inflate R-squared.",
+        "The approach cannot include unit and time fixed effects simultaneously. — Modern estimators (e.g., event-study decompositions or interaction-weighted DiD) avoid problematic weighting in...",
+        "Two-way fixed effects always overfit the data and inflate R-squared. — Modern estimators (e.g., event-study decompositions or interaction-weighted DiD) avoid problematic weighting in...",
         "It requires perfectly balanced panels; otherwise it is undefined."
       ]
     },
@@ -959,8 +959,8 @@
       ],
       "explanation": "Good pre-treatment fit strengthens the case that post-treatment divergence reflects causal effects; inference typically uses placebo tests.",
       "distractors": [
-        "It eliminates the need for pre-treatment data by optimizing on post-treatment fit.",
-        "It guarantees causal identification even if treatment is anticipated.",
+        "It eliminates the need for pre-treatment data by optimizing on post-treatment fit. — Good pre-treatment fit strengthens the case that post-treatment divergence reflects causal effects; inference typically...",
+        "It guarantees causal identification even if treatment is anticipated. — Good pre-treatment fit strengthens the case that post-treatment divergence reflects causal effects; inference typically...",
         "It produces unbiased standard errors without inference procedures."
       ]
     },
@@ -974,8 +974,8 @@
       ],
       "explanation": "Transparent ex ante plans and correction methods discipline inference when testing many outcomes or subgroups.",
       "distractors": [
-        "They primarily bias standard errors upward, making results conservative.",
-        "They only reduce statistical power, which is harmless for inference.",
+        "They primarily bias standard errors upward, making results conservative. — Transparent ex ante plans and correction methods discipline inference when testing many outcomes or subgroups.",
+        "They only reduce statistical power, which is harmless for inference. — Transparent ex ante plans and correction methods discipline inference when testing many outcomes or subgroups.",
         "They are a concern only in laboratory experiments, not in field data."
       ]
     },
@@ -989,8 +989,8 @@
       ],
       "explanation": "Additive decompositions reveal whether dispersion arises from group gaps or dispersion within groups.",
       "distractors": [
-        "Only top income shares, since they capture the entire distribution.",
-        "The Gini coefficient alone, because it isolates group effects.",
+        "Only top income shares, since they capture the entire distribution. — Additive decompositions reveal whether dispersion arises from group gaps or dispersion within groups.",
+        "The Gini coefficient alone, because it isolates group effects. — Additive decompositions reveal whether dispersion arises from group gaps or dispersion within groups.",
         "Lorenz dominance, which is unrelated to decomposition."
       ]
     },
@@ -1004,8 +1004,8 @@
       ],
       "explanation": "Distribution-sensitive diagnostics help evaluate inclusiveness of growth beyond aggregates.",
       "distractors": [
-        "It eliminates the need for poverty and inequality measures.",
-        "It proves whether social welfare has risen irrespective of preferences.",
+        "It eliminates the need for poverty and inequality measures. — Distribution-sensitive diagnostics help evaluate inclusiveness of growth beyond aggregates.",
+        "It proves whether social welfare has risen irrespective of preferences. — Distribution-sensitive diagnostics help evaluate inclusiveness of growth beyond aggregates.",
         "It indicates the rate of technological progress separately from factor accumulation."
       ]
     },
@@ -1019,8 +1019,8 @@
       ],
       "explanation": "Lorenz dominance is preference-robust for a wide class of welfare functions.",
       "distractors": [
-        "Lorenz dominance uses only the Gini coefficient, which is sufficient for all rankings.",
-        "It holds for any two distributions as long as they have the same variance.",
+        "Lorenz dominance uses only the Gini coefficient, which is sufficient for all rankings. — Lorenz dominance is preference-robust for a wide class of welfare functions.",
+        "It holds for any two distributions as long as they have the same variance. — Lorenz dominance is preference-robust for a wide class of welfare functions.",
         "It compares mean incomes directly and therefore controls for poverty."
       ]
     },
@@ -1034,8 +1034,8 @@
       ],
       "explanation": "Border adjustments preserve incentives for clean production and provide fiscal space to cushion affected households and regions.",
       "distractors": [
-        "They ensure all trading partners adopt identical carbon taxes immediately.",
-        "They replace the need for any domestic decarbonization policies.",
+        "They ensure all trading partners adopt identical carbon taxes immediately. — Border adjustments preserve incentives for clean production and provide fiscal space to cushion affected households and...",
+        "They replace the need for any domestic decarbonization policies. — Border adjustments preserve incentives for clean production and provide fiscal space to cushion affected households and...",
         "They guarantee energy independence by banning fossil-fuel imports."
       ]
     },
@@ -1049,9 +1049,9 @@
       ],
       "explanation": "Targeted, disciplined support can accelerate diffusion where private appropriability is limited.",
       "distractors": [
-        "When technology has no scale economies and mature supply chains already exist.",
-        "When the goal is to stabilize retail energy prices permanently.",
-        "When domestic content rules guarantee local jobs regardless of costs or spillovers."
+        "When technology has no scale economies and mature supply chains already exist. — Targeted, disciplined support can accelerate diffusion where private appropriability is limited.",
+        "When the goal is to stabilize retail energy prices permanently. — Targeted, disciplined support can accelerate diffusion where private appropriability is limited.",
+        "When domestic content rules guarantee local jobs regardless of costs or spillovers. — Targeted, disciplined support can accelerate diffusion where private appropriability is limited."
       ]
     },
     {
@@ -1064,8 +1064,8 @@
       ],
       "explanation": "Project governance and feedback loops raise the productivity of scarce fiscal space.",
       "distractors": [
-        "Exclusive reliance on donor feasibility studies without local review.",
-        "An emphasis on ribbon-cutting timelines and employment multipliers only.",
+        "Exclusive reliance on donor feasibility studies without local review. — Project governance and feedback loops raise the productivity of scarce fiscal space.",
+        "An emphasis on ribbon-cutting timelines and employment multipliers only. — Project governance and feedback loops raise the productivity of scarce fiscal space.",
         "Delegating approval to a single line ministry to speed up execution."
       ]
     },
@@ -1079,9 +1079,9 @@
       ],
       "explanation": "Dynamic efficiency and fairness are served by entry, diffusion, and worker bargaining power.",
       "distractors": [
-        "Monopoly pricing benefits low-income households because it stabilizes supply.",
-        "Competition policy affects only export markets and not domestic inclusion.",
-        "Concentration always raises investment and therefore stimulates inclusive growth."
+        "Monopoly pricing benefits low-income households because it stabilizes supply. — Dynamic efficiency and fairness are served by entry, diffusion, and worker bargaining power. — Dynamic efficiency and fairness are served by entry, diffusion, and worker bargaining power.",
+        "Competition policy affects only export markets and not domestic inclusion. — Dynamic efficiency and fairness are served by entry, diffusion, and worker bargaining power.",
+        "Concentration always raises investment and therefore stimulates inclusive growth. — Dynamic efficiency and fairness are served by entry, diffusion, and worker bargaining power."
       ]
     },
     {
@@ -1094,8 +1094,8 @@
       ],
       "explanation": "The intertemporal constraint ties distributional ambitions to credible financing and growth-enhancing uses of debt.",
       "distractors": [
-        "If growth exceeds the interest rate, debt dynamics are irrelevant and any level of transfers is sustainable.",
-        "If the interest rate is below growth, raising taxes to run surpluses always maximizes welfare.",
+        "If growth exceeds the interest rate, debt dynamics are irrelevant and any level of transfers is sustainable. — The intertemporal constraint ties distributional ambitions to credible financing and growth-enhancing uses of debt.",
+        "If the interest rate is below growth, raising taxes to run surpluses always maximizes welfare. — The intertemporal constraint ties distributional ambitions to credible financing and growth-enhancing uses of debt.",
         "Debt dynamics depend only on the current account, not on primary balances."
       ]
     },
@@ -1109,8 +1109,8 @@
       ],
       "explanation": "Foundational rails are public goods that crowd in private innovation and lower barriers for the excluded.",
       "distractors": [
-        "Digital systems mainly reduce inequality by automating all public services.",
-        "Digital rails always eliminate the need for regulation and competition policy.",
+        "Digital systems mainly reduce inequality by automating all public services. — Foundational rails are public goods that crowd in private innovation and lower barriers for the excluded.",
+        "Digital rails always eliminate the need for regulation and competition policy. — Foundational rails are public goods that crowd in private innovation and lower barriers for the excluded.",
         "Digital IDs guarantee privacy and thus have no bearing on inclusion."
       ]
     },
@@ -1124,8 +1124,8 @@
       ],
       "explanation": "Targeted training, job-search assistance, and wage insurance help workers move toward expanding sectors.",
       "distractors": [
-        "They permanently substitute for wage growth, so firms can hold wages flat.",
-        "They eliminate regional disparities by relocating firms rather than workers.",
+        "They permanently substitute for wage growth, so firms can hold wages flat. — Targeted training, job-search assistance, and wage insurance help workers move toward expanding sectors.",
+        "They eliminate regional disparities by relocating firms rather than workers. — Targeted training, job-search assistance, and wage insurance help workers move toward expanding sectors.",
         "They ensure automation has no effect on employment levels."
       ]
     },
@@ -1139,8 +1139,8 @@
       ],
       "explanation": "Revenue neutrality for households can build durable coalitions without blunting the price signal.",
       "distractors": [
-        "Dividends ensure emissions fall even if the carbon price is set near zero.",
-        "Dividends eliminate the need for any complementary industrial policy.",
+        "Dividends ensure emissions fall even if the carbon price is set near zero. — Revenue neutrality for households can build durable coalitions without blunting the price signal.",
+        "Dividends eliminate the need for any complementary industrial policy. — Revenue neutrality for households can build durable coalitions without blunting the price signal.",
         "Dividends shift the tax entirely to firms, so consumers face no incentives."
       ]
     },
@@ -1154,8 +1154,8 @@
       ],
       "explanation": "Procurement and SOE governance determine the productivity of public spending—the engine for inclusive services and infrastructure.",
       "distractors": [
-        "They affect only capital-intensive projects and have no bearing on social policy.",
-        "They mainly increase private investment by creating more market opportunities.",
+        "They affect only capital-intensive projects and have no bearing on social policy. — Procurement and SOE governance determine the productivity of public spending—the engine for inclusive services and...",
+        "They mainly increase private investment by creating more market opportunities. — Procurement and SOE governance determine the productivity of public spending—the engine for inclusive services and...",
         "They ensure universal service obligations are always met at the lowest cost."
       ]
     },
@@ -1169,9 +1169,9 @@
       ],
       "explanation": "An inclusion lens asks where the marginal unit of spending yields the largest learning and opportunity gains, given current gaps.",
       "distractors": [
-        "Prioritize tertiary education because spillovers are larger at the top of the pyramid.",
-        "Always expand seats first; quality improvements can wait without cost.",
-        "Always focus on teacher salaries; enrollment will adjust automatically."
+        "Prioritize tertiary education because spillovers are larger at the top of the pyramid. — An inclusion lens asks where the marginal unit of spending yields the largest learning and opportunity gains, given... — An inclusion lens asks where the marginal unit of spending yields the largest learning and opportunity gains, given...",
+        "Always expand seats first; quality improvements can wait without cost. — An inclusion lens asks where the marginal unit of spending yields the largest learning and opportunity gains, given... — An inclusion lens asks where the marginal unit of spending yields the largest learning and opportunity gains, given...",
+        "Always focus on teacher salaries; enrollment will adjust automatically. — An inclusion lens asks where the marginal unit of spending yields the largest learning and opportunity gains, given..."
       ]
     },
     {
@@ -1184,8 +1184,8 @@
       ],
       "explanation": "A clean VAT raises substantial revenue with limited production distortions; distributional concerns are better handled on the spending side.",
       "distractors": [
-        "Replace indirect taxes with a uniform head tax to avoid distortions.",
-        "Rely primarily on trade tariffs because they are easy to collect and progressive.",
+        "Replace indirect taxes with a uniform head tax to avoid distortions. — A clean VAT raises substantial revenue with limited production distortions; distributional concerns are better handled...",
+        "Rely primarily on trade tariffs because they are easy to collect and progressive. — A clean VAT raises substantial revenue with limited production distortions; distributional concerns are better handled...",
         "Shift to corporate income taxation only, since firms can bear the burden without pass-through."
       ]
     },
@@ -1199,8 +1199,8 @@
       ],
       "explanation": "In-kind can target externalities and stabilize quantities when markets cannot; otherwise cash preserves choice and efficiency.",
       "distractors": [
-        "Whenever administrative capacity is low, since in-kind is always easier.",
-        "When local markets function well and prices are stable.",
+        "Whenever administrative capacity is low, since in-kind is always easier. — In-kind can target externalities and stabilize quantities when markets cannot; otherwise cash preserves choice and...",
+        "When local markets function well and prices are stable. — In-kind can target externalities and stabilize quantities when markets cannot; otherwise cash preserves choice and...",
         "When the government wants to signal toughness on inflation regardless of welfare."
       ]
     },
@@ -1214,8 +1214,8 @@
       ],
       "explanation": "A float allows relative prices to adjust; an inflation target anchors nominal expectations; limited FX operations stabilize markets without targeting levels.",
       "distractors": [
-        "A crawling peg set monthly by a fiscal council.",
-        "Fully free float with no nominal anchor or intervention framework.",
+        "A crawling peg set monthly by a fiscal council. — A float allows relative prices to adjust; an inflation target anchors nominal expectations; limited FX operations...",
+        "Fully free float with no nominal anchor or intervention framework. — A float allows relative prices to adjust; an inflation target anchors nominal expectations; limited FX operations...",
         "A hard peg to the dollar with no independent monetary policy."
       ]
     },
@@ -1229,8 +1229,8 @@
       ],
       "explanation": "Liquidity tools and relative-price adjustment limit output losses; targeted insurance reduces scarring among constrained agents.",
       "distractors": [
-        "Defend the exchange rate at all costs by hiking rates until unemployment rises sharply.",
-        "Impose universal price controls and freeze bank deposits indefinitely.",
+        "Defend the exchange rate at all costs by hiking rates until unemployment rises sharply. — Liquidity tools and relative-price adjustment limit output losses; targeted insurance reduces scarring among...",
+        "Impose universal price controls and freeze bank deposits indefinitely. — Liquidity tools and relative-price adjustment limit output losses; targeted insurance reduces scarring among...",
         "Raise import tariffs to restore the current account and subsidize large conglomerates."
       ]
     },
@@ -1244,8 +1244,8 @@
       ],
       "explanation": "A feasibility-consistent DSA can justify reprofiling to avoid excessive contraction that undermines growth and inclusion.",
       "distractors": [
-        "Only after default has already occurred and all domestic banks are insolvent.",
-        "When r − g is clearly negative and market access is abundant.",
+        "Only after default has already occurred and all domestic banks are insolvent. — A feasibility-consistent DSA can justify reprofiling to avoid excessive contraction that undermines growth and...",
+        "When r − g is clearly negative and market access is abundant. — A feasibility-consistent DSA can justify reprofiling to avoid excessive contraction that undermines growth and...",
         "Whenever investors demand higher yields than peer countries, regardless of fundamentals."
       ]
     },
@@ -1259,8 +1259,8 @@
       ],
       "explanation": "Capabilities, standards, and connectivity drive movement to higher value-added tasks; blunt protection can backfire.",
       "distractors": [
-        "Across-the-board tax holidays with no performance conditions.",
-        "Permanent tariff protection against imported intermediates.",
+        "Across-the-board tax holidays with no performance conditions. — Capabilities, standards, and connectivity drive movement to higher value-added tasks; blunt protection can backfire.",
+        "Permanent tariff protection against imported intermediates. — Capabilities, standards, and connectivity drive movement to higher value-added tasks; blunt protection can backfire.",
         "Strict local-content rules and export bans on raw materials."
       ]
     },
@@ -1274,8 +1274,8 @@
       ],
       "explanation": "Incentive regulation encourages efficiency while allowing recovery of efficient investment costs; access rules preserve competition on services.",
       "distractors": [
-        "Permanent state ownership without performance contracts.",
-        "Unregulated monopoly because duplication of infrastructure is wasteful.",
+        "Permanent state ownership without performance contracts. — Incentive regulation encourages efficiency while allowing recovery of efficient investment costs; access rules preserve...",
+        "Unregulated monopoly because duplication of infrastructure is wasteful. — Incentive regulation encourages efficiency while allowing recovery of efficient investment costs; access rules preserve...",
         "Rate-of-return regulation with guaranteed cost recovery and no efficiency incentives."
       ]
     },
@@ -1289,8 +1289,8 @@
       ],
       "explanation": "Align prices with costs, protect the poor with targeted support, and fix governance to crowd in investment and reduce quasi-fiscal deficits.",
       "distractors": [
-        "Privatize all assets immediately without regulatory preparation.",
-        "Mandate coal purchases at fixed prices to reduce volatility.",
+        "Privatize all assets immediately without regulatory preparation. — Align prices with costs, protect the poor with targeted support, and fix governance to crowd in investment and reduce...",
+        "Mandate coal purchases at fixed prices to reduce volatility. — Align prices with costs, protect the poor with targeted support, and fix governance to crowd in investment and reduce...",
         "Freeze tariffs to protect consumers and finance utilities through the budget."
       ]
     },
@@ -1304,8 +1304,8 @@
       ],
       "explanation": "External benefits and time savings are often the dominant welfare gains beyond direct willingness to pay.",
       "distractors": [
-        "The political salience of ribbon-cutting opportunities.",
-        "The ability to employ more public workers per dollar spent.",
+        "The political salience of ribbon-cutting opportunities. — External benefits and time savings are often the dominant welfare gains beyond direct willingness to pay.",
+        "The ability to employ more public workers per dollar spent. — External benefits and time savings are often the dominant welfare gains beyond direct willingness to pay.",
         "High land values near treatment plants."
       ]
     },
@@ -1319,8 +1319,8 @@
       ],
       "explanation": "Teaching at the right level with aligned systems beats input-only approaches; incentives and support must cohere.",
       "distractors": [
-        "Eliminating standardized assessments to reduce teaching to the test.",
-        "Raising spending uniformly on inputs regardless of pedagogy.",
+        "Eliminating standardized assessments to reduce teaching to the test. — Teaching at the right level with aligned systems beats input-only approaches; incentives and support must cohere.",
+        "Raising spending uniformly on inputs regardless of pedagogy. — Teaching at the right level with aligned systems beats input-only approaches; incentives and support must cohere.",
         "Increasing class sizes to promote competition among students."
       ]
     },
@@ -1334,8 +1334,8 @@
       ],
       "explanation": "Preparedness hinges on early detection, integrated primary care, flexible capacity, and public trust.",
       "distractors": [
-        "Close all borders permanently and divert most health budgets to stockpiles.",
-        "Rely on hospitals only; primary care is irrelevant during pandemics.",
+        "Close all borders permanently and divert most health budgets to stockpiles. — Preparedness hinges on early detection, integrated primary care, flexible capacity, and public trust.",
+        "Rely on hospitals only; primary care is irrelevant during pandemics. — Preparedness hinges on early detection, integrated primary care, flexible capacity, and public trust.",
         "Ban private providers to centralize response."
       ]
     },
@@ -1349,8 +1349,8 @@
       ],
       "explanation": "Address constraints on time, safety, mobility, and discrimination to unlock female labor supply and productivity.",
       "distractors": [
-        "Ban part-time work to force full-time participation.",
-        "Provide tax credits only to single earners in households.",
+        "Ban part-time work to force full-time participation. — Address constraints on time, safety, mobility, and discrimination to unlock female labor supply and productivity.",
+        "Provide tax credits only to single earners in households. — Address constraints on time, safety, mobility, and discrimination to unlock female labor supply and productivity.",
         "Mandate identical wages in all occupations regardless of experience."
       ]
     },
@@ -1364,8 +1364,8 @@
       ],
       "explanation": "Targeting compliance, enforcement, or benefits depends on which margin of informality is binding.",
       "distractors": [
-        "Firm-based measures are always larger because firms are easier to survey.",
-        "Worker-based measures are irrelevant for labor policy.",
+        "Firm-based measures are always larger because firms are easier to survey. — Targeting compliance, enforcement, or benefits depends on which margin of informality is binding.",
+        "Worker-based measures are irrelevant for labor policy. — Targeting compliance, enforcement, or benefits depends on which margin of informality is binding.",
         "Both measures are identical because firms and workers formalize together."
       ]
     },
@@ -1379,8 +1379,8 @@
       ],
       "explanation": "Shadow pricing internalizes externalities; robust appraisal requires sensitivity to SCC and discounting assumptions.",
       "distractors": [
-        "Apply zero discounting to environmental benefits but market rates to costs.",
-        "Ignore it to avoid double counting with future climate policy.",
+        "Apply zero discounting to environmental benefits but market rates to costs. — Shadow pricing internalizes externalities; robust appraisal requires sensitivity to SCC and discounting assumptions.",
+        "Ignore it to avoid double counting with future climate policy. — Shadow pricing internalizes externalities; robust appraisal requires sensitivity to SCC and discounting assumptions.",
         "Count only local air pollution benefits; global carbon damages are external."
       ]
     },
@@ -1394,8 +1394,8 @@
       ],
       "explanation": "Stochastic discounting and intergenerational equity motivate declining schedules for very long-lived assets.",
       "distractors": [
-        "They offset political impatience rather than reflect economics.",
-        "They simplify accounting by using a single-digit number.",
+        "They offset political impatience rather than reflect economics. — Stochastic discounting and intergenerational equity motivate declining schedules for very long-lived assets.",
+        "They simplify accounting by using a single-digit number. — Stochastic discounting and intergenerational equity motivate declining schedules for very long-lived assets.",
         "They guarantee all projects pass appraisal."
       ]
     },
@@ -1409,8 +1409,8 @@
       ],
       "explanation": "Transparency, standardization, and risk-based oversight deter collusion while preserving timely delivery.",
       "distractors": [
-        "Mandate the lowest bid wins and prohibit any quality scoring.",
-        "Allow sole-source contracting for all purchases below a high threshold.",
+        "Mandate the lowest bid wins and prohibit any quality scoring. — Transparency, standardization, and risk-based oversight deter collusion while preserving timely delivery.",
+        "Allow sole-source contracting for all purchases below a high threshold. — Transparency, standardization, and risk-based oversight deter collusion while preserving timely delivery.",
         "Rotate auditors annually but keep tenders offline to reduce cyber risks."
       ]
     },
@@ -1424,8 +1424,8 @@
       ],
       "explanation": "Titles raise investment when they change enforcement and collateral constraints; context determines impact.",
       "distractors": [
-        "Always, since titles automatically raise collateral values in any context.",
-        "Only in urban centers; rural areas never benefit.",
+        "Always, since titles automatically raise collateral values in any context. — Titles raise investment when they change enforcement and collateral constraints; context determines impact.",
+        "Only in urban centers; rural areas never benefit. — Titles raise investment when they change enforcement and collateral constraints; context determines impact.",
         "When tenure is already secure through social norms and formal credit markets are missing."
       ]
     },
@@ -1439,9 +1439,9 @@
       ],
       "explanation": "Capacity, cost, and urban morphology—plus integration with zoning and fares—determine welfare gains.",
       "distractors": [
-        "Select BRT because buses are always cheaper.",
-        "Prefer BRT to avoid complex institutions regardless of ridership.",
-        "Choose rail to signal modernity and attract foreign investment."
+        "Select BRT because buses are always cheaper. — Capacity, cost, and urban morphology—plus integration with zoning and fares—determine welfare gains. — Capacity, cost, and urban morphology—plus integration with zoning and fares—determine welfare gains.",
+        "Prefer BRT to avoid complex institutions regardless of ridership. — Capacity, cost, and urban morphology—plus integration with zoning and fares—determine welfare gains. — Capacity, cost, and urban morphology—plus integration with zoning and fares—determine welfare gains.",
+        "Choose rail to signal modernity and attract foreign investment. — Capacity, cost, and urban morphology—plus integration with zoning and fares—determine welfare gains."
       ]
     },
     {
@@ -1454,8 +1454,8 @@
       ],
       "explanation": "Public goods raise broad productivity; smart subsidies can overcome adoption barriers without long-run distortions.",
       "distractors": [
-        "Export bans to ensure domestic food security.",
-        "Permanent input subsidies with no targeting or soil testing.",
+        "Export bans to ensure domestic food security. — Public goods raise broad productivity; smart subsidies can overcome adoption barriers without long-run distortions.",
+        "Permanent input subsidies with no targeting or soil testing. — Public goods raise broad productivity; smart subsidies can overcome adoption barriers without long-run distortions.",
         "Mandatory farm fragmentation to equalize landholding."
       ]
     },
@@ -1469,8 +1469,8 @@
       ],
       "explanation": "Reducing time and uncertainty at the border raises competitiveness and benefits small firms disproportionately.",
       "distractors": [
-        "Export subsidies tied to domestic content rules.",
-        "Higher tariffs to manage the volume of imports.",
+        "Export subsidies tied to domestic content rules. — Reducing time and uncertainty at the border raises competitiveness and benefits small firms disproportionately.",
+        "Higher tariffs to manage the volume of imports. — Reducing time and uncertainty at the border raises competitiveness and benefits small firms disproportionately.",
         "Manual inspections for every shipment to deter evasion."
       ]
     },
@@ -1484,8 +1484,8 @@
       ],
       "explanation": "Open, secure rails lower entry barriers and enable new services while preserving trust.",
       "distractors": [
-        "Allow dominant platforms exclusive rights to user data to reward investment.",
-        "Outsource all data policy to private standards bodies.",
+        "Allow dominant platforms exclusive rights to user data to reward investment. — Open, secure rails lower entry barriers and enable new services while preserving trust.",
+        "Outsource all data policy to private standards bodies. — Open, secure rails lower entry barriers and enable new services while preserving trust.",
         "Prohibit data sharing to protect privacy even when consented."
       ]
     },
@@ -1499,8 +1499,8 @@
       ],
       "explanation": "Evaluation should assess spillovers and design programs to expand effective demand for trained workers.",
       "distractors": [
-        "ALMPs always raise aggregate employment one-for-one with participants.",
-        "Training is universally ineffective and should be avoided.",
+        "ALMPs always raise aggregate employment one-for-one with participants. — Evaluation should assess spillovers and design programs to expand effective demand for trained workers.",
+        "Training is universally ineffective and should be avoided. — Evaluation should assess spillovers and design programs to expand effective demand for trained workers.",
         "General equilibrium effects are negligible because matching is frictionless."
       ]
     },
@@ -1514,9 +1514,9 @@
       ],
       "explanation": "Quality dimensions matter for welfare and productivity; design avoids abrupt compliance shocks for small firms.",
       "distractors": [
-        "Raising minimum wages alone is sufficient to upgrade job quality.",
-        "Job quality is a purely subjective concept and cannot inform policy.",
-        "Quantity of jobs fully captures welfare; quality is second order."
+        "Raising minimum wages alone is sufficient to upgrade job quality. — Quality dimensions matter for welfare and productivity; design avoids abrupt compliance shocks for small firms. — Quality dimensions matter for welfare and productivity; design avoids abrupt compliance shocks for small firms.",
+        "Job quality is a purely subjective concept and cannot inform policy. — Quality dimensions matter for welfare and productivity; design avoids abrupt compliance shocks for small firms. — Quality dimensions matter for welfare and productivity; design avoids abrupt compliance shocks for small firms.",
+        "Quantity of jobs fully captures welfare; quality is second order. — Quality dimensions matter for welfare and productivity; design avoids abrupt compliance shocks for small firms."
       ]
     },
     {
@@ -1529,8 +1529,8 @@
       ],
       "explanation": "Compensate people and places, not emissions, to preserve incentives while addressing concentrated losses.",
       "distractors": [
-        "Uniform industrial exemptions so no firm pays the carbon price.",
-        "Permanent free allocation of permits to all emitters.",
+        "Uniform industrial exemptions so no firm pays the carbon price. — Compensate people and places, not emissions, to preserve incentives while addressing concentrated losses.",
+        "Permanent free allocation of permits to all emitters. — Compensate people and places, not emissions, to preserve incentives while addressing concentrated losses.",
         "Freeze the carbon price whenever energy prices rise."
       ]
     },
@@ -1544,9 +1544,9 @@
       ],
       "explanation": "Efficiency from pricing, capability building from selective support, and insurance for workers and places together sustain a durable coalition for change.",
       "distractors": [
-        "Universal cash transfers with no sectoral measures or pricing.",
-        "Industrial policy only, since markets will not respond to prices.",
-        "Only carbon pricing, because any complementary policy dilutes efficiency."
+        "Universal cash transfers with no sectoral measures or pricing. — Efficiency from pricing, capability building from selective support, and insurance for workers and places together... — Efficiency from pricing, capability building from selective support, and insurance for workers and places together...",
+        "Industrial policy only, since markets will not respond to prices. — Efficiency from pricing, capability building from selective support, and insurance for workers and places together... — Efficiency from pricing, capability building from selective support, and insurance for workers and places together...",
+        "Only carbon pricing, because any complementary policy dilutes efficiency. — Efficiency from pricing, capability building from selective support, and insurance for workers and places together..."
       ]
     },
     {
@@ -1559,8 +1559,8 @@
       ],
       "explanation": "The trilemma (impossible trinity) implies a hard trade-off; policy credibility cannot escape the geometry.",
       "distractors": [
-        "It must impose capital controls if it wants to target inflation.",
-        "It can simultaneously maintain a fixed exchange rate, free capital mobility, and full monetary policy independence.",
+        "It must impose capital controls if it wants to target inflation. — The trilemma (impossible trinity) implies a hard trade-off; policy credibility cannot escape the geometry.",
+        "It can simultaneously maintain a fixed exchange rate, free capital mobility, and full monetary policy independence. — The trilemma (impossible trinity) implies a hard trade-off; policy credibility cannot escape the geometry.",
         "It must fix the exchange rate if it wants low inflation, regardless of capital account policies."
       ]
     },
@@ -1574,8 +1574,8 @@
       ],
       "explanation": "Inflow-side frictions can reduce systemic risk and distributionally costly busts when paired with orthodox macroprudential policies.",
       "distractors": [
-        "Whenever the exchange rate appreciates, since appreciation is always harmful for exporters.",
-        "As a permanent substitute for sound bank supervision and fiscal policy.",
+        "Whenever the exchange rate appreciates, since appreciation is always harmful for exporters. — Inflow-side frictions can reduce systemic risk and distributionally costly busts when paired with orthodox...",
+        "As a permanent substitute for sound bank supervision and fiscal policy. — Inflow-side frictions can reduce systemic risk and distributionally costly busts when paired with orthodox...",
         "Only after a crisis, since pre-emptive measures cannot be justified."
       ]
     },
@@ -1589,8 +1589,8 @@
       ],
       "explanation": "Liability dollarization and CPI baskets heavy in tradables create real-side costs that justify managed flexibility.",
       "distractors": [
-        "Because a fixed exchange rate always delivers higher growth than a float.",
-        "Because exchange-rate movements have negligible pass-through to domestic prices in these economies.",
+        "Because a fixed exchange rate always delivers higher growth than a float. — Liability dollarization and CPI baskets heavy in tradables create real-side costs that justify managed flexibility.",
+        "Because exchange-rate movements have negligible pass-through to domestic prices in these economies. — Liability dollarization and CPI baskets heavy in tradables create real-side costs that justify managed flexibility.",
         "Because central banks lack any tools to influence expectations."
       ]
     },
@@ -1604,9 +1604,9 @@
       ],
       "explanation": "Complementary data sources reduce bias at both tails and improve policy targeting.",
       "distractors": [
-        "Surveys perfectly capture all incomes; tax data are biased upward by evasion.",
-        "The discrepancy proves that inequality has been falling.",
-        "Tax data are irrelevant because redistribution occurs only via cash transfers."
+        "Surveys perfectly capture all incomes; tax data are biased upward by evasion. — Complementary data sources reduce bias at both tails and improve policy targeting. — Complementary data sources reduce bias at both tails and improve policy targeting.",
+        "The discrepancy proves that inequality has been falling. — Complementary data sources reduce bias at both tails and improve policy targeting. — Complementary data sources reduce bias at both tails and improve policy targeting.",
+        "Tax data are irrelevant because redistribution occurs only via cash transfers. — Complementary data sources reduce bias at both tails and improve policy targeting."
       ]
     },
     {
@@ -1619,8 +1619,8 @@
       ],
       "explanation": "In low-income settings with volatile incomes, consumption better reflects living standards.",
       "distractors": [
-        "When the study focuses exclusively on firms.",
-        "When the government uses progressive taxes.",
+        "When the study focuses exclusively on firms. — In low-income settings with volatile incomes, consumption better reflects living standards.",
+        "When the government uses progressive taxes. — In low-income settings with volatile incomes, consumption better reflects living standards.",
         "When labor markets are perfectly competitive and wages equal productivity."
       ]
     },
@@ -1634,9 +1634,9 @@
       ],
       "explanation": "Saving and smoothing reduce Dutch disease; capability investments and cushioning protect inclusive employment.",
       "distractors": [
-        "Fix the nominal exchange rate and subsidize energy prices for industry.",
-        "Ban all imports to shelter tradables.",
-        "Front-load spending, cut non-oil taxes permanently, and abandon fiscal rules."
+        "Fix the nominal exchange rate and subsidize energy prices for industry. — Saving and smoothing reduce Dutch disease; capability investments and cushioning protect inclusive employment.",
+        "Ban all imports to shelter tradables. — Saving and smoothing reduce Dutch disease; capability investments and cushioning protect inclusive employment.",
+        "Front-load spending, cut non-oil taxes permanently, and abandon fiscal rules. — Saving and smoothing reduce Dutch disease; capability investments and cushioning protect inclusive employment."
       ]
     },
     {
@@ -1649,8 +1649,8 @@
       ],
       "explanation": "Rules, transparency, and auditability reduce discretion and political capture.",
       "distractors": [
-        "Discretionary annual allocations to favored sectors decided by a small cabinet committee.",
-        "No reporting because secrecy deters corruption.",
+        "Discretionary annual allocations to favored sectors decided by a small cabinet committee. — Rules, transparency, and auditability reduce discretion and political capture.",
+        "No reporting because secrecy deters corruption. — Rules, transparency, and auditability reduce discretion and political capture.",
         "Earmarking all revenues to a single SOE without external oversight."
       ]
     },
@@ -1664,8 +1664,8 @@
       ],
       "explanation": "Integrating appraisal, budgeting, and reporting aligns spending with mitigation and adaptation goals.",
       "distractors": [
-        "Rebranding existing projects without changing appraisal methods.",
-        "Funding only renewable energy, regardless of returns.",
+        "Rebranding existing projects without changing appraisal methods. — Integrating appraisal, budgeting, and reporting aligns spending with mitigation and adaptation goals.",
+        "Funding only renewable energy, regardless of returns. — Integrating appraisal, budgeting, and reporting aligns spending with mitigation and adaptation goals.",
         "Publishing an annual climate speech by the finance minister."
       ]
     },
@@ -1679,8 +1679,8 @@
       ],
       "explanation": "Shadow pricing internalizes external costs and keeps incentives consistent with economy-wide instruments.",
       "distractors": [
-        "Ignore carbon because future regulation will handle it.",
-        "Count only local air-quality benefits; global externalities are irrelevant.",
+        "Ignore carbon because future regulation will handle it. — Shadow pricing internalizes external costs and keeps incentives consistent with economy-wide instruments.",
+        "Count only local air-quality benefits; global externalities are irrelevant. — Shadow pricing internalizes external costs and keeps incentives consistent with economy-wide instruments.",
         "Set the SCC to zero for projects with high employment multipliers."
       ]
     },
@@ -1694,8 +1694,8 @@
       ],
       "explanation": "This distributional contrast shapes financing and political coalitions.",
       "distractors": [
-        "Adaptation reduces emissions directly; mitigation reduces climate damages directly.",
-        "Mitigation benefits only high-income countries, while adaptation benefits only low-income countries.",
+        "Adaptation reduces emissions directly; mitigation reduces climate damages directly. — This distributional contrast shapes financing and political coalitions.",
+        "Mitigation benefits only high-income countries, while adaptation benefits only low-income countries. — This distributional contrast shapes financing and political coalitions.",
         "Both are purely local policies with no cross-border spillovers."
       ]
     },
@@ -1709,8 +1709,8 @@
       ],
       "explanation": "Process and enforcement standards can raise dignity without distorting price competition via arbitrary content rules.",
       "distractors": [
-        "By banning imports from countries with informality above a threshold.",
-        "By conditioning market access on detailed wage schedules set by importers.",
+        "By banning imports from countries with informality above a threshold. — Process and enforcement standards can raise dignity without distorting price competition via arbitrary content rules.",
+        "By conditioning market access on detailed wage schedules set by importers. — Process and enforcement standards can raise dignity without distorting price competition via arbitrary content rules.",
         "By requiring foreign firms to source a fixed share of inputs domestically."
       ]
     },
@@ -1724,8 +1724,8 @@
       ],
       "explanation": "Dual-market power can depress wages and slow diffusion; remedies on both margins improve inclusiveness.",
       "distractors": [
-        "High markups raise wages by increasing profits available for sharing.",
-        "If labor is mobile, product-market power benefits all workers.",
+        "High markups raise wages by increasing profits available for sharing. — Dual-market power can depress wages and slow diffusion; remedies on both margins improve inclusiveness.",
+        "If labor is mobile, product-market power benefits all workers. — Dual-market power can depress wages and slow diffusion; remedies on both margins improve inclusiveness.",
         "Monopsony is irrelevant if the product market is competitive."
       ]
     },
@@ -1739,8 +1739,8 @@
       ],
       "explanation": "Transit raises land values; structured capture can fund connectivity and inclusion if governance is credible.",
       "distractors": [
-        "One-off privatization of public land without planning reforms.",
-        "Across-the-board increases in sales taxes.",
+        "One-off privatization of public land without planning reforms. — Transit raises land values; structured capture can fund connectivity and inclusion if governance is credible.",
+        "Across-the-board increases in sales taxes. — Transit raises land values; structured capture can fund connectivity and inclusion if governance is credible.",
         "Uniform property tax holidays near stations."
       ]
     },
@@ -1754,8 +1754,8 @@
       ],
       "explanation": "Mobility and general equilibrium can reallocate activity rather than expand it; evaluation must capture this.",
       "distractors": [
-        "Spillovers bias estimates upward only; they cannot bias downward.",
-        "Programs never change migration flows, so impacts are always local.",
+        "Spillovers bias estimates upward only; they cannot bias downward. — Mobility and general equilibrium can reallocate activity rather than expand it; evaluation must capture this.",
+        "Programs never change migration flows, so impacts are always local. — Mobility and general equilibrium can reallocate activity rather than expand it; evaluation must capture this.",
         "Parallel trends are irrelevant in spatial settings."
       ]
     },
@@ -1769,9 +1769,9 @@
       ],
       "explanation": "Public goods and smart, temporary support raise productivity and facilitate reallocation.",
       "distractors": [
-        "Export bans on staple crops during normal years.",
-        "Price floors set above world prices for all crops.",
-        "Permanent, untargeted fertilizer subsidies."
+        "Export bans on staple crops during normal years. — Public goods and smart, temporary support raise productivity and facilitate reallocation. — Public goods and smart, temporary support raise productivity and facilitate reallocation.",
+        "Price floors set above world prices for all crops. — Public goods and smart, temporary support raise productivity and facilitate reallocation.",
+        "Permanent, untargeted fertilizer subsidies. — Public goods and smart, temporary support raise productivity and facilitate reallocation."
       ]
     },
     {
@@ -1784,8 +1784,8 @@
       ],
       "explanation": "Guarantees target information and collateral frictions with less fiscal leakage than broad subsidies.",
       "distractors": [
-        "Interest-rate subsidies with no screening.",
-        "Directed lending quotas for state banks regardless of solvency.",
+        "Interest-rate subsidies with no screening. — Guarantees target information and collateral frictions with less fiscal leakage than broad subsidies.",
+        "Directed lending quotas for state banks regardless of solvency. — Guarantees target information and collateral frictions with less fiscal leakage than broad subsidies.",
         "FX-denominated loans to reduce borrowing costs."
       ]
     },
@@ -1799,8 +1799,8 @@
       ],
       "explanation": "Credit can be valuable for subsets with profitable opportunities; average impacts are often small near term.",
       "distractors": [
-        "Significant declines in poverty across all treated communities.",
-        "No measurable effects in any subgroup.",
+        "Significant declines in poverty across all treated communities. — Credit can be valuable for subsets with profitable opportunities; average impacts are often small near term.",
+        "No measurable effects in any subgroup. — Credit can be valuable for subsets with profitable opportunities; average impacts are often small near term.",
         "Large, universal income gains within the first year."
       ]
     },
@@ -1814,8 +1814,8 @@
       ],
       "explanation": "Index design, layering with public relief, and clear communication mitigate basis risk.",
       "distractors": [
-        "Payouts depend on verified household losses only, which delays compensation.",
-        "Basis risk affects only large firms, not smallholders.",
+        "Payouts depend on verified household losses only, which delays compensation. — Index design, layering with public relief, and clear communication mitigate basis risk.",
+        "Basis risk affects only large firms, not smallholders. — Index design, layering with public relief, and clear communication mitigate basis risk.",
         "Premiums cannot be subsidized under any framework."
       ]
     },
@@ -1829,8 +1829,8 @@
       ],
       "explanation": "Heterogeneous agents with MPC heterogeneity shape the incidence and size of multipliers.",
       "distractors": [
-        "Because it eliminates any role for automatic stabilizers.",
-        "Because excess sensitivity implies consumption is unresponsive to transfers.",
+        "Because it eliminates any role for automatic stabilizers. — Heterogeneous agents with MPC heterogeneity shape the incidence and size of multipliers.",
+        "Because excess sensitivity implies consumption is unresponsive to transfers. — Heterogeneous agents with MPC heterogeneity shape the incidence and size of multipliers.",
         "Because it proves that monetary policy is ineffective."
       ]
     },
@@ -1844,9 +1844,9 @@
       ],
       "explanation": "Targeting cushions vulnerable households while preserving incentives for supply response.",
       "distractors": [
-        "Price controls for all food items enforced indefinitely.",
-        "Permanent VAT exemptions for all food regardless of incidence.",
-        "Broad export bans and universal consumption subsidies."
+        "Price controls for all food items enforced indefinitely. — Targeting cushions vulnerable households while preserving incentives for supply response. — Targeting cushions vulnerable households while preserving incentives for supply response.",
+        "Permanent VAT exemptions for all food regardless of incidence. — Targeting cushions vulnerable households while preserving incentives for supply response.",
+        "Broad export bans and universal consumption subsidies. — Targeting cushions vulnerable households while preserving incentives for supply response."
       ]
     },
     {
@@ -1859,9 +1859,9 @@
       ],
       "explanation": "Varying epsilon changes sensitivity to different parts of the distribution and links to social welfare.",
       "distractors": [
-        "Atkinson can only be used with grouped data.",
-        "Both are identical measures with different names.",
-        "The Gini is always more sensitive to the bottom tail than Atkinson."
+        "Atkinson can only be used with grouped data. — Varying epsilon changes sensitivity to different parts of the distribution and links to social welfare.",
+        "Both are identical measures with different names. — Varying epsilon changes sensitivity to different parts of the distribution and links to social welfare.",
+        "The Gini is always more sensitive to the bottom tail than Atkinson. — Varying epsilon changes sensitivity to different parts of the distribution and links to social welfare."
       ]
     },
     {
@@ -1874,8 +1874,8 @@
       ],
       "explanation": "Positive growth at all points reduces poverty if the line is fixed, but a steeper profile raises dispersion.",
       "distractors": [
-        "Only the poor gained; inequality increased.",
-        "Only the rich gained; poverty rose.",
+        "Only the poor gained; inequality increased. — Positive growth at all points reduces poverty if the line is fixed, but a steeper profile raises dispersion.",
+        "Only the rich gained; poverty rose. — Positive growth at all points reduces poverty if the line is fixed, but a steeper profile raises dispersion.",
         "Average income fell despite positive quantile growth."
       ]
     },
@@ -1889,8 +1889,8 @@
       ],
       "explanation": "Structural coherence plus credible magnitudes yields better ex ante and ex post evaluation.",
       "distractors": [
-        "Use reduced-form estimates only; models add no value.",
-        "Choose whichever approach supports the preferred policy.",
+        "Use reduced-form estimates only; models add no value. — Structural coherence plus credible magnitudes yields better ex ante and ex post evaluation.",
+        "Choose whichever approach supports the preferred policy. — Structural coherence plus credible magnitudes yields better ex ante and ex post evaluation.",
         "Use DSGE models only; reduced-form evidence is anecdotal."
       ]
     },
@@ -1904,8 +1904,8 @@
       ],
       "explanation": "IV recovers a local effect for the subgroup induced to change treatment by the instrument, not a universal ATE.",
       "distractors": [
-        "The average treatment effect for the entire population regardless of compliance behavior.",
-        "The effect for always-takers only.",
+        "The average treatment effect for the entire population regardless of compliance behavior. — IV recovers a local effect for the subgroup induced to change treatment by the instrument, not a universal ATE.",
+        "The effect for always-takers only. — IV recovers a local effect for the subgroup induced to change treatment by the instrument, not a universal ATE.",
         "The intention-to-treat effect for never-takers."
       ]
     },
@@ -1919,8 +1919,8 @@
       ],
       "explanation": "Transparency, accountability, and bias checks preserve trust while improving compliance and fiscal space.",
       "distractors": [
-        "By focusing only on low-income taxpayers because they are numerous.",
-        "By optimizing black-box models that cannot be audited to maximize assessed liabilities.",
+        "By focusing only on low-income taxpayers because they are numerous. — Transparency, accountability, and bias checks preserve trust while improving compliance and fiscal space.",
+        "By optimizing black-box models that cannot be audited to maximize assessed liabilities. — Transparency, accountability, and bias checks preserve trust while improving compliance and fiscal space.",
         "By assigning audits randomly to avoid any bias."
       ]
     },
@@ -1934,8 +1934,8 @@
       ],
       "explanation": "Persistent within-industry dispersion signals barriers to reallocation; reducing wedges can lift TFP without new technology.",
       "distractors": [
-        "High dispersion necessarily reflects technological heterogeneity, so there is no role for policy.",
-        "Dispersion arises only from measurement error, so policies should ignore it even if persistent across datasets.",
+        "High dispersion necessarily reflects technological heterogeneity, so there is no role for policy. — Persistent within-industry dispersion signals barriers to reallocation; reducing wedges can lift TFP without new...",
+        "Dispersion arises only from measurement error, so policies should ignore it even if persistent across datasets. — Persistent within-industry dispersion signals barriers to reallocation; reducing wedges can lift TFP without new...",
         "Dispersion proves that competition policy should mandate identical market shares for all firms to equalize marginal products."
       ]
     },
@@ -1949,8 +1949,8 @@
       ],
       "explanation": "Evidence shows sizable gains in treated firms and slow spillovers; diffusion needs market and policy supports.",
       "distractors": [
-        "Management upgrades reduce productivity by constraining entrepreneurial freedom and should be avoided.",
-        "Only foreign-owned plants respond to management improvements because domestic firms lack absorptive capacity in principle.",
+        "Management upgrades reduce productivity by constraining entrepreneurial freedom and should be avoided. — Evidence shows sizable gains in treated firms and slow spillovers; diffusion needs market and policy supports.",
+        "Only foreign-owned plants respond to management improvements because domestic firms lack absorptive capacity in principle. — Evidence shows sizable gains in treated firms and slow spillovers; diffusion needs market and policy supports.",
         "Managerial practices are pure window dressing; they never affect productivity or employment."
       ]
     },
@@ -1964,8 +1964,8 @@
       ],
       "explanation": "Expected income equalization means easing matching frictions and improving rural earnings reduces urban queuing.",
       "distractors": [
-        "Ban rural-urban migration and fix urban wages permanently above market-clearing levels.",
-        "Subsidize urban consumption to attract even more migrants so unemployment measures look smaller as a share of population.",
+        "Ban rural-urban migration and fix urban wages permanently above market-clearing levels. — Expected income equalization means easing matching frictions and improving rural earnings reduces urban queuing.",
+        "Subsidize urban consumption to attract even more migrants so unemployment measures look smaller as a share of population. — Expected income equalization means easing matching frictions and improving rural earnings reduces urban queuing.",
         "Introduce universal public employment in cities regardless of skills or tasks."
       ]
     },
@@ -1979,8 +1979,8 @@
       ],
       "explanation": "Once cheap labor is exhausted, wage growth accelerates and the distributional and competitiveness landscape shifts.",
       "distractors": [
-        "It is when a country fixes its exchange rate and labor markets clear at zero unemployment.",
-        "It is the date when population growth peaks and wages stop changing thereafter.",
+        "It is when a country fixes its exchange rate and labor markets clear at zero unemployment. — Once cheap labor is exhausted, wage growth accelerates and the distributional and competitiveness landscape shifts.",
+        "It is the date when population growth peaks and wages stop changing thereafter. — Once cheap labor is exhausted, wage growth accelerates and the distributional and competitiveness landscape shifts.",
         "It is the moment when agriculture becomes more productive than industry, forcing deindustrialization."
       ]
     },
@@ -1994,8 +1994,8 @@
       ],
       "explanation": "Policy that enables exportable services and skills adaptation can offset routine-biased displacement.",
       "distractors": [
-        "Because only manufacturing is tradable, services cannot generate inclusive growth.",
-        "Services tradability automatically guarantees equal wage growth across the distribution.",
+        "Because only manufacturing is tradable, services cannot generate inclusive growth. — Policy that enables exportable services and skills adaptation can offset routine-biased displacement.",
+        "Services tradability automatically guarantees equal wage growth across the distribution. — Policy that enables exportable services and skills adaptation can offset routine-biased displacement.",
         "Polarization always increases middle-class employment by boosting routine tasks."
       ]
     },
@@ -2009,8 +2009,8 @@
       ],
       "explanation": "Spillovers depend on capability, contestability, and deliberate linkage policies, not on presence alone.",
       "distractors": [
-        "When technology is obsolete, so domestic imitation is easier.",
-        "When multinationals receive unconditional tax holidays with no local linkages.",
+        "When technology is obsolete, so domestic imitation is easier. — Spillovers depend on capability, contestability, and deliberate linkage policies, not on presence alone.",
+        "When multinationals receive unconditional tax holidays with no local linkages. — Spillovers depend on capability, contestability, and deliberate linkage policies, not on presence alone.",
         "When domestic firms are barred from supplier relationships to avoid collusion."
       ]
     },
@@ -2024,8 +2024,8 @@
       ],
       "explanation": "Destination-based VAT zero-rates exports and refunds input credits to avoid cascading and preserve neutrality.",
       "distractors": [
-        "By prohibiting input tax credits to prevent revenue leakage.",
-        "By taxing exports at a higher VAT rate to raise revenue from foreign consumers.",
+        "By prohibiting input tax credits to prevent revenue leakage. — Destination-based VAT zero-rates exports and refunds input credits to avoid cascading and preserve neutrality.",
+        "By taxing exports at a higher VAT rate to raise revenue from foreign consumers. — Destination-based VAT zero-rates exports and refunds input credits to avoid cascading and preserve neutrality.",
         "By exempting all firms that export at least one product from paying any VAT on domestic sales."
       ]
     },
@@ -2039,9 +2039,9 @@
       ],
       "explanation": "Credible fiscal backing is required for monetary anchors; instability is regressive.",
       "distractors": [
-        "The distinction is semantic and has no policy relevance.",
-        "Under monetary dominance, fiscal policy sets interest rates; under fiscal dominance, the central bank sets taxes.",
-        "Monetary dominance applies only in fixed exchange rate regimes, while fiscal dominance applies only under floats."
+        "The distinction is semantic and has no policy relevance. — Credible fiscal backing is required for monetary anchors; instability is regressive. — Credible fiscal backing is required for monetary anchors; instability is regressive.",
+        "Under monetary dominance, fiscal policy sets interest rates; under fiscal dominance, the central bank sets taxes. — Credible fiscal backing is required for monetary anchors; instability is regressive. — Credible fiscal backing is required for monetary anchors; instability is regressive.",
+        "Monetary dominance applies only in fixed exchange rate regimes, while fiscal dominance applies only under floats. — Credible fiscal backing is required for monetary anchors; instability is regressive."
       ]
     },
     {
@@ -2054,8 +2054,8 @@
       ],
       "explanation": "Global push factors and domestic pull factors jointly drive borrowing costs and resilience.",
       "distractors": [
-        "Spreads always fall when commodity prices rise, regardless of policy.",
-        "Spreads are determined entirely by global risk appetite and ignore domestic fundamentals.",
+        "Spreads always fall when commodity prices rise, regardless of policy. — Global push factors and domestic pull factors jointly drive borrowing costs and resilience.",
+        "Spreads are determined entirely by global risk appetite and ignore domestic fundamentals. — Global push factors and domestic pull factors jointly drive borrowing costs and resilience.",
         "Spreads can be permanently fixed by pegging the exchange rate to a reserve currency."
       ]
     },
@@ -2069,8 +2069,8 @@
       ],
       "explanation": "Smoothing idiosyncratic risk can loosen liquidity and risk constraints and improve occupational choice.",
       "distractors": [
-        "By guaranteeing profits for all new firms regardless of performance.",
-        "By mandating equal market shares across all startups.",
+        "By guaranteeing profits for all new firms regardless of performance. — Smoothing idiosyncratic risk can loosen liquidity and risk constraints and improve occupational choice.",
+        "By mandating equal market shares across all startups. — Smoothing idiosyncratic risk can loosen liquidity and risk constraints and improve occupational choice.",
         "By prohibiting wage employment to encourage self-employment."
       ]
     },
@@ -2084,8 +2084,8 @@
       ],
       "explanation": "Conditioning on a mediator blocks part of the treatment effect and can induce bias via collider paths.",
       "distractors": [
-        "Controlling for pre-treatment covariates that predict treatment but are not affected by it.",
-        "Using fixed effects in a panel to remove time-invariant heterogeneity.",
+        "Controlling for pre-treatment covariates that predict treatment but are not affected by it. — Conditioning on a mediator blocks part of the treatment effect and can induce bias via collider paths.",
+        "Using fixed effects in a panel to remove time-invariant heterogeneity. — Conditioning on a mediator blocks part of the treatment effect and can induce bias via collider paths.",
         "Clustering standard errors at the treatment-unit level."
       ]
     },
@@ -2099,8 +2099,8 @@
       ],
       "explanation": "SC is strongest when donors can approximate the treated unit pre-treatment and placebo gaps are small.",
       "distractors": [
-        "It eliminates the need for any qualitative institutional knowledge.",
-        "It cannot handle more than two donor regions.",
+        "It eliminates the need for any qualitative institutional knowledge. — SC is strongest when donors can approximate the treated unit pre-treatment and placebo gaps are small.",
+        "It cannot handle more than two donor regions. — SC is strongest when donors can approximate the treated unit pre-treatment and placebo gaps are small.",
         "The method permits negative weights, which makes interpretation difficult."
       ]
     },
@@ -2114,8 +2114,8 @@
       ],
       "explanation": "Displacement, substitution, and demand responses can mask effects in narrow samples.",
       "distractors": [
-        "Measurement error in wages always biases results toward finding no effect.",
-        "Any positive wage effect implies rising unemployment by identity.",
+        "Measurement error in wages always biases results toward finding no effect. — Displacement, substitution, and demand responses can mask effects in narrow samples.",
+        "Any positive wage effect implies rising unemployment by identity. — Displacement, substitution, and demand responses can mask effects in narrow samples.",
         "The result proves monopsony power is absent in the local labor market."
       ]
     },
@@ -2129,8 +2129,8 @@
       ],
       "explanation": "Long horizons and vulnerable beneficiaries justify careful discounting and equity-sensitive evaluation.",
       "distractors": [
-        "Reject cost–benefit analysis entirely and approve all projects with vocal support.",
-        "Use a zero discount rate for all future benefits and costs regardless of time horizon.",
+        "Reject cost–benefit analysis entirely and approve all projects with vocal support. — Long horizons and vulnerable beneficiaries justify careful discounting and equity-sensitive evaluation.",
+        "Use a zero discount rate for all future benefits and costs regardless of time horizon. — Long horizons and vulnerable beneficiaries justify careful discounting and equity-sensitive evaluation.",
         "Use market interest rates only and ignore equity weights."
       ]
     },
@@ -2144,8 +2144,8 @@
       ],
       "explanation": "Consistent shadow pricing improves comparability and fairness; sensitivity tests capture uncertainty.",
       "distractors": [
-        "Use arbitrary values that vary by project to reflect local politics.",
-        "Count time savings only for motorists and not for public transport users.",
+        "Use arbitrary values that vary by project to reflect local politics. — Consistent shadow pricing improves comparability and fairness; sensitivity tests capture uncertainty.",
+        "Count time savings only for motorists and not for public transport users. — Consistent shadow pricing improves comparability and fairness; sensitivity tests capture uncertainty.",
         "Ignore time savings because they are intangible."
       ]
     },
@@ -2159,9 +2159,9 @@
       ],
       "explanation": "Place effects and interpersonal dispersion are distinct; both inform inclusive policy.",
       "distractors": [
-        "They are redundant because the Gini coefficient already captures geography.",
-        "They are useful only in countries without migration.",
-        "Spatial metrics focus only on housing prices and thus miss income differences."
+        "They are redundant because the Gini coefficient already captures geography. — Place effects and interpersonal dispersion are distinct; both inform inclusive policy.",
+        "They are useful only in countries without migration. — Place effects and interpersonal dispersion are distinct; both inform inclusive policy.",
+        "Spatial metrics focus only on housing prices and thus miss income differences. — Place effects and interpersonal dispersion are distinct; both inform inclusive policy."
       ]
     },
     {
@@ -2174,8 +2174,8 @@
       ],
       "explanation": "Simplification at the bottom and integrity at the top limit distortions and leakages.",
       "distractors": [
-        "A very high registration threshold with no enforcement on larger firms.",
-        "Exempting all services from VAT to reduce paperwork.",
+        "A very high registration threshold with no enforcement on larger firms. — Simplification at the bottom and integrity at the top limit distortions and leakages.",
+        "Exempting all services from VAT to reduce paperwork. — Simplification at the bottom and integrity at the top limit distortions and leakages.",
         "Applying multiple rates to tailor distributional aims at the register."
       ]
     },
@@ -2189,8 +2189,8 @@
       ],
       "explanation": "Administrative barriers can be binding even when tariff preferences look attractive on paper.",
       "distractors": [
-        "They guarantee higher preference margins by design.",
-        "They make domestic content cheaper, so firms always benefit.",
+        "They guarantee higher preference margins by design. — Administrative barriers can be binding even when tariff preferences look attractive on paper.",
+        "They make domestic content cheaper, so firms always benefit. — Administrative barriers can be binding even when tariff preferences look attractive on paper.",
         "They apply only to large firms and therefore are irrelevant for small exporters."
       ]
     },
@@ -2204,9 +2204,9 @@
       ],
       "explanation": "Different lenses serve different policy questions; none is definitive in isolation.",
       "distractors": [
-        "BEER is a literary theory unrelated to exchange rates; PPP and FEER are the only valid tools.",
-        "FEER assumes capital controls and cannot be used in open economies.",
-        "PPP and FEER are identical because both use only prices."
+        "BEER is a literary theory unrelated to exchange rates; PPP and FEER are the only valid tools. — Different lenses serve different policy questions; none is definitive in isolation. — Different lenses serve different policy questions; none is definitive in isolation.",
+        "FEER assumes capital controls and cannot be used in open economies. — Different lenses serve different policy questions; none is definitive in isolation. — Different lenses serve different policy questions; none is definitive in isolation.",
+        "PPP and FEER are identical because both use only prices. — Different lenses serve different policy questions; none is definitive in isolation."
       ]
     },
     {
@@ -2219,8 +2219,8 @@
       ],
       "explanation": "Targeted design and low administrative barriers can raise formality without eroding insurance.",
       "distractors": [
-        "Eliminate employer contributions and fund social insurance solely with VAT.",
-        "Set very high uniform payroll rates and exempt large firms.",
+        "Eliminate employer contributions and fund social insurance solely with VAT. — Targeted design and low administrative barriers can raise formality without eroding insurance.",
+        "Set very high uniform payroll rates and exempt large firms. — Targeted design and low administrative barriers can raise formality without eroding insurance.",
         "Tax informal employment at the same rate through random audits alone."
       ]
     },
@@ -2234,9 +2234,9 @@
       ],
       "explanation": "Spatial frictions and licensing can bind; targeted policies improve matching and equity.",
       "distractors": [
-        "Only preferences limit mobility; policy is irrelevant.",
-        "Trade policy determines mobility more than local constraints.",
-        "High minimum wages alone explain immobility; cutting them is sufficient."
+        "Only preferences limit mobility; policy is irrelevant. — Spatial frictions and licensing can bind; targeted policies improve matching and equity. — Spatial frictions and licensing can bind; targeted policies improve matching and equity.",
+        "Trade policy determines mobility more than local constraints. — Spatial frictions and licensing can bind; targeted policies improve matching and equity. — Spatial frictions and licensing can bind; targeted policies improve matching and equity.",
+        "High minimum wages alone explain immobility; cutting them is sufficient. — Spatial frictions and licensing can bind; targeted policies improve matching and equity."
       ]
     },
     {
@@ -2249,8 +2249,8 @@
       ],
       "explanation": "Mixed mechanisms do not negate social returns; policy focuses on learning, access, and efficient financing.",
       "distractors": [
-        "Because signaling is present, only vocational training should be funded.",
-        "Signaling implies that taxes on education would increase efficiency.",
+        "Because signaling is present, only vocational training should be funded. — Mixed mechanisms do not negate social returns; policy focuses on learning, access, and efficient financing.",
+        "Signaling implies that taxes on education would increase efficiency. — Mixed mechanisms do not negate social returns; policy focuses on learning, access, and efficient financing.",
         "If signaling exists, education spending has zero social return."
       ]
     },
@@ -2264,8 +2264,8 @@
       ],
       "explanation": "Improving correlation and providing public backstops reduces underinsurance for vulnerable households.",
       "distractors": [
-        "Mandate that all payouts be equal regardless of losses.",
-        "Eliminate reinsurance so insurers have incentives to monitor fields closely.",
+        "Mandate that all payouts be equal regardless of losses. — Improving correlation and providing public backstops reduces underinsurance for vulnerable households.",
+        "Eliminate reinsurance so insurers have incentives to monitor fields closely. — Improving correlation and providing public backstops reduces underinsurance for vulnerable households.",
         "Require farmers to buy insurance even when correlations are weak."
       ]
     },
@@ -2279,8 +2279,8 @@
       ],
       "explanation": "Credible decommissioning mechanisms and worker/place support preserve political feasibility and efficiency.",
       "distractors": [
-        "Mandate immediate shutdowns without compensation or planning.",
-        "Nationalize all assets permanently and continue operations indefinitely.",
+        "Mandate immediate shutdowns without compensation or planning. — Credible decommissioning mechanisms and worker/place support preserve political feasibility and efficiency.",
+        "Nationalize all assets permanently and continue operations indefinitely. — Credible decommissioning mechanisms and worker/place support preserve political feasibility and efficiency.",
         "Offer perpetual subsidies to keep plants operating at low load factors."
       ]
     },
@@ -2294,8 +2294,8 @@
       ],
       "explanation": "Trustworthy data use combines technical safeguards, legal protections, and transparency about results.",
       "distractors": [
-        "Link datasets without consent to maximize predictive power.",
-        "Share raw personal data with all agencies to reduce duplication.",
+        "Link datasets without consent to maximize predictive power. — Trustworthy data use combines technical safeguards, legal protections, and transparency about results.",
+        "Share raw personal data with all agencies to reduce duplication. — Trustworthy data use combines technical safeguards, legal protections, and transparency about results.",
         "Rely only on surveys to avoid any data risks."
       ]
     },
@@ -2309,8 +2309,8 @@
       ],
       "explanation": "TFP absorbs technology and efficiency; policy can shift it through better allocation and capabilities.",
       "distractors": [
-        "It is entirely noise from survey error and can be ignored in policy.",
-        "It proves that capital is mismeasured and must be doubled in the accounts.",
+        "It is entirely noise from survey error and can be ignored in policy. — TFP absorbs technology and efficiency; policy can shift it through better allocation and capabilities.",
+        "It proves that capital is mismeasured and must be doubled in the accounts. — TFP absorbs technology and efficiency; policy can shift it through better allocation and capabilities.",
         "It is driven only by trade openness and not by domestic institutions."
       ]
     },
@@ -2324,9 +2324,9 @@
       ],
       "explanation": "The r > g mechanism is about the after-tax return. Practical administration and avoidance elasticities favor robust capital-income taxation over small stand-alone wealth levies for sustained incidence.",
       "distractors": [
-        "Neither option affects wealth concentration because r − g is purely technological.",
-        "Option A, but only if paired with blanket investment bans for high-net-worth households.",
-        "Option A, because a wealth tax necessarily eliminates r − g and has no behavioral responses."
+        "Neither option affects wealth concentration because r − g is purely technological. — The r > g mechanism is about the after-tax return — The r > g mechanism is about the after-tax return",
+        "Option A, but only if paired with blanket investment bans for high-net-worth households. — The r > g mechanism is about the after-tax return — The r > g mechanism is about the after-tax return",
+        "Option A, because a wealth tax necessarily eliminates r − g and has no behavioral responses. — The r > g mechanism is about the after-tax return"
       ]
     },
     {
@@ -2339,9 +2339,9 @@
       ],
       "explanation": "Noisy signals plus low mobility raise equity costs; design can mitigate them.",
       "distractors": [
-        "Equity concerns vanish if class sizes are small.",
-        "Tracking always raises average scores by specialization.",
-        "Tracking is irrelevant once national exams exist."
+        "Equity concerns vanish if class sizes are small. — Noisy signals plus low mobility raise equity costs; design can mitigate them. — Noisy signals plus low mobility raise equity costs; design can mitigate them.",
+        "Tracking always raises average scores by specialization. — Noisy signals plus low mobility raise equity costs; design can mitigate them. — Noisy signals plus low mobility raise equity costs; design can mitigate them.",
+        "Tracking is irrelevant once national exams exist. — Noisy signals plus low mobility raise equity costs; design can mitigate them."
       ]
     },
     {
@@ -2354,9 +2354,9 @@
       ],
       "explanation": "Accessibility and earnings are first-order. Peripheral relocation without transport often lowers effective incomes despite better units.",
       "distractors": [
-        "Option Y, because distance does not matter when housing quality rises.",
-        "Option Y, because new units always dominate on quality metrics regardless of location frictions.",
-        "Either option, since both spend the same budget and therefore have equal welfare."
+        "Option Y, because distance does not matter when housing quality rises. — Accessibility and earnings are first-order — Accessibility and earnings are first-order",
+        "Option Y, because new units always dominate on quality metrics regardless of location frictions. — Accessibility and earnings are first-order — Accessibility and earnings are first-order",
+        "Either option, since both spend the same budget and therefore have equal welfare. — Accessibility and earnings are first-order — Accessibility and earnings are first-order"
       ]
     },
     {
@@ -2369,8 +2369,8 @@
       ],
       "explanation": "Dynamic poverty and informality make exclusion errors salient; process design is key.",
       "distractors": [
-        "Registries eliminate the need for appeals or audits.",
-        "Errors of inclusion cannot occur if proxy means tests are used.",
+        "Registries eliminate the need for appeals or audits. — Dynamic poverty and informality make exclusion errors salient; process design is key.",
+        "Errors of inclusion cannot occur if proxy means tests are used. — Dynamic poverty and informality make exclusion errors salient; process design is key.",
         "Too many people apply, which is always a waste of funds."
       ]
     },
@@ -2384,8 +2384,8 @@
       ],
       "explanation": "AF combines who is poor and how poor across dimensions and is decomposable.",
       "distractors": [
-        "It is a purely ordinal tool with no decomposability.",
-        "It is identical to the headcount ratio but for consumption only.",
+        "It is a purely ordinal tool with no decomposability. — AF combines who is poor and how poor across dimensions and is decomposable.",
+        "It is identical to the headcount ratio but for consumption only. — AF combines who is poor and how poor across dimensions and is decomposable.",
         "It replaces income poverty entirely and cannot be used with it."
       ]
     },
@@ -2399,9 +2399,9 @@
       ],
       "explanation": "Nudges and commitment devices can respect autonomy and improve choices.",
       "distractors": [
-        "Replace all cash with in-kind goods.",
-        "Ban marketing and disclosure to avoid overload.",
-        "Raise fines for non-participation in voluntary programs."
+        "Replace all cash with in-kind goods. — Nudges and commitment devices can respect autonomy and improve choices.",
+        "Ban marketing and disclosure to avoid overload. — Nudges and commitment devices can respect autonomy and improve choices.",
+        "Raise fines for non-participation in voluntary programs. — Nudges and commitment devices can respect autonomy and improve choices."
       ]
     },
     {
@@ -2414,9 +2414,9 @@
       ],
       "explanation": "Pass-through and balance-sheet channels interact with MPC heterogeneity.",
       "distractors": [
-        "Because depreciation always lowers exports.",
-        "Because wages are indexed one-for-one to the exchange rate.",
-        "Because depreciation eliminates automatic stabilizers."
+        "Because depreciation always lowers exports. — Pass-through and balance-sheet channels interact with MPC heterogeneity. — Pass-through and balance-sheet channels interact with MPC heterogeneity.",
+        "Because wages are indexed one-for-one to the exchange rate. — Pass-through and balance-sheet channels interact with MPC heterogeneity. — Pass-through and balance-sheet channels interact with MPC heterogeneity.",
+        "Because depreciation eliminates automatic stabilizers. — Pass-through and balance-sheet channels interact with MPC heterogeneity."
       ]
     },
     {
@@ -2429,8 +2429,8 @@
       ],
       "explanation": "Joint taxation often creates high participation wedges for second earners; targeted credits or individual filing shift the intensive margin with limited revenue loss.",
       "distractors": [
-        "Offer a one-time hiring bonus to the employer and keep joint taxation unchanged.",
-        "Lower the top rate for high earners across the economy.",
+        "Offer a one-time hiring bonus to the employer and keep joint taxation unchanged. — Joint taxation often creates high participation wedges for second earners; targeted credits or individual filing shift...",
+        "Lower the top rate for high earners across the economy. — Joint taxation often creates high participation wedges for second earners; targeted credits or individual filing shift...",
         "Ban part-time work to encourage full-time attachment."
       ]
     },
@@ -2444,8 +2444,8 @@
       ],
       "explanation": "Blending helps where externalities and risk deter private capital, but institutions matter.",
       "distractors": [
-        "It guarantees market-rate funding for all projects without subsidies.",
-        "It eliminates the need for project appraisal.",
+        "It guarantees market-rate funding for all projects without subsidies. — Blending helps where externalities and risk deter private capital, but institutions matter.",
+        "It eliminates the need for project appraisal. — Blending helps where externalities and risk deter private capital, but institutions matter.",
         "It works only for mitigation, never for adaptation."
       ]
     },
@@ -2459,9 +2459,9 @@
       ],
       "explanation": "CACs ease orderly workouts and deter disruptive holdouts.",
       "distractors": [
-        "Exempt sovereigns from disclosure rules.",
-        "Guarantee that defaults cannot occur.",
-        "Lower the interest rate by law in all future contracts."
+        "Exempt sovereigns from disclosure rules. — CACs ease orderly workouts and deter disruptive holdouts. — CACs ease orderly workouts and deter disruptive holdouts.",
+        "Guarantee that defaults cannot occur. — CACs ease orderly workouts and deter disruptive holdouts.",
+        "Lower the interest rate by law in all future contracts. — CACs ease orderly workouts and deter disruptive holdouts."
       ]
     },
     {
@@ -2474,8 +2474,8 @@
       ],
       "explanation": "Rules and independence address dynamic inconsistency and improve anchors.",
       "distractors": [
-        "Frequent discretionary fiscal packages with no rules.",
-        "Politicized credit allocation to favor targeted sectors.",
+        "Frequent discretionary fiscal packages with no rules. — Rules and independence address dynamic inconsistency and improve anchors.",
+        "Politicized credit allocation to favor targeted sectors. — Rules and independence address dynamic inconsistency and improve anchors.",
         "Fixed exchange rates backed by secret reserves."
       ]
     },
@@ -2489,9 +2489,9 @@
       ],
       "explanation": "Tail sensitivity can inform distribution-focused policy choices.",
       "distractors": [
-        "It cannot be computed from survey data.",
-        "It measures poverty rather than inequality.",
-        "It equals the Gini squared and is redundant."
+        "It cannot be computed from survey data. — Tail sensitivity can inform distribution-focused policy choices. — Tail sensitivity can inform distribution-focused policy choices.",
+        "It measures poverty rather than inequality. — Tail sensitivity can inform distribution-focused policy choices. — Tail sensitivity can inform distribution-focused policy choices.",
+        "It equals the Gini squared and is redundant. — Tail sensitivity can inform distribution-focused policy choices."
       ]
     },
     {
@@ -2504,8 +2504,8 @@
       ],
       "explanation": "Lower transaction costs and reach improve risk sharing and savings access.",
       "distractors": [
-        "No change in financial behavior but higher inflation.",
-        "A collapse in informal risk-sharing networks with no benefits.",
+        "No change in financial behavior but higher inflation. — Lower transaction costs and reach improve risk sharing and savings access.",
+        "A collapse in informal risk-sharing networks with no benefits. — Lower transaction costs and reach improve risk sharing and savings access.",
         "Lower savings and higher volatility of consumption."
       ]
     },
@@ -2519,8 +2519,8 @@
       ],
       "explanation": "Aligning tenure with risk management avoids locking households into exposure.",
       "distractors": [
-        "Immediate demolition without alternatives.",
-        "Credit subsidies to build in place regardless of hazard.",
+        "Immediate demolition without alternatives. — Aligning tenure with risk management avoids locking households into exposure.",
+        "Credit subsidies to build in place regardless of hazard. — Aligning tenure with risk management avoids locking households into exposure.",
         "Full titling first, then infrastructure later."
       ]
     },
@@ -2534,8 +2534,8 @@
       ],
       "explanation": "Overcoming information and network gaps is cheaper and more effective than blunt subsidies.",
       "distractors": [
-        "Across-the-board export subsidies tied to domestic content.",
-        "Permanent tariff rebates on all inputs regardless of export status.",
+        "Across-the-board export subsidies tied to domestic content. — Overcoming information and network gaps is cheaper and more effective than blunt subsidies.",
+        "Permanent tariff rebates on all inputs regardless of export status. — Overcoming information and network gaps is cheaper and more effective than blunt subsidies.",
         "Foreign-exchange rationing to prioritize exporters."
       ]
     },
@@ -2549,9 +2549,9 @@
       ],
       "explanation": "Evidence points to modest average wage impacts with distribution shaped by complementarities and local constraints; incidence on housing can dominate.",
       "distractors": [
-        "Large permanent wage losses for all natives because supply expands.",
-        "Uniform wage gains because immigrants only complement natives.",
-        "Wages rise immediately in all occupations due to agglomeration alone."
+        "Large permanent wage losses for all natives because supply expands. — Evidence points to modest average wage impacts with distribution shaped by complementarities and local constraints;... — Evidence points to modest average wage impacts with distribution shaped by complementarities and local constraints;...",
+        "Uniform wage gains because immigrants only complement natives. — Evidence points to modest average wage impacts with distribution shaped by complementarities and local constraints;... — Evidence points to modest average wage impacts with distribution shaped by complementarities and local constraints;...",
+        "Wages rise immediately in all occupations due to agglomeration alone. — Evidence points to modest average wage impacts with distribution shaped by complementarities and local constraints;..."
       ]
     },
     {
@@ -2564,8 +2564,8 @@
       ],
       "explanation": "Hybrid designs trade off cost certainty and environmental certainty.",
       "distractors": [
-        "It eliminates the need for monitoring emissions.",
-        "It guarantees revenues will rise each year.",
+        "It eliminates the need for monitoring emissions. — Hybrid designs trade off cost certainty and environmental certainty.",
+        "It guarantees revenues will rise each year. — Hybrid designs trade off cost certainty and environmental certainty.",
         "It fixes emissions and prices exactly at the same time."
       ]
     },
@@ -2579,9 +2579,9 @@
       ],
       "explanation": "Different layers handle different return periods; prevention complements transfers.",
       "distractors": [
-        "Use only in-kind food aid after shocks.",
-        "Insurance alone is sufficient for catastrophic droughts.",
-        "Rely on credit markets to self-insure households."
+        "Use only in-kind food aid after shocks. — Different layers handle different return periods; prevention complements transfers. — Different layers handle different return periods; prevention complements transfers.",
+        "Insurance alone is sufficient for catastrophic droughts. — Different layers handle different return periods; prevention complements transfers. — Different layers handle different return periods; prevention complements transfers.",
+        "Rely on credit markets to self-insure households. — Different layers handle different return periods; prevention complements transfers."
       ]
     },
     {
@@ -2594,9 +2594,9 @@
       ],
       "explanation": "Autonomy with accountability raises efficiency and service quality.",
       "distractors": [
-        "Political appointment of managers without performance contracts.",
-        "Unlimited subsidies to guarantee universal access.",
-        "Full ministerial micromanagement of daily operations."
+        "Political appointment of managers without performance contracts. — Autonomy with accountability raises efficiency and service quality. — Autonomy with accountability raises efficiency and service quality.",
+        "Unlimited subsidies to guarantee universal access. — Autonomy with accountability raises efficiency and service quality. — Autonomy with accountability raises efficiency and service quality.",
+        "Full ministerial micromanagement of daily operations. — Autonomy with accountability raises efficiency and service quality."
       ]
     },
     {
@@ -2609,8 +2609,8 @@
       ],
       "explanation": "Pooling catastrophic risks prevents the sale of high-productivity assets and protects long-run earnings.",
       "distractors": [
-        "Universal fee waivers for all households regardless of income.",
-        "Microcredit at market rates earmarked to medical expenses only.",
+        "Universal fee waivers for all households regardless of income. — Pooling catastrophic risks prevents the sale of high-productivity assets and protects long-run earnings.",
+        "Microcredit at market rates earmarked to medical expenses only. — Pooling catastrophic risks prevents the sale of high-productivity assets and protects long-run earnings.",
         "A one-time unconditional cash transfer equal to the shock, with no insurance reform."
       ]
     },
@@ -2624,9 +2624,9 @@
       ],
       "explanation": "Different mechanisms imply different mixes of enforcement and information policy.",
       "distractors": [
-        "Statistical discrimination is illegal while taste-based is not.",
-        "They are identical; policy cannot distinguish them.",
-        "Only taste-based discrimination affects employment."
+        "Statistical discrimination is illegal while taste-based is not. — Different mechanisms imply different mixes of enforcement and information policy. — Different mechanisms imply different mixes of enforcement and information policy.",
+        "They are identical; policy cannot distinguish them. — Different mechanisms imply different mixes of enforcement and information policy. — Different mechanisms imply different mixes of enforcement and information policy.",
+        "Only taste-based discrimination affects employment. — Different mechanisms imply different mixes of enforcement and information policy."
       ]
     },
     {
@@ -2639,9 +2639,9 @@
       ],
       "explanation": "Task complementarity and diffusion shape incidence; policy can broaden benefits.",
       "distractors": [
-        "Uniform wage gains across the entire distribution.",
-        "AI reduces productivity so wages fall for everyone.",
-        "Immediate elimination of all low-skill jobs with no offset."
+        "Uniform wage gains across the entire distribution. — Task complementarity and diffusion shape incidence; policy can broaden benefits. — Task complementarity and diffusion shape incidence; policy can broaden benefits.",
+        "AI reduces productivity so wages fall for everyone. — Task complementarity and diffusion shape incidence; policy can broaden benefits. — Task complementarity and diffusion shape incidence; policy can broaden benefits.",
+        "Immediate elimination of all low-skill jobs with no offset. — Task complementarity and diffusion shape incidence; policy can broaden benefits."
       ]
     },
     {
@@ -2654,9 +2654,9 @@
       ],
       "explanation": "Design must respect heterogeneity in liquidity needs and preferences.",
       "distractors": [
-        "Defaults work only for high-income workers.",
-        "Default effects are permanent and cannot backfire.",
-        "Auto-enrollment eliminates the need for consumer protection."
+        "Defaults work only for high-income workers. — Design must respect heterogeneity in liquidity needs and preferences. — Design must respect heterogeneity in liquidity needs and preferences.",
+        "Default effects are permanent and cannot backfire. — Design must respect heterogeneity in liquidity needs and preferences. — Design must respect heterogeneity in liquidity needs and preferences.",
+        "Auto-enrollment eliminates the need for consumer protection. — Design must respect heterogeneity in liquidity needs and preferences."
       ]
     },
     {
@@ -2669,9 +2669,9 @@
       ],
       "explanation": "Violations of SUTVA require designs that identify and account for interference.",
       "distractors": [
-        "Interference is identical to measurement error and can be ignored.",
-        "Clustering makes standard errors too small by definition.",
-        "There is no risk; SUTVA never fails at the cluster level."
+        "Interference is identical to measurement error and can be ignored. — Violations of SUTVA require designs that identify and account for interference. — Violations of SUTVA require designs that identify and account for interference.",
+        "Clustering makes standard errors too small by definition. — Violations of SUTVA require designs that identify and account for interference. — Violations of SUTVA require designs that identify and account for interference.",
+        "There is no risk; SUTVA never fails at the cluster level. — Violations of SUTVA require designs that identify and account for interference."
       ]
     },
     {
@@ -2684,8 +2684,8 @@
       ],
       "explanation": "As a second-best, temporary undervaluation can target externalities, but it is not a free lunch and carries macro and political costs.",
       "distractors": [
-        "Undervaluation eliminates the need for export logistics because price signals dominate infrastructure gaps.",
-        "It uniformly raises all sectors’ productivity by making domestic inputs cheaper in real terms, so it is first best.",
+        "Undervaluation eliminates the need for export logistics because price signals dominate infrastructure gaps. — As a second-best, temporary undervaluation can target externalities, but it is not a free lunch and carries macro and...",
+        "It uniformly raises all sectors’ productivity by making domestic inputs cheaper in real terms, so it is first best. — As a second-best, temporary undervaluation can target externalities, but it is not a free lunch and carries macro and...",
         "It guarantees permanent current-account surpluses even when fiscal deficits are large."
       ]
     },
@@ -2699,8 +2699,8 @@
       ],
       "explanation": "Efficient risk transfer plus fiscal transparency prevents moral hazard and surprise burdens on the state.",
       "distractors": [
-        "Assign all risks to the private partner to maximize incentives, regardless of who controls them.",
-        "Use off–balance sheet treatment to hide fiscal commitments so projects appear cheaper.",
+        "Assign all risks to the private partner to maximize incentives, regardless of who controls them. — Efficient risk transfer plus fiscal transparency prevents moral hazard and surprise burdens on the state.",
+        "Use off–balance sheet treatment to hide fiscal commitments so projects appear cheaper. — Efficient risk transfer plus fiscal transparency prevents moral hazard and surprise burdens on the state.",
         "Keep all demand risk on the public balance sheet to reduce user charges in every case."
       ]
     },
@@ -2714,9 +2714,9 @@
       ],
       "explanation": "Design and revenue use determine distributional outcomes for efficient instruments.",
       "distractors": [
-        "Pricing is unnecessary because new roads eliminate congestion permanently.",
-        "It is efficient but always regressive, so it should not be used.",
-        "It should be applied only at night to avoid burdening commuters."
+        "Pricing is unnecessary because new roads eliminate congestion permanently. — Design and revenue use determine distributional outcomes for efficient instruments. — Design and revenue use determine distributional outcomes for efficient instruments.",
+        "It is efficient but always regressive, so it should not be used. — Design and revenue use determine distributional outcomes for efficient instruments. — Design and revenue use determine distributional outcomes for efficient instruments.",
+        "It should be applied only at night to avoid burdening commuters. — Design and revenue use determine distributional outcomes for efficient instruments."
       ]
     },
     {
@@ -2729,8 +2729,8 @@
       ],
       "explanation": "Remote sensing complements, but does not replace, conventional statistics and needs context-specific correction.",
       "distractors": [
-        "They remove the need for national accounts once satellite data are available.",
-        "They are superior to firm surveys in all sectors, including agriculture.",
+        "They remove the need for national accounts once satellite data are available. — Remote sensing complements, but does not replace, conventional statistics and needs context-specific correction.",
+        "They are superior to firm surveys in all sectors, including agriculture. — Remote sensing complements, but does not replace, conventional statistics and needs context-specific correction.",
         "Night lights directly measure productivity, so no calibration is needed."
       ]
     },
@@ -2744,8 +2744,8 @@
       ],
       "explanation": "Design features address complementarities and strategic behavior to allocate scarce spectrum efficiently.",
       "distractors": [
-        "They eliminate the need for competition policy in telecommunications.",
-        "They minimize collusion by revealing complete information on bidders’ identities in real time.",
+        "They eliminate the need for competition policy in telecommunications. — Design features address complementarities and strategic behavior to allocate scarce spectrum efficiently.",
+        "They minimize collusion by revealing complete information on bidders’ identities in real time. — Design features address complementarities and strategic behavior to allocate scarce spectrum efficiently.",
         "They guarantee the lowest possible prices for consumers by capping bids."
       ]
     },
@@ -2759,8 +2759,8 @@
       ],
       "explanation": "Leakage falls when incentives are aligned on both borders and production technologies evolve.",
       "distractors": [
-        "Permanent exemptions for all energy-intensive trade-exposed sectors.",
-        "Banning imports from countries without identical carbon policies regardless of WTO rules.",
+        "Permanent exemptions for all energy-intensive trade-exposed sectors. — Leakage falls when incentives are aligned on both borders and production technologies evolve.",
+        "Banning imports from countries without identical carbon policies regardless of WTO rules. — Leakage falls when incentives are aligned on both borders and production technologies evolve.",
         "Setting a lower carbon price for exporters and a higher one for import-competing firms."
       ]
     },
@@ -2774,8 +2774,8 @@
       ],
       "explanation": "Sterilized intervention is not free; balance-sheet risks matter for sustainability and expectations.",
       "distractors": [
-        "They have no costs because sterilization perfectly offsets money growth.",
-        "They guarantee lower inflation by definition, independent of fiscal policy.",
+        "They have no costs because sterilization perfectly offsets money growth. — Sterilized intervention is not free; balance-sheet risks matter for sustainability and expectations.",
+        "They guarantee lower inflation by definition, independent of fiscal policy. — Sterilized intervention is not free; balance-sheet risks matter for sustainability and expectations.",
         "They eliminate currency mismatches on private balance sheets automatically."
       ]
     },
@@ -2789,8 +2789,8 @@
       ],
       "explanation": "Export zero-rating without timely refunds undermines neutrality and harms liquidity-constrained firms.",
       "distractors": [
-        "They signal favoritism toward large firms, which increases FDI flows.",
-        "They allow the state to accumulate arrears that function like short-term debt.",
+        "They signal favoritism toward large firms, which increases FDI flows. — Export zero-rating without timely refunds undermines neutrality and harms liquidity-constrained firms.",
+        "They allow the state to accumulate arrears that function like short-term debt. — Export zero-rating without timely refunds undermines neutrality and harms liquidity-constrained firms.",
         "Refunds lower the VAT rate on domestic sales, boosting consumption."
       ]
     },
@@ -2804,8 +2804,8 @@
       ],
       "explanation": "Credible identification must address selection into treatment and dynamic trends.",
       "distractors": [
-        "Cross-sectional regressions of productivity levels on distance to the highway.",
-        "Matching treated firms to controls on observable size and sector alone.",
+        "Cross-sectional regressions of productivity levels on distance to the highway. — Credible identification must address selection into treatment and dynamic trends.",
+        "Matching treated firms to controls on observable size and sector alone. — Credible identification must address selection into treatment and dynamic trends.",
         "Before–after comparisons in treated corridors only."
       ]
     },
@@ -2819,9 +2819,9 @@
       ],
       "explanation": "Targeted conduct rules can preserve contestability while respecting scale advantages.",
       "distractors": [
-        "Rely exclusively on ex post antitrust litigation and avoid any ex ante rules.",
-        "Prohibit acquisitions by platforms under any circumstances.",
-        "Set uniform price caps on all platform services regardless of cost."
+        "Rely exclusively on ex post antitrust litigation and avoid any ex ante rules. — Targeted conduct rules can preserve contestability while respecting scale advantages. — Targeted conduct rules can preserve contestability while respecting scale advantages.",
+        "Prohibit acquisitions by platforms under any circumstances. — Targeted conduct rules can preserve contestability while respecting scale advantages. — Targeted conduct rules can preserve contestability while respecting scale advantages.",
+        "Set uniform price caps on all platform services regardless of cost. — Targeted conduct rules can preserve contestability while respecting scale advantages."
       ]
     },
     {
@@ -2834,9 +2834,9 @@
       ],
       "explanation": "Rules and transparency reduce substitution and align domestic and external resources.",
       "distractors": [
-        "When debt levels are low; fungibility is then irrelevant.",
-        "When donors finance discrete projects with separate accounts; additionality is automatic.",
-        "When aid is on-budget; integration eliminates all governance concerns."
+        "When debt levels are low; fungibility is then irrelevant. — Rules and transparency reduce substitution and align domestic and external resources. — Rules and transparency reduce substitution and align domestic and external resources.",
+        "When donors finance discrete projects with separate accounts; additionality is automatic. — Rules and transparency reduce substitution and align domestic and external resources. — Rules and transparency reduce substitution and align domestic and external resources.",
+        "When aid is on-budget; integration eliminates all governance concerns. — Rules and transparency reduce substitution and align domestic and external resources."
       ]
     },
     {
@@ -2849,8 +2849,8 @@
       ],
       "explanation": "State contingency shares risk with investors and can protect core programs during downturns.",
       "distractors": [
-        "It prevents exchange-rate risk on all liabilities.",
-        "It lowers borrowing costs in all states of the world by fixing coupons.",
+        "It prevents exchange-rate risk on all liabilities. — State contingency shares risk with investors and can protect core programs during downturns.",
+        "It lowers borrowing costs in all states of the world by fixing coupons. — State contingency shares risk with investors and can protect core programs during downturns.",
         "It eliminates the need for debt sustainability analysis."
       ]
     },
@@ -2864,8 +2864,8 @@
       ],
       "explanation": "Technology is a complement to pedagogy and teacher support, not a substitute.",
       "distractors": [
-        "Device provision without curriculum integration to maximize autonomy.",
-        "Eliminating teacher training to avoid crowding out technology.",
+        "Device provision without curriculum integration to maximize autonomy. — Technology is a complement to pedagogy and teacher support, not a substitute.",
+        "Eliminating teacher training to avoid crowding out technology. — Technology is a complement to pedagogy and teacher support, not a substitute.",
         "Using the same content for all grades to standardize delivery."
       ]
     },
@@ -2879,9 +2879,9 @@
       ],
       "explanation": "Dynamic spillovers justify time-bound deployment support alongside pricing.",
       "distractors": [
-        "They eliminate the need for carbon pricing once learning begins.",
-        "They imply unit costs rise with cumulative output, so front-loading deployment is harmful.",
-        "They show that only R&D matters and deployment policies are wasteful."
+        "They eliminate the need for carbon pricing once learning begins. — Dynamic spillovers justify time-bound deployment support alongside pricing. — Dynamic spillovers justify time-bound deployment support alongside pricing.",
+        "They imply unit costs rise with cumulative output, so front-loading deployment is harmful. — Dynamic spillovers justify time-bound deployment support alongside pricing.",
+        "They show that only R&D matters and deployment policies are wasteful. — Dynamic spillovers justify time-bound deployment support alongside pricing."
       ]
     },
     {
@@ -2894,8 +2894,8 @@
       ],
       "explanation": "With heterogeneous MPCs, distribution of transfers matters for multipliers even at equal aggregate cost.",
       "distractors": [
-        "B, because universal programs always dominate by covering everyone.",
-        "B, because universality reduces stigma and therefore doubles MPCs.",
+        "B, because universal programs always dominate by covering everyone. — With heterogeneous MPCs, distribution of transfers matters for multipliers even at equal aggregate cost.",
+        "B, because universality reduces stigma and therefore doubles MPCs. — With heterogeneous MPCs, distribution of transfers matters for multipliers even at equal aggregate cost.",
         "Either A or B, because the total outlay is identical so the impulse is identical."
       ]
     },
@@ -2909,9 +2909,9 @@
       ],
       "explanation": "Errors-in-variables attenuate; omitted ability can bias up or down; IV and twins studies address these.",
       "distractors": [
-        "Using logs of wages instead of levels.",
-        "Transitory earnings shocks that inflate variance in wages.",
-        "Heteroskedasticity that raises standard errors but not bias."
+        "Using logs of wages instead of levels. — Errors-in-variables attenuate; omitted ability can bias up or down; IV and twins studies address these. — Errors-in-variables attenuate; omitted ability can bias up or down; IV and twins studies address these.",
+        "Transitory earnings shocks that inflate variance in wages. — Errors-in-variables attenuate; omitted ability can bias up or down; IV and twins studies address these. — Errors-in-variables attenuate; omitted ability can bias up or down; IV and twins studies address these.",
+        "Heteroskedasticity that raises standard errors but not bias. — Errors-in-variables attenuate; omitted ability can bias up or down; IV and twins studies address these."
       ]
     },
     {
@@ -2924,8 +2924,8 @@
       ],
       "explanation": "City fundamentals, not blanket subsidies, drive sustainable formalization and employment.",
       "distractors": [
-        "Uniform national wage floors regardless of local productivity.",
-        "Strict height limits to preserve character and disperse activity.",
+        "Uniform national wage floors regardless of local productivity. — City fundamentals, not blanket subsidies, drive sustainable formalization and employment.",
+        "Strict height limits to preserve character and disperse activity. — City fundamentals, not blanket subsidies, drive sustainable formalization and employment.",
         "Large unconditional subsidies to any firm that relocates from the capital."
       ]
     },
@@ -2939,8 +2939,8 @@
       ],
       "explanation": "Information can move margins, but durable change requires complementary constraints to be eased.",
       "distractors": [
-        "They are guaranteed to backfire due to reactance in all settings.",
-        "They are cosmetic; norms never influence labor supply.",
+        "They are guaranteed to backfire due to reactance in all settings. — Information can move margins, but durable change requires complementary constraints to be eased.",
+        "They are cosmetic; norms never influence labor supply. — Information can move margins, but durable change requires complementary constraints to be eased.",
         "They fully substitute for childcare and transport infrastructure."
       ]
     },
@@ -2954,9 +2954,9 @@
       ],
       "explanation": "Stemming financial panic and sequencing adjustment can limit scarring and preserve inclusion.",
       "distractors": [
-        "Immediate fiscal austerity across the board without addressing banks.",
-        "Fix the exchange rate and close credit lines to prevent capital outflows.",
-        "Default on domestic-currency debt first to demonstrate resolve."
+        "Immediate fiscal austerity across the board without addressing banks. — Stemming financial panic and sequencing adjustment can limit scarring and preserve inclusion. — Stemming financial panic and sequencing adjustment can limit scarring and preserve inclusion.",
+        "Fix the exchange rate and close credit lines to prevent capital outflows. — Stemming financial panic and sequencing adjustment can limit scarring and preserve inclusion. — Stemming financial panic and sequencing adjustment can limit scarring and preserve inclusion.",
+        "Default on domestic-currency debt first to demonstrate resolve. — Stemming financial panic and sequencing adjustment can limit scarring and preserve inclusion."
       ]
     },
     {
@@ -2969,8 +2969,8 @@
       ],
       "explanation": "Land is inelastic in supply; LVT can raise revenue with minimal efficiency costs if valuations are credible.",
       "distractors": [
-        "Because improvements are taxed heavily, discouraging investment.",
-        "Because it is easier to administer than any other tax without valuation challenges.",
+        "Because improvements are taxed heavily, discouraging investment. — Land is inelastic in supply; LVT can raise revenue with minimal efficiency costs if valuations are credible.",
+        "Because it is easier to administer than any other tax without valuation challenges. — Land is inelastic in supply; LVT can raise revenue with minimal efficiency costs if valuations are credible.",
         "Because it automatically redistributes income across households by formula."
       ]
     },
@@ -2984,8 +2984,8 @@
       ],
       "explanation": "Distribution of exposure matters even when averages improve; policy should address spatial inequities.",
       "distractors": [
-        "Exposure is random across space and income groups once average pollution falls.",
-        "Once GDP per capita rises, exposure disparities vanish automatically.",
+        "Exposure is random across space and income groups once average pollution falls. — Distribution of exposure matters even when averages improve; policy should address spatial inequities.",
+        "Once GDP per capita rises, exposure disparities vanish automatically. — Distribution of exposure matters even when averages improve; policy should address spatial inequities.",
         "Only rural areas are affected, so urban policy is irrelevant."
       ]
     },
@@ -2999,8 +2999,8 @@
       ],
       "explanation": "Foundational systems and transparency raise usability and trust while enabling evidence-based policy.",
       "distractors": [
-        "Launch many uncoordinated surveys to increase data volume.",
-        "Rely solely on private data vendors to cut costs.",
+        "Launch many uncoordinated surveys to increase data volume. — Foundational systems and transparency raise usability and trust while enabling evidence-based policy.",
+        "Rely solely on private data vendors to cut costs. — Foundational systems and transparency raise usability and trust while enabling evidence-based policy.",
         "Keep microdata closed to researchers to protect confidentiality at all costs."
       ]
     },
@@ -3014,8 +3014,8 @@
       ],
       "explanation": "Price stability is distributionally relevant; independence supports credible low and stable inflation.",
       "distractors": [
-        "By fixing the exchange rate, which redistributes toward exporters.",
-        "By setting progressive tax policy via monetary instruments.",
+        "By fixing the exchange rate, which redistributes toward exporters. — Price stability is distributionally relevant; independence supports credible low and stable inflation.",
+        "By setting progressive tax policy via monetary instruments. — Price stability is distributionally relevant; independence supports credible low and stable inflation.",
         "By guaranteeing high growth through credit allocation to SMEs."
       ]
     },
@@ -3029,8 +3029,8 @@
       ],
       "explanation": "Integration hinges on reducing information and skills frictions and ensuring access to opportunity-enabling services.",
       "distractors": [
-        "Restrict internal mobility to avoid competition in high-wage cities.",
-        "Offer only cash benefits without labor-market services.",
+        "Restrict internal mobility to avoid competition in high-wage cities. — Integration hinges on reducing information and skills frictions and ensuring access to opportunity-enabling services.",
+        "Offer only cash benefits without labor-market services. — Integration hinges on reducing information and skills frictions and ensuring access to opportunity-enabling services.",
         "Mandate that all employers hire migrants at a discount to natives."
       ]
     },
@@ -3044,9 +3044,9 @@
       ],
       "explanation": "Incentives require careful metric design and complementary management practices to avoid perverse effects.",
       "distractors": [
-        "It always fails because public servants are intrinsically motivated and cannot respond to incentives.",
-        "It works only if bonuses are extremely large and permanent.",
-        "It is unnecessary when budgets rise, because more inputs guarantee better outcomes."
+        "It always fails because public servants are intrinsically motivated and cannot respond to incentives. — Incentives require careful metric design and complementary management practices to avoid perverse effects.",
+        "It works only if bonuses are extremely large and permanent. — Incentives require careful metric design and complementary management practices to avoid perverse effects.",
+        "It is unnecessary when budgets rise, because more inputs guarantee better outcomes. — Incentives require careful metric design and complementary management practices to avoid perverse effects."
       ]
     },
     {
@@ -3059,8 +3059,8 @@
       ],
       "explanation": "Supply shocks call for tempered monetary response to avoid unnecessary output losses; distributional cushioning is better handled by fiscal tools.",
       "distractors": [
-        "Suspend the inflation target until global prices normalize.",
-        "Peg the currency to the dollar to eliminate imported inflation permanently.",
+        "Suspend the inflation target until global prices normalize. — Supply shocks call for tempered monetary response to avoid unnecessary output losses; distributional cushioning is...",
+        "Peg the currency to the dollar to eliminate imported inflation permanently. — Supply shocks call for tempered monetary response to avoid unnecessary output losses; distributional cushioning is...",
         "Tighten policy aggressively to bring headline inflation back to target within one quarter regardless of output costs."
       ]
     },
@@ -3074,8 +3074,8 @@
       ],
       "explanation": "Inclusive appraisal recognizes distribution, reliability, and agglomeration; EIRR and equity can outweigh small NPV differences.",
       "distractors": [
-        "Project A, because freight time savings always dominate passenger benefits.",
-        "Either, since NPV and EIRR conflict and therefore neither is valid.",
+        "Project A, because freight time savings always dominate passenger benefits. — Inclusive appraisal recognizes distribution, reliability, and agglomeration; EIRR and equity can outweigh small NPV...",
+        "Either, since NPV and EIRR conflict and therefore neither is valid. — Inclusive appraisal recognizes distribution, reliability, and agglomeration; EIRR and equity can outweigh small NPV...",
         "Project A, because the NPV is higher regardless of distribution."
       ]
     },
@@ -3089,8 +3089,8 @@
       ],
       "explanation": "Parallel trends in leads is central; pre-trend violations undermine identification.",
       "distractors": [
-        "A significant coefficient in every lead period.",
-        "Larger R-squared than in alternative models.",
+        "A significant coefficient in every lead period. — Parallel trends in leads is central; pre-trend violations undermine identification.",
+        "Larger R-squared than in alternative models. — Parallel trends in leads is central; pre-trend violations undermine identification.",
         "A strong jump in outcomes two years before the reform date."
       ]
     },
@@ -3104,8 +3104,8 @@
       ],
       "explanation": "Price signals drive abatement; targeted cushioning preserves political consent and inclusion.",
       "distractors": [
-        "A moratorium on new renewables to protect existing plants until 2040.",
-        "Permanent export subsidies for energy-intensive firms to maintain competitiveness.",
+        "A moratorium on new renewables to protect existing plants until 2040. — Price signals drive abatement; targeted cushioning preserves political consent and inclusion.",
+        "Permanent export subsidies for energy-intensive firms to maintain competitiveness. — Price signals drive abatement; targeted cushioning preserves political consent and inclusion.",
         "Uniform industrial exemptions from carbon pricing to avoid layoffs."
       ]
     },
@@ -3119,8 +3119,8 @@
       ],
       "explanation": "Partial-equilibrium gains do not guarantee net job growth; combining supply and demand levers limits displacement.",
       "distractors": [
-        "Neither; the evaluation proves human capital policy fails in recessions.",
-        "Double training seats; individual gains ensure general equilibrium job growth.",
+        "Neither; the evaluation proves human capital policy fails in recessions. — Partial-equilibrium gains do not guarantee net job growth; combining supply and demand levers limits displacement.",
+        "Double training seats; individual gains ensure general equilibrium job growth. — Partial-equilibrium gains do not guarantee net job growth; combining supply and demand levers limits displacement.",
         "Offer a wage subsidy to all firms permanently to avoid displacement."
       ]
     },
@@ -3134,8 +3134,8 @@
       ],
       "explanation": "Serial and spatial correlation within clusters violates independence; robust inference requires clustering.",
       "distractors": [
-        "Because clustering always reduces standard errors, increasing statistical power.",
-        "Because clustering removes bias from omitted variables automatically.",
+        "Because clustering always reduces standard errors, increasing statistical power. — Serial and spatial correlation within clusters violates independence; robust inference requires clustering.",
+        "Because clustering removes bias from omitted variables automatically. — Serial and spatial correlation within clusters violates independence; robust inference requires clustering.",
         "Because clustering is necessary only when using instrumental variables."
       ]
     },
@@ -3149,8 +3149,8 @@
       ],
       "explanation": "Untargeted price controls leak benefits up the income ladder and crowd out priority spending.",
       "distractors": [
-        "They have no environmental consequences if implemented for one year only.",
-        "They permanently anchor inflation expectations and therefore boost growth.",
+        "They have no environmental consequences if implemented for one year only. — Untargeted price controls leak benefits up the income ladder and crowd out priority spending.",
+        "They permanently anchor inflation expectations and therefore boost growth. — Untargeted price controls leak benefits up the income ladder and crowd out priority spending.",
         "Such subsidies are progressive because the poor spend a higher share of their budget on fuel."
       ]
     },
@@ -3164,9 +3164,9 @@
       ],
       "explanation": "Targeted rules preserve contestability while respecting network benefits.",
       "distractors": [
-        "Mandate equal market shares for all participants.",
-        "Ban all acquisitions by platforms regardless of size or rationale.",
-        "Set universal price caps on all services to protect consumers."
+        "Mandate equal market shares for all participants. — Targeted rules preserve contestability while respecting network benefits. — Targeted rules preserve contestability while respecting network benefits.",
+        "Ban all acquisitions by platforms regardless of size or rationale. — Targeted rules preserve contestability while respecting network benefits. — Targeted rules preserve contestability while respecting network benefits.",
+        "Set universal price caps on all services to protect consumers. — Targeted rules preserve contestability while respecting network benefits."
       ]
     },
     {
@@ -3179,8 +3179,8 @@
       ],
       "explanation": "Placebo gaps provide a reference distribution for significance and robustness.",
       "distractors": [
-        "Using polynomials of time to force a smooth counterfactual.",
-        "Weighting donors negatively to match every pre-treatment data point exactly.",
+        "Using polynomials of time to force a smooth counterfactual. — Placebo gaps provide a reference distribution for significance and robustness.",
+        "Weighting donors negatively to match every pre-treatment data point exactly. — Placebo gaps provide a reference distribution for significance and robustness.",
         "Dropping the highest-weight donor to increase the treatment effect."
       ]
     },
@@ -3194,8 +3194,8 @@
       ],
       "explanation": "A clean VAT and simplified small-taxpayer regimes raise revenue with limited distortions.",
       "distractors": [
-        "Increase corporate tax holidays across the board regardless of performance.",
-        "Raise payroll taxes uniformly for all firms.",
+        "Increase corporate tax holidays across the board regardless of performance. — A clean VAT and simplified small-taxpayer regimes raise revenue with limited distortions.",
+        "Raise payroll taxes uniformly for all firms. — A clean VAT and simplified small-taxpayer regimes raise revenue with limited distortions.",
         "Eliminate VAT and rely on trade tariffs for revenue."
       ]
     },
@@ -3209,9 +3209,9 @@
       ],
       "explanation": "LVT efficiency survives only if valuation and collections are credible. Mass appraisal transparency, staged phase-ins, and disciplined appeals keep cash flow predictable and politically durable.",
       "distractors": [
-        "Equity concerns are solved by exempting all low-income neighborhoods permanently; no valuation upgrades are needed thereafter.",
-        "Tax both land and improvements at the same rate to avoid administrative complexity; conduct appraisals once at launch.",
-        "To avoid shocks, freeze assessments at purchase price and index only to CPI so appeals are unnecessary."
+        "Equity concerns are solved by exempting all low-income neighborhoods permanently; no valuation upgrades are needed thereafter. — LVT efficiency survives only if valuation and collections are credible — LVT efficiency survives only if valuation and collections are credible",
+        "Tax both land and improvements at the same rate to avoid administrative complexity; conduct appraisals once at launch. — LVT efficiency survives only if valuation and collections are credible — LVT efficiency survives only if valuation and collections are credible",
+        "To avoid shocks, freeze assessments at purchase price and index only to CPI so appeals are unnecessary. — LVT efficiency survives only if valuation and collections are credible"
       ]
     },
     {
@@ -3224,9 +3224,9 @@
       ],
       "explanation": "Morbidity channels work through human capital, labor supply, and public finance.",
       "distractors": [
-        "Health spending is purely consumption and cannot affect growth.",
-        "Once life expectancy rises, health no longer affects productivity.",
-        "Mortality declines automatically cause fertility to fall, so growth must accelerate."
+        "Health spending is purely consumption and cannot affect growth. — Morbidity channels work through human capital, labor supply, and public finance. — Morbidity channels work through human capital, labor supply, and public finance.",
+        "Once life expectancy rises, health no longer affects productivity. — Morbidity channels work through human capital, labor supply, and public finance. — Morbidity channels work through human capital, labor supply, and public finance.",
+        "Mortality declines automatically cause fertility to fall, so growth must accelerate. — Morbidity channels work through human capital, labor supply, and public finance."
       ]
     },
     {
@@ -3239,9 +3239,9 @@
       ],
       "explanation": "Consistent shadow pricing and equity weights capture heterogeneous benefits.",
       "distractors": [
-        "Assign a single average value of time for all users to avoid complexity.",
-        "Discount bus-user time at zero to prioritize the poor.",
-        "Ignore non-motorist benefits because they are small in monetary terms."
+        "Assign a single average value of time for all users to avoid complexity. — Consistent shadow pricing and equity weights capture heterogeneous benefits.",
+        "Discount bus-user time at zero to prioritize the poor. — Consistent shadow pricing and equity weights capture heterogeneous benefits.",
+        "Ignore non-motorist benefits because they are small in monetary terms. — Consistent shadow pricing and equity weights capture heterogeneous benefits."
       ]
     },
     {
@@ -3254,8 +3254,8 @@
       ],
       "explanation": "Early gains raise the productivity of later inputs; a coordinated portfolio maximizes the return per unit fiscal outlay.",
       "distractors": [
-        "Split the budget evenly across A and B cohorts without coordination.",
-        "Fund only B because cost per SD is lower on paper.",
+        "Split the budget evenly across A and B cohorts without coordination. — Early gains raise the productivity of later inputs; a coordinated portfolio maximizes the return per unit fiscal outlay.",
+        "Fund only B because cost per SD is lower on paper. — Early gains raise the productivity of later inputs; a coordinated portfolio maximizes the return per unit fiscal outlay.",
         "Fund only A because early life always dominates later interventions."
       ]
     },
@@ -3269,8 +3269,8 @@
       ],
       "explanation": "Guarantees target information and collateral frictions with bounded fiscal exposure.",
       "distractors": [
-        "FX-denominated lines of credit to reduce nominal rates.",
-        "Open-ended interest-rate subsidies for all firms.",
+        "FX-denominated lines of credit to reduce nominal rates. — Guarantees target information and collateral frictions with bounded fiscal exposure.",
+        "Open-ended interest-rate subsidies for all firms. — Guarantees target information and collateral frictions with bounded fiscal exposure.",
         "Directed lending quotas enforced by the central bank regardless of bank risk appetite."
       ]
     },
@@ -3284,9 +3284,9 @@
       ],
       "explanation": "A discontinuity in covariates threatens local randomization at the threshold.",
       "distractors": [
-        "Proceed because RD guarantees causality if there is any discontinuity.",
-        "Drop the sample until significance returns.",
-        "Use high-order polynomials to force balance."
+        "Proceed because RD guarantees causality if there is any discontinuity. — A discontinuity in covariates threatens local randomization at the threshold. — A discontinuity in covariates threatens local randomization at the threshold.",
+        "Drop the sample until significance returns. — A discontinuity in covariates threatens local randomization at the threshold. — A discontinuity in covariates threatens local randomization at the threshold.",
+        "Use high-order polynomials to force balance. — A discontinuity in covariates threatens local randomization at the threshold."
       ]
     },
     {
@@ -3299,9 +3299,9 @@
       ],
       "explanation": "Governance affects service quality, prices, and investor expectations.",
       "distractors": [
-        "Because eliminating corruption alone guarantees productivity gains.",
-        "Because publishing financial accounts is sufficient to ensure efficiency.",
-        "Because SOEs should replace all private providers to reduce duplication."
+        "Because eliminating corruption alone guarantees productivity gains. — Governance affects service quality, prices, and investor expectations. — Governance affects service quality, prices, and investor expectations.",
+        "Because publishing financial accounts is sufficient to ensure efficiency. — Governance affects service quality, prices, and investor expectations. — Governance affects service quality, prices, and investor expectations.",
+        "Because SOEs should replace all private providers to reduce duplication. — Governance affects service quality, prices, and investor expectations."
       ]
     },
     {
@@ -3314,9 +3314,9 @@
       ],
       "explanation": "Distributional design sustains the coalition for decarbonization.",
       "distractors": [
-        "Carbon pricing alone will reduce inequality by raising energy efficiency everywhere equally.",
-        "Only industrial policy matters; pricing is irrelevant.",
-        "Spatial inequality is unrelated to energy policy."
+        "Carbon pricing alone will reduce inequality by raising energy efficiency everywhere equally. — Distributional design sustains the coalition for decarbonization. — Distributional design sustains the coalition for decarbonization.",
+        "Only industrial policy matters; pricing is irrelevant. — Distributional design sustains the coalition for decarbonization. — Distributional design sustains the coalition for decarbonization.",
+        "Spatial inequality is unrelated to energy policy. — Distributional design sustains the coalition for decarbonization."
       ]
     },
     {
@@ -3329,8 +3329,8 @@
       ],
       "explanation": "Reducing frictions speeds matching and raises aggregate productivity.",
       "distractors": [
-        "Offer only cash assistance on arrival and avoid labor-market services.",
-        "Mandate that migrants accept wages below market rates to ease hiring.",
+        "Offer only cash assistance on arrival and avoid labor-market services. — Reducing frictions speeds matching and raises aggregate productivity.",
+        "Mandate that migrants accept wages below market rates to ease hiring. — Reducing frictions speeds matching and raises aggregate productivity.",
         "Restrict geographic mobility to protect low-rent regions."
       ]
     },
@@ -3344,8 +3344,8 @@
       ],
       "explanation": "Dynamic economies require dynamic targeting to reduce exclusion errors.",
       "distractors": [
-        "Replace the registry with random selection to avoid targeting errors.",
-        "Continue using the same scores indefinitely to preserve stability.",
+        "Replace the registry with random selection to avoid targeting errors. — Dynamic economies require dynamic targeting to reduce exclusion errors.",
+        "Continue using the same scores indefinitely to preserve stability. — Dynamic economies require dynamic targeting to reduce exclusion errors.",
         "Raise the cutoff score until the beneficiary count matches the budget."
       ]
     },
@@ -3359,8 +3359,8 @@
       ],
       "explanation": "Discipline plus competition focuses rents on dynamic spillovers rather than status quo protection.",
       "distractors": [
-        "Offer permanent subsidies to early movers and restrict entry to prevent duplication.",
-        "Award grants by negotiation to firms with the largest lobbying presence.",
+        "Offer permanent subsidies to early movers and restrict entry to prevent duplication. — Discipline plus competition focuses rents on dynamic spillovers rather than status quo protection.",
+        "Award grants by negotiation to firms with the largest lobbying presence. — Discipline plus competition focuses rents on dynamic spillovers rather than status quo protection.",
         "Ban imports of clean technologies to force domestic learning-by-doing."
       ]
     },
@@ -3374,9 +3374,9 @@
       ],
       "explanation": "Balanced design manages trade-offs between adequacy, incentives, and sustainability.",
       "distractors": [
-        "Because large non-contributory benefits always reduce poverty less than contributory schemes.",
-        "Because only contributory pensions matter for welfare.",
-        "Because non-contributory benefits cannot be targeted."
+        "Because large non-contributory benefits always reduce poverty less than contributory schemes. — Balanced design manages trade-offs between adequacy, incentives, and sustainability. — Balanced design manages trade-offs between adequacy, incentives, and sustainability.",
+        "Because only contributory pensions matter for welfare. — Balanced design manages trade-offs between adequacy, incentives, and sustainability. — Balanced design manages trade-offs between adequacy, incentives, and sustainability.",
+        "Because non-contributory benefits cannot be targeted. — Balanced design manages trade-offs between adequacy, incentives, and sustainability."
       ]
     },
     {
@@ -3389,9 +3389,9 @@
       ],
       "explanation": "Inputs need quality complements and market demand to translate into earnings.",
       "distractors": [
-        "CCTs are inferior to fuel subsidies for poverty reduction.",
-        "CCTs mainly reduce labor supply permanently among adults.",
-        "CCTs raise attendance but have no effect on learning or future earnings in any context."
+        "CCTs are inferior to fuel subsidies for poverty reduction. — Inputs need quality complements and market demand to translate into earnings. — Inputs need quality complements and market demand to translate into earnings.",
+        "CCTs mainly reduce labor supply permanently among adults. — Inputs need quality complements and market demand to translate into earnings.",
+        "CCTs raise attendance but have no effect on learning or future earnings in any context. — Inputs need quality complements and market demand to translate into earnings."
       ]
     },
     {
@@ -3404,9 +3404,9 @@
       ],
       "explanation": "Non-discriminatory, price-linked design targets leakage while respecting trade rules.",
       "distractors": [
-        "Exempt domestic producers from all carbon pricing.",
-        "Apply the charge only to imports from low-income countries.",
-        "Set ad hoc tariffs that approximate domestic abatement costs."
+        "Exempt domestic producers from all carbon pricing. — Non-discriminatory, price-linked design targets leakage while respecting trade rules. — Non-discriminatory, price-linked design targets leakage while respecting trade rules.",
+        "Apply the charge only to imports from low-income countries. — Non-discriminatory, price-linked design targets leakage while respecting trade rules. — Non-discriminatory, price-linked design targets leakage while respecting trade rules.",
+        "Set ad hoc tariffs that approximate domestic abatement costs. — Non-discriminatory, price-linked design targets leakage while respecting trade rules."
       ]
     },
     {
@@ -3419,8 +3419,8 @@
       ],
       "explanation": "Misallocation indicators point to policy-relevant barriers to efficient resource use.",
       "distractors": [
-        "All dispersion reflects measurement error, so policy should ignore it.",
-        "Trade openness alone eliminates dispersion regardless of domestic policies.",
+        "All dispersion reflects measurement error, so policy should ignore it. — Misallocation indicators point to policy-relevant barriers to efficient resource use.",
+        "Trade openness alone eliminates dispersion regardless of domestic policies. — Misallocation indicators point to policy-relevant barriers to efficient resource use.",
         "True technologies differ so much within industries that policy cannot affect outcomes."
       ]
     }
