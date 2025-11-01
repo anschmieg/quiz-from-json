@@ -58,8 +58,8 @@
       ],
       "explanation": "$R^2$ is the share of sample variance in $y$ explained by the regressors. It does not imply causality or a percentage slope.",
       "distractors": [
-        "9% chance the relation is causal",
-        "Salary rises 9% for each €1 profit",
+        "9% chance the relation is causal — $R^2$ is the share of sample variance in $y$ explained by the regressors",
+        "Salary rises 9% for each €1 profit — $R^2$ is the share of sample variance in $y$ explained by the regressors",
         "The slope is biased by 9%"
       ]
     },
@@ -73,7 +73,7 @@
       ],
       "explanation": "In a log–log model the slope is an elasticity: $\\partial\\ln y/\\partial\\ln x=0.45$. A 1% rise in $x$ is associated with ~0.45% rise in $y$.",
       "distractors": [
-        "€1 more AdSpend raises sales by 0.45 units",
+        "€1 more AdSpend raises sales by 0.45 units — In a log–log model the slope is an elasticity: $\\partial\\ln y/\\partial\\ln x=0.45$",
         "1% more AdSpend raises sales by 0.45 units",
         "Elasticity of log-sales w.r.t. AdSpend in euros"
       ]
@@ -88,7 +88,7 @@
       ],
       "explanation": "In log–level, $\\partial \\ln y/\\partial x=\\beta$. A one-unit increase in $x$ implies approximately $100\\times \\beta=8\\%$ increase in $y$.",
       "distractors": [
-        "A one-unit increase in $x$ changes $y$ by 0.08 units",
+        "A one-unit increase in $x$ changes $y$ by 0.08 units — In log–level, $\\partial \\ln y/\\partial x=\\beta$",
         "A 1% increase in $x$ raises $y$ by 0.08%",
         "A one-unit increase in $x$ is associated with a 0.08% increase in $y$"
       ]
@@ -118,8 +118,8 @@
       ],
       "explanation": "Controlling for a mediator blocks part of the treatment effect and can induce bias. Confounders (pre-treatment) are appropriate controls.",
       "distractors": [
-        "Years of experience (confounder)",
-        "Innate ability (confounder)",
+        "Years of experience (confounder) — Controlling for a mediator blocks part of the treatment effect and can induce bias",
+        "Innate ability (confounder) — Controlling for a mediator blocks part of the treatment effect and can induce bias",
         "Age in years"
       ]
     },
@@ -148,8 +148,8 @@
       ],
       "explanation": "$\\beta_1$ is the ceteris paribus (partial) effect: $\\partial y/\\partial x_1$ given $x_2$.",
       "distractors": [
-        "Total effect of $x_1$ ignoring $x_2$",
-        "Correlation of $x_1$ and $y$",
+        "Total effect of $x_1$ ignoring $x_2$ — $\\beta_1$ is the ceteris paribus (partial) effect: $\\partial y/\\partial x_1$ given $x_2$.",
+        "Correlation of $x_1$ and $y$ — $\\beta_1$ is the ceteris paribus (partial) effect: $\\partial y/\\partial x_1$ given $x_2$.",
         "Average of $y$ when $x_1=1$"
       ]
     },
@@ -193,8 +193,8 @@
       ],
       "explanation": "$\\beta_3$ is the interaction slope difference: $\\partial\\text{Wage}/\\partial\\text{Educ}$ for females minus that for males.",
       "distractors": [
-        "Wage gap at zero education",
-        "Return to education for females",
+        "Wage gap at zero education — $\\beta_3$ is the interaction slope difference: $\\partial\\text{Wage}/\\partial\\text{Educ}$ for females minus that for...",
+        "Return to education for females — $\\beta_3$ is the interaction slope difference: $\\partial\\text{Wage}/\\partial\\text{Educ}$ for females minus that for...",
         "Return to education for males"
       ]
     },
@@ -208,8 +208,8 @@
       ],
       "explanation": "$R^2_{adj}=1-(1-R^2)\\frac{n-1}{n-k-1}$; adding weak regressors can reduce $R^2_{adj}$ due to the degrees-of-freedom penalty.",
       "distractors": [
-        "Always increases when adding regressors",
-        "Ignores sample size",
+        "Always increases when adding regressors — $R^2_{adj}=1-(1-R^2)\\frac{n-1}{n-k-1}$; adding weak regressors can reduce $R^2_{adj}$ due to the degrees-of-freedom...",
+        "Ignores sample size — $R^2_{adj}=1-(1-R^2)\\frac{n-1}{n-k-1}$; adding weak regressors can reduce $R^2_{adj}$ due to the degrees-of-freedom...",
         "Is numerically identical to AIC"
       ]
     },
@@ -223,8 +223,8 @@
       ],
       "explanation": "BIC penalty is $k\\ln n$ (larger than AIC’s $2k$ for $n\\ge 8$), so BIC tends to choose more parsimonious models.",
       "distractors": [
-        "Penalizes less and selects larger models",
-        "Ignores likelihood",
+        "Penalizes less and selects larger models — BIC penalty is $k\\ln n$ (larger than AIC’s $2k$ for $n\\ge 8$), so BIC tends to choose more parsimonious models.",
+        "Ignores likelihood — BIC penalty is $k\\ln n$ (larger than AIC’s $2k$ for $n\\ge 8$), so BIC tends to choose more parsimonious models.",
         "Equals adjusted $R^2$"
       ]
     },
@@ -238,8 +238,8 @@
       ],
       "explanation": "Weak stationarity: $E(Y_t)=\\mu$, $\\operatorname{Var}(Y_t)=\\sigma^2$, and $\\operatorname{Cov}(Y_t,Y_{t-k})=\\gamma_k$ depends only on $k$.",
       "distractors": [
-        "Mean and variance are zero",
-        "It has a deterministic trend only",
+        "Mean and variance are zero — Weak stationarity: $E(Y_t)=\\mu$, $\\operatorname{Var}(Y_t)=\\sigma^2$, and $\\operatorname{Cov}(Y_t,Y_{t-k})=\\gamma_k$...",
+        "It has a deterministic trend only — Weak stationarity: $E(Y_t)=\\mu$, $\\operatorname{Var}(Y_t)=\\sigma^2$, and $\\operatorname{Cov}(Y_t,Y_{t-k})=\\gamma_k$...",
         "Its autocorrelations are all zero"
       ]
     },
@@ -283,8 +283,8 @@
       ],
       "explanation": "When $|\\phi|=1$, the process has a unit root; shocks are permanent and variance increases with $t$.",
       "distractors": [
-        "Stationary mean reversion",
-        "Explosive series",
+        "Stationary mean reversion — When $|\\phi|=1$, the process has a unit root; shocks are permanent and variance increases with $t$.",
+        "Explosive series — When $|\\phi|=1$, the process has a unit root; shocks are permanent and variance increases with $t$.",
         "White noise"
       ]
     },
@@ -298,8 +298,8 @@
       ],
       "explanation": "White noise: $E(u_t)=0$, $\\operatorname{Var}(u_t)=\\sigma^2$, and $\\operatorname{Cov}(u_t,u_s)=0$ for $t\\ne s$.",
       "distractors": [
-        "Nonzero mean and no autocorrelation",
-        "Time-varying variance and autocorrelation",
+        "Nonzero mean and no autocorrelation — White noise: $E(u_t)=0$, $\\operatorname{Var}(u_t)=\\sigma^2$, and $\\operatorname{Cov}(u_t,u_s)=0$ for $t\\ne s$.",
+        "Time-varying variance and autocorrelation — White noise: $E(u_t)=0$, $\\operatorname{Var}(u_t)=\\sigma^2$, and $\\operatorname{Cov}(u_t,u_s)=0$ for $t\\ne s$.",
         "Strong seasonality"
       ]
     },
@@ -314,8 +314,8 @@
       ],
       "explanation": "Bars beyond the bands indicate $\\rho_k\\ne 0$; the series exhibits serial dependence at those lags.",
       "distractors": [
-        "No persistence",
-        "Heteroskedasticity",
+        "No persistence — Bars beyond the bands indicate $\\rho_k\\ne 0$; the series exhibits serial dependence at those lags.",
+        "Heteroskedasticity — Bars beyond the bands indicate $\\rho_k\\ne 0$; the series exhibits serial dependence at those lags.",
         "A unit root is certain"
       ]
     },
@@ -329,8 +329,8 @@
       ],
       "explanation": "BG tests $H_0:$ no AR($p$) in residuals by regressing $\\hat u_t$ on the original regressors and $\\hat u_{t-1},\\ldots,\\hat u_{t-p}$.",
       "distractors": [
-        "Heteroskedasticity",
-        "Unit roots in $Y$",
+        "Heteroskedasticity — BG tests $H_0:$ no AR($p$) in residuals by regressing $\\hat u_t$ on the original regressors and $\\hat...",
+        "Unit roots in $Y$ — BG tests $H_0:$ no AR($p$) in residuals by regressing $\\hat u_t$ on the original regressors and $\\hat...",
         "Nonlinearity"
       ]
     },
@@ -344,7 +344,7 @@
       ],
       "explanation": "For $h>q$, future shocks are unknown with zero conditional mean, so forecasts converge to $\\mu$.",
       "distractors": [
-        "Explode",
+        "Explode — For $h>q$, future shocks are unknown with zero conditional mean, so forecasts converge to $\\mu$.",
         "Follow the last value",
         "Oscillate randomly around zero with growing variance"
       ]
@@ -359,8 +359,8 @@
       ],
       "explanation": "LRM $=\\dfrac{\\sum_{j=0}^{q} \\beta_j}{1-\\sum_{i=1}^{p} \\phi_i}$ is the total long-run response after full adjustment.",
       "distractors": [
-        "Immediate impact of $X$ on $Y$",
-        "Persistence of $Y$ via AR terms",
+        "Immediate impact of $X$ on $Y$ — LRM $=\\dfrac{\\sum_{j=0}^{q} \\beta_j}{1-\\sum_{i=1}^{p} \\phi_i}$ is the total long-run response after full adjustment.",
+        "Persistence of $Y$ via AR terms — LRM $=\\dfrac{\\sum_{j=0}^{q} \\beta_j}{1-\\sum_{i=1}^{p} \\phi_i}$ is the total long-run response after full adjustment.",
         "Average short-run effect"
       ]
     },
@@ -374,8 +374,8 @@
       ],
       "explanation": "RMSE $=\\sqrt{\\tfrac{1}{n}\\sum e_t^2}$; lower RMSE means, on average, smaller squared forecast errors (out-of-sample).",
       "distractors": [
-        "Better in-sample fit necessarily",
-        "Lower bias but higher variance",
+        "Better in-sample fit necessarily — RMSE $=\\sqrt{\\tfrac{1}{n}\\sum e_t^2}$; lower RMSE means, on average, smaller squared forecast errors (out-of-sample).",
+        "Lower bias but higher variance — RMSE $=\\sqrt{\\tfrac{1}{n}\\sum e_t^2}$; lower RMSE means, on average, smaller squared forecast errors (out-of-sample).",
         "Greater parsimony"
       ]
     },
@@ -389,8 +389,8 @@
       ],
       "explanation": "A linear trend absorbs smooth long-run drift; seasonality is handled by seasonal dummies; AR terms address autocorrelation.",
       "distractors": [
-        "Short-run fluctuations",
-        "Seasonal effects",
+        "Short-run fluctuations — A linear trend absorbs smooth long-run drift; seasonality is handled by seasonal dummies; AR terms address...",
+        "Seasonal effects — A linear trend absorbs smooth long-run drift; seasonality is handled by seasonal dummies; AR terms address...",
         "Autocorrelated errors"
       ]
     },
@@ -404,8 +404,8 @@
       ],
       "explanation": "Within transformation: $y_{it}-\\bar y_i$ and $x_{it}-\\bar x_i$ eliminate unit fixed effects $\\alpha_i$.",
       "distractors": [
-        "Differencing adjacent periods",
-        "Adding only time dummies",
+        "Differencing adjacent periods — Within transformation: $y_{it}-\\bar y_i$ and $x_{it}-\\bar x_i$ eliminate unit fixed effects $\\alpha_i$.",
+        "Adding only time dummies — Within transformation: $y_{it}-\\bar y_i$ and $x_{it}-\\bar x_i$ eliminate unit fixed effects $\\alpha_i$.",
         "Using cross-sectional averages"
       ]
     },
@@ -419,8 +419,8 @@
       ],
       "explanation": "Time-invariant regressors are collinear with unit dummies and drop out in the within transformation.",
       "distractors": [
-        "A time-varying policy indicator",
-        "Lagged dependent variable",
+        "A time-varying policy indicator — Time-invariant regressors are collinear with unit dummies and drop out in the within transformation.",
+        "Lagged dependent variable — Time-invariant regressors are collinear with unit dummies and drop out in the within transformation.",
         "Time dummies"
       ]
     },
@@ -434,8 +434,8 @@
       ],
       "explanation": "Strict exogeneity: $E(u_{it}|X_i)=0$ for all $t$; this rules out feedback from $u$ to future $x$ and vice versa.",
       "distractors": [
-        "Only current errors",
-        "Past and current errors",
+        "Only current errors — Strict exogeneity: $E(u_{it}|X_i)=0$ for all $t$; this rules out feedback from $u$ to future $x$ and vice versa.",
+        "Past and current errors — Strict exogeneity: $E(u_{it}|X_i)=0$ for all $t$; this rules out feedback from $u$ to future $x$ and vice versa.",
         "Only future errors"
       ]
     },
@@ -479,8 +479,8 @@
       ],
       "explanation": "FE identifies from deviations around each unit’s mean (within variation), not from cross-sectional differences.",
       "distractors": [
-        "Between-individual differences only",
-        "Cross-sectional averages",
+        "Between-individual differences only — FE identifies from deviations around each unit’s mean (within variation), not from cross-sectional differences.",
+        "Cross-sectional averages — FE identifies from deviations around each unit’s mean (within variation), not from cross-sectional differences.",
         "Time dummies only"
       ]
     },
@@ -494,8 +494,8 @@
       ],
       "explanation": "Prediction targets low out-of-sample loss; causality targets unbiased effects under identification assumptions (e.g., conditional independence). Randomization aids causal identification, not prediction per se.",
       "distractors": [
-        "Prediction requires randomized experiments; causation does not",
-        "Causal inference ignores identification; prediction focuses on it",
+        "Prediction requires randomized experiments; causation does not — Prediction targets low out-of-sample loss; causality targets unbiased effects under identification assumptions (e.g.,...",
+        "Causal inference ignores identification; prediction focuses on it — Prediction targets low out-of-sample loss; causality targets unbiased effects under identification assumptions (e.g.,...",
         "Both require the same assumptions"
       ]
     },
@@ -554,7 +554,7 @@
       ],
       "explanation": "Bias sign is $\\operatorname{sign}(\\beta_Z)\\times\\operatorname{sign}(\\operatorname{Cov}(X,Z))=(+)\\times(-)=-$ (downward).",
       "distractors": [
-        "Upward",
+        "Upward — Bias sign is $\\operatorname{sign}(\\beta_Z)\\times\\operatorname{sign}(\\operatorname{Cov}(X,Z))=(+)\\times(-)=-$ (downward).",
         "Zero",
         "Ambiguous"
       ]
@@ -569,8 +569,8 @@
       ],
       "explanation": "Near collinearity inflates $\\operatorname{Var}(\\hat\\beta)$ and makes signs sensitive; it does not bias OLS if $E[u|X]=0$.",
       "distractors": [
-        "Biased OLS coefficients",
-        "Lower RMSE out of sample",
+        "Biased OLS coefficients — Near collinearity inflates $\\operatorname{Var}(\\hat\\beta)$ and makes signs sensitive; it does not bias OLS if...",
+        "Lower RMSE out of sample — Near collinearity inflates $\\operatorname{Var}(\\hat\\beta)$ and makes signs sensitive; it does not bias OLS if...",
         "Perfect prediction of $y$"
       ]
     },
@@ -629,8 +629,8 @@
       ],
       "explanation": "They trade off likelihood (fit) against a complexity penalty, discouraging overfitting.",
       "distractors": [
-        "Test individual coefficients",
-        "Compute confidence intervals",
+        "Test individual coefficients — They trade off likelihood (fit) against a complexity penalty, discouraging overfitting.",
+        "Compute confidence intervals — They trade off likelihood (fit) against a complexity penalty, discouraging overfitting.",
         "Detect heteroskedasticity"
       ]
     },
@@ -659,8 +659,8 @@
       ],
       "explanation": "AR processes show gradually decaying ACF; MA($q$) processes have ACF that becomes zero beyond lag $q$.",
       "distractors": [
-        "AR(1) ACF cuts off after lag 1; MA(1) ACF decays geometrically",
-        "Both ACFs cut off after lag 1",
+        "AR(1) ACF cuts off after lag 1; MA(1) ACF decays geometrically — AR processes show gradually decaying ACF; MA($q$) processes have ACF that becomes zero beyond lag $q$.",
+        "Both ACFs cut off after lag 1 — AR processes show gradually decaying ACF; MA($q$) processes have ACF that becomes zero beyond lag $q$.",
         "Both ACFs decay geometrically"
       ]
     },
@@ -674,8 +674,8 @@
       ],
       "explanation": "p = 0.03 $<$ 0.05: reject $H_0$ of a unit root in the constant-only specification $\\Rightarrow$ stationary mean.",
       "distractors": [
-        "Fail to reject unit root; series is non-stationary",
-        "Series is explosive",
+        "Fail to reject unit root; series is non-stationary — p = 0.03 $<$ 0.05: reject $H_0$ of a unit root in the constant-only specification $\\Rightarrow$ stationary mean.",
+        "Series is explosive — p = 0.03 $<$ 0.05: reject $H_0$ of a unit root in the constant-only specification $\\Rightarrow$ stationary mean.",
         "Series is trend-stationary by definition"
       ]
     },
@@ -689,7 +689,7 @@
       ],
       "explanation": "Regress $\\hat u_t$ on the original $X_t$ and on $\\hat u_{t-1},...,\\hat u_{t-p}$; test joint significance of lagged residuals.",
       "distractors": [
-        "Only lagged residuals",
+        "Only lagged residuals — Regress $\\hat u_t$ on the original $X_t$ and on $\\hat u_{t-1},...,\\hat u_{t-p}$; test joint significance of lagged...",
         "Only the dependent variable and its lag",
         "Only time dummies"
       ]
@@ -704,7 +704,7 @@
       ],
       "explanation": "Steady state $\\mu$ solves $\\mu=\\alpha+\\phi\\mu \\Rightarrow \\mu=\\alpha/(1-\\phi)$.",
       "distractors": [
-        "0",
+        "0 — Steady state $\\mu$ solves $\\mu=\\alpha+\\phi\\mu \\Rightarrow \\mu=\\alpha/(1-\\phi)$.",
         "c",
         "$\\phi/(1-c)$"
       ]
@@ -719,8 +719,8 @@
       ],
       "explanation": "MAPE uses $|e_t|/|y_t|$; near-zero $|y_t|$ makes the ratio explode, distorting comparisons.",
       "distractors": [
-        "Errors are homoskedastic",
-        "Forecast horizon is short",
+        "Errors are homoskedastic — MAPE uses $|e_t|/|y_t|$; near-zero $|y_t|$ makes the ratio explode, distorting comparisons.",
+        "Forecast horizon is short — MAPE uses $|e_t|/|y_t|$; near-zero $|y_t|$ makes the ratio explode, distorting comparisons.",
         "Data are in logs"
       ]
     },
@@ -734,8 +734,8 @@
       ],
       "explanation": "LRM $=\\dfrac{\\sum_j \\beta_j}{1-\\sum_i \\phi_i}$; denominator captures persistence due to lagged $y$.",
       "distractors": [
-        "Sum of $Y$-lag coefficients",
-        "Variance of residuals",
+        "Sum of $Y$-lag coefficients — LRM $=\\dfrac{\\sum_j \\beta_j}{1-\\sum_i \\phi_i}$; denominator captures persistence due to lagged $y$.",
+        "Variance of residuals — LRM $=\\dfrac{\\sum_j \\beta_j}{1-\\sum_i \\phi_i}$; denominator captures persistence due to lagged $y$.",
         "AIC-selected lag order"
       ]
     },
@@ -749,8 +749,8 @@
       ],
       "explanation": "If residuals resemble white noise, remaining dynamics are minimal and the model captures predictable structure.",
       "distractors": [
-        "Overfit",
-        "Non-stationary",
+        "Overfit — If residuals resemble white noise, remaining dynamics are minimal and the model captures predictable structure.",
+        "Non-stationary — If residuals resemble white noise, remaining dynamics are minimal and the model captures predictable structure.",
         "Misspecified in levels"
       ]
     },
@@ -764,8 +764,8 @@
       ],
       "explanation": "With two periods, within-transformation equals differencing, yielding the same slope estimates.",
       "distractors": [
-        "FD dominates FE in efficiency",
-        "FE dominates FD in efficiency",
+        "FD dominates FE in efficiency — With two periods, within-transformation equals differencing, yielding the same slope estimates.",
+        "FE dominates FD in efficiency — With two periods, within-transformation equals differencing, yielding the same slope estimates.",
         "Neither can be estimated"
       ]
     },
@@ -779,8 +779,8 @@
       ],
       "explanation": "Unit FE absorb $\\alpha_i$; time FE (dummies) absorb $\\lambda_t$ that shift all units in a period.",
       "distractors": [
-        "Only observed covariates",
-        "Measurement error",
+        "Only observed covariates — Unit FE absorb $\\alpha_i$; time FE (dummies) absorb $\\lambda_t$ that shift all units in a period.",
+        "Measurement error — Unit FE absorb $\\alpha_i$; time FE (dummies) absorb $\\lambda_t$ that shift all units in a period.",
         "Serial correlation"
       ]
     },
@@ -794,8 +794,8 @@
       ],
       "explanation": "Including $y_{i,t-1}$ generates correlation between transformed regressors and transformed errors (Nickell bias) when $T$ is small.",
       "distractors": [
-        "Time dummies",
-        "Heteroskedastic errors",
+        "Time dummies — Including $y_{i,t-1}$ generates correlation between transformed regressors and transformed errors (Nickell bias) when...",
+        "Heteroskedastic errors — Including $y_{i,t-1}$ generates correlation between transformed regressors and transformed errors (Nickell bias) when...",
         "Individual dummies"
       ]
     },
@@ -809,8 +809,8 @@
       ],
       "explanation": "FE estimation accommodates differing $T_i$; within variation is exploited as available per unit.",
       "distractors": [
-        "FE cannot be estimated with unbalanced panels",
-        "Unbalanced panels imply inconsistent OLS",
+        "FE cannot be estimated with unbalanced panels — FE estimation accommodates differing $T_i$; within variation is exploited as available per unit.",
+        "Unbalanced panels imply inconsistent OLS — FE estimation accommodates differing $T_i$; within variation is exploited as available per unit.",
         "Only FD works with unbalanced panels"
       ]
     },
@@ -824,8 +824,8 @@
       ],
       "explanation": "HAC SEs are consistent under unknown heteroskedasticity and autocorrelation in $u_t$; ordinary OLS SEs are invalid in this case.",
       "distractors": [
-        "Classical OLS standard errors",
-        "Cluster by individual",
+        "Classical OLS standard errors — HAC SEs are consistent under unknown heteroskedasticity and autocorrelation in $u_t$; ordinary OLS SEs are invalid in...",
+        "Cluster by individual — HAC SEs are consistent under unknown heteroskedasticity and autocorrelation in $u_t$; ordinary OLS SEs are invalid in...",
         "Jackknife standard errors"
       ]
     },
@@ -854,8 +854,8 @@
       ],
       "explanation": "For $h\\ge2$, $E(\\varepsilon_{t+j}|I_t)=0$ eliminates MA terms; multi-step forecasts are driven by the AR component.",
       "distractors": [
-        "At $h=2$, the MA component still enters via future shocks",
-        "At $h=1$, only the MA component matters",
+        "At $h=2$, the MA component still enters via future shocks — For $h\\ge2$, $E(\\varepsilon_{t+j}|I_t)=0$ eliminates MA terms; multi-step forecasts are driven by the AR component.",
+        "At $h=1$, only the MA component matters — For $h\\ge2$, $E(\\varepsilon_{t+j}|I_t)=0$ eliminates MA terms; multi-step forecasts are driven by the AR component.",
         "ARMA forecasts revert immediately to the mean at $h=1$"
       ]
     },
@@ -869,9 +869,9 @@
       ],
       "explanation": "BP tests whether $\\operatorname{Var}(u|X)$ varies linearly with $X$. White’s test augments with $X^2$ and cross-terms, capturing a broader class of variance patterns.",
       "distractors": [
-        "BP allows a very general, fully nonparametric form; White assumes a specific functional form",
-        "Both are identical in all cases",
-        "BP adjusts standard errors; White does not"
+        "BP allows a very general, fully nonparametric form; White assumes a specific functional form — BP tests whether $\\operatorname{Var}(u|X)$ varies linearly with $X$ — BP tests whether $\\operatorname{Var}(u|X)$ varies linearly with $X$",
+        "Both are identical in all cases — BP tests whether $\\operatorname{Var}(u|X)$ varies linearly with $X$ — BP tests whether $\\operatorname{Var}(u|X)$ varies linearly with $X$",
+        "BP adjusts standard errors; White does not — BP tests whether $\\operatorname{Var}(u|X)$ varies linearly with $X$"
       ]
     },
     {
@@ -884,8 +884,8 @@
       ],
       "explanation": "Cluster SEs allow arbitrary intra-cluster correlation/heteroskedasticity; HC SEs assume independence across observations. You also need a sufficiently large number of clusters for reliable inference.",
       "distractors": [
-        "When errors are i.i.d.",
-        "Only in time series",
+        "When errors are i.i.d. — Cluster SEs allow arbitrary intra-cluster correlation/heteroskedasticity; HC SEs assume independence across observations",
+        "Only in time series — Cluster SEs allow arbitrary intra-cluster correlation/heteroskedasticity; HC SEs assume independence across observations",
         "Only when there are exactly two clusters"
       ]
     },
@@ -899,8 +899,8 @@
       ],
       "explanation": "With few clusters, standard cluster-robust variance estimators tend to understate true variability; small-sample corrections or wild cluster bootstrap are common remedies.",
       "distractors": [
-        "They always explode to infinity",
-        "They are identical to HAC SEs",
+        "They always explode to infinity — With few clusters, standard cluster-robust variance estimators tend to understate true variability; small-sample...",
+        "They are identical to HAC SEs — With few clusters, standard cluster-robust variance estimators tend to understate true variability; small-sample...",
         "They are invalid in panels"
       ]
     },
@@ -914,8 +914,8 @@
       ],
       "explanation": "HAC handles heteroskedasticity and autocorrelation over time for a single series; cluster SEs handle within-group dependence across observations in panels or multi-level data.",
       "distractors": [
-        "Use HAC for cross-sectional clustering and Cluster for serial correlation",
-        "They are interchangeable",
+        "Use HAC for cross-sectional clustering and Cluster for serial correlation — HAC handles heteroskedasticity and autocorrelation over time for a single series; cluster SEs handle within-group...",
+        "They are interchangeable — HAC handles heteroskedasticity and autocorrelation over time for a single series; cluster SEs handle within-group...",
         "Neither handles heteroskedasticity"
       ]
     },
@@ -929,8 +929,8 @@
       ],
       "explanation": "The Ramsey RESET test adds powers of fitted values (or regressors); rejection suggests missing nonlinear terms or interactions.",
       "distractors": [
-        "Serial correlation",
-        "Heteroskedasticity",
+        "Serial correlation — The Ramsey RESET test adds powers of fitted values (or regressors); rejection suggests missing nonlinear terms or...",
+        "Heteroskedasticity — The Ramsey RESET test adds powers of fitted values (or regressors); rejection suggests missing nonlinear terms or...",
         "Unit roots"
       ]
     },
@@ -944,8 +944,8 @@
       ],
       "explanation": "High leverage points have extreme predictor values; high influence points substantially change estimates if removed (often high leverage and large residual).",
       "distractors": [
-        "Leverage measures how unusual $y$ is given $X$; influence measures how unusual $X$ is",
-        "They are identical",
+        "Leverage measures how unusual $y$ is given $X$; influence measures how unusual $X$ is — High leverage points have extreme predictor values; high influence points substantially change estimates if removed...",
+        "They are identical — High leverage points have extreme predictor values; high influence points substantially change estimates if removed...",
         "Only influence is used in practice"
       ]
     },
@@ -959,8 +959,8 @@
       ],
       "explanation": "VIF for $x_j$ equals $1/(1-R_j^2)$ where $R_j^2$ is from regressing $x_j$ on the other regressors; larger VIF indicates higher collinearity and larger $\\operatorname{Var}(\\hat\\beta_j)$.",
       "distractors": [
-        "Heteroskedasticity",
-        "Endogeneity",
+        "Heteroskedasticity — VIF for $x_j$ equals $1/(1-R_j^2)$ where $R_j^2$ is from regressing $x_j$ on the other regressors; larger VIF indicates...",
+        "Endogeneity — VIF for $x_j$ equals $1/(1-R_j^2)$ where $R_j^2$ is from regressing $x_j$ on the other regressors; larger VIF indicates...",
         "Autocorrelation"
       ]
     },
@@ -974,9 +974,9 @@
       ],
       "explanation": "ADF can be run with none/constant/trend. Visual inspection and context guide whether a deterministic trend is plausible; including unnecessary trend terms reduces power.",
       "distractors": [
-        "Always include a trend",
-        "Never include a trend",
-        "Include a trend only if the ACF is flat"
+        "Always include a trend — ADF can be run with none/constant/trend — ADF can be run with none/constant/trend",
+        "Never include a trend — ADF can be run with none/constant/trend — ADF can be run with none/constant/trend",
+        "Include a trend only if the ACF is flat — ADF can be run with none/constant/trend"
       ]
     },
     {
@@ -989,8 +989,8 @@
       ],
       "explanation": "Include enough lagged differences to remove serial correlation in residuals (checked by BG/Ljung–Box) or use information criteria to balance fit and parsimony.",
       "distractors": [
-        "Maximizing $R^2$",
-        "Setting it to 1 always",
+        "Maximizing $R^2$ — Include enough lagged differences to remove serial correlation in residuals (checked by BG/Ljung–Box) or use...",
+        "Setting it to 1 always — Include enough lagged differences to remove serial correlation in residuals (checked by BG/Ljung–Box) or use...",
         "Trial-and-error without diagnostics"
       ]
     },
@@ -1004,8 +1004,8 @@
       ],
       "explanation": "Forecasts should respect temporal ordering; rolling/expanding evaluation uses past to predict future, avoiding look-ahead bias inherent in random splits.",
       "distractors": [
-        "Random train/test split",
-        "K-fold cross-validation",
+        "Random train/test split — Forecasts should respect temporal ordering; rolling/expanding evaluation uses past to predict future, avoiding...",
+        "K-fold cross-validation — Forecasts should respect temporal ordering; rolling/expanding evaluation uses past to predict future, avoiding...",
         "Leave-one-out cross-validation"
       ]
     },
@@ -1019,8 +1019,8 @@
       ],
       "explanation": "A confidence interval is for $E[y|X]$; a prediction interval adds $\\operatorname{Var}(\\varepsilon_{t+h})$, so it is wider.",
       "distractors": [
-        "They are identical in regression",
-        "Confidence intervals are wider because they include future shock variance",
+        "They are identical in regression — A confidence interval is for $E[y|X]$; a prediction interval adds $\\operatorname{Var}(\\varepsilon_{t+h})$, so it is...",
+        "Confidence intervals are wider because they include future shock variance — A confidence interval is for $E[y|X]$; a prediction interval adds $\\operatorname{Var}(\\varepsilon_{t+h})$, so it is...",
         "Neither involves the error variance"
       ]
     },
@@ -1034,8 +1034,8 @@
       ],
       "explanation": "Seasonal dummies capture deterministic seasonal effects; seasonal differencing may be needed for stochastic seasonality but is not automatic.",
       "distractors": [
-        "Always difference the series 4 times",
-        "Only include a linear trend",
+        "Always difference the series 4 times — Seasonal dummies capture deterministic seasonal effects; seasonal differencing may be needed for stochastic seasonality...",
+        "Only include a linear trend — Seasonal dummies capture deterministic seasonal effects; seasonal differencing may be needed for stochastic seasonality...",
         "Use Breusch–Pagan test"
       ]
     },
@@ -1049,8 +1049,8 @@
       ],
       "explanation": "DW is primarily for AR(1) and breaks down with lagged dependent variables; BG’s auxiliary regression handles AR(p) and keeps original regressors.",
       "distractors": [
-        "DW handles AR(p) while BG only AR(1)",
-        "DW is valid with lagged dependent variables",
+        "DW handles AR(p) while BG only AR(1) — DW is primarily for AR(1) and breaks down with lagged dependent variables; BG’s auxiliary regression handles AR(p) and...",
+        "DW is valid with lagged dependent variables — DW is primarily for AR(1) and breaks down with lagged dependent variables; BG’s auxiliary regression handles AR(p) and...",
         "They are identical"
       ]
     },
@@ -1064,8 +1064,8 @@
       ],
       "explanation": "Pure FE drops time-invariant regressors; interactions with time or alternative estimators (RE/CRE) leverage between variation to identify such effects.",
       "distractors": [
-        "You cannot under any circumstance",
-        "Difference them",
+        "You cannot under any circumstance — Pure FE drops time-invariant regressors; interactions with time or alternative estimators (RE/CRE) leverage between...",
+        "Difference them — Pure FE drops time-invariant regressors; interactions with time or alternative estimators (RE/CRE) leverage between...",
         "Add more lags"
       ]
     },
@@ -1079,8 +1079,8 @@
       ],
       "explanation": "With small $T$, within-OLS on $y_{i,t-1}$ is biased (Nickell, 1981). Arellano–Bond type GMM or bias corrections are typical remedies.",
       "distractors": [
-        "Heteroskedasticity only",
-        "Perfect multicollinearity",
+        "Heteroskedasticity only — With small $T$, within-OLS on $y_{i,t-1}$ is biased (Nickell, 1981)",
+        "Perfect multicollinearity — With small $T$, within-OLS on $y_{i,t-1}$ is biased (Nickell, 1981)",
         "Unit roots in $x$"
       ]
     },
@@ -1109,8 +1109,8 @@
       ],
       "explanation": "Serially correlated residuals violate classical assumptions, making conventional SEs too small. Clustered or robust SEs should be used to restore valid inference.",
       "distractors": [
-        "Coefficients become biased",
-        "Within transformation fails",
+        "Coefficients become biased — Serially correlated residuals violate classical assumptions, making conventional SEs too small",
+        "Within transformation fails — Serially correlated residuals violate classical assumptions, making conventional SEs too small",
         "Fixed effects disappear"
       ]
     },
@@ -1124,8 +1124,8 @@
       ],
       "explanation": "FE relies solely on within-unit changes. If a regressor barely varies within units, its estimate becomes imprecise (large standard error) and possibly unstable.",
       "distractors": [
-        "Estimate is unbiased but highly precise",
-        "Estimate represents between variation only",
+        "Estimate is unbiased but highly precise — FE relies solely on within-unit changes",
+        "Estimate represents between variation only — FE relies solely on within-unit changes",
         "Estimate automatically equals OLS result"
       ]
     },
@@ -1139,8 +1139,8 @@
       ],
       "explanation": "The DiD estimator attributes post–pre differences in treatment vs control groups to the treatment if their counterfactual trends would have been parallel in absence of treatment.",
       "distractors": [
-        "Treatment and control groups have identical average outcomes before treatment",
-        "Random assignment of treatment",
+        "Treatment and control groups have identical average outcomes before treatment — The DiD estimator attributes post–pre differences in treatment vs control groups to the treatment if their...",
+        "Random assignment of treatment — The DiD estimator attributes post–pre differences in treatment vs control groups to the treatment if their...",
         "No omitted variables"
       ]
     },
@@ -1154,8 +1154,8 @@
       ],
       "explanation": "Including unit and time fixed effects controls for constant differences and common trends. The DiD coefficient on the treatment dummy identifies the ATT under parallel trends.",
       "distractors": [
-        "Raw difference in outcomes between groups",
-        "Correlation between treatment and outcome",
+        "Raw difference in outcomes between groups — Including unit and time fixed effects controls for constant differences and common trends",
+        "Correlation between treatment and outcome — Including unit and time fixed effects controls for constant differences and common trends",
         "Unit-specific time trends"
       ]
     },
@@ -1169,8 +1169,8 @@
       ],
       "explanation": "Strict exogeneity requires $E(u_{it}\\,|\\,X_i)=0$ for all $t$, i.e., $u_{it}$ is uncorrelated with regressors from every period. Feedback from current shocks to future regressors (when $x_{i,t+1}$ depends on $u_{it}$) makes $u_{it}$ correlated with elements of $X_i$, violating strict exogeneity. Predeterminedness (only past $u$ affecting current $x$) with serially uncorrelated $u$ need not violate strict exogeneity; random assignment satisfies it; time dummies do not resolve unit-specific feedback.",
       "distractors": [
-        "$x_{it}$ depends on $u_{i,t-1}$ and $u$ is serially uncorrelated",
-        "An experiment randomly assigns $x_{it}$ in each period",
+        "$x_{it}$ depends on $u_{i,t-1}$ and $u$ is serially uncorrelated — Strict exogeneity requires $E(u_{it}\\,|\\,X_i)=0$ for all $t$, i.e., $u_{it}$ is uncorrelated with regressors from every...",
+        "An experiment randomly assigns $x_{it}$ in each period — Strict exogeneity requires $E(u_{it}\\,|\\,X_i)=0$ for all $t$, i.e., $u_{it}$ is uncorrelated with regressors from every...",
         "Adding time dummies controls for common shocks"
       ]
     }

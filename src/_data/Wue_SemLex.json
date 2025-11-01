@@ -13,8 +13,8 @@
       ],
       "explanation": "Semantisch‑lexikalische Störungen betreffen Wortschatz, Bedeutungsaufbau und Zugriff (Produktion und Verständnis) und sind erheblich sowie anhaltend.",
       "distractors": [
-        "Als reine Artikulationsstörung ohne semantische Bezüge",
-        "Als vorübergehende Wortfindungsschwäche im Vorschulalter",
+        "Als reine Artikulationsstörung ohne semantische Bezüge — Semantisch‑lexikalische Störungen betreffen Wortschatz, Bedeutungsaufbau und Zugriff (Produktion und Verständnis) und...",
+        "Als vorübergehende Wortfindungsschwäche im Vorschulalter — Semantisch‑lexikalische Störungen betreffen Wortschatz, Bedeutungsaufbau und Zugriff (Produktion und Verständnis) und...",
         "Als isolierte Lesestörung ohne Sprachbezug"
       ]
     },
@@ -28,8 +28,8 @@
       ],
       "explanation": "Auf der Lemma‑Ebene liegt Bedeutungs‑ und grammatisches Wissen, auf der Lexem‑Ebene die Form (phonologische Repräsentation).",
       "distractors": [
-        "Morphologie und Syntax",
-        "Phonetik und Pragmatik",
+        "Morphologie und Syntax — Auf der Lemma‑Ebene liegt Bedeutungs‑ und grammatisches Wissen, auf der Lexem‑Ebene die Form (phonologische...",
+        "Phonetik und Pragmatik — Auf der Lemma‑Ebene liegt Bedeutungs‑ und grammatisches Wissen, auf der Lexem‑Ebene die Form (phonologische...",
         "Semantik und Prosodie als identische Ebenen"
       ]
     },
@@ -43,8 +43,8 @@
       ],
       "explanation": "Wortwissen ist in Knoten und Kanten vernetzt; Verknüpfungen unterstützen Abruf und Lernen.",
       "distractors": [
-        "Es ist unstrukturiert und zufällig abgelegt.",
-        "Es besteht nur aus Wortlisten ohne Verbindungen.",
+        "Es ist unstrukturiert und zufällig abgelegt. — Wortwissen ist in Knoten und Kanten vernetzt; Verknüpfungen unterstützen Abruf und Lernen.",
+        "Es besteht nur aus Wortlisten ohne Verbindungen. — Wortwissen ist in Knoten und Kanten vernetzt; Verknüpfungen unterstützen Abruf und Lernen.",
         "Es enthält ausschließlich phonologische Informationen."
       ]
     },
@@ -73,8 +73,8 @@
       ],
       "explanation": "Spontansprache, Bildergeschichten und kriteriengeleitete Beobachtungsbögen liefern erste Hinweise.",
       "distractors": [
-        "Wörterbuchtest ohne Bilder",
-        "Reine Schriftsprachanalyse",
+        "Wörterbuchtest ohne Bilder — Spontansprache, Bildergeschichten und kriteriengeleitete Beobachtungsbögen liefern erste Hinweise.",
+        "Reine Schriftsprachanalyse — Spontansprache, Bildergeschichten und kriteriengeleitete Beobachtungsbögen liefern erste Hinweise.",
         "Nur Elternfragebogen ohne Kindbeobachtung"
       ]
     },
@@ -88,7 +88,7 @@
       ],
       "explanation": "Der WWT 6–10 erfasst expressive und rezeptive Wortschatzleistungen im Grundschulalter.",
       "distractors": [
-        "PDSS",
+        "PDSS — Der WWT 6–10 erfasst expressive und rezeptive Wortschatzleistungen im Grundschulalter.",
         "SET‑K",
         "Aachener Aphasie Test"
       ]
@@ -103,8 +103,8 @@
       ],
       "explanation": "Der WWT kombiniert expressive und rezeptive Aufgaben sowie gestufte Abrufhilfen.",
       "distractors": [
-        "Nur Pseudowortnachsprechen",
-        "Leseflüssigkeit und Rechtschreibung",
+        "Nur Pseudowortnachsprechen — Der WWT kombiniert expressive und rezeptive Aufgaben sowie gestufte Abrufhilfen.",
+        "Leseflüssigkeit und Rechtschreibung — Der WWT kombiniert expressive und rezeptive Aufgaben sowie gestufte Abrufhilfen.",
         "Nur Kategorienbildung ohne Bilder"
       ]
     },
@@ -133,8 +133,8 @@
       ],
       "explanation": "Etwa 1,5 Standardabweichungen unter dem Mittel entsprechen T ≤ 35 und PR ≤ 7.",
       "distractors": [
-        "T‑Wert 50",
-        "Prozentrang 25",
+        "T‑Wert 50 — Etwa 1,5 Standardabweichungen unter dem Mittel entsprechen T ≤ 35 und PR ≤ 7.",
+        "Prozentrang 25 — Etwa 1,5 Standardabweichungen unter dem Mittel entsprechen T ≤ 35 und PR ≤ 7.",
         "Z‑Wert ≥ +1,5"
       ]
     },
@@ -148,8 +148,8 @@
       ],
       "explanation": "So wird zwischen Inventarproblem und Abrufproblem unterschieden und die Abrufbarkeit genauer eingeordnet.",
       "distractors": [
-        "Nur Rechtschreibung",
-        "Nur IQ‑Test",
+        "Nur Rechtschreibung — So wird zwischen Inventarproblem und Abrufproblem unterschieden und die Abrufbarkeit genauer eingeordnet.",
+        "Nur IQ‑Test — So wird zwischen Inventarproblem und Abrufproblem unterschieden und die Abrufbarkeit genauer eingeordnet.",
         "Ausschließlich Prosodie"
       ]
     },
@@ -163,8 +163,8 @@
       ],
       "explanation": "Verschiedene Ablenkertypen erlauben Rückschlüsse auf Repräsentation und Zugriff.",
       "distractors": [
-        "Nur farbliche Ablenker",
-        "Nur semantische Ablenker",
+        "Nur farbliche Ablenker — Verschiedene Ablenkertypen erlauben Rückschlüsse auf Repräsentation und Zugriff.",
+        "Nur semantische Ablenker — Verschiedene Ablenkertypen erlauben Rückschlüsse auf Repräsentation und Zugriff.",
         "Nur phonologische Ablenker"
       ]
     },
@@ -178,8 +178,8 @@
       ],
       "explanation": "Kategorisieren zeigt, ob paradigmatische Strukturen aufgebaut sind.",
       "distractors": [
-        "Sie ist für die Diagnostik irrelevant.",
-        "Sie zeigt nur phonologische Fähigkeiten.",
+        "Sie ist für die Diagnostik irrelevant. — Kategorisieren zeigt, ob paradigmatische Strukturen aufgebaut sind.",
+        "Sie zeigt nur phonologische Fähigkeiten. — Kategorisieren zeigt, ob paradigmatische Strukturen aufgebaut sind.",
         "Sie wird ausschließlich im Jugendalter überprüft."
       ]
     },
@@ -193,8 +193,8 @@
       ],
       "explanation": "Elaboration reichert Lemma‑ und Lexem‑Informationen an und stärkt Verknüpfungen.",
       "distractors": [
-        "Beschleunigung der Artikulation",
-        "Ausschließliches Training der Schriftform",
+        "Beschleunigung der Artikulation — Elaboration reichert Lemma‑ und Lexem‑Informationen an und stärkt Verknüpfungen.",
+        "Ausschließliches Training der Schriftform — Elaboration reichert Lemma‑ und Lexem‑Informationen an und stärkt Verknüpfungen.",
         "Reduktion des Wortschatzumfangs zwecks Übersichtlichkeit"
       ]
     },
@@ -208,8 +208,8 @@
       ],
       "explanation": "Reim/Silbenübungen gehören eher zur phonologischen Elaboration (Lexem‑Ebene).",
       "distractors": [
-        "Mindmaps und Sortieraufgaben nach Merkmalen",
-        "Gegensatzpaare finden",
+        "Mindmaps und Sortieraufgaben nach Merkmalen — Reim/Silbenübungen gehören eher zur phonologischen Elaboration (Lexem‑Ebene).",
+        "Gegensatzpaare finden — Reim/Silbenübungen gehören eher zur phonologischen Elaboration (Lexem‑Ebene).",
         "‚Was passt nicht dazu?‘"
       ]
     },
@@ -223,8 +223,8 @@
       ],
       "explanation": "Diese drei Dimensionen werden über häufige, variierte Abrufe und Priming‑Kontexte gefördert.",
       "distractors": [
-        "Atemfrequenz, Lautstärke, Prosodie",
-        "Schriftbild, Orthografie, Interpunktion",
+        "Atemfrequenz, Lautstärke, Prosodie — Diese drei Dimensionen werden über häufige, variierte Abrufe und Priming‑Kontexte gefördert.",
+        "Schriftbild, Orthografie, Interpunktion — Diese drei Dimensionen werden über häufige, variierte Abrufe und Priming‑Kontexte gefördert.",
         "Konzentration, Motorik, Feinmotorik"
       ]
     },
@@ -238,8 +238,8 @@
       ],
       "explanation": "Automatisierung entsteht durch häufige, variierte Abrufe und zunehmende Zeitvorgaben.",
       "distractors": [
-        "Ausschließlich lautes Vorlesen",
-        "Nur Grammatikförderung",
+        "Ausschließlich lautes Vorlesen — Automatisierung entsteht durch häufige, variierte Abrufe und zunehmende Zeitvorgaben.",
+        "Nur Grammatikförderung — Automatisierung entsteht durch häufige, variierte Abrufe und zunehmende Zeitvorgaben.",
         "Ausschließlich schriftliche Tests"
       ]
     },
@@ -253,8 +253,8 @@
       ],
       "explanation": "Kinder lernen, ihren Wortschatz eigenständig zu erweitern und Abrufprobleme zu managen.",
       "distractors": [
-        "Kurzfristige Auswendiglernleistung",
-        "Nur Fehlervermeidung in Tests",
+        "Kurzfristige Auswendiglernleistung — Kinder lernen, ihren Wortschatz eigenständig zu erweitern und Abrufprobleme zu managen.",
+        "Nur Fehlervermeidung in Tests — Kinder lernen, ihren Wortschatz eigenständig zu erweitern und Abrufprobleme zu managen.",
         "Ausschließlich phonologische Schulung"
       ]
     },
@@ -268,8 +268,8 @@
       ],
       "explanation": "Selbstlernfähigkeit statt vollständiger Abdeckung aller Wörter steht im Mittelpunkt.",
       "distractors": [
-        "Ziel ist, alle fehlenden Wörter explizit zu lehren.",
-        "Generalisierung ist in der Wortschatzarbeit nicht möglich.",
+        "Ziel ist, alle fehlenden Wörter explizit zu lehren. — Selbstlernfähigkeit statt vollständiger Abdeckung aller Wörter steht im Mittelpunkt.",
+        "Generalisierung ist in der Wortschatzarbeit nicht möglich. — Selbstlernfähigkeit statt vollständiger Abdeckung aller Wörter steht im Mittelpunkt.",
         "Sie betrifft nur die Rechtschreibung."
       ]
     },
@@ -283,8 +283,8 @@
       ],
       "explanation": "Inputspezifizierung über Gebärden erhöht Verarbeitungs‑ und Speicherqualität.",
       "distractors": [
-        "Sie sind kontraindiziert.",
-        "Sie ersetzen Lautsprache vollständig.",
+        "Sie sind kontraindiziert. — Inputspezifizierung über Gebärden erhöht Verarbeitungs‑ und Speicherqualität.",
+        "Sie ersetzen Lautsprache vollständig. — Inputspezifizierung über Gebärden erhöht Verarbeitungs‑ und Speicherqualität.",
         "Sie sind nur in der Sekundarstufe sinnvoll."
       ]
     },
@@ -298,8 +298,8 @@
       ],
       "explanation": "Ein qualitatives Profil wird durch Konsistenz, Abrufhilfen und Kategorisierung greifbar.",
       "distractors": [
-        "Nur quantitative Defizite sind relevant.",
-        "Qualitative Defizite werden ausschließlich schriftlich getestet.",
+        "Nur quantitative Defizite sind relevant. — Ein qualitatives Profil wird durch Konsistenz, Abrufhilfen und Kategorisierung greifbar.",
+        "Qualitative Defizite werden ausschließlich schriftlich getestet. — Ein qualitatives Profil wird durch Konsistenz, Abrufhilfen und Kategorisierung greifbar.",
         "Differenzialdiagnostik ist optional und nicht prüfungsrelevant."
       ]
     },
@@ -313,8 +313,8 @@
       ],
       "explanation": "GraWo erlaubt ökonomische Erfassung des Wortverständnisses auf Klassenebene.",
       "distractors": [
-        "Erfasst ausschließlich Orthografie in Klasse 4.",
-        "Ist ein Intelligenztest für die Oberstufe.",
+        "Erfasst ausschließlich Orthografie in Klasse 4. — GraWo erlaubt ökonomische Erfassung des Wortverständnisses auf Klassenebene.",
+        "Ist ein Intelligenztest für die Oberstufe. — GraWo erlaubt ökonomische Erfassung des Wortverständnisses auf Klassenebene.",
         "Prüft nur phonologisches Bewusstsein."
       ]
     },
@@ -328,8 +328,8 @@
       ],
       "explanation": "Die gestufte Vorgabe zeigt, auf welcher Ebene der Abruf angestoßen werden kann.",
       "distractors": [
-        "Abrufhilfen sind verboten.",
-        "Nur phonologische Hinweise sind erlaubt.",
+        "Abrufhilfen sind verboten. — Die gestufte Vorgabe zeigt, auf welcher Ebene der Abruf angestoßen werden kann.",
+        "Nur phonologische Hinweise sind erlaubt. — Die gestufte Vorgabe zeigt, auf welcher Ebene der Abruf angestoßen werden kann.",
         "Abrufhilfen ersetzen die Bildbenennung."
       ]
     },
@@ -343,8 +343,8 @@
       ],
       "explanation": "Phonologische Merkmale der Wortform werden explizit zugänglich gemacht.",
       "distractors": [
-        "Mindmaps zu Oberbegriffen",
-        "Kategorisierungsaufgaben nach Merkmalen",
+        "Mindmaps zu Oberbegriffen — Phonologische Merkmale der Wortform werden explizit zugänglich gemacht.",
+        "Kategorisierungsaufgaben nach Merkmalen — Phonologische Merkmale der Wortform werden explizit zugänglich gemacht.",
         "Gegensatzpaare ordnen"
       ]
     },
@@ -358,8 +358,8 @@
       ],
       "explanation": "Vorgestaltete Abrufkontexte erhöhen die Grundaktivierung relevanter Einträge.",
       "distractors": [
-        "Unangekündigte Tests ohne Kontext",
-        "Nur stilles Lesen",
+        "Unangekündigte Tests ohne Kontext — Vorgestaltete Abrufkontexte erhöhen die Grundaktivierung relevanter Einträge.",
+        "Nur stilles Lesen — Vorgestaltete Abrufkontexte erhöhen die Grundaktivierung relevanter Einträge.",
         "Nur Abschreiben von Definitionen"
       ]
     },
@@ -373,8 +373,8 @@
       ],
       "explanation": "Wechselnde Antworten bei Wiederholung sprechen für instabile Abrufprozesse.",
       "distractors": [
-        "Sie ist diagnostisch bedeutungslos.",
-        "Hohe Konsistenz zeigt immer eine Störung.",
+        "Sie ist diagnostisch bedeutungslos. — Wechselnde Antworten bei Wiederholung sprechen für instabile Abrufprozesse.",
+        "Hohe Konsistenz zeigt immer eine Störung. — Wechselnde Antworten bei Wiederholung sprechen für instabile Abrufprozesse.",
         "Sie wird nur schriftlich erfasst."
       ]
     },
@@ -403,8 +403,8 @@
       ],
       "explanation": "Paradigmatische Struktur zeigt sich im Umgang mit Ober‑/Unterordnungen und Kohyponymen.",
       "distractors": [
-        "Wiederholtes Lesen eines Textes",
-        "Zählen von Silben",
+        "Wiederholtes Lesen eines Textes — Paradigmatische Struktur zeigt sich im Umgang mit Ober‑/Unterordnungen und Kohyponymen.",
+        "Zählen von Silben — Paradigmatische Struktur zeigt sich im Umgang mit Ober‑/Unterordnungen und Kohyponymen.",
         "Lautdifferenzierung minimaler Paare"
       ]
     },
@@ -418,8 +418,8 @@
       ],
       "explanation": "Entwicklungsgang: frühe thematische, später zunehmend taxonomische Organisation.",
       "distractors": [
-        "Sie treten erst im Erwachsenenalter auf.",
-        "Sie sind bedeutungslos für den Erwerb.",
+        "Sie treten erst im Erwachsenenalter auf. — Entwicklungsgang: frühe thematische, später zunehmend taxonomische Organisation.",
+        "Sie sind bedeutungslos für den Erwerb. — Entwicklungsgang: frühe thematische, später zunehmend taxonomische Organisation.",
         "Sie ersetzen taxonomische Strukturen vollständig."
       ]
     },
@@ -433,8 +433,8 @@
       ],
       "explanation": "Variation und Verteilung der Übung festigen Verknüpfungen im Netzwerk.",
       "distractors": [
-        "Einmalige intensive Lerneinheit",
-        "Nur lautes Vorlesen",
+        "Einmalige intensive Lerneinheit — Variation und Verteilung der Übung festigen Verknüpfungen im Netzwerk.",
+        "Nur lautes Vorlesen — Variation und Verteilung der Übung festigen Verknüpfungen im Netzwerk.",
         "Nur schriftliche Vokabellisten"
       ]
     },
@@ -448,8 +448,8 @@
       ],
       "explanation": "Das Sortieren zeigt, wie semantische Felder strukturiert sind.",
       "distractors": [
-        "Erfasst rein phonologische Fähigkeiten.",
-        "Ist ein Rechtschreibtest.",
+        "Erfasst rein phonologische Fähigkeiten. — Das Sortieren zeigt, wie semantische Felder strukturiert sind.",
+        "Ist ein Rechtschreibtest. — Das Sortieren zeigt, wie semantische Felder strukturiert sind.",
         "Prüft ausschließlich Syntax."
       ]
     },
@@ -463,8 +463,8 @@
       ],
       "explanation": "Die drei Therapieformen werden je nach Befund kombiniert.",
       "distractors": [
-        "Artikulation, Prosodie, Orthografie",
-        "Lesen, Schreiben, Rechnen",
+        "Artikulation, Prosodie, Orthografie — Die drei Therapieformen werden je nach Befund kombiniert.",
+        "Lesen, Schreiben, Rechnen — Die drei Therapieformen werden je nach Befund kombiniert.",
         "Phonetik, Syntax, Pragmatik"
       ]
     },
@@ -478,8 +478,8 @@
       ],
       "explanation": "Bedeutungsmerkmale werden explizit vernetzt und kontrastiert.",
       "distractors": [
-        "Nur Silbenklatschen",
-        "Nur Abschreibübungen",
+        "Nur Silbenklatschen — Bedeutungsmerkmale werden explizit vernetzt und kontrastiert.",
+        "Nur Abschreibübungen — Bedeutungsmerkmale werden explizit vernetzt und kontrastiert.",
         "Nur Laut‑zu‑Graphem‑Zuweisung"
       ]
     },
@@ -493,8 +493,8 @@
       ],
       "explanation": "Deutet auf geringe Zahl/Abdeckung lexikalischer Einträge hin (Inventar).",
       "distractors": [
-        "Konstante, aber falsche Benennungen bei wiederholter Präsentation",
-        "Sehr schnelle Benennung bei geringer Genauigkeit",
+        "Konstante, aber falsche Benennungen bei wiederholter Präsentation — Deutet auf geringe Zahl/Abdeckung lexikalischer Einträge hin (Inventar).",
+        "Sehr schnelle Benennung bei geringer Genauigkeit — Deutet auf geringe Zahl/Abdeckung lexikalischer Einträge hin (Inventar).",
         "Nur Rechtschreibfehler"
       ]
     },
@@ -508,8 +508,8 @@
       ],
       "explanation": "Inputspezifizierung ist geplant, multimodal und kontextualisiert.",
       "distractors": [
-        "Vorentlastung zentraler Wörter",
-        "Einsatz von Bildern und Gebärden",
+        "Vorentlastung zentraler Wörter — Inputspezifizierung ist geplant, multimodal und kontextualisiert.",
+        "Einsatz von Bildern und Gebärden — Inputspezifizierung ist geplant, multimodal und kontextualisiert.",
         "Kontextualisierung über Geschichten/Projekte"
       ]
     },
@@ -523,8 +523,8 @@
       ],
       "explanation": "Benenntempo ist ein Hinweis auf Abrufgeschwindigkeit; Messung variiert nach Verfahren.",
       "distractors": [
-        "Es wird im Papier‑WWT immer exakt gemessen.",
-        "Tempo ist diagnostisch bedeutungslos.",
+        "Es wird im Papier‑WWT immer exakt gemessen. — Benenntempo ist ein Hinweis auf Abrufgeschwindigkeit; Messung variiert nach Verfahren.",
+        "Tempo ist diagnostisch bedeutungslos. — Benenntempo ist ein Hinweis auf Abrufgeschwindigkeit; Messung variiert nach Verfahren.",
         "Tempo ersetzt die Prüfung des Verständnisses."
       ]
     },
@@ -538,9 +538,9 @@
       ],
       "explanation": "Selbstlernfähigkeit und Generalisierung sind die Leitziele.",
       "distractors": [
-        "Alle Wörter des Curriculums werden im Detail gelehrt.",
-        "Nur kurzfristiges Testtraining",
-        "Verzicht auf semantische Arbeit zugunsten reiner Phonetik"
+        "Alle Wörter des Curriculums werden im Detail gelehrt. — Selbstlernfähigkeit und Generalisierung sind die Leitziele.",
+        "Nur kurzfristiges Testtraining — Selbstlernfähigkeit und Generalisierung sind die Leitziele.",
+        "Verzicht auf semantische Arbeit zugunsten reiner Phonetik — Selbstlernfähigkeit und Generalisierung sind die Leitziele."
       ]
     }
   ]
