@@ -2834,21 +2834,7 @@
         "When aid is on-budget; integration eliminates all governance concerns. — Rules and transparency reduce substitution and align domestic and external resources."
       ]
     },
-    {
-      "id": "sgi_187",
-      "questionText": "Which argument best supports GDP-linked (state-contingent) sovereign debt from an inclusive growth perspective?",
-      "correctAnswer": "Payments that fall in bad times and rise in good times stabilize fiscal policy and social spending, reducing procyclical cuts that hit vulnerable groups.",
-      "difficulty": 4,
-      "topic": [
-        "Sovereign debt design"
-      ],
-      "explanation": "State contingency shares risk with investors and can protect core programs during downturns.",
-      "distractors": [
-        "Option A with contextual caveat to make it plausible.",
-        "Option B expanded to reference policy credibility and institutional complements.",
-        "Option C noting that timing and implementation determine outcomes, not policy labels alone."
-      ]
-    },
+    
     {
       "id": "sgi_188",
       "questionText": "Rigorous evaluations of ed-tech interventions often find limited average effects. What design feature most plausibly turns ed-tech into a productivity-enhancing input?",
@@ -3134,36 +3120,7 @@
         "Because clustering is necessary only when using instrumental variables."
       ]
     },
-    {
-      "id": "sgi_207",
-      "questionText": "A government considers a large, universal fuel subsidy to fight inflation. Which critique is most defensible?",
-      "correctAnswer": "They are fiscally costly, often regressive in levels, and distort incentives to adopt cleaner technologies; targeted transfers achieve protection at lower efficiency costs.",
-      "difficulty": 4,
-      "topic": [
-        "Energy pricing and equity"
-      ],
-      "explanation": "Untargeted price controls leak benefits up the income ladder and crowd out priority spending.",
-      "distractors": [
-        "A plausible but incorrect mechanism that references incentives and access.",
-        "A distractor emphasizing regulatory constraints with a short clarifier.",
-        "A distractor mentioning coordination failures as a potential but incomplete explanation."
-      ]
-    },
-    {
-      "id": "sgi_208",
-      "questionText": "Which approach best addresses market-power concerns in digital platforms without destroying scale economies?",
-      "correctAnswer": "Impose data portability and interoperability, limit self-preferencing that forecloses rivals, and rely on conduct remedies before structural separation where efficiencies are large.",
-      "difficulty": 4,
-      "topic": [
-        "Competition policy (digital)"
-      ],
-      "explanation": "Targeted rules preserve contestability while respecting network benefits.",
-      "distractors": [
-        "An alternative plausible policy effect framed conservatively.",
-        "A distractor noting distributional leakage if not targeted.",
-        "A distractor about transitional fiscal constraints that is related but incorrect."
-      ]
-    },
+    
     {
       "id": "sgi_209",
       "questionText": "A synthetic control evaluation shows good pre-treatment fit but post-treatment divergence in outcomes. What additional check most strengthens credibility?",
@@ -3194,21 +3151,7 @@
         "Eliminate VAT and rely on trade tariffs for revenue."
       ]
     },
-    {
-      "id": "sgi_211",
-      "questionText": "A city plans to launch a land value tax (LVT) in two years. Which implementation pitfall most threatens revenue credibility and how should it be mitigated?",
-      "correctAnswer": "Undervaluation risk from noisy mass appraisal models can trigger appeals and arrears; mitigate with transparent methods, open data on comparables, a phase-in with caps on bill increases, and a funded, time-bound appeals process.",
-      "difficulty": 4,
-      "topic": [
-        "Urban public finance (implementation)"
-      ],
-      "explanation": "LVT efficiency survives only if valuation and collections are credible. Mass appraisal transparency, staged phase-ins, and disciplined appeals keep cash flow predictable and politically durable.",
-      "distractors": [
-        "A distractor referencing measurement or data issues as a caveat.",
-        "A distractor linking institutional capacity to implementation outcomes (plausible).",
-        "A distractor noting heterogeneity in local effects rather than a universal rule."
-      ]
-    },
+    
     {
       "id": "sgi_212",
       "questionText": "What is the most convincing mechanism by which poor health environments can depress growth even after average life expectancy improves?",
@@ -3314,51 +3257,7 @@
         "Spatial inequality is unrelated to energy policy. — Distributional design sustains the coalition for decarbonization."
       ]
     },
-    {
-      "id": "sgi_219",
-      "questionText": "Which migration policy bundle most efficiently converts inflows into productivity gains?",
-      "correctAnswer": "Provide language and credential recognition, streamline work authorization, enforce anti-discrimination, and invest in transport and housing near jobs.",
-      "difficulty": 3,
-      "topic": [
-        "Migration and growth"
-      ],
-      "explanation": "Reducing frictions speeds matching and raises aggregate productivity.",
-      "distractors": [
-        "A cautious-sounding distractor that connects to fiscal or macro constraints.",
-        "A distractor referencing distributional spillovers rather than direct productivity effects.",
-        "A distractor about timing and sequencing of reforms (plausible but incorrect)."
-      ]
-    },
-    {
-      "id": "sgi_220",
-      "questionText": "A poverty registry built from proxy means testing (PMT) is five years old. Which upgrade path is most defensible for accuracy and inclusion?",
-      "correctAnswer": "Refresh with frequent administrative data updates, community verification, grievance mechanisms, and on-demand enrollment for households experiencing shocks.",
-      "difficulty": 3,
-      "topic": [
-        "Social protection administration"
-      ],
-      "explanation": "Dynamic economies require dynamic targeting to reduce exclusion errors.",
-      "distractors": [
-        "A distractor adding nuance about market structure while remaining distinct.",
-        "A distractor emphasizing necessary but not sufficient conditions for success.",
-        "A distractor discussing political-economy barriers that can block benefits."
-      ]
-    },
-    {
-      "id": "sgi_221",
-      "questionText": "How can industrial policy for green technologies avoid locking in incumbents while still accelerating diffusion?",
-      "correctAnswer": "Use time-bound, performance-based support tied to cost reductions or deployment milestones; design competitive tenders and sunset clauses.",
-      "difficulty": 4,
-      "topic": [
-        "Green industrial policy"
-      ],
-      "explanation": "Discipline plus competition focuses rents on dynamic spillovers rather than status quo protection.",
-      "distractors": [
-        "A distractor that ties to implementation capacity rather than policy content.",
-        "A distractor about complementarity with skills and infrastructure (plausible).",
-        "A distractor noting that outcomes vary by initial conditions, not a universal rule."
-      ]
-    },
+    
     {
       "id": "sgi_222",
       "questionText": "Why might a gradual increase in the minimum pension combined with contributory coverage expansion be more inclusive than a large immediate non-contributory benefit?",
@@ -3387,36 +3286,6 @@
         "CCTs are inferior to fuel subsidies for poverty reduction. — Inputs need quality complements and market demand to translate into earnings. — Inputs need quality complements and market demand to translate into earnings.",
         "CCTs mainly reduce labor supply permanently among adults. — Inputs need quality complements and market demand to translate into earnings.",
         "CCTs raise attendance but have no effect on learning or future earnings in any context. — Inputs need quality complements and market demand to translate into earnings."
-      ]
-    },
-    {
-      "id": "sgi_224",
-      "questionText": "A middle-income country plans a carbon border adjustment mechanism. What design choice most reduces WTO risk and preserves efficiency?",
-      "correctAnswer": "Link the adjustment transparently to the domestic carbon price and embodied emissions, allow equivalent-treatment credits, and avoid sectoral favoritism unrelated to leakage.",
-      "difficulty": 4,
-      "topic": [
-        "Trade and climate"
-      ],
-      "explanation": "Non-discriminatory, price-linked design targets leakage while respecting trade rules.",
-      "distractors": [
-        "Exempt domestic producers from all carbon pricing. — Non-discriminatory, price-linked design targets leakage while respecting trade rules. — Non-discriminatory, price-linked design targets leakage while respecting trade rules.",
-        "Apply the charge only to imports from low-income countries. — Non-discriminatory, price-linked design targets leakage while respecting trade rules. — Non-discriminatory, price-linked design targets leakage while respecting trade rules.",
-        "Set ad hoc tariffs that approximate domestic abatement costs. — Non-discriminatory, price-linked design targets leakage while respecting trade rules."
-      ]
-    },
-    {
-      "id": "sgi_225",
-      "questionText": "What is the most credible explanation for persistent productivity dispersion across firms within narrowly defined industries in lower-income economies?",
-      "correctAnswer": "Credit, input-market, and regulatory wedges limit reallocation; easing these frictions raises aggregate TFP even without new technologies.",
-      "difficulty": 4,
-      "topic": [
-        "Productivity and misallocation"
-      ],
-      "explanation": "Misallocation indicators point to policy-relevant barriers to efficient resource use.",
-      "distractors": [
-        "A distractor that references robustness checks and sensitivity (plausible).",
-        "A distractor noting local general-equilibrium effects can alter impacts.",
-        "A distractor about timing and sequencing that clarifies why the alternative is incomplete."
       ]
     }
   ]
