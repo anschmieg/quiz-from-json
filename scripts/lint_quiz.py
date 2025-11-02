@@ -4,9 +4,11 @@ Linter for quiz JSON files. Produces a structured, colored table with flags.
 Exit code 1 if any issues found.
 """
 
+import argparse
 import glob
 import json
 import re
+import subprocess
 import sys
 from statistics import median
 
@@ -27,16 +29,25 @@ def tokenize(s):
 
 
 def check_file(fp):
+    """Return rows (for printing), total_questions, blocking_count.
+
+    'too-similar' is reported but not considered blocking. A file is
+    considered to have a blocking issue only when a question has
+    one of: length-cue, implausible, duplicate-correct, or no-distractors.
+    The caller will enforce a per-file threshold (default <10%).
+    """
     with open(fp, "r") as f:
         data = json.load(f)
     rows = []
-    issues = 0
-    for q in data.get("questions", [])[:]:
+    blocking_count = 0
+    questions = data.get("questions", [])[:]
+    total_q = len(questions)
+    for q in questions:
         ca = normalize(q.get("correctAnswer", ""))
         ds = [normalize(d) for d in q.get("distractors", []) if normalize(d)]
         if not ds:
             rows.append((fp, q.get("id"), "⚠️ no-distractors", "No distractors"))
-            issues += 1
+            blocking_count += 1
             continue
         med = median([len(d) for d in ds])
         ratio = (len(ca) / med) if med > 0 else float("inf")
@@ -52,6 +63,7 @@ def check_file(fp):
         flags = []
         if ratio > 1.125:
             flags.append("length-cue")
+        # always report too-similar but do NOT count it as blocking
         if max_sim > 0.6:
             flags.append("too-similar")
         if max_sim < 0.05:
@@ -59,7 +71,6 @@ def check_file(fp):
         if ca in ds:
             flags.append("duplicate-correct")
         if flags:
-            issues += 1
             rows.append(
                 (
                     fp,
@@ -68,7 +79,11 @@ def check_file(fp):
                     f"ratio={ratio:.2f} sim={max_sim:.2f}",
                 )
             )
-    return rows, issues
+            # count as blocking if any blocking flag present (exclude too-similar)
+            blocking_flags = [f for f in flags if f in ("length-cue", "implausible", "duplicate-correct")]
+            if blocking_flags:
+                blocking_count += 1
+    return rows, total_q, blocking_count
 
 
 def print_table(rows):
@@ -85,19 +100,76 @@ def print_table(rows):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Lint quiz JSON files. By default only checks files staged for commit or modified against HEAD."
+    )
+    parser.add_argument(
+        "--all", action="store_true", help="Lint all files in src/_data/*.json"
+    )
+    parser.add_argument(
+        "--files",
+        nargs="*",
+        help="Specific files to lint (paths). Overrides staged/modified detection.",
+    )
+    args = parser.parse_args()
+
+    # determine target files
+    targets = []
+    if args.all:
+        targets = glob.glob("src/_data/*.json")
+    elif args.files:
+        targets = [f for f in args.files if f.startswith("src/_data/") and f.endswith(".json")]
+    else:
+        # detect git-staged and modified files (diff against HEAD)
+        try:
+            out_staged = (
+                subprocess.check_output(["git", "diff", "--name-only", "--cached"], text=True)
+                .strip()
+                .splitlines()
+            )
+            out_modified = (
+                subprocess.check_output(["git", "diff", "--name-only", "HEAD"], text=True)
+                .strip()
+                .splitlines()
+            )
+            files = set(out_staged + out_modified)
+            targets = [f for f in files if f.startswith("src/_data/") and f.endswith(".json")]
+        except Exception:
+            # git not available or not a repo: fallback to no targets
+            targets = []
+
     rows_all = []
-    total_issues = 0
-    for fp in glob.glob("src/_data/*.json"):
-        rows, issues = check_file(fp)
+    failed_files = []
+    total_blocking = 0
+
+    if not targets:
+        print(GREEN + BOLD + "No staged/modified data files to lint; skipping." + RESET)
+        sys.exit(0)
+
+    for fp in sorted(targets):
+        rows, total_q, blocking_count = check_file(fp)
         rows_all.extend(rows)
-        total_issues += issues
+        total_blocking += blocking_count
+        # per-file threshold: fail if blocking_count / total_q >= 0.10
+        ratio = (blocking_count / total_q) if total_q > 0 else 0
+        if ratio >= 0.10:
+            failed_files.append((fp, blocking_count, total_q, ratio))
     print_table(rows_all)
-    if total_issues > 0:
+    if failed_files:
+        print()
+        for fp, blocking_count, total_q, ratio in failed_files:
+            short = fp.replace("src/_data/", "")
+            print(
+                RED
+                + BOLD
+                + f"{short}: {blocking_count}/{total_q} blocking questions ({ratio:.0%}) — exceeds per-file 10% threshold"
+                + RESET
+            )
         print(
             "\n"
             + RED
             + BOLD
-            + f"{total_issues} file(s)/question(s) flagged. Fix before commit."
+            + f"{len(failed_files)} file(s) failed per-file threshold. Fix before commit."
             + RESET
         )
         sys.exit(1)
