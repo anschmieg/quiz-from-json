@@ -111,54 +111,6 @@
       ]
     },
     {
-      "id": "sgi_008",
-      "questionText": "When previously protected plants respond to tariff cuts by adopting advanced machinery and hiring more skilled workers, what does this imply about the link from trade to inequality?",
-      "correctAnswer": "Within-sector skill-biased technological change connects openness to higher relative demand for skills; inequality can rise even without large across-sector shifts.",
-      "difficulty": 4,
-      "topic": [
-        "Trade micro-evidence"
-      ],
-      "explanation": "Upgrading inside industries reconciles data with comparative advantage at the country level.",
-      "distractors": [
-        "Multinationals always reduce returns to education because they offshore only low-skill tasks, but this is not supported by the evidence. — Upgrading inside industries reconciles data with comparative advantage at the country level.",
-        "Tariff cuts move workers instantly from agriculture to manufacturing with no transitional wage pressure, which oversimplifies the adjustment process.",
-        "Within-sector skill-biased technological change links openness to higher demand for skills; inequality can rise even without large across-sector shifts, as seen in plant-level data.",
-        "All plants converge to a single technology, which eliminates the skill premium, but this is not observed in practice."
-      ]
-    },
-    {
-      "id": "sgi_009",
-      "questionText": "Which mechanism most plausibly explains how high inequality today can depress the next generation’s growth rate?",
-      "correctAnswer": "Binding credit and education constraints exclude able households from acquiring skills or starting firms, producing underinvestment in human capital and entrepreneurship and lowering aggregate productivity growth.",
-      "difficulty": 3,
-      "topic": [
-        "Inequality and growth"
-      ],
-      "explanation": "Opportunity constraints link distribution to dynamic efficiency through human capital and firm formation.",
-      "distractors": [
-        "Concentrated income weakens elite control over courts, so innovation blocking falls and growth accelerates, but this is not the main mechanism discussed. — Opportunity constraints link distribution to dynamic efficiency through human capital and firm formation.",
-        "High inequality shrinks government mechanically and thus raises productivity by cutting administrative costs, but this effect is not supported by evidence. — Opportunity constraints link distribution to dynamic efficiency through human capital and firm formation.",
-        "Binding credit and education constraints exclude able households from acquiring skills or starting firms, leading to underinvestment in human capital and entrepreneurship, which lowers aggregate productivity growth.",
-        "Higher inequality raises aggregate saving and therefore guarantees faster capital accumulation, but this is not generally observed."
-      ]
-    },
-    {
-      "id": "sgi_010",
-      "questionText": "Easterly and coauthors instrument long-run inequality with historical crop suitability. What structural channel are they trying to identify, and why does it still matter?",
-      "correctAnswer": "Plantation crops favored coercive large-scale production that entrenched inequality and extractive institutions, whose effects on investment and governance persist.",
-      "difficulty": 4,
-      "topic": [
-        "Historical inequality"
-      ],
-      "explanation": "Endowments shaped political power and institutional trajectories, leaving persistent effects on modern development.",
-      "distractors": [
-        "Plantation crops favored coercive large-scale production, entrenching inequality and extractive institutions, with effects on investment and governance that persist today. — Endowments shaped political power and institutional trajectories, leaving persistent effects on modern development.",
-        "Crop patterns only affected historical farm profits and left no institutional legacy, so their impact on modern institutions is minimal. — Endowments shaped political power and institutional trajectories, leaving persistent effects on modern development.",
-        "Plantation crops guaranteed inclusive institutions because scale required universal education, but this is not supported by the evidence.",
-        "Crop patterns determine contemporary rainfall, which directly fixes income regardless of institutions, but this is not the main channel identified."
-      ]
-    },
-    {
       "id": "sgi_011",
       "questionText": "How should a finance minister communicate Dollar and Kraay’s claim that growth is good for the poor without overstating it?",
       "correctAnswer": "Bottom-quintile income tends to track average income roughly one-for-one on average, so broad-based growth usually lifts poor households even if inequality does not always fall.",
@@ -191,54 +143,6 @@
       ]
     },
     {
-      "id": "sgi_013",
-      "questionText": "Why is it useful to distinguish inequality of opportunity from inequality of outcome when assessing long-run growth prospects?",
-      "correctAnswer": "Opportunity inequality refers to systematic exclusion from schooling, health, credit, and legal protection; it depresses human capital formation and institutional legitimacy and lowers future productivity growth.",
-      "difficulty": 3,
-      "topic": [
-        "Opportunity vs outcome"
-      ],
-      "explanation": "Excluding groups from core inputs wastes talent and undermines trust in institutions that support investment.",
-      "distractors": [
-        "Opportunity inequality refers to systematic exclusion from schooling, health, credit, and legal protection, which depresses human capital formation, institutional legitimacy, and future productivity growth. — Excluding groups from core inputs wastes talent and undermines trust in institutions that support investment.",
-        "It is merely a different formula for the Gini coefficient that uses deciles instead of quintiles, but this is not the main distinction. — Excluding groups from core inputs wastes talent and undermines trust in institutions that support investment.",
-        "It refers exclusively to differences in post-tax income across age cohorts, which is a narrower concept. — Excluding groups from core inputs wastes talent and undermines trust in institutions that support investment.",
-        "Opportunity inequality captures only transitory consumption fluctuations during business cycles, but this is not the main focus."
-      ]
-    },
-    {
-      "id": "sgi_014",
-      "questionText": "A government responds to import-driven job loss with broad tariffs. Which critique aligns with the course’s emphasis on inclusive openness and place-based policy?",
-      "correctAnswer": "Tariffs may slow layoffs but also raise prices, invite retaliation, and freeze obsolete structures; mobility support, retraining, and place-based investment help regions transition while preserving efficiency gains from openness.",
-      "difficulty": 3,
-      "topic": [
-        "Trade adjustment"
-      ],
-      "explanation": "Insurance and mobility assistance address concentrated losses without sacrificing national efficiency.",
-      "distractors": [
-        "Tariffs may slow layoffs but also raise prices, invite retaliation, and freeze obsolete structures; mobility support, retraining, and place-based investment help regions transition while preserving efficiency gains from openness, making adjustment more inclusive. — Insurance and mobility assistance address concentrated losses without sacrificing national efficiency.",
-        "Tariffs target comparative advantage directly and guarantee productivity growth by preventing reallocation, but this is not supported by evidence. — Insurance and mobility assistance address concentrated losses without sacrificing national efficiency.",
-        "Tariffs raise average wages by raising import prices, which boosts profits and investment in the same plants, but this effect is not always positive overall.",
-        "Tariffs are irrelevant because workers move instantly at zero cost, which oversimplifies labor market dynamics."
-      ]
-    },
-    {
-      "id": "sgi_015",
-      "questionText": "Why can wage insurance and mobility support dominate broad tariffs both economically and politically when import competition intensifies?",
-      "correctAnswer": "They target concentrated losses among workers and regions while preserving national gains from openness, sustaining support for engagement rather than freezing structure with blanket protection.",
-      "difficulty": 4,
-      "topic": [
-        "Political economy of trade"
-      ],
-      "explanation": "Compensating people, not sectors, maintains efficiency and the political coalition for openness.",
-      "distractors": [
-        "They target concentrated losses among workers and regions while preserving national gains from openness, sustaining support for engagement rather than freezing structure with blanket protection, which is more efficient and politically sustainable. — Compensating people, not sectors, maintains efficiency and the political coalition for openness.",
-        "They guarantee population growth in declining regions by attracting firms instantly, but this is not a realistic outcome. — Compensating people, not sectors, maintains efficiency and the political coalition for openness.",
-        "They restore each displaced worker’s prior wage indefinitely, eliminating political pressure, but this is not feasible in practice.",
-        "They remove the need for unemployment insurance because all displaced workers quickly find higher-paying jobs, which is not generally observed."
-      ]
-    },
-    {
       "id": "sgi_016",
       "questionText": "In the Bolivia case, why was institutional reform treated as a precondition for diversification rather than an add-on after infrastructure upgrades?",
       "correctAnswer": "A landlocked location, high transport costs, and reliance on volatile resource rents raise the premium on credible property rights, predictable regulation, and operational state capacity; roads alone would not shift investor expectations toward non-extractive activity.",
@@ -256,87 +160,6 @@
       ]
     },
     {
-      "id": "sgi_017",
-      "questionText": "In the South Africa case, why can expanding access to quality education and basic services be characterized as a growth policy rather than a pure redistribution program?",
-      "correctAnswer": "Broadening access to schooling and health expands human capital and strengthens labor-market attachment among historically excluded groups, increasing future productivity and the tax base.",
-      "difficulty": 3,
-      "topic": [
-        "Case",
-        "South Africa"
-      ],
-      "explanation": "Opportunity-expanding redistribution is an investment in future capacity and social stability.",
-      "distractors": [
-        "Redistribution has no meaningful macroeconomic effects in middle-income countries, but this is not supported by evidence. — Opportunity-expanding redistribution is an investment in future capacity and social stability.",
-        "Broadening access to schooling and health expands human capital and strengthens labor-market attachment among historically excluded groups, increasing future productivity and the tax base, making it a growth policy.",
-        "Growth has already eliminated structural unemployment, so any distributional program is symbolic, but this is not the case in South Africa.",
-        "Transfers raise total factor productivity by definition because spending equals productivity in growth accounting, which is not a valid accounting identity."
-      ]
-    },
-    {
-      "id": "sgi_018",
-      "questionText": "During the pandemic, many emerging economies had limited fiscal space. Which causal chain best links inequality, thin safety nets, and debt vulnerabilities?",
-      "correctAnswer": "Where safety nets are thin, households and governments borrow to smooth large shocks; leverage rises and future fiscal space shrinks, reducing resilience even if the initial shock is cushioned.",
-      "difficulty": 4,
-      "topic": [
-        "Resilience and fiscal space"
-      ],
-      "explanation": "Leverage is a substitute for insurance; its accumulation constrains future macro policy.",
-      "distractors": [
-        "High inequality implies strong automatic stabilizers, so borrowing needs fell despite output collapses, but this is not generally observed. — Leverage is a substitute for insurance; its accumulation constrains future macro policy.",
-        "Debt dynamics depend only on the current account, not on domestic insurance or political stability, but this is not the main channel.",
-        "High inequality guarantees investor confidence by concentrating wealth and lowering sovereign spreads, but this is not supported by evidence.",
-        "Where safety nets are thin, households and governments borrow to smooth large shocks; leverage rises and future fiscal space shrinks, reducing resilience even if the initial shock is cushioned, linking inequality to fiscal vulnerability."
-      ]
-    },
-    {
-      "id": "sgi_019",
-      "questionText": "Designing inclusive green growth requires attention to both efficiency and distribution. Which package best meets that goal in a politically durable way?",
-      "correctAnswer": "Adopt a clear carbon price and recycle part of the revenue into targeted household transfers, mobility support, and place-based transition investment in carbon-intensive regions.",
-      "difficulty": 4,
-      "topic": [
-        "Climate policy"
-      ],
-      "explanation": "Pairing price signals with cushioning preserves abatement incentives and social consent for decarbonization.",
-      "distractors": [
-        "Ban high-emitting sectors immediately without compensation to maximize the speed of adjustment, but this is not politically durable. — Pairing price signals with cushioning preserves abatement incentives and social consent for decarbonization.",
-        "Adopt a clear carbon price and recycle part of the revenue into targeted household transfers, mobility support, and place-based transition investment in carbon-intensive regions, balancing efficiency and distribution.",
-        "Adopt a uniform carbon tax and use all revenue to cut profit taxes because investment incentives dominate distribution, but this does not address distributional concerns.",
-        "Rely only on voluntary corporate pledges to avoid short-run energy price increases, which is not sufficient for inclusive green growth."
-      ]
-    },
-    {
-      "id": "sgi_020",
-      "questionText": "Why does the course treat state capacity as a productive input rather than a mere governance nicety, and how does this shape private investment?",
-      "correctAnswer": "Effective states enforce contracts, collect taxes predictably, deliver services at scale, and respond credibly in crises, lowering uncertainty and transaction costs for private investors.",
-      "difficulty": 4,
-      "topic": [
-        "Institutions and capacity"
-      ],
-      "explanation": "Implementation credibility complements private capital and expands the set of viable long-horizon projects.",
-      "distractors": [
-        "Effective states enforce contracts, collect taxes predictably, deliver services at scale, and respond credibly in crises, lowering uncertainty and transaction costs for private investors, making state capacity a productive input. — Implementation credibility complements private capital and expands the set of viable long-horizon projects.",
-        "High state capacity removes the need for property rights because the state can plan production directly, but this is not the case in most economies. — Implementation credibility complements private capital and expands the set of viable long-horizon projects.",
-        "High state capacity makes market prices irrelevant because procurement can offset any signal, but this is not a realistic scenario.",
-        "High state capacity guarantees immediate equality, so investors can ignore governance when valuing risk, but this is not supported by evidence."
-      ]
-    },
-    {
-      "id": "sgi_021",
-      "questionText": "Why can ideas sustain long-run growth in endogenous models, whereas additional physical capital alone cannot once an economy nears its steady state?",
-      "correctAnswer": "Ideas are non-rival and scalable, and knowledge spillovers prevent the marginal payoff to new ideas from collapsing the way the marginal product of rival capital does.",
-      "difficulty": 4,
-      "topic": [
-        "Endogenous growth"
-      ],
-      "explanation": "Non-rivalry justifies policy support for innovation and diffusion when private appropriability is limited.",
-      "distractors": [
-        "Ideas are non-rival and scalable, and knowledge spillovers prevent the marginal payoff to new ideas from collapsing the way the marginal product of rival capital does, sustaining long-run growth. — Non-rivalry justifies policy support for innovation and diffusion when private appropriability is limited.",
-        "Ideas depreciate more slowly than machines, so growth rises mechanically when investment is steady, but this is not the main mechanism. — Non-rivalry justifies policy support for innovation and diffusion when private appropriability is limited.",
-        "Ideas are rival inputs owned by single firms, so monopoly profits always finance research fully, but this is not generally observed.",
-        "Ideas require autarky to diffuse, so closed economies grow faster than open ones, which is not supported by growth theory."
-      ]
-    },
-    {
       "id": "sgi_022",
       "questionText": "What does conditional convergence imply for benchmarking poorer economies against richer ones in empirical work?",
       "correctAnswer": "Poorer economies should grow faster when fundamentals are similar; in practice this produces convergence clubs rather than one global steady state.",
@@ -350,54 +173,6 @@
         "Convergence patterns are random because identification is impossible, but this is not supported by empirical work.",
         "Absolute catch-up is automatic regardless of savings, demographics, technology, or institutions, but this is not observed in the data.",
         "Population growth alone determines steady-state income, so demography can ensure convergence even with weak institutions, but this is not the main driver."
-      ]
-    },
-    {
-      "id": "sgi_023",
-      "questionText": "In Sachs’s geography narrative, how can a high malaria burden generate persistent underdevelopment risks through economic channels?",
-      "correctAnswer": "It reduces labor productivity and schooling, raises mortality, and increases fiscal burdens, discouraging private investment and risking low-income traps unless addressed.",
-      "difficulty": 3,
-      "topic": [
-        "Geography and health"
-      ],
-      "explanation": "Disease ecology interacts with fiscal capacity and private incentives; the channel is economic as well as biomedical.",
-      "distractors": [
-        "It guarantees higher trade volumes because aid inflows raise foreign exchange earnings, but this is not the main channel. — Disease ecology interacts with fiscal capacity and private incentives; the channel is economic as well as biomedical.",
-        "It raises leisure and saving and therefore accelerates capital deepening, but this is not supported by evidence.",
-        "It reduces labor productivity and schooling, raises mortality, and increases fiscal burdens, discouraging private investment and risking low-income traps unless addressed, making malaria a persistent economic risk.",
-        "It has no macroeconomic effects because modern economies are service-based, but this is not accurate for many developing countries."
-      ]
-    },
-    {
-      "id": "sgi_024",
-      "questionText": "What is the key dynamic difference between poverty-trap models and the standard Solow model, and why does that difference matter for policy?",
-      "correctAnswer": "Trap models include thresholds and complementarities that can block takeoff at low levels of capital or skills, while Solow predicts smooth convergence conditional on fundamentals.",
-      "difficulty": 4,
-      "topic": [
-        "Growth dynamics"
-      ],
-      "explanation": "Nonlinearities justify coordinated public investment; without them, gradual accumulation suffices.",
-      "distractors": [
-        "The two approaches make identical predictions, so policy is unaffected by model choice, but this is not the case. — Nonlinearities justify coordinated public investment; without them, gradual accumulation suffices.",
-        "Only trap models include technology; Solow treats technology as irrelevant to long-run growth, but this is not accurate.",
-        "Solow features thresholds and complementarities; trap models assume linear accumulation, but this reverses the actual distinction.",
-        "Trap models include thresholds and complementarities that can block takeoff at low levels of capital or skills, while Solow predicts smooth convergence conditional on fundamentals, making policy implications different."
-      ]
-    },
-    {
-      "id": "sgi_025",
-      "questionText": "Why is endogeneity a first-order concern in cross-country regressions that relate income to institutions, openness, and education, and what problem does it create for interpretation?",
-      "correctAnswer": "Institutions, trade, and human capital are jointly determined with income and are affected by omitted variables; without identification, coefficients confound reverse causality and unobserved heterogeneity with the causal effect of interest.",
-      "difficulty": 4,
-      "topic": [
-        "Empirical methods"
-      ],
-      "explanation": "Causal interpretation requires exogenous variation via instruments, panels, or quasi-experimental designs.",
-      "distractors": [
-        "Ordinary least squares cannot estimate models with multiple regressors, so instruments are always required, but this is not correct. — Causal interpretation requires exogenous variation via instruments, panels, or quasi-experimental designs.",
-        "Institutions, trade, and human capital are jointly determined with income and are affected by omitted variables; without identification, coefficients confound reverse causality and unobserved heterogeneity with the causal effect of interest, making endogeneity a first-order concern. — Causal interpretation requires exogenous variation via instruments, panels, or quasi-experimental designs.",
-        "GDP is denominated in dollars; linear regression is invalid without market-rate PPP conversion, but this is not a valid critique. — Causal interpretation requires exogenous variation via instruments, panels, or quasi-experimental designs.",
-        "Large macro samples bias standard errors downward regardless of the model, but this is not the main issue with endogeneity."
       ]
     },
     {
@@ -592,118 +367,6 @@
       ]
     },
     {
-      "id": "sgi_038",
-      "questionText": "Why do purchasing power parity (PPP) conversions meaningfully change global poverty counts relative to market exchange rates?",
-      "correctAnswer": "PPP reflects the relative price of non-tradables in local consumption bundles; differences there can shift many households across absolute lines.",
-      "difficulty": 3,
-      "topic": [
-        "International comparisons"
-      ],
-      "explanation": "Absolute poverty is about real consumption possibilities, not nominal foreign currency purchasing power.",
-      "distractors": [
-        "PPP raises all prices uniformly, so it should not matter for counts in practice, but this is not accurate. — Absolute poverty is about real consumption possibilities, not nominal foreign currency purchasing power.",
-        "PPP reflects the relative price of non-tradables in local consumption bundles; differences there can shift many households across absolute lines, affecting global poverty counts.",
-        "PPP equals the market rate in low-inflation countries, so trends are identical, but this is not generally observed.",
-        "PPP applies only to capital goods and therefore overstates poverty mechanically, but this is not the main effect."
-      ]
-    },
-    {
-      "id": "sgi_039",
-      "questionText": "What does the Human Capital Index (HCI) try to measure, and why is it macroeconomically relevant?",
-      "correctAnswer": "It estimates the productivity a child born today can achieve by age 18 given current health and education; this proxies the future efficiency of labor and potential output.",
-      "difficulty": 3,
-      "topic": [
-        "Human capital"
-      ],
-      "explanation": "HCI links today’s capability investments to tomorrow’s effective labor and growth.",
-      "distractors": [
-        "It is a composite of teacher salaries that predicts inflation persistence, but this is not the main purpose. — HCI links today’s capability investments to tomorrow’s effective labor and growth.",
-        "It records tertiary enrollment and therefore total factor productivity by identity, but this is not accurate.",
-        "It estimates the productivity a child born today can achieve by age 18 given current health and education; this proxies the future efficiency of labor and potential output, making it macroeconomically relevant.",
-        "It measures the government’s education spending share and thus debt sustainability, but this is not the main focus."
-      ]
-    },
-    {
-      "id": "sgi_040",
-      "questionText": "What policy mix best supports inclusive outcomes during rapid automation?",
-      "correctAnswer": "Encourage adoption while providing portable benefits, wage insurance, and targeted upskilling into expanding sectors so productivity gains diffuse without persistent displacement.",
-      "difficulty": 4,
-      "topic": [
-        "Technology and labor"
-      ],
-      "explanation": "Pairing innovation with risk-sharing and mobility preserves both efficiency and legitimacy.",
-      "distractors": [
-        "Ban labor-saving technologies until unemployment returns to its natural rate, but this is not a sustainable approach. — Pairing innovation with risk-sharing and mobility preserves both efficiency and legitimacy.",
-        "Subsidize incumbents to keep existing jobs regardless of technology choice, but this can reduce efficiency.",
-        "Replace active labor market policy with a universal basic income only, but this may not address all adjustment needs.",
-        "Encourage adoption while providing portable benefits, wage insurance, and targeted upskilling into expanding sectors so productivity gains diffuse without persistent displacement, supporting inclusive outcomes."
-      ]
-    },
-    {
-      "id": "sgi_041",
-      "questionText": "In high land-inequality settings, which mechanism makes land reform potentially growth-enhancing rather than purely redistributive?",
-      "correctAnswer": "Relaxed collateral constraints for smallholders raise investment in land-augmenting inputs and aggregate productivity, especially when paired with extension and market access.",
-      "difficulty": 4,
-      "topic": [
-        "Agrarian institutions"
-      ],
-      "explanation": "Credit access and security shape input choices; complementary services determine productivity effects.",
-      "distractors": [
-        "Land titling changes only who gets rents and does not influence credit or effort, but this is not generally observed. — Credit access and security shape input choices; complementary services determine productivity effects.",
-        "Fragmentation automatically raises yields because small is always efficient, but this is not always the case.",
-        "Reform reduces rural–urban migration and therefore raises urban wages by supply effects alone, but this is not the main mechanism.",
-        "Relaxed collateral constraints for smallholders raise investment in land-augmenting inputs and aggregate productivity, especially when paired with extension and market access, making land reform growth-enhancing."
-      ]
-    },
-    {
-      "id": "sgi_042",
-      "questionText": "How can high inequality weaken institutional quality through political economy channels?",
-      "correctAnswer": "Concentrated wealth enables incumbents to block entry and new technologies that threaten rents, sustaining extractive rules and dampening innovation.",
-      "difficulty": 4,
-      "topic": [
-        "Institutions and inequality"
-      ],
-      "explanation": "Elite capture links distribution to institutional stagnation and innovation suppression.",
-      "distractors": [
-        "Concentrated wealth enables incumbents to block entry and new technologies that threaten rents, sustaining extractive rules and dampening innovation, weakening institutional quality. — Elite capture links distribution to institutional stagnation and innovation suppression.",
-        "Inequality mechanically forces stronger rule of law because wealth requires courts, but this is not generally observed. — Elite capture links distribution to institutional stagnation and innovation suppression.",
-        "Inequality has no implication for institutions once elections are held regularly, but this is not supported by evidence.",
-        "High inequality reduces elite rents, so elites diversify by investing in public goods, but this is not the main channel."
-      ]
-    },
-    {
-      "id": "sgi_043",
-      "questionText": "Which reform bundle most increases the poverty-reducing effect of a given growth rate in a highly unequal economy?",
-      "correctAnswer": "Targeted expansion of quality basic services, reduced spatial frictions to jobs, and improved credit for viable small firms with clear sunset rules.",
-      "difficulty": 3,
-      "topic": [
-        "Pro-poor growth"
-      ],
-      "explanation": "Opportunity expansion and mobility raise the elasticity of poverty reduction with respect to growth.",
-      "distractors": [
-        "Broad fuel subsidies and untargeted investment tax credits, but these do not target poverty reduction effectively. — Opportunity expansion and mobility raise the elasticity of poverty reduction with respect to growth.",
-        "Comprehensive import protection for low-skill industries to halt reallocation, but this can reduce efficiency.",
-        "Across-the-board corporate tax cuts with no conditionality, but this does not focus on the poor.",
-        "Targeted expansion of quality basic services, reduced spatial frictions to jobs, and improved credit for viable small firms with clear sunset rules, increasing the poverty-reducing effect of growth."
-      ]
-    },
-    {
-      "id": "sgi_044",
-      "questionText": "What is a balanced way to think about emigration and inclusive growth in sending countries?",
-      "correctAnswer": "Remittances and network effects can finance human capital and entrepreneurship, but large skilled outflows risk brain drain; policies for training, credential recognition, and diaspora links can tilt outcomes toward brain circulation.",
-      "difficulty": 3,
-      "topic": [
-        "Migration and development"
-      ],
-      "explanation": "Net effects depend on composition and policy; institutions can shape circulation rather than one-way loss.",
-      "distractors": [
-        "Restricting emigration guarantees faster domestic skill formation, but this is not generally observed. — Net effects depend on composition and policy; institutions can shape circulation rather than one-way loss.",
-        "Emigration is distributionally neutral because it affects only wages, not opportunities, but this is not accurate. — Net effects depend on composition and policy; institutions can shape circulation rather than one-way loss.",
-        "Remittances and network effects can finance human capital and entrepreneurship, but large skilled outflows risk brain drain; policies for training, credential recognition, and diaspora links can tilt outcomes toward brain circulation, supporting inclusive growth.",
-        "Emigration always reduces welfare because it lowers population, but this is not the main effect."
-      ]
-    },
-    {
       "id": "sgi_045",
       "questionText": "Which evaluation strategy best identifies the causal employment effect of a place-based program?",
       "correctAnswer": "Difference-in-differences with well-matched controls, verified parallel pre-trends, and checks for spillovers to neighboring areas.",
@@ -717,81 +380,6 @@
         "Comparing national employment before and after the program start date, but this does not isolate the program effect.",
         "Before–after comparisons in treated areas only, but this does not account for broader trends.",
         "Difference-in-differences with well-matched controls, verified parallel pre-trends, and checks for spillovers to neighboring areas, best identifying the causal effect."
-      ]
-    },
-    {
-      "id": "sgi_046",
-      "questionText": "Why is corruption especially harmful for inclusive growth when it erodes tax capacity?",
-      "correctAnswer": "Weak revenue undermines public goods, risk-sharing, and policy credibility, discouraging private investment and narrowing opportunity.",
-      "difficulty": 3,
-      "topic": [
-        "Governance and state capacity"
-      ],
-      "explanation": "Fiscal capacity is an input into production through credible service delivery and stabilization.",
-      "distractors": [
-        "Corruption neutralizes informality by equalizing firms’ effective tax rates. — Fiscal capacity is an input into production through credible service delivery and stabilization.",
-        "Tax capacity is unrelated to growth because private finance can substitute fully. — Fiscal capacity is an input into production through credible service delivery and stabilization.",
-        "Bribes transfer money to the poor, which directly reduces inequality."
-      ]
-    },
-    {
-      "id": "sgi_047",
-      "questionText": "Through which realistic channel can financial development support inclusive growth without heightening fragility?",
-      "correctAnswer": "Improved intermediation relaxes credit constraints for capable households and small firms while macroprudential rules lean against leverage cycles.",
-      "difficulty": 3,
-      "topic": [
-        "Finance and development"
-      ],
-      "explanation": "Access and prudence must move together; otherwise leverage amplifies downturns that hit vulnerable borrowers hardest.",
-      "distractors": [
-        "Private credit-to-GDP can rise indefinitely with no crisis risk in modern systems. — Access and prudence must move together; otherwise leverage amplifies downturns that hit vulnerable borrowers hardest.",
-        "Full capital-account liberalization equalizes borrowing costs for all agents. — Access and prudence must move together; otherwise leverage amplifies downturns that hit vulnerable borrowers hardest.",
-        "Expanding derivatives trading automatically lowers poverty by increasing liquidity."
-      ]
-    },
-    {
-      "id": "sgi_048",
-      "questionText": "How does urban planning shape both productivity and inclusion in fast-growing cities?",
-      "correctAnswer": "Dense, mixed-use zoning and mass transit that reduce commute times raise agglomeration benefits and expand access to jobs for low-income workers.",
-      "difficulty": 3,
-      "topic": [
-        "Urbanization and productivity"
-      ],
-      "explanation": "Connectivity and affordability determine whether agglomeration economies are realized and shared.",
-      "distractors": [
-        "Zoning is irrelevant for firm productivity because firms instantly adjust locations. — Connectivity and affordability determine whether agglomeration economies are realized and shared.",
-        "Height limits universally raise productivity by preserving heritage districts. — Connectivity and affordability determine whether agglomeration economies are realized and shared.",
-        "Informal settlements vanish automatically as income rises, so planning is unnecessary."
-      ]
-    },
-    {
-      "id": "sgi_049",
-      "questionText": "What is the most defensible interpretation of the Kuznets curve for contemporary policy design?",
-      "correctAnswer": "It is a conditional hypothesis: early structural change can raise inequality; later democratization, education expansion, and policy can reverse it, but outcomes depend on institutions.",
-      "difficulty": 3,
-      "topic": [
-        "Inequality dynamics"
-      ],
-      "explanation": "The curve is not fate; institutions and policies shape the trajectory.",
-      "distractors": [
-        "It implies late industrializers cannot reduce inequality without first shrinking. — The curve is not fate; institutions and policies shape the trajectory. — The curve is not fate; institutions and policies shape the trajectory.",
-        "It is a law of nature; inequality must fall automatically with growth once a threshold is crossed. — The curve is not fate; institutions and policies shape the trajectory.",
-        "It proves redistribution is unnecessary in all contexts. — The curve is not fate; institutions and policies shape the trajectory."
-      ]
-    },
-    {
-      "id": "sgi_050",
-      "questionText": "A cash transfer raised school attendance but test scores did not improve over two years. What is the most appropriate policy reading?",
-      "correctAnswer": "Attendance is a necessary input; complementary investments in pedagogy, teacher quality, and measurement are required to translate participation into learning and later productivity.",
-      "difficulty": 3,
-      "topic": [
-        "Education policy"
-      ],
-      "explanation": "Inputs must be paired with quality to affect human capital; short horizons may miss learning gains unless teaching improves.",
-      "distractors": [
-        "Transfers distort labor supply and therefore lower national productivity. — Inputs must be paired with quality to affect human capital; short horizons may miss learning gains unless teaching...",
-        "The program failed and should be canceled because learning did not rise immediately. — Inputs must be paired with quality to affect human capital; short horizons may miss learning gains unless teaching...",
-        "Learning is irrelevant for growth given that attendance improved."
       ]
     },
     {
@@ -2235,21 +1823,6 @@
       ]
     },
     {
-      "id": "sgi_147",
-      "questionText": "How should policy interpret evidence that education raises wages partly through signaling and partly through human capital accumulation?",
-      "correctAnswer": "Even with signaling, substantial human capital effects justify investments, especially where quality improvements raise learning; targeting market failures (credit, information) remains warranted.",
-      "difficulty": 3,
-      "topic": [
-        "Returns to education"
-      ],
-      "explanation": "Mixed mechanisms do not negate social returns; policy focuses on learning, access, and efficient financing.",
-      "distractors": [
-        "Because signaling is present, only vocational training should be funded.",
-        "Signaling suggests some measured returns reflect labor-market sorting, but that does not eliminate the case for complementary investments in learning quality.",
-        "If signaling exists, targeted interventions to raise actual learning still yield social returns; signaling alone does not make all education spending futile."
-      ]
-    },
-    {
       "id": "sgi_148",
       "questionText": "Index-based drought insurance for smallholders often suffers from basis risk. Which complementary policy most directly mitigates welfare losses from mismatch?",
       "correctAnswer": "Combine index insurance with investments in local weather stations and irrigation infrastructure, and layer schemes with social assistance to cover catastrophic gaps.",
@@ -2834,7 +2407,6 @@
         "When aid is on-budget; integration eliminates all governance concerns. — Rules and transparency reduce substitution and align domestic and external resources."
       ]
     },
-    
     {
       "id": "sgi_188",
       "questionText": "Rigorous evaluations of ed-tech interventions often find limited average effects. What design feature most plausibly turns ed-tech into a productivity-enhancing input?",
@@ -3120,7 +2692,6 @@
         "Because clustering is necessary only when using instrumental variables."
       ]
     },
-    
     {
       "id": "sgi_209",
       "questionText": "A synthetic control evaluation shows good pre-treatment fit but post-treatment divergence in outcomes. What additional check most strengthens credibility?",
@@ -3151,7 +2722,6 @@
         "Eliminate VAT and rely on trade tariffs for revenue."
       ]
     },
-    
     {
       "id": "sgi_212",
       "questionText": "What is the most convincing mechanism by which poor health environments can depress growth even after average life expectancy improves?",
@@ -3257,7 +2827,6 @@
         "Spatial inequality is unrelated to energy policy. — Distributional design sustains the coalition for decarbonization."
       ]
     },
-    
     {
       "id": "sgi_222",
       "questionText": "Why might a gradual increase in the minimum pension combined with contributory coverage expansion be more inclusive than a large immediate non-contributory benefit?",
