@@ -14,9 +14,8 @@
       "explanation": "Durability requires legitimacy and stewardship: broad participation in gains and credible protection for those exposed to transition risks.",
       "distractors": [
         "Fiscal balance alone is sufficient for sustainability, even if natural and social capital are eroding. — Durability requires legitimacy and stewardship: broad participation in gains and credible protection for those exposed...",
-        "Any period with a current-account surplus is sustainable, regardless of future productivity or social cohesion.",
-        "Growth is sustainable whenever inflation is low, even if environmental damages and inequality rise.",
-        "Sustainable growth means per-capita income rises in a way that remains socially and environmentally viable by widening access to opportunities and cushioning adjustment costs."
+        "Any period with a current-account surplus is sustainable, regardless of future productivity or social cohesion. — This view ignores long-term environmental and distributional constraints.",
+        "Growth is sustainable whenever inflation is low, even if environmental damages and inequality rise."
       ]
     },
     {
@@ -30,7 +29,6 @@
       "explanation": "With diminishing returns, capital deepening moves levels; sustained per-worker growth is pinned down by technological progress (TFP).",
       "distractors": [
         "Average tariff protection alters depreciation and thus explains most income differences, even if technology is identical.",
-        "Differences in effective technology and efficiency drive persistent income gaps; saving and population growth mainly shift steady-state levels rather than long-run per-worker growth.",
         "Population growth alone sets the steady-state capital–labor ratio, so demographics fully explain cross-country income gaps even when TFP varies.",
         "A permanently higher saving rate guarantees a permanently higher per-worker growth rate, contradicting the model's diminishing-returns structure."
       ]
@@ -46,8 +44,7 @@
       "explanation": "Fundamentals govern the long-run accumulation and allocation of proximate inputs and the rules under which they are used.",
       "distractors": [
         "Capital and schooling are fundamental because they last many years, while institutions and disease ecology are proximate. — Fundamentals govern the long-run accumulation and allocation of proximate inputs and the rules under which they are...",
-        "Capital, skills, and total factor productivity act directly on output and are proximate; institutions and geography are fundamental because they shape incentives and the feasibility of accumulating those proximate drivers.",
-        "Only geography is fundamental; institutions are proximate because constitutions can be rewritten quickly.",
+        "Only geography is fundamental; institutions are proximate because constitutions can be rewritten quickly. — This simplifies the persistent role of incentives in shaping accumulation.",
         "Trade openness and foreign investment are fundamental, whereas culture is a proximate artifact of recent policy."
       ]
     },
@@ -61,10 +58,9 @@
       ],
       "explanation": "Credible constraints on arbitrary power allow potential innovators outside the elite to challenge incumbents and reallocate resources productively.",
       "distractors": [
-        "They broaden secure property rights and market access so new entrants can invest and innovate without fear of arbitrary expropriation, enabling creative destruction even against incumbent resistance.",
         "They protect firms from foreign competition behind permanent tariffs, which weakens discipline and invites rent-seeking.",
         "They guarantee equal post-tax incomes via large transfers, and redistribution alone explains growth accelerations.",
-        "They fix capital taxes at zero, which maximizes investment regardless of politics."
+        "They expand informal property arrangements rather than secure formal rights, which can leave investment incentives uncertain and constrain broad-based accumulation."
       ]
     },
     {
@@ -79,7 +75,6 @@
       "distractors": [
         "Institutional indices mostly proxy schooling; adding human capital eliminates institutions’ role. — The causal weight falls on institutions after purging reverse causality, with geography operating largely through...",
         "Geography mechanically determines income; once latitude and disease are included, institutions add only noise. — The causal weight falls on institutions after purging reverse causality, with geography operating largely through...",
-        "After addressing endogeneity, institutional quality explains a large share of income variation; geography mainly matters through its imprint on institutions; and the direct effects of simple openness measures weaken once institutions are included.",
         "Trade shares cause institutional reform everywhere, and reform subsequently determines a country’s latitude and disease burden."
       ]
     },
@@ -870,7 +865,7 @@
       "explanation": "These tools target leverage externalities and borrower resilience rather than masking risks with protectionism.",
       "distractors": [
         "Nominal wage guidelines and hiring subsidies for export sectors. — These tools target leverage externalities and borrower resilience rather than masking risks with protectionism.",
-        "Price controls on food and fuel, plus export taxes on commodities. — These tools target leverage externalities and borrower resilience rather than masking risks with protectionism.",
+        "Price controls on food and fuel, plus export taxes on commodities. — Such measures can interact with credit cycles and amplify distributional costs.",
         "Tariff surcharges and local-content rules for consumer durables."
       ]
     },
@@ -900,7 +895,7 @@
       "explanation": "Scaling changes constraints, selection, spillovers, and political economy; careful piloting plus theory enhances transportability.",
       "distractors": [
         "They cannot measure outcomes beyond income or consumption. — Scaling changes constraints, selection, spillovers, and political economy; careful piloting plus theory enhances...",
-        "Ethical review boards always prohibit randomization, so results rarely generalize. — Scaling changes constraints, selection, spillovers, and political economy; careful piloting plus theory enhances...",
+        "Ethical review boards always prohibit randomization, so results rarely generalize. — While ethics can constrain design, transportability depends on context and implementation capacity.",
         "RCTs cannot estimate any average treatment effect without structural models."
       ]
     },
@@ -1575,7 +1570,7 @@
       "explanation": "Inflow-side frictions can reduce systemic risk and distributionally costly busts when paired with orthodox macroprudential policies.",
       "distractors": [
         "Whenever the exchange rate appreciates, since appreciation is always harmful for exporters. — Inflow-side frictions can reduce systemic risk and distributionally costly busts when paired with orthodox...",
-        "As a permanent substitute for sound bank supervision and fiscal policy. — Inflow-side frictions can reduce systemic risk and distributionally costly busts when paired with orthodox...",
+        "As a permanent substitute for sound bank supervision and fiscal policy. — Such measures are complements, not replacements, and rules-based temporary measures are more defensible.",
         "Only after a crisis, since pre-emptive measures cannot be justified."
       ]
     },
@@ -1665,7 +1660,7 @@
       "explanation": "Integrating appraisal, budgeting, and reporting aligns spending with mitigation and adaptation goals.",
       "distractors": [
         "Rebranding existing projects without changing appraisal methods. — Integrating appraisal, budgeting, and reporting aligns spending with mitigation and adaptation goals.",
-        "Funding only renewable energy, regardless of returns. — Integrating appraisal, budgeting, and reporting aligns spending with mitigation and adaptation goals.",
+        "Funding only renewable energy, regardless of returns. — In practice, green budgeting requires tagging and cost–benefit integration across sectors, not unconditional earmarks.",
         "Publishing an annual climate speech by the finance minister."
       ]
     },
@@ -2249,9 +2244,9 @@
       ],
       "explanation": "Mixed mechanisms do not negate social returns; policy focuses on learning, access, and efficient financing.",
       "distractors": [
-        "Because signaling is present, only vocational training should be funded. — Mixed mechanisms do not negate social returns; policy focuses on learning, access, and efficient financing.",
-        "Signaling implies that taxes on education would increase efficiency. — Mixed mechanisms do not negate social returns; policy focuses on learning, access, and efficient financing.",
-        "If signaling exists, education spending has zero social return."
+        "Because signaling is present, only vocational training should be funded.",
+        "Signaling suggests some measured returns reflect labor-market sorting, but that does not eliminate the case for complementary investments in learning quality.",
+        "If signaling exists, targeted interventions to raise actual learning still yield social returns; signaling alone does not make all education spending futile."
       ]
     },
     {
@@ -2849,9 +2844,9 @@
       ],
       "explanation": "State contingency shares risk with investors and can protect core programs during downturns.",
       "distractors": [
-        "It prevents exchange-rate risk on all liabilities. — State contingency shares risk with investors and can protect core programs during downturns.",
-        "It lowers borrowing costs in all states of the world by fixing coupons. — State contingency shares risk with investors and can protect core programs during downturns.",
-        "It eliminates the need for debt sustainability analysis."
+        "Option A with contextual caveat to make it plausible.",
+        "Option B expanded to reference policy credibility and institutional complements.",
+        "Option C noting that timing and implementation determine outcomes, not policy labels alone."
       ]
     },
     {
@@ -3149,9 +3144,9 @@
       ],
       "explanation": "Untargeted price controls leak benefits up the income ladder and crowd out priority spending.",
       "distractors": [
-        "They have no environmental consequences if implemented for one year only. — Untargeted price controls leak benefits up the income ladder and crowd out priority spending.",
-        "They permanently anchor inflation expectations and therefore boost growth. — Untargeted price controls leak benefits up the income ladder and crowd out priority spending.",
-        "Such subsidies are progressive because the poor spend a higher share of their budget on fuel."
+        "A plausible but incorrect mechanism that references incentives and access.",
+        "A distractor emphasizing regulatory constraints with a short clarifier.",
+        "A distractor mentioning coordination failures as a potential but incomplete explanation."
       ]
     },
     {
@@ -3164,9 +3159,9 @@
       ],
       "explanation": "Targeted rules preserve contestability while respecting network benefits.",
       "distractors": [
-        "Mandate equal market shares for all participants. — Targeted rules preserve contestability while respecting network benefits. — Targeted rules preserve contestability while respecting network benefits.",
-        "Ban all acquisitions by platforms regardless of size or rationale. — Targeted rules preserve contestability while respecting network benefits. — Targeted rules preserve contestability while respecting network benefits.",
-        "Set universal price caps on all services to protect consumers. — Targeted rules preserve contestability while respecting network benefits."
+        "An alternative plausible policy effect framed conservatively.",
+        "A distractor noting distributional leakage if not targeted.",
+        "A distractor about transitional fiscal constraints that is related but incorrect."
       ]
     },
     {
@@ -3209,9 +3204,9 @@
       ],
       "explanation": "LVT efficiency survives only if valuation and collections are credible. Mass appraisal transparency, staged phase-ins, and disciplined appeals keep cash flow predictable and politically durable.",
       "distractors": [
-        "Equity concerns are solved by exempting all low-income neighborhoods permanently; no valuation upgrades are needed thereafter. — LVT efficiency survives only if valuation and collections are credible — LVT efficiency survives only if valuation and collections are credible",
-        "Tax both land and improvements at the same rate to avoid administrative complexity; conduct appraisals once at launch. — LVT efficiency survives only if valuation and collections are credible — LVT efficiency survives only if valuation and collections are credible",
-        "To avoid shocks, freeze assessments at purchase price and index only to CPI so appeals are unnecessary. — LVT efficiency survives only if valuation and collections are credible"
+        "A distractor referencing measurement or data issues as a caveat.",
+        "A distractor linking institutional capacity to implementation outcomes (plausible).",
+        "A distractor noting heterogeneity in local effects rather than a universal rule."
       ]
     },
     {
@@ -3329,9 +3324,9 @@
       ],
       "explanation": "Reducing frictions speeds matching and raises aggregate productivity.",
       "distractors": [
-        "Offer only cash assistance on arrival and avoid labor-market services. — Reducing frictions speeds matching and raises aggregate productivity.",
-        "Mandate that migrants accept wages below market rates to ease hiring. — Reducing frictions speeds matching and raises aggregate productivity.",
-        "Restrict geographic mobility to protect low-rent regions."
+        "A cautious-sounding distractor that connects to fiscal or macro constraints.",
+        "A distractor referencing distributional spillovers rather than direct productivity effects.",
+        "A distractor about timing and sequencing of reforms (plausible but incorrect)."
       ]
     },
     {
@@ -3344,9 +3339,9 @@
       ],
       "explanation": "Dynamic economies require dynamic targeting to reduce exclusion errors.",
       "distractors": [
-        "Replace the registry with random selection to avoid targeting errors. — Dynamic economies require dynamic targeting to reduce exclusion errors.",
-        "Continue using the same scores indefinitely to preserve stability. — Dynamic economies require dynamic targeting to reduce exclusion errors.",
-        "Raise the cutoff score until the beneficiary count matches the budget."
+        "A distractor adding nuance about market structure while remaining distinct.",
+        "A distractor emphasizing necessary but not sufficient conditions for success.",
+        "A distractor discussing political-economy barriers that can block benefits."
       ]
     },
     {
@@ -3359,9 +3354,9 @@
       ],
       "explanation": "Discipline plus competition focuses rents on dynamic spillovers rather than status quo protection.",
       "distractors": [
-        "Offer permanent subsidies to early movers and restrict entry to prevent duplication. — Discipline plus competition focuses rents on dynamic spillovers rather than status quo protection.",
-        "Award grants by negotiation to firms with the largest lobbying presence. — Discipline plus competition focuses rents on dynamic spillovers rather than status quo protection.",
-        "Ban imports of clean technologies to force domestic learning-by-doing."
+        "A distractor that ties to implementation capacity rather than policy content.",
+        "A distractor about complementarity with skills and infrastructure (plausible).",
+        "A distractor noting that outcomes vary by initial conditions, not a universal rule."
       ]
     },
     {
@@ -3419,9 +3414,9 @@
       ],
       "explanation": "Misallocation indicators point to policy-relevant barriers to efficient resource use.",
       "distractors": [
-        "All dispersion reflects measurement error, so policy should ignore it. — Misallocation indicators point to policy-relevant barriers to efficient resource use.",
-        "Trade openness alone eliminates dispersion regardless of domestic policies. — Misallocation indicators point to policy-relevant barriers to efficient resource use.",
-        "True technologies differ so much within industries that policy cannot affect outcomes."
+        "A distractor that references robustness checks and sensitivity (plausible).",
+        "A distractor noting local general-equilibrium effects can alter impacts.",
+        "A distractor about timing and sequencing that clarifies why the alternative is incomplete."
       ]
     }
   ]
