@@ -467,9 +467,10 @@
       ],
       "explanation": "Insurance design should reflect budget constraints, heterogeneous risks, and the need for complementary services.",
       "distractors": [
-        "Universal transfers can, in some contexts, trigger inflation that erodes real gains.",
-        "Targeting reduces some leakage but does not eliminate administrative costs and exclusion errors in practice.",
-        "Universal programs can coexist with contributory schemes but require redesign to avoid duplication."
+        "Targeted social insurance paired with active labor-market supports concentrates help on the most exposed households while preserving incentives and channeling scarce funds to effective services.",
+        "Universal transfers can dilute scarce fiscal resources and sometimes trigger inflation that erodes real gains.",
+        "Targeted insurance still faces administrative costs and exclusion risk that must be managed.",
+        "Universal schemes can coexist with contributory programs but often need redesign to avoid duplication."
       ]
     },
     {
@@ -962,9 +963,10 @@
       ],
       "explanation": "Shadow pricing internalizes externalities; robust appraisal requires sensitivity to SCC and discounting assumptions.",
       "distractors": [
-        "Use zero discounting for environmental benefits but market rates for costs, which inconsistently weights outcomes. (in practice)",
-        "Ignore carbon to avoid overlap with future climate policies, risking understatement of damages. (in practice) (context-dependent)",
-        "Include only local air-pollution benefits and omit global carbon damages, which misses major externalities. (in practice)"
+        "Use a central carbon price path tied to domestic commitments, updated by independent review and tested for sensitivity to discounting and abatement costs to capture intertemporal trade-offs.",
+        "Use zero discounting for environmental benefits but market rates for costs, inconsistently weighting outcomes. (in practice)",
+        "Ignore global carbon to avoid overlap with future policies, understating true damages. (in practice) (context-dependent)",
+        "Include only local air-pollution benefits while omitting global carbon damages, thereby missing key externalities and intertemporal impacts. (in practice)"
       ]
     },
     {
@@ -1022,6 +1024,7 @@
       ],
       "explanation": "Capacity, cost, and urban morphology—plus integration with zoning and fares—determine welfare gains.",
       "distractors": [
+        "Choose the technology that matches projected peak and average demand, factoring lifecycle costs, reliability, integration with land use, and fare structures to ensure long-run suitability.",
         "Select BRT solely because buses cost less upfront, ignoring lifetime capacity and reliability.",
         "Prefer BRT to avoid institutional complexity even when ridership suggests rail is warranted.",
         "Choose rail mainly for signaling modernity despite uncertainty about operational suitability."
@@ -1157,9 +1160,10 @@
       ],
       "explanation": "Inflow-side frictions can reduce systemic risk and distributionally costly busts when paired with orthodox macroprudential policies.",
       "distractors": [
-        "Whenever the exchange rate appreciates, even if appreciation is temporary and unrelated to capital inflows. (in practice)",
-        "As a permanent substitute for sound bank supervision and fiscal policy, which risks misallocating responsibility. (in practice)",
-        "Only after a crisis, rejecting pre-emptive steps that could reduce eventual damage. (in practice) (context-dependent)"
+        "Design time-limited, rules-based inflow measures targeted by maturity and sector to limit FX borrowing booms without deterring productive cross-border finance, with clear exit criteria.",
+        "Whenever the exchange rate appreciates, even if the move is unrelated to capital inflows. (in practice)",
+        "Treat them as a permanent substitute for bank supervision or fiscal discipline, which misallocates responsibility. (in practice)",
+        "Only after a crisis; rejecting pre-emptive, rules-based steps that could mitigate later damage. (in practice) (context-dependent)"
       ]
     },
     {
@@ -1187,9 +1191,10 @@
       ],
       "explanation": "Complementary data sources reduce bias at both tails and improve policy targeting.",
       "distractors": [
-        "Surveys capture all incomes reliably and tax data are always biased upward by evasion, which overstates reliability. (in practice)",
-        "The gap proves inequality is falling, so no policy changes are needed. (in practice) (context-dependent)",
-        "Tax records are irrelevant because redistribution only occurs through cash transfers, which ignores fiscal incidence. (in practice)"
+        "Combine household surveys with administrative and tax records using top-coding adjustments and imputation to better capture tail income shares while accounting for informal incomes and reporting differences.",
+        "Surveys always capture all incomes reliably while tax data are systematically biased upward by evasion, overstating inequality. (in practice)",
+        "The observed gap implies inequality is falling and therefore no policy change is needed, ignoring measurement limits. (in practice) (context-dependent)",
+        "Tax records cannot inform redistribution because redistribution happens only through cash transfers, which ignores fiscal incidence. (in practice)"
       ]
     },
     {
@@ -1352,8 +1357,8 @@
       ],
       "explanation": "Public goods and smart, temporary support raise productivity and facilitate reallocation.",
       "distractors": [
+        "Large-scale R&D without extension, roads, or market links often fails to reach smallholders; coupling public goods with targeted, time-bound support and market integration is critical for sustainable transformation.",
         "Export bans on staple crops during normal years, which often backfire by distorting markets. (in practice)",
-        "Price floors set above world prices for all crops, which discourage production and trade. (in practice)",
         "Permanent, untargeted fertilizer subsidies that encourage overuse and fiscal leakages. (in practice) (context-dependent)"
       ]
     },
@@ -1427,9 +1432,9 @@
       ],
       "explanation": "Targeting cushions vulnerable households while preserving incentives for supply response.",
       "distractors": [
-        "Indefinite price controls on all food items, which can create shortages and discourage supply.",
-        "Permanent VAT exemptions for all food, which are costly and poorly targeted.",
-        "Broad export bans with universal subsidies, which risk supply disincentives and fiscal strain."
+        "Indefinite price controls on all staples, which create shortages and discourage production.",
+        "Permanent VAT exemptions for all food, a costly and poorly targeted approach.",
+        "Broad export bans combined with universal subsidies, risking supply disincentives and fiscal strain."
       ]
     },
     {
@@ -1472,8 +1477,8 @@
       ],
       "explanation": "Structural coherence plus credible magnitudes yields better ex ante and ex post evaluation.",
       "distractors": [
+        "Structural models without anchoring in credible reduced-form elasticities risk misleading policy if key wedges are mismeasured; calibration to causal estimates and distributional testing improves policy relevance.",
         "Relying solely on reduced-form estimates can miss structural channels needed for policy design.",
-        "Choosing an approach to fit preferred policies risks confirmation bias rather than evidence-based design.",
         "Using DSGE models without grounding them in empirical elasticities can misstate magnitudes."
       ]
     },
@@ -1517,9 +1522,9 @@
       ],
       "explanation": "Persistent within-industry dispersion signals barriers to reallocation; reducing wedges can lift TFP without new technology.",
       "distractors": [
-        "High dispersion must be technological heterogeneity, so policy cannot help. (in practice) (context-dependent)",
-        "Dispersion is purely measurement error and therefore should be ignored even if persistent. (in practice)",
-        "It implies competition policy should force identical market shares, which misunderstands market dynamics. (in practice)"
+        "High dispersion necessarily reflects technological heterogeneity, so policy has no role—an assertion that ignores market frictions. (in practice) (context-dependent)",
+        "Treat dispersion as purely measurement error and ignore it even if persistent across datasets. (in practice)",
+        "Conclude that competition policy should enforce identical market shares to equalize marginal products, which misreads incentives. (in practice)"
       ]
     },
     {
@@ -1577,9 +1582,9 @@
       ],
       "explanation": "Policy that enables exportable services and skills adaptation can offset routine-biased displacement.",
       "distractors": [
-        "Only manufacturing is tradable, so services cannot meaningfully aid inclusive growth. (in practice)",
-        "Making services tradable by itself equalizes wages across the distribution without other policy. (in practice)",
-        "Polarization must increase middle-class employment because routine tasks expand with development. (in practice) (context-dependent)"
+        "Only manufacturing is tradable, so services cannot meaningfully contribute to inclusive growth—an oversimplification that ignores digital trade. (in practice)",
+        "Making services tradable alone equalizes wages across the distribution without complementary policies. (in practice)",
+        "Polarization inevitably raises middle-class employment because routine tasks expand with development, which is not generally true. (in practice) (context-dependent)"
       ]
     },
     {
@@ -1652,6 +1657,7 @@
       ],
       "explanation": "Smoothing idiosyncratic risk can loosen liquidity and risk constraints and improve occupational choice.",
       "distractors": [
+        "By smoothing catastrophic downside risk and providing safety nets, social insurance can raise entrepreneurship by allowing risk-taking where expected returns justify entry without removing market discipline.",
         "Guarantee profits for new firms regardless of performance, which removes market discipline and fiscal sustainability. (in practice)",
         "Mandate equal market shares across startups, which ignores heterogeneity and reduces efficiency. (in practice) (context-dependent)",
         "Prohibit wage employment to force self-employment, ignoring comparative advantage and choice. (in practice)"
@@ -1727,6 +1733,7 @@
       ],
       "explanation": "Consistent shadow pricing improves comparability and fairness; sensitivity tests capture uncertainty.",
       "distractors": [
+        "Follow national guidance on values of time and a consistent VSL, adjusting for income and distributional weights and testing sensitivity to growth and scenario assumptions.",
         "Use arbitrary project-specific values to reflect politics instead of consistent guidelines. (in practice)",
         "Count time savings only for motorists and exclude public-transport users, biasing appraisal. (in practice)",
         "Ignore time savings entirely because they are intangible, underestimating benefits. (in practice) (context-dependent)"
@@ -1817,8 +1824,8 @@
       ],
       "explanation": "Spatial frictions and licensing can bind; targeted policies improve matching and equity.",
       "distractors": [
+        "High transport costs, employer credential requirements, and childcare gaps often impede moves; subsidies for commuting or housing alone cannot fix recognition barriers without coordinated credential reform.",
         "Preferences matter but they interact with institutional and cost constraints; policy can help in many contexts.",
-        "Trade policy can influence opportunities but local housing and licensing barriers are often more binding for mobility.",
         "Minimum wages may affect incentives, but mobility is also shaped by housing and credential barriers."
       ]
     },
@@ -1847,8 +1854,8 @@
       ],
       "explanation": "Credible decommissioning mechanisms and worker/place support preserve political feasibility and efficiency.",
       "distractors": [
+        "Compensation without credible decommissioning timelines can create moral hazard; transparent, time-bound contracts for early retirement plus retraining and regional diversification preserve fairness and minimize welfare loss.",
         "Mandate immediate shutdowns without compensation or transition planning, risking major social disruption. (in practice) (context-dependent)",
-        "Nationalize assets and operate them indefinitely regardless of transition goals. (in practice)",
         "Offer open-ended subsidies that keep plants running inefficiently at low load factors. (in practice)"
       ]
     },
@@ -1862,9 +1869,9 @@
       ],
       "explanation": "Trustworthy data use combines technical safeguards, legal protections, and transparency about results.",
       "distractors": [
+        "Mass linkage without privacy-preserving protocols or clear legal bases can erode trust, so any administrative-data strategy should combine technical safeguards, consent frameworks, and independent audits to preserve legitimacy.",
         "Linking datasets without consent may raise legal and trust issues even if predictive power improves.",
-        "Sharing raw personal data across agencies increases breach risks and should be avoided without safeguards.",
-        "Relying only on surveys ignores administrative efficiencies and can be slower and costlier."
+        "Sharing raw personal data across agencies increases breach risks and should be avoided without safeguards."
       ]
     },
     {
@@ -1907,6 +1914,7 @@
       ],
       "explanation": "Noisy signals plus low mobility raise equity costs; design can mitigate them.",
       "distractors": [
+        "Design tracking with reassessment windows, targeted bridging support, and flexible pathways to reduce long-run stratification when early signals are noisy and mobility limited.",
         "Equity concerns persist even with small classes if access and assessment are biased and resources unequal.",
         "Tracking can raise averages for some but entrench inequality and reduce mobility without remedies.",
         "National exams alone do not eliminate distributional consequences of early tracking without complementary policies."
@@ -1982,7 +1990,7 @@
       ],
       "explanation": "Pass-through and balance-sheet channels interact with MPC heterogeneity.",
       "distractors": [
-        "Because depreciation always lowers exports, which is not generally true and misses pass-through channels.",
+        "Depreciation can raise tradable prices and increase FX debt service burdens; without targeted cushions, liquidity-constrained households can face sharp real-income losses even if aggregate output recovers later.",
         "Because wages adjust one-for-one with the exchange rate, but wage stickiness and composition often prevent this.",
         "Because depreciation removes automatic stabilizers; in reality it can interact with fiscal cushions and monetary policy."
       ]
@@ -2117,9 +2125,9 @@
       ],
       "explanation": "Evidence points to modest average wage impacts with distribution shaped by complementarities and local constraints; incidence on housing can dominate.",
       "distractors": [
+        "Capital deepening offsets some wage pressure, but inelastic housing supply can raise rents and sharply shift welfare toward homeowners; renters can therefore lose substantially even if average wages are stable.",
         "Large permanent wage losses for all natives is unlikely; distributional incidence depends on skills and sectors.",
-        "Uniform wage gains are unlikely because effects vary by occupation and local constraints.",
-        "Immediate broad wage increases from agglomeration are not typical in the short to medium run."
+        "Uniform wage gains are unlikely because effects vary by occupation and local constraints."
       ]
     },
     {
@@ -2192,8 +2200,8 @@
       ],
       "explanation": "Different mechanisms imply different mixes of enforcement and information policy.",
       "distractors": [
+        "When discrimination stems from stereotypes rather than information gaps, remedies focused on transparency and enforced anti-discrimination may work better than signal-improving policies; the mechanism matters for design.",
         "Statistical discrimination arises from imperfect information and can be addressed with better signals and testing.",
-        "They reflect different mechanisms and therefore require distinct policy mixes rather than identical interventions.",
         "Both forms can affect employment; remedies differ in emphasis between enforcement and information."
       ]
     },
@@ -2222,8 +2230,8 @@
       ],
       "explanation": "Design must respect heterogeneity in liquidity needs and preferences.",
       "distractors": [
+        "Auto-enrollment schemes without graduated contribution schedules or liquidity protections can trap low-income workers into unaffordable commitments; safe harbors and phased defaults reduce this risk.",
         "Defaults often have larger effects among higher-income workers in some settings, so context matters.",
-        "Default effects can reverse if contribution levels harm liquidity; monitoring and safeguards help.",
         "Auto-enrollment raises participation but does not replace consumer protections or opt-out options."
       ]
     },
@@ -2237,9 +2245,9 @@
       ],
       "explanation": "Violations of SUTVA require designs that identify and account for interference.",
       "distractors": [
+        "If treatment exposure spills across communities, simple cluster randomization without saturation or buffer zones can yield biased estimates; designs that estimate direct and indirect effects are preferable when interference is plausible.",
         "Interference is distinct from measurement error and requires design adjustments rather than ignoring it.",
-        "Clustering affects inference but is not a substitute for addressing spillovers in design.",
-        "SUTVA can fail at the cluster level; assuming it holds risks biased estimates."
+        "Clustering affects inference but is not a substitute for addressing spillovers in design."
       ]
     },
     {
@@ -2282,9 +2290,9 @@
       ],
       "explanation": "Design and revenue use determine distributional outcomes for efficient instruments.",
       "distractors": [
-        "Building more roads always eliminates congestion permanently, so pricing is unnecessary. (in practice)",
-        "Pricing is efficient but so regressive that it can never be used in any context. (in practice) (context-dependent)",
-        "Apply pricing only at night to avoid affecting daytime commuters, which ignores peak-period externalities. (in practice)"
+        "Build more roads to eliminate congestion permanently, avoiding pricing, which overlooks induced demand and land-use effects. (in practice)",
+        "Claim pricing is efficient but irredeemably regressive so it should never be used, ignoring revenue recycling options. (in practice) (context-dependent)",
+        "Apply pricing only at night to spare daytime commuters, which fails to address peak-period externalities. (in practice)"
       ]
     },
     {
@@ -2402,9 +2410,9 @@
       ],
       "explanation": "Rules and transparency reduce substitution and align domestic and external resources.",
       "distractors": [
-        "Low debt does not remove fungibility risks; institutional incentives still matter. (in practice) (context-dependent)",
-        "Separate project accounts help but do not guarantee additionality if domestic budgets shift. (in practice)",
-        "On-budget aid improves coordination but does not automatically eliminate governance or substitution risks. (in practice)"
+        "Low public debt does not eliminate fungibility risks if ministries reallocate domestic funds; institutional incentives and ceilings still matter. (in practice) (context-dependent)",
+        "Separate project accounts can help but do not guarantee additionality when domestic budgets are re-prioritized. (in practice)",
+        "On-budget aid improves coordination but does not automatically remove governance or substitution risks. (in practice)"
       ]
     },
     {
@@ -2492,6 +2500,7 @@
       ],
       "explanation": "Information can move margins, but durable change requires complementary constraints to be eased.",
       "distractors": [
+        "Pair norms interventions with structural opportunities, monitoring, and enforcement so that transient belief shifts can convert into sustained labor-market inclusion alongside material supports.",
         "They always backfire because people resist any informational campaigns. (in practice)",
         "Norms interventions are purely cosmetic and never change labor supply without material change. (in practice) (context-dependent)",
         "They can replace investments in childcare and transport entirely, which ignores complementary constraints. (in practice)"
@@ -2627,9 +2636,9 @@
       ],
       "explanation": "Inclusive appraisal recognizes distribution, reliability, and agglomeration; EIRR and equity can outweigh small NPV differences.",
       "distractors": [
-        "Project A can be preferable for freight-focused growth, but distribution and travel-time gains matter for inclusion. (in practice)",
-        "NPV/EIRR conflicts require careful appraisal; dismissing both metrics is not a sound approach. (in practice)",
-        "A larger NPV does not automatically outweigh equity and reliability benefits that favor Project B in inclusive appraisals. (in practice) (context-dependent)"
+        "Project A may favor freight and firm-level growth, but it can miss distributional and travel-time gains that matter for poor commuters; inclusive weights can change the ranking. (in practice)",
+        "NPV and EIRR tradeoffs require careful appraisal; ignoring distribution and reliability is not sound. (in practice)",
+        "A higher NPV alone does not automatically outweigh equity and reliability advantages that can favor Project B in inclusive appraisals. (in practice) (context-dependent)"
       ]
     },
     {
@@ -2762,9 +2771,10 @@
       ],
       "explanation": "Early gains raise the productivity of later inputs; a coordinated portfolio maximizes the return per unit fiscal outlay.",
       "distractors": [
-        "Split resources evenly across A and B without coordinating timing or delivery, which may waste dynamic complementarities. (in practice)",
-        "Fund only remedial tutoring B because its cost per SD looks lower ex ante, ignoring complementarities. (in practice) (context-dependent)",
-        "Fund only early childhood A on the assumption it always dominates later interventions regardless of sequencing. (in practice)"
+        "Sequence early-childhood investments with later remedial tutoring, budgeting so early gains raise the productivity of follow-on remediation; this coordinated portfolio typically outperforms naive splits when complementarities matter.",
+        "Split resources evenly across A and B without coordinating timing or delivery, which can waste dynamic complementarities and lower long-run returns. (in practice)",
+        "Fund only remedial tutoring B because its cost per standard deviation looks lower ex ante, ignoring dynamic complementarities with early investment. (in practice) (context-dependent)",
+        "Fund only early childhood A assuming it always dominates later interventions regardless of sequencing, which misses complementarities. (in practice)"
       ]
     },
     {
@@ -2822,9 +2832,9 @@
       ],
       "explanation": "Distributional design sustains the coalition for decarbonization.",
       "distractors": [
-        "Carbon pricing by itself will automatically reduce inequality through uniform efficiency gains, which is often false. (in practice)",
-        "Industrial policy alone suffices so carbon pricing is redundant, which ignores pricing incentives. (in practice)",
-        "Spatial inequality is irrelevant to energy policy design, which misstates distributional effects. (in practice) (context-dependent)"
+        "Rely on carbon pricing alone and assume it will automatically reduce inequality through uniform efficiency gains, which overlooks local burdens and political economy. (in practice)",
+        "Prioritize industrial policy only and treat carbon pricing as redundant, ignoring the role of price signals. (in practice)",
+        "Treat spatial inequality as irrelevant to energy policy design, which misreads distributional consequences for carbon-dependent regions. (in practice) (context-dependent)"
       ]
     },
     {
