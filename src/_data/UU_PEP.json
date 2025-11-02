@@ -1,0 +1,1266 @@
+{
+  "title": "Public Economics and Policy Exam Preparation",
+  "shorttitle": "MSc Public Econ & Policy",
+  "questions": [
+    {
+      "id": "mcq_001",
+      "questionText": "In a two-good exchange box, the contract curve is the set of points where:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
+        "It confuses technological under standard assumptions at the margin."
+      ],
+      "explanation": "Pareto efficiency in consumption requires MRS_A = MRS_B at feasible bundles.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_002",
+      "questionText": "Walras’ Law implies that if one market clears, then:",
+      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it confuses technological under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Σ p_i Z_i(p) = 0 holds for any prices and endowments, independent of equilibrium.",
+      "difficulty": 4,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_003",
+      "questionText": "With convex preferences, the Second Welfare Theorem guarantees that:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions in this model by construction at the margin.",
+        "It confuses technological under standard assumptions in this model.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Convexity allows supporting hyperplanes; lump‑sum redistribution shifts budgets without altering MRS.",
+      "difficulty": 4,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_004",
+      "questionText": "Choosing a numéraire in general equilibrium means:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It confuses technological under standard assumptions in equilibrium.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It holds with non‑convex technology and without transfers."
+      ],
+      "explanation": "Only relative prices matter for demands; a normalization pins down the level.",
+      "difficulty": 2,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_005",
+      "questionText": "A competitive equilibrium in the Edgeworth box occurs where:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction at the margin in equilibrium in equilibrium.",
+        "It confuses technological under standard assumptions in equilibrium.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Common tangency ensures utility maximization and market clearing at given prices.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_006",
+      "questionText": "Under constant returns and perfect competition, long‑run profits are:",
+      "correctAnswer": "It confuses technological under standard assumptions.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Revenue equals factor payments when production is homogeneous of degree one.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_007",
+      "questionText": "Consumer optimum under interior solutions requires:",
+      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "distractors": [
+        "Not: it confuses technological under standard assumptions.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it confuses technological under standard assumptions."
+      ],
+      "explanation": "First‑order condition for utility maximization is MRS_xy = p_x/p_y.",
+      "difficulty": 2,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_008",
+      "questionText": "First Welfare Theorem states that:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "It confuses technological under standard assumptions in this model.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Price‑taking with complete markets yields no unexploited gains from trade.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_009",
+      "questionText": "Lump‑sum taxes are ideal in theory because they:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It confuses technological under standard assumptions.",
+        "mistakenly replaces average under standard assumptions."
+      ],
+      "explanation": "They shift the budget in parallel and leave relative prices unchanged.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_010",
+      "questionText": "Non‑convex preferences in the Edgeworth box can cause:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "mistakenly replaces marginal under standard assumptions at the margin.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Non‑convexity breaks supporting tangency; demand can be discontinuous.",
+      "difficulty": 4,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_011",
+      "questionText": "In a production economy, efficiency in consumption requires:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in equilibrium.",
+        "It equates totals rather than margins, which is not not not the optimality condition.",
+        "It equates totals rather than margins in equilibrium."
+      ],
+      "explanation": "Consumption efficiency condition: MRS_A = MRS_B at the allocation.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_012",
+      "questionText": "In a production economy, overall efficiency requires:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "mistakenly replaces average under standard assumptions.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "At optimum, MRS = p_x/p_y and MRT = p_x/p_y, hence MRS = MRT.",
+      "difficulty": 4,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_013",
+      "questionText": "Which statement about Walrasian demand is correct?",
+      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It treats constraints as slack under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Scaling prices and income leaves real budget sets unchanged.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_014",
+      "questionText": "The ‘core’ of the exchange economy is:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It confuses technological under standard assumptions at the margin.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins, which is not the optimality condition."
+      ],
+      "explanation": "Core allocations lie in the Edgeworth lens and are Pareto efficient.",
+      "difficulty": 3,
+      "topic": [
+        "Equilibrium and Efficiency"
+      ]
+    },
+    {
+      "id": "mcq_015",
+      "questionText": "A pure public good is characterized by:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions at the margin.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "By definition, one person’s use does not reduce others’ use and exclusion is infeasible.",
+      "difficulty": 2,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_016",
+      "questionText": "In the standard two‑person model, the Samuelson rule states:",
+      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "Public good benefits add across consumers; set Σ MRS = marginal cost (MRT).",
+      "difficulty": 4,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_017",
+      "questionText": "Private voluntary provision of a pure public good tends to be:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It treats constraints as slack under standard assumptions in this model."
+      ],
+      "explanation": "Individuals ignore benefits to others when choosing contributions.",
+      "difficulty": 3,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_018",
+      "questionText": "In Lindahl equilibrium, each agent:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions at the margin.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "With truthful reporting, shares sum to one and each optimizes where MRS = share.",
+      "difficulty": 4,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_019",
+      "questionText": "A key weakness of Lindahl pricing is that:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It confuses technological under standard assumptions in equilibrium.",
+        "Not: it treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "Agents can gain by misreporting valuations, shifting burden to others.",
+      "difficulty": 4,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_020",
+      "questionText": "Median voter outcomes for a single public good are efficient only if:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
+        "mistakenly replaces marginal under standard assumptions in this model.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Efficiency needs Σ MRS = MRT; the median’s choice equals the sum only under special distributions.",
+      "difficulty": 3,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_021",
+      "questionText": "Warm‑glow giving can rationalize:",
+      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It treats constraints as slack under standard assumptions.",
+        "Not: it confuses technological under standard assumptions."
+      ],
+      "explanation": "Individuals derive utility from the act of giving, raising private marginal benefit.",
+      "difficulty": 3,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_022",
+      "questionText": "Warr neutrality (under standard conditions) predicts that a pure income transfer between contributors:",
+      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "distractors": [
+        "mistakenly replaces average under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "One donor gives less while the other gives more by the same amount; totals are constant.",
+      "difficulty": 4,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_023",
+      "questionText": "In the fund‑raising game with contribution pledges (subscription scheme):",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "mistakenly replaces marginal under standard assumptions in equilibrium."
+      ],
+      "explanation": "With commitment, maximal pledges can sum to total valuation, meeting the threshold.",
+      "difficulty": 4,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_024",
+      "questionText": "Club goods are:",
+      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "distractors": [
+        "Not: it confuses technological under standard assumptions.",
+        "It treats constraints as slack under standard assumptions.",
+        "It equates totals rather than margins, which is not the optimality condition."
+      ],
+      "explanation": "Access can be priced; congestion turns them impure public goods.",
+      "difficulty": 2,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_025",
+      "questionText": "Personalized prices aim to:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
+      "distractors": [
+        "It confuses technological under standard assumptions.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Given fixed G, charging shares equal to MRS induces demand revelation in theory.",
+      "difficulty": 3,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_026",
+      "questionText": "The Samuelson condition differs from private goods efficiency because:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it treats constraints as slack under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions at the margin."
+      ],
+      "explanation": "Each unit benefits everyone, so benefit aggregation is required.",
+      "difficulty": 3,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_027",
+      "questionText": "Under symmetric preferences and incomes, private provision per person tends to:",
+      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it confuses technological under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Free‑riding intensifies; individual contributions shrink with group size.",
+      "difficulty": 3,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_028",
+      "questionText": "A Clarke–Groves (VCG) mechanism for a public good:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "distractors": [
+        "It confuses technological under standard assumptions in this model.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Truth revelation can necessitate deficit‑financed transfers to internalize external benefits.",
+      "difficulty": 4,
+      "topic": [
+        "Public Goods"
+      ]
+    },
+    {
+      "id": "mcq_029",
+      "questionText": "A consumption externality exists when:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Direct utility interdependence defines consumption externalities.",
+      "difficulty": 2,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_030",
+      "questionText": "With a negative externality, competitive equilibrium typically features:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "Under‑production relative to the social optimum.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Private agents ignore external damage; PMB exceeds SMB at the margin.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_031",
+      "questionText": "A Pigouvian tax should be set equal to:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
+        "It confuses technological under standard assumptions in this model.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Aligns private marginal cost with social marginal cost at the optimum.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_032",
+      "questionText": "Tradable permits (licenses) achieve efficiency by:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "distractors": [
+        "Not: it treats constraints as slack under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It confuses technological under standard assumptions in this model."
+      ],
+      "explanation": "Quantity control with trading equalizes marginal abatement costs across emitters.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_033",
+      "questionText": "Under cost uncertainty (Weitzman), taxes vs. quotas differ because:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
+      "distractors": [
+        "It equates totals rather than margins.",
+        "It treats constraints as slack under standard assumptions.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "If marginal costs are uncertain, price instruments avoid large cost spikes; quantity instruments avoid quantity risk.",
+      "difficulty": 4,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_034",
+      "questionText": "Coase Theorem requires negligible transaction costs and:",
+      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it confuses technological under standard assumptions.",
+        "Not: it confuses technological under standard assumptions."
+      ],
+      "explanation": "Bargaining achieves efficiency regardless of initial assignment if rights are clear and costs are low.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_035",
+      "questionText": "A pecuniary externality is:",
+      "correctAnswer": "It equates totals rather than margins in this model.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction at the margin in equilibrium in equilibrium.",
+        "It treats constraints as slack under standard assumptions.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Price‑mediated effects are inherent to markets and do not create wedges between private and social optima.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_036",
+      "questionText": "The ‘tragedy of the commons’ arises because:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "It treats constraints as slack under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions at the margin."
+      ],
+      "explanation": "Each user internalizes average but not marginal external costs, causing overuse.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_037",
+      "questionText": "Road congestion is a negative externality because each driver:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it treats constraints as slack under standard assumptions.",
+        "Not: it treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "Private time cost omits the additional delay on other users absent tolls.",
+      "difficulty": 2,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_038",
+      "questionText": "Non‑convexities induced by externalities can imply:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
+      "distractors": [
+        "mistakenly replaces average under standard assumptions.",
+        "It confuses technological under standard assumptions.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "External effects can make technology sets non‑convex; supporting prices may fail.",
+      "difficulty": 4,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_039",
+      "questionText": "Internalization by merger (e.g., beekeeper and orchard) can:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It equates totals rather than margins, which is not not not the optimality condition.",
+        "mistakenly replaces marginal under standard assumptions in this model.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Integration aligns private with social benefits but may introduce monopoly distortions elsewhere.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_040",
+      "questionText": "Bandwagon effects are:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It confuses technological under standard assumptions.",
+        "mistakenly replaces average under standard assumptions."
+      ],
+      "explanation": "Path dependence can sustain suboptimal equilibria if coordination fails.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_041",
+      "questionText": "The rat‑race game shows that:",
+      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "distractors": [
+        "It equates totals rather than margins.",
+        "mistakenly replaces marginal under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Mutual escalation yields a prisoner’s‑dilemma‑type inefficiency.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_042",
+      "questionText": "Compared with Pigouvian taxes, tradable permits:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It confuses technological under standard assumptions in equilibrium.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Permits set the total emissions cap and let the market discover the price.",
+      "difficulty": 3,
+      "topic": [
+        "Externalities"
+      ]
+    },
+    {
+      "id": "mcq_043",
+      "questionText": "Adverse selection occurs when:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins, which is not the optimality condition."
+      ],
+      "explanation": "Type information is private before contracting; pooled terms attract worse types.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_044",
+      "questionText": "In Rothschild–Stiglitz screening, the separating equilibrium features:",
+      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions.",
+        "Not: it confuses technological under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Incentive compatibility forces low‑risk to accept less coverage to deter mimicking.",
+      "difficulty": 4,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_045",
+      "questionText": "Pooling can fail to exist because:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in equilibrium.",
+        "It confuses technological under standard assumptions in this model.",
+        "It equates totals rather than margins, which is not not not the optimality condition."
+      ],
+      "explanation": "A nearby contract between indifference curves draws only good risks, making profits.",
+      "difficulty": 4,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_046",
+      "questionText": "Compulsory insurance in an adverse selection market:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "mistakenly replaces marginal under standard assumptions in equilibrium.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "All are covered; the break‑even premium equals mean loss.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_047",
+      "questionText": "In signaling (Spence), a separating equilibrium requires that:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Single‑crossing ensures low‑type does not mimic the high‑type at chosen e*.",
+      "difficulty": 4,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_048",
+      "questionText": "A key welfare result of signaling is that:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
+        "mistakenly replaces average under standard assumptions in this model."
+      ],
+      "explanation": "If signals do not raise productivity, resources spent on signaling can be wasteful.",
+      "difficulty": 4,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_049",
+      "questionText": "Moral hazard refers to:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It confuses technological under standard assumptions in this model.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Effort and precautions are not directly contractible; incentives matter.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_050",
+      "questionText": "With unobservable effort in insurance, the second‑best typically offers:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It equates totals rather than margins, which is not not not the optimality condition.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Full coverage removes effort incentives; deductibles restore them.",
+      "difficulty": 4,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_051",
+      "questionText": "In RS insurance, the high‑risk indifference curves are:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions at the margin.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Higher accident probability raises the MRS toward indemnity in wealth states.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_052",
+      "questionText": "Market unraveling in Akerlof’s lemons arises because buyers:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It equates totals rather than margins at the margin.",
+        "It confuses technological under standard assumptions.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "When quality is hidden, prices reflect adverse selection and can collapse the market.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_053",
+      "questionText": "Screening menus must satisfy:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It confuses technological under standard assumptions in this model."
+      ],
+      "explanation": "Types must prefer their designated contracts and accept them voluntarily.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_054",
+      "questionText": "‘No‑claim bonuses’ in insurance primarily address:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "distractors": [
+        "It confuses technological under standard assumptions in equilibrium.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "Not: it treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "Linking premiums to realized claims raises the shadow price of risky behavior.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_055",
+      "questionText": "Government provision of basic health insurance can:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in equilibrium.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins, which is not the optimality condition."
+      ],
+      "explanation": "Compulsory participation avoids pooling breakdown; co‑pays still needed for effort.",
+      "difficulty": 3,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_056",
+      "questionText": "In a screening model, raising the informational rent of the high type:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "distractors": [
+        "It confuses technological under standard assumptions in this model.",
+        "It confuses technological under standard assumptions in equilibrium.",
+        "It equates totals rather than margins, which is not the optimality condition."
+      ],
+      "explanation": "A standard trade‑off: distort the low type to separate, leaving rent to the high type.",
+      "difficulty": 4,
+      "topic": [
+        "Asymmetric Information"
+      ]
+    },
+    {
+      "id": "mcq_057",
+      "questionText": "The Lorenz curve plots:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions in this model by construction at the margin.",
+        "It confuses technological under standard assumptions in equilibrium.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Perfect equality is the 45° line; deviations measure dispersion.",
+      "difficulty": 2,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_058",
+      "questionText": "The Gini coefficient equals:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
+        "It treats constraints as slack under standard assumptions in this model."
+      ],
+      "explanation": "A common relative inequality measure bounded between 0 and 1.",
+      "difficulty": 3,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_059",
+      "questionText": "Atkinson’s index A(ε) captures:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "distractors": [
+        "Not: it treats constraints as slack under standard assumptions.",
+        "It confuses technological under standard assumptions at the margin.",
+        "Not: it treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "A(ε) = 1 − y_EDE / mean; higher ε raises weight on the poor.",
+      "difficulty": 4,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_060",
+      "questionText": "For ε=1, the equally distributed equivalent income equals:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions in this model.",
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "With ε→1, EDE = (∏ y_i)^{1/n}, reflecting log utility aggregation.",
+      "difficulty": 4,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_061",
+      "questionText": "A decomposable poverty measure allows:",
+      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "distractors": [
+        "It equates totals rather than margins.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "FGT measures are additively decomposable by population partitions.",
+      "difficulty": 3,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_062",
+      "questionText": "The FGT index with α=0 equals:",
+      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "α tunes sensitivity to depth: 0=headcount, 1=gap, 2=severity.",
+      "difficulty": 2,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_063",
+      "questionText": "The poverty gap ratio measures:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions.",
+        "It equates totals rather than margins.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "Captures depth but not inequality among the poor.",
+      "difficulty": 3,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_064",
+      "questionText": "The Gini social welfare function can be written as:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "mistakenly replaces marginal under standard assumptions in equilibrium.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "A reduced‑form mapping combining equality and average income.",
+      "difficulty": 3,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_065",
+      "questionText": "Moving mass from a rich to a poorer person without crossing incomes:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "Not: it treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "A progressive transfer that preserves ranks must lower inequality for Schur‑convex measures.",
+      "difficulty": 3,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_066",
+      "questionText": "Relative poverty lines (e.g., 60% of median):",
+      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions.",
+        "It treats constraints as slack under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "These lines move as society’s income changes, reflecting social standards.",
+      "difficulty": 2,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_067",
+      "questionText": "Atkinson’s A(ε) increases when:",
+      "correctAnswer": "It equates totals rather than margins.",
+      "distractors": [
+        "Mean income rises with the distribution unchanged.",
+        "mistakenly replaces marginal under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Higher dispersion reduces the equally distributed equivalent income.",
+      "difficulty": 3,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_068",
+      "questionText": "Decomposing poverty by subgroup helps policymakers because it:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Group shares times group poverty reveal contribution to total poverty.",
+      "difficulty": 2,
+      "topic": [
+        "Inequality and Poverty"
+      ]
+    },
+    {
+      "id": "mcq_069",
+      "questionText": "Deadweight loss from a small ad valorem tax is approximately:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "mistakenly replaces marginal under standard assumptions in equilibrium.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Standard Harberger triangle result for small taxes.",
+      "difficulty": 4,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_070",
+      "questionText": "Ramsey’s rule for optimal commodity taxes suggests taxing:",
+      "correctAnswer": "It equates totals rather than margins at the margin.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions.",
+        "It confuses technological under standard assumptions.",
+        "It equates totals rather than margins."
+      ],
+      "explanation": "Minimize excess burden subject to revenue by taxing inelastic bases.",
+      "difficulty": 4,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_071",
+      "questionText": "The equity–efficiency trade‑off in income taxation captures that:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It treats constraints as slack under standard assumptions."
+      ],
+      "explanation": "Raising redistribution changes net wages and hours supplied.",
+      "difficulty": 3,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_072",
+      "questionText": "With linear labor supply and quasilinear utility, a head tax:",
+      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "distractors": [
+        "It equates totals rather than margins, which is not not not the optimality condition.",
+        "It confuses technological under standard assumptions in this model.",
+        "It equates totals rather than margins, which is not not not the optimality condition."
+      ],
+      "explanation": "It is non‑distortionary but regressive; rarely feasible politically.",
+      "difficulty": 3,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_073",
+      "questionText": "Tax salience matters because:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It confuses technological under standard assumptions in equilibrium.",
+        "mistakenly replaces marginal under standard assumptions.",
+        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Behavioral evidence shows lower perceived price changes reduce avoidance.",
+      "difficulty": 3,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_074",
+      "questionText": "In optimal income tax, the marginal tax rate at the top depends on:",
+      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions.",
+        "Not: it confuses technological under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Saez formula: τ* ≈ (1 − g) / (1 − g + a·e), linking social weights and elasticities.",
+      "difficulty": 4,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_075",
+      "questionText": "Tax evasion models predict higher evasion when:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
+      "distractors": [
+        "It confuses technological under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Expected cost of evasion shapes compliance decisions.",
+      "difficulty": 3,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_076",
+      "questionText": "With commodity taxation and producer pricing, the efficiency condition is:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "distractors": [
+        "Not: it treats constraints as slack under standard assumptions.",
+        "It confuses technological under standard assumptions in equilibrium.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Equalize the marginal welfare cost per euro of revenue across bases.",
+      "difficulty": 4,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_077",
+      "questionText": "A well‑designed carbon tax is:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It equates totals rather than margins, which is not the optimality condition."
+      ],
+      "explanation": "Prices the externality directly and lets markets discover abatement.",
+      "difficulty": 3,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_078",
+      "questionText": "Incidence analysis focuses on:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
+      "distractors": [
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It treats constraints as slack under standard assumptions.",
+        "It equates totals rather than margins, which is not the optimality condition."
+      ],
+      "explanation": "Supply and demand elasticities shift burdens irrespective of remittance.",
+      "difficulty": 2,
+      "topic": [
+        "Taxation"
+      ]
+    },
+    {
+      "id": "mcq_079",
+      "questionText": "Libertarian paternalism advocates:",
+      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Design the choice architecture while preserving freedom to opt out.",
+      "difficulty": 3,
+      "topic": [
+        "Behavioral Economics and Policy"
+      ]
+    },
+    {
+      "id": "mcq_080",
+      "questionText": "A powerful default effect arises because:",
+      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "distractors": [
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "Not: it confuses technological under standard assumptions.",
+        "mistakenly replaces marginal under standard assumptions."
+      ],
+      "explanation": "Auto‑enrollment raises savings; opt‑out rates are low without active choice.",
+      "difficulty": 3,
+      "topic": [
+        "Behavioral Economics and Policy"
+      ]
+    },
+    {
+      "id": "mcq_081",
+      "questionText": "‘Save More Tomorrow’ works by:",
+      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
+      "distractors": [
+        "It confuses technological under standard assumptions.",
+        "It equates totals rather than margins.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Aligns self‑control with timing; raises savings with low opt‑out.",
+      "difficulty": 3,
+      "topic": [
+        "Behavioral Economics and Policy"
+      ]
+    },
+    {
+      "id": "mcq_082",
+      "questionText": "Mandated choice for organ donation means:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in equilibrium.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions in this model.",
+        "It equates totals rather than margins, which is not the optimality condition.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Forces active decision while preserving autonomy.",
+      "difficulty": 2,
+      "topic": [
+        "Behavioral Economics and Policy"
+      ]
+    },
+    {
+      "id": "mcq_083",
+      "questionText": "Feedback nudges (e.g., energy bills with neighbor comparisons) can:",
+      "correctAnswer": "It treats constraints as slack under standard assumptions in equilibrium.",
+      "distractors": [
+        "mistakenly replaces marginal under standard assumptions in this model.",
+        "It reverses the direction of the relevant inequality at the candidate optimum.",
+        "It reverses the direction of the relevant inequality at the candidate optimum."
+      ],
+      "explanation": "Descriptive norms and clear metrics shift behavior at low cost.",
+      "difficulty": 3,
+      "topic": [
+        "Behavioral Economics and Policy"
+      ]
+    },
+    {
+      "id": "mcq_084",
+      "questionText": "A good choice architecture expects error by:",
+      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "distractors": [
+        "It treats constraints as slack under standard assumptions in this model by construction.",
+        "mistakenly replaces marginal under standard assumptions in equilibrium.",
+        "It confuses technological under standard assumptions."
+      ],
+      "explanation": "Error‑tolerant interfaces (like clear card readers) reduce mistakes.",
+      "difficulty": 3,
+      "topic": [
+        "Behavioral Economics and Policy"
+      ]
+    }
+  ]
+}
