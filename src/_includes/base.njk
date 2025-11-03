@@ -15,6 +15,9 @@
     <header class="main-header">
         <nav class="main-nav">
             <div class="nav-section nav-left">
+                <button id="nav-menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav-menu">
+                    <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+                </button>
                 <div class="quiz-selector">
                     <label for="quiz-select" class="quiz-label">Quiz:</label>
                     <select id="quiz-select" class="quiz-dropdown">
@@ -24,7 +27,7 @@
                     </select>
                 </div>
             </div>
-            <div class="nav-section nav-center">
+            <div class="nav-section nav-center" id="primary-nav-links">
                 <a href="/" class="nav-link" data-page="quiz">Quiz</a>
                 <a href="/stats/" class="nav-link" data-page="stats">Stats</a>
             </div>
@@ -39,6 +42,10 @@
                 </button>
             </div>
         </nav>
+        <div class="mobile-nav-menu" id="mobile-nav-menu" hidden>
+            <a href="/" class="nav-link" data-page="quiz">Quiz</a>
+            <a href="/stats/" class="nav-link" data-page="stats">Stats</a>
+        </div>
     </header>
     <main class="main-container">
         {{ content | safe }}
@@ -78,9 +85,46 @@
             });
         })();
 
+        // Mobile navigation menu toggle
+        (function() {
+            const menuToggle = document.getElementById('nav-menu-toggle');
+            const mobileMenu = document.getElementById('mobile-nav-menu');
+            if (!menuToggle || !mobileMenu) return;
+
+            function closeMenu() {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                mobileMenu.classList.remove('open');
+                mobileMenu.setAttribute('hidden', '');
+            }
+
+            menuToggle.addEventListener('click', () => {
+                const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+                const nextState = !isExpanded;
+                menuToggle.setAttribute('aria-expanded', String(nextState));
+                mobileMenu.classList.toggle('open', nextState);
+                if (nextState) {
+                    mobileMenu.removeAttribute('hidden');
+                } else {
+                    mobileMenu.setAttribute('hidden', '');
+                }
+            });
+
+            mobileMenu.addEventListener('click', (event) => {
+                const link = event.target.closest('a');
+                if (link) {
+                    closeMenu();
+                }
+            });
+
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768) {
+                    closeMenu();
+                }
+            });
+        })();
+
         // Set default quiz
         window.defaultQuiz = '{{ defaultQuiz }}';
     </script>
 </body>
 </html>
-

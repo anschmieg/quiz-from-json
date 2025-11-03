@@ -132,6 +132,14 @@ document.addEventListener('DOMContentLoaded', () => {
         flashcardContainer.style.display = 'block';
         completeMessage.style.display = 'none';
 
+        // Clear any feedback or hint content from the previous question before rendering the next one.
+        const staleFeedback = flashcardContainer.querySelector('#feedback-area');
+        if (staleFeedback) {
+            staleFeedback.innerHTML = '';
+            staleFeedback.removeAttribute('hidden');
+            staleFeedback.classList.remove('is-visible');
+        }
+
         // Normalize and map difficulty (accepts strings or numbers)
         const difficultyMap = { 1: 'easy', 2: 'medium', 3: 'hard', 4: 'very hard', 5: 'expert' };
         const difficultyVal = Number(q.difficulty) || 2;
