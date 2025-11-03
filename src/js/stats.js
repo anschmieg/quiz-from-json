@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentQuizId = localStorage.getItem('currentQuizId') || 'semlex';
     const STATS_PREFIX = 'quizStats_';
     
+    const TOPIC_SEPARATORS = /\s*\|\s*|\s*-\s*|\s*–\s*|;\s*|:\s*|\/|\s*>\s*/;
     let allQuestions = [];
     let quizTitle = '';
     let userStats = {};
@@ -48,25 +49,49 @@ document.addEventListener('DOMContentLoaded', () => {
         return { text: `<span>Stable</span>`, value: 0 };
     }
     
+    function normalizeTopicPaths(rawTopic) {
+        const normalized = [];
+        if (Array.isArray(rawTopic)) {
+            rawTopic.forEach(entry => {
+                if (typeof entry !== 'string') return;
+                const trimmed = entry.trim();
+                if (!trimmed) return;
+                const segments = trimmed.split(TOPIC_SEPARATORS).map(part => part.trim()).filter(Boolean);
+                if (segments.length) normalized.push(segments);
+            });
+        } else if (typeof rawTopic === 'string' && rawTopic.trim()) {
+            const segments = rawTopic.split(TOPIC_SEPARATORS).map(part => part.trim()).filter(Boolean);
+            if (segments.length) normalized.push(segments);
+        }
+        return normalized.length ? normalized : [['General']];
+    }
+
     function buildTopicTree(questions) {
         const root = { name: 'All Topics', children: {}, history: [] };
-        const topicSeparators = / \| | - | – |; |: /;
 
         questions.forEach(q => {
             const stats = userStats[q.id];
-            if (!stats || stats.history.length === 0) return;
+            const history = Array.isArray(stats?.history) ? stats.history : [];
+            if (history.length === 0) return;
 
-            const path = (q.topic || 'General').split(topicSeparators).map(t => t.trim());
-            let currentNode = root;
-            
-            path.forEach(part => {
-                if (!currentNode.children[part]) {
-                    currentNode.children[part] = { name: part, children: {}, history: [] };
-                }
-                currentNode = currentNode.children[part];
-                currentNode.history.push(...stats.history);
+            const topicPaths = normalizeTopicPaths(q.topic);
+            const seenPaths = new Set();
+
+            topicPaths.forEach(path => {
+                const key = path.join('|||');
+                if (seenPaths.has(key)) return;
+                seenPaths.add(key);
+
+                let currentNode = root;
+                path.forEach(part => {
+                    if (!currentNode.children[part]) {
+                        currentNode.children[part] = { name: part, children: {}, history: [] };
+                    }
+                    currentNode = currentNode.children[part];
+                    currentNode.history.push(...history);
+                });
             });
-            root.history.push(...stats.history);
+            root.history.push(...history);
         });
         return root;
     }
@@ -202,4 +227,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadStatsForQuiz(currentQuizId);
 });
-
