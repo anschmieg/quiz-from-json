@@ -47,6 +47,11 @@
     /* darker neutral grey for legibility */
     --difficulty-hard-bg: #a50020;
     /* slightly desaturated vivid red */
+    --progress-mastered: #2ecc71;
+    --progress-mostly-correct: #0d6efd;
+    --progress-mostly-incorrect: #ff9800;
+    --progress-critical: #dc3545;
+    --progress-unattempted: #d9dee5;
 }
 
 /* Dark mode variables */
@@ -66,6 +71,11 @@
     --nav-bg: #2d2d2d;
     --dropdown-bg: #3a3a3a;
     --hover-bg: #3a3a3a;
+    --progress-mastered: #49c788;
+    --progress-mostly-correct: #4a9eff;
+    --progress-mostly-incorrect: #ffb74d;
+    --progress-critical: #ff6b6b;
+    --progress-unattempted: #3a4049;
 }
 
 /* Set default dark-mode pill backgrounds to the dark variants (keeps B/D similar between themes) */
@@ -748,12 +758,47 @@ html.material-loaded .material-symbols-outlined.difficulty-icon {
 
 /* === Shared Components === */
 .progress-bar-container {
-    background-color: #e9ecef;
+    position: relative;
+    background-color: var(--progress-unattempted);
     border-radius: 0.5rem;
     height: 1rem;
     width: 100%;
     margin: 0.5rem 0;
     overflow: hidden;
+}
+
+.progress-bar-track {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    width: 0%;
+    border-radius: inherit;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+}
+
+.progress-segment {
+    flex: 0 0 auto;
+    min-width: 0;
+    height: 100%;
+    opacity: 0;
+    transition: flex-grow 0.3s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.progress-segment.mastered {
+    background-color: var(--progress-mastered);
+}
+
+.progress-segment.mostly-correct {
+    background-color: var(--progress-mostly-correct);
+}
+
+.progress-segment.mostly-incorrect {
+    background-color: var(--progress-mostly-incorrect);
+}
+
+.progress-segment.critical {
+    background-color: var(--progress-critical);
 }
 
 .progress-bar {

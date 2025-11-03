@@ -28,11 +28,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const STATS_PREFIX = 'quizStats_';
     const SESSION_PREFIX = 'quizSession_';
+    const MASTERED_STREAK = 3;
+    const CRITICAL_STREAK = 3;
+    const MOSTLY_CORRECT_THRESHOLD = 0.6;
 
     const flashcardContainer = document.getElementById('flashcard-container');
     const completeMessage = document.getElementById('quiz-complete-message');
     const masteryAccuracyValEl = document.getElementById('mastery-accuracy-val');
-    const masteryAccuracyBarEl = document.getElementById('mastery-accuracy-bar');
+    const masteryBarTrackEl = document.getElementById('mastery-bar-track');
+    const masterySegments = {
+        mastered: document.querySelector('[data-segment="mastered"]'),
+        mostlyCorrect: document.querySelector('[data-segment="mostly-correct"]'),
+        mostlyIncorrect: document.querySelector('[data-segment="mostly-incorrect"]'),
+        critical: document.querySelector('[data-segment="critical"]'),
+    };
     const quizSelect = document.getElementById('quiz-select');
 
     function getStorageKey(prefix) {
@@ -67,31 +76,96 @@ document.addEventListener('DOMContentLoaded', () => {
         return { correct, total, percentage };
     }
 
-    function calculateMastery() {
-        const attemptedQuestions = allQuestions.filter(q => userStats[q.id]?.history.length > 0);
-        if (attemptedQuestions.length === 0) return { correct: 0, total: 0, percentage: 0 };
-        const correctOnLastTry = attemptedQuestions.filter(q => userStats[q.id].history.slice(-1)[0]).length;
-        const total = attemptedQuestions.length;
-        const percentage = Math.round((correctOnLastTry / total) * 100);
-        return { correct: correctOnLastTry, total, percentage };
-    }
-
     function renderMastery() {
-        const mastery = calculateMastery();
-        masteryAccuracyValEl.textContent = `${mastery.percentage}% (${mastery.correct}/${mastery.total} Attempted)`;
-        masteryAccuracyBarEl.style.width = `${mastery.percentage}%`;
+        const summary = {
+            total: allQuestions.length,
+            attempted: 0,
+            mastered: 0,
+            mostlyCorrect: 0,
+            mostlyIncorrect: 0,
+            critical: 0,
+        };
+
+        allQuestions.forEach(q => {
+            const history = userStats[q.id]?.history || [];
+            if (!history.length) return;
+
+            summary.attempted += 1;
+            const correctCount = history.filter(Boolean).length;
+            const totalAttempts = history.length;
+            const accuracyRatio = totalAttempts ? (correctCount / totalAttempts) : 0;
+            const recentWindow = history.slice(-MASTERED_STREAK);
+            const mastered = recentWindow.length === MASTERED_STREAK && recentWindow.every(Boolean);
+            if (mastered) {
+                summary.mastered += 1;
+                return;
+            }
+
+            const criticalWindow = history.slice(-CRITICAL_STREAK);
+            const consecutiveMisses = criticalWindow.length === CRITICAL_STREAK && criticalWindow.every(ans => !ans);
+            const neverCorrect = correctCount === 0;
+            if (consecutiveMisses || neverCorrect) {
+                summary.critical += 1;
+                return;
+            }
+
+            if (accuracyRatio >= MOSTLY_CORRECT_THRESHOLD) {
+                summary.mostlyCorrect += 1;
+            } else {
+                summary.mostlyIncorrect += 1;
+            }
+        });
+
+        const categorizedSum = summary.mastered + summary.mostlyCorrect + summary.mostlyIncorrect + summary.critical;
+        if (categorizedSum !== summary.attempted) {
+            summary.mostlyIncorrect = Math.max(0, summary.attempted - summary.mastered - summary.mostlyCorrect - summary.critical);
+        }
+
+        if (masteryBarTrackEl) {
+            const attemptedFraction = summary.total ? summary.attempted / summary.total : 0;
+            const attemptedPercent = Math.max(0, Math.min(100, attemptedFraction * 100));
+            masteryBarTrackEl.style.width = `${attemptedPercent}%`;
+
+            const segments = {
+                mastered: summary.mastered,
+                mostlyCorrect: summary.mostlyCorrect,
+                mostlyIncorrect: summary.mostlyIncorrect,
+                critical: summary.critical,
+            };
+
+            Object.entries(segments).forEach(([key, count]) => {
+                const segmentEl = masterySegments[key];
+                if (!segmentEl) return;
+                if (!summary.attempted || count <= 0) {
+                    segmentEl.style.display = 'none';
+                    segmentEl.style.flexGrow = 0;
+                    segmentEl.style.opacity = '0';
+                } else {
+                    segmentEl.style.display = 'block';
+                    segmentEl.style.flexGrow = count;
+                    segmentEl.style.opacity = '1';
+                }
+            });
+        }
+
+        if (masteryAccuracyValEl) {
+            const attempted = summary.attempted || 0;
+            const coverageRatio = attempted ? ((summary.mastered + summary.mostlyCorrect) / attempted) : 0;
+            const coveragePercent = Math.round(coverageRatio * 100);
+            masteryAccuracyValEl.textContent = `${coveragePercent}% – ${attempted}/${summary.total || 0} attempted`;
+        }
 
         // Update header with quiz title
         const headerTitle = document.querySelector('.quiz-header-stats h3');
         if (headerTitle) {
-            headerTitle.textContent = quizTitle ? `${quizTitle} - Overall Mastery` : 'Overall Mastery';
+            headerTitle.textContent = quizTitle ? `${quizTitle} - Progress Overview` : 'Progress Overview';
         }
     }
 
     function selectNextQuestion() {
         const masteredQuestions = new Set(allQuestions.filter(q => {
             const history = userStats[q.id]?.history || [];
-            return history.length >= 3 && history.slice(-3).every(Boolean);
+            return history.length >= MASTERED_STREAK && history.slice(-MASTERED_STREAK).every(Boolean);
         }).map(q => q.id));
         if (masteredQuestions.size === allQuestions.length && allQuestions.length > 0) return null;
         const availableQuestions = allQuestions.filter(q => !masteredQuestions.has(q.id));

@@ -5,8 +5,15 @@ title: "Learning Quiz"
 
 <div class="quiz-page-container">
     <div class="quiz-header-stats">
-        <h3>Overall Mastery</h3>
-        <div class="progress-bar-container"><div class="progress-bar" id="mastery-accuracy-bar"></div></div>
+        <h3>Progress Overview</h3>
+        <div class="progress-bar-container">
+            <div class="progress-bar-track" id="mastery-bar-track">
+                <div class="progress-segment mastered" data-segment="mastered" aria-hidden="true"></div>
+                <div class="progress-segment mostly-correct" data-segment="mostly-correct" aria-hidden="true"></div>
+                <div class="progress-segment mostly-incorrect" data-segment="mostly-incorrect" aria-hidden="true"></div>
+                <div class="progress-segment critical" data-segment="critical" aria-hidden="true"></div>
+            </div>
+        </div>
         <p id="mastery-accuracy-val">-</p>
     </div>
 
@@ -23,4 +30,3 @@ title: "Learning Quiz"
 
 <!-- Load the quiz logic -->
 <script src="/js/quiz.js"></script>
-
