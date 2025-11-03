@@ -53,9 +53,10 @@
       "questionText": "Conditional convergence implies what for cross-country comparisons?",
       "correctAnswer": "Poorer economies grow faster when fundamentals (e.g., $s$, $n$, human capital, institutions) are similar, yielding convergence clubs",
       "distractors": [
-        "Absolute convergence occurs automatically regardless of fundamentals",
-        "Population growth alone ensures convergence across countries",
-        "Convergence requires identical factor endowments and technologies"
+        "Raise investment by cutting capital taxes but leave rulers unconstrained, so innovators still face expropriation risk and limits on market entry.",
+        "Broaden secure property rights and market access so outsiders can invest and innovate without arbitrary expropriation, keeping creative destruction alive despite incumbent resistance.",
+        "Rely mainly on after-tax redistribution to equalise outcomes while keeping product and credit markets closed to new competitors and new ideas.",
+        "Protect incumbent domestic firms from foreign and domestic rivals through lasting trade and regulatory shields, even if this suppresses innovation by potential entrants."
       ],
       "explanation": "In Solow, countries converge to different steady states unless structural parameters are comparable.",
       "difficulty": 3,
@@ -83,9 +84,10 @@
       "questionText": "In the Solow model with exogenous technology, a permanent rise in $s$ has which long-run effect?",
       "correctAnswer": "Raises the level of $y$ per worker via a higher $k^*$ but does not change the long-run growth rate of $y$ per worker",
       "distractors": [
-        "Permanently increases per-worker growth because diminishing returns do not bind",
-        "Only raises depreciation, leaving $y$ unchanged",
-        "Permanently increases both the level and the growth rate of $y$ per worker"
+        "Assume every country benefited equally from Atlantic trade regardless of its starting political arrangements, so no institutional change was needed for growth.",
+        "Note that Atlantic trade empowered merchants only where some pluralist checks already existed, letting them demand stronger constraints on rulers and more secure property rights for investors.",
+        "Claim that Atlantic trade mainly enlarged royal rents everywhere, entrenching absolutism and reducing incentives for rulers to share power with commercial groups.",
+        "Treat trade purely as a transport-cost shock for agriculture, unrelated to bargaining between rulers and increasingly powerful trading interests in towns and ports."
       ],
       "explanation": "With diminishing returns, a higher $s$ shifts the steady-state level but not the exogenous technology-driven growth rate.",
       "difficulty": 3,
@@ -128,9 +130,10 @@
       "questionText": "Which statement best captures the course’s view on inclusive institutions and growth?",
       "correctAnswer": "Broadly shared property rights and open access to markets encourage entry and innovation, sustaining growth despite incumbent resistance",
       "distractors": [
-        "Institutions matter only through redistribution, not investment",
-        "Concentrated political power ensures faster growth by suppressing competition",
-        "Inclusive institutions require autarky to protect domestic firms"
+        "Argue that high inequality always raises national saving rates, so capital deepening accelerates even if poor households cannot borrow or study.",
+        "Emphasise that when credit and schooling are tied to parental income, talented but poor people underinvest, lowering aggregate human capital and future productivity.",
+        "Suggest that concentrating income automatically shrinks government and red tape, so investment conditions improve for everyone despite large opportunity gaps.",
+        "Propose that very unequal income spreads weaken elite control of the courts, so incumbents stop blocking innovators and growth accelerates without broader inclusion."
       ],
       "explanation": "AJR emphasize constraints on arbitrary power to enable creative destruction and investment by outsiders.",
       "difficulty": 2,
@@ -143,9 +146,10 @@
       "questionText": "What identification logic underlies using historical settler mortality as an instrument for current institutions?",
       "correctAnswer": "High mortality discouraged settlement and the transplantation of inclusive institutions, leading to extractive systems that persist and affect income mainly via institutions",
       "distractors": [
-        "Mortality directly sets today’s productivity through current disease only",
-        "Mortality predicts modern schooling mechanically independent of governance",
-        "Mortality proxies for tariff rates rather than politics"
+        "Plantation-suitable crops favoured large coercive estates, generated high land inequality, and supported extractive institutions whose distributional effects lasted into the modern era.",
+        "Plantation-suitable crops always required universal schooling and broad suffrage, so they produced inclusive and equalising institutions in almost all colonies.",
+        "Crop suitability mainly determined contemporary rainfall, which now fixes income directly through biophysical channels, making institutional differences irrelevant.",
+        "Differences in crop suitability mattered only for short-run farm profits; they did not shape political power, land concentration, or today’s institutional quality."
       ],
       "explanation": "The exclusion restriction posits that mortality affects income primarily through institutional trajectories, not direct contemporary health effects.",
       "difficulty": 3,
@@ -159,9 +163,10 @@
       "questionText": "Rodrik–Subramanian–Trebbi compare institutions, integration, and geography. Which result aligns with the course?",
       "correctAnswer": "Instrumented institutional quality explains much income variation; geography’s direct effect weakens and operates mainly through institutions",
       "distractors": [
-        "Geography fully explains income and renders institutions irrelevant",
-        "Trade integration dominates institutions once human capital is controlled",
-        "Institutions matter only via trade policy and not directly"
+        "Explain that, on average, incomes of the poorest households tend to grow at about the same rate as mean income when economies expand steadily.",
+        "Insist that any rise in average income must raise poor-household incomes even faster, so inequality almost always falls during growth episodes in every country.",
+        "Conclude that growth normally bypasses the poor, so only large scale redistribution programs can raise their incomes in a reliable way.",
+        "Argue that bottom-quintile incomes are unrelated to average income and therefore macroeconomic strategy is largely irrelevant for poverty reduction."
       ],
       "explanation": "Their IV strategy suggests institutions are central while geography’s influence is largely indirect.",
       "difficulty": 3,
@@ -174,9 +179,10 @@
       "questionText": "In the ‘Atlantic trade’ narrative, why did trade opportunities produce institutional upgrades in some countries but not others?",
       "correctAnswer": "Where nascent pluralism existed, empowered merchants pushed for stronger constraints on rulers; under absolutism, rulers monopolized rents and blocked reform",
       "distractors": [
-        "Trade automatically generated inclusive institutions everywhere",
-        "Institutional change preceded trade and was unrelated to external opportunities",
-        "Trade gains eliminated conflict by satisfying all groups"
+        "Stress that when initial inequality is high, the same growth rate delivers smaller poverty reductions, so improving opportunity can raise the poverty-elasticity of growth.",
+        "Claim that once the Gini passes an arbitrary threshold, growth and poverty become completely unrelated, making distribution the only relevant policy lever.",
+        "Argue that higher inequality forces strong progressive taxes which automatically increase poverty reduction, no matter how growth is distributed.",
+        "State that, after controlling for openness and exchange-rate policy, initial inequality no longer affects how strongly growth reaches poor households."
       ],
       "explanation": "Trade interacted with initial political conditions; coalitions mattered for credible constraints on power.",
       "difficulty": 4,
@@ -190,9 +196,10 @@
       "questionText": "Which distinction between physical and economic geography is most relevant for growth analysis?",
       "correctAnswer": "Physical geography concerns climate, disease, and terrain; economic geography concerns market access, density, and spatial concentration of activity",
       "distractors": [
-        "Physical geography measures institutions; economic geography measures technology",
-        "Physical geography is about tariffs; economic geography is about rainfall",
-        "Physical geography matters only for agriculture; economic geography only for services"
+        "Define opportunity inequality as persistent barriers to schooling, health, finance and justice that reduce capability formation and undermine future inclusive growth.",
+        "Treat opportunity inequality as short-term consumption volatility during business cycles, with little relevance for investment, skills, or intergenerational mobility.",
+        "View opportunity inequality as merely a different way of calculating the Gini coefficient using finer income brackets but no extra content.",
+        "Limit opportunity inequality to differences in disposable income across birth cohorts, ignoring lifetime access to the building blocks of productivity."
       ],
       "explanation": "Natural features shape costs; spatial connectivity and agglomeration shape opportunities and scale.",
       "difficulty": 4,
@@ -205,9 +212,10 @@
       "questionText": "How does disease burden (e.g., malaria) enter the growth narrative emphasized in the course?",
       "correctAnswer": "It depresses productivity and schooling, raises fiscal burdens, and deters investment, risking low-income traps without targeted interventions",
       "distractors": [
-        "It increases leisure and savings, accelerating capital deepening",
-        "It has no macroeconomic effect in service-based economies",
-        "It directly sets the depreciation rate $\\delta$ in Solow"
+        "Recognise that broad tariffs may slow job losses but they also raise prices, invite retaliation and freeze obsolete structures, so helping workers and places adjust is usually better.",
+        "Assume tariffs directly target comparative advantage and therefore always increase productivity and inclusive growth, even when sectors are uncompetitive.",
+        "Assume workers can move instantly and freely across regions and sectors, so trade shocks create no lasting local losses that would need cushioning.",
+        "Argue that higher import prices automatically raise firm profits and wages in the same sector without harming consumers or downstream producers anywhere."
       ],
       "explanation": "Health shocks affect human capital and public budgets, reinforcing adverse geography–institutions interactions.",
       "difficulty": 4,
@@ -221,9 +229,10 @@
       "questionText": "Why is using a composite ‘institutions index’ potentially problematic for causal inference?",
       "correctAnswer": "It mixes heterogeneous components and measurement error, obscuring mechanisms and risking biased coefficients without robustness checks",
       "distractors": [
-        "Any index guarantees unbiased estimates under OLS",
-        "Composite indices must be discarded because they are ordinal",
-        "Institutional indices eliminate endogeneity by construction"
+        "They restore each displaced worker’s previous wage path forever and fully replace sectoral earnings, so there is no need to reallocate labour or capital across regions and industries.",
+        "They target concentrated losses among workers and regions while preserving the national efficiency gains from trade, which helps maintain political support for openness instead of freezing obsolete activities.",
+        "They remove any role for unemployment insurance or active labour-market policies because all displaced workers can be assumed to find better jobs immediately at no mobility cost.",
+        "They automatically make declining places attractive for private firms again regardless of local demand conditions, infrastructure, or skills, so structural issues can be ignored."
       ],
       "explanation": "Decomposition and alternative measures help validate which institutional dimensions drive outcomes.",
       "difficulty": 5,
@@ -252,9 +261,10 @@
       "questionText": "Why did wage inequality rise in several Latin American liberalizations despite endowment predictions?",
       "correctAnswer": "Within-industry upgrading and imported capital raised relative demand for skills; FDI and SBTC increased skill premia",
       "distractors": [
-        "Tariffs were raised on skill-intensive imports, compressing wages",
-        "Labor-force participation collapsed only for skilled workers",
-        "Currency appreciation uniformly boosted unskilled wages"
+        "Maintain that transfers alone raise total factor productivity, so expanding education and basic services is not needed for long-run growth.",
+        "Argue that broadening access to good schools, health and basic services for excluded groups builds human capital, raises future employment and broadens the tax base.",
+        "Suggest that distributional programs are now purely symbolic because structural unemployment has disappeared and labour markets clear immediately.",
+        "Claim that redistribution cannot affect productivity or growth in middle-income economies, so it should be separated from the development agenda."
       ],
       "explanation": "Micro evidence points to skill-biased technological change and FDI inside industries after tariffs fell.",
       "difficulty": 2,
@@ -267,9 +277,10 @@
       "questionText": "What channel did the Colombia case (Attanasio–Goldberg–Pavcnik) highlight for the trade–inequality link?",
       "correctAnswer": "Industry-level tariff reductions correlated with increases in the skill premium via technology adoption and within-sector reallocation",
       "distractors": [
-        "Tariffs were unchanged, so wages moved randomly",
-        "Inequality fell because all plants adopted identical low-skill technologies",
-        "Skill premia declined as capital intensity fell post-liberalization"
+        "State that high inequality automatically produces strong automatic stabilisers, so governments and households borrow less during large shocks.",
+        "Explain that when safety nets are weak, both households and the state borrow to smooth shocks, raising debt and reducing fiscal space for the next crisis.",
+        "Claim that high inequality always reassures investors and lowers sovereign spreads, so debt sustainability improves even when transfers are small.",
+        "Argue that public debt dynamics are driven only by the current account, not by domestic risk-sharing, institutions, or political stability arrangements."
       ],
       "explanation": "Detailed wage and tariff data link liberalization to sector-internal shifts favoring skilled labor.",
       "difficulty": 3,
@@ -283,9 +294,10 @@
       "questionText": "How can outsourcing and global value chains raise the domestic skill premium in developing economies?",
       "correctAnswer": "Tasks offshored may still be skill-intensive relative to local distributions, increasing domestic demand for skills within those sectors",
       "distractors": [
-        "Outsourcing relocates only low-skill tasks by definition",
-        "Global value chains eliminate firm heterogeneity and skill sorting",
-        "Offshoring reduces capital intensity and compresses skill premia"
+        "Adopt a clear carbon price and recycle some revenue into transfers, mobility support and place-based transition investment so exposed people stay on board.",
+        "Set a carbon price but devote all revenue to cutting business taxes, assuming distribution and regional fairness do not matter for policy durability.",
+        "Ban all high-emitting sectors immediately without compensation, even if this creates strong local opposition and undermines long-run decarbonisation.",
+        "Rely only on voluntary pledges with no price signal or regulatory backstop to avoid any short-term energy price rise, regardless of emissions outcomes."
       ],
       "explanation": "Relative skill intensity is country-specific; imported technologies can be skill-biased locally.",
       "difficulty": 4,
@@ -298,9 +310,10 @@
       "questionText": "Which empirical issue motivates instrumenting openness with gravity-predicted trade?",
       "correctAnswer": "Openness and income are jointly determined; geography-driven predicted trade provides exogenous variation in openness",
       "distractors": [
-        "Instruments are used only to raise $R^2$",
-        "Gravity models exclude distance and size, ensuring orthogonality",
-        "Predicted trade must equal observed trade for identification"
+        "Treat a capable state as one that enforces contracts, taxes predictably and delivers services, thereby reducing uncertainty and transaction costs for investors.",
+        "Assume a capable state can replace property rights and markets entirely through central planning without affecting innovation or long-horizon projects.",
+        "Assume high state capacity instantly produces income equality, so investors no longer need to track actual institutions or governance risks.",
+        "Conclude that with high state capacity, international price signals become irrelevant because officials can always offset them through procurement."
       ],
       "explanation": "Distance and size shift trade independently of current income, helping identify trade’s effect on outcomes.",
       "difficulty": 4,
@@ -314,9 +327,10 @@
       "questionText": "How does limited labor mobility amplify distributional costs of trade shocks?",
       "correctAnswer": "Barriers to moving across regions or sectors make wage losses persistent, raising inequality even if aggregate gains are positive",
       "distractors": [
-        "Limited mobility ensures instant wage equalization",
-        "Mobility constraints affect only capital income, not wages",
-        "Mobility constraints uniformly increase returns to unskilled labor"
+        "Note that ideas are non-rival and scalable, so knowledge spillovers keep the marginal payoff to innovation from collapsing the way capital returns do.",
+        "Claim that ideas depreciate more slowly than machines, so growth rises automatically even if no one shares knowledge across firms or sectors.",
+        "Insist that ideas diffuse only in autarky, so closed economies grow faster than open economies that share technologies globally.",
+        "Treat ideas as fully rival goods owned by single firms whose profits always finance research, removing any role for policy or institutions."
       ],
       "explanation": "Adjustment frictions slow reallocation, turning transitory shocks into persistent disparities.",
       "difficulty": 4,
@@ -330,9 +344,10 @@
       "questionText": "Which statement about price pass-through in Stolper–Samuelson is most empirically relevant?",
       "correctAnswer": "Incomplete pass-through and local markups can attenuate predicted changes in factor rewards relative to textbook comparative statics",
       "distractors": [
-        "Pass-through is complete in all small open economies",
-        "Markups cannot vary across sectors or time",
-        "Pass-through considerations are irrelevant for wage-setting"
+        "State that poorer economies should grow faster only when key fundamentals match, so we observe convergence clubs rather than universal catch-up.",
+        "Insist that absolute catch-up is automatic for all poor countries regardless of savings, technology access or institutional quality.",
+        "Claim that population growth alone ensures convergence, even if technology, investment and institutions differ sharply across countries.",
+        "Say that convergence patterns are essentially random because fundamentals and policies cannot be linked to growth differences empirically."
       ],
       "explanation": "Real-world frictions moderate the mapping from world prices to domestic wages.",
       "difficulty": 5,
@@ -346,9 +361,10 @@
       "questionText": "Which mechanism links inequality to slower growth via credit markets?",
       "correctAnswer": "Borrowing constraints prevent talented but poor individuals from investing in education or firms, lowering aggregate productivity",
       "distractors": [
-        "Higher inequality raises savings proportionally for all households",
-        "Credit constraints bind only for monopolistic firms",
-        "Borrowing constraints reduce investment only in capital-rich economies"
+        "Note that high malaria burdens lower productivity and schooling and raise fiscal costs, weakening investment incentives and making low-income traps more likely.",
+        "Claim that malaria mainly boosts leisure and saving, so capital deepening accelerates even when workers fall sick more often.",
+        "Argue that modern service economies are insulated from any health-related productivity effect, so malaria does not affect growth.",
+        "Suggest that higher aid inflows for health automatically create higher export capacity, so disease burdens eventually raise income."
       ],
       "explanation": "Underinvestment in human and physical capital by constrained households reduces steady-state output and growth.",
       "difficulty": 1,
@@ -361,9 +377,10 @@
       "questionText": "What intuition underpins the ‘median voter’ channel from inequality to growth?",
       "correctAnswer": "A poorer median relative to the mean increases demand for redistribution and higher taxes, potentially discouraging investment",
       "distractors": [
-        "Redistribution is always growth-neutral regardless of structure",
-        "Taxation has no effect on investment decisions in general equilibrium",
-        "Higher inequality lowers demand for redistribution in standard models"
+        "Explain that trap models include thresholds and complementarities that can block take-off, whereas Solow predicts smooth convergence once fundamentals are similar.",
+        "Say that Solow, not trap models, contains the nonlinearities, so big-push policies are never warranted even when capital is very low.",
+        "Insist the two approaches make identical predictions in every setting, so policy sequencing is unaffected by model choice.",
+        "Claim that only trap models include technology, whereas Solow treats technology as irrelevant and driven entirely by saving and demographics."
       ],
       "explanation": "Greater distance between median and top incomes shifts policy preferences toward heavier redistribution, affecting incentives.",
       "difficulty": 2,
@@ -377,9 +394,10 @@
       "questionText": "How can high inequality weaken institutional quality and thus growth?",
       "correctAnswer": "Elites may capture the state and block reforms that broaden opportunity, sustaining extractive arrangements that depress investment and innovation",
       "distractors": [
-        "Elites always promote competition to maximize creative destruction",
-        "Inequality removes all lobbying and rent-seeking incentives",
-        "Institutional quality improves mechanically with higher top incomes"
+        "Point out that institutions, trade and education are jointly determined with income, so without identification OLS mixes reverse causality and omitted variables with true effects.",
+        "Say that OLS cannot estimate models with several regressors, so IV is always preferred even when regressors are exogenous.",
+        "Argue that because GDP is in US dollars, the bias comes only from not converting everything at market exchange rates.",
+        "Claim that macro samples are too large, so endogeneity becomes irrelevant as long as the R-squared is high and residuals are normal."
       ],
       "explanation": "Distribution affects power; concentrated interests impede inclusive reforms supporting long-run growth.",
       "difficulty": 3,
@@ -393,9 +411,10 @@
       "questionText": "What does the Kuznets curve hypothesize about inequality over development?",
       "correctAnswer": "Inequality rises early during structural change and can fall later as education broadens and redistribution expands",
       "distractors": [
-        "Inequality falls monotonically with growth in all settings",
-        "Inequality rises forever as economies industrialize",
-        "Inequality is unrelated to structural change"
+        "High settler mortality reduced European settlement and the transfer of inclusive institutions, producing extractive systems that persisted and later affected income mainly through governance.",
+        "High settler mortality mainly determined today’s disease environment, so income today is fixed by health alone and institutions can be ignored.",
+        "High settler mortality reflects cultural distance to Europe and thus current preferences for redistribution, not institutional trajectories.",
+        "High settler mortality is mostly a proxy for soil fertility, so income is determined by crop yields rather than by crop yields rather than by colonial institutions."
       ],
       "explanation": "The inverted-U is a historical hypothesis; its presence depends on institutions and policy.",
       "difficulty": 3,
@@ -409,9 +428,10 @@
       "questionText": "Why did Deininger–Squire emphasize land inequality for growth outcomes?",
       "correctAnswer": "Land distribution shapes productive capacity and collateral, influencing investment, credit access, and political power in agrarian economies",
       "distractors": [
-        "Land inequality is irrelevant once GDP per capita is measured",
-        "Land inequality always moves inversely with income inequality",
-        "Land distribution affects only public-sector wages"
+        "Use gravity-predicted trade as an instrument only if it affects income through actual openness and is uncorrelated with other income determinants after controls.",
+        "Insist the instrument should exceed actual trade for most pairs, even if that breaks the exclusion restriction and weakens interpretation.",
+        "Build the instrument only from tariff schedules and ignore distance and partner size, even though gravity fundamentals matter for trade.",
+        "Require the instrument to match observed bilateral trade exactly for at least half the sample, otherwise the first stage is invalid."
       ],
       "explanation": "Asset inequality can be a deep determinant of opportunity and thus growth, especially in rural settings.",
       "difficulty": 4,
@@ -425,9 +445,10 @@
       "questionText": "What does Easterly’s ‘wheat vs. sugar’ instrument used to show?",
       "correctAnswer": "Plantation-suitable crops fostered coercive, unequal systems that produced extractive institutions and long-run underdevelopment",
       "distractors": [
-        "Crop endowments only affected short-run prices without institutional legacy",
-        "Inequality reliably promotes growth by increasing elite savings in all contexts",
-        "Institutional quality is unrelated to historical land distribution"
+        "Recognise that real appreciation and rent volatility can shrink learning-intensive tradables and weaken institutions, so diversification and inclusion become harder.",
+        "Assume resource booms automatically reduce inequality and diversify production because the government channels all rents into new export sectors.",
+        "Claim that resource booms guarantee fiscal surpluses that fund unconditional cash transfers with no macro or governance side effects.",
+        "State that exchange-rate appreciation has no effect on nonresource exports because prices are fully sticky and competitiveness is unchanged."
       ],
       "explanation": "Instrumenting inequality with crop suitability links deep historical structure to current institutions and income.",
       "difficulty": 4,
@@ -441,9 +462,10 @@
       "questionText": "How can rising private or public debt be the ‘flip side’ of inequality?",
       "correctAnswer": "Stagnant incomes for large groups induce borrowing to smooth consumption, raising leverage and fragility when insurance is weak",
       "distractors": [
-        "Higher inequality eliminates borrowing by increasing saving at the bottom",
-        "Debt dynamics are unrelated to distributional patterns",
-        "Debt automatically lowers inequality via interest transfers to low-income groups"
+        "Emphasise that informality often means low access to credit, contracts and scale, suppressing productivity and narrowing the tax base for inclusive services.",
+        "Claim that informal firms usually pay higher wages, attracting skilled workers and therefore raising productivity for the whole economy.",
+        "Argue that informality guarantees tax neutrality and therefore maximises efficiency, so formalisation is usually welfare-reducing.",
+        "Maintain that informality removes chances for corruption, so formal institutions and public revenue are no longer needed for growth."
       ],
       "explanation": "Insufficient insurance and weak wage growth shift adjustment to balance sheets, with macro risks.",
       "difficulty": 5,
@@ -457,9 +479,10 @@
       "questionText": "Which policy bundle best addresses inequality’s growth costs via the human capital channel?",
       "correctAnswer": "Early-childhood programs, schooling quality reforms, and affordable credit for skills and entrepreneurship",
       "distractors": [
-        "General tariffs and across-the-board price controls",
-        "Eliminating property rights to force equal outcomes",
-        "Relying solely on top marginal tax hikes without capability investments"
+        "Fund the entire current-account gap with short-term foreign borrowing so that domestic prices and employment can stay unchanged throughout the terms-of-trade downturn.",
+        "Let the exchange rate absorb part of the external shock, use fiscal buffers accumulated in the boom, and deliver temporary, well-targeted transfers or employment programs to regions and households that are most exposed.",
+        "Fix the nominal exchange rate, cut social expenditure across the board, and prioritise foreign-investor sentiment even if unemployment and poverty rise sharply in commodity-dependent areas.",
+        "Impose broad import bans to prevent cheaper foreign goods from entering after depreciation, even if this raises prices for domestic producers and consumers that rely on imported inputs."
       ],
       "explanation": "Expanding capability formation relaxes the bottleneck linking inequality to low growth.",
       "difficulty": 5,
@@ -473,9 +496,10 @@
       "questionText": "What does ‘growth is good for the poor’ (Dollar–Kraay) mean empirically?",
       "correctAnswer": "Bottom-quintile incomes tend to rise proportionally with mean income on average, implying growth usually benefits poor households",
       "distractors": [
-        "Inequality always falls when growth accelerates",
-        "Only redistribution can raise poor households’ incomes",
-        "Mean growth generally bypasses the poor"
+        "Tie selective support to export discipline and learning so firms upgrade while remaining exposed to global competition and time-bound conditions.",
+        "Keep protection permanently high for all domestic firms regardless of performance, so learning happens without the pressure of foreign competition.",
+        "Ban all foreign technology licensing to force domestic invention from scratch, even if this slows diffusion and raises costs for local producers.",
+        "Offer only tax holidays with no monitoring or sunset clauses and keep them even when firms become profitable and internationally competitive."
       ],
       "explanation": "The proportionality finding suggests growth-oriented strategies can aid poverty reduction, though distribution still matters.",
       "difficulty": 1,
@@ -488,9 +512,10 @@
       "questionText": "How does initial inequality condition the poverty elasticity of growth (Fosu)?",
       "correctAnswer": "Higher initial inequality reduces the poverty-reducing impact of a given growth rate, as gains accrue more to households above the line",
       "distractors": [
-        "Higher inequality increases elasticity because transfers are automatic",
-        "Inequality has no effect once inflation is controlled",
-        "Elasticity depends only on exchange-rate regime"
+        "Note that creative destruction raises productivity by reallocating resources to better firms but can create concentrated local losses that need cushioning.",
+        "Claim that creative destruction always lowers inequality because new entry spreads rents evenly across regions and occupations.",
+        "Say that creative destruction is neutral for welfare because entry and exit cancel, so no adjustment or insurance policies are necessary.",
+        "Limit creative destruction to manufacturing and ignore the services and tradable-services sectors where reallocation also matters for inclusion."
       ],
       "explanation": "Distribution sets how strongly growth reaches the poor; opportunity-expanding policy raises the elasticity.",
       "difficulty": 2,
@@ -503,9 +528,10 @@
       "questionText": "Which definition matches ‘absolute’ pro-poor growth?",
       "correctAnswer": "The incomes of the poor rise in absolute terms even if inequality does not fall",
       "distractors": [
-        "The poor’s income share must rise regardless of levels",
-        "Inequality must increase for growth to be pro-poor",
-        "Only headcount poverty matters, not income levels"
+        "Highlight that monopsony and weak bargaining can justify a higher floor, but very large hikes in thin labour markets can still destroy jobs unless paired with mobility or earned-income support.",
+        "State that any minimum-wage increase is always harmful in every context, regardless of labour-market structure, informality or complementary policies.",
+        "Argue that minimum wages are irrelevant for inequality because only capital-income concentration drives measured dispersion in household income.",
+        "Insist that strong productivity growth makes wage policy unnecessary even when wage dispersion widens across regions and sectors."
       ],
       "explanation": "Absolute definitions focus on level gains; relative definitions require rising shares for the poor.",
       "difficulty": 3,
@@ -518,9 +544,10 @@
       "questionText": "Which poverty measure captures depth, not only incidence?",
       "correctAnswer": "The poverty gap index that averages shortfalls below the line",
       "distractors": [
-        "Headcount ratio that counts how many are below the line",
-        "Top income shares capturing upper-tail inequality",
-        "Gini coefficient summarizing overall dispersion"
+        "Tariffs create visible, firm-specific protection rents that mobilise incumbent producers, whereas place-based programs compensate workers and communities so that support for openness can be maintained without shielding particular firms.",
+        "Tariffs compensate workers directly and always bypass firms, while place-based policies compensate only firms for their lobbying efforts and do not target workers at all.",
+        "Tariffs and place-based policies build exactly the same political coalition because their benefits are equally diffuse and not tied to any specific location or industry.",
+        "Tariffs and place-based programs are equivalent instruments as long as their upfront fiscal costs are identical, regardless of how concentrated or visible the benefits are."
       ],
       "explanation": "Gap measures add intensity information beyond the headcount.",
       "difficulty": 3,
@@ -534,9 +561,10 @@
       "questionText": "Why can PPP conversion alter global poverty assessments relative to market exchange rates?",
       "correctAnswer": "PPP reflects domestic prices for consumption bundles (especially non-tradables), changing how many fall below absolute lines",
       "distractors": [
-        "PPP ignores price differences across countries",
-        "PPP converts only investment goods, not consumption",
-        "PPP equals the market rate in low-inflation environments"
+        "Explain that PPP captures domestic prices for basic consumer bundles, so converting at PPP can change who is below an absolute poverty line.",
+        "Claim that PPP moves all prices equally, so switching to PPP never changes poverty counts or cross-country comparisons.",
+        "Say that PPP only matters for investment goods, so poverty lines should always be converted at the market exchange rate instead.",
+        "Assume that PPP automatically collapses to the market exchange rate in low-inflation economies, so the two conversion methods always agree."
       ],
       "explanation": "Absolute poverty is real-consumption based; PPP aims to compare purchasing power across countries.",
       "difficulty": 4,
@@ -550,9 +578,10 @@
       "questionText": "What does the Human Capital Index (HCI) attempt to measure?",
       "correctAnswer": "Expected adult productivity of a child born today given current health and education conditions: a proxy for future labor efficiency",
       "distractors": [
-        "Government education spending as a share of GDP",
-        "Only tertiary enrollment rates",
-        "Patent counts scaled by population"
+        "It approximates how productive a child born today could be as an future worker given current health and education, so it links today’s services to tomorrow’s growth potential.",
+        "It records how much the government spent on education last year and therefore only captures a past budgetary choice, not expected productivity.",
+        "It counts only tertiary enrolment for adults, so it is mainly a higher-education access statistic and not a broad human-capital measure.",
+        "It tracks university fees for foreign students, which is useful for exports of education services but not for broad labour-force quality."
       ],
       "explanation": "HCI links today’s human capital inputs to anticipated productivity, aligning with growth potential.",
       "difficulty": 4,
@@ -566,9 +595,10 @@
       "questionText": "Which inclusive-growth package fits low-income settings?",
       "correctAnswer": "Scale basic services, invest in infrastructure and market access, and maintain macro stability to crowd in private investment",
       "distractors": [
-        "Rely exclusively on import bans to raise domestic prices",
-        "Eliminate taxation to attract capital regardless of service delivery",
-        "Target only urban tertiary education subsidies"
+        "Resource booms can appreciate the real exchange rate, crowd labour and capital into non-tradables with weak learning, and weaken fiscal and governance quality, so diversifying into high-productivity tradables becomes harder and distribution can deteriorate.",
+        "Resource booms automatically improve equality and expand manufacturing because governments always invest windfall revenues in industrial export sectors with strong spillovers.",
+        "Resource booms never affect competitiveness because commodity prices are set globally, so non-resource exports and learning-intensive sectors are fully insulated from real-exchange-rate movements.",
+        "Resource booms guarantee long-run technological upgrading because the state can always fund innovation, even if macro policy is procyclical and institutions to manage volatility are weak."
       ],
       "explanation": "Capability expansion, connectivity, and credible macro frameworks are complementary levers.",
       "difficulty": 4,
@@ -582,9 +612,10 @@
       "questionText": "Which design makes a carbon price more politically durable while preserving efficiency?",
       "correctAnswer": "Pair a clear carbon price with revenue recycling to vulnerable households and place-based transition support for carbon-intensive regions",
       "distractors": [
-        "Set a high carbon price with no compensation to signal commitment",
-        "Rely solely on voluntary pledges without pricing or standards",
-        "Ban fossil-intensive sectors immediately without transition policies"
+        "Broad tariffs raise input and consumer prices, invite foreign retaliation and protect obsolete structures, whereas targeted worker and place support can address concentrated losses while keeping overall efficiency gains from openness.",
+        "Broad tariffs guarantee universal wage increases at zero cost and therefore dominate any worker-based or place-based adjustment instruments.",
+        "Broad tariffs make innovation and technology policy unnecessary since domestic firms will upgrade automatically once imports become expensive.",
+        "Broad tariffs are fiscally and politically neutral and so never create protection rents or lobbying from import-competing producers."
       ],
       "explanation": "Pricing internalizes externalities; recycling and place-based support maintain coalitions for decarbonization.",
       "difficulty": 1,
@@ -595,28 +626,30 @@
     },
     {
       "id": "sgi_039",
-      "questionText": "Why is state capacity treated as a productive input in this course?",
-      "correctAnswer": "Effective states enforce contracts, collect taxes predictably, deliver services at scale, and respond credibly, lowering uncertainty and transaction costs for investment",
+      "questionText": "What does the Human Capital Index (HCI) attempt to measure?",
+      "correctAnswer": "How productive a child born today is expected to be as an adult, given current health and education conditions, which makes it a forward-looking proxy for the future efficiency of the labor force.",
       "distractors": [
-        "State capacity eliminates the need for markets",
-        "State capacity guarantees equality automatically",
-        "State capacity replaces the role of institutions"
+        "It approximates how productive a child born today could be as an future worker given current health and education, so it links today’s services to tomorrow’s growth potential.",
+        "It records how much the government spent on education last year and therefore only captures a past budgetary choice, not expected productivity.",
+        "It counts only tertiary enrolment for adults, so it is mainly a higher-education access statistic and not a broad human-capital measure.",
+        "It tracks university fees for foreign students, which is useful for exports of education services but not for broad labour-force quality."
       ],
-      "explanation": "Implementation credibility complements private capital and innovation.",
-      "difficulty": 2,
+      "explanation": "HCI links today’s human capital inputs to anticipated productivity, aligning with growth potential.",
+      "difficulty": 4,
       "topic": [
-        "Sustainable Development and Policy Design",
-        "Institutions and Capacity"
+        "Poverty and Inclusive Growth",
+        "Human Capital"
       ]
     },
     {
       "id": "sgi_040",
       "questionText": "How can green industrial policy be consistent with openness?",
-      "correctAnswer": "Support is time-bound and conditioned on export performance and capability upgrading under competitive pressure",
+      "correctAnswer": "Support clean or priority sectors in a time-bound way and condition benefits on export performance or capability upgrading, while keeping the economy open enough to import technology and maintain competitive pressure.",
       "distractors": [
-        "Permanent protection from foreign competition regardless of performance",
-        "Subsidies without monitoring or sunset clauses",
-        "Bans on foreign technology licensing to force domestic invention"
+        "Expanding access to quality education, health and basic services to excluded groups raises human capital, strengthens employment prospects and enlarges the tax base, so it is growth policy.",
+        "Expanding such services mainly replaces work effort and lowers labour-force participation, so it should not be part of a growth strategy.",
+        "Expanding basic services inevitably pulls resources from tradables, lowering productivity even when human-capital outcomes improve.",
+        "Expanding services is relevant primarily for urban elites and does not materially affect long-run productivity or fiscal capacity in poorer communities."
       ],
       "explanation": "Discipline plus support leverages global markets for learning without entrenched rents.",
       "difficulty": 3,
@@ -630,9 +663,10 @@
       "questionText": "Which macro-stabilization package best cushions a commodity bust without a debt spiral?",
       "correctAnswer": "Allow exchange-rate depreciation, use rule-based fiscal buffers, and target temporary transfers and jobs programs",
       "distractors": [
-        "Fix the exchange rate and cut all social spending regardless of unemployment",
-        "Fund deficits only with short-term external debt to avoid adjustment",
-        "Impose import bans to offset depreciation-induced price increases"
+        "When the tax equals marginal social damage and equalises marginal abatement costs across sources, while leakage is addressed with coordination or border adjustments.",
+        "When the tax is set only to maximise short-run employment regardless of the marginal damages or of abatement-cost differences across polluters.",
+        "When the tax differs only by sector to reward historical emitters, irrespective of present damages or of current abatement technologies.",
+        "When the tax automatically falls whenever fossil-fuel prices rise, even if that breaks the link between the tax and the social cost of carbon."
       ],
       "explanation": "Price adjustment and buffers reduce scarring; targeted support mitigates distributional harm.",
       "difficulty": 3,
@@ -644,11 +678,12 @@
     {
       "id": "sgi_042",
       "questionText": "How does Dutch disease threaten diversification and inclusion?",
-      "correctAnswer": "Resource booms appreciate the real exchange rate and shift factors out of tradables with learning spillovers, while volatile rents can weaken institutions",
+      "correctAnswer": "A resource boom can appreciate the real exchange rate, draw labor and capital into non-tradables, and weaken fiscal and governance quality, so non-resource tradables with learning spillovers may shrink and inclusion can suffer.",
       "distractors": [
-        "Resource booms always reduce inequality through equal rent sharing",
-        "Real appreciation has no effect on non-resource exports",
-        "Rents automatically fund innovation without governance risks"
+        "Resource booms can appreciate the real exchange rate, crowd labour and capital into non-tradables with weak learning, and weaken fiscal and governance quality, so diversifying into high-productivity tradables becomes harder and distribution can deteriorate.",
+        "Resource booms automatically improve equality and expand manufacturing because governments always invest windfall revenues in industrial export sectors with strong spillovers.",
+        "Resource booms never affect competitiveness because commodity prices are set globally, so non-resource exports and learning-intensive sectors are fully insulated from real-exchange-rate movements.",
+        "Resource booms guarantee long-run technological upgrading because the state can always fund innovation, even if macro policy is procyclical and institutions to manage volatility are weak."
       ],
       "explanation": "Exchange-rate and political-economy channels can erode non-resource sectors that generate broad employment.",
       "difficulty": 4,
@@ -660,11 +695,12 @@
     {
       "id": "sgi_043",
       "questionText": "Why are place-based policies sometimes preferable to broad protection in responding to structural change?",
-      "correctAnswer": "They support communities and workers directly while preserving competitive pressures that drive productivity growth",
+      "correctAnswer": "Place-based policies target workers and communities in specific locations so they can adjust to structural change, while preserving competitive pressures that improve productivity in exposed sectors.",
       "distractors": [
-        "They provide permanent firm-specific subsidies regardless of performance",
-        "They replace all labor market policies",
-        "They remove the need for mobility and retraining"
+        "Place-based transition policies channel support to workers and communities in highly exposed locations, allowing the country to stay open to trade and technology without creating permanent protection rents for individual firms.",
+        "Place-based transition policies are mainly intended to provide long-term tariff shields for incumbent firms, so they are a substitute for labour-market and regional-development instruments.",
+        "Place-based transition policies fully replace unemployment insurance and retraining, because once a region receives funding, workers do not need mobility or job-search support.",
+        "Place-based transition policies are chosen primarily to prevent geographic mobility, keeping workers in declining areas even when there are better opportunities elsewhere."
       ],
       "explanation": "Cushion people and places, not incumbent firms, to keep dynamic efficiency and political support.",
       "difficulty": 4,
@@ -676,11 +712,12 @@
     {
       "id": "sgi_044",
       "questionText": "Which statement about the Environmental Kuznets Curve (EKC) is consistent with the course?",
-      "correctAnswer": "Some local pollutants may follow an inverted-U with income, but global externalities and policy matter; EKC is not automatic",
+      "correctAnswer": "Some local pollutants may show an inverted-U relationship with income, but global externalities like CO₂ require explicit policy and technological change; the Environmental Kuznets Curve is therefore not automatic or universal.",
       "distractors": [
-        "All pollutants follow EKC regardless of policy",
-        "EKC implies regulation is unnecessary",
-        "EKC guarantees decarbonization beyond a fixed income threshold"
+        "Some local pollutants display an inverted-U with income, but for global externalities like CO₂ the course stresses that decarbonisation requires explicit policy, technology and credible long-term signals; rising income by itself is not enough.",
+        "Every pollutant follows the same inverted-U with income regardless of regulation, energy mix or sectoral structure, so environmental and climate policy are largely unnecessary once growth takes off.",
+        "Once a country reaches upper-middle income the Environmental Kuznets Curve becomes automatic, guaranteeing sharp reductions in fossil-fuel use without carbon pricing or standards.",
+        "Because the Environmental Kuznets Curve is a universal empirical law, governments can safely postpone mitigation until incomes are high and then let the income effect deliver emissions cuts."
       ],
       "explanation": "Policy and technology shape emissions paths; EKC is context-dependent rather than a law.",
       "difficulty": 5,
@@ -692,11 +729,12 @@
     {
       "id": "sgi_045",
       "questionText": "In the Bolivia case, why were institutional reforms framed as prerequisites for diversification?",
-      "correctAnswer": "Adverse geography and resource dependence raised the premium on credible property rights and predictable regulation to attract long-horizon private investment beyond extractives",
+      "correctAnswer": "Because high transport costs, landlocked geography, and dependence on volatile resource rents make investors demand credible property rights and predictable regulation before they commit to long-horizon, non-extractive projects.",
       "distractors": [
-        "Institutions were already world-class so reforms were symbolic",
-        "Geography was irrelevant so tariffs alone sufficed",
-        "The aim was to ban foreign ownership to force technology transfer"
+        "Because a landlocked, resource-dependent economy with high transport costs faces large risk premia, securing property rights, predictable regulation and better SOE governance is needed before private investors will finance diversification at scale.",
+        "Because institutions were already fully credible and investor-friendly, reforms in the Bolivia case were largely symbolic and unrelated to actual investment decisions or sectoral diversification.",
+        "Because geography did not matter for Bolivia’s development prospects, the key reform was to raise tariffs on neighbours so domestic firms could operate behind protection rather than under clear rules.",
+        "Because the main objective was to ban foreign participation in extractive industries so that technology transfer would occur automatically without any complementary governance reforms."
       ],
       "explanation": "Credibility complements infrastructure in drawing investment outside resource enclaves.",
       "difficulty": 2,
@@ -708,11 +746,12 @@
     {
       "id": "sgi_046",
       "questionText": "Which counterargument should a ‘Ministry of Economy’ group raise against broad tariffs in the U.S. case?",
-      "correctAnswer": "Tariffs impose consumer and input-cost increases, invite retaliation, and freeze obsolete structures; targeted adjustment support is less distortionary",
+      "correctAnswer": "Because broad tariffs raise input costs for domestic firms, reduce consumer welfare, invite retaliation, and freeze obsolete structures, while targeted adjustment support can help workers and regions without distorting the whole economy.",
       "distractors": [
-        "Tariffs guarantee universal wage gains without price effects",
-        "Tariffs eliminate the need for innovation policies",
-        "Tariffs are fiscally and politically neutral"
+        "Broad tariff hikes raise prices for consumers and for downstream producers, invite retaliation and freeze high-cost structures, whereas targeted worker and place support can address concentrated losses while keeping overall efficiency gains from openness.",
+        "Broad tariff hikes always deliver higher real wages at no fiscal cost, so they are strictly superior to any labour-market or regional-development instrument that cushions trade shocks.",
+        "Broad tariff hikes make innovation and technology policies unnecessary because domestic firms will automatically upgrade once foreign competitors are taxed out of the market.",
+        "Broad tariff hikes are fiscally and politically neutral, so they never create visible protection rents or lobbying by firms seeking long-term shelter from competition."
       ],
       "explanation": "Protect people rather than sectors to preserve efficiency and fairness.",
       "difficulty": 3,
@@ -726,9 +765,10 @@
       "questionText": "What role did ‘Objective Assessors’ play across case studies?",
       "correctAnswer": "They probed both sides’ assumptions and evidence, evaluating coherence, feasibility, and distributional incidence",
       "distractors": [
-        "They advocated for one side’s political platform",
-        "They set final policy unilaterally without criteria",
-        "They graded cases based solely on word count"
+        "Because it helps identify the single most binding constraint—low appropriability, low social returns, or high finance costs—so scarce reform effort has the highest growth payoff.",
+        "Because it ranks reforms by their international popularity even if they do not address the country’s actual production or investment bottlenecks.",
+        "Because it proposes implementing every available reform at once, regardless of administrative capacity or political feasibility.",
+        "Because it focuses only on attracting FDI and ignores domestic constraints on skills, infrastructure and state capacity that may bind tighter."
       ],
       "explanation": "A neutral audit function strengthens evidence-based debate and feedback.",
       "difficulty": 3,
@@ -740,11 +780,12 @@
     {
       "id": "sgi_048",
       "questionText": "In the South Africa case, why is expanding access to quality education and basic services a growth policy?",
-      "correctAnswer": "It increases human capital among historically excluded groups, raising productivity, employment, and the tax base",
+      "correctAnswer": "Expanding access to quality education, health, and basic services for historically excluded groups raises human capital, improves labor-market attachment, and broadens the tax base, so it is a growth policy as well as a social one.",
       "distractors": [
-        "It substitutes for labor-market participation entirely",
-        "It lowers productivity by shifting resources to non-tradables",
-        "It reduces tax capacity by lowering formal employment"
+        "Expanding effective access to schooling, health and basic services for historically excluded groups builds human capital, strengthens labour-market attachment and broadens the tax base, so it is an inclusion-friendly growth strategy rather than a pure transfer.",
+        "Expanding such services mainly substitutes for work effort and therefore should not be considered part of a growth agenda even when long-run productivity is depressed by capability gaps.",
+        "Expanding services inevitably pulls resources from tradables, lowering productivity even when human-capital outcomes improve.",
+        "Expanding services is relevant primarily for urban elites and does not materially affect long-run productivity or fiscal capacity in poorer regions or disadvantaged populations."
       ],
       "explanation": "Opportunity-expanding redistribution builds long-run productive capacity.",
       "difficulty": 3,
@@ -756,11 +797,12 @@
     {
       "id": "sgi_049",
       "questionText": "Which evaluation criterion should assessors prioritize when judging a poverty-reduction package?",
-      "correctAnswer": "Credible causal channels to raise bottom-decile incomes, fiscal sustainability, and administrative feasibility at scale",
+      "correctAnswer": "An assessor should prioritise whether the package has credible causal channels to raise the incomes of households near the bottom, is fiscally sustainable, and can actually be implemented at scale by existing institutions.",
       "distractors": [
-        "Slogan appeal and minimal documentation",
-        "Maximizing short-run GDP regardless of distribution",
-        "Exclusive reliance on external aid with no domestic capacity plan"
+        "An assessor should check whether the package has a credible channel to raise incomes of near-poor households, is fiscally sustainable, and can be delivered with existing administrative capacity and data systems.",
+        "An assessor should prioritise proposals with the strongest slogans or the longest documents, because persuasive communication is the main determinant of poverty reduction in practice.",
+        "An assessor should reward reforms that maximise short-run aggregate GDP even if the gains are highly concentrated and the program cannot be implemented nationwide.",
+        "An assessor should favour plans that depend entirely on uncertain foreign aid flows, even when there is no path toward building domestic financing or delivery capacity over time."
       ],
       "explanation": "Feasible, targeted interventions with sustainable financing and delivery capacity matter most.",
       "difficulty": 4,
@@ -772,11 +814,12 @@
     {
       "id": "sgi_050",
       "questionText": "What design element strengthens a wage-insurance program for displaced workers in the U.S. case?",
-      "correctAnswer": "Time-limited earnings top-ups tied to reemployment, coupled with mobility and retraining support",
+      "correctAnswer": "Time-limited earnings top-ups tied to rapid reemployment, combined with mobility and retraining support, can cushion individual income losses while preserving incentives to search and move.",
       "distractors": [
-        "Permanent wage replacement regardless of job search",
-        "Firm-specific subsidies protecting incumbents indefinitely",
-        "Tariff-linked vouchers redeemable only in protected sectors"
+        "Time-limited earnings top-ups linked to rapid re-employment, combined with mobility, retraining and matching support, can cushion income losses while preserving incentives to relocate or switch sectors.",
+        "Permanent replacement of the previous wage level without regard to job search or mobility is the best way to support efficient reallocation and to keep fiscal costs under control.",
+        "Firm-specific subsidies that keep all currently affected plants open indefinitely are the most effective way to help workers adjust after large trade or technology shocks.",
+        "Tariff-linked vouchers that workers can spend only in the shrinking sector are preferable because they keep labour in exactly the industries that are losing competitiveness."
       ],
       "explanation": "Incentive-compatible designs cushion losses while encouraging reemployment.",
       "difficulty": 5,
@@ -791,9 +834,10 @@
       "questionText": "When does a uniform carbon tax implement the Pigouvian optimum in an open economy?",
       "correctAnswer": "When the tax equals the marginal social damage of emissions and marginal abatement costs are equalized across sources, with border adjustments or coordinated pricing to address leakage",
       "distractors": [
-        "When the tax is set to maximize short-run employment regardless of abatement costs",
-        "When the tax differs by sector to reflect historical emissions regardless of current marginal damages",
-        "When the tax rate falls automatically whenever fossil prices rise, holding emissions fixed"
+        "A partner-GDP sum weighted by bilateral trade costs, capturing how large nearby markets are and how easily they can be reached from the country.",
+        "Domestic GDP per capita, which reflects average income but not how well the country is connected to external demand.",
+        "The nominal exchange rate against a major currency, which says little about access to foreign markets or trade-cost levels.",
+        "The sheer number of trade agreements signed, regardless of whether partners are small, far away, or already duty-free."
       ],
       "explanation": "A Pigouvian carbon price equalizes marginal damages and marginal abatement costs; in open economies, leakage requires coordination or border carbon adjustments to preserve efficiency."
     },
@@ -802,20 +846,22 @@
       "questionText": "According to Weitzman’s ‘prices vs. quantities’ result, when are carbon taxes preferred to cap-and-trade?",
       "correctAnswer": "When marginal abatement costs are relatively flat and damages are relatively uncertain and convex, so price instruments reduce welfare loss from quantity miscalibration",
       "distractors": [
-        "When the marginal benefit (damage) curve is steeper than the marginal abatement cost curve",
-        "When monitoring fuel inputs is infeasible but stack emissions can be perfectly verified",
-        "When political feasibility requires allocating free permits to incumbents indefinitely"
+        "Tariffs raise prices for consumers and for firms that use imported inputs, lowering real wages and creating misallocation even before foreign retaliation.",
+        "Tariffs reduce deadweight loss because they raise revenue without affecting prices or markups in importing industries.",
+        "Tariffs automatically trigger productivity growth by forcing import substitution, so real incomes rise for everyone in the short run.",
+        "Tariffs increase product variety and lower prices immediately, so workers in import-competing sectors do not need adjustment support."
       ],
       "explanation": "With flat MAC and uncertain MB, the deadweight loss from quantity errors is larger under caps; a tax smooths adjustment when cost uncertainty dominates."
     },
     {
       "id": "sgi_053",
       "questionText": "Which statement about the Environmental Kuznets Curve (EKC) is most accurate for global pollutants like CO\u2082?",
-      "correctAnswer": "EKC evidence is strongest for local pollutants; for global CO\u2082, sustained declines require policy and technology rather than income effects alone",
+      "correctAnswer": "EKC evidence is strongest for local pollutants; for global CO\u2082, sustained declines usually need policy and technology rather than income growth alone",
       "distractors": [
-        "Global CO\u2082 typically displays a clean inverted-U with income regardless of policy or technology",
-        "EKC holds mechanically once countries reach upper-middle income",
-        "EKC implies that carbon pricing is unnecessary beyond a threshold"
+        "Condition cash transfers on verified school attendance and basic health visits and pair them with supply-side improvements to build human capital.",
+        "Provide broad energy subsidies that rise with consumption so richer households receive larger transfers than poor households do.",
+        "Offer a permanent, very high universal basic income regardless of whether schools and clinics can absorb more students and patients.",
+        "Give tax exemptions on capital gains only, assuming this will trickle down into stronger human-capital formation for poor households."
       ],
       "explanation": "Income-driven abatement patterns are weak for global externalities; directed technical change and policy are decisive for decarbonization."
     },
@@ -824,9 +870,10 @@
       "questionText": "Consider the intertemporal Euler condition for a representative agent, $\\frac{c_{t+1}}{c_t} = \\left[\\beta (1 + r_{t+1} - \\delta)\\right]^{1/\\sigma}$. What policy raises the steady consumption growth rate in this framework?",
       "correctAnswer": "A policy that permanently raises the net real interest rate by boosting productivity growth, holding preferences fixed",
       "distractors": [
-        "A one-off transfer that raises $c_t$ today without affecting $r_{t+1}$",
-        "A permanent increase in $\\delta$ via faster capital depreciation",
-        "A policy that lowers $\\beta$ to encourage present consumption"
+        "Because income proxies can be noisy when work is informal, leading to exclusion errors that can be reduced with community validation or categorical rules.",
+        "Because proxy-means testing always overestimates poverty in rich regions and therefore cannot be used in urban areas at all.",
+        "Because PMT requires biometric identification, which is illegal in low-capacity settings and cannot be substituted for by other methods.",
+        "Because PMT scores cannot be audited or refined once a program is underway, so targeting errors cannot be corrected over time."
       ],
       "explanation": "With CRRA utility, higher expected $r$ raises optimal consumption growth $g_c$; pure level transfers do not change the Euler-implied growth rate."
     },
@@ -835,9 +882,10 @@
       "questionText": "Which market failure most directly rationalizes green industrial policy under learning-by-doing?",
       "correctAnswer": "Intertemporal knowledge spillovers that private firms cannot fully appropriate, causing underinvestment in clean technologies",
       "distractors": [
-        "Static scale economies with no spillovers",
-        "Perfect competition with perfect capital markets",
-        "Temporary monopoly power without externalities"
+        "Save a structural share of resource revenue in a sovereign fund and use a cyclically adjusted budget rule with escape clauses for large shocks.",
+        "Spend all resource revenue immediately in good years to maximise current welfare even if prices are volatile and revenues collapse later.",
+        "Cap public investment permanently at a very low level regardless of demographic or infrastructure needs across the country.",
+        "Borrow heavily in foreign currency during booms to finance imports, assuming commodity prices will always stay high."
       ],
       "explanation": "Learning spillovers create a wedge between private and social returns; time-bound, performance-based support can internalize part of the gap."
     },
@@ -846,9 +894,10 @@
       "questionText": "Which distinction between governance indicators is conceptually correct?",
       "correctAnswer": "Rule of Law concerns contract enforcement and property-rights security; Government Effectiveness concerns the quality of public service delivery and bureaucracy",
       "distractors": [
-        "Rule of Law captures policy formulation quality; Government Effectiveness captures judicial independence",
-        "Control of Corruption measures fiscal capacity; Voice and Accountability measures court caseloads",
-        "Regulatory Quality measures electoral fairness; Political Stability measures antitrust enforcement"
+        "Use time-limited wage insurance, mobility grants, re-skilling tied to placement, and place-based investment to help exposed regions while preserving openness.",
+        "Impose across-the-board tariffs and permanent production subsidies so existing firms never have to adjust to trade shocks.",
+        "Offer bailouts to specific firms with no labour-market elements, even if workers remain unemployed or stuck in declining towns.",
+        "Cut taxes only for capital owners and offer no support to displaced workers, assuming trickle-down will offset trade losses."
       ],
       "explanation": "Different governance dimensions capture distinct bottlenecks relevant for investment and inclusion."
     },
@@ -857,9 +906,10 @@
       "questionText": "Why do independent regulators and credible rules reduce the cost of capital for infrastructure?",
       "correctAnswer": "They reduce policy uncertainty and hold-up risk, lowering required returns from investors and enabling longer-maturity finance",
       "distractors": [
-        "They guarantee monopoly profits regardless of service quality",
-        "They remove the need for user fees or taxes to fund operations",
-        "They eliminate all construction risk by decree"
+        "First strengthen property rights and regulatory predictability and reform SOE governance, then roll out infrastructure and time-bound sectoral support with clear conditions.",
+        "Begin with large debt-financed infrastructure and postpone legal and regulatory reforms until after all projects are completed and investor expectations have already been formed.",
+        "Impose broad import bans to create domestic markets before clarifying the legal and regulatory framework that investors will face in the long run.",
+        "Delay institutional reform until foreign investors arrive and demand it, relying on their bargaining power to rewrite domestic rules after they have sunk their capital."
       ],
       "explanation": "Predictable regulation lowers risk premia and expands the set of bankable projects."
     },
@@ -868,10 +918,10 @@
       "questionText": "Which statement best separates multidimensional poverty indices (MPI) from income-only measures?",
       "correctAnswer": "MPI aggregates deprivations across health, education, and living standards using cutoffs; headcount income poverty misses depth across non-monetary dimensions",
       "distractors": [
-        "MPI tracks only inequality and ignores deprivation",
-        "MPI aggregates deprivations across health, education, and living standards using cutoffs; headcount income poverty misses depth across non-monetary dimensions",
-        "MPI replaces the need for any income-based poverty line",
-        "MPI is identical to the Gini coefficient computed on assets"
+        "A multidimensional index aggregates deprivations in health, education and living standards using cut-offs, while income headcounts can miss non-monetary shortfalls.",
+        "A multidimensional index only tracks income inequality, so it offers no extra information on health or education deprivation across households.",
+        "A multidimensional index replaces the need for any income-based poverty line and therefore makes consumption surveys redundant.",
+        "A multidimensional index is the same measure as a top-income-share statistic and mainly captures upper-tail concentration."
       ],
       "explanation": "MPI complements income metrics by capturing non-income deprivations that constrain capability formation."
     },
@@ -880,9 +930,10 @@
       "questionText": "In growth diagnostics (Hausmann–Rodrik–Velasco), what is the first-order objective of the decision tree?",
       "correctAnswer": "Locate the country’s most binding constraint on growth (e.g., low social returns, low appropriability, or high cost of finance) to prioritize reforms",
       "distractors": [
-        "Identify the politically easiest reform regardless of impact",
-        "Rank all reforms by their international popularity",
-        "Propose simultaneous reforms in all sectors to avoid sequencing"
+        "Because it helps detect the single most binding constraint—low social returns, low appropriability, or high finance costs—so scarce political and administrative capital is spent where growth returns are highest.",
+        "Because it ranks reforms by their international popularity even if they do not address the country’s actual production or investment bottlenecks.",
+        "Because it proposes implementing every possible reform at once regardless of fiscal space or state capacity, so sequencing can be ignored in practice.",
+        "Because it focuses exclusively on attracting foreign investors and does not consider domestic distortions in skills, infrastructure, or governance that might be tighter constraints."
       ],
       "explanation": "Targeting the tightest constraint yields the highest marginal growth return per policy effort given limited capacity."
     },
@@ -891,9 +942,10 @@
       "questionText": "Which urban mechanism most plausibly links agglomeration to higher productivity?",
       "correctAnswer": "Knowledge spillovers and thicker input–output linkages that raise effective TFP",
       "distractors": [
-        "Congestion externalities that raise commute times",
-        "Rising land rents that crowd out investment",
-        "Random concentration unrelated to firm networks"
+        "Dense cities raise productivity through knowledge spillovers, matching and thick input–output linkages that increase effective TFP, although congestion must be managed for these gains to persist.",
+        "Dense cities mainly raise commuting times and congestion costs and therefore reduce productivity compared with rural locations that have thinner markets and fewer services.",
+        "Dense cities are important only because land rents rise, crowding out investment and leaving no room for agglomeration externalities or network effects on firms.",
+        "Dense cities emerge randomly and do not reflect underlying advantages in market size, labour-matching, or opportunities for firms to share suppliers and specialised services."
       ],
       "explanation": "Density facilitates matching, sharing, and learning, raising productivity net of congestion if managed."
     },
@@ -902,9 +954,10 @@
       "questionText": "In a difference-in-differences (DiD) evaluation of trade reform, which diagnostic most directly supports the identifying assumption?",
       "correctAnswer": "A pre-trend test showing treated and control groups had parallel outcome trends prior to reform",
       "distractors": [
-        "A higher $R^2$ after adding many controls",
-        "A significant treatment coefficient regardless of timing",
-        "A placebo using randomly permuted treatment dates that still shows effects"
+        "Because a positive average effect can hide large losses for some groups, so distributional heterogeneity must shape cushioning and targeting decisions.",
+        "Because average treatment effects always give a full welfare ranking, so heterogeneity does not matter for inclusive growth assessments.",
+        "Because heterogeneity only affects statistical power, not the way programs affect different households or regions in practice.",
+        "Because analysing heterogeneous effects would undermine external validity and therefore should not be part of policy evaluation."
       ],
       "explanation": "Parallel trends underpins DiD identification; event studies and placebos help probe it."
     },
@@ -913,9 +966,10 @@
       "questionText": "Why do heterogeneous treatment effects matter for inclusive policy evaluation?",
       "correctAnswer": "Distributional heterogeneity can hide large losses for subgroups even when the mean effect is positive, guiding targeted cushioning and design",
       "distractors": [
-        "Average effects always suffice for welfare comparisons",
-        "Heterogeneity only affects statistical power, not policy",
-        "Accounting for heterogeneity violates external validity"
+        "A partner-GDP sum weighted by bilateral trade costs, capturing how large nearby markets are and how easily they can be reached from the country.",
+        "Domestic GDP per capita, which reflects average income but not how well the country is connected to external demand.",
+        "The nominal exchange rate against a major currency, which says little about access to foreign markets or trade-cost levels.",
+        "The sheer number of trade agreements signed, regardless of whether partners are small, far away, or already duty-free."
       ],
       "explanation": "Inclusive growth requires attention to incidence, not just averages."
     },
@@ -924,9 +978,10 @@
       "questionText": "Which path represents functional upgrading in global value chains (GVCs)?",
       "correctAnswer": "Moving from assembly to branding, design, and logistics coordination while retaining manufacturing capability",
       "distractors": [
-        "Replacing automated processes with manual labor to raise employment",
-        "Specializing permanently in raw commodity exports",
-        "Diversifying into unrelated low-productivity services without supply-chain roles"
+        "Tariffs raise prices for consumers and for firms that use imported inputs, lowering real wages and creating misallocation even before foreign retaliation.",
+        "Tariffs reduce deadweight loss because they raise revenue without affecting prices or markups in importing industries.",
+        "Tariffs automatically trigger productivity growth by forcing import substitution, so real incomes rise for everyone in the short run.",
+        "Tariffs increase product variety and lower prices immediately, so workers in import-competing sectors do not need adjustment support."
       ],
       "explanation": "Functional upgrading captures movement into higher-value tasks beyond process or simple product upgrading."
     },
@@ -935,9 +990,10 @@
       "questionText": "Which gravity-based statistic best captures a country’s ‘foreign market access’ relevant for income?",
       "correctAnswer": "The sum over partners of partner GDP weighted by bilateral trade costs (e.g., inverse distance and barriers)",
       "distractors": [
-        "Domestic GDP per capita",
-        "The nominal exchange rate against the USD",
-        "The number of trade agreements regardless of partner size"
+        "Condition cash transfers on verified school attendance and basic health visits and pair them with supply-side improvements to build human capital.",
+        "Provide broad energy subsidies that rise with consumption so richer households receive larger transfers than poor households do.",
+        "Offer a permanent, very high universal basic income regardless of whether schools and clinics can absorb more students and patients.",
+        "Give tax exemptions on capital gains only, assuming this will trickle down into stronger human-capital formation for poor households."
       ],
       "explanation": "Market access depends on partner size and trade frictions; higher access supports specialization and scale."
     },
@@ -946,9 +1002,10 @@
       "questionText": "Which mechanism links large tariff hikes in a trade war to domestic real-income losses even before retaliation?",
       "correctAnswer": "Tariffs raise import prices for consumers and inputs for producers, lowering real wages and efficiency through higher markups and misallocation",
       "distractors": [
-        "Tariffs reduce deadweight loss by raising government revenue without price effects",
-        "Tariffs automatically trigger productivity growth via import substitution",
-        "Tariffs increase variety and lower prices in the short run"
+        "Because income proxies can be noisy when work is informal, leading to exclusion errors that can be reduced with community validation or categorical rules.",
+        "Because proxy-means testing always overestimates poverty in rich regions and therefore cannot be used in urban areas at all.",
+        "Because PMT requires biometric identification, which is illegal in low-capacity settings and cannot be substituted for by other methods.",
+        "Because PMT scores cannot be audited or refined once a program is underway, so targeting errors cannot be corrected over time."
       ],
       "explanation": "Higher trade costs tax both consumption and intermediate use, eroding real income and TFP."
     },
@@ -957,9 +1014,10 @@
       "questionText": "Which transfer design most directly builds human capital under fiscal constraints?",
       "correctAnswer": "Conditional cash transfers tied to verified school attendance and basic health visits, complemented by supply-side quality improvements",
       "distractors": [
-        "Untargeted energy subsidies that scale with consumption",
-        "Permanent universal basic income at a high level regardless of service delivery",
-        "Tax exemptions for capital gains only"
+        "Save a structural share of resource revenue in a sovereign fund and use cyclically adjusted budget rule with escape clauses for large shocks.",
+        "Spend all resource revenue immediately in good years to maximise current welfare even if prices are volatile and revenues collapse later.",
+        "Cap public investment permanently at a very low level regardless of demographic or infrastructure needs across the country.",
+        "Borrow heavily in foreign currency during booms to finance imports, assuming commodity prices will always stay high."
       ],
       "explanation": "Well-targeted CCTs raise take-up of schooling and preventive health, compounding into higher productivity."
     },
@@ -968,9 +1026,10 @@
       "questionText": "In low-capacity settings, why might a simple proxy-means test (PMT) targeting rule underperform for anti-poverty programs?",
       "correctAnswer": "Because noisy proxies and informal incomes yield high exclusion errors; community validation or categorical targeting can improve coverage",
       "distractors": [
-        "Because PMT always overestimates poverty in rich regions",
-        "Because PMT requires biometric IDs, which are illegal",
-        "Because PMT cannot be audited"
+        "Use time-limited wage insurance, mobility grants, re-skilling tied to placement, and place-based investment to help exposed regions while preserving openness.",
+        "Impose across-the-board tariffs and permanent production subsidies so existing firms never have to adjust to trade shocks.",
+        "Offer bailouts to specific firms with no labour-market elements, even if workers remain unemployed or stuck in declining towns.",
+        "Cut taxes only for capital owners and offer no support to displaced workers, assuming trickle-down will offset trade losses."
       ],
       "explanation": "Targeting trade-offs reflect data quality and informal labor; hybrid designs can lower errors."
     },
@@ -979,9 +1038,10 @@
       "questionText": "Which fiscal rule best mitigates procyclicality in a resource-rich economy?",
       "correctAnswer": "Save a structural share of resource revenue in a sovereign fund and use cyclically-adjusted budget rules with escape clauses tied to large shocks",
       "distractors": [
-        "Spend all resource revenue contemporaneously to maximize current welfare",
-        "Cap public investment permanently at 2% of GDP regardless of needs",
-        "Borrow in foreign currency during booms to expand imports"
+        "First strengthen property rights and regulatory predictability and reform SOE governance, then roll out infrastructure and time-bound sectoral support with clear conditions.",
+        "Begin with large debt-financed infrastructure and postpone legal and regulatory reforms until after all projects are completed and investor expectations have already been formed.",
+        "Impose broad import bans to create domestic markets before clarifying the legal and regulatory framework that investors will face in the long run.",
+        "Delay institutional reform until foreign investors arrive and demand it, relying on their bargaining power to rewrite domestic rules after they have sunk their capital."
       ],
       "explanation": "Stabilization and savings rules smooth expenditure and support intergenerational equity."
     },
@@ -990,9 +1050,10 @@
       "questionText": "In the U.S. trade-adjustment case, which bundle most credibly preserves openness while addressing concentrated losses?",
       "correctAnswer": "Time-limited wage insurance, mobility grants, and re-skilling tied to job placement, plus place-based investment in highly exposed regions",
       "distractors": [
-        "Across-the-board tariffs and permanent subsidies for incumbent firms",
-        "Firm bailouts with no labor support",
-        "Tax cuts for capital only with no worker programs"
+        "A multidimensional index aggregates deprivations in health, education and living standards using cut-offs, while income headcounts can miss non-monetary shortfalls.",
+        "A multidimensional index only tracks income inequality, so it offers no extra information on health or education deprivation across households.",
+        "A multidimensional index replaces the need for any income-based poverty line and therefore makes consumption surveys redundant.",
+        "A multidimensional index is the same measure as a top-income-share statistic and mainly captures upper-tail concentration."
       ],
       "explanation": "Insure workers and places rather than sectors to maintain the political sustainability of openness."
     },
@@ -1001,9 +1062,10 @@
       "questionText": "In the Bolivia case, which sequencing most plausibly crowds in private investment for diversification?",
       "correctAnswer": "Strengthen property rights and regulatory predictability, reform state-owned enterprise governance, then roll out infrastructure and time-bound sectoral support with transparent conditionality",
       "distractors": [
-        "Large debt-financed infrastructure first, then gradual legal reforms when projects are complete",
-        "Impose broad import bans to force domestic production before legal changes",
-        "Delay any institutional reform until FDI arrives and demands it"
+        "Start by strengthening property rights, regulatory predictability and SOE governance, then deploy infrastructure and time-bound sectoral support with transparent conditionality to crowd in private investment beyond extractives.",
+        "Begin with large, debt-financed infrastructure projects and postpone legal and regulatory reforms until after the projects are completed and investor expectations have already been formed.",
+        "Impose broad import bans to force rapid domestic production before clarifying the legal and regulatory framework that investors will face in the long run.",
+        "Delay institutional reform until foreign investors arrive and demand it, relying on their bargaining power to rewrite domestic rules after they have sunk their capital."
       ],
       "explanation": "Credible rules reduce risk premia and, paired with disciplined support, crowd in long-horizon private capital for non-extractive sectors."
     }
