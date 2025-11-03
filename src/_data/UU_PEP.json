@@ -4,1260 +4,930 @@
   "questions": [
     {
       "id": "mcq_001",
-      "questionText": "In a two-good exchange box, the contract curve is the set of points where:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "In a two-good Edgeworth box, Pareto efficiency in consumption requires which condition between the two consumers?",
+      "correctAnswer": "Each consumer’s marginal rate of substitution between the two goods is identical so that their indifference curves are tangent, $MRS_A = MRS_B$ at the efficient allocation.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
-        "It confuses technological under standard assumptions at the margin."
+        "Each consumer’s marginal utilities for both goods are numerically identical across individuals under convex preferences, implying similar indifference-curve slopes at equilibrium though not necessarily efficiency.",
+        "Each consumer’s demand ratios for the goods coincide because endowments and prices are proportional, ensuring identical consumption shares without implying tangency of preferences.",
+        "Each consumer’s marginal utility of income is equalized across goods, guaranteeing budget exhaustion but not necessarily $MRS_A = MRS_B$."
       ],
-      "explanation": "Pareto efficiency in consumption requires MRS_A = MRS_B at feasible bundles.",
-      "difficulty": 3,
+      "explanation": "Tangency of indifference curves ensures equal marginal rates of substitution across consumers, exhausting all mutually beneficial trades.",
+      "difficulty": "easy",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_002",
-      "questionText": "Walras’ Law implies that if one market clears, then:",
-      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "questionText": "According to the First Fundamental Theorem of Welfare Economics, under what assumptions does a competitive equilibrium lead to a Pareto-efficient allocation?",
+      "correctAnswer": "When all agents are price takers, markets are complete, and preferences and production sets are convex so that decentralized optimization satisfies social efficiency conditions.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it confuses technological under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
+        "When consumers have identical homothetic preferences and lump-sum taxes are imposed, guaranteeing identical demand structures but not necessarily Pareto efficiency under general endowments.",
+        "When production technologies exhibit increasing returns to scale so that competitive equilibrium profits are positive, allowing redistributive transfers that mimic efficiency.",
+        "When externalities and public goods are pervasive yet prices adjust freely, ensuring that private and social marginal valuations automatically coincide in equilibrium."
       ],
-      "explanation": "Σ p_i Z_i(p) = 0 holds for any prices and endowments, independent of equilibrium.",
-      "difficulty": 4,
+      "explanation": "Perfect competition with convex preferences and technologies yields Pareto efficiency because private optimization aligns with social welfare maximization.",
+      "difficulty": "medium",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_003",
-      "questionText": "With convex preferences, the Second Welfare Theorem guarantees that:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What does the Second Fundamental Theorem of Welfare Economics assert about the relationship between efficiency and distribution?",
+      "correctAnswer": "Any Pareto-efficient allocation can be decentralized as a competitive equilibrium through suitable lump-sum transfers, provided preferences and technologies are convex and markets complete.",
       "distractors": [
-        "mistakenly replaces marginal under standard assumptions in this model by construction at the margin.",
-        "It confuses technological under standard assumptions in this model.",
-        "It confuses technological under standard assumptions."
+        "Any competitive equilibrium allocation is automatically equitable across individuals, since convexity guarantees equality of utility levels even without transfers.",
+        "Pareto efficiency necessarily requires income equality before trade because otherwise the contract curve collapses to the 45° line in the Edgeworth box.",
+        "Non-convexities in preferences ensure that decentralization works without any redistribution, making lump-sum transfers unnecessary for achieving efficiency."
       ],
-      "explanation": "Convexity allows supporting hyperplanes; lump‑sum redistribution shifts budgets without altering MRS.",
-      "difficulty": 4,
+      "explanation": "Convexity permits a separation between efficiency and equity: appropriate endowment transfers can implement any efficient point through market prices.",
+      "difficulty": "hard",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_004",
-      "questionText": "Choosing a numéraire in general equilibrium means:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "Walras’ Law provides a key property of general equilibrium systems. What does it imply about market clearing?",
+      "correctAnswer": "If $n-1$ markets clear, the remaining market must also clear because the value of aggregate excess demand satisfies $\\sum_i p_i Z_i(p)=0$, ensuring consistency of budgets.",
       "distractors": [
-        "It confuses technological under standard assumptions in equilibrium.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It holds with non‑convex technology and without transfers."
+        "If $n-1$ markets clear, the remaining market will show persistent disequilibrium unless the government adjusts transfers, since prices cannot equilibrate simultaneously across goods.",
+        "Walras’ Law states that total excess demand across markets is strictly positive when at least one price is fixed, implying the need for policy intervention to restore balance.",
+        "It implies that equilibrium in one market automatically causes proportional equilibrium in all others, regardless of agents’ budget constraints or the numéraire choice."
       ],
-      "explanation": "Only relative prices matter for demands; a normalization pins down the level.",
-      "difficulty": 2,
+      "explanation": "Because the sum of value-weighted excess demands equals zero, clearing in all but one market implies that the final market must also clear.",
+      "difficulty": "medium",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_005",
-      "questionText": "A competitive equilibrium in the Edgeworth box occurs where:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "Within an Edgeworth box, what does the contract curve represent?",
+      "correctAnswer": "The set of feasible allocations where the two consumers’ indifference curves are tangent and no further mutually beneficial trades remain possible, i.e., all Pareto-efficient points.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction at the margin in equilibrium in equilibrium.",
-        "It confuses technological under standard assumptions in equilibrium.",
-        "It confuses technological under standard assumptions."
+        "The locus of allocations yielding identical utilities for both consumers under symmetric endowments, which may include inefficient points if preferences differ.",
+        "The collection of price ratios that equate each consumer’s budget line with the other’s indifference curve, representing possible but not necessarily efficient trades.",
+        "The set of all initial endowments that produce identical marginal utilities across goods, which need not correspond to Pareto-optimal allocations."
       ],
-      "explanation": "Common tangency ensures utility maximization and market clearing at given prices.",
-      "difficulty": 3,
+      "explanation": "Tangency of indifference curves ensures identical $MRS$ and mutual efficiency; points off the curve allow beneficial exchanges.",
+      "difficulty": "easy",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_006",
-      "questionText": "Under constant returns and perfect competition, long‑run profits are:",
-      "correctAnswer": "It confuses technological under standard assumptions.",
+      "questionText": "Under constant returns to scale and perfect competition, what are equilibrium profits for firms and why?",
+      "correctAnswer": "Zero, because when production functions are homogeneous of degree one, Euler’s theorem implies that total revenue exactly covers factor payments to inputs.",
       "distractors": [
-        "mistakenly replaces marginal under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions."
+        "Positive, since constant returns generate increasing marginal productivity and allow mark-ups that sustain long-run profits in competitive equilibrium.",
+        "Negative, because constant returns combined with free entry induce overproduction relative to demand, pushing profits below zero until exit restores balance.",
+        "Variable, depending on the choice of numéraire and normalization of prices, since profit levels are measured in relative rather than absolute terms."
       ],
-      "explanation": "Revenue equals factor payments when production is homogeneous of degree one.",
-      "difficulty": 3,
+      "explanation": "With constant returns, input payments exhaust output value; thus pure profits vanish in equilibrium under competition.",
+      "difficulty": "medium",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_007",
-      "questionText": "Consumer optimum under interior solutions requires:",
-      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "questionText": "Which condition defines overall efficiency combining production and consumption in a two-good economy?",
+      "correctAnswer": "The marginal rate of transformation between goods equals each consumer’s marginal rate of substitution, $MRT = MRS_i$, ensuring that production trade-offs match consumption valuations.",
       "distractors": [
-        "Not: it confuses technological under standard assumptions.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it confuses technological under standard assumptions."
+        "Each consumer’s $MRS_i$ must differ from the production frontier slope to generate gains from trade, guaranteeing Pareto improvements through reallocation of goods.",
+        "The marginal productivities of all inputs are identical across sectors, implying that production efficiency holds even if consumption preferences diverge.",
+        "Total output is maximized when marginal cost equals marginal revenue in every market, a condition for firm equilibrium but not necessarily social efficiency."
       ],
-      "explanation": "First‑order condition for utility maximization is MRS_xy = p_x/p_y.",
-      "difficulty": 2,
+      "explanation": "Efficiency requires equality of transformation and substitution rates so that marginal willingness to trade equals marginal opportunity cost.",
+      "difficulty": "medium",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_008",
-      "questionText": "First Welfare Theorem states that:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "Why are lump-sum taxes considered non-distortionary instruments of redistribution in theory?",
+      "correctAnswer": "Because they shift individuals’ budget constraints without altering relative prices or marginal incentives, allowing redistribution without efficiency loss.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "It confuses technological under standard assumptions in this model.",
-        "mistakenly replaces marginal under standard assumptions."
+        "Because they alter marginal tax rates on specific goods, encouraging substitution effects that enhance welfare compared to ad valorem taxation.",
+        "Because they increase the marginal utility of income uniformly, ensuring identical behavioral responses across heterogeneous consumers.",
+        "Because they equate post-tax incomes across individuals, directly achieving both horizontal and vertical equity while maintaining efficiency."
       ],
-      "explanation": "Price‑taking with complete markets yields no unexploited gains from trade.",
-      "difficulty": 3,
+      "explanation": "A lump-sum tax is independent of behavior and hence does not affect marginal decisions, achieving redistribution at zero deadweight loss.",
+      "difficulty": "easy",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_009",
-      "questionText": "Lump‑sum taxes are ideal in theory because they:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
+      "questionText": "How do non-convex preferences affect the existence or uniqueness of general equilibrium?",
+      "correctAnswer": "They can lead to multiple or nonexistent equilibria because non-convex indifference sets break the tangency and continuity conditions required for equilibrium existence proofs.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It confuses technological under standard assumptions.",
-        "mistakenly replaces average under standard assumptions."
+        "They guarantee a unique and globally stable equilibrium under any endowment because indifference curves remain strictly convex everywhere.",
+        "They ensure that market excess-demand functions are smooth and continuous, simplifying the computation of Walrasian prices in numerical models.",
+        "They make consumers indifferent across all bundles, eliminating optimization and automatically producing market-clearing allocations."
       ],
-      "explanation": "They shift the budget in parallel and leave relative prices unchanged.",
-      "difficulty": 3,
+      "explanation": "Convexity ensures supporting prices exist; when it fails, demand discontinuities can generate multiple or no equilibria.",
+      "difficulty": "hard",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_010",
-      "questionText": "Non‑convex preferences in the Edgeworth box can cause:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "In an exchange economy, how is the 'core' formally defined?",
+      "correctAnswer": "It is the set of feasible allocations that are Pareto efficient and make every individual at least as well off as at their initial endowment, capturing allocations that cannot be blocked by any coalition.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "mistakenly replaces marginal under standard assumptions at the margin.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
+        "It consists only of competitive equilibria independent of endowment distribution, representing a single efficient allocation supported by prices.",
+        "It is the locus of allocations yielding equal utilities across all consumers, representing fairness rather than efficiency.",
+        "It includes all allocations where $MRS_A \\neq MRS_B$, implying potential but unrealized gains from trade within the Edgeworth box."
       ],
-      "explanation": "Non‑convexity breaks supporting tangency; demand can be discontinuous.",
-      "difficulty": 4,
+      "explanation": "Core allocations are both efficient and individually rational; no subset of agents can improve upon them by reallocating their own endowments.",
+      "difficulty": "hard",
       "topic": [
         "Equilibrium and Efficiency"
       ]
     },
     {
       "id": "mcq_011",
-      "questionText": "In a production economy, efficiency in consumption requires:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "Which pair of properties defines a pure public good?",
+      "correctAnswer": "Non-rivalry in consumption and non-excludability, meaning that one individual’s use does not reduce availability and others cannot feasibly be excluded from use.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in equilibrium.",
-        "It equates totals rather than margins, which is not not not the optimality condition.",
-        "It equates totals rather than margins in equilibrium."
+        "Rivalry and excludability, implying that use by one person prevents use by another and access can be restricted by pricing.",
+        "Non-rivalry but excludability, characterizing club goods such as private parks where entry is possible only after paying a membership fee.",
+        "Rivalry but non-excludability, describing common resources such as fisheries where congestion occurs though exclusion is costly."
       ],
-      "explanation": "Consumption efficiency condition: MRS_A = MRS_B at the allocation.",
-      "difficulty": 3,
+      "explanation": "A pure public good is both non-rival and non-excludable, so private markets underprovide it relative to efficiency.",
+      "difficulty": "very easy",
       "topic": [
-        "Equilibrium and Efficiency"
+        "Public Goods"
       ]
     },
     {
       "id": "mcq_012",
-      "questionText": "In a production economy, overall efficiency requires:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
+      "questionText": "What is the Samuelson condition for the efficient provision of a public good in a two-person economy?",
+      "correctAnswer": "The sum of individual marginal rates of substitution equals the marginal rate of transformation, $MRS_A + MRS_B = MRT$, equating total marginal benefit to marginal cost.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "mistakenly replaces average under standard assumptions.",
-        "It confuses technological under standard assumptions."
+        "Each individual’s $MRS_i$ equals $MRT$ separately, which ensures private efficiency but not collective efficiency for the public good.",
+        "The product of individual $MRS_i$ values equals $MRT$, capturing joint willingness to pay but overstating efficiency at the aggregate level.",
+        "The average of individual $MRS_i$ equals $MRT$, implying equal cost sharing rather than the true sum required for social optimality."
       ],
-      "explanation": "At optimum, MRS = p_x/p_y and MRT = p_x/p_y, hence MRS = MRT.",
-      "difficulty": 4,
+      "explanation": "Because all consumers enjoy the same quantity of a public good, efficiency requires adding their valuations horizontally.",
+      "difficulty": "medium",
       "topic": [
-        "Equilibrium and Efficiency"
+        "Public Goods"
       ]
     },
     {
       "id": "mcq_013",
-      "questionText": "Which statement about Walrasian demand is correct?",
-      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "questionText": "Why do private markets typically underprovide pure public goods?",
+      "correctAnswer": "Because individuals have an incentive to free ride, reporting valuations below their true willingness to pay since they cannot be excluded from benefiting.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It treats constraints as slack under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions."
+        "Because government subsidies lower production costs, crowding out efficient private provision under perfect information.",
+        "Because marginal costs of providing the good decline with usage, leading private firms to oversupply relative to social optimum.",
+        "Because preferences for public goods are additive across consumers, causing duplication of efforts in voluntary markets."
       ],
-      "explanation": "Scaling prices and income leaves real budget sets unchanged.",
-      "difficulty": 3,
+      "explanation": "Free riding results from non-excludability: individuals hope others will pay for the good while still benefiting from it.",
+      "difficulty": "easy",
       "topic": [
-        "Equilibrium and Efficiency"
+        "Public Goods"
       ]
     },
     {
       "id": "mcq_014",
-      "questionText": "The ‘core’ of the exchange economy is:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "In a Lindahl equilibrium, how is each individual’s share of the public good’s cost determined?",
+      "correctAnswer": "Each pays a personalized price equal to their marginal valuation so that their individual $MRS_i$ equals their tax share, and the sum of shares covers total cost.",
       "distractors": [
-        "It confuses technological under standard assumptions at the margin.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins, which is not the optimality condition."
+        "Each pays an equal fraction of cost regardless of marginal benefit, guaranteeing fairness but not efficiency under heterogeneous preferences.",
+        "Each pays according to income elasticity of demand, aligning willingness to pay with ability but violating marginal valuation equality.",
+        "Each faces the same unit price, so aggregate demand directly determines provision without requiring personalized cost shares."
       ],
-      "explanation": "Core allocations lie in the Edgeworth lens and are Pareto efficient.",
-      "difficulty": 3,
+      "explanation": "Personalized prices align individual marginal benefits with marginal costs, achieving efficient provision if truthfully revealed.",
+      "difficulty": "hard",
       "topic": [
-        "Equilibrium and Efficiency"
+        "Public Goods"
       ]
     },
     {
       "id": "mcq_015",
-      "questionText": "A pure public good is characterized by:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "Why is the Lindahl mechanism not incentive compatible in practice?",
+      "correctAnswer": "Because individuals can gain by misreporting valuations to reduce their personalized tax share, leading to underreporting of willingness to pay.",
       "distractors": [
-        "mistakenly replaces marginal under standard assumptions at the margin.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It treats constraints as slack under standard assumptions."
+        "Because it requires lump-sum taxes to fund provision, which distort relative prices across goods and reduce efficiency.",
+        "Because it assumes identical preferences across individuals, preventing differentiation of marginal valuations and cost shares.",
+        "Because it allocates provision levels through majority voting rather than voluntary revelation, making it dependent on median preferences."
       ],
-      "explanation": "By definition, one person’s use does not reduce others’ use and exclusion is infeasible.",
-      "difficulty": 2,
+      "explanation": "Agents strategically understate valuations since their payment depends on the reported benefit, undermining truthful revelation.",
+      "difficulty": "hard",
       "topic": [
         "Public Goods"
       ]
     },
     {
       "id": "mcq_016",
-      "questionText": "In the standard two‑person model, the Samuelson rule states:",
-      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "questionText": "How does the median voter theorem relate to public-good provision under majority voting?",
+      "correctAnswer": "If preferences are single-peaked, the level of the public good chosen by majority vote equals the preference of the median voter, which may differ from the efficient level.",
       "distractors": [
-        "mistakenly replaces marginal under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It treats constraints as slack under standard assumptions."
+        "If preferences are identical, the median and mean voters coincide, ensuring that majority voting automatically yields the Samuelson optimum.",
+        "If preferences are double-peaked, the voting outcome becomes cyclical, guaranteeing a stable but inefficient equilibrium outcome.",
+        "If voters have multidimensional preferences, the median rule continues to select the socially optimal allocation in all cases."
       ],
-      "explanation": "Public good benefits add across consumers; set Σ MRS = marginal cost (MRT).",
-      "difficulty": 4,
+      "explanation": "Majority voting yields the median voter’s most preferred level, which is only efficient under restrictive symmetry assumptions.",
+      "difficulty": "medium",
       "topic": [
         "Public Goods"
       ]
     },
     {
       "id": "mcq_017",
-      "questionText": "Private voluntary provision of a pure public good tends to be:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What distinguishes a club good from a pure public good?",
+      "correctAnswer": "A club good is excludable but non-rival up to a congestion threshold, allowing efficient provision through membership pricing until crowding sets in.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It treats constraints as slack under standard assumptions in this model."
+        "A club good is non-excludable but rival, making it equivalent to a common resource with overuse externalities.",
+        "A club good is both non-rival and non-excludable, matching the definition of a pure public good provided by voluntary contributions.",
+        "A club good is rival and excludable, identical to a private good traded in perfectly competitive markets."
       ],
-      "explanation": "Individuals ignore benefits to others when choosing contributions.",
-      "difficulty": 3,
+      "explanation": "Club goods lie between private and public goods; exclusion is feasible, but use is joint until capacity limits bind.",
+      "difficulty": "easy",
       "topic": [
         "Public Goods"
       ]
     },
     {
       "id": "mcq_018",
-      "questionText": "In Lindahl equilibrium, each agent:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "What is the Warr neutrality result regarding income redistribution among contributors to a public good?",
+      "correctAnswer": "Under standard assumptions of identical preferences, a lump-sum transfer between contributors leaves total voluntary provision unchanged because income effects cancel across individuals.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions at the margin.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It treats constraints as slack under standard assumptions."
+        "Redistribution always increases total provision since wealthier individuals contribute a higher proportion of income to public goods.",
+        "Redistribution reduces total provision because higher-income individuals exhibit lower marginal utility of the public good.",
+        "Redistribution leaves provision unchanged only when preferences differ strongly, since identical preferences amplify income effects."
       ],
-      "explanation": "With truthful reporting, shares sum to one and each optimizes where MRS = share.",
-      "difficulty": 4,
+      "explanation": "In the Warr model, one donor’s reduced contribution is exactly offset by another’s increase, leaving aggregate provision invariant.",
+      "difficulty": "hard",
       "topic": [
         "Public Goods"
       ]
     },
     {
       "id": "mcq_019",
-      "questionText": "A key weakness of Lindahl pricing is that:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "questionText": "Which statement best describes the free-rider problem in voluntary contribution models?",
+      "correctAnswer": "Each individual neglects the positive externality their contribution confers on others, so equilibrium contributions are below the efficient level where $\\sum_i MRS_i = MRT$.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It confuses technological under standard assumptions in equilibrium.",
-        "Not: it treats constraints as slack under standard assumptions."
+        "Each individual internalizes all externalities from others’ contributions, leading to over-provision of the public good relative to efficiency.",
+        "Each individual maximizes a joint utility function that includes others’ welfare, which eliminates free riding but requires central coordination.",
+        "Each individual faces an individual price for the public good, equating their $MRS_i$ with $MRT$ and ensuring the socially optimal level."
       ],
-      "explanation": "Agents can gain by misreporting valuations, shifting burden to others.",
-      "difficulty": 4,
+      "explanation": "In Nash equilibrium, contributors ignore the marginal benefits to others, producing an underprovision relative to the Samuelson rule.",
+      "difficulty": "medium",
       "topic": [
         "Public Goods"
       ]
     },
     {
       "id": "mcq_020",
-      "questionText": "Median voter outcomes for a single public good are efficient only if:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "Which feature distinguishes a technological externality from a pecuniary one in general equilibrium analysis?",
+      "correctAnswer": "A technological externality directly alters another agent’s utility or production function, creating a divergence between private and social marginal costs or benefits.",
       "distractors": [
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
-        "mistakenly replaces marginal under standard assumptions in this model.",
-        "mistakenly replaces marginal under standard assumptions."
+        "A pecuniary externality alters another agent’s wealth through price changes that redistribute surplus without creating efficiency losses.",
+        "A technological externality operates solely through market prices, so competitive equilibria remain efficient without intervention.",
+        "A pecuniary externality changes the slope of the transformation frontier by modifying technology rather than prices."
       ],
-      "explanation": "Efficiency needs Σ MRS = MRT; the median’s choice equals the sum only under special distributions.",
-      "difficulty": 3,
+      "explanation": "Technological externalities shift utility or production functions directly, generating inefficiencies, whereas pecuniary ones work via price effects only.",
+      "difficulty": "medium",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_021",
-      "questionText": "Warm‑glow giving can rationalize:",
-      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "questionText": "When a firm emits pollution that harms others, what happens to efficiency in the unregulated competitive equilibrium?",
+      "correctAnswer": "The market produces more than the socially optimal quantity because the firm ignores the marginal external damage, equating private marginal cost with price rather than social marginal cost.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It treats constraints as slack under standard assumptions.",
-        "Not: it confuses technological under standard assumptions."
+        "The market produces less than the social optimum because private marginal benefit exceeds marginal cost when damage is ignored.",
+        "The market outcome remains efficient because prices reflect all relevant information even without regulation.",
+        "The market achieves the optimal level automatically when pollution taxes are set to zero since agents internalize external costs voluntarily."
       ],
-      "explanation": "Individuals derive utility from the act of giving, raising private marginal benefit.",
-      "difficulty": 3,
+      "explanation": "With a negative externality, private decisions omit external damages, causing overproduction relative to the socially efficient quantity.",
+      "difficulty": "easy",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_022",
-      "questionText": "Warr neutrality (under standard conditions) predicts that a pure income transfer between contributors:",
-      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "questionText": "What level of corrective Pigouvian tax achieves efficiency in the presence of a negative production externality?",
+      "correctAnswer": "A tax equal to the marginal external damage evaluated at the efficient output, aligning private and social marginal cost curves.",
       "distractors": [
-        "mistakenly replaces average under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "mistakenly replaces marginal under standard assumptions."
+        "A tax equal to the total external cost divided by total output, ensuring proportional burden sharing but not marginal alignment.",
+        "A subsidy equal to marginal external benefit, which eliminates the distortion but reverses the direction of correction.",
+        "A lump-sum tax on producers proportional to profits, which reduces emissions uniformly regardless of marginal damages."
       ],
-      "explanation": "One donor gives less while the other gives more by the same amount; totals are constant.",
-      "difficulty": 4,
+      "explanation": "The optimal Pigouvian tax equals the marginal harm caused by the last unit of output, internalizing the externality at the margin.",
+      "difficulty": "medium",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_023",
-      "questionText": "In the fund‑raising game with contribution pledges (subscription scheme):",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "How does the Coase theorem characterize the role of property rights in resolving externalities?",
+      "correctAnswer": "If property rights are clearly defined and transaction costs are negligible, private bargaining leads to the efficient allocation of resources regardless of initial ownership.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "mistakenly replaces marginal under standard assumptions in equilibrium."
+        "Efficiency requires that property rights be defined only for producers, since consumers cannot participate in bargaining over external effects.",
+        "Transaction costs must be high enough to prevent renegotiation; otherwise, the market will generate excessive externalities.",
+        "Efficiency depends solely on equal wealth distribution, because without income equality Coasian bargaining fails to reach a Pareto improvement."
       ],
-      "explanation": "With commitment, maximal pledges can sum to total valuation, meeting the threshold.",
-      "difficulty": 4,
+      "explanation": "The theorem shows that efficiency depends on the ability to bargain, not on the assignment of rights, provided transactions are costless.",
+      "difficulty": "medium",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_024",
-      "questionText": "Club goods are:",
-      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "questionText": "According to Weitzman’s analysis, when are price-based instruments preferred to quantity-based instruments for regulating pollution?",
+      "correctAnswer": "When the marginal benefit of abatement is relatively flat and the marginal cost of abatement is highly uncertain, so fixing the price through a tax minimizes expected welfare loss.",
       "distractors": [
-        "Not: it confuses technological under standard assumptions.",
-        "It treats constraints as slack under standard assumptions.",
-        "It equates totals rather than margins, which is not the optimality condition."
+        "When the marginal benefit of abatement is steep and costs are certain, so quantity controls provide more stable welfare outcomes.",
+        "When uncertainty affects only the demand for pollution permits, since taxes cannot adapt automatically to market shocks.",
+        "When administrative simplicity requires fixed emission limits rather than flexible taxes, regardless of uncertainty in marginal costs."
       ],
-      "explanation": "Access can be priced; congestion turns them impure public goods.",
-      "difficulty": 2,
+      "explanation": "Weitzman (1974) showed that under cost uncertainty, taxes dominate when the marginal benefit curve is flatter than the marginal cost curve.",
+      "difficulty": "hard",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_025",
-      "questionText": "Personalized prices aim to:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
+      "questionText": "Why can open-access resources such as fisheries lead to overexploitation?",
+      "correctAnswer": "Because each user ignores the congestion externality imposed on others, equating average rather than marginal benefits to costs and depleting the resource below the efficient stock.",
       "distractors": [
-        "It confuses technological under standard assumptions.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It confuses technological under standard assumptions."
+        "Because users coordinate their harvest levels through cooperative arrangements that exceed the efficient yield under private property.",
+        "Because individual quotas are enforced by property rights, preventing any externality from emerging in the first place.",
+        "Because technological progress lowers costs so much that equilibrium harvests fall below efficient levels despite open access."
       ],
-      "explanation": "Given fixed G, charging shares equal to MRS induces demand revelation in theory.",
-      "difficulty": 3,
+      "explanation": "In open access, each user internalizes only private returns, ignoring marginal crowding costs; aggregate effort exceeds the efficient level.",
+      "difficulty": "medium",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_026",
-      "questionText": "The Samuelson condition differs from private goods efficiency because:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "questionText": "What happens when externalities create non-convexities in production or consumption sets?",
+      "correctAnswer": "Competitive equilibria may fail to exist or may not be efficient, since non-convexities break the assumptions required for supporting prices and stable equilibria.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it treats constraints as slack under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions at the margin."
+        "Markets adjust automatically through price flexibility, restoring convexity and ensuring a unique equilibrium in all cases.",
+        "Externalities increase the set of feasible allocations, guaranteeing that the competitive equilibrium remains first-best efficient.",
+        "Non-convexities only alter equity outcomes but leave Pareto efficiency unaffected because utility functions remain monotonic."
       ],
-      "explanation": "Each unit benefits everyone, so benefit aggregation is required.",
-      "difficulty": 3,
+      "explanation": "External effects can make the feasible set non-convex, invalidating the separating hyperplane theorems that underpin equilibrium existence proofs.",
+      "difficulty": "hard",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_027",
-      "questionText": "Under symmetric preferences and incomes, private provision per person tends to:",
-      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "questionText": "What is the main rationale for tradable pollution permits compared with Pigouvian taxes?",
+      "correctAnswer": "Tradable permits fix the total quantity of emissions and allow firms to trade rights, achieving cost-effective abatement by equalizing marginal abatement costs across sources.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it confuses technological under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
+        "Tradable permits fix the price of emissions directly, preventing cost-effective outcomes when firms have heterogeneous abatement technologies.",
+        "Tradable permits always ensure exact equality of private and social costs regardless of total emission caps or compliance behavior.",
+        "Tradable permits redistribute wealth among firms without improving efficiency relative to unregulated markets since total emissions remain fixed exogenously."
       ],
-      "explanation": "Free‑riding intensifies; individual contributions shrink with group size.",
-      "difficulty": 3,
+      "explanation": "Quantity-based control with trading equalizes marginal abatement costs and ensures that total emissions meet a predetermined cap efficiently.",
+      "difficulty": "medium",
       "topic": [
-        "Public Goods"
+        "Externalities"
       ]
     },
     {
       "id": "mcq_028",
-      "questionText": "A Clarke–Groves (VCG) mechanism for a public good:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "questionText": "What is the defining feature of adverse selection in insurance markets?",
+      "correctAnswer": "Agents differ in risk type known privately before contracting, leading high-risk individuals to purchase more coverage and drive up average costs for insurers.",
       "distractors": [
-        "It confuses technological under standard assumptions in this model.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
+        "Agents exert unobservable effort after contracting, altering realized outcomes and causing moral hazard rather than adverse selection.",
+        "Insurers are unable to verify any outcomes ex post, so no contract can be written even if risk types are publicly known.",
+        "Low-risk individuals purchase more insurance because they face higher expected damages under symmetric information."
       ],
-      "explanation": "Truth revelation can necessitate deficit‑financed transfers to internalize external benefits.",
-      "difficulty": 4,
+      "explanation": "Adverse selection arises from hidden information before contracting, where risky types self-select into more generous insurance contracts.",
+      "difficulty": "medium",
       "topic": [
-        "Public Goods"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_029",
-      "questionText": "A consumption externality exists when:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "In the Rothschild–Stiglitz model, how does a separating equilibrium allocate insurance contracts?",
+      "correctAnswer": "High-risk individuals receive full insurance at actuarially fair premiums, while low-risk individuals receive partial insurance to deter mimicking by high-risk types.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+        "Both types receive full insurance at a pooled premium equal to the average expected loss, which ensures fairness and prevents market breakdown.",
+        "Low-risk individuals obtain better-than-actuarially-fair insurance, while high-risk individuals are excluded from the market under competition.",
+        "Each type chooses the same coverage level but different premiums, producing a pooling equilibrium that eliminates information rents."
       ],
-      "explanation": "Direct utility interdependence defines consumption externalities.",
-      "difficulty": 2,
+      "explanation": "Separation relies on incentive compatibility: low-risk agents accept less coverage so high-risk agents do not mimic them.",
+      "difficulty": "hard",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_030",
-      "questionText": "With a negative externality, competitive equilibrium typically features:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "Why might a competitive pooling equilibrium fail to exist under adverse selection?",
+      "correctAnswer": "Because any insurer offering a slightly better contract to low-risk individuals can profitably deviate, unraveling the pooled outcome as in the Rothschild–Stiglitz model.",
       "distractors": [
-        "Under‑production relative to the social optimum.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+        "Because all firms earn positive profits under pooling, discouraging entry and stabilizing the equilibrium by preventing competition.",
+        "Because high-risk individuals refuse any contract that offers less than full insurance, forcing firms to exit until only one remains.",
+        "Because expected utility for all types is maximized under pooling, leaving no incentive for deviation by either firms or individuals."
       ],
-      "explanation": "Private agents ignore external damage; PMB exceeds SMB at the margin.",
-      "difficulty": 3,
+      "explanation": "With asymmetric information, small deviations targeting low-risk individuals destroy the viability of the pooling contract.",
+      "difficulty": "hard",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_031",
-      "questionText": "A Pigouvian tax should be set equal to:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "How does compulsory insurance help address adverse selection?",
+      "correctAnswer": "It forces both low- and high-risk individuals to participate, implementing pooling at the population’s average risk and preventing market unraveling due to self-selection.",
       "distractors": [
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
-        "It confuses technological under standard assumptions in this model.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+        "It separates risk types automatically by linking premiums to realized losses, reproducing the first-best equilibrium without government involvement.",
+        "It reduces insurer profits by imposing uniform premiums, causing efficient exit of firms and reducing total coverage.",
+        "It eliminates the need for risk classification entirely, achieving efficiency by ignoring heterogeneity across agents."
       ],
-      "explanation": "Aligns private marginal cost with social marginal cost at the optimum.",
-      "difficulty": 3,
+      "explanation": "Mandating participation ensures risk pooling and prevents the withdrawal of low-risk individuals that would collapse voluntary markets.",
+      "difficulty": "medium",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_032",
-      "questionText": "Tradable permits (licenses) achieve efficiency by:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "questionText": "In Spence’s signaling model, why can education serve as a signal of worker productivity?",
+      "correctAnswer": "Because education is more costly for low-productivity workers than for high-productivity ones, allowing separation if the single-crossing condition holds.",
       "distractors": [
-        "Not: it treats constraints as slack under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It confuses technological under standard assumptions in this model."
+        "Because education directly increases productivity for all workers equally, making it an informative signal under any cost structure.",
+        "Because firms cannot observe education levels, so signaling operates through informal reputation mechanisms rather than degrees.",
+        "Because education costs are identical across workers, ensuring that both types choose the same schooling level and wages are equalized."
       ],
-      "explanation": "Quantity control with trading equalizes marginal abatement costs across emitters.",
-      "difficulty": 3,
+      "explanation": "Cost differences across types make education credible as a signal even if it does not raise productivity itself.",
+      "difficulty": "hard",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_033",
-      "questionText": "Under cost uncertainty (Weitzman), taxes vs. quotas differ because:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
+      "questionText": "What welfare implication follows from costly signaling equilibria?",
+      "correctAnswer": "They may be Pareto inferior to pooling equilibria because resources are wasted on signaling that conveys information but does not increase productivity.",
       "distractors": [
-        "It equates totals rather than margins.",
-        "It treats constraints as slack under standard assumptions.",
-        "It treats constraints as slack under standard assumptions."
+        "They are always Pareto superior since signaling eliminates information asymmetry without reducing aggregate surplus.",
+        "They yield first-best efficiency because equilibrium signals perfectly reveal private types with zero resource cost.",
+        "They are equivalent to pooling equilibria in welfare terms because education expenditures are fully compensated by wage differentials."
       ],
-      "explanation": "If marginal costs are uncertain, price instruments avoid large cost spikes; quantity instruments avoid quantity risk.",
-      "difficulty": 4,
+      "explanation": "Signaling can allocate resources to socially wasteful activities that separate types without increasing total output.",
+      "difficulty": "hard",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_034",
-      "questionText": "Coase Theorem requires negligible transaction costs and:",
-      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "questionText": "How does moral hazard differ from adverse selection in insurance theory?",
+      "correctAnswer": "Moral hazard arises when agents take unobservable actions after contracting that affect outcomes, whereas adverse selection stems from hidden information before contracting.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it confuses technological under standard assumptions.",
-        "Not: it confuses technological under standard assumptions."
+        "Moral hazard occurs when all information is observable, eliminating any post-contract inefficiency in insurance markets.",
+        "Adverse selection arises after contracting when effort cannot be verified, while moral hazard occurs before contracting due to hidden types.",
+        "Moral hazard and adverse selection are identical phenomena that lead to the same equilibrium contract under competitive conditions."
       ],
-      "explanation": "Bargaining achieves efficiency regardless of initial assignment if rights are clear and costs are low.",
-      "difficulty": 3,
+      "explanation": "Timing distinguishes the two: adverse selection is pre-contractual hidden information; moral hazard is post-contractual hidden action.",
+      "difficulty": "medium",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_035",
-      "questionText": "A pecuniary externality is:",
-      "correctAnswer": "It equates totals rather than margins in this model.",
+      "questionText": "In optimal insurance under moral hazard, why is partial rather than full insurance typically offered?",
+      "correctAnswer": "Because full insurance would eliminate the insured’s incentive to take costly preventive actions, so the optimal contract leaves some risk exposure to maintain effort incentives.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction at the margin in equilibrium in equilibrium.",
-        "It treats constraints as slack under standard assumptions.",
-        "It confuses technological under standard assumptions."
+        "Because insurers prefer to expose clients to maximum risk to increase premium revenues, ignoring efficiency considerations.",
+        "Because individuals are risk-loving, so they demand contracts with less coverage to increase expected utility through variance.",
+        "Because full insurance requires lump-sum transfers that violate the zero-profit constraint under competition, making it infeasible even with observable effort."
       ],
-      "explanation": "Price‑mediated effects are inherent to markets and do not create wedges between private and social optima.",
-      "difficulty": 3,
+      "explanation": "Partial coverage preserves incentives by linking outcomes to effort; full insurance would destroy the agent’s motivation to avoid loss.",
+      "difficulty": "hard",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_036",
-      "questionText": "The ‘tragedy of the commons’ arises because:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What function do deductibles and co-payments serve in real-world insurance contracts?",
+      "correctAnswer": "They share part of the loss with the insured, reducing moral hazard by ensuring the individual bears some marginal cost of risky behavior.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "It treats constraints as slack under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions at the margin."
+        "They increase total coverage costs by forcing the insurer to pay more for small claims, strengthening adverse selection among risk types.",
+        "They guarantee full insurance above a threshold, eliminating any behavioral response to risk after contracting.",
+        "They act purely as administrative devices without influencing incentives or the distribution of risk across agents."
       ],
-      "explanation": "Each user internalizes average but not marginal external costs, causing overuse.",
-      "difficulty": 3,
+      "explanation": "Cost sharing mitigates hidden-action problems by aligning the insured’s incentives with efficient care-taking behavior.",
+      "difficulty": "medium",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_037",
-      "questionText": "Road congestion is a negative externality because each driver:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "questionText": "Why do experience-rated premiums, such as no-claim bonuses, improve efficiency in insurance markets?",
+      "correctAnswer": "They tie future premiums to past outcomes, partially observing risk or effort ex post and reducing moral hazard by rewarding good behavior.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it treats constraints as slack under standard assumptions.",
-        "Not: it treats constraints as slack under standard assumptions."
+        "They impose uniform premiums on all insured individuals, eliminating heterogeneity and simplifying contract design without affecting incentives.",
+        "They increase adverse selection by allowing high-risk types to mimic low-risk behavior through frequent small claims.",
+        "They subsidize risky behavior by spreading losses across all insured parties, amplifying moral hazard rather than reducing it."
       ],
-      "explanation": "Private time cost omits the additional delay on other users absent tolls.",
-      "difficulty": 2,
+      "explanation": "Linking premiums to realized claims provides partial observability of effort, improving incentives under asymmetric information.",
+      "difficulty": "medium",
       "topic": [
-        "Externalities"
+        "Asymmetric Information"
       ]
     },
     {
       "id": "mcq_038",
-      "questionText": "Non‑convexities induced by externalities can imply:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
+      "questionText": "What does the Lorenz curve illustrate in income distribution analysis?",
+      "correctAnswer": "It plots the cumulative share of total income against the cumulative share of population ranked by income, showing inequality relative to perfect equality along the 45° line.",
       "distractors": [
-        "mistakenly replaces average under standard assumptions.",
-        "It confuses technological under standard assumptions.",
-        "It treats constraints as slack under standard assumptions."
+        "It plots total income levels by decile without normalizing by population shares, directly revealing poverty but not inequality across groups.",
+        "It displays the distribution of wealth across regions rather than individuals, making it unsuitable for interpersonal inequality measurement.",
+        "It relates income to consumption expenditure, representing Engel curves rather than relative distributional equality."
       ],
-      "explanation": "External effects can make technology sets non‑convex; supporting prices may fail.",
-      "difficulty": 4,
+      "explanation": "The Lorenz curve visually represents inequality by comparing cumulative income shares to a uniform distribution of income.",
+      "difficulty": "easy",
       "topic": [
-        "Externalities"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_039",
-      "questionText": "Internalization by merger (e.g., beekeeper and orchard) can:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "How is the Gini coefficient computed from the Lorenz curve?",
+      "correctAnswer": "It equals twice the area between the Lorenz curve and the line of equality, providing a scalar summary of inequality between 0 and 1.",
       "distractors": [
-        "It equates totals rather than margins, which is not not not the optimality condition.",
-        "mistakenly replaces marginal under standard assumptions in this model.",
-        "mistakenly replaces marginal under standard assumptions."
+        "It equals one minus the Atkinson index for ε = 1, serving as a complementary measure of relative poverty.",
+        "It equals the slope of the Lorenz curve at the median income point, capturing central concentration of income rather than total inequality.",
+        "It equals half the variance of log incomes, approximating inequality only under log-normality of the distribution."
       ],
-      "explanation": "Integration aligns private with social benefits but may introduce monopoly distortions elsewhere.",
-      "difficulty": 3,
+      "explanation": "The Gini coefficient is a standard inequality index derived geometrically from the Lorenz curve as twice the area of deviation from equality.",
+      "difficulty": "easy",
       "topic": [
-        "Externalities"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_040",
-      "questionText": "Bandwagon effects are:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
+      "questionText": "What is the main normative interpretation of Atkinson’s inequality index $A(\\varepsilon)$?",
+      "correctAnswer": "It measures the proportion of total income that society would forgo to achieve equality at the equally distributed equivalent income level, given inequality aversion parameter $\\varepsilon$.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It confuses technological under standard assumptions.",
-        "mistakenly replaces average under standard assumptions."
+        "It measures absolute poverty by comparing mean income to a fixed poverty line independent of inequality aversion.",
+        "It measures the fraction of total income held by the richest decile, standardizing for population size but not for inequality preferences.",
+        "It measures dispersion in log incomes without a welfare interpretation, unlike the Gini coefficient."
       ],
-      "explanation": "Path dependence can sustain suboptimal equilibria if coordination fails.",
-      "difficulty": 3,
+      "explanation": "Atkinson’s measure derives from social welfare functions and indicates welfare loss from inequality given aversion $\\varepsilon$.",
+      "difficulty": "medium",
       "topic": [
-        "Externalities"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_041",
-      "questionText": "The rat‑race game shows that:",
-      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
+      "questionText": "For $\\varepsilon=1$, what is the equally distributed equivalent income used in the Atkinson measure?",
+      "correctAnswer": "It is the geometric mean of individual incomes, reflecting a welfare function with logarithmic utility and moderate inequality aversion.",
       "distractors": [
-        "It equates totals rather than margins.",
-        "mistakenly replaces marginal under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
+        "It is the arithmetic mean of incomes, corresponding to zero inequality aversion and utilitarian aggregation.",
+        "It is the harmonic mean of incomes, representing extreme inequality aversion $(\\varepsilon \\to \\infty)$ in the Atkinson framework.",
+        "It is median income, implying equal social weights for individuals above and below the middle of the distribution."
       ],
-      "explanation": "Mutual escalation yields a prisoner’s‑dilemma‑type inefficiency.",
-      "difficulty": 3,
+      "explanation": "With $\\varepsilon=1$, log-utility aggregation yields the geometric mean as the equally distributed equivalent income.",
+      "difficulty": "medium",
       "topic": [
-        "Externalities"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_042",
-      "questionText": "Compared with Pigouvian taxes, tradable permits:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What distinguishes decomposable poverty measures such as the Foster–Greer–Thorbecke (FGT) indices from non-decomposable ones?",
+      "correctAnswer": "They can be expressed as population-weighted sums of subgroup poverty levels, allowing consistent aggregation across regions or demographic groups.",
       "distractors": [
-        "It confuses technological under standard assumptions in equilibrium.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+        "They assign identical poverty values to all individuals regardless of income shortfall, emphasizing simplicity over decomposition.",
+        "They are scale invariant but not population independent, preventing comparison across differently sized populations.",
+        "They rely on relative poverty lines based on median income rather than absolute thresholds."
       ],
-      "explanation": "Permits set the total emissions cap and let the market discover the price.",
-      "difficulty": 3,
+      "explanation": "FGT indices are additively decomposable, making them useful for policy targeting and subgroup analysis.",
+      "difficulty": "medium",
       "topic": [
-        "Externalities"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_043",
-      "questionText": "Adverse selection occurs when:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
+      "questionText": "What does the poverty-gap ratio measure in welfare analysis?",
+      "correctAnswer": "It gives the mean shortfall of the poor from the poverty line as a proportion of that line, reflecting depth but not inequality among the poor.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins, which is not the optimality condition."
+        "It measures the number of poor individuals as a share of the total population without considering the extent of their deprivation.",
+        "It captures inequality among the entire population rather than only among those below the poverty line.",
+        "It equals the square of the headcount ratio, giving greater weight to extremely poor households."
       ],
-      "explanation": "Type information is private before contracting; pooled terms attract worse types.",
-      "difficulty": 3,
+      "explanation": "The poverty gap measures average proportional shortfall and complements the headcount ratio by adding depth information.",
+      "difficulty": "easy",
       "topic": [
-        "Asymmetric Information"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_044",
-      "questionText": "In Rothschild–Stiglitz screening, the separating equilibrium features:",
-      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
+      "questionText": "According to Atkinson, why is inequality reduction a legitimate policy goal even when it may lower mean income?",
+      "correctAnswer": "Because social welfare depends not only on aggregate income but also on its distribution, and marginal utility of income declines with income under concave social preferences.",
       "distractors": [
-        "mistakenly replaces marginal under standard assumptions.",
-        "Not: it confuses technological under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
+        "Because redistribution automatically increases total output through higher labor supply among the poor, ensuring both efficiency and equity gains.",
+        "Because equality maximizes GDP growth when preferences are convex, implying a direct efficiency-equity equivalence.",
+        "Because reducing inequality always raises utility for all individuals simultaneously, eliminating any trade-off in the social welfare function."
       ],
-      "explanation": "Incentive compatibility forces low‑risk to accept less coverage to deter mimicking.",
-      "difficulty": 4,
+      "explanation": "Diminishing marginal utility implies that redistributing income from rich to poor can increase social welfare even if total income falls.",
+      "difficulty": "hard",
       "topic": [
-        "Asymmetric Information"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_045",
-      "questionText": "Pooling can fail to exist because:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "How does the Pigou–Dalton transfer principle characterize inequality-sensitive measures?",
+      "correctAnswer": "A progressive transfer from a richer to a poorer person that does not reverse their income ranking must reduce measured inequality under any ethically consistent index.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in equilibrium.",
-        "It confuses technological under standard assumptions in this model.",
-        "It equates totals rather than margins, which is not not not the optimality condition."
+        "A transfer between equals has no effect on inequality measures, indicating that all indices are insensitive to distributional changes.",
+        "A regressive transfer that increases the gap between rich and poor reduces inequality in absolute terms when mean income is constant.",
+        "A transfer from a poor to a rich person has the same effect on measured inequality as a transfer in the opposite direction if population size changes."
       ],
-      "explanation": "A nearby contract between indifference curves draws only good risks, making profits.",
-      "difficulty": 4,
+      "explanation": "Ethically consistent inequality measures satisfy the Pigou–Dalton condition: progressive transfers lower inequality indices.",
+      "difficulty": "medium",
       "topic": [
-        "Asymmetric Information"
+        "Inequality and Poverty"
       ]
     },
     {
       "id": "mcq_046",
-      "questionText": "Compulsory insurance in an adverse selection market:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What is the standard measure of the excess burden or deadweight loss from taxation in partial-equilibrium analysis?",
+      "correctAnswer": "It is the area of the Harberger triangle between demand and supply after the tax, proportional to the square of the tax rate times the compensated elasticity of demand.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "mistakenly replaces marginal under standard assumptions in equilibrium.",
-        "It treats constraints as slack under standard assumptions."
+        "It is the total tax revenue collected by the government, representing the direct cost of taxation to consumers.",
+        "It is the entire rectangle under the demand curve at the taxed quantity, representing gross expenditure before tax.",
+        "It is the difference between pre-tax and post-tax equilibrium prices multiplied by total quantity traded, measuring revenue transfers but not efficiency loss."
       ],
-      "explanation": "All are covered; the break‑even premium equals mean loss.",
-      "difficulty": 3,
+      "explanation": "Deadweight loss arises because taxes distort relative prices; for small taxes it increases with the square of the rate and elasticity.",
+      "difficulty": "medium",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_047",
-      "questionText": "In signaling (Spence), a separating equilibrium requires that:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
+      "questionText": "According to Ramsey’s rule for optimal commodity taxation, how should tax rates vary across goods?",
+      "correctAnswer": "They should be inversely proportional to the compensated demand elasticities of goods, taxing inelastic goods more heavily to minimize total excess burden for a given revenue.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins.",
-        "It confuses technological under standard assumptions."
+        "They should be proportional to income elasticity of demand, taxing luxury goods more to achieve redistribution at minimum efficiency cost.",
+        "They should be uniform across all goods to simplify administration, irrespective of behavioral responses or elasticities.",
+        "They should be highest on necessities and lowest on luxuries to equalize consumption shares across income groups."
       ],
-      "explanation": "Single‑crossing ensures low‑type does not mimic the high‑type at chosen e*.",
-      "difficulty": 4,
+      "explanation": "Ramsey’s rule minimizes welfare loss by taxing goods with inelastic compensated demands more heavily, holding revenue constant.",
+      "difficulty": "hard",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_048",
-      "questionText": "A key welfare result of signaling is that:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What is the main trade-off in the design of an optimal income tax according to Mirrlees?",
+      "correctAnswer": "Higher marginal tax rates promote redistribution but reduce incentives to earn income, creating a trade-off between equity and efficiency through labor-supply distortions.",
       "distractors": [
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
-        "mistakenly replaces average under standard assumptions in this model."
+        "Lower marginal tax rates always improve both efficiency and equity because they increase total income available for redistribution.",
+        "Progressive taxes increase efficiency by reducing moral hazard in labor markets, eliminating the equity-efficiency trade-off.",
+        "Uniform flat taxes achieve first-best efficiency while maintaining the same redistributive effect as nonlinear taxes."
       ],
-      "explanation": "If signals do not raise productivity, resources spent on signaling can be wasteful.",
-      "difficulty": 4,
+      "explanation": "Mirrlees (1971) formalized the equity-efficiency trade-off: redistribution must balance equity gains with incentive costs.",
+      "difficulty": "hard",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_049",
-      "questionText": "Moral hazard refers to:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What determines the incidence of a specific tax in a competitive market?",
+      "correctAnswer": "The relative price elasticities of demand and supply: the side that is less elastic bears the greater share of the tax burden regardless of statutory incidence.",
       "distractors": [
-        "It confuses technological under standard assumptions in this model.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "mistakenly replaces marginal under standard assumptions."
+        "The statutory assignment of tax payment between buyers and sellers, which mechanically fixes the distribution of burden.",
+        "The government’s choice of tax base and rate, since behavioral responses are irrelevant in competitive equilibrium.",
+        "The initial level of output and profits in the market, determining the capacity of firms to absorb the tax without price changes."
       ],
-      "explanation": "Effort and precautions are not directly contractible; incentives matter.",
-      "difficulty": 3,
+      "explanation": "Economic incidence depends on elasticities: the less responsive side to price changes bears more of the burden.",
+      "difficulty": "medium",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_050",
-      "questionText": "With unobservable effort in insurance, the second‑best typically offers:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "What condition defines efficiency in commodity taxation according to the inverse elasticity rule?",
+      "correctAnswer": "Marginal deadweight losses per unit of revenue should be equalized across all taxed goods, ensuring that no reallocation of tax rates can reduce welfare loss for the same revenue.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It equates totals rather than margins, which is not not not the optimality condition.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
+        "Total deadweight loss should be minimized by setting zero tax rates on all goods with unitary elasticity of demand.",
+        "Tax rates should equalize average burdens across households regardless of differences in consumption patterns.",
+        "Marginal excess burdens should be lowest for luxury goods to promote vertical equity while maintaining efficiency."
       ],
-      "explanation": "Full coverage removes effort incentives; deductibles restore them.",
-      "difficulty": 4,
+      "explanation": "Equalizing marginal welfare costs across goods is the Ramsey–Boiteux efficiency condition in commodity taxation.",
+      "difficulty": "hard",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_051",
-      "questionText": "In RS insurance, the high‑risk indifference curves are:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "Why are lump-sum taxes rarely used in practice despite their efficiency properties?",
+      "correctAnswer": "Because they are regressive and politically infeasible: they impose the same monetary amount on all individuals regardless of ability to pay, violating equity considerations.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions at the margin.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
+        "Because they distort relative prices between goods, generating deadweight loss greater than that of proportional taxes.",
+        "Because they require individualized information on preferences and income elasticities that is impossible to obtain.",
+        "Because they lead to multiple equilibria in general equilibrium models, making them analytically inconvenient for policymakers."
       ],
-      "explanation": "Higher accident probability raises the MRS toward indemnity in wealth states.",
-      "difficulty": 3,
+      "explanation": "Lump-sum taxes achieve efficiency but conflict with fairness norms, hence rarely implemented in real fiscal systems.",
+      "difficulty": "medium",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_052",
-      "questionText": "Market unraveling in Akerlof’s lemons arises because buyers:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "How does the Laffer curve describe the relationship between tax rates and revenue?",
+      "correctAnswer": "It shows that as tax rates rise from zero, revenue increases up to a peak and then declines as disincentive effects reduce the tax base beyond that point.",
       "distractors": [
-        "It equates totals rather than margins at the margin.",
-        "It confuses technological under standard assumptions.",
-        "It confuses technological under standard assumptions."
+        "It shows that tax revenue always rises with higher rates, since the behavioral response of taxpayers is negligible.",
+        "It shows that government revenue is independent of tax rates under balanced-budget rules, making the curve linear.",
+        "It shows that the marginal excess burden of taxation decreases with higher rates, implying a monotonic increase in welfare losses."
       ],
-      "explanation": "When quality is hidden, prices reflect adverse selection and can collapse the market.",
-      "difficulty": 3,
+      "explanation": "The Laffer curve highlights that excessively high tax rates can reduce total revenue by shrinking the taxable base.",
+      "difficulty": "easy",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_053",
-      "questionText": "Screening menus must satisfy:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "According to optimal top-income tax formulas (Saez, 2001), what factors determine the optimal marginal tax rate at the top of the distribution?",
+      "correctAnswer": "It depends on the elasticity of taxable income with respect to the net-of-tax rate, the Pareto parameter of the income distribution, and the social marginal welfare weight on top earners.",
       "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It confuses technological under standard assumptions in this model."
+        "It depends solely on average income growth and inflation, since behavioral responses of high earners are assumed negligible.",
+        "It depends on total population size and average labor productivity, which determine aggregate taxable capacity rather than behavioral elasticity.",
+        "It depends exclusively on statutory incidence rules, as effective elasticities are irrelevant in the upper tail of the distribution."
       ],
-      "explanation": "Types must prefer their designated contracts and accept them voluntarily.",
-      "difficulty": 3,
+      "explanation": "Saez derived a closed-form top-rate formula combining elasticity, inequality, and social weights to balance efficiency and equity.",
+      "difficulty": "very hard",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_054",
-      "questionText": "‘No‑claim bonuses’ in insurance primarily address:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "questionText": "Why do behavioral responses matter for evaluating tax policy efficiency?",
+      "correctAnswer": "Because individuals adjust labor supply, savings, and avoidance behavior in response to taxation, so ignoring elasticities misstates both revenue and welfare effects.",
       "distractors": [
-        "It confuses technological under standard assumptions in equilibrium.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "Not: it treats constraints as slack under standard assumptions."
+        "Because behavioral responses only affect administrative costs and have no influence on revenue collection or efficiency.",
+        "Because behavioral responses are perfectly offset by government spending multipliers, neutralizing their efficiency impact.",
+        "Because behavioral responses reduce total utility uniformly across taxpayers, simplifying welfare comparisons across policies."
       ],
-      "explanation": "Linking premiums to realized claims raises the shadow price of risky behavior.",
-      "difficulty": 3,
+      "explanation": "Efficiency analysis must incorporate elasticities since behavioral adjustments determine actual revenue and deadweight loss.",
+      "difficulty": "medium",
       "topic": [
-        "Asymmetric Information"
+        "Taxation and Redistribution"
       ]
     },
     {
       "id": "mcq_055",
-      "questionText": "Government provision of basic health insurance can:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in equilibrium.",
+      "questionText": "What does the concept of 'libertarian paternalism' propose in behavioral public policy?",
+      "correctAnswer": "That governments can design choice architectures which steer individuals toward welfare-improving decisions while preserving freedom to choose otherwise.",
       "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins, which is not the optimality condition."
+        "That public policy should replace individual choice entirely with expert mandates to maximize social welfare.",
+        "That only non-interventionist laissez-faire policies are consistent with rational-choice theory and individual autonomy.",
+        "That coercive paternalism using fines and bans is necessary to correct all behavioral anomalies observed in experiments."
       ],
-      "explanation": "Compulsory participation avoids pooling breakdown; co‑pays still needed for effort.",
-      "difficulty": 3,
+      "explanation": "Thaler and Sunstein (2008) propose that nudges preserve freedom of choice while correcting predictable decision biases.",
+      "difficulty": "medium",
       "topic": [
-        "Asymmetric Information"
+        "Behavioral Economics and Policy"
       ]
     },
     {
       "id": "mcq_056",
-      "questionText": "In a screening model, raising the informational rent of the high type:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "questionText": "Why do default options exert strong influence on behavior according to behavioral economics?",
+      "correctAnswer": "Because individuals exhibit inertia and interpret defaults as implicit recommendations, leading many to accept the preset option even when alternatives exist.",
       "distractors": [
-        "It confuses technological under standard assumptions in this model.",
-        "It confuses technological under standard assumptions in equilibrium.",
-        "It equates totals rather than margins, which is not the optimality condition."
+        "Because individuals always evaluate all available options fully and choose the one with the highest expected utility irrespective of framing.",
+        "Because defaults directly change preferences through monetary incentives, altering underlying utility functions rather than choices.",
+        "Because individuals distrust default settings and systematically choose the opposite option as a form of reactance to policy intervention."
       ],
-      "explanation": "A standard trade‑off: distort the low type to separate, leaving rent to the high type.",
-      "difficulty": 4,
+      "explanation": "Empirical evidence shows large default effects driven by status-quo bias and implied endorsement.",
+      "difficulty": "medium",
       "topic": [
-        "Asymmetric Information"
+        "Behavioral Economics and Policy"
       ]
     },
     {
       "id": "mcq_057",
-      "questionText": "The Lorenz curve plots:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
+      "questionText": "What mechanism makes the 'Save More Tomorrow' program effective for increasing retirement savings?",
+      "correctAnswer": "It uses commitment and inertia by pre-scheduling future contribution increases tied to pay raises, aligning intentions with behavior without reducing current consumption.",
       "distractors": [
-        "mistakenly replaces marginal under standard assumptions in this model by construction at the margin.",
-        "It confuses technological under standard assumptions in equilibrium.",
-        "mistakenly replaces marginal under standard assumptions."
+        "It mandates compulsory savings contributions regardless of worker preferences, ensuring uniform retirement outcomes across income groups.",
+        "It offers one-time bonuses for saving immediately, relying on pure financial incentives rather than behavioral commitment mechanisms.",
+        "It replaces voluntary saving with automatic payroll taxes that fully fund pensions through redistribution from high to low earners."
       ],
-      "explanation": "Perfect equality is the 45° line; deviations measure dispersion.",
-      "difficulty": 2,
+      "explanation": "Thaler and Benartzi’s program leverages self-control and default escalation to improve long-term savings behavior.",
+      "difficulty": "medium",
       "topic": [
-        "Inequality and Poverty"
+        "Behavioral Economics and Policy"
       ]
     },
     {
       "id": "mcq_058",
-      "questionText": "The Gini coefficient equals:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "What does 'bounded rationality' imply for traditional welfare analysis?",
+      "correctAnswer": "That individuals face cognitive and informational limits, so observed choices may deviate systematically from utility maximization, challenging welfare conclusions based solely on revealed preferences.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum.",
-        "It treats constraints as slack under standard assumptions in this model."
+        "That individuals always optimize perfectly given complete information, reinforcing the reliability of revealed preferences in policy design.",
+        "That preferences are random and unpredictable, rendering welfare analysis and public policy impossible in any form.",
+        "That bounded rationality applies only to firms but not consumers, since market competition eliminates cognitive biases in consumption."
       ],
-      "explanation": "A common relative inequality measure bounded between 0 and 1.",
-      "difficulty": 3,
+      "explanation": "Behavioral models recognize systematic deviations from full rationality, implying that observed behavior may not reveal true welfare preferences.",
+      "difficulty": "hard",
       "topic": [
-        "Inequality and Poverty"
+        "Behavioral Economics and Policy"
       ]
     },
     {
       "id": "mcq_059",
-      "questionText": "Atkinson’s index A(ε) captures:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions.",
+      "questionText": "How do framing effects challenge the assumption of stable preferences?",
+      "correctAnswer": "Because individuals’ choices can depend on how options are presented or labeled, even when the underlying outcomes are identical, violating invariance of preferences.",
       "distractors": [
-        "Not: it treats constraints as slack under standard assumptions.",
-        "It confuses technological under standard assumptions at the margin.",
-        "Not: it treats constraints as slack under standard assumptions."
+        "Because framing only changes transaction costs of acquiring goods, leaving underlying preferences and utility unchanged.",
+        "Because framing effects occur only in laboratory settings and disappear when individuals make decisions with real stakes.",
+        "Because framing reflects random error in survey responses rather than systematic deviations from expected utility theory."
       ],
-      "explanation": "A(ε) = 1 − y_EDE / mean; higher ε raises weight on the poor.",
-      "difficulty": 4,
+      "explanation": "Different presentations of identical choices can lead to reversals, showing that preferences are context-dependent.",
+      "difficulty": "medium",
       "topic": [
-        "Inequality and Poverty"
+        "Behavioral Economics and Policy"
       ]
     },
     {
       "id": "mcq_060",
-      "questionText": "For ε=1, the equally distributed equivalent income equals:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
+      "questionText": "Why can 'nudges' such as energy-usage feedback reduce consumption effectively?",
+      "correctAnswer": "Because they provide salient social comparisons and timely information, leveraging norms and attention rather than monetary incentives to change behavior.",
       "distractors": [
-        "mistakenly replaces marginal under standard assumptions in this model.",
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "mistakenly replaces marginal under standard assumptions."
+        "Because they impose financial penalties for high consumption, relying on price signals rather than behavioral cues.",
+        "Because they eliminate heterogeneity in preferences, standardizing all consumers’ energy demand through coercive rules.",
+        "Because they guarantee immediate habit change by replacing individual decisions with automated controls of energy systems."
       ],
-      "explanation": "With ε→1, EDE = (∏ y_i)^{1/n}, reflecting log utility aggregation.",
-      "difficulty": 4,
+      "explanation": "Feedback combined with social norms exploits cognitive biases and social motivations to achieve conservation without coercion.",
+      "difficulty": "easy",
       "topic": [
-        "Inequality and Poverty"
+        "Behavioral Economics and Policy"
       ]
     },
     {
       "id": "mcq_061",
-      "questionText": "A decomposable poverty measure allows:",
-      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "questionText": "What ethical concern arises in the use of behavioral nudges by policymakers?",
+      "correctAnswer": "That influencing choices through framing or defaults may manipulate individuals without their awareness, raising transparency and autonomy issues.",
       "distractors": [
-        "It equates totals rather than margins.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It treats constraints as slack under standard assumptions."
+        "That nudges rely on financial coercion and mandatory sanctions, conflicting with fiscal neutrality principles in taxation.",
+        "That nudges always increase administrative costs relative to traditional regulatory approaches, reducing overall policy efficiency.",
+        "That nudges apply only to corporate actors rather than individuals, limiting their ethical relevance in public-sector decision-making."
       ],
-      "explanation": "FGT measures are additively decomposable by population partitions.",
-      "difficulty": 3,
+      "explanation": "Critics argue that covert influence can compromise autonomy unless interventions are transparent and easily avoidable.",
+      "difficulty": "hard",
       "topic": [
-        "Inequality and Poverty"
+        "Behavioral Economics and Policy"
       ]
     },
     {
       "id": "mcq_062",
-      "questionText": "The FGT index with α=0 equals:",
-      "correctAnswer": "It confuses technological under standard assumptions in this model.",
+      "questionText": "What differentiates 'System 1' and 'System 2' thinking in the dual-process framework used in behavioral economics?",
+      "correctAnswer": "System 1 operates quickly and automatically using heuristics, whereas System 2 is slower, deliberative, and analytical, engaging in effortful reasoning when attention is available.",
       "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "mistakenly replaces marginal under standard assumptions."
+        "System 1 corresponds to rational deliberation, while System 2 reflects emotional impulses that bypass logic under stress.",
+        "System 1 and System 2 are alternative economic equilibria rather than cognitive processes, describing different market structures.",
+        "System 1 involves collective decision-making by institutions, while System 2 represents individual household optimization."
       ],
-      "explanation": "α tunes sensitivity to depth: 0=headcount, 1=gap, 2=severity.",
-      "difficulty": 2,
-      "topic": [
-        "Inequality and Poverty"
-      ]
-    },
-    {
-      "id": "mcq_063",
-      "questionText": "The poverty gap ratio measures:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in this model.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions.",
-        "It equates totals rather than margins.",
-        "It treats constraints as slack under standard assumptions."
-      ],
-      "explanation": "Captures depth but not inequality among the poor.",
-      "difficulty": 3,
-      "topic": [
-        "Inequality and Poverty"
-      ]
-    },
-    {
-      "id": "mcq_064",
-      "questionText": "The Gini social welfare function can be written as:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "mistakenly replaces marginal under standard assumptions in equilibrium.",
-        "mistakenly replaces marginal under standard assumptions."
-      ],
-      "explanation": "A reduced‑form mapping combining equality and average income.",
-      "difficulty": 3,
-      "topic": [
-        "Inequality and Poverty"
-      ]
-    },
-    {
-      "id": "mcq_065",
-      "questionText": "Moving mass from a rich to a poorer person without crossing incomes:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
-      "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "Not: it treats constraints as slack under standard assumptions."
-      ],
-      "explanation": "A progressive transfer that preserves ranks must lower inequality for Schur‑convex measures.",
-      "difficulty": 3,
-      "topic": [
-        "Inequality and Poverty"
-      ]
-    },
-    {
-      "id": "mcq_066",
-      "questionText": "Relative poverty lines (e.g., 60% of median):",
-      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions.",
-        "It treats constraints as slack under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions."
-      ],
-      "explanation": "These lines move as society’s income changes, reflecting social standards.",
-      "difficulty": 2,
-      "topic": [
-        "Inequality and Poverty"
-      ]
-    },
-    {
-      "id": "mcq_067",
-      "questionText": "Atkinson’s A(ε) increases when:",
-      "correctAnswer": "It equates totals rather than margins.",
-      "distractors": [
-        "Mean income rises with the distribution unchanged.",
-        "mistakenly replaces marginal under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions."
-      ],
-      "explanation": "Higher dispersion reduces the equally distributed equivalent income.",
-      "difficulty": 3,
-      "topic": [
-        "Inequality and Poverty"
-      ]
-    },
-    {
-      "id": "mcq_068",
-      "questionText": "Decomposing poverty by subgroup helps policymakers because it:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It confuses technological under standard assumptions."
-      ],
-      "explanation": "Group shares times group poverty reveal contribution to total poverty.",
-      "difficulty": 2,
-      "topic": [
-        "Inequality and Poverty"
-      ]
-    },
-    {
-      "id": "mcq_069",
-      "questionText": "Deadweight loss from a small ad valorem tax is approximately:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "mistakenly replaces marginal under standard assumptions in equilibrium.",
-        "It confuses technological under standard assumptions."
-      ],
-      "explanation": "Standard Harberger triangle result for small taxes.",
-      "difficulty": 4,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_070",
-      "questionText": "Ramsey’s rule for optimal commodity taxes suggests taxing:",
-      "correctAnswer": "It equates totals rather than margins at the margin.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions.",
-        "It confuses technological under standard assumptions.",
-        "It equates totals rather than margins."
-      ],
-      "explanation": "Minimize excess burden subject to revenue by taxing inelastic bases.",
-      "difficulty": 4,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_071",
-      "questionText": "The equity–efficiency trade‑off in income taxation captures that:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions in this model.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It treats constraints as slack under standard assumptions."
-      ],
-      "explanation": "Raising redistribution changes net wages and hours supplied.",
-      "difficulty": 3,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_072",
-      "questionText": "With linear labor supply and quasilinear utility, a head tax:",
-      "correctAnswer": "It equates totals rather than margins, which is not the optimality condition.",
-      "distractors": [
-        "It equates totals rather than margins, which is not not not the optimality condition.",
-        "It confuses technological under standard assumptions in this model.",
-        "It equates totals rather than margins, which is not not not the optimality condition."
-      ],
-      "explanation": "It is non‑distortionary but regressive; rarely feasible politically.",
-      "difficulty": 3,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_073",
-      "questionText": "Tax salience matters because:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
-      "distractors": [
-        "It confuses technological under standard assumptions in equilibrium.",
-        "mistakenly replaces marginal under standard assumptions.",
-        "Not: it reverses the direction of the relevant inequality at the candidate optimum."
-      ],
-      "explanation": "Behavioral evidence shows lower perceived price changes reduce avoidance.",
-      "difficulty": 3,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_074",
-      "questionText": "In optimal income tax, the marginal tax rate at the top depends on:",
-      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
-      "distractors": [
-        "mistakenly replaces marginal under standard assumptions.",
-        "Not: it confuses technological under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
-      ],
-      "explanation": "Saez formula: τ* ≈ (1 − g) / (1 − g + a·e), linking social weights and elasticities.",
-      "difficulty": 4,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_075",
-      "questionText": "Tax evasion models predict higher evasion when:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
-      "distractors": [
-        "It confuses technological under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
-      ],
-      "explanation": "Expected cost of evasion shapes compliance decisions.",
-      "difficulty": 3,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_076",
-      "questionText": "With commodity taxation and producer pricing, the efficiency condition is:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions.",
-      "distractors": [
-        "Not: it treats constraints as slack under standard assumptions.",
-        "It confuses technological under standard assumptions in equilibrium.",
-        "mistakenly replaces marginal under standard assumptions."
-      ],
-      "explanation": "Equalize the marginal welfare cost per euro of revenue across bases.",
-      "difficulty": 4,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_077",
-      "questionText": "A well‑designed carbon tax is:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in this model.",
-      "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It equates totals rather than margins, which is not the optimality condition."
-      ],
-      "explanation": "Prices the externality directly and lets markets discover abatement.",
-      "difficulty": 3,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_078",
-      "questionText": "Incidence analysis focuses on:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions in equilibrium.",
-      "distractors": [
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It treats constraints as slack under standard assumptions.",
-        "It equates totals rather than margins, which is not the optimality condition."
-      ],
-      "explanation": "Supply and demand elasticities shift burdens irrespective of remittance.",
-      "difficulty": 2,
-      "topic": [
-        "Taxation"
-      ]
-    },
-    {
-      "id": "mcq_079",
-      "questionText": "Libertarian paternalism advocates:",
-      "correctAnswer": "It confuses technological under standard assumptions at the margin.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "mistakenly replaces marginal under standard assumptions."
-      ],
-      "explanation": "Design the choice architecture while preserving freedom to opt out.",
-      "difficulty": 3,
-      "topic": [
-        "Behavioral Economics and Policy"
-      ]
-    },
-    {
-      "id": "mcq_080",
-      "questionText": "A powerful default effect arises because:",
-      "correctAnswer": "It confuses technological under standard assumptions in equilibrium.",
-      "distractors": [
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "Not: it confuses technological under standard assumptions.",
-        "mistakenly replaces marginal under standard assumptions."
-      ],
-      "explanation": "Auto‑enrollment raises savings; opt‑out rates are low without active choice.",
-      "difficulty": 3,
-      "topic": [
-        "Behavioral Economics and Policy"
-      ]
-    },
-    {
-      "id": "mcq_081",
-      "questionText": "‘Save More Tomorrow’ works by:",
-      "correctAnswer": "mistakenly replaces marginal under standard assumptions at the margin.",
-      "distractors": [
-        "It confuses technological under standard assumptions.",
-        "It equates totals rather than margins.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
-      ],
-      "explanation": "Aligns self‑control with timing; raises savings with low opt‑out.",
-      "difficulty": 3,
-      "topic": [
-        "Behavioral Economics and Policy"
-      ]
-    },
-    {
-      "id": "mcq_082",
-      "questionText": "Mandated choice for organ donation means:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in equilibrium.",
-      "distractors": [
-        "mistakenly replaces marginal under standard assumptions in this model.",
-        "It equates totals rather than margins, which is not the optimality condition.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
-      ],
-      "explanation": "Forces active decision while preserving autonomy.",
-      "difficulty": 2,
-      "topic": [
-        "Behavioral Economics and Policy"
-      ]
-    },
-    {
-      "id": "mcq_083",
-      "questionText": "Feedback nudges (e.g., energy bills with neighbor comparisons) can:",
-      "correctAnswer": "It treats constraints as slack under standard assumptions in equilibrium.",
-      "distractors": [
-        "mistakenly replaces marginal under standard assumptions in this model.",
-        "It reverses the direction of the relevant inequality at the candidate optimum.",
-        "It reverses the direction of the relevant inequality at the candidate optimum."
-      ],
-      "explanation": "Descriptive norms and clear metrics shift behavior at low cost.",
-      "difficulty": 3,
-      "topic": [
-        "Behavioral Economics and Policy"
-      ]
-    },
-    {
-      "id": "mcq_084",
-      "questionText": "A good choice architecture expects error by:",
-      "correctAnswer": "It reverses the direction of the relevant inequality at the candidate optimum.",
-      "distractors": [
-        "It treats constraints as slack under standard assumptions in this model by construction.",
-        "mistakenly replaces marginal under standard assumptions in equilibrium.",
-        "It confuses technological under standard assumptions."
-      ],
-      "explanation": "Error‑tolerant interfaces (like clear card readers) reduce mistakes.",
-      "difficulty": 3,
+      "explanation": "Kahneman’s dual-process theory distinguishes intuitive automatic cognition from reflective reasoning in explaining behavioral deviations.",
+      "difficulty": "medium",
       "topic": [
         "Behavioral Economics and Policy"
       ]
