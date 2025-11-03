@@ -1,4 +1,5 @@
 {
+  "$schema": "../js/quiz-schema.json",
   "title": "Public Economics and Policy – Exam Preparation",
   "shorttitle": "UU Public Policy",
   "questions": [
@@ -12,7 +13,7 @@
         "Each consumer’s marginal utility of income is equalized across goods, guaranteeing budget exhaustion but not necessarily $MRS_A = MRS_B$."
       ],
       "explanation": "Tangency of indifference curves ensures equal marginal rates of substitution across consumers, exhausting all mutually beneficial trades.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -27,7 +28,7 @@
         "When externalities and public goods are pervasive yet prices adjust freely, ensuring that private and social marginal valuations automatically coincide in equilibrium."
       ],
       "explanation": "Perfect competition with convex preferences and technologies yields Pareto efficiency because private optimization aligns with social welfare maximization.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -42,7 +43,7 @@
         "Non-convexities in preferences ensure that decentralization works without any redistribution, making lump-sum transfers unnecessary for achieving efficiency."
       ],
       "explanation": "Convexity permits a separation between efficiency and equity: appropriate endowment transfers can implement any efficient point through market prices.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -57,7 +58,7 @@
         "It implies that equilibrium in one market automatically causes proportional equilibrium in all others, regardless of agents’ budget constraints or the numéraire choice."
       ],
       "explanation": "Because the sum of value-weighted excess demands equals zero, clearing in all but one market implies that the final market must also clear.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -72,7 +73,7 @@
         "The set of all initial endowments that produce identical marginal utilities across goods, which need not correspond to Pareto-optimal allocations."
       ],
       "explanation": "Tangency of indifference curves ensures identical $MRS$ and mutual efficiency; points off the curve allow beneficial exchanges.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -87,7 +88,7 @@
         "Variable, depending on the choice of numéraire and normalization of prices, since profit levels are measured in relative rather than absolute terms."
       ],
       "explanation": "With constant returns, input payments exhaust output value; thus pure profits vanish in equilibrium under competition.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -102,7 +103,7 @@
         "Total output is maximized when marginal cost equals marginal revenue in every market, a condition for firm equilibrium but not necessarily social efficiency."
       ],
       "explanation": "Efficiency requires equality of transformation and substitution rates so that marginal willingness to trade equals marginal opportunity cost.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -117,7 +118,7 @@
         "Because they equate post-tax incomes across individuals, directly achieving both horizontal and vertical equity while maintaining efficiency."
       ],
       "explanation": "A lump-sum tax is independent of behavior and hence does not affect marginal decisions, achieving redistribution at zero deadweight loss.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -132,7 +133,7 @@
         "They make consumers indifferent across all bundles, eliminating optimization and automatically producing market-clearing allocations."
       ],
       "explanation": "Convexity ensures supporting prices exist; when it fails, demand discontinuities can generate multiple or no equilibria.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -147,7 +148,7 @@
         "It includes all allocations where $MRS_A \\neq MRS_B$, implying potential but unrealized gains from trade within the Edgeworth box."
       ],
       "explanation": "Core allocations are both efficient and individually rational; no subset of agents can improve upon them by reallocating their own endowments.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Equilibrium and Efficiency"
       ]
@@ -162,7 +163,7 @@
         "Rivalry but non-excludability, describing common resources such as fisheries where congestion occurs though exclusion is costly."
       ],
       "explanation": "A pure public good is both non-rival and non-excludable, so private markets underprovide it relative to efficiency.",
-      "difficulty": "very easy",
+      "difficulty": 1,
       "topic": [
         "Public Goods"
       ]
@@ -177,7 +178,7 @@
         "The average of individual $MRS_i$ equals $MRT$, implying equal cost sharing rather than the true sum required for social optimality."
       ],
       "explanation": "Because all consumers enjoy the same quantity of a public good, efficiency requires adding their valuations horizontally.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Public Goods"
       ]
@@ -192,7 +193,7 @@
         "Because preferences for public goods are additive across consumers, causing duplication of efforts in voluntary markets."
       ],
       "explanation": "Free riding results from non-excludability: individuals hope others will pay for the good while still benefiting from it.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Public Goods"
       ]
@@ -207,7 +208,7 @@
         "Each faces the same unit price, so aggregate demand directly determines provision without requiring personalized cost shares."
       ],
       "explanation": "Personalized prices align individual marginal benefits with marginal costs, achieving efficient provision if truthfully revealed.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Public Goods"
       ]
@@ -222,7 +223,7 @@
         "Because it allocates provision levels through majority voting rather than voluntary revelation, making it dependent on median preferences."
       ],
       "explanation": "Agents strategically understate valuations since their payment depends on the reported benefit, undermining truthful revelation.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Public Goods"
       ]
@@ -237,7 +238,7 @@
         "If voters have multidimensional preferences, the median rule continues to select the socially optimal allocation in all cases."
       ],
       "explanation": "Majority voting yields the median voter’s most preferred level, which is only efficient under restrictive symmetry assumptions.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Public Goods"
       ]
@@ -252,7 +253,7 @@
         "A club good is rival and excludable, identical to a private good traded in perfectly competitive markets."
       ],
       "explanation": "Club goods lie between private and public goods; exclusion is feasible, but use is joint until capacity limits bind.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Public Goods"
       ]
@@ -267,7 +268,7 @@
         "Redistribution leaves provision unchanged only when preferences differ strongly, since identical preferences amplify income effects."
       ],
       "explanation": "In the Warr model, one donor’s reduced contribution is exactly offset by another’s increase, leaving aggregate provision invariant.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Public Goods"
       ]
@@ -282,7 +283,7 @@
         "Each individual faces an individual price for the public good, equating their $MRS_i$ with $MRT$ and ensuring the socially optimal level."
       ],
       "explanation": "In Nash equilibrium, contributors ignore the marginal benefits to others, producing an underprovision relative to the Samuelson rule.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Public Goods"
       ]
@@ -297,7 +298,7 @@
         "A pecuniary externality changes the slope of the transformation frontier by modifying technology rather than prices."
       ],
       "explanation": "Technological externalities shift utility or production functions directly, generating inefficiencies, whereas pecuniary ones work via price effects only.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Externalities"
       ]
@@ -312,7 +313,7 @@
         "The market achieves the optimal level automatically when pollution taxes are set to zero since agents internalize external costs voluntarily."
       ],
       "explanation": "With a negative externality, private decisions omit external damages, causing overproduction relative to the socially efficient quantity.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Externalities"
       ]
@@ -327,7 +328,7 @@
         "A lump-sum tax on producers proportional to profits, which reduces emissions uniformly regardless of marginal damages."
       ],
       "explanation": "The optimal Pigouvian tax equals the marginal harm caused by the last unit of output, internalizing the externality at the margin.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Externalities"
       ]
@@ -342,7 +343,7 @@
         "Efficiency depends solely on equal wealth distribution, because without income equality Coasian bargaining fails to reach a Pareto improvement."
       ],
       "explanation": "The theorem shows that efficiency depends on the ability to bargain, not on the assignment of rights, provided transactions are costless.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Externalities"
       ]
@@ -357,7 +358,7 @@
         "When administrative simplicity requires fixed emission limits rather than flexible taxes, regardless of uncertainty in marginal costs."
       ],
       "explanation": "Weitzman (1974) showed that under cost uncertainty, taxes dominate when the marginal benefit curve is flatter than the marginal cost curve.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Externalities"
       ]
@@ -372,7 +373,7 @@
         "Because technological progress lowers costs so much that equilibrium harvests fall below efficient levels despite open access."
       ],
       "explanation": "In open access, each user internalizes only private returns, ignoring marginal crowding costs; aggregate effort exceeds the efficient level.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Externalities"
       ]
@@ -387,7 +388,7 @@
         "Non-convexities only alter equity outcomes but leave Pareto efficiency unaffected because utility functions remain monotonic."
       ],
       "explanation": "External effects can make the feasible set non-convex, invalidating the separating hyperplane theorems that underpin equilibrium existence proofs.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Externalities"
       ]
@@ -402,7 +403,7 @@
         "Tradable permits redistribute wealth among firms without improving efficiency relative to unregulated markets since total emissions remain fixed exogenously."
       ],
       "explanation": "Quantity-based control with trading equalizes marginal abatement costs and ensures that total emissions meet a predetermined cap efficiently.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Externalities"
       ]
@@ -417,7 +418,7 @@
         "Low-risk individuals purchase more insurance because they face higher expected damages under symmetric information."
       ],
       "explanation": "Adverse selection arises from hidden information before contracting, where risky types self-select into more generous insurance contracts.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Asymmetric Information"
       ]
@@ -432,7 +433,7 @@
         "Each type chooses the same coverage level but different premiums, producing a pooling equilibrium that eliminates information rents."
       ],
       "explanation": "Separation relies on incentive compatibility: low-risk agents accept less coverage so high-risk agents do not mimic them.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Asymmetric Information"
       ]
@@ -447,7 +448,7 @@
         "Because expected utility for all types is maximized under pooling, leaving no incentive for deviation by either firms or individuals."
       ],
       "explanation": "With asymmetric information, small deviations targeting low-risk individuals destroy the viability of the pooling contract.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Asymmetric Information"
       ]
@@ -462,7 +463,7 @@
         "It eliminates the need for risk classification entirely, achieving efficiency by ignoring heterogeneity across agents."
       ],
       "explanation": "Mandating participation ensures risk pooling and prevents the withdrawal of low-risk individuals that would collapse voluntary markets.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Asymmetric Information"
       ]
@@ -477,7 +478,7 @@
         "Because education costs are identical across workers, ensuring that both types choose the same schooling level and wages are equalized."
       ],
       "explanation": "Cost differences across types make education credible as a signal even if it does not raise productivity itself.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Asymmetric Information"
       ]
@@ -492,7 +493,7 @@
         "They are equivalent to pooling equilibria in welfare terms because education expenditures are fully compensated by wage differentials."
       ],
       "explanation": "Signaling can allocate resources to socially wasteful activities that separate types without increasing total output.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Asymmetric Information"
       ]
@@ -507,7 +508,7 @@
         "Moral hazard and adverse selection are identical phenomena that lead to the same equilibrium contract under competitive conditions."
       ],
       "explanation": "Timing distinguishes the two: adverse selection is pre-contractual hidden information; moral hazard is post-contractual hidden action.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Asymmetric Information"
       ]
@@ -522,7 +523,7 @@
         "Because full insurance requires lump-sum transfers that violate the zero-profit constraint under competition, making it infeasible even with observable effort."
       ],
       "explanation": "Partial coverage preserves incentives by linking outcomes to effort; full insurance would destroy the agent’s motivation to avoid loss.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Asymmetric Information"
       ]
@@ -537,7 +538,7 @@
         "They act purely as administrative devices without influencing incentives or the distribution of risk across agents."
       ],
       "explanation": "Cost sharing mitigates hidden-action problems by aligning the insured’s incentives with efficient care-taking behavior.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Asymmetric Information"
       ]
@@ -552,7 +553,7 @@
         "They subsidize risky behavior by spreading losses across all insured parties, amplifying moral hazard rather than reducing it."
       ],
       "explanation": "Linking premiums to realized claims provides partial observability of effort, improving incentives under asymmetric information.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Asymmetric Information"
       ]
@@ -567,7 +568,7 @@
         "It relates income to consumption expenditure, representing Engel curves rather than relative distributional equality."
       ],
       "explanation": "The Lorenz curve visually represents inequality by comparing cumulative income shares to a uniform distribution of income.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -582,7 +583,7 @@
         "It equals half the variance of log incomes, approximating inequality only under log-normality of the distribution."
       ],
       "explanation": "The Gini coefficient is a standard inequality index derived geometrically from the Lorenz curve as twice the area of deviation from equality.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -597,7 +598,7 @@
         "It measures dispersion in log incomes without a welfare interpretation, unlike the Gini coefficient."
       ],
       "explanation": "Atkinson’s measure derives from social welfare functions and indicates welfare loss from inequality given aversion $\\varepsilon$.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -612,7 +613,7 @@
         "It is median income, implying equal social weights for individuals above and below the middle of the distribution."
       ],
       "explanation": "With $\\varepsilon=1$, log-utility aggregation yields the geometric mean as the equally distributed equivalent income.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -627,7 +628,7 @@
         "They rely on relative poverty lines based on median income rather than absolute thresholds."
       ],
       "explanation": "FGT indices are additively decomposable, making them useful for policy targeting and subgroup analysis.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -642,7 +643,7 @@
         "It equals the square of the headcount ratio, giving greater weight to extremely poor households."
       ],
       "explanation": "The poverty gap measures average proportional shortfall and complements the headcount ratio by adding depth information.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -657,7 +658,7 @@
         "Because reducing inequality always raises utility for all individuals simultaneously, eliminating any trade-off in the social welfare function."
       ],
       "explanation": "Diminishing marginal utility implies that redistributing income from rich to poor can increase social welfare even if total income falls.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -672,7 +673,7 @@
         "A transfer from a poor to a rich person has the same effect on measured inequality as a transfer in the opposite direction if population size changes."
       ],
       "explanation": "Ethically consistent inequality measures satisfy the Pigou–Dalton condition: progressive transfers lower inequality indices.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Inequality and Poverty"
       ]
@@ -687,7 +688,7 @@
         "It is the difference between pre-tax and post-tax equilibrium prices multiplied by total quantity traded, measuring revenue transfers but not efficiency loss."
       ],
       "explanation": "Deadweight loss arises because taxes distort relative prices; for small taxes it increases with the square of the rate and elasticity.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -702,7 +703,7 @@
         "They should be highest on necessities and lowest on luxuries to equalize consumption shares across income groups."
       ],
       "explanation": "Ramsey’s rule minimizes welfare loss by taxing goods with inelastic compensated demands more heavily, holding revenue constant.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -717,7 +718,7 @@
         "Uniform flat taxes achieve first-best efficiency while maintaining the same redistributive effect as nonlinear taxes."
       ],
       "explanation": "Mirrlees (1971) formalized the equity-efficiency trade-off: redistribution must balance equity gains with incentive costs.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -732,7 +733,7 @@
         "The initial level of output and profits in the market, determining the capacity of firms to absorb the tax without price changes."
       ],
       "explanation": "Economic incidence depends on elasticities: the less responsive side to price changes bears more of the burden.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -747,7 +748,7 @@
         "Marginal excess burdens should be lowest for luxury goods to promote vertical equity while maintaining efficiency."
       ],
       "explanation": "Equalizing marginal welfare costs across goods is the Ramsey–Boiteux efficiency condition in commodity taxation.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -762,7 +763,7 @@
         "Because they lead to multiple equilibria in general equilibrium models, making them analytically inconvenient for policymakers."
       ],
       "explanation": "Lump-sum taxes achieve efficiency but conflict with fairness norms, hence rarely implemented in real fiscal systems.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -777,7 +778,7 @@
         "It shows that the marginal excess burden of taxation decreases with higher rates, implying a monotonic increase in welfare losses."
       ],
       "explanation": "The Laffer curve highlights that excessively high tax rates can reduce total revenue by shrinking the taxable base.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -792,7 +793,7 @@
         "It depends exclusively on statutory incidence rules, as effective elasticities are irrelevant in the upper tail of the distribution."
       ],
       "explanation": "Saez derived a closed-form top-rate formula combining elasticity, inequality, and social weights to balance efficiency and equity.",
-      "difficulty": "very hard",
+      "difficulty": 5,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -807,7 +808,7 @@
         "Because behavioral responses reduce total utility uniformly across taxpayers, simplifying welfare comparisons across policies."
       ],
       "explanation": "Efficiency analysis must incorporate elasticities since behavioral adjustments determine actual revenue and deadweight loss.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Taxation and Redistribution"
       ]
@@ -822,7 +823,7 @@
         "That coercive paternalism using fines and bans is necessary to correct all behavioral anomalies observed in experiments."
       ],
       "explanation": "Thaler and Sunstein (2008) propose that nudges preserve freedom of choice while correcting predictable decision biases.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Behavioral Economics and Policy"
       ]
@@ -837,7 +838,7 @@
         "Because individuals distrust default settings and systematically choose the opposite option as a form of reactance to policy intervention."
       ],
       "explanation": "Empirical evidence shows large default effects driven by status-quo bias and implied endorsement.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Behavioral Economics and Policy"
       ]
@@ -852,7 +853,7 @@
         "It replaces voluntary saving with automatic payroll taxes that fully fund pensions through redistribution from high to low earners."
       ],
       "explanation": "Thaler and Benartzi’s program leverages self-control and default escalation to improve long-term savings behavior.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Behavioral Economics and Policy"
       ]
@@ -867,7 +868,7 @@
         "That bounded rationality applies only to firms but not consumers, since market competition eliminates cognitive biases in consumption."
       ],
       "explanation": "Behavioral models recognize systematic deviations from full rationality, implying that observed behavior may not reveal true welfare preferences.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Behavioral Economics and Policy"
       ]
@@ -882,7 +883,7 @@
         "Because framing reflects random error in survey responses rather than systematic deviations from expected utility theory."
       ],
       "explanation": "Different presentations of identical choices can lead to reversals, showing that preferences are context-dependent.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Behavioral Economics and Policy"
       ]
@@ -897,7 +898,7 @@
         "Because they guarantee immediate habit change by replacing individual decisions with automated controls of energy systems."
       ],
       "explanation": "Feedback combined with social norms exploits cognitive biases and social motivations to achieve conservation without coercion.",
-      "difficulty": "easy",
+      "difficulty": 2,
       "topic": [
         "Behavioral Economics and Policy"
       ]
@@ -912,7 +913,7 @@
         "That nudges apply only to corporate actors rather than individuals, limiting their ethical relevance in public-sector decision-making."
       ],
       "explanation": "Critics argue that covert influence can compromise autonomy unless interventions are transparent and easily avoidable.",
-      "difficulty": "hard",
+      "difficulty": 4,
       "topic": [
         "Behavioral Economics and Policy"
       ]
@@ -927,7 +928,7 @@
         "System 1 involves collective decision-making by institutions, while System 2 represents individual household optimization."
       ],
       "explanation": "Kahneman’s dual-process theory distinguishes intuitive automatic cognition from reflective reasoning in explaining behavioral deviations.",
-      "difficulty": "medium",
+      "difficulty": 3,
       "topic": [
         "Behavioral Economics and Policy"
       ]
