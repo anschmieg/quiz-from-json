@@ -1,6 +1,6 @@
 {
   "$schema": "../js/quiz-schema.json",
-  "title": "Sustainable Growth and Inequality – Exam Review",
+  "title": "Sustainable Growth and Inequality – Final Exam",
   "shorttitle": "USEMSGI",
   "questions": [
     {
@@ -53,10 +53,10 @@
       "questionText": "Conditional convergence implies what for cross-country comparisons?",
       "correctAnswer": "Poorer economies grow faster when fundamentals (e.g., $s$, $n$, human capital, institutions) are similar, yielding convergence clubs",
       "distractors": [
-        "Raise investment by cutting capital taxes but leave rulers unconstrained, so innovators still face expropriation risk and limits on market entry.",
-        "Broaden secure property rights and market access so outsiders can invest and innovate without arbitrary expropriation, keeping creative destruction alive despite incumbent resistance.",
-        "Rely mainly on after-tax redistribution to equalise outcomes while keeping product and credit markets closed to new competitors and new ideas.",
-        "Protect incumbent domestic firms from foreign and domestic rivals through lasting trade and regulatory shields, even if this suppresses innovation by potential entrants."
+        "All poorer countries eventually catch up to rich ones regardless of their structural parameters or institutions.",
+        "Convergence requires identical initial income levels, not similar fundamentals.",
+        "Only rich countries experience convergence because they already have advanced technology.",
+        "Convergence is purely random and unrelated to policy or fundamentals."
       ],
       "explanation": "In Solow, countries converge to different steady states unless structural parameters are comparable.",
       "difficulty": 3,
@@ -84,10 +84,10 @@
       "questionText": "In the Solow model with exogenous technology, a permanent rise in $s$ has which long-run effect?",
       "correctAnswer": "Raises the level of $y$ per worker via a higher $k^*$ but does not change the long-run growth rate of $y$ per worker",
       "distractors": [
-        "Assume every country benefited equally from Atlantic trade regardless of its starting political arrangements, so no institutional change was needed for growth.",
-        "Note that Atlantic trade empowered merchants only where some pluralist checks already existed, letting them demand stronger constraints on rulers and more secure property rights for investors.",
-        "Claim that Atlantic trade mainly enlarged royal rents everywhere, entrenching absolutism and reducing incentives for rulers to share power with commercial groups.",
-        "Treat trade purely as a transport-cost shock for agriculture, unrelated to bargaining between rulers and increasingly powerful trading interests in towns and ports."
+        "Permanently increases the growth rate of $y$ per worker because more saving causes ongoing capital deepening.",
+        "Lowers $y$ per worker in the long run due to diminishing returns to capital.",
+        "Has no effect on the steady state of $k$ because saving only affects short-run consumption.",
+        "Eliminates the need for technological progress to sustain growth in the long run."
       ],
       "explanation": "With diminishing returns, a higher $s$ shifts the steady-state level but not the exogenous technology-driven growth rate.",
       "difficulty": 3,
@@ -130,10 +130,10 @@
       "questionText": "Which statement best captures the course’s view on inclusive institutions and growth?",
       "correctAnswer": "Broadly shared property rights and open access to markets encourage entry and innovation, sustaining growth despite incumbent resistance",
       "distractors": [
-        "Argue that high inequality always raises national saving rates, so capital deepening accelerates even if poor households cannot borrow or study.",
-        "Emphasise that when credit and schooling are tied to parental income, talented but poor people underinvest, lowering aggregate human capital and future productivity.",
-        "Suggest that concentrating income automatically shrinks government and red tape, so investment conditions improve for everyone despite large opportunity gaps.",
-        "Propose that very unequal income spreads weaken elite control of the courts, so incumbents stop blocking innovators and growth accelerates without broader inclusion."
+        "Inclusive institutions mainly redistribute income after growth but have little effect on innovation or productivity.",
+        "They centralize economic power to coordinate investment under state direction, which ensures faster growth.",
+        "They promote equality but typically at the cost of long-run efficiency and innovation.",
+        "They rely entirely on cultural factors rather than incentives or political constraints."
       ],
       "explanation": "AJR emphasize constraints on arbitrary power to enable creative destruction and investment by outsiders.",
       "difficulty": 2,
@@ -163,10 +163,10 @@
       "questionText": "Rodrik–Subramanian–Trebbi compare institutions, integration, and geography. Which result aligns with the course?",
       "correctAnswer": "Instrumented institutional quality explains much income variation; geography’s direct effect weakens and operates mainly through institutions",
       "distractors": [
-        "Explain that, on average, incomes of the poorest households tend to grow at about the same rate as mean income when economies expand steadily.",
-        "Insist that any rise in average income must raise poor-household incomes even faster, so inequality almost always falls during growth episodes in every country.",
-        "Conclude that growth normally bypasses the poor, so only large scale redistribution programs can raise their incomes in a reliable way.",
-        "Argue that bottom-quintile incomes are unrelated to average income and therefore macroeconomic strategy is largely irrelevant for poverty reduction."
+        "Geography alone fully explains income levels, even after controlling for institutional quality.",
+        "Trade integration is the dominant driver of income once geography and institutions are controlled for.",
+        "Institutional quality has no independent effect once openness is included in the regression.",
+        "The effects of geography, trade, and institutions are all of similar magnitude and unrelated."
       ],
       "explanation": "Their IV strategy suggests institutions are central while geography’s influence is largely indirect.",
       "difficulty": 3,
@@ -179,10 +179,10 @@
       "questionText": "In the ‘Atlantic trade’ narrative, why did trade opportunities produce institutional upgrades in some countries but not others?",
       "correctAnswer": "Where nascent pluralism existed, empowered merchants pushed for stronger constraints on rulers; under absolutism, rulers monopolized rents and blocked reform",
       "distractors": [
-        "Stress that when initial inequality is high, the same growth rate delivers smaller poverty reductions, so improving opportunity can raise the poverty-elasticity of growth.",
-        "Claim that once the Gini passes an arbitrary threshold, growth and poverty become completely unrelated, making distribution the only relevant policy lever.",
-        "Argue that higher inequality forces strong progressive taxes which automatically increase poverty reduction, no matter how growth is distributed.",
-        "State that, after controlling for openness and exchange-rate policy, initial inequality no longer affects how strongly growth reaches poor households."
+        "All European countries experienced similar institutional improvements regardless of political structures.",
+        "Atlantic trade directly increased technology diffusion, making institutional change unnecessary.",
+        "Institutional upgrades occurred mainly in colonies rather than European metropoles.",
+        "Trade had only short-run effects on prices and had no link to political bargaining or power sharing."
       ],
       "explanation": "Trade interacted with initial political conditions; coalitions mattered for credible constraints on power.",
       "difficulty": 4,
@@ -196,10 +196,10 @@
       "questionText": "Which distinction between physical and economic geography is most relevant for growth analysis?",
       "correctAnswer": "Physical geography concerns climate, disease, and terrain; economic geography concerns market access, density, and spatial concentration of activity",
       "distractors": [
-        "Define opportunity inequality as persistent barriers to schooling, health, finance and justice that reduce capability formation and undermine future inclusive growth.",
-        "Treat opportunity inequality as short-term consumption volatility during business cycles, with little relevance for investment, skills, or intergenerational mobility.",
-        "View opportunity inequality as merely a different way of calculating the Gini coefficient using finer income brackets but no extra content.",
-        "Limit opportunity inequality to differences in disposable income across birth cohorts, ignoring lifetime access to the building blocks of productivity."
+        "Physical geography is about income levels; economic geography is about natural resources.",
+        "Physical geography studies trade policy; economic geography studies the environment.",
+        "Physical geography focuses on firms, while economic geography focuses on ecosystems.",
+        "The two are identical because all geographic features directly determine output per capita."
       ],
       "explanation": "Natural features shape costs; spatial connectivity and agglomeration shape opportunities and scale.",
       "difficulty": 4,
@@ -212,10 +212,10 @@
       "questionText": "How does disease burden (e.g., malaria) enter the growth narrative emphasized in the course?",
       "correctAnswer": "It depresses productivity and schooling, raises fiscal burdens, and deters investment, risking low-income traps without targeted interventions",
       "distractors": [
-        "Recognise that broad tariffs may slow job losses but they also raise prices, invite retaliation and freeze obsolete structures, so helping workers and places adjust is usually better.",
-        "Assume tariffs directly target comparative advantage and therefore always increase productivity and inclusive growth, even when sectors are uncompetitive.",
-        "Assume workers can move instantly and freely across regions and sectors, so trade shocks create no lasting local losses that would need cushioning.",
-        "Argue that higher import prices automatically raise firm profits and wages in the same sector without harming consumers or downstream producers anywhere."
+        "Disease burdens mainly increase leisure time, boosting welfare despite lower output.",
+        "Malaria prevalence affects growth only through tourism, not productivity or human capital.",
+        "Diseases have no lasting economic effects once GDP per capita exceeds $10,000.",
+        "Higher disease incidence typically raises foreign investment because of cheaper labor."
       ],
       "explanation": "Health shocks affect human capital and public budgets, reinforcing adverse geography–institutions interactions.",
       "difficulty": 4,
@@ -229,10 +229,10 @@
       "questionText": "Why is using a composite ‘institutions index’ potentially problematic for causal inference?",
       "correctAnswer": "It mixes heterogeneous components and measurement error, obscuring mechanisms and risking biased coefficients without robustness checks",
       "distractors": [
-        "They restore each displaced worker’s previous wage path forever and fully replace sectoral earnings, so there is no need to reallocate labour or capital across regions and industries.",
-        "They target concentrated losses among workers and regions while preserving the national efficiency gains from trade, which helps maintain political support for openness instead of freezing obsolete activities.",
-        "They remove any role for unemployment insurance or active labour-market policies because all displaced workers can be assumed to find better jobs immediately at no mobility cost.",
-        "They automatically make declining places attractive for private firms again regardless of local demand conditions, infrastructure, or skills, so structural issues can be ignored."
+        "Because a composite index always increases statistical power and precision regardless of data quality.",
+        "Because combining multiple proxies removes all endogeneity concerns by construction.",
+        "Because institutional quality cannot be quantified, so no index can ever be estimated empirically.",
+        "Because a single numerical index perfectly identifies each institutional mechanism separately."
       ],
       "explanation": "Decomposition and alternative measures help validate which institutional dimensions drive outcomes.",
       "difficulty": 5,
@@ -261,10 +261,10 @@
       "questionText": "Why did wage inequality rise in several Latin American liberalizations despite endowment predictions?",
       "correctAnswer": "Within-industry upgrading and imported capital raised relative demand for skills; FDI and SBTC increased skill premia",
       "distractors": [
-        "Maintain that transfers alone raise total factor productivity, so expanding education and basic services is not needed for long-run growth.",
-        "Argue that broadening access to good schools, health and basic services for excluded groups builds human capital, raises future employment and broadens the tax base.",
-        "Suggest that distributional programs are now purely symbolic because structural unemployment has disappeared and labour markets clear immediately.",
-        "Claim that redistribution cannot affect productivity or growth in middle-income economies, so it should be separated from the development agenda."
+        "Because trade theory always predicts rising inequality regardless of factor endowments.",
+        "Because labor markets were fully flexible, allowing instant equalization of wages across skill groups.",
+        "Because capital inflows reduced technology adoption, lowering demand for skills.",
+        "Because liberalization caused a permanent fall in productivity and output across all industries."
       ],
       "explanation": "Micro evidence points to skill-biased technological change and FDI inside industries after tariffs fell.",
       "difficulty": 2,
@@ -277,10 +277,10 @@
       "questionText": "What channel did the Colombia case (Attanasio–Goldberg–Pavcnik) highlight for the trade–inequality link?",
       "correctAnswer": "Industry-level tariff reductions correlated with increases in the skill premium via technology adoption and within-sector reallocation",
       "distractors": [
-        "State that high inequality automatically produces strong automatic stabilisers, so governments and households borrow less during large shocks.",
-        "Explain that when safety nets are weak, both households and the state borrow to smooth shocks, raising debt and reducing fiscal space for the next crisis.",
-        "Claim that high inequality always reassures investors and lowers sovereign spreads, so debt sustainability improves even when transfers are small.",
-        "Argue that public debt dynamics are driven only by the current account, not by domestic risk-sharing, institutions, or political stability arrangements."
+        "Lower tariffs mainly reduced technology diffusion and skill upgrading within industries.",
+        "Tariff cuts shifted resources entirely across sectors rather than within them.",
+        "Trade reform had no measurable effect on wage dispersion across workers.",
+        "Wage inequality fell because all industries expanded equally regardless of skill intensity."
       ],
       "explanation": "Detailed wage and tariff data link liberalization to sector-internal shifts favoring skilled labor.",
       "difficulty": 3,
@@ -294,10 +294,10 @@
       "questionText": "How can outsourcing and global value chains raise the domestic skill premium in developing economies?",
       "correctAnswer": "Tasks offshored may still be skill-intensive relative to local distributions, increasing domestic demand for skills within those sectors",
       "distractors": [
-        "Adopt a clear carbon price and recycle some revenue into transfers, mobility support and place-based transition investment so exposed people stay on board.",
-        "Set a carbon price but devote all revenue to cutting business taxes, assuming distribution and regional fairness do not matter for policy durability.",
-        "Ban all high-emitting sectors immediately without compensation, even if this creates strong local opposition and undermines long-run decarbonisation.",
-        "Rely only on voluntary pledges with no price signal or regulatory backstop to avoid any short-term energy price rise, regardless of emissions outcomes."
+        "Outsourcing always reduces skill demand because complex tasks are moved abroad.",
+        "Global value chains eliminate wage differences across skill levels by equalizing technology everywhere.",
+        "Foreign firms only offshore unskilled tasks, leaving skill premiums unchanged.",
+        "GVC participation has no effect on domestic labor markets because tasks are entirely foreign-owned."
       ],
       "explanation": "Relative skill intensity is country-specific; imported technologies can be skill-biased locally.",
       "difficulty": 4,
@@ -310,10 +310,10 @@
       "questionText": "Which empirical issue motivates instrumenting openness with gravity-predicted trade?",
       "correctAnswer": "Openness and income are jointly determined; geography-driven predicted trade provides exogenous variation in openness",
       "distractors": [
-        "Treat a capable state as one that enforces contracts, taxes predictably and delivers services, thereby reducing uncertainty and transaction costs for investors.",
-        "Assume a capable state can replace property rights and markets entirely through central planning without affecting innovation or long-horizon projects.",
-        "Assume high state capacity instantly produces income equality, so investors no longer need to track actual institutions or governance risks.",
-        "Conclude that with high state capacity, international price signals become irrelevant because officials can always offset them through procurement."
+        "Openness is exogenous, so instrumentation adds no value to estimation.",
+        "Gravity-predicted trade measures political integration rather than economic openness.",
+        "Predicted trade flows are used to measure financial development, not openness.",
+        "Instrumenting openness is necessary only when using time-series data, not cross-country data."
       ],
       "explanation": "Distance and size shift trade independently of current income, helping identify trade’s effect on outcomes.",
       "difficulty": 4,
@@ -327,10 +327,10 @@
       "questionText": "How does limited labor mobility amplify distributional costs of trade shocks?",
       "correctAnswer": "Barriers to moving across regions or sectors make wage losses persistent, raising inequality even if aggregate gains are positive",
       "distractors": [
-        "Note that ideas are non-rival and scalable, so knowledge spillovers keep the marginal payoff to innovation from collapsing the way capital returns do.",
-        "Claim that ideas depreciate more slowly than machines, so growth rises automatically even if no one shares knowledge across firms or sectors.",
-        "Insist that ideas diffuse only in autarky, so closed economies grow faster than open economies that share technologies globally.",
-        "Treat ideas as fully rival goods owned by single firms whose profits always finance research, removing any role for policy or institutions."
+        "Ideas are non-rival and scalable, so knowledge spillovers keep the marginal payoff to innovation from collapsing the way capital returns do.",
+        "Ideas depreciate more slowly than machines, so growth rises automatically even if no one shares knowledge across firms or sectors.",
+        "Ideas diffuse only in autarky, so closed economies grow faster than open economies that share technologies globally.",
+        "Ideas are fully rival goods owned by single firms whose profits always finance research, removing any role for policy or institutions."
       ],
       "explanation": "Adjustment frictions slow reallocation, turning transitory shocks into persistent disparities.",
       "difficulty": 4,
@@ -344,7 +344,7 @@
       "questionText": "Which statement about price pass-through in Stolper–Samuelson is most empirically relevant?",
       "correctAnswer": "Incomplete pass-through and local markups can attenuate predicted changes in factor rewards relative to textbook comparative statics",
       "distractors": [
-        "State that poorer economies should grow faster only when key fundamentals match, so we observe convergence clubs rather than universal catch-up.",
+        "Poorer economies should grow faster only when key fundamentals match, so we observe convergence clubs rather than universal catch-up.",
         "Insist that absolute catch-up is automatic for all poor countries regardless of savings, technology access or institutional quality.",
         "Claim that population growth alone ensures convergence, even if technology, investment and institutions differ sharply across countries.",
         "Say that convergence patterns are essentially random because fundamentals and policies cannot be linked to growth differences empirically."
@@ -361,7 +361,7 @@
       "questionText": "Which mechanism links inequality to slower growth via credit markets?",
       "correctAnswer": "Borrowing constraints prevent talented but poor individuals from investing in education or firms, lowering aggregate productivity",
       "distractors": [
-        "Note that high malaria burdens lower productivity and schooling and raise fiscal costs, weakening investment incentives and making low-income traps more likely.",
+        "High malaria burdens lower productivity and schooling and raise fiscal costs, weakening investment incentives and making low-income traps more likely.",
         "Claim that malaria mainly boosts leisure and saving, so capital deepening accelerates even when workers fall sick more often.",
         "Argue that modern service economies are insulated from any health-related productivity effect, so malaria does not affect growth.",
         "Suggest that higher aid inflows for health automatically create higher export capacity, so disease burdens eventually raise income."
@@ -512,7 +512,7 @@
       "questionText": "How does initial inequality condition the poverty elasticity of growth (Fosu)?",
       "correctAnswer": "Higher initial inequality reduces the poverty-reducing impact of a given growth rate, as gains accrue more to households above the line",
       "distractors": [
-        "Note that creative destruction raises productivity by reallocating resources to better firms but can create concentrated local losses that need cushioning.",
+        "Recognise that creative destruction raises productivity by reallocating resources to better firms but can create concentrated local losses that need cushioning.",
         "Claim that creative destruction always lowers inequality because new entry spreads rents evenly across regions and occupations.",
         "Say that creative destruction is neutral for welfare because entry and exit cancel, so no adjustment or insurance policies are necessary.",
         "Limit creative destruction to manufacturing and ignore the services and tradable-services sectors where reallocation also matters for inclusion."
@@ -612,7 +612,7 @@
       "questionText": "Which design makes a carbon price more politically durable while preserving efficiency?",
       "correctAnswer": "Pair a clear carbon price with revenue recycling to vulnerable households and place-based transition support for carbon-intensive regions",
       "distractors": [
-        "Broad tariffs raise input and consumer prices, invite foreign retaliation and protect obsolete structures, whereas targeted worker and place support can address concentrated losses while keeping overall efficiency gains from openness.",
+        "Broad tariffs raise input and consumer prices, invite foreign retaliation and freeze obsolete structures, whereas targeted worker and place support can address concentrated losses while keeping overall efficiency gains from openness.",
         "Broad tariffs guarantee universal wage increases at zero cost and therefore dominate any worker-based or place-based adjustment instruments.",
         "Broad tariffs make innovation and technology policy unnecessary since domestic firms will upgrade automatically once imports become expensive.",
         "Broad tariffs are fiscally and politically neutral and so never create protection rents or lobbying from import-competing producers."
@@ -955,7 +955,7 @@
       "correctAnswer": "A pre-trend test showing treated and control groups had parallel outcome trends prior to reform",
       "distractors": [
         "Because a positive average effect can hide large losses for some groups, so distributional heterogeneity must shape cushioning and targeting decisions.",
-        "Because average treatment effects always give a full welfare ranking, so heterogeneity does not matter for inclusive growth assessments.",
+        "Because average treatment effects always give a full welfare ranking, so heterogeneity does not matter for policy evaluation.",
         "Because heterogeneity only affects statistical power, not the way programs affect different households or regions in practice.",
         "Because analysing heterogeneous effects would undermine external validity and therefore should not be part of policy evaluation."
       ],

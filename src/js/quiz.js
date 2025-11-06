@@ -281,8 +281,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${difficultyBadgeHtml}
                 </div>
                 <div class="question-text">${q.questionText || q.question || q.text || ''}</div>
-                <div class="options">${optionsHtml}</div>
                 <div id="feedback-area"></div>
+                <div class="options">${optionsHtml}</div>
                 <button id="check-answer-btn" class="action-button">Check Answer</button>
             `;
             headerEl = flashcardContainer.querySelector('.question-header');
@@ -308,6 +308,20 @@ document.addEventListener('DOMContentLoaded', () => {
             if (qt) qt.textContent = q.questionText || q.question || q.text || '';
             const opts = flashcardContainer.querySelector('.options');
             if (opts) opts.innerHTML = optionsHtml;
+
+            // Ensure feedback area sits above the options block
+            const feedbackEl = flashcardContainer.querySelector('#feedback-area');
+            if (!feedbackEl) {
+                const newFeedback = document.createElement('div');
+                newFeedback.id = 'feedback-area';
+                if (opts && opts.parentNode) {
+                    opts.parentNode.insertBefore(newFeedback, opts);
+                } else {
+                    flashcardContainer.appendChild(newFeedback);
+                }
+            } else if (opts && feedbackEl.nextElementSibling !== opts) {
+                opts.parentNode.insertBefore(feedbackEl, opts);
+            }
 
             if (!document.getElementById('check-answer-btn')) {
                 flashcardContainer.insertAdjacentHTML('beforeend', '<button id="check-answer-btn" class="action-button">Check Answer</button>');
@@ -452,13 +466,23 @@ document.addEventListener('DOMContentLoaded', () => {
         userStats[q.id].history.push(isCorrect);
         if (!Array.isArray(sessionStats.history)) sessionStats.history = [];
         sessionStats.history.push(isCorrect);
-        document.querySelectorAll('.option-label').forEach(label => {
+        const optionLabels = Array.from(flashcardContainer.querySelectorAll('.option-label'));
+        optionLabels.forEach(label => {
             const input = label.querySelector('input');
             input.disabled = true;
             label.classList.add('disabled');
             if (input.value === q.correctAnswer) label.classList.add('correct-answer');
             if (input.value === userAnswer && !isCorrect) label.classList.add('selected-incorrect');
         });
+        const optionsContainer = flashcardContainer.querySelector('.options');
+        if (optionsContainer) {
+            optionLabels.forEach(label => {
+                const input = label.querySelector('input');
+                if (!input) return;
+                const keepOption = input.value === q.correctAnswer || input.value === userAnswer;
+                if (!keepOption) label.remove();
+            });
+        }
         const qStats = userStats[q.id];
         const lifetime = calculateAccuracy(qStats.history);
         const historyHtml = qStats.history.slice(-5).map(isCorrect => `<span class="history-dot ${isCorrect ? 'correct' : 'incorrect'}"></span>`).join('');
@@ -469,7 +493,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!feedbackTarget) {
             feedbackTarget = document.createElement('div');
             feedbackTarget.id = 'feedback-area';
-            flashcardContainer.appendChild(feedbackTarget);
+            if (optionsContainer && optionsContainer.parentNode) {
+                optionsContainer.parentNode.insertBefore(feedbackTarget, optionsContainer);
+            } else {
+                flashcardContainer.appendChild(feedbackTarget);
+            }
         }
         feedbackTarget.innerHTML = feedbackHtml;
         renderMath(feedbackTarget);

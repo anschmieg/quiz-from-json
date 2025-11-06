@@ -1,7 +1,7 @@
 {
   "$schema": "../js/quiz-schema.json",
-  "title": "Public Economics and Policy – Exam Preparation",
-  "shorttitle": "UU Public Policy",
+  "title": "Public Economics and Policy – Final Exam",
+  "shorttitle": "USEMPEP",
   "questions": [
     {
       "id": "mcq_001",

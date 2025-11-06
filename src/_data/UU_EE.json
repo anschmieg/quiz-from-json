@@ -1,7 +1,7 @@
 {
   "$schema": "../js/quiz-schema.json",
-  "title": "Empirical Economics",
-  "shorttitle": "UU Empirical Econ",
+  "title": "Empirical Economics – Midterm",
+  "shorttitle": "USEMEE Midterm",
   "questions": [
     {
       "id": "mcq_006",
