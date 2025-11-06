@@ -1,0 +1,1129 @@
+{
+  "$schema": "../js/quiz-schema.json",
+  "title": "Empirical Economics – Endterm",
+  "shorttitle": "USEMEE Endterm",
+  "questions": [
+    {
+      "id": "Q1",
+      "questionText": "If the unobserved effect correlates with regressors, what happens to RE estimates?",
+      "correctAnswer": "They become biased and inconsistent.",
+      "distractors": [
+        "They remain consistent but inefficient.",
+        "They become more efficient than FE.",
+        "They stay unbiased but less precise."
+      ],
+      "explanation": "RE assumes no correlation between unit effects and regressors. Violation makes RE inconsistent, while FE stays consistent.",
+      "difficulty": 4,
+      "topic": [
+        "Panel Data",
+        "RE vs FE"
+      ]
+    },
+    {
+      "id": "Q2",
+      "questionText": "A Hausman test yields p < 0.05. What is the implication?",
+      "correctAnswer": "Reject RE and prefer FE for consistency.",
+      "distractors": [
+        "Accept RE since it is more efficient.",
+        "Prefer RE because FE is biased.",
+        "Use pooled OLS because both fail."
+      ],
+      "explanation": "A low p-value means coefficients differ significantly, implying RE is inconsistent and FE should be used.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Hausman Test"
+      ]
+    },
+    {
+      "id": "Q3",
+      "questionText": "Ignoring serial correlation in panel data mainly causes what problem?",
+      "correctAnswer": "Standard errors are underestimated.",
+      "distractors": [
+        "Coefficients become biased downward.",
+        "R-squared increases sharply.",
+        "Residuals become normally distributed."
+      ],
+      "explanation": "Serially correlated errors inflate t-statistics if ignored, leading to false significance.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Serial Correlation"
+      ]
+    },
+    {
+      "id": "Q4",
+      "questionText": "Which type of variable cannot be estimated with FE?",
+      "correctAnswer": "A variable constant within each unit.",
+      "distractors": [
+        "A variable changing each year.",
+        "A variable correlated with time dummies.",
+        "A variable measured in differences."
+      ],
+      "explanation": "FE removes time-invariant variables by demeaning; they drop out of estimation.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Fixed Effects"
+      ]
+    },
+    {
+      "id": "Q5",
+      "questionText": "What is the main assumption behind Random Effects?",
+      "correctAnswer": "Unit effects are uncorrelated with regressors.",
+      "distractors": [
+        "Unit effects are constant across time.",
+        "Regressors have zero within variation.",
+        "Time dummies capture unobserved heterogeneity."
+      ],
+      "explanation": "RE consistency requires Cov(a_i, X_it)=0; violation biases results.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Assumptions"
+      ]
+    },
+    {
+      "id": "Q6",
+      "questionText": "What is removed by the FE transformation?",
+      "correctAnswer": "All time-invariant individual effects.",
+      "distractors": [
+        "All cross-sectional variation.",
+        "All within-period variation.",
+        "Only the overall time mean."
+      ],
+      "explanation": "Demeaning eliminates unit-specific constants, isolating within variation.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "FE Transformation"
+      ]
+    },
+    {
+      "id": "Q7",
+      "questionText": "In short panels, lagged dependent variables in FE models cause:",
+      "correctAnswer": "Nickell bias due to correlation with fixed effects.",
+      "distractors": [
+        "Measurement bias from heteroskedasticity.",
+        "Omitted variable bias across time.",
+        "Endogeneity only in large T panels."
+      ],
+      "explanation": "Nickell bias arises in dynamic FE when lagged Y correlates with the fixed effect.",
+      "difficulty": 4,
+      "topic": [
+        "Panel Data",
+        "Dynamic Panels"
+      ]
+    },
+    {
+      "id": "Q8",
+      "questionText": "Clustered standard errors are used because:",
+      "correctAnswer": "Errors may correlate within clusters over time.",
+      "distractors": [
+        "Observations are independent across time.",
+        "Variance is identical for all units.",
+        "Residuals are normally distributed."
+      ],
+      "explanation": "Clustering corrects SEs for within-unit serial correlation.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Inference"
+      ]
+    },
+    {
+      "id": "Q9",
+      "questionText": "Which statement about Random Effects GLS is correct?",
+      "correctAnswer": "It partially demeans variables using a weight factor.",
+      "distractors": [
+        "It fully demeans all variables.",
+        "It differences observations by time.",
+        "It ignores within-unit correlation."
+      ],
+      "explanation": "RE GLS quasi-demeans data by weighting between and within variance.",
+      "difficulty": 4,
+      "topic": [
+        "Panel Data",
+        "GLS"
+      ]
+    },
+    {
+      "id": "Q10",
+      "questionText": "What do time dummies in panel regressions capture?",
+      "correctAnswer": "Common shocks affecting all units equally.",
+      "distractors": [
+        "Unit-specific fixed effects.",
+        "Individual time trends.",
+        "Measurement errors in regressors."
+      ],
+      "explanation": "Time dummies absorb aggregate effects common to all cross-sections.",
+      "difficulty": 2,
+      "topic": [
+        "Panel Data",
+        "Time Effects"
+      ]
+    },
+    {
+      "id": "Q11",
+      "questionText": "In a Logit model, marginal effects depend on:",
+      "correctAnswer": "The logistic density evaluated at Xβ.",
+      "distractors": [
+        "The normal cumulative function.",
+        "The level of the residuals.",
+        "The constant term only."
+      ],
+      "explanation": "For Logit: ME_k = β_k * f(Xβ), with f the logistic pdf.",
+      "difficulty": 3,
+      "topic": [
+        "Binary Models",
+        "Logit"
+      ]
+    },
+    {
+      "id": "Q12",
+      "questionText": "Which model best handles a censored continuous dependent variable?",
+      "correctAnswer": "The Tobit model.",
+      "distractors": [
+        "The Logit model.",
+        "The Probit model.",
+        "The LPM model."
+      ],
+      "explanation": "Tobit models censored data where outcomes bunch at a limit (e.g. zero).",
+      "difficulty": 4,
+      "topic": [
+        "Binary Models",
+        "Tobit"
+      ]
+    },
+    {
+      "id": "Q13",
+      "questionText": "McFadden's pseudo-R² compares:",
+      "correctAnswer": "The log-likelihood of full and null models.",
+      "distractors": [
+        "The explained and total variance.",
+        "The mean squared errors.",
+        "The predicted and observed probabilities."
+      ],
+      "explanation": "Pseudo-R² = 1 - lnL_full / lnL_null.",
+      "difficulty": 3,
+      "topic": [
+        "Binary Models",
+        "Goodness-of-fit"
+      ]
+    },
+    {
+      "id": "Q14",
+      "questionText": "In DiD, the treatment effect equals which coefficient?",
+      "correctAnswer": "β₃ on the interaction Treat×Post.",
+      "distractors": [
+        "β₁ on Treat only.",
+        "β₂ on Post only.",
+        "β₀, the intercept term."
+      ],
+      "explanation": "β₃ captures the difference-in-differences effect.",
+      "difficulty": 3,
+      "topic": [
+        "DiD",
+        "Treatment Effect"
+      ]
+    },
+    {
+      "id": "Q15",
+      "questionText": "The key assumption for DiD validity is:",
+      "correctAnswer": "Parallel trends between groups before treatment.",
+      "distractors": [
+        "Equal means before treatment.",
+        "Random treatment assignment.",
+        "Constant variance across groups."
+      ],
+      "explanation": "In absence of treatment, both groups must evolve similarly.",
+      "difficulty": 4,
+      "topic": [
+        "DiD",
+        "Assumptions"
+      ]
+    },
+    {
+      "id": "MOCK_Q1",
+      "questionText": "The Hausman test is used to compare FE and RE models. What is the null hypothesis and choice if not rejected?",
+      "correctAnswer": "H0: effects uncorrelated with regressors; choose RE.",
+      "distractors": [
+        "H0: no serial correlation; choose FD.",
+        "H0: FE and RE equal; choose FE.",
+        "H0: variance of effects is zero; choose pooled."
+      ],
+      "explanation": "The mock exam states H0 is no correlation between a_i and X_it; then RE is consistent and efficient.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam",
+        "Panel Data"
+      ]
+    },
+    {
+      "id": "MOCK_Q2",
+      "questionText": "In pooled OLS with v_it = a_i + u_it, what is Corr(v_it, v_is)?",
+      "correctAnswer": "σ_a² / (σ_a² + σ_u²).",
+      "distractors": [
+        "Zero across all periods.",
+        "Equal to σ_a² only.",
+        "Always negative in panels."
+      ],
+      "explanation": "Shared a_i induces positive autocorrelation across time for the same individual.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam",
+        "Panel Error Structure"
+      ]
+    },
+    {
+      "id": "MOCK_Q3",
+      "questionText": "Which estimator cannot identify effects of time-invariant regressors?",
+      "correctAnswer": "The Fixed Effects estimator.",
+      "distractors": [
+        "The Random Effects estimator.",
+        "The pooled OLS estimator.",
+        "All panel estimators fail."
+      ],
+      "explanation": "FE wipes out variables that do not vary over time within units.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "FE Limitation"
+      ]
+    },
+    {
+      "id": "MOCK_Q4",
+      "questionText": "What is a primary drawback of the LPM for binary data?",
+      "correctAnswer": "Predicted probabilities may lie outside [0,1].",
+      "distractors": [
+        "Parameters are hard to interpret.",
+        "It always needs MLE to estimate.",
+        "It cannot add fixed effects."
+      ],
+      "explanation": "Mock exam highlights nonsensical probabilities as the weakness.",
+      "difficulty": 2,
+      "topic": [
+        "Mock Exam",
+        "Binary Models"
+      ]
+    },
+    {
+      "id": "MOCK_Q5",
+      "questionText": "Which assumption distinguishes the Probit model?",
+      "correctAnswer": "The error term is standard normal.",
+      "distractors": [
+        "The error term is logistic.",
+        "The error variance depends on X.",
+        "The error term is Student-t."
+      ],
+      "explanation": "Probit specifies ε ~ N(0,1); Logit specifies logistic.",
+      "difficulty": 2,
+      "topic": [
+        "Mock Exam",
+        "Probit"
+      ]
+    },
+    {
+      "id": "MOCK_Q6",
+      "questionText": "How are β in Logit/Probit typically estimated?",
+      "correctAnswer": "By maximizing the likelihood function.",
+      "distractors": [
+        "By minimizing squared residuals.",
+        "By maximizing R-squared.",
+        "By two-stage least squares."
+      ],
+      "explanation": "Binary response models are estimated with MLE.",
+      "difficulty": 2,
+      "topic": [
+        "Mock Exam",
+        "MLE"
+      ]
+    },
+    {
+      "id": "MOCK_Q7",
+      "questionText": "In a Logit/Probit model, the marginal effect of x_k is:",
+      "correctAnswer": "f(Xβ) · β_k.",
+      "distractors": [
+        "F(Xβ) · β_k.",
+        "β_k only.",
+        "1/N Σ β_k."
+      ],
+      "explanation": "Derivative of CDF is the PDF; chain rule multiplies by β_k.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "Marginal Effects"
+      ]
+    },
+    {
+      "id": "MOCK_Q8",
+      "questionText": "McFadden's pseudo-R² is:",
+      "correctAnswer": "1 − lnL_full / lnL_null and lower than OLS R².",
+      "distractors": [
+        "Equal to the OLS R².",
+        "Always above 0.8 in good models.",
+        "The share of correctly predicted values."
+      ],
+      "explanation": "Mock exam notes that values 0.2–0.4 can be good.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "Goodness-of-fit"
+      ]
+    },
+    {
+      "id": "MOCK_Q9",
+      "questionText": "The Tobit model is suited for:",
+      "correctAnswer": "A censored dependent variable at a limit value.",
+      "distractors": [
+        "Sample selection with missing outcomes.",
+        "Binary choice among two options.",
+        "Endogeneity due to omitted variables."
+      ],
+      "explanation": "Tobit handles continuous outcomes piled at zero.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "Tobit"
+      ]
+    },
+    {
+      "id": "MOCK_Q10",
+      "questionText": "In the latent variable view, P(y=1) equals:",
+      "correctAnswer": "P(ε_i > −(β0 + β1 x_i)).",
+      "distractors": [
+        "P(ε_i = β0 + β1 x_i).",
+        "P(y* ≤ 0).",
+        "1 − F(0)."
+      ],
+      "explanation": "Rearranging y*>0 gives ε_i > −(β0+β1x_i).",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "Latent Variable"
+      ]
+    },
+    {
+      "id": "MOCK_Q11",
+      "questionText": "The fundamental problem of causal inference is that:",
+      "correctAnswer": "Only one potential outcome is observed per unit.",
+      "distractors": [
+        "Sample sizes are always too small.",
+        "ATE is always zero in practice.",
+        "Correlation always implies causation."
+      ],
+      "explanation": "We never see both Y(1) and Y(0) for the same unit.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "Causal Inference"
+      ]
+    },
+    {
+      "id": "MOCK_Q12",
+      "questionText": "In the DiM decomposition, selection bias equals:",
+      "correctAnswer": "E[Y(0)|T=1] − E[Y(0)|T=0].",
+      "distractors": [
+        "E[Y(1)|T=1] − E[Y(0)|T=1].",
+        "E[Y(1)] − E[Y(0)].",
+        "Y_T,post − Y_T,pre."
+      ],
+      "explanation": "Mock answer: difference in untreated potential outcomes across groups.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam",
+        "Selection Bias"
+      ]
+    },
+    {
+      "id": "MOCK_Q13",
+      "questionText": "In DiD regression, which coefficient is the causal effect?",
+      "correctAnswer": "The interaction coefficient (β3).",
+      "distractors": [
+        "The treatment dummy (β1).",
+        "The post dummy (β2).",
+        "The intercept (β0)."
+      ],
+      "explanation": "β3 captures the extra post change for treated vs control.",
+      "difficulty": 2,
+      "topic": [
+        "Mock Exam",
+        "DiD"
+      ]
+    },
+    {
+      "id": "MOCK_Q14",
+      "questionText": "Parallel trends assumption states that:",
+      "correctAnswer": "Treated and control would evolve the same without treatment.",
+      "distractors": [
+        "Outcomes must be equal pre-treatment.",
+        "Control group must be constant over time.",
+        "Treatment must be positive and significant."
+      ],
+      "explanation": "This is the identifying assumption for DiD.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "DiD Assumptions"
+      ]
+    },
+    {
+      "id": "MOCK_Q15",
+      "questionText": "In an event study, how to check parallel trends?",
+      "correctAnswer": "Test if pre-treatment leads are zero.",
+      "distractors": [
+        "Test if post effects are large.",
+        "Check identical levels in first period.",
+        "Add more controls to the regression."
+      ],
+      "explanation": "Insignificant pre-treatment coefficients support parallel trends.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "Event Study"
+      ]
+    },
+    {
+      "id": "MOCK_Q16",
+      "questionText": "A valid instrument must satisfy which two conditions?",
+      "correctAnswer": "Relevance and exclusion from the error term.",
+      "distractors": [
+        "Irrelevance and inclusion in the error term.",
+        "Exogeneity of X and relevance.",
+        "Randomization and homoskedasticity."
+      ],
+      "explanation": "IV must affect X and be uncorrelated with u.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "IV Validity"
+      ]
+    },
+    {
+      "id": "MOCK_Q17",
+      "questionText": "LATE identified by IV applies to:",
+      "correctAnswer": "Compliers whose treatment is moved by Z.",
+      "distractors": [
+        "Always-takers only.",
+        "Never-takers only.",
+        "The full sample of units."
+      ],
+      "explanation": "Local Average Treatment Effect is for compliers.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "LATE"
+      ]
+    },
+    {
+      "id": "MOCK_Q18",
+      "questionText": "Weak instruments are detected by:",
+      "correctAnswer": "First-stage F-statistic greater than 10.",
+      "distractors": [
+        "Second-stage t-statistic greater than 1.96.",
+        "Low R² in the outcome regression.",
+        "p-value of the exclusion test < 0.05."
+      ],
+      "explanation": "Mock exam: rule of thumb F>10 for relevance.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "Weak IV"
+      ]
+    },
+    {
+      "id": "MOCK_Q19",
+      "questionText": "The Wald estimator with binary Z and X is:",
+      "correctAnswer": "[E(Y|Z=1)-E(Y|Z=0)] / [E(X|Z=1)-E(X|Z=0)].",
+      "distractors": [
+        "Cov(X,Y)/Var(X).",
+        "[E(X|Z=1)-E(X|Z=0)] / [E(Y|Z=1)-E(Y|Z=0)].",
+        "E(Y|X=1)-E(Y|X=0)."
+      ],
+      "explanation": "It scales ITT by the first stage.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam",
+        "Wald"
+      ]
+    },
+    {
+      "id": "MOCK_Q20",
+      "questionText": "In 2SLS, the first stage is:",
+      "correctAnswer": "Regress X on instruments and exogenous controls.",
+      "distractors": [
+        "Regress Y on instruments.",
+        "Regress Y on predicted Y.",
+        "Regress instruments on X."
+      ],
+      "explanation": "2SLS stage 1 predicts endogenous X using Z and W.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam",
+        "2SLS"
+      ]
+    },
+    {
+      "id": "MOCK_OPEN_1",
+      "questionText": "A city introduces bike-sharing. Treatment city: 35→32 minutes. Control city: 33→34 minutes. Compute the DiD effect and interpret.",
+      "correctAnswer": "DiD = (32−35) − (34−33) = −3 − 1 = −4 minutes, meaning the program reduced commute time by 4 minutes.",
+      "distractors": [
+        "DiD = −3 minutes, equal to the treatment change only.",
+        "DiD = 1 minute, equal to the control change only.",
+        "DiD cannot be computed without standard errors."
+      ],
+      "explanation": "Mock open answer: treatment fell by 3, control rose by 1, so relative fall is −4.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam Open",
+        "DiD"
+      ]
+    },
+    {
+      "id": "MOCK_OPEN_2",
+      "questionText": "Simple difference in means is 15, ATT is 10. What is selection bias and how to interpret it?",
+      "correctAnswer": "Selection bias = 15 − 10 = 5; treated would have scored 5 points higher even without treatment.",
+      "distractors": [
+        "Selection bias = 10; treated underperform without treatment.",
+        "Selection bias = −5; control group is more able.",
+        "Selection bias cannot be identified from these numbers."
+      ],
+      "explanation": "Mock answer: positive selection into treatment.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam Open",
+        "Selection Bias"
+      ]
+    },
+    {
+      "id": "MOCK_OPEN_3",
+      "questionText": "Instrument Z raises treatment from 0.15 to 0.40 and outcome from 0.55 to 0.65. Compute the Wald estimator and interpret numerator and denominator.",
+      "correctAnswer": "Wald = (0.65−0.55)/(0.40−0.15) = 0.10/0.25 = 0.40; numerator is ITT on Y, denominator is first stage on X.",
+      "distractors": [
+        "Wald = 0.25/0.10 = 2.5; reversed ratio.",
+        "Wald = 0.10 only, since X is binary.",
+        "Wald cannot be used with proportions."
+      ],
+      "explanation": "Mock open Q3 solution.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam Open",
+        "Wald"
+      ]
+    },
+    {
+      "id": "MOCK_OPEN_4",
+      "questionText": "Rainfall reduces avocado price by 0.05 (first stage) and raises quantity by 2.0 (reduced form). What is the 2SLS estimate of price on quantity?",
+      "correctAnswer": "2SLS = 2.0 / (−0.05) = −40; a $1 higher price reduces quantity by 40,000 tons.",
+      "distractors": [
+        "2SLS = −0.05 / 2.0 = −0.025.",
+        "2SLS = 2.0 × (−0.05) = −0.10.",
+        "2SLS cannot be computed with these numbers only."
+      ],
+      "explanation": "Mock open Q4 solution.",
+      "difficulty": 4,
+      "topic": [
+        "Mock Exam Open",
+        "2SLS"
+      ]
+    },
+    {
+      "id": "MOCK_OPEN_5",
+      "questionText": "LPM: P(default=1) = −0.15 + 0.70·dti. What happens at dti=2.0 and what does it show?",
+      "correctAnswer": "Predicted P=−0.15+1.40=1.25 (>1), showing LPM can produce impossible probabilities.",
+      "distractors": [
+        "Predicted P=0.55, showing homoskedasticity.",
+        "Predicted P=0.70, showing endogeneity.",
+        "Predicted P=1.00, showing perfect fit."
+      ],
+      "explanation": "Mock open Q5: illustrates LPM drawback.",
+      "difficulty": 3,
+      "topic": [
+        "Mock Exam Open",
+        "LPM Limitation"
+      ]
+    },
+    {
+      "id": "Q16",
+      "questionText": "What is another common drawback of the LPM besides out-of-range probabilities?",
+      "correctAnswer": "The error term is heteroskedastic by construction.",
+      "distractors": [
+        "The coefficients cannot be interpreted as marginal effects.",
+        "The model cannot include dummy regressors at all.",
+        "The R-squared is always equal to zero in samples."
+      ],
+      "explanation": "In LPM, Var(u|X)=p(1−p), so variance depends on X; robust or clustered SEs are needed.",
+      "difficulty": 3,
+      "topic": [
+        "Binary Models",
+        "LPM"
+      ]
+    },
+    {
+      "id": "Q17",
+      "questionText": "Why do we often report marginal effects at the mean in Logit/Probit?",
+      "correctAnswer": "Because coefficients are not directly in probability units.",
+      "distractors": [
+        "Because the likelihood cannot be maximized otherwise.",
+        "Because the intercept is always zero in these models.",
+        "Because dummies cannot be handled in nonlinear models."
+      ],
+      "explanation": "Logit/Probit β’s are in latent units; we translate to probability changes at a reference point.",
+      "difficulty": 3,
+      "topic": [
+        "Binary Models",
+        "Interpretation"
+      ]
+    },
+    {
+      "id": "Q18",
+      "questionText": "A Tobit model is preferred over OLS when many outcomes equal zero because:",
+      "correctAnswer": "OLS would treat zeros as uncensored true values.",
+      "distractors": [
+        "OLS cannot estimate an intercept with zeros present.",
+        "OLS always predicts negative values when zeros occur.",
+        "OLS requires the dependent variable to be binary."
+      ],
+      "explanation": "Zeros reflect censoring, not true zero demand; Tobit models the latent outcome.",
+      "difficulty": 4,
+      "topic": [
+        "Binary Models",
+        "Tobit"
+      ]
+    },
+    {
+      "id": "Q19",
+      "questionText": "In a DiD with two periods and two groups, the ATT is:",
+      "correctAnswer": "(Y_T,post − Y_T,pre) − (Y_C,post − Y_C,pre).",
+      "distractors": [
+        "(Y_T,post − Y_C,post) − (Y_T,pre − Y_C,pre).",
+        "(Y_T,post − Y_C,post) + (Y_T,pre − Y_C,pre).",
+        "(Y_T,post − Y_C,pre) − (Y_C,post − Y_T,pre)."
+      ],
+      "explanation": "ATT in basic DiD is the post–pre gap of treated minus the post–pre gap of controls.",
+      "difficulty": 2,
+      "topic": [
+        "DiD",
+        "Formulas"
+      ]
+    },
+    {
+      "id": "Q20",
+      "questionText": "Why do we add unit fixed effects in DiD panels?",
+      "correctAnswer": "To net out time-invariant differences across units.",
+      "distractors": [
+        "To force treatment to vary within a unit over time.",
+        "To guarantee parallel trends mechanically in data.",
+        "To replace the interaction term with a dummy only."
+      ],
+      "explanation": "Unit FE absorbs baseline level differences; DiD then uses time and treatment variation.",
+      "difficulty": 3,
+      "topic": [
+        "DiD",
+        "Fixed Effects"
+      ]
+    },
+    {
+      "id": "Q21",
+      "questionText": "What is checked when plotting pre-treatment event-time coefficients?",
+      "correctAnswer": "That pre-treatment coefficients are close to zero.",
+      "distractors": [
+        "That post-treatment coefficients are all negative.",
+        "That treatment dummies are perfectly collinear.",
+        "That the outcome is stationary over all periods."
+      ],
+      "explanation": "Non-significant pre-period leads support the parallel trends assumption.",
+      "difficulty": 3,
+      "topic": [
+        "DiD",
+        "Event Study"
+      ]
+    },
+    {
+      "id": "Q22",
+      "questionText": "If parallel trends fails because treated units were already improving faster, DiD will:",
+      "correctAnswer": "Overstate the positive effect of treatment.",
+      "distractors": [
+        "Understate the effect but stay unbiased.",
+        "Produce exactly the same effect as OLS.",
+        "Make the treatment dummy insignificant automatically."
+      ],
+      "explanation": "A favorable pre-trend gets wrongly attributed to the treatment in DiD.",
+      "difficulty": 4,
+      "topic": [
+        "DiD",
+        "Assumption Violations"
+      ]
+    },
+    {
+      "id": "Q23",
+      "questionText": "Staggered treatment timing mainly complicates DiD because:",
+      "correctAnswer": "Units become treated at different dates.",
+      "distractors": [
+        "Outcomes become non-linear in levels.",
+        "Controls are no longer observed at all.",
+        "Fixed effects cannot be used afterward."
+      ],
+      "explanation": "With staggered adoption, later-treated units temporarily serve as controls; estimation must handle this.",
+      "difficulty": 4,
+      "topic": [
+        "DiD",
+        "Staggered Adoption"
+      ]
+    },
+    {
+      "id": "Q24",
+      "questionText": "In the potential outcomes setup, selection on unobservables means:",
+      "correctAnswer": "Untreated potential outcomes differ across treated and controls.",
+      "distractors": [
+        "Treatment is perfectly randomized in the sample.",
+        "Observed X’s fully explain the treatment choice.",
+        "Outcomes are measured with classical error only."
+      ],
+      "explanation": "If E[Y(0)|T=1] ≠ E[Y(0)|T=0], selection on unobservables exists and raw differences are biased.",
+      "difficulty": 4,
+      "topic": [
+        "Causal Inference",
+        "Selection Bias"
+      ]
+    },
+    {
+      "id": "Q25",
+      "questionText": "Which two conditions define a valid instrument?",
+      "correctAnswer": "It affects X and is exogenous to u.",
+      "distractors": [
+        "It predicts Y and is uncorrelated with X.",
+        "It is binary and increases the sample size.",
+        "It reduces heteroskedasticity in the outcome."
+      ],
+      "explanation": "Relevance: Cov(Z,X)≠0; Exclusion: Cov(Z,u)=0.",
+      "difficulty": 3,
+      "topic": [
+        "IV",
+        "Validity"
+      ]
+    },
+    {
+      "id": "Q26",
+      "questionText": "What does the first stage in 2SLS do?",
+      "correctAnswer": "It predicts the endogenous regressor with instruments.",
+      "distractors": [
+        "It regresses Y directly on the instruments.",
+        "It tests whether exclusion restrictions hold.",
+        "It estimates the reduced-form outcome model."
+      ],
+      "explanation": "Stage 1: X̂ = π0 + π1 Z + π2 W. Stage 2 uses X̂ in place of X.",
+      "difficulty": 2,
+      "topic": [
+        "IV",
+        "2SLS"
+      ]
+    },
+    {
+      "id": "Q27",
+      "questionText": "If instruments are weak, 2SLS estimates will:",
+      "correctAnswer": "Be imprecise and drift toward OLS.",
+      "distractors": [
+        "Be perfectly efficient in all samples.",
+        "Be identical to the reduced-form effect.",
+        "Be unbiased and invariant to sample size."
+      ],
+      "explanation": "Weak instruments give large variance and small-sample bias toward the OLS value.",
+      "difficulty": 4,
+      "topic": [
+        "IV",
+        "Weak Instruments"
+      ]
+    },
+    {
+      "id": "Q28",
+      "questionText": "Rule of thumb for detecting weak instruments in the first stage:",
+      "correctAnswer": "F-statistic should be at least about 10.",
+      "distractors": [
+        "R-squared should be exactly 0.50.",
+        "t-statistic on Y must exceed 2.58.",
+        "Durbin–Watson must be close to 2."
+      ],
+      "explanation": "Stock–Yogo style rule: F<10 signals weak instruments.",
+      "difficulty": 2,
+      "topic": [
+        "IV",
+        "Diagnostics"
+      ]
+    },
+    {
+      "id": "Q29",
+      "questionText": "The Wald estimator with binary Z and X identifies:",
+      "correctAnswer": "The effect of X on Y for compliers.",
+      "distractors": [
+        "The average treatment effect for all units.",
+        "The effect of Z on Y directly.",
+        "The row-wise OLS slope in the subsample."
+      ],
+      "explanation": "With monotonicity, Wald = LATE = effect for those whose X changes because Z changes.",
+      "difficulty": 4,
+      "topic": [
+        "IV",
+        "Wald",
+        "LATE"
+      ]
+    },
+    {
+      "id": "Q30",
+      "questionText": "Suppose E[Y|Z=1]=12, E[Y|Z=0]=10, E[X|Z=1]=0.8, E[X|Z=0]=0.5. What is the Wald estimate?",
+      "correctAnswer": "(12 − 10) / (0.8 − 0.5) = 2 / 0.3 ≈ 6.67.",
+      "distractors": [
+        "(12 − 10) × (0.8 − 0.5) = 0.6.",
+        "(0.8 − 0.5) / (12 − 10) = 0.15.",
+        "(12 / 10) / (0.8 / 0.5) ≈ 0.75."
+      ],
+      "explanation": "Wald = ΔY / ΔX = 2 / 0.3.",
+      "difficulty": 3,
+      "topic": [
+        "IV",
+        "Wald",
+        "Numeric"
+      ]
+    },
+    {
+      "id": "Q31",
+      "questionText": "Exclusion restriction in IV means:",
+      "correctAnswer": "Z affects Y only through X.",
+      "distractors": [
+        "Z must be uncorrelated with X.",
+        "Z must be measured without error.",
+        "Z must have the same sign as X."
+      ],
+      "explanation": "Exclusion: no direct path Z→Y other than through the endogenous regressor.",
+      "difficulty": 3,
+      "topic": [
+        "IV",
+        "Exclusion"
+      ]
+    },
+    {
+      "id": "Q32",
+      "questionText": "Monotonicity in IV analysis rules out:",
+      "correctAnswer": "Defiers who move opposite to the instrument.",
+      "distractors": [
+        "Compliers whose status changes with Z.",
+        "Always-takers who always take treatment.",
+        "Never-takers who never take treatment."
+      ],
+      "explanation": "Monotonicity assumes Z does not make anyone less likely to be treated.",
+      "difficulty": 4,
+      "topic": [
+        "IV",
+        "LATE Assumptions"
+      ]
+    },
+    {
+      "id": "Q33",
+      "questionText": "Why can 2SLS be preferred over OLS even when OLS has smaller SEs?",
+      "correctAnswer": "Because 2SLS can remove endogeneity bias.",
+      "distractors": [
+        "Because 2SLS ignores heteroskedasticity by default.",
+        "Because 2SLS always has higher R-squared values.",
+        "Because 2SLS does not need any exclusion restrictions."
+      ],
+      "explanation": "OLS can be precisely wrong; 2SLS trades variance for consistency.",
+      "difficulty": 3,
+      "topic": [
+        "IV",
+        "Motivation"
+      ]
+    },
+    {
+      "id": "Q34",
+      "questionText": "In a panel IV setting, why might we use FE + IV?",
+      "correctAnswer": "To control for unit effects and endogeneity jointly.",
+      "distractors": [
+        "To eliminate the need for relevance of instruments.",
+        "To difference away the instrument from the model.",
+        "To avoid clustering standard errors by unit."
+      ],
+      "explanation": "FE handles time-invariant omitted variables; IV handles endogenous regressors.",
+      "difficulty": 4,
+      "topic": [
+        "IV",
+        "Panel IV"
+      ]
+    },
+    {
+      "id": "Q35",
+      "questionText": "Pooled OLS on a panel gives biased FE-type parameters when:",
+      "correctAnswer": "Unobserved unit heterogeneity is correlated with X.",
+      "distractors": [
+        "Errors are perfectly homoskedastic over time.",
+        "Regressors have both within and between variation.",
+        "Time dummies are included in the specification."
+      ],
+      "explanation": "Pooled OLS ignores a_i; correlation with X gives omitted-variable bias.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Pooled vs FE"
+      ]
+    },
+    {
+      "id": "Q36",
+      "questionText": "First-differencing is sometimes preferred to FE because:",
+      "correctAnswer": "It can remove unit effects in two-period panels.",
+      "distractors": [
+        "It always yields smaller standard errors.",
+        "It allows estimating time-invariant regressors.",
+        "It makes serial correlation in errors disappear."
+      ],
+      "explanation": "With T=2, FD and FE coincide; FD is simple and transparent.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "FD vs FE"
+      ]
+    },
+    {
+      "id": "Q37",
+      "questionText": "If we suspect AR(1) errors within panels, we should:",
+      "correctAnswer": "Cluster standard errors at the panel level.",
+      "distractors": [
+        "Drop all time dummies from the model.",
+        "Difference the dependent variable twice.",
+        "Estimate OLS without any fixed effects."
+      ],
+      "explanation": "Clustering is a standard fix for within-panel serial correlation.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Serial Correlation"
+      ]
+    },
+    {
+      "id": "Q38",
+      "questionText": "In nonlinear probability models, adding more regressors usually:",
+      "correctAnswer": "Changes marginal effects because probabilities shift.",
+      "distractors": [
+        "Leaves marginal effects fixed at prior values.",
+        "Makes OLS and Logit numerically identical.",
+        "Removes the need for maximum likelihood."
+      ],
+      "explanation": "Nonlinear models are not collapsible; adding X changes the level at which effects are evaluated.",
+      "difficulty": 4,
+      "topic": [
+        "Binary Models",
+        "Specification"
+      ]
+    },
+    {
+      "id": "Q39",
+      "questionText": "Which DiD specification best matches the simple 2×2 setup?",
+      "correctAnswer": "Y_it = α + δ·Treat_i + γ·Post_t + β·(Treat_i×Post_t) + u_it.",
+      "distractors": [
+        "Y_it = α + β·Treat_i + u_it only.",
+        "Y_it = α + γ·Post_t + u_it only.",
+        "Y_it = α + δ·(Treat_i + Post_t) + u_it."
+      ],
+      "explanation": "This is the canonical two-way fixed-effects DiD with an interaction.",
+      "difficulty": 2,
+      "topic": [
+        "DiD",
+        "Specification"
+      ]
+    },
+    {
+      "id": "Q40",
+      "questionText": "If a treatment affects only treated units after adoption, we expect:",
+      "correctAnswer": "No significant effect in pre-treatment periods.",
+      "distractors": [
+        "A large negative effect in all periods.",
+        "The same effect in treated and controls.",
+        "The interaction term to drop from the model."
+      ],
+      "explanation": "Placebo periods should show zero; otherwise, parallel trends is doubtful.",
+      "difficulty": 3,
+      "topic": [
+        "DiD",
+        "Placebo"
+      ]
+    },
+    {
+      "id": "Q41",
+      "questionText": "An instrument that affects Y directly violates:",
+      "correctAnswer": "The exclusion restriction.",
+      "distractors": [
+        "The relevance condition.",
+        "The parallel trends assumption.",
+        "The homoskedasticity assumption."
+      ],
+      "explanation": "If Z → Y not through X, IV is invalid.",
+      "difficulty": 3,
+      "topic": [
+        "IV",
+        "Violations"
+      ]
+    },
+    {
+      "id": "Q42",
+      "questionText": "2SLS standard errors must be used instead of OLS SEs because:",
+      "correctAnswer": "The second stage uses a generated regressor.",
+      "distractors": [
+        "The second stage has no intercept term.",
+        "The first stage is always nonlinear in Z.",
+        "The residuals become perfectly homoskedastic."
+      ],
+      "explanation": "X̂ is estimated, so usual OLS SEs are invalid; software reports 2SLS-robust SEs.",
+      "difficulty": 4,
+      "topic": [
+        "IV",
+        "Inference"
+      ]
+    },
+    {
+      "id": "Q43",
+      "questionText": "In panels, RE is more efficient than FE when:",
+      "correctAnswer": "RE assumptions hold and between-variation is informative.",
+      "distractors": [
+        "FE assumptions fail for some individuals.",
+        "Time dummies explain all of the variation.",
+        "Regressors are constant within each unit."
+      ],
+      "explanation": "RE uses both within and between variation, giving smaller SEs if exogeneity holds.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Efficiency"
+      ]
+    },
+    {
+      "id": "Q44",
+      "questionText": "If a time-invariant regressor is of main interest, we should prefer:",
+      "correctAnswer": "A Random Effects or pooled specification.",
+      "distractors": [
+        "A pure Fixed Effects specification.",
+        "A first-differenced specification.",
+        "A model without an intercept term."
+      ],
+      "explanation": "FE wipes out time-invariant regressors; RE can estimate them if exogeneity is plausible.",
+      "difficulty": 3,
+      "topic": [
+        "Panel Data",
+        "Time-Invariant Regressors"
+      ]
+    },
+    {
+      "id": "Q45",
+      "questionText": "Why is DiD attractive in applied work?",
+      "correctAnswer": "It differences out time-invariant selection.",
+      "distractors": [
+        "It removes all endogeneity by randomization.",
+        "It requires only post-treatment observations.",
+        "It always yields larger R-squared values."
+      ],
+      "explanation": "By using before–after + treated–control, DiD removes fixed unobserved differences between groups.",
+      "difficulty": 2,
+      "topic": [
+        "DiD",
+        "Motivation"
+      ]
+    }
+  ]
+}
