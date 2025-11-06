@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Multi-quiz support
-    let currentQuizId = localStorage.getItem('currentQuizId') || window.defaultQuiz || 'UU_SGI';
+    // We'll determine the starting quiz after we can validate URL/path values
+    let currentQuizId = null;
     let allQuestions = [];
     let quizTitle = '';
     let userStats = {};
@@ -43,6 +44,36 @@ document.addEventListener('DOMContentLoaded', () => {
         critical: document.querySelector('[data-segment="critical"]'),
     };
     const quizSelect = document.getElementById('quiz-select');
+
+    // Try to read quiz id from URL: query param (?quiz=ID or ?q=ID) or from
+    // the first path segment (e.g. /UU_SGI/). Returns null if none found.
+    function getQuizIdFromUrl() {
+        try {
+            const params = new URLSearchParams(window.location.search);
+            const byParam = params.get('quiz') || params.get('q');
+            if (byParam) return byParam;
+        } catch (e) {
+            // ignore malformed search
+        }
+
+        // Path-based: ignore root and known pages like 'stats'
+        const path = (window.location.pathname || '').replace(/^\/+|\/+$/g, '');
+        if (!path) return null;
+        const first = path.split('/')[0];
+        if (!first) return null;
+        // Avoid accidentally treating site routes (like 'stats') as quiz ids.
+        if (first === 'stats' || first === 'js' || first === 'css') return null;
+        return first;
+    }
+
+    // If there is no selector in the DOM (rare for this site), still determine
+    // an initial quiz id from the URL or storage with sensible fallbacks.
+    if (!quizSelect) {
+        const urlQuiz = getQuizIdFromUrl();
+        const storedQuiz = localStorage.getItem('currentQuizId');
+        const defaultQuiz = window.defaultQuiz || 'UU_SGI';
+        currentQuizId = urlQuiz || storedQuiz || defaultQuiz;
+    }
 
     function getStorageKey(prefix) {
         return prefix + currentQuizId;
@@ -543,11 +574,44 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Quiz selector change handler
+    // Quiz selector change handler + derive initial quiz from URL if present
     if (quizSelect) {
+        // Determine initial quiz id with URL preference (if valid)
+        const urlQuiz = getQuizIdFromUrl();
+        const storedQuiz = localStorage.getItem('currentQuizId');
+        const defaultQuiz = window.defaultQuiz || 'UU_SGI';
+
+        // Helper to check if the select contains a given quiz id
+        const isValidQuiz = (id) => {
+            if (!id) return false;
+            return Array.from(quizSelect.options).some(opt => String(opt.value) === String(id));
+        };
+
+        if (urlQuiz && isValidQuiz(urlQuiz)) {
+            currentQuizId = urlQuiz;
+        } else if (storedQuiz && isValidQuiz(storedQuiz)) {
+            currentQuizId = storedQuiz;
+        } else if (isValidQuiz(defaultQuiz)) {
+            currentQuizId = defaultQuiz;
+        } else {
+            // Fallback to first option if nothing else matches
+            currentQuizId = (quizSelect.options[0] && quizSelect.options[0].value) || 'UU_SGI';
+        }
+
         quizSelect.value = currentQuizId;
+
         quizSelect.addEventListener('change', (e) => {
-            loadQuiz(e.target.value);
+            const newId = e.target.value;
+            // Update URL query param so the selection can be shared/bookmarked
+            try {
+                const u = new URL(window.location.href);
+                u.searchParams.set('quiz', newId);
+                // Keep pathname as-is, replace state so Back button behavior is preserved
+                history.replaceState(null, '', u.pathname + u.search + u.hash);
+            } catch (err) {
+                // ignore URL errors
+            }
+            loadQuiz(newId);
         });
     }
 
